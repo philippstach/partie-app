@@ -18,8 +18,7 @@ No ads. No tracking. No account. Plays fully offline.
 
 </div>
 
-<!-- Screenshots: create docs/bilder/. Suggested: one row of 4 images side by side
-(start screen, a board game, a card game, statistics), then one iPad image. -->
+<p align="center"><img src="docs/bilder/uebersicht.jpg" alt="Partie on iPhone: start screen, Mau-Mau, Solitaire, Kakuro, Four in a Row"></p>
 
 ## Why Partie?
 
@@ -29,6 +28,8 @@ There are hundreds of game apps. Each has its own ads, its own account, its own 
 - **Everything works alike.** Once you know one game you find your way in all of them: same layout, same buttons, same help. You learn a rule, not a new interface.
 - **For the whole family.** From kids mode to chess, backgammon and rummy.
 - **Traditional and free.** All games are old public-domain classics. Names are deliberately neutral, with no trademarks in them.
+
+<p align="center"><img src="docs/bilder/spielseiten.jpg" alt="Game pages: Yacht, Sudoku, Rummy, Nine Men's Morris, crossword"><br><sub>Explained briefly, then you play: every game has its own page with rules, players and statistics.</sub></p>
 
 ## The games
 
@@ -97,7 +98,7 @@ Partie is a Swift project with no third-party libraries (Swift, SwiftUI, Swift C
 | `Pakete/Kern*` | Game logic shared by several games |
 | `Widget/` | Home screen widgets |
 | `Test/` | Tests for the app shell |
-| `docs/` | Design and arcade guidelines |
+| `docs/` | Images and guidelines |
 
 Adding a game: create a package, provide a `SpielModul`, add one line to the metadata. Details are in [CONTRIBUTING.md](CONTRIBUTING.md).
 

@@ -18,8 +18,7 @@ Ohne Werbung. Ohne Tracking. Ohne Konto. Spielt komplett offline.
 
 </div>
 
-<!-- Bilder: docs/bilder/ anlegen. Empfehlung: eine Reihe mit 4 Bildern nebeneinander
-(Startseite, ein Brettspiel, ein Kartenspiel, die Statistik), dann ein Bild iPad. -->
+<p align="center"><img src="docs/bilder/uebersicht.jpg" alt="Partie auf dem iPhone: Startseite, Mau-Mau, Solitär, Kakuro, Viererreihe"></p>
 
 ## Warum Partie?
 
@@ -29,6 +28,8 @@ Auf dem Handy gibt es Hunderte Spiele-Apps. Jede hat ihre eigene Werbung, ihr ei
 - **Alles gleich bedienbar.** Wer ein Spiel kann, findet sich in allen zurecht: gleicher Aufbau, gleiche Knöpfe, gleiche Hilfen. Man lernt eine Regel, keine neue Oberfläche.
 - **Für die ganze Familie.** Vom Kinder-Modus bis zu Schach, Backgammon und Rommé.
 - **Traditionell und frei.** Alle Spiele sind alte, gemeinfreie Klassiker. Die Namen sind bewusst neutral, es steckt keine Marke darin.
+
+<p align="center"><img src="docs/bilder/spielseiten.jpg" alt="Spielseiten: Yacht, Sudoku, Rommé, Mühle, Kreuzworträtsel"><br><sub>Kurz erklärt, dann geht es los: jedes Spiel hat eine eigene Seite mit Regeln, Mitspielern und Statistik.</sub></p>
 
 ## Die Spiele
 
@@ -97,7 +98,7 @@ Partie ist ein Swift-Projekt ohne fremde Bibliotheken (Swift, SwiftUI, Swift Cha
 | `Pakete/Kern*` | Spiellogik, die mehrere Spiele teilen |
 | `Widget/` | Widgets für den Home-Bildschirm |
 | `Test/` | Tests für die Hülle |
-| `docs/` | Leitfäden für Design und Arcade-Spiele |
+| `docs/` | Bilder und Leitfäden |
 
 Wie ein neues Spiel eingebunden wird: ein Paket anlegen, ein `SpielModul` bereitstellen, eine Zeile in den Metadaten eintragen. Genaueres steht in [CONTRIBUTING.de.md](CONTRIBUTING.de.md).
 
