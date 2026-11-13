@@ -1,0 +1,48 @@
+name: "Bug report / Fehler melden"
+description: "Something doesn't work as expected / Etwas funktioniert nicht wie erwartet"
+labels: ["fehler"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! English or German is fine. / Danke für die Meldung! Deutsch oder Englisch ist beides in Ordnung.
+        Security problems: please use **Security → Report a vulnerability** instead. / Sicherheitsprobleme bitte vertraulich über **Security → Report a vulnerability** melden.
+  - type: input
+    id: spiel
+    attributes:
+      label: "Game / Spiel"
+      description: "Which game, or 'App' for the start screen and settings / Welches Spiel, oder „App“ für Startseite und Einstellungen"
+      placeholder: "z. B. Mühle"
+    validations:
+      required: true
+  - type: textarea
+    id: was
+    attributes:
+      label: "What happened? / Was ist passiert?"
+      description: "What did you expect instead? / Was hättest du stattdessen erwartet?"
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: "Steps to reproduce / Schritte zum Nachstellen"
+      placeholder: |
+        1. Neues Spiel gegen den Computer
+        2. …
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "App version / App-Version"
+      description: "Settings → About / Einstellungen → Über"
+      placeholder: "1.0 (7)"
+  - type: input
+    id: geraet
+    attributes:
+      label: "Device and iOS version / Gerät und iOS-Version"
+      placeholder: "iPhone 15, iOS 27.1"
+  - type: textarea
+    id: bilder
+    attributes:
+      label: "Screenshots (optional) / Bildschirmfotos (optional)"
