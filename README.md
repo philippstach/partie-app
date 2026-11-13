@@ -2,134 +2,134 @@
 
 # Partie
 
-**77 classic games. One app. No fuss.**
+**77 klassische Spiele. Eine App. Kein Schnickschnack.**
 
-Board, cards, dice, puzzles, words and arcade: from the kitchen table to your iPhone and iPad.
-No ads. No tracking. No account. Plays fully offline.
+Brett, Karten, Würfel, Rätsel, Wörter und Arcade: vom Küchentisch auf dein iPhone und iPad.
+Ohne Werbung. Ohne Tracking. Ohne Konto. Spielt komplett offline.
 
 ![iOS 17+](https://img.shields.io/badge/iOS-17%2B-1F3A5F)
 ![Swift](https://img.shields.io/badge/Swift-SwiftUI-F05138)
-![Games](https://img.shields.io/badge/Games-77-2E8B57)
-![No dependencies](https://img.shields.io/badge/Third--party%20libraries-0-blue)
+![Spiele](https://img.shields.io/badge/Spiele-77-2E8B57)
+![Keine Abhängigkeiten](https://img.shields.io/badge/Fremdbibliotheken-0-blue)
 ![Code: MIT](https://img.shields.io/badge/Code-MIT-green)
-![Content: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey)
+![Inhalte: CC BY 4.0](https://img.shields.io/badge/Inhalte-CC%20BY%204.0-lightgrey)
 
-[Deutsch](README.de.md) · [Join the beta](#join-the-beta) · [Contributing](CONTRIBUTING.md)
+[English](README.en.md) · [Beta testen](#beta-testen) · [Mitmachen](CONTRIBUTING.md)
 
 </div>
 
-<p align="center"><img src="docs/bilder/uebersicht.jpg" alt="Partie on iPhone: start screen, Mau-Mau, Solitaire, Kakuro, Four in a Row"></p>
+<p align="center"><img src="docs/bilder/uebersicht.jpg" alt="Partie auf dem iPhone: Startseite, Mau-Mau, Solitär, Kakuro, Viererreihe"></p>
 
-## Why Partie?
+## Warum Partie?
 
-There are hundreds of game apps. Each has its own ads, its own account, its own look and its own way of being operated. Partie turns that around: **one** calm app that holds the games you know from the kitchen table, game night or a train ride.
+Auf dem Handy gibt es Hunderte Spiele-Apps. Jede hat ihre eigene Werbung, ihr eigenes Konto, ihren eigenen Look und ihre eigenen Regeln für die Bedienung. Partie dreht das um: **eine** ruhige App, in der die Spiele liegen, die man vom Küchentisch, vom Spieleabend oder aus dem Zugabteil kennt.
 
-- **Offline and private.** No network and no account needed to play. No tracking and no server of ours; the app's privacy manifest declares no collected data. Two things are **optional**: syncing between your devices through *your own* private iCloud, and Game Center for leaderboards (off in kids mode).
-- **Everything works alike.** Once you know one game you find your way in all of them: same layout, same buttons, same help. You learn a rule, not a new interface.
-- **For the whole family.** From kids mode to chess, backgammon and rummy.
-- **Traditional and free.** All games are old public-domain classics. Names are deliberately neutral, with no trademarks in them.
+- **Offline und privat.** Zum Spielen brauchst du kein Netz und kein Konto. Es gibt kein Tracking und keinen eigenen Server, das Datenschutz-Manifest der App meldet keine gesammelten Daten. Zwei Dinge sind **optional und standardmäßig aus oder ohne Pflicht**: der Abgleich zwischen deinen Geräten über *deine* private iCloud, und Game Center für Bestenlisten (aus im Kinder-Modus).
+- **Alles gleich bedienbar.** Wer ein Spiel kann, findet sich in allen zurecht: gleicher Aufbau, gleiche Knöpfe, gleiche Hilfen. Man lernt eine Regel, keine neue Oberfläche.
+- **Für die ganze Familie.** Vom Kinder-Modus bis zu Schach, Backgammon und Rommé.
+- **Traditionell und frei.** Alle Spiele sind alte, gemeinfreie Klassiker. Die Namen sind bewusst neutral, es steckt keine Marke darin.
 
-<p align="center"><img src="docs/bilder/spielseiten.jpg" alt="Game pages: Yacht, Sudoku, Rummy, Nine Men's Morris, crossword"><br><sub>Explained briefly, then you play: every game has its own page with rules, players and statistics.</sub></p>
+<p align="center"><img src="docs/bilder/spielseiten.jpg" alt="Spielseiten: Yacht, Sudoku, Rommé, Mühle, Kreuzworträtsel"><br><sub>Kurz erklärt, dann geht es los: jedes Spiel hat eine eigene Seite mit Regeln, Mitspielern und Statistik.</sub></p>
 
-## The games
+## Die Spiele
 
-| Kind | Includes, among others |
+| Art | Dabei sind unter anderem |
 |---|---|
-| **Cards** | Solitaire (Klondike, Spider, FreeCell, Pyramid, TriPeaks, Golf, Yukon), Rummy, Mau-Mau, Schwimmen, Cheat, Blackjack-style 21, Crazy-Eights-style games, Truco, Brisca, Escoba and more |
-| **Dice** | Yacht, Schocken, 10,000, Mäxchen, Chicago, Shut the Box-style Klappbrett, Liar's Dice, Pig, Bunco and more |
-| **Board** | Chess, Backgammon, Checkers, Nine Men's Morris, Halma, Kalaha, Reversi-style Wendespiel, Four in a Row, Ludo-style Rauswurf, Battleship-style games and more |
-| **Puzzle** | Sudoku, Kakuro, Nonogram, Bridges, Minesweeper-style Minensuche, Lights Out, Tower of Hanoi, Sliding puzzle, 2048-style Zahlenfusion, Mahjong pairs and more |
-| **Words** | Wortpfeil (arrow crossword), Hangman, Stadt Land Fluss |
+| **Karten** | Solitär (Klondike, Spider, FreeCell, Pyramide, TriPeaks, Golf, Yukon), Rommé, Mau-Mau, Schwimmen, Mogeln, Siebzehn und Vier, Elfer raus, Truco, Brisca, Escoba und mehr |
+| **Würfel** | Yacht, Schocken, 10 000, Mäxchen, Chicago, Klappbrett, Lügenwürfel, Schweinerei, Bunco und mehr |
+| **Brett** | Schach, Backgammon, Dame, Mühle, Halma, Kalaha, Wendespiel, Viererreihe, Rauswurf, Schiffeversenken und mehr |
+| **Rätsel** | Sudoku, Kakuro, Nonogramm, Brücken, Minensuche, Lichter aus, Türme von Hanoi, Schiebepuzzle, Zahlenfusion, Mahjong-Paare und mehr |
+| **Wörter** | Wortpfeil (Kreuzworträtsel), Galgenmännchen, Stadt Land Fluss |
 | **Arcade** | Steinfall, Wolkenhüpfer, Dauerlauf, Mauerbrecher, Ballwechsel |
 
-Every game has a short rule summary and hints, and, depending on the game, tips, undo and lessons.
+Zu jedem Spiel gibt es eine kurze Regel, Hinweise und je nach Spiel Tipps, Rückgängig und Lektionen.
 
-## How Partie works
+## So funktioniert Partie
 
-### Finding a game
-The **start screen** lists all games by kind. Filter by number of players, duration and origin, search by name or keyword (also by the well-known old name), and keep **favorites**. You can also build **your own lists**, such as "Family night" or "On the go".
+### Spiel finden
+Die **Startseite** zeigt alle Spiele, geordnet nach Art. Du kannst nach Spielerzahl, Dauer und Herkunft filtern, nach Namen oder Stichwort suchen (auch mit dem alten Namen, den man kennt, etwa „Mensch ärgere dich nicht“) und Spiele als **Favoriten** merken. Dazu lassen sich **eigene Listen** anlegen, zum Beispiel „Familienabend“ oder „Unterwegs“.
 
-### "What shall we play?"
-Say how many of you there are and how much time you have. Partie suggests matching games, or picks one at random.
+### „Was spielen wir?“
+Gib an, wie viele ihr seid und wie viel Zeit ihr habt. Partie schlägt passende Spiele vor, wenn du magst auch einfach eines per Zufall.
 
-### Playing
-Almost every game can be played **against the computer** or **taking turns on the same device**. An unfinished game waits on the start screen under "Continue".
+### Spielen
+Fast jedes Spiel geht **gegen den Computer** oder **reihum am selben Gerät**. Eine angefangene Partie wartet auf der Startseite unter „Weiterspielen“.
 
-### Real dice
-In dice games you can play with real dice: say the pips out loud ("three, five, five, one, six", also in English, Spanish and French) or let the camera read them. The iPhone can act as a **dice scanner** and sends only the pip counts to the iPad over local wireless, never images. Speech recognition and camera run on the device. (This part is new and in beta; feedback is very welcome.)
+### Echte Würfel
+Bei Würfelspielen kannst du mit echten Würfeln spielen: Sag die Augen an („drei, fünf, fünf, eins, sechs“, auch auf Englisch, Spanisch und Französisch) oder lass sie von der Kamera erkennen. Das iPhone kann als **Würfelscanner** dienen und schickt nur die Augenzahlen direkt per lokalem Funk ans iPad, keine Bilder. Spracherkennung und Kamera laufen auf dem Gerät. (Dieser Teil ist neu und in der Beta; wir freuen uns über Rückmeldungen.)
 
-### Players and statistics
-Every person gets a profile. Statistics show games per week, wins by kind, history and win rate per game, for everyone together or for each person. Statistics and names stay on the device unless you switch on iCloud sync.
+### Spieler und Statistik
+Jede Person hat ein eigenes Profil. Die Statistik zeigt Partien je Woche, Siege nach Spielart, den Verlauf und die Siegquote je Spiel, für alle zusammen oder für jede Person einzeln. Statistik und Namen bleiben auf dem Gerät, außer du schaltest den iCloud-Abgleich ein.
 
-### Something new every day
-The **daily task** suggests a different game every day, the same on all devices. One game is enough. There are daily puzzles too, for example in Wortpfeil.
+### Jeden Tag etwas Neues
+Die **Tagesaufgabe** schlägt jeden Tag ein anderes Spiel vor, für alle Geräte gleich. Eine Partie genügt. Dazu gibt es Tagesrätsel, etwa im Wortpfeil.
 
-### For all ages
-- **Kids mode:** shows only suitable games (no bluffing, no stakes). Switching it off or changing the selection needs Face ID, Touch ID or the device passcode.
-- **Quiet mode:** turns off, among other things, the daily task.
+### Für alle Altersstufen
+- **Kinder-Modus:** zeigt nur geeignete Spiele (kein Bluffen, kein Einsatz). Ausschalten und Ändern der Auswahl geht nur mit Face ID, Touch ID oder Gerätecode.
+- **Ruhe-Modus:** schaltet unter anderem die Tagesaufgabe ab.
 
-### Easy to find
-All games appear in **Spotlight search**, **Siri and Shortcuts**, and **widgets** put the game of the day on your home screen.
+### Überall zu finden
+Alle Spiele erscheinen in der **Spotlight-Suche**, in **Siri und Kurzbefehlen**, und mit den **Widgets** liegt das Spiel des Tages direkt auf dem Home-Bildschirm.
 
-### Languages
-German, English, Spanish and French.
+### Sprachen
+Deutsch, Englisch, Spanisch und Französisch.
 
-## Join the beta
+## Beta testen
 
-Partie is not in the App Store yet; version 1.0 is the plan. **Want to play early and tell us what's wrong?** Then you're exactly who we need:
+Partie ist noch nicht im App Store. Die Veröffentlichung ist für die Version 1.0 geplant. **Du willst vorab mitspielen und uns sagen, was nicht stimmt?** Dann bist du genau richtig:
 
-1. Install Apple's **TestFlight** app from the App Store.
-2. Open this invitation link: <https://testflight.apple.com/join/Qe3UrUbh>
-3. Play what you like and report bugs and wishes as an [issue](../../issues) (English or German). Most helpful: device, iOS version, game, and what you did last.
+1. Installiere die Apple-App **TestFlight** aus dem App Store.
+2. Öffne diesen Einladungslink: <https://testflight.apple.com/join/Qe3UrUbh>
+3. Spiele, was dir gefällt, und melde Fehler und Wünsche als [Issue](../../issues) (Deutsch oder Englisch). Besonders hilfreich: Gerät, iOS-Version, Spiel und was du zuletzt getan hast.
 
-What interests us most: does a game feel wrong? Is a rule incorrect? Is something hard to find or to read?
+Am meisten interessiert uns: Fühlt sich ein Spiel falsch an? Stimmt eine Regel nicht? Ist etwas schwer zu finden oder zu lesen?
 
-## Under the hood
+## Unter der Haube
 
-Partie is a Swift project with no third-party libraries (Swift, SwiftUI, Swift Charts, WidgetKit, App Intents). Every game is its **own Swift package**, tested on its own; the app only puts them together.
+Partie ist ein Swift-Projekt ohne fremde Bibliotheken (Swift, SwiftUI, Swift Charts, WidgetKit, App Intents). Jedes Spiel ist ein **eigenes Swift-Paket**, das für sich getestet wird, die App fügt sie nur zusammen.
 
-| Folder | Content |
+| Ordner | Inhalt |
 |---|---|
-| `App/` | The app shell: start screen, search, settings, players, statistics, modes |
-| `Pakete/SpieleKern`, `ArcadeKern` | Shared game logic, game frame, player management |
-| `Pakete/Baukasten` | The design system (product `KlarGlas`): colors, sheets, buttons, thumbnails |
-| `Pakete/Wuerfel*` | Dice recognition: spoken pips, camera, wireless link between iPhone and iPad |
-| `Pakete/Spiel*` | One package per game, with its own tests (many rule-based via JSON cases) |
-| `Pakete/Kern*` | Game logic shared by several games |
-| `Widget/` | Home screen widgets |
-| `Test/` | Tests for the app shell |
-| `docs/` | Images and guidelines |
+| `App/` | Die Hülle: Startseite, Suche, Einstellungen, Spieler, Statistik, Modi |
+| `Pakete/SpieleKern`, `ArcadeKern` | Gemeinsame Spiellogik, Spielrahmen, Spielerverwaltung |
+| `Pakete/Baukasten` | Das Designsystem (Produkt `KlarGlas`): Farben, Blätter, Knöpfe, Miniaturen |
+| `Pakete/Wuerfel*` | Würfelerkennung: Ansage, Kamera, Funk zwischen iPhone und iPad |
+| `Pakete/Spiel*` | Ein Paket je Spiel, mit eigenen Tests (viele regelbasiert über JSON-Fälle) |
+| `Pakete/Kern*` | Spiellogik, die mehrere Spiele teilen |
+| `Widget/` | Widgets für den Home-Bildschirm |
+| `Test/` | Tests für die Hülle |
+| `docs/` | Bilder und Leitfäden |
 
-Adding a game: create a package, provide a `SpielModul`, add one line to the metadata. Details are in [CONTRIBUTING.md](CONTRIBUTING.md).
+Wie ein neues Spiel eingebunden wird: ein Paket anlegen, ein `SpielModul` bereitstellen, eine Zeile in den Metadaten eintragen. Genaueres steht in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**A note on language:** code, comments and commit messages are in German. Issues and pull requests are welcome in English or German.
+**Zur Sprache:** Code, Kommentare und Commit-Nachrichten sind auf Deutsch. Issues und Pull Requests sind auf Deutsch oder Englisch willkommen.
 
-## Building
+## Bauen
 
-Requirements: Xcode 26 or newer, iOS 17 deployment target, [XcodeGen](https://github.com/yonaskolb/XcodeGen).
+Voraussetzungen: Xcode 26 oder neuer, iOS 17, [XcodeGen](https://github.com/yonaskolb/XcodeGen).
 
 ```bash
-cp Lokal.xcconfig.beispiel Lokal.xcconfig   # add your own Team ID
+cp Lokal.xcconfig.beispiel Lokal.xcconfig   # eigene Team-ID eintragen
 xcodegen
 open Partie.xcodeproj
 ```
 
-Each game can be tested on its own on a Mac, without a simulator:
+Jedes Spiel lässt sich allein auf dem Mac prüfen, ohne Simulator:
 
 ```bash
 cd Pakete/SpielYacht && swift test
 ```
 
-## Contributing
+## Mitmachen
 
-New games, bug fixes, translations and better puzzles are welcome. Rules and workflow are in [CONTRIBUTING.md](CONTRIBUTING.md). Every commit needs a `Signed-off-by` line ([DCO](https://developercertificate.org)). Contributors of a game are credited in the app. Please report security issues as described in [SECURITY.md](SECURITY.md).
+Neue Spiele, Fehlerkorrekturen, Übersetzungen und bessere Rätsel sind willkommen. Regeln und Ablauf stehen in [CONTRIBUTING.md](CONTRIBUTING.md). Jeder Commit braucht eine `Signed-off-by`-Zeile ([DCO](https://developercertificate.org)). Wer ein Spiel beisteuert, wird in der App genannt. Sicherheitsprobleme bitte nach [SECURITY.md](SECURITY.md) melden.
 
-## License
+## Lizenz
 
 - **Code:** [MIT](LICENSE)
-- **Content** (puzzles, word lists, sounds, game icons, texts): [CC BY 4.0](LICENSE-INHALTE.md)
-- The name "Partie", the logo and the app icon are not covered by these licenses.
+- **Inhalte** (Rätsel, Wortlisten, Töne, Spielsymbole, Texte): [CC BY 4.0](LICENSE-INHALTE.md)
+- Der Name „Partie“, das Logo und das App-Symbol fallen nicht unter diese Lizenzen.
 
-Where the content comes from is documented in [HERKUNFT.md](HERKUNFT.md). Partie was developed with the help of AI tools.
+Woher die Inhalte stammen, steht in [HERKUNFT.md](HERKUNFT.md). Partie wurde mit Hilfe von KI-Werkzeugen entwickelt.
 
-© 2026 Philipp Stach and contributors
+© 2026 Philipp Stach und Mitwirkende
