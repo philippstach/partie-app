@@ -18,7 +18,16 @@ No ads. No tracking. No account. Plays fully offline.
 
 </div>
 
-<!-- NEW IMAGES: 2–3 iPhone and 1–2 iPad screenshots in the Tinte design, coming from the simulator (docs/bilder/) -->
+<p align="center">
+  <img src="docs/bilder/iphone-1.jpg" alt="Start screen" width="30%">
+  <img src="docs/bilder/iphone-2.jpg" alt="Yacht" width="30%">
+  <img src="docs/bilder/iphone-3.jpg" alt="Solitaire" width="30%">
+</p>
+<p align="center">
+  <img src="docs/bilder/ipad-1.jpg" alt="Start screen on iPad" width="45%">
+  <img src="docs/bilder/ipad-2.jpg" alt="Yacht at the table on iPad" width="45%">
+  <br><sub>Start screen, Yacht and Solitaire on iPhone, start screen and Yacht on iPad (design "Tinte").</sub>
+</p>
 
 ## Why Partie?
 

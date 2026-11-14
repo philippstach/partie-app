@@ -18,7 +18,16 @@ Ohne Werbung. Ohne Tracking. Ohne Konto. Spielt komplett offline.
 
 </div>
 
-<!-- BILDER-NEU: 2–3 iPhone- und 1–2 iPad-Bilder im Tinte-Design, kommen aus dem Simulator (docs/bilder/) -->
+<p align="center">
+  <img src="docs/bilder/iphone-1.jpg" alt="Startseite" width="30%">
+  <img src="docs/bilder/iphone-2.jpg" alt="Yacht" width="30%">
+  <img src="docs/bilder/iphone-3.jpg" alt="Solitär" width="30%">
+</p>
+<p align="center">
+  <img src="docs/bilder/ipad-1.jpg" alt="Startseite auf dem iPad" width="45%">
+  <img src="docs/bilder/ipad-2.jpg" alt="Yacht am Tisch auf dem iPad" width="45%">
+  <br><sub>Startseite, Yacht und Solitär auf dem iPhone, Startseite und Yacht auf dem iPad (Design „Tinte“).</sub>
+</p>
 
 ## Warum Partie?
 
