@@ -2,7 +2,7 @@
 
 [Deutsch](CONTRIBUTING.md)
 
-Thanks for helping! New games, bug fixes, translations and better puzzles are all welcome.
+Thanks for helping! Bug fixes, improvements to the shared toolkit, translations and ideas are welcome. **Before version 1.0 we do not accept new games or changes to individual games.**
 
 ## Ground rules
 
@@ -28,16 +28,9 @@ cd Pakete/SpielYacht && swift test
 
 Every package has a `README.md` with its test setup and environment variables.
 
-## Adding a new game
+## Where code contributions belong
 
-1. **Scaffold:** `python3 Werkzeug/geruest.py <Name>` creates `Pakete/Spiel<Name>` with a logic target (`<Name>Kern`, Foundation only), a UI target (`Spiel<Name>`) and tests.
-2. **Logic first:** put rules, AI and scoring in `<Name>Kern` and cover them with tests (`swift test`). Wrap UI code in `#if canImport(UIKit)`.
-3. **Module:** implement `SpielModul` from `SpieleKern` (`id`, `name`, `gattung`, `farbe`, `symbol`, `spielerzahl`, `start`). Use `SpielRahmen` for start, rules and end screens.
-4. **Hook it up:** `python3 Werkzeug/einhaengen.py <Name> <ModuleType>` adds the package to `project.yml` and the game list in `App/PartieApp.swift`. Add one line to `App/SpielMetadaten.swift` (origin, short description, keywords).
-5. **Texts:** all visible strings go into `App/Ressourcen/Localizable.xcstrings` in German, English, Spanish and French.
-6. **Icon:** add `App/Assets.xcassets/Symbol-<id>.appiconset`.
-
-Contributors of a game are credited in the app.
+Best in the shared toolkit `Pakete/Baukasten` (product `KlarGlas`): colors, sheets, buttons, thumbnails and the "Tinte" design. A change there is made once, and the app applies it to all games. Please open an issue first and briefly describe what should get better. Changes to individual games and new games are possible after 1.0 at the earliest; the guide will then be added here.
 
 ## Content
 

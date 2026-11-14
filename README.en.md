@@ -2,14 +2,14 @@
 
 # Partie
 
-**77 classic games. One app. No fuss.**
+**26 classic games. One app. No fuss. More are planned.**
 
-Board, cards, dice, puzzles, words and arcade: from the kitchen table to your iPhone and iPad.
+Cards, dice, board, puzzles and words: from the kitchen table to your iPhone and iPad.
 No ads. No tracking. No account. Plays fully offline.
 
 ![iOS 17+](https://img.shields.io/badge/iOS-17%2B-1F3A5F)
 ![Swift](https://img.shields.io/badge/Swift-SwiftUI-F05138)
-![Games](https://img.shields.io/badge/Games-77-2E8B57)
+![Games](https://img.shields.io/badge/Games-26-2E8B57)
 ![No dependencies](https://img.shields.io/badge/Third--party%20libraries-0-blue)
 ![Code: MIT](https://img.shields.io/badge/Code-MIT-green)
 ![Content: CC BY 4.0](https://img.shields.io/badge/Content-CC%20BY%204.0-lightgrey)
@@ -18,7 +18,7 @@ No ads. No tracking. No account. Plays fully offline.
 
 </div>
 
-<p align="center"><img src="docs/bilder/uebersicht.jpg" alt="Partie on iPhone: start screen, Mau-Mau, Solitaire, Kakuro, Four in a Row"></p>
+<!-- NEW IMAGES: 2–3 iPhone and 1–2 iPad screenshots in the Tinte design, coming from the simulator (docs/bilder/) -->
 
 ## Why Partie?
 
@@ -26,23 +26,27 @@ There are hundreds of game apps. Each has its own ads, its own account, its own 
 
 - **Offline and private.** No network and no account needed to play. No tracking and no server of ours; the app's privacy manifest declares no collected data. Two things are **optional**: syncing between your devices through *your own* private iCloud, and Game Center for leaderboards (off in kids mode).
 - **Everything works alike.** Once you know one game you find your way in all of them: same layout, same buttons, same help. You learn a rule, not a new interface.
-- **For the whole family.** From kids mode to chess, backgammon and rummy.
+- **For the whole family.** From kids mode to rummy and Nine Men's Morris.
 - **Traditional and free.** All games are old public-domain classics. Names are deliberately neutral, with no trademarks in them.
 
-<p align="center"><img src="docs/bilder/spielseiten.jpg" alt="Game pages: Yacht, Sudoku, Rummy, Nine Men's Morris, crossword"><br><sub>Explained briefly, then you play: every game has its own page with rules, players and statistics.</sub></p>
 
 ## The games
 
-| Kind | Includes, among others |
+**Version 1.0 launches with 26 games.** More are planned once the first ones run smoothly.
+
+| Kind | Included |
 |---|---|
-| **Cards** | Solitaire (Klondike, Spider, FreeCell, Pyramid, TriPeaks, Golf, Yukon), Rummy, Mau-Mau, Schwimmen, Cheat, Blackjack-style 21, Crazy-Eights-style games, Truco, Brisca, Escoba and more |
-| **Dice** | Yacht, Schocken, 10,000, Mäxchen, Chicago, Shut the Box-style Klappbrett, Liar's Dice, Pig, Bunco and more |
-| **Board** | Chess, Backgammon, Checkers, Nine Men's Morris, Halma, Kalaha, Reversi-style Wendespiel, Four in a Row, Ludo-style Rauswurf, Battleship-style games and more |
-| **Puzzle** | Sudoku, Kakuro, Nonogram, Bridges, Minesweeper-style Minensuche, Lights Out, Tower of Hanoi, Sliding puzzle, 2048-style Zahlenfusion, Mahjong pairs and more |
-| **Words** | Wortpfeil (arrow crossword), Hangman, Stadt Land Fluss |
-| **Arcade** | Steinfall, Wolkenhüpfer, Dauerlauf, Mauerbrecher, Ballwechsel |
+| **Cards** | Solitaire, Mau-Mau, Schwimmen, Elfer raus, Rummy, Mogeln, Seventeen and Four, Hearts hunt |
+| **Dice** | Yacht, Schocken, Ten Thousand, Mäxchen, Chicago, Poker dice, Königsweg |
+| **Puzzle** | Sudoku, Minesweeper-style Minensuche, Kakuro, Sliding puzzle, Maze, Color fill |
+| **Board** | Four in a Row, Ludo-style Rauswurf, Nine Men's Morris |
+| **Words** | Hangman, Wortpfeil (arrow crossword) |
 
 Every game has a short rule summary and hints, and, depending on the game, tips, undo and lessons.
+
+### Ideas for later
+
+These are started or on our minds, but are **not part of the 26** and not announced yet: Chess, Backgammon, Checkers, Halma, Kalaha, Oware, Nonogram, Bridges, Lights Out, Tower of Hanoi, 2048-style Zahlenfusion, Mahjong pairs, Stadt Land Fluss, Battleship-style games, Schweinerei, Bunco, Klappbrett, Brisca, Escoba, Truco, Chinchón, Crazy Eights, Steinfall, Wolkenhüpfer, Dauerlauf, Mauerbrecher, Ballwechsel and more. The order is open, and wishes are welcome ([issue](../../issues)).
 
 ## How Partie works
 
@@ -92,15 +96,11 @@ Partie is a Swift project with no third-party libraries (Swift, SwiftUI, Swift C
 |---|---|
 | `App/` | The app shell: start screen, search, settings, players, statistics, modes |
 | `Pakete/SpieleKern`, `ArcadeKern` | Shared game logic, game frame, player management |
-| `Pakete/Baukasten` | The design system (product `KlarGlas`): colors, sheets, buttons, thumbnails |
+| `Pakete/Baukasten` | The shared **toolkit** (product `KlarGlas`): colors, sheets, buttons, thumbnails, the "Tinte" design |
 | `Pakete/Wuerfel*` | Dice recognition: spoken pips, camera, wireless link between iPhone and iPad |
-| `Pakete/Spiel*` | One package per game, with its own tests (many rule-based via JSON cases) |
-| `Pakete/Kern*` | Game logic shared by several games |
+| `Pakete/Spiel*` | One package per game, with its own tests |
 | `Widget/` | Home screen widgets |
 | `Test/` | Tests for the app shell |
-| `docs/` | Images and guidelines |
-
-Adding a game: create a package, provide a `SpielModul`, add one line to the metadata. Details are in [CONTRIBUTING.en.md](CONTRIBUTING.en.md).
 
 **A note on language:** code, comments and commit messages are in German. Issues and pull requests are welcome in English or German.
 
@@ -122,7 +122,9 @@ cd Pakete/SpielYacht && swift test
 
 ## Contributing
 
-New games, bug fixes, translations and better puzzles are welcome. Rules and workflow are in [CONTRIBUTING.en.md](CONTRIBUTING.en.md). Every commit needs a `Signed-off-by` line ([DCO](https://developercertificate.org)). Contributors of a game are credited in the app. Please report security issues as described in [SECURITY.md](SECURITY.md).
+Ideas, bug reports and translations are always welcome, best as an [issue](../../issues).
+
+**Code contributions are welcome too.** They belong in the **shared toolkit** (`Pakete/Baukasten`): when something improves there, the app picks it up for all games at once. Before 1.0 we do not accept new games or changes to individual games; the games stay with us for now. Rules and workflow are in [CONTRIBUTING.en.md](CONTRIBUTING.en.md). Every commit needs a `Signed-off-by` line ([DCO](https://developercertificate.org)). Please report security issues as described in [SECURITY.md](SECURITY.md).
 
 ## License
 

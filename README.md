@@ -2,14 +2,14 @@
 
 # Partie
 
-**77 klassische Spiele. Eine App. Kein Schnickschnack.**
+**26 klassische Spiele. Eine App. Kein Schnickschnack. Weitere sind geplant.**
 
-Brett, Karten, Würfel, Rätsel, Wörter und Arcade: vom Küchentisch auf dein iPhone und iPad.
+Karten, Würfel, Brett, Rätsel und Wörter: vom Küchentisch auf dein iPhone und iPad.
 Ohne Werbung. Ohne Tracking. Ohne Konto. Spielt komplett offline.
 
 ![iOS 17+](https://img.shields.io/badge/iOS-17%2B-1F3A5F)
 ![Swift](https://img.shields.io/badge/Swift-SwiftUI-F05138)
-![Spiele](https://img.shields.io/badge/Spiele-77-2E8B57)
+![Spiele](https://img.shields.io/badge/Spiele-26-2E8B57)
 ![Keine Abhängigkeiten](https://img.shields.io/badge/Fremdbibliotheken-0-blue)
 ![Code: MIT](https://img.shields.io/badge/Code-MIT-green)
 ![Inhalte: CC BY 4.0](https://img.shields.io/badge/Inhalte-CC%20BY%204.0-lightgrey)
@@ -18,7 +18,7 @@ Ohne Werbung. Ohne Tracking. Ohne Konto. Spielt komplett offline.
 
 </div>
 
-<p align="center"><img src="docs/bilder/uebersicht.jpg" alt="Partie auf dem iPhone: Startseite, Mau-Mau, Solitär, Kakuro, Viererreihe"></p>
+<!-- BILDER-NEU: 2–3 iPhone- und 1–2 iPad-Bilder im Tinte-Design, kommen aus dem Simulator (docs/bilder/) -->
 
 ## Warum Partie?
 
@@ -26,23 +26,27 @@ Auf dem Handy gibt es Hunderte Spiele-Apps. Jede hat ihre eigene Werbung, ihr ei
 
 - **Offline und privat.** Zum Spielen brauchst du kein Netz und kein Konto. Es gibt kein Tracking und keinen eigenen Server, das Datenschutz-Manifest der App meldet keine gesammelten Daten. Zwei Dinge sind **optional und standardmäßig aus oder ohne Pflicht**: der Abgleich zwischen deinen Geräten über *deine* private iCloud, und Game Center für Bestenlisten (aus im Kinder-Modus).
 - **Alles gleich bedienbar.** Wer ein Spiel kann, findet sich in allen zurecht: gleicher Aufbau, gleiche Knöpfe, gleiche Hilfen. Man lernt eine Regel, keine neue Oberfläche.
-- **Für die ganze Familie.** Vom Kinder-Modus bis zu Schach, Backgammon und Rommé.
+- **Für die ganze Familie.** Vom Kinder-Modus bis zu Rommé und Mühle.
 - **Traditionell und frei.** Alle Spiele sind alte, gemeinfreie Klassiker. Die Namen sind bewusst neutral, es steckt keine Marke darin.
 
-<p align="center"><img src="docs/bilder/spielseiten.jpg" alt="Spielseiten: Yacht, Sudoku, Rommé, Mühle, Kreuzworträtsel"><br><sub>Kurz erklärt, dann geht es los: jedes Spiel hat eine eigene Seite mit Regeln, Mitspielern und Statistik.</sub></p>
 
 ## Die Spiele
 
-| Art | Dabei sind unter anderem |
+**Version 1.0 startet mit 26 Spielen.** Weitere sind geplant, sobald die ersten rund laufen.
+
+| Art | Dabei sind |
 |---|---|
-| **Karten** | Solitär (Klondike, Spider, FreeCell, Pyramide, TriPeaks, Golf, Yukon), Rommé, Mau-Mau, Schwimmen, Mogeln, Siebzehn und Vier, Elfer raus, Truco, Brisca, Escoba und mehr |
-| **Würfel** | Yacht, Schocken, 10 000, Mäxchen, Chicago, Klappbrett, Lügenwürfel, Schweinerei, Bunco und mehr |
-| **Brett** | Schach, Backgammon, Dame, Mühle, Halma, Kalaha, Wendespiel, Viererreihe, Rauswurf, Schiffeversenken und mehr |
-| **Rätsel** | Sudoku, Kakuro, Nonogramm, Brücken, Minensuche, Lichter aus, Türme von Hanoi, Schiebepuzzle, Zahlenfusion, Mahjong-Paare und mehr |
-| **Wörter** | Wortpfeil (Kreuzworträtsel), Galgenmännchen, Stadt Land Fluss |
-| **Arcade** | Steinfall, Wolkenhüpfer, Dauerlauf, Mauerbrecher, Ballwechsel |
+| **Karten** | Solitär, Mau-Mau, Schwimmen, Elfer raus, Rommé, Mogeln, Siebzehn und Vier, Herzensjagd |
+| **Würfel** | Yacht, Schocken, Zehntausend, Mäxchen, Chicago, Pokerwurf, Königsweg |
+| **Rätsel** | Sudoku, Minensuche, Kakuro, Schiebepuzzle, Labyrinth, Farbfüller |
+| **Brett** | Viererreihe, Rauswurf, Mühle |
+| **Wörter** | Galgenmännchen, Wortpfeil (Kreuzworträtsel) |
 
 Zu jedem Spiel gibt es eine kurze Regel, Hinweise und je nach Spiel Tipps, Rückgängig und Lektionen.
+
+### Ideen für später
+
+Das haben wir schon angefangen oder im Kopf, es ist aber **nicht Teil der 26** und noch nicht angekündigt: Schach, Backgammon, Dame, Halma, Kalaha, Oware, Nonogramm, Brücken, Lichter aus, Turm von Hanoi, Zahlenfusion, Mahjong-Paare, Stadt Land Fluss, Schiffe versenken, Schweinerei, Bunco, Klappbrett, Brisca, Escoba, Truco, Chinchón, Crazy Eights, Steinfall, Wolkenhüpfer, Dauerlauf, Mauerbrecher, Ballwechsel und weitere. Die Reihenfolge ist offen, und Wünsche sind willkommen ([Issue](../../issues)).
 
 ## So funktioniert Partie
 
@@ -92,15 +96,11 @@ Partie ist ein Swift-Projekt ohne fremde Bibliotheken (Swift, SwiftUI, Swift Cha
 |---|---|
 | `App/` | Die Hülle: Startseite, Suche, Einstellungen, Spieler, Statistik, Modi |
 | `Pakete/SpieleKern`, `ArcadeKern` | Gemeinsame Spiellogik, Spielrahmen, Spielerverwaltung |
-| `Pakete/Baukasten` | Das Designsystem (Produkt `KlarGlas`): Farben, Blätter, Knöpfe, Miniaturen |
+| `Pakete/Baukasten` | Der gemeinsame **Baukasten** (Produkt `KlarGlas`): Farben, Blätter, Knöpfe, Miniaturen, das Design „Tinte“ |
 | `Pakete/Wuerfel*` | Würfelerkennung: Ansage, Kamera, Funk zwischen iPhone und iPad |
-| `Pakete/Spiel*` | Ein Paket je Spiel, mit eigenen Tests (viele regelbasiert über JSON-Fälle) |
-| `Pakete/Kern*` | Spiellogik, die mehrere Spiele teilen |
+| `Pakete/Spiel*` | Ein Paket je Spiel, mit eigenen Tests |
 | `Widget/` | Widgets für den Home-Bildschirm |
 | `Test/` | Tests für die Hülle |
-| `docs/` | Bilder und Leitfäden |
-
-Wie ein neues Spiel eingebunden wird: ein Paket anlegen, ein `SpielModul` bereitstellen, eine Zeile in den Metadaten eintragen. Genaueres steht in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 **Zur Sprache:** Code, Kommentare und Commit-Nachrichten sind auf Deutsch. Issues und Pull Requests sind auf Deutsch oder Englisch willkommen.
 
@@ -122,7 +122,9 @@ cd Pakete/SpielYacht && swift test
 
 ## Mitmachen
 
-Neue Spiele, Fehlerkorrekturen, Übersetzungen und bessere Rätsel sind willkommen. Regeln und Ablauf stehen in [CONTRIBUTING.md](CONTRIBUTING.md). Jeder Commit braucht eine `Signed-off-by`-Zeile ([DCO](https://developercertificate.org)). Wer ein Spiel beisteuert, wird in der App genannt. Sicherheitsprobleme bitte nach [SECURITY.md](SECURITY.md) melden.
+Ideen, Fehlermeldungen und Übersetzungen sind jederzeit willkommen, am besten als [Issue](../../issues).
+
+**Code-Beiträge freuen uns auch.** Sie gehören an den **gemeinsamen Baukasten** (`Pakete/Baukasten`): Wenn dort etwas besser wird, übernimmt die App es für alle Spiele zugleich. Neue Spiele und Änderungen an einzelnen Spielen nehmen wir vor 1.0 nicht an; die Spiele bleiben vorerst bei uns. Regeln und Ablauf stehen in [CONTRIBUTING.md](CONTRIBUTING.md). Jeder Commit braucht eine `Signed-off-by`-Zeile ([DCO](https://developercertificate.org)). Sicherheitsprobleme bitte nach [SECURITY.md](SECURITY.md) melden.
 
 ## Lizenz
 

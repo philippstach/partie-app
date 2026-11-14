@@ -2,7 +2,7 @@
 
 [English](CONTRIBUTING.en.md)
 
-Danke fürs Mithelfen! Neue Spiele, Fehlerkorrekturen, Übersetzungen und bessere Rätsel sind willkommen.
+Danke fürs Mithelfen! Fehlerkorrekturen und Verbesserungen am gemeinsamen Baukasten, Übersetzungen und Ideen sind willkommen. **Vor Version 1.0 nehmen wir keine neuen Spiele und keine Änderungen an einzelnen Spielen an.**
 
 ## Grundregeln
 
@@ -28,16 +28,9 @@ cd Pakete/SpielYacht && swift test
 
 Jedes Paket hat eine `README.md` mit Testaufbau und Umgebungsvariablen.
 
-## Ein neues Spiel bauen
+## Wo Code-Beiträge hingehören
 
-1. **Gerüst:** `python3 Werkzeug/geruest.py <Name>` legt `Pakete/Spiel<Name>` an, mit Logik-Ziel (`<Name>Kern`, nur Foundation), Oberflächen-Ziel (`Spiel<Name>`) und Tests.
-2. **Erst die Logik:** Regeln, Computergegner und Wertung gehören in `<Name>Kern` und werden mit `swift test` geprüft. Oberflächen-Code steht in `#if canImport(UIKit)`.
-3. **Modul:** `SpielModul` aus `SpieleKern` umsetzen (`id`, `name`, `gattung`, `farbe`, `symbol`, `spielerzahl`, `start`). Für Start, Regeln und Ende `SpielRahmen` nutzen.
-4. **Einhängen:** `python3 Werkzeug/einhaengen.py <Name> <ModulTyp>` trägt das Paket in `project.yml` und die Spieleliste in `App/PartieApp.swift` ein. Dazu eine Zeile in `App/SpielMetadaten.swift` (Herkunft, Kurzbeschreibung, Stichworte).
-5. **Texte:** alle sichtbaren Texte in `App/Ressourcen/Localizable.xcstrings`, auf Deutsch, Englisch, Spanisch und Französisch.
-6. **Symbol:** `App/Assets.xcassets/Symbol-<id>.appiconset` anlegen.
-
-Wer ein Spiel beisteuert, wird in der App genannt.
+Am besten in den gemeinsamen Baukasten `Pakete/Baukasten` (Produkt `KlarGlas`): Farben, Blätter, Knöpfe, Miniaturen und das Design „Tinte“. Dort ändert sich etwas einmal, und die App übernimmt es für alle Spiele. Bitte vorher ein Issue anlegen und kurz beschreiben, was besser werden soll. Änderungen an einzelnen Spielen und neue Spiele kommen frühestens nach 1.0 in Frage, dann steht hier die Anleitung dazu.
 
 ## Inhalte
 
