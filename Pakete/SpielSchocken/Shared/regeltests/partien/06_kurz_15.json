@@ -1,0 +1,305 @@
+{
+ "name": "06_kurz_15",
+ "beschreibung": "Nur eine Hälfte, 15 Deckel, fünf Spieler. (Seed 1)",
+ "optionen": {
+  "spiellaenge": "haelfte",
+  "deckel": 15
+ },
+ "strategien": [
+  "einfach",
+  "gut",
+  "gut",
+  "einfach",
+  "gut"
+ ],
+ "beginner": 3,
+ "wuerfel": [
+  2,
+  5,
+  1,
+  3,
+  1,
+  4,
+  4,
+  4,
+  6,
+  4,
+  2,
+  1,
+  4,
+  1,
+  4,
+  4,
+  5,
+  1,
+  6,
+  4,
+  3,
+  6,
+  2,
+  5,
+  1,
+  3,
+  1,
+  1,
+  1,
+  6,
+  5,
+  1,
+  4,
+  6,
+  2,
+  4,
+  6,
+  1,
+  5,
+  2,
+  4
+ ],
+ "erwartet": {
+  "verlierer": 1,
+  "haelften": [
+   {
+    "spieler": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "beginner": 3,
+    "verlierer": 1,
+    "runden": [
+     {
+      "beginner": 3,
+      "zuege": [
+       {
+        "spieler": 3,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         3,
+         1,
+         1
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 3,
+         "deckel": 3
+        }
+       },
+       {
+        "spieler": 4,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         6,
+         4,
+         2
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 642,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         4,
+         1,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 4,
+         "deckel": 4
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         6,
+         4,
+         1
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 641,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 2,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         5,
+         3,
+         1
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 531,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 2,
+      "gewinner": 0,
+      "deckel": 4,
+      "ausStock": true,
+      "stock": 11,
+      "stand": [
+       0,
+       0,
+       4,
+       0,
+       0
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 2,
+      "zuege": [
+       {
+        "spieler": 2,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         1,
+         1,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "schockAus",
+         "hoehe": 0,
+         "deckel": 0
+        }
+       },
+       {
+        "spieler": 3,
+        "aktionen": [],
+        "wuerfel": [
+         6,
+         5,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 651,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 4,
+        "aktionen": [],
+        "wuerfel": [
+         6,
+         4,
+         2
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 642,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 0,
+        "aktionen": [],
+        "wuerfel": [
+         6,
+         4,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 641,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [],
+        "wuerfel": [
+         5,
+         4,
+         2
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 542,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 1,
+      "gewinner": 2,
+      "deckel": 15,
+      "ausStock": true,
+      "stock": 0,
+      "stand": [
+       0,
+       15,
+       0,
+       0,
+       0
+      ],
+      "raus": [
+       0,
+       2,
+       3,
+       4
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

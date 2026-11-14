@@ -1,0 +1,144 @@
+{
+ "beschreibung": "S2: Zellen, die in einer Einheit (0–8 Zeile, 9–17 Spalte, 18–26 Box) als einzige leer sind, wenn die 8 übrigen Zahlen verschieden sind. Je Zelle ein Eintrag, aufsteigend, mit Ziffer und Einheiten. Feld = aktuelle Werte (Vorgaben und Einträge), 0 = leer.",
+ "faelle": [
+  {
+   "name": "vorgaben_klassiker",
+   "feld": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+   "hinweise": []
+  },
+  {
+   "name": "eine_zelle_fehlt",
+   "feld": "034678912672195348198342567859761423426853791713924856961537284287419635345286179",
+   "hinweise": [
+    {
+     "zelle": 0,
+     "ziffer": 5,
+     "einheiten": [
+      0,
+      9,
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "name": "zwei_in_einer_zeile",
+   "feld": "004678912672195348198342567859761423426853791713924856961537284287419635345286179",
+   "hinweise": [
+    {
+     "zelle": 0,
+     "ziffer": 5,
+     "einheiten": [
+      9
+     ]
+    },
+    {
+     "zelle": 1,
+     "ziffer": 3,
+     "einheiten": [
+      10
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ganze_zeile_fehlt_bis_auf_eine",
+   "feld": "500000000672195348198342567859761423426853791713924856961537284287419635345286179",
+   "hinweise": [
+    {
+     "zelle": 1,
+     "ziffer": 3,
+     "einheiten": [
+      10
+     ]
+    },
+    {
+     "zelle": 2,
+     "ziffer": 4,
+     "einheiten": [
+      11
+     ]
+    },
+    {
+     "zelle": 3,
+     "ziffer": 6,
+     "einheiten": [
+      12
+     ]
+    },
+    {
+     "zelle": 4,
+     "ziffer": 7,
+     "einheiten": [
+      13
+     ]
+    },
+    {
+     "zelle": 5,
+     "ziffer": 8,
+     "einheiten": [
+      14
+     ]
+    },
+    {
+     "zelle": 6,
+     "ziffer": 9,
+     "einheiten": [
+      15
+     ]
+    },
+    {
+     "zelle": 7,
+     "ziffer": 1,
+     "einheiten": [
+      16
+     ]
+    },
+    {
+     "zelle": 8,
+     "ziffer": 2,
+     "einheiten": [
+      17
+     ]
+    }
+   ]
+  },
+  {
+   "name": "doppelte_zahl_in_der_einheit",
+   "feld": "044678912672195348198342567859761423426853791713924856961537284287419635345286179",
+   "hinweise": [
+    {
+     "zelle": 0,
+     "ziffer": 5,
+     "einheiten": [
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mitte_und_ecke",
+   "feld": "534678912672195348198342567859761423426803791713924856961537284287419635345286170",
+   "hinweise": [
+    {
+     "zelle": 40,
+     "ziffer": 5,
+     "einheiten": [
+      4,
+      13,
+      22
+     ]
+    },
+    {
+     "zelle": 80,
+     "ziffer": 9,
+     "einheiten": [
+      8,
+      17,
+      26
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11793 @@
+{
+ "beschreibung": "Rätsel: richtige Spalten und Verteidigung je Schritt der Hauptvariante",
+ "faelle": [
+  {
+   "id": "k1-01",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    3,
+    1,
+    6,
+    5,
+    3,
+    4,
+    6,
+    0,
+    1,
+    2,
+    4,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".GBGG.G",
+    "BBBGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       1,
+       6,
+       5,
+       3,
+       4,
+       6,
+       0,
+       1,
+       2,
+       4,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-02",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    3,
+    3,
+    6,
+    2,
+    1,
+    2,
+    5,
+    4,
+    1,
+    1,
+    6,
+    2,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".B.....",
+    ".GG....",
+    ".BGG..B",
+    ".BGBGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       3,
+       6,
+       2,
+       1,
+       2,
+       5,
+       4,
+       1,
+       1,
+       6,
+       2,
+       1
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-03",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    1,
+    2,
+    6,
+    3,
+    2,
+    2,
+    2,
+    6,
+    6,
+    0,
+    3,
+    2,
+    1,
+    0,
+    5,
+    4
+   ],
+   "bild": [
+    ".......",
+    "..B....",
+    "..G....",
+    "..B...G",
+    "BGGG..B",
+    "BGBBBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       2,
+       6,
+       3,
+       2,
+       2,
+       2,
+       6,
+       6,
+       0,
+       3,
+       2,
+       1,
+       0,
+       5,
+       4
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-04",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    6,
+    6,
+    0,
+    1,
+    1,
+    3,
+    5,
+    4,
+    2,
+    6,
+    5,
+    2,
+    2,
+    5,
+    3,
+    6,
+    4
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "......G",
+    "..B..GG",
+    ".BGBBBG",
+    "BGBGGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       6,
+       0,
+       1,
+       1,
+       3,
+       5,
+       4,
+       2,
+       6,
+       5,
+       2,
+       2,
+       5,
+       3,
+       6,
+       4
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-05",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    1,
+    0,
+    5,
+    0,
+    3,
+    0,
+    0,
+    2,
+    0,
+    0,
+    1,
+    2,
+    3,
+    1,
+    4,
+    6,
+    5,
+    2,
+    2
+   ],
+   "bild": [
+    "G......",
+    "B......",
+    "B.B....",
+    "GGG....",
+    "GBGB.B.",
+    "GBGBBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       0,
+       5,
+       0,
+       3,
+       0,
+       0,
+       2,
+       0,
+       0,
+       1,
+       2,
+       3,
+       1,
+       4,
+       6,
+       5,
+       2,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-06",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    1,
+    1,
+    3,
+    1,
+    4,
+    2,
+    5,
+    6,
+    2,
+    5,
+    4,
+    2,
+    6,
+    0,
+    5,
+    2,
+    3,
+    3,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "..GB...",
+    ".GGG.B.",
+    ".GBBBGB",
+    "GBGBBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       1,
+       3,
+       1,
+       4,
+       2,
+       5,
+       6,
+       2,
+       5,
+       4,
+       2,
+       6,
+       0,
+       5,
+       2,
+       3,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-07",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    3,
+    0,
+    2,
+    5,
+    2,
+    0,
+    5,
+    6,
+    3,
+    1,
+    2,
+    2,
+    4,
+    4,
+    3,
+    3,
+    0,
+    3,
+    4,
+    5
+   ],
+   "bild": [
+    ".......",
+    "...B...",
+    "..BB...",
+    "G.GGGB.",
+    "B.GGBG.",
+    "BBGGGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       0,
+       2,
+       5,
+       2,
+       0,
+       5,
+       6,
+       3,
+       1,
+       2,
+       2,
+       4,
+       4,
+       3,
+       3,
+       0,
+       3,
+       4,
+       5
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-08",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    1,
+    2,
+    6,
+    2,
+    0,
+    4,
+    4,
+    0,
+    6,
+    6,
+    0,
+    4,
+    5,
+    6,
+    3,
+    3,
+    1,
+    0,
+    4,
+    5,
+    5
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "G...B.G",
+    "B...GBG",
+    "GBGGBGB",
+    "BBGBGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       2,
+       6,
+       2,
+       0,
+       4,
+       4,
+       0,
+       6,
+       6,
+       0,
+       4,
+       5,
+       6,
+       3,
+       3,
+       1,
+       0,
+       4,
+       5,
+       5
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-09",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    5,
+    6,
+    3,
+    0,
+    6,
+    3,
+    5,
+    0,
+    4,
+    2,
+    3,
+    6,
+    0,
+    3,
+    6,
+    4,
+    1,
+    6,
+    3,
+    1,
+    2
+   ],
+   "bild": [
+    ".......",
+    "...B..G",
+    "...G..B",
+    "B..B..G",
+    "GGBGGBB",
+    "GBGBBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       6,
+       3,
+       0,
+       6,
+       3,
+       5,
+       0,
+       4,
+       2,
+       3,
+       6,
+       0,
+       3,
+       6,
+       4,
+       1,
+       6,
+       3,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-10",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    2,
+    0,
+    2,
+    1,
+    2,
+    2,
+    3,
+    4,
+    3,
+    5,
+    5,
+    4,
+    3,
+    3,
+    5,
+    4,
+    4,
+    1,
+    0,
+    0,
+    2,
+    5
+   ],
+   "bild": [
+    ".......",
+    "..G....",
+    "..BBGB.",
+    "B.GGBG.",
+    "GBGGBG.",
+    "BBGGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       0,
+       2,
+       1,
+       2,
+       2,
+       3,
+       4,
+       3,
+       5,
+       5,
+       4,
+       3,
+       3,
+       5,
+       4,
+       4,
+       1,
+       0,
+       0,
+       2,
+       5
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-11",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    2,
+    1,
+    2,
+    0,
+    0,
+    3,
+    0,
+    6,
+    4,
+    1,
+    6,
+    0,
+    6,
+    4,
+    4,
+    0,
+    4,
+    4,
+    4,
+    1,
+    1,
+    6,
+    5,
+    1,
+    5
+   ],
+   "bild": [
+    "....B..",
+    "GG..G..",
+    "GB..B.G",
+    "BG..B.B",
+    "BGB.GBB",
+    "GGBGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       1,
+       2,
+       0,
+       0,
+       3,
+       0,
+       6,
+       4,
+       1,
+       6,
+       0,
+       6,
+       4,
+       4,
+       0,
+       4,
+       4,
+       4,
+       1,
+       1,
+       6,
+       5,
+       1,
+       5
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-12",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    1,
+    4,
+    6,
+    1,
+    1,
+    6,
+    0,
+    6,
+    2,
+    3,
+    0,
+    4,
+    2,
+    2,
+    0,
+    0,
+    3,
+    3,
+    1,
+    1,
+    2,
+    2,
+    2,
+    5,
+    1,
+    3
+   ],
+   "bild": [
+    ".GG....",
+    ".BB....",
+    "BGGB...",
+    "GGBB..B",
+    "GBGGB.B",
+    "GGGBBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       4,
+       6,
+       1,
+       1,
+       6,
+       0,
+       6,
+       2,
+       3,
+       0,
+       4,
+       2,
+       2,
+       0,
+       0,
+       3,
+       3,
+       1,
+       1,
+       2,
+       2,
+       2,
+       5,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-13",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    6,
+    0,
+    3,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    4,
+    4,
+    2,
+    4,
+    2,
+    4,
+    4,
+    4,
+    5,
+    2,
+    3,
+    3,
+    5,
+    5,
+    6,
+    3,
+    2,
+    3,
+    2
+   ],
+   "bild": [
+    "G..GG..",
+    "B.BGB..",
+    "G.BGG..",
+    "B.GBGG.",
+    "B.BGGBB",
+    "B.BGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       0,
+       3,
+       0,
+       3,
+       0,
+       0,
+       0,
+       0,
+       4,
+       4,
+       2,
+       4,
+       2,
+       4,
+       4,
+       4,
+       5,
+       2,
+       3,
+       3,
+       5,
+       5,
+       6,
+       3,
+       2,
+       3,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-14",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    2,
+    0,
+    2,
+    0,
+    2,
+    2,
+    3,
+    4,
+    0,
+    1,
+    6,
+    4,
+    1,
+    4,
+    4,
+    1,
+    1,
+    4,
+    0,
+    4,
+    3,
+    0,
+    5,
+    5,
+    0,
+    2,
+    2,
+    3,
+    1
+   ],
+   "bild": [
+    "B.B.G..",
+    "GBG.G..",
+    "BBG.B..",
+    "BGBGG..",
+    "GBBBGG.",
+    "GGBBGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       0,
+       2,
+       0,
+       2,
+       2,
+       3,
+       4,
+       0,
+       1,
+       6,
+       4,
+       1,
+       4,
+       4,
+       1,
+       1,
+       4,
+       0,
+       4,
+       3,
+       0,
+       5,
+       5,
+       0,
+       2,
+       2,
+       3,
+       1
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k1-15",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    1,
+    6,
+    6,
+    3,
+    3,
+    1,
+    2,
+    6,
+    6,
+    3,
+    6,
+    5,
+    4,
+    3,
+    0,
+    6,
+    1,
+    4,
+    5,
+    5,
+    4,
+    5,
+    4,
+    5,
+    5,
+    0,
+    4,
+    4,
+    1,
+    2
+   ],
+   "bild": [
+    "....BGB",
+    "....GBG",
+    ".G.BGBG",
+    ".G.BGBB",
+    "BBBGBGG",
+    "GGGBGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       6,
+       6,
+       3,
+       3,
+       1,
+       2,
+       6,
+       6,
+       3,
+       6,
+       5,
+       4,
+       3,
+       0,
+       6,
+       1,
+       4,
+       5,
+       5,
+       4,
+       5,
+       4,
+       5,
+       5,
+       0,
+       4,
+       4,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-01",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    3,
+    5,
+    5,
+    4,
+    4,
+    4,
+    6,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "....B..",
+    "....GG.",
+    "..BGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       5,
+       5,
+       4,
+       4,
+       4,
+       6,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       5,
+       4,
+       4,
+       4,
+       6,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-02",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    6,
+    4,
+    4,
+    5,
+    5,
+    3,
+    2,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "....GG.",
+    "B.GBBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       4,
+       4,
+       5,
+       5,
+       3,
+       2,
+       0
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       4,
+       4,
+       5,
+       5,
+       3,
+       2,
+       0,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-03",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    1,
+    2,
+    6,
+    4,
+    3,
+    0,
+    2,
+    5,
+    1,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".GG...B",
+    "BGBGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       2,
+       6,
+       4,
+       3,
+       0,
+       2,
+       5,
+       1,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       6,
+       4,
+       3,
+       0,
+       2,
+       5,
+       1,
+       6,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-04",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    3,
+    2,
+    0,
+    2,
+    2,
+    2,
+    1,
+    2,
+    4,
+    3,
+    6,
+    5,
+    0
+   ],
+   "bild": [
+    ".......",
+    "..G....",
+    "..G....",
+    "..B....",
+    "B.GG...",
+    "BBGBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       2,
+       0,
+       2,
+       2,
+       2,
+       1,
+       2,
+       4,
+       3,
+       6,
+       5,
+       0
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       2,
+       0,
+       2,
+       2,
+       2,
+       1,
+       2,
+       4,
+       3,
+       6,
+       5,
+       0,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       5
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-05",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    0,
+    1,
+    5,
+    1,
+    1,
+    2,
+    1,
+    3,
+    4,
+    1,
+    4,
+    2,
+    5,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".B.....",
+    ".G.....",
+    ".G.....",
+    ".BB.GG.",
+    "GBBBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       1,
+       5,
+       1,
+       1,
+       2,
+       1,
+       3,
+       4,
+       1,
+       4,
+       2,
+       5,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       1,
+       5,
+       1,
+       1,
+       2,
+       1,
+       3,
+       4,
+       1,
+       4,
+       2,
+       5,
+       6,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-06",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    2,
+    4,
+    5,
+    4,
+    6,
+    6,
+    4,
+    4,
+    5,
+    1,
+    3,
+    3,
+    3,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "...BB..",
+    "...GG..",
+    "...BBGB",
+    ".BGGBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       4,
+       5,
+       4,
+       6,
+       6,
+       4,
+       4,
+       5,
+       1,
+       3,
+       3,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       5,
+       4,
+       6,
+       6,
+       4,
+       4,
+       5,
+       1,
+       3,
+       3,
+       3,
+       3,
+       5,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5,
+       6
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-07",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    3,
+    0,
+    0,
+    4,
+    4,
+    1,
+    2,
+    2,
+    3,
+    1,
+    4,
+    5,
+    1,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".G..G..",
+    "GBBGG..",
+    "BBGGBBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       0,
+       0,
+       4,
+       4,
+       1,
+       2,
+       2,
+       3,
+       1,
+       4,
+       5,
+       1,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       0,
+       0,
+       4,
+       4,
+       1,
+       2,
+       2,
+       3,
+       1,
+       4,
+       5,
+       1,
+       6,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-08",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    3,
+    4,
+    3,
+    2,
+    5,
+    5,
+    5,
+    4,
+    6,
+    6,
+    4,
+    2,
+    4,
+    5
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "....GB.",
+    "....GG.",
+    "..BGBBB",
+    "..BGBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       4,
+       3,
+       2,
+       5,
+       5,
+       5,
+       4,
+       6,
+       6,
+       4,
+       2,
+       4,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       4,
+       3,
+       2,
+       5,
+       5,
+       5,
+       4,
+       6,
+       6,
+       4,
+       2,
+       4,
+       5,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-09",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    5,
+    1,
+    1,
+    2,
+    2,
+    6,
+    4,
+    5,
+    1,
+    3,
+    0,
+    0,
+    5,
+    0,
+    3,
+    4
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "BG...G.",
+    "BGGGBB.",
+    "GBBBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       1,
+       1,
+       2,
+       2,
+       6,
+       4,
+       5,
+       1,
+       3,
+       0,
+       0,
+       5,
+       0,
+       3,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       1,
+       1,
+       2,
+       2,
+       6,
+       4,
+       5,
+       1,
+       3,
+       0,
+       0,
+       5,
+       0,
+       3,
+       4,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-10",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    6,
+    0,
+    1,
+    0,
+    4,
+    4,
+    4,
+    0,
+    0,
+    5,
+    6,
+    5,
+    1,
+    4,
+    1,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "GB..B..",
+    "BG..G..",
+    "BG..BBG",
+    "BG..GBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       0,
+       1,
+       0,
+       4,
+       4,
+       4,
+       0,
+       0,
+       5,
+       6,
+       5,
+       1,
+       4,
+       1,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       0,
+       1,
+       0,
+       4,
+       4,
+       4,
+       0,
+       0,
+       5,
+       6,
+       5,
+       1,
+       4,
+       1,
+       1,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-11",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    2,
+    0,
+    4,
+    0,
+    5,
+    3,
+    0,
+    0,
+    0,
+    2,
+    3,
+    2,
+    2,
+    6,
+    2,
+    3,
+    0,
+    3,
+    6
+   ],
+   "bild": [
+    "B......",
+    "B.B....",
+    "G.BG...",
+    "B.GG...",
+    "G.GB..B",
+    "G.BGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       0,
+       4,
+       0,
+       5,
+       3,
+       0,
+       0,
+       0,
+       2,
+       3,
+       2,
+       2,
+       6,
+       2,
+       3,
+       0,
+       3,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       0,
+       4,
+       0,
+       5,
+       3,
+       0,
+       0,
+       0,
+       2,
+       3,
+       2,
+       2,
+       6,
+       2,
+       3,
+       0,
+       3,
+       6,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-12",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    2,
+    1,
+    5,
+    2,
+    4,
+    3,
+    3,
+    6,
+    4,
+    2,
+    6,
+    5,
+    6,
+    1,
+    1,
+    1,
+    3,
+    2,
+    2
+   ],
+   "bild": [
+    ".......",
+    "..B....",
+    ".GG....",
+    ".BGB..B",
+    ".GGBBGB",
+    ".GBGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       1,
+       5,
+       2,
+       4,
+       3,
+       3,
+       6,
+       4,
+       2,
+       6,
+       5,
+       6,
+       1,
+       1,
+       1,
+       3,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       1,
+       5,
+       2,
+       4,
+       3,
+       3,
+       6,
+       4,
+       2,
+       6,
+       5,
+       6,
+       1,
+       1,
+       1,
+       3,
+       2,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-13",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    5,
+    0,
+    3,
+    4,
+    1,
+    4,
+    5,
+    1,
+    6,
+    6,
+    1,
+    1,
+    5,
+    5,
+    1,
+    4,
+    4,
+    0,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".B.....",
+    ".G..BG.",
+    ".B..GBB",
+    "GG..GBG",
+    "GB.BGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       0,
+       3,
+       4,
+       1,
+       4,
+       5,
+       1,
+       6,
+       6,
+       1,
+       1,
+       5,
+       5,
+       1,
+       4,
+       4,
+       0,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       0,
+       3,
+       4,
+       1,
+       4,
+       5,
+       1,
+       6,
+       6,
+       1,
+       1,
+       5,
+       5,
+       1,
+       4,
+       4,
+       0,
+       6,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-14",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    5,
+    1,
+    3,
+    6,
+    4,
+    2,
+    6,
+    6,
+    6,
+    0,
+    0,
+    6,
+    5,
+    5,
+    3,
+    4,
+    1,
+    2,
+    0
+   ],
+   "bild": [
+    ".......",
+    "......G",
+    "......B",
+    "B....GG",
+    "BBGBGBB",
+    "GGGBBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       1,
+       3,
+       6,
+       4,
+       2,
+       6,
+       6,
+       6,
+       0,
+       0,
+       6,
+       5,
+       5,
+       3,
+       4,
+       1,
+       2,
+       0
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       1,
+       3,
+       6,
+       4,
+       2,
+       6,
+       6,
+       6,
+       0,
+       0,
+       6,
+       5,
+       5,
+       3,
+       4,
+       1,
+       2,
+       0,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-15",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    5,
+    4,
+    6,
+    3,
+    0,
+    4,
+    0,
+    2,
+    1,
+    5,
+    1,
+    0,
+    1,
+    1,
+    5,
+    5,
+    5,
+    5,
+    4
+   ],
+   "bild": [
+    ".....G.",
+    ".....B.",
+    ".G...G.",
+    "GB..BB.",
+    "BB..GG.",
+    "BBGGGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       4,
+       6,
+       3,
+       0,
+       4,
+       0,
+       2,
+       1,
+       5,
+       1,
+       0,
+       1,
+       1,
+       5,
+       5,
+       5,
+       5,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       6,
+       3,
+       0,
+       4,
+       0,
+       2,
+       1,
+       5,
+       1,
+       0,
+       1,
+       1,
+       5,
+       5,
+       5,
+       5,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-16",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    3,
+    4,
+    2,
+    0,
+    5,
+    5,
+    4,
+    0,
+    6,
+    4,
+    1,
+    4,
+    0,
+    1,
+    1,
+    5,
+    3,
+    1,
+    3,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".B.BB..",
+    "GG.GBB.",
+    "BB.GGB.",
+    "BGGGBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       4,
+       2,
+       0,
+       5,
+       5,
+       4,
+       0,
+       6,
+       4,
+       1,
+       4,
+       0,
+       1,
+       1,
+       5,
+       3,
+       1,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       0
+      ],
+      "gespielt": 0,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       4,
+       2,
+       0,
+       5,
+       5,
+       4,
+       0,
+       6,
+       4,
+       1,
+       4,
+       0,
+       1,
+       1,
+       5,
+       3,
+       1,
+       3,
+       3,
+       0,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-17",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    5,
+    2,
+    4,
+    1,
+    0,
+    4,
+    6,
+    3,
+    3,
+    1,
+    6,
+    5,
+    2,
+    0,
+    3,
+    3,
+    4,
+    1,
+    1,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".G.B...",
+    ".BBGG..",
+    "BBGGBBG",
+    "GBBBGGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       2,
+       4,
+       1,
+       0,
+       4,
+       6,
+       3,
+       3,
+       1,
+       6,
+       5,
+       2,
+       0,
+       3,
+       3,
+       4,
+       1,
+       1,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       2,
+       4,
+       1,
+       0,
+       4,
+       6,
+       3,
+       3,
+       1,
+       6,
+       5,
+       2,
+       0,
+       3,
+       3,
+       4,
+       1,
+       1,
+       2,
+       6,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5,
+       6
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-18",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    1,
+    0,
+    5,
+    0,
+    4,
+    4,
+    2,
+    3,
+    1,
+    3,
+    4,
+    3,
+    3,
+    1,
+    2,
+    2,
+    0,
+    0,
+    0,
+    1,
+    3
+   ],
+   "bild": [
+    ".......",
+    "B..B...",
+    "GG.B...",
+    "BGGGB..",
+    "GBBGG..",
+    "GBBGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       0,
+       5,
+       0,
+       4,
+       4,
+       2,
+       3,
+       1,
+       3,
+       4,
+       3,
+       3,
+       1,
+       2,
+       2,
+       0,
+       0,
+       0,
+       1,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       0,
+       5,
+       0,
+       4,
+       4,
+       2,
+       3,
+       1,
+       3,
+       4,
+       3,
+       3,
+       1,
+       2,
+       2,
+       0,
+       0,
+       0,
+       1,
+       3,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-19",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    1,
+    4,
+    1,
+    3,
+    1,
+    1,
+    5,
+    5,
+    0,
+    0,
+    2,
+    4,
+    2,
+    4,
+    4,
+    2,
+    3,
+    3,
+    5,
+    1,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".G.....",
+    ".GB.B..",
+    ".BGGGB.",
+    "GBBBGG.",
+    "BBBGGB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       4,
+       1,
+       3,
+       1,
+       1,
+       5,
+       5,
+       0,
+       0,
+       2,
+       4,
+       2,
+       4,
+       4,
+       2,
+       3,
+       3,
+       5,
+       1,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       4,
+       1,
+       3,
+       1,
+       1,
+       5,
+       5,
+       0,
+       0,
+       2,
+       4,
+       2,
+       4,
+       4,
+       2,
+       3,
+       3,
+       5,
+       1,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-20",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    4,
+    5,
+    3,
+    1,
+    6,
+    6,
+    2,
+    1,
+    6,
+    1,
+    1,
+    2,
+    3,
+    2,
+    1,
+    2,
+    2,
+    6,
+    2,
+    1,
+    0,
+    5,
+    4
+   ],
+   "bild": [
+    ".GB....",
+    ".BB....",
+    ".BG...G",
+    ".GG...B",
+    ".GGBBGG",
+    "BGBBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       5,
+       3,
+       1,
+       6,
+       6,
+       2,
+       1,
+       6,
+       1,
+       1,
+       2,
+       3,
+       2,
+       1,
+       2,
+       2,
+       6,
+       2,
+       1,
+       0,
+       5,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       5,
+       3,
+       1,
+       6,
+       6,
+       2,
+       1,
+       6,
+       1,
+       1,
+       2,
+       3,
+       2,
+       1,
+       2,
+       2,
+       6,
+       2,
+       1,
+       0,
+       5,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-21",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    3,
+    3,
+    2,
+    6,
+    6,
+    6,
+    5,
+    4,
+    6,
+    3,
+    0,
+    1,
+    6,
+    1,
+    0,
+    6,
+    1,
+    0,
+    0,
+    2,
+    4,
+    4,
+    4,
+    0,
+    0
+   ],
+   "bild": [
+    "B.....G",
+    "G.....B",
+    "B...B.B",
+    "GB.GG.G",
+    "BGGGB.B",
+    "BGBBGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       3,
+       2,
+       6,
+       6,
+       6,
+       5,
+       4,
+       6,
+       3,
+       0,
+       1,
+       6,
+       1,
+       0,
+       6,
+       1,
+       0,
+       0,
+       2,
+       4,
+       4,
+       4,
+       0,
+       0
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       3,
+       2,
+       6,
+       6,
+       6,
+       5,
+       4,
+       6,
+       3,
+       0,
+       1,
+       6,
+       1,
+       0,
+       6,
+       1,
+       0,
+       0,
+       2,
+       4,
+       4,
+       4,
+       0,
+       0,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-22",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    6,
+    2,
+    0,
+    6,
+    2,
+    0,
+    0,
+    3,
+    6,
+    0,
+    4,
+    2,
+    6,
+    6,
+    1,
+    0,
+    3,
+    2,
+    0,
+    3,
+    5,
+    1,
+    5,
+    4,
+    2
+   ],
+   "bild": [
+    "B......",
+    "G.B...G",
+    "G.G...B",
+    "B.GG..B",
+    "GGBBGBG",
+    "BBGGBBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       2,
+       0,
+       6,
+       2,
+       0,
+       0,
+       3,
+       6,
+       0,
+       4,
+       2,
+       6,
+       6,
+       1,
+       0,
+       3,
+       2,
+       0,
+       3,
+       5,
+       1,
+       5,
+       4,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       2,
+       0,
+       6,
+       2,
+       0,
+       0,
+       3,
+       6,
+       0,
+       4,
+       2,
+       6,
+       6,
+       1,
+       0,
+       3,
+       2,
+       0,
+       3,
+       5,
+       1,
+       5,
+       4,
+       2,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       5
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-23",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    0,
+    1,
+    6,
+    0,
+    1,
+    2,
+    1,
+    5,
+    1,
+    1,
+    3,
+    5,
+    5,
+    0,
+    3,
+    3,
+    2,
+    0,
+    5,
+    6,
+    6,
+    1,
+    5,
+    5
+   ],
+   "bild": [
+    "BB...B.",
+    "BB...G.",
+    "BG...G.",
+    "GG.B.GG",
+    "BGGG.BB",
+    "GBBG.BG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       0,
+       0,
+       1,
+       6,
+       0,
+       1,
+       2,
+       1,
+       5,
+       1,
+       1,
+       3,
+       5,
+       5,
+       0,
+       3,
+       3,
+       2,
+       0,
+       5,
+       6,
+       6,
+       1,
+       5,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       0,
+       0,
+       1,
+       6,
+       0,
+       1,
+       2,
+       1,
+       5,
+       1,
+       1,
+       3,
+       5,
+       5,
+       0,
+       3,
+       3,
+       2,
+       0,
+       5,
+       6,
+       6,
+       1,
+       5,
+       5,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       4
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-24",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    4,
+    5,
+    5,
+    6,
+    6,
+    6,
+    5,
+    6,
+    1,
+    6,
+    6,
+    3,
+    0,
+    2,
+    3,
+    4,
+    0,
+    0,
+    4,
+    2,
+    3,
+    2,
+    2,
+    4,
+    4,
+    1
+   ],
+   "bild": [
+    "......G",
+    "....G.B",
+    "..G.B.B",
+    "B.BGGGB",
+    "GBBGBGG",
+    "GGBBGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       5,
+       5,
+       6,
+       6,
+       6,
+       5,
+       6,
+       1,
+       6,
+       6,
+       3,
+       0,
+       2,
+       3,
+       4,
+       0,
+       0,
+       4,
+       2,
+       3,
+       2,
+       2,
+       4,
+       4,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       5,
+       5,
+       6,
+       6,
+       6,
+       5,
+       6,
+       1,
+       6,
+       6,
+       3,
+       0,
+       2,
+       3,
+       4,
+       0,
+       0,
+       4,
+       2,
+       3,
+       2,
+       2,
+       4,
+       4,
+       1,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-25",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    5,
+    4,
+    6,
+    6,
+    3,
+    0,
+    2,
+    3,
+    0,
+    3,
+    6,
+    3,
+    3,
+    4,
+    5,
+    0,
+    6,
+    6,
+    3,
+    6,
+    5,
+    5,
+    4,
+    5,
+    4,
+    0,
+    1
+   ],
+   "bild": [
+    "...B..G",
+    "...B.GG",
+    "G..GBGB",
+    "G..GBBB",
+    "B..GGBG",
+    "GBBBGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       4,
+       6,
+       6,
+       3,
+       0,
+       2,
+       3,
+       0,
+       3,
+       6,
+       3,
+       3,
+       4,
+       5,
+       0,
+       6,
+       6,
+       3,
+       6,
+       5,
+       5,
+       4,
+       5,
+       4,
+       0,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       6,
+       6,
+       3,
+       0,
+       2,
+       3,
+       0,
+       3,
+       6,
+       3,
+       3,
+       4,
+       5,
+       0,
+       6,
+       6,
+       3,
+       6,
+       5,
+       5,
+       4,
+       5,
+       4,
+       0,
+       1,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-26",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    5,
+    3,
+    4,
+    4,
+    6,
+    1,
+    3,
+    1,
+    3,
+    5,
+    5,
+    4,
+    0,
+    3,
+    6,
+    1,
+    1,
+    4,
+    4,
+    0,
+    5,
+    4,
+    6,
+    6,
+    3,
+    3,
+    0,
+    1
+   ],
+   "bild": [
+    "...BB..",
+    ".B.GG..",
+    ".G.BBGB",
+    "GB.GBGG",
+    "BB.GBBG",
+    "GB.BGGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       3,
+       4,
+       4,
+       6,
+       1,
+       3,
+       1,
+       3,
+       5,
+       5,
+       4,
+       0,
+       3,
+       6,
+       1,
+       1,
+       4,
+       4,
+       0,
+       5,
+       4,
+       6,
+       6,
+       3,
+       3,
+       0,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       3,
+       4,
+       4,
+       6,
+       1,
+       3,
+       1,
+       3,
+       5,
+       5,
+       4,
+       0,
+       3,
+       6,
+       1,
+       1,
+       4,
+       4,
+       0,
+       5,
+       4,
+       6,
+       6,
+       3,
+       3,
+       0,
+       1,
+       5,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5,
+       6
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-27",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    6,
+    1,
+    0,
+    6,
+    4,
+    0,
+    5,
+    3,
+    6,
+    4,
+    0,
+    1,
+    5,
+    6,
+    5,
+    5,
+    6,
+    1,
+    1,
+    1,
+    1,
+    2,
+    0,
+    0,
+    0,
+    6,
+    3,
+    5
+   ],
+   "bild": [
+    "GG....B",
+    "BB...BG",
+    "GG...BB",
+    "GB...GG",
+    "BB.GBGB",
+    "GBBBGGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       1,
+       0,
+       6,
+       4,
+       0,
+       5,
+       3,
+       6,
+       4,
+       0,
+       1,
+       5,
+       6,
+       5,
+       5,
+       6,
+       1,
+       1,
+       1,
+       1,
+       2,
+       0,
+       0,
+       0,
+       6,
+       3,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       1,
+       0,
+       6,
+       4,
+       0,
+       5,
+       3,
+       6,
+       4,
+       0,
+       1,
+       5,
+       6,
+       5,
+       5,
+       6,
+       1,
+       1,
+       1,
+       1,
+       2,
+       0,
+       0,
+       0,
+       6,
+       3,
+       5,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-28",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    6,
+    1,
+    3,
+    4,
+    1,
+    3,
+    2,
+    4,
+    5,
+    1,
+    2,
+    6,
+    5,
+    3,
+    1,
+    3,
+    3,
+    0,
+    1,
+    5,
+    6,
+    6,
+    4,
+    2,
+    2,
+    5,
+    4,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".G.G..B",
+    ".GGBGBB",
+    ".BBBGBG",
+    ".GGBBGB",
+    "BBGGBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       1,
+       3,
+       4,
+       1,
+       3,
+       2,
+       4,
+       5,
+       1,
+       2,
+       6,
+       5,
+       3,
+       1,
+       3,
+       3,
+       0,
+       1,
+       5,
+       6,
+       6,
+       4,
+       2,
+       2,
+       5,
+       4,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       1,
+       3,
+       4,
+       1,
+       3,
+       2,
+       4,
+       5,
+       1,
+       2,
+       6,
+       5,
+       3,
+       1,
+       3,
+       3,
+       0,
+       1,
+       5,
+       6,
+       6,
+       4,
+       2,
+       2,
+       5,
+       4,
+       6,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       4
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-29",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    4,
+    3,
+    2,
+    0,
+    1,
+    6,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    4,
+    3,
+    2,
+    4,
+    1,
+    4,
+    6,
+    3,
+    3,
+    4,
+    4,
+    2,
+    3,
+    3,
+    5,
+    5,
+    1
+   ],
+   "bild": [
+    ".BGGB..",
+    ".BBBG..",
+    ".GGBG..",
+    ".BBGG..",
+    ".BGGBGB",
+    "GBBGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       3,
+       2,
+       0,
+       1,
+       6,
+       1,
+       2,
+       2,
+       2,
+       1,
+       1,
+       4,
+       3,
+       2,
+       4,
+       1,
+       4,
+       6,
+       3,
+       3,
+       4,
+       4,
+       2,
+       3,
+       3,
+       5,
+       5,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       4,
+       3,
+       2,
+       0,
+       1,
+       6,
+       1,
+       2,
+       2,
+       2,
+       1,
+       1,
+       4,
+       3,
+       2,
+       4,
+       1,
+       4,
+       6,
+       3,
+       3,
+       4,
+       4,
+       2,
+       3,
+       3,
+       5,
+       5,
+       1,
+       6,
+       5
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k2-30",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    4,
+    0,
+    4,
+    5,
+    5,
+    6,
+    3,
+    0,
+    3,
+    6,
+    6,
+    1,
+    6,
+    5,
+    4,
+    4,
+    4,
+    1,
+    3,
+    3,
+    3,
+    0,
+    0,
+    1,
+    1,
+    0,
+    4,
+    5,
+    5,
+    6
+   ],
+   "bild": [
+    "....G..",
+    "B..GGGB",
+    "GG.BBBG",
+    "BB.GGBG",
+    "BB.GGGB",
+    "BB.GGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       0,
+       4,
+       5,
+       5,
+       6,
+       3,
+       0,
+       3,
+       6,
+       6,
+       1,
+       6,
+       5,
+       4,
+       4,
+       4,
+       1,
+       3,
+       3,
+       3,
+       0,
+       0,
+       1,
+       1,
+       0,
+       4,
+       5,
+       5,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       0,
+       4,
+       5,
+       5,
+       6,
+       3,
+       0,
+       3,
+       6,
+       6,
+       1,
+       6,
+       5,
+       4,
+       4,
+       4,
+       1,
+       3,
+       3,
+       3,
+       0,
+       0,
+       1,
+       1,
+       0,
+       4,
+       5,
+       5,
+       6,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-01",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    2,
+    1,
+    0,
+    3,
+    1,
+    1,
+    6,
+    5,
+    3,
+    3,
+    1,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".G.B...",
+    ".B.B...",
+    ".G.G...",
+    "GBGB.BG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       1,
+       0,
+       3,
+       1,
+       1,
+       6,
+       5,
+       3,
+       3,
+       1,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 0
+     },
+     {
+      "zuege": [
+       2,
+       1,
+       0,
+       3,
+       1,
+       1,
+       6,
+       5,
+       3,
+       3,
+       1,
+       3,
+       2,
+       0
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2,
+       4
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       1,
+       0,
+       3,
+       1,
+       1,
+       6,
+       5,
+       3,
+       3,
+       1,
+       3,
+       2,
+       0,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       4
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-02",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    3,
+    0,
+    4,
+    0,
+    3,
+    2,
+    4,
+    4,
+    5,
+    6,
+    4,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "....G..",
+    "....B..",
+    "B..GG.B",
+    "B.BGGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       0,
+       4,
+       0,
+       3,
+       2,
+       4,
+       4,
+       5,
+       6,
+       4,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       3,
+       0,
+       4,
+       0,
+       3,
+       2,
+       4,
+       4,
+       5,
+       6,
+       4,
+       6,
+       2,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       0,
+       4,
+       0,
+       3,
+       2,
+       4,
+       4,
+       5,
+       6,
+       4,
+       6,
+       2,
+       5,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-03",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    0,
+    0,
+    4,
+    3,
+    2,
+    2,
+    0,
+    4,
+    0,
+    4,
+    5,
+    4,
+    4
+   ],
+   "bild": [
+    ".......",
+    "....B..",
+    "B...G..",
+    "B...G..",
+    "G.G.G..",
+    "B.BGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       0,
+       4,
+       3,
+       2,
+       2,
+       0,
+       4,
+       0,
+       4,
+       5,
+       4,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       0,
+       0,
+       4,
+       3,
+       2,
+       2,
+       0,
+       4,
+       0,
+       4,
+       5,
+       4,
+       4,
+       3,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1,
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       0,
+       4,
+       3,
+       2,
+       2,
+       0,
+       4,
+       0,
+       4,
+       5,
+       4,
+       4,
+       3,
+       5,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-04",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    0,
+    3,
+    0,
+    4,
+    2,
+    1,
+    1,
+    5,
+    6,
+    0,
+    2,
+    3,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "G......",
+    "BBBG..B",
+    "BGBGGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       3,
+       0,
+       4,
+       2,
+       1,
+       1,
+       5,
+       6,
+       0,
+       2,
+       3,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       3,
+       0,
+       4,
+       2,
+       1,
+       1,
+       5,
+       6,
+       0,
+       2,
+       3,
+       6,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       3,
+       0,
+       4,
+       2,
+       1,
+       1,
+       5,
+       6,
+       0,
+       2,
+       3,
+       6,
+       3,
+       3,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-05",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    1,
+    5,
+    5,
+    2,
+    2,
+    4,
+    3,
+    0,
+    6,
+    5,
+    4,
+    3,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".....G.",
+    "..BGBBB",
+    "GBGBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       5,
+       5,
+       2,
+       2,
+       4,
+       3,
+       0,
+       6,
+       5,
+       4,
+       3,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       1,
+       5,
+       5,
+       2,
+       2,
+       4,
+       3,
+       0,
+       6,
+       5,
+       4,
+       3,
+       6,
+       4,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       5,
+       5,
+       2,
+       2,
+       4,
+       3,
+       0,
+       6,
+       5,
+       4,
+       3,
+       6,
+       4,
+       5,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-06",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    1,
+    6,
+    6,
+    2,
+    3,
+    6,
+    6,
+    4,
+    4,
+    0,
+    1,
+    6,
+    6,
+    0
+   ],
+   "bild": [
+    "......G",
+    "......B",
+    "......G",
+    "......B",
+    "BG..G.G",
+    "BGBGB.B"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       6,
+       6,
+       2,
+       3,
+       6,
+       6,
+       4,
+       4,
+       0,
+       1,
+       6,
+       6,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       1,
+       6,
+       6,
+       2,
+       3,
+       6,
+       6,
+       4,
+       4,
+       0,
+       1,
+       6,
+       6,
+       0,
+       3,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       6,
+       6,
+       2,
+       3,
+       6,
+       6,
+       4,
+       4,
+       0,
+       1,
+       6,
+       6,
+       0,
+       3,
+       2,
+       5,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-07",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    3,
+    1,
+    0,
+    0,
+    6,
+    0,
+    4,
+    5,
+    3,
+    5,
+    4,
+    6,
+    4,
+    4
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "....B..",
+    "B...G..",
+    "B..GGBB",
+    "GB.GGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       1,
+       0,
+       0,
+       6,
+       0,
+       4,
+       5,
+       3,
+       5,
+       4,
+       6,
+       4,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       1,
+       0,
+       0,
+       6,
+       0,
+       4,
+       5,
+       3,
+       5,
+       4,
+       6,
+       4,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       1,
+       0,
+       0,
+       6,
+       0,
+       4,
+       5,
+       3,
+       5,
+       4,
+       6,
+       4,
+       4,
+       3,
+       3,
+       5,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-08",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    2,
+    0,
+    1,
+    3,
+    1,
+    3,
+    1,
+    1,
+    0,
+    4,
+    0,
+    1,
+    5,
+    3,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".G.....",
+    ".G.B...",
+    "BB.G...",
+    "BB.G...",
+    "GBBGGB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       0,
+       1,
+       3,
+       1,
+       3,
+       1,
+       1,
+       0,
+       4,
+       0,
+       1,
+       5,
+       3,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       2,
+       0,
+       1,
+       3,
+       1,
+       3,
+       1,
+       1,
+       0,
+       4,
+       0,
+       1,
+       5,
+       3,
+       3,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       0,
+       1,
+       3,
+       1,
+       3,
+       1,
+       1,
+       0,
+       4,
+       0,
+       1,
+       5,
+       3,
+       3,
+       2,
+       2,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       5
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-09",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    3,
+    3,
+    1,
+    1,
+    4,
+    2,
+    5,
+    6,
+    6,
+    4,
+    2,
+    0,
+    6,
+    4,
+    5
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "....G.B",
+    ".GBGGBB",
+    "GBGBBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       3,
+       1,
+       1,
+       4,
+       2,
+       5,
+       6,
+       6,
+       4,
+       2,
+       0,
+       6,
+       4,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       3,
+       3,
+       1,
+       1,
+       4,
+       2,
+       5,
+       6,
+       6,
+       4,
+       2,
+       0,
+       6,
+       4,
+       5,
+       5,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       3,
+       1,
+       1,
+       4,
+       2,
+       5,
+       6,
+       6,
+       4,
+       2,
+       0,
+       6,
+       4,
+       5,
+       5,
+       5,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-10",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    6,
+    0,
+    5,
+    3,
+    3,
+    3,
+    2,
+    6,
+    5,
+    5,
+    3,
+    2,
+    1,
+    2,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "...B...",
+    "..GG.G.",
+    ".BGB.BG",
+    "GBBG.BB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       0,
+       5,
+       3,
+       3,
+       3,
+       2,
+       6,
+       5,
+       5,
+       3,
+       2,
+       1,
+       2,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       0,
+       5,
+       3,
+       3,
+       3,
+       2,
+       6,
+       5,
+       5,
+       3,
+       2,
+       1,
+       2,
+       1,
+       1,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       0
+      ],
+      "gespielt": 0,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       0,
+       5,
+       3,
+       3,
+       3,
+       2,
+       6,
+       5,
+       5,
+       3,
+       2,
+       1,
+       2,
+       1,
+       1,
+       3,
+       0,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0
+      ],
+      "gespielt": 0,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-11",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    3,
+    4,
+    3,
+    5,
+    3,
+    3,
+    1,
+    4,
+    1,
+    0,
+    3,
+    6,
+    6,
+    5,
+    4,
+    6
+   ],
+   "bild": [
+    ".......",
+    "...G...",
+    "...B...",
+    "...GG.B",
+    ".G.GBBG",
+    "BG.GBBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       4,
+       3,
+       5,
+       3,
+       3,
+       1,
+       4,
+       1,
+       0,
+       3,
+       6,
+       6,
+       5,
+       4,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       3,
+       4,
+       3,
+       5,
+       3,
+       3,
+       1,
+       4,
+       1,
+       0,
+       3,
+       6,
+       6,
+       5,
+       4,
+       6,
+       4,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       4,
+       3,
+       5,
+       3,
+       3,
+       1,
+       4,
+       1,
+       0,
+       3,
+       6,
+       6,
+       5,
+       4,
+       6,
+       4,
+       5,
+       5,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-12",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    4,
+    6,
+    1,
+    3,
+    5,
+    5,
+    2,
+    2,
+    6,
+    1,
+    1,
+    3,
+    4,
+    0,
+    0,
+    5
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".G...B.",
+    "GBBBGBG",
+    "BGGBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       6,
+       1,
+       3,
+       5,
+       5,
+       2,
+       2,
+       6,
+       1,
+       1,
+       3,
+       4,
+       0,
+       0,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       4,
+       6,
+       1,
+       3,
+       5,
+       5,
+       2,
+       2,
+       6,
+       1,
+       1,
+       3,
+       4,
+       0,
+       0,
+       5,
+       4,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       6,
+       1,
+       3,
+       5,
+       5,
+       2,
+       2,
+       6,
+       1,
+       1,
+       3,
+       4,
+       0,
+       0,
+       5,
+       4,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-13",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    5,
+    2,
+    1,
+    4,
+    5,
+    1,
+    0,
+    2,
+    4,
+    1,
+    4,
+    6,
+    0,
+    3,
+    6,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".B..G..",
+    "GBBBGGG",
+    "GGBBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       2,
+       1,
+       4,
+       5,
+       1,
+       0,
+       2,
+       4,
+       1,
+       4,
+       6,
+       0,
+       3,
+       6,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       5,
+       2,
+       1,
+       4,
+       5,
+       1,
+       0,
+       2,
+       4,
+       1,
+       4,
+       6,
+       0,
+       3,
+       6,
+       3,
+       5,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       2,
+       1,
+       4,
+       5,
+       1,
+       0,
+       2,
+       4,
+       1,
+       4,
+       6,
+       0,
+       3,
+       6,
+       3,
+       5,
+       5,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-14",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    5,
+    4,
+    2,
+    4,
+    0,
+    1,
+    6,
+    1,
+    2,
+    6,
+    2,
+    2,
+    3,
+    5,
+    3,
+    2
+   ],
+   "bild": [
+    ".......",
+    "..B....",
+    "..B....",
+    "..G....",
+    ".BGGBBB",
+    "GBGGBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       4,
+       2,
+       4,
+       0,
+       1,
+       6,
+       1,
+       2,
+       6,
+       2,
+       2,
+       3,
+       5,
+       3,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       2,
+       4,
+       0,
+       1,
+       6,
+       1,
+       2,
+       6,
+       2,
+       2,
+       3,
+       5,
+       3,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       2,
+       4,
+       0,
+       1,
+       6,
+       1,
+       2,
+       6,
+       2,
+       2,
+       3,
+       5,
+       3,
+       2,
+       3,
+       3,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       5
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-15",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    6,
+    2,
+    2,
+    3,
+    2,
+    6,
+    5,
+    2,
+    5,
+    6,
+    3,
+    2,
+    5,
+    5,
+    0,
+    0
+   ],
+   "bild": [
+    ".......",
+    "..B....",
+    "..B..B.",
+    "..G..GB",
+    "B.GG.GB",
+    "G.BB.GG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       2,
+       2,
+       3,
+       2,
+       6,
+       5,
+       2,
+       5,
+       6,
+       3,
+       2,
+       5,
+       5,
+       0,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       6,
+       2,
+       2,
+       3,
+       2,
+       6,
+       5,
+       2,
+       5,
+       6,
+       3,
+       2,
+       5,
+       5,
+       0,
+       0,
+       4,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       2,
+       2,
+       3,
+       2,
+       6,
+       5,
+       2,
+       5,
+       6,
+       3,
+       2,
+       5,
+       5,
+       0,
+       0,
+       4,
+       4,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-16",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    3,
+    2,
+    2,
+    3,
+    1,
+    1,
+    6,
+    3,
+    1,
+    1,
+    4,
+    5,
+    4,
+    3,
+    3,
+    2,
+    0
+   ],
+   "bild": [
+    ".......",
+    "...B...",
+    ".G.G...",
+    ".BGG...",
+    ".GBGB..",
+    "BBGBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       2,
+       2,
+       3,
+       1,
+       1,
+       6,
+       3,
+       1,
+       1,
+       4,
+       5,
+       4,
+       3,
+       3,
+       2,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       2,
+       2,
+       3,
+       1,
+       1,
+       6,
+       3,
+       1,
+       1,
+       4,
+       5,
+       4,
+       3,
+       3,
+       2,
+       0,
+       2,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       3,
+       2,
+       2,
+       3,
+       1,
+       1,
+       6,
+       3,
+       1,
+       1,
+       4,
+       5,
+       4,
+       3,
+       3,
+       2,
+       0,
+       2,
+       3,
+       4,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-17",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    4,
+    4,
+    6,
+    0,
+    1,
+    2,
+    2,
+    2,
+    2,
+    6,
+    4,
+    3,
+    3,
+    2,
+    1,
+    0,
+    5,
+    6
+   ],
+   "bild": [
+    ".......",
+    "..B....",
+    "..G....",
+    "..B.G.B",
+    "BGGGB.B",
+    "BGBBGGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       4,
+       6,
+       0,
+       1,
+       2,
+       2,
+       2,
+       2,
+       6,
+       4,
+       3,
+       3,
+       2,
+       1,
+       0,
+       5,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       4,
+       4,
+       6,
+       0,
+       1,
+       2,
+       2,
+       2,
+       2,
+       6,
+       4,
+       3,
+       3,
+       2,
+       1,
+       0,
+       5,
+       6,
+       3,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       4,
+       6,
+       0,
+       1,
+       2,
+       2,
+       2,
+       2,
+       6,
+       4,
+       3,
+       3,
+       2,
+       1,
+       0,
+       5,
+       6,
+       3,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-18",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    6,
+    3,
+    4,
+    1,
+    4,
+    6,
+    4,
+    4,
+    2,
+    4,
+    5,
+    1,
+    3,
+    0,
+    4,
+    5,
+    5,
+    5
+   ],
+   "bild": [
+    "....G..",
+    "....B..",
+    "....BB.",
+    "....GG.",
+    ".B.GGBB",
+    "BBGBGGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       3,
+       4,
+       1,
+       4,
+       6,
+       4,
+       4,
+       2,
+       4,
+       5,
+       1,
+       3,
+       0,
+       4,
+       5,
+       5,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 6
+     },
+     {
+      "zuege": [
+       6,
+       3,
+       4,
+       1,
+       4,
+       6,
+       4,
+       4,
+       2,
+       4,
+       5,
+       1,
+       3,
+       0,
+       4,
+       5,
+       5,
+       5,
+       3,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       3,
+       4,
+       1,
+       4,
+       6,
+       4,
+       4,
+       2,
+       4,
+       5,
+       1,
+       3,
+       0,
+       4,
+       5,
+       5,
+       5,
+       3,
+       6,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-19",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    6,
+    5,
+    3,
+    6,
+    5,
+    2,
+    5,
+    5,
+    6,
+    4,
+    2,
+    5,
+    6,
+    4,
+    2,
+    5,
+    2,
+    2
+   ],
+   "bild": [
+    ".....B.",
+    "..B..B.",
+    "..G..BG",
+    "..G..GG",
+    "..G.BGB",
+    "..BGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       5,
+       3,
+       6,
+       5,
+       2,
+       5,
+       5,
+       6,
+       4,
+       2,
+       5,
+       6,
+       4,
+       2,
+       5,
+       2,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       3,
+       6,
+       5,
+       2,
+       5,
+       5,
+       6,
+       4,
+       2,
+       5,
+       6,
+       4,
+       2,
+       5,
+       2,
+       2,
+       4,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       3,
+       6,
+       5,
+       2,
+       5,
+       5,
+       6,
+       4,
+       2,
+       5,
+       6,
+       4,
+       2,
+       5,
+       2,
+       2,
+       4,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-20",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    1,
+    2,
+    0,
+    3,
+    6,
+    0,
+    6,
+    3,
+    2,
+    4,
+    5,
+    3,
+    3,
+    1,
+    2,
+    6,
+    0,
+    4,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "B..B...",
+    "B.BG..G",
+    "GGBGG.B",
+    "BBGGGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       2,
+       0,
+       3,
+       6,
+       0,
+       6,
+       3,
+       2,
+       4,
+       5,
+       3,
+       3,
+       1,
+       2,
+       6,
+       0,
+       4,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       0,
+       3,
+       6,
+       0,
+       6,
+       3,
+       2,
+       4,
+       5,
+       3,
+       3,
+       1,
+       2,
+       6,
+       0,
+       4,
+       0,
+       4,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       0,
+       3,
+       6,
+       0,
+       6,
+       3,
+       2,
+       4,
+       5,
+       3,
+       3,
+       1,
+       2,
+       6,
+       0,
+       4,
+       0,
+       4,
+       4,
+       5,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-21",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    5,
+    3,
+    4,
+    5,
+    6,
+    3,
+    5,
+    0,
+    2,
+    6,
+    4,
+    3,
+    3,
+    1,
+    3,
+    4,
+    3,
+    2,
+    4
+   ],
+   "bild": [
+    "...B...",
+    "...B...",
+    "...BB..",
+    "...GGB.",
+    "..GGBGG",
+    "GGBGBBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       3,
+       4,
+       5,
+       6,
+       3,
+       5,
+       0,
+       2,
+       6,
+       4,
+       3,
+       3,
+       1,
+       3,
+       4,
+       3,
+       2,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 0
+     },
+     {
+      "zuege": [
+       5,
+       3,
+       4,
+       5,
+       6,
+       3,
+       5,
+       0,
+       2,
+       6,
+       4,
+       3,
+       3,
+       1,
+       3,
+       4,
+       3,
+       2,
+       4,
+       1,
+       0
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       3,
+       4,
+       5,
+       6,
+       3,
+       5,
+       0,
+       2,
+       6,
+       4,
+       3,
+       3,
+       1,
+       3,
+       4,
+       3,
+       2,
+       4,
+       1,
+       0,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-22",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    6,
+    5,
+    0,
+    1,
+    6,
+    2,
+    5,
+    4,
+    3,
+    1,
+    6,
+    6,
+    6,
+    2,
+    4,
+    3,
+    0,
+    1,
+    1
+   ],
+   "bild": [
+    ".......",
+    "......B",
+    ".B....G",
+    ".G....B",
+    "BGGGBBB",
+    "BGGBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       5,
+       0,
+       1,
+       6,
+       2,
+       5,
+       4,
+       3,
+       1,
+       6,
+       6,
+       6,
+       2,
+       4,
+       3,
+       0,
+       1,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       0,
+       1,
+       6,
+       2,
+       5,
+       4,
+       3,
+       1,
+       6,
+       6,
+       6,
+       2,
+       4,
+       3,
+       0,
+       1,
+       1,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       0,
+       1,
+       6,
+       2,
+       5,
+       4,
+       3,
+       1,
+       6,
+       6,
+       6,
+       2,
+       4,
+       3,
+       0,
+       1,
+       1,
+       2,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-23",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    0,
+    6,
+    0,
+    3,
+    2,
+    2,
+    1,
+    5,
+    4,
+    6,
+    2,
+    4,
+    2,
+    4,
+    2,
+    2,
+    3,
+    6,
+    6,
+    3
+   ],
+   "bild": [
+    "..B....",
+    "..G....",
+    "..G...G",
+    "..GBB.B",
+    "G.BGB.B",
+    "GGGBGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       6,
+       0,
+       3,
+       2,
+       2,
+       1,
+       5,
+       4,
+       6,
+       2,
+       4,
+       2,
+       4,
+       2,
+       2,
+       3,
+       6,
+       6,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       0,
+       6,
+       0,
+       3,
+       2,
+       2,
+       1,
+       5,
+       4,
+       6,
+       2,
+       4,
+       2,
+       4,
+       2,
+       2,
+       3,
+       6,
+       6,
+       3,
+       3,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1,
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       6,
+       0,
+       3,
+       2,
+       2,
+       1,
+       5,
+       4,
+       6,
+       2,
+       4,
+       2,
+       4,
+       2,
+       2,
+       3,
+       6,
+       6,
+       3,
+       3,
+       1,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-24",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    4,
+    3,
+    3,
+    0,
+    5,
+    6,
+    0,
+    6,
+    3,
+    5,
+    4,
+    2,
+    1,
+    4,
+    3,
+    3,
+    5,
+    4,
+    2,
+    1
+   ],
+   "bild": [
+    ".......",
+    "...B...",
+    "...GB..",
+    "...GBG.",
+    "GBGGGBB",
+    "BGBBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       3,
+       3,
+       0,
+       5,
+       6,
+       0,
+       6,
+       3,
+       5,
+       4,
+       2,
+       1,
+       4,
+       3,
+       3,
+       5,
+       4,
+       2,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       4,
+       3,
+       3,
+       0,
+       5,
+       6,
+       0,
+       6,
+       3,
+       5,
+       4,
+       2,
+       1,
+       4,
+       3,
+       3,
+       5,
+       4,
+       2,
+       1,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       0,
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       3,
+       3,
+       0,
+       5,
+       6,
+       0,
+       6,
+       3,
+       5,
+       4,
+       2,
+       1,
+       4,
+       3,
+       3,
+       5,
+       4,
+       2,
+       1,
+       2,
+       2,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-25",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    4,
+    1,
+    1,
+    0,
+    0,
+    1,
+    5,
+    3,
+    2,
+    3,
+    6,
+    6,
+    2,
+    1,
+    6,
+    2,
+    4,
+    5,
+    4,
+    4,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".G..G..",
+    "BGG.B.B",
+    "BBBGBGG",
+    "GGBGBBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       1,
+       1,
+       0,
+       0,
+       1,
+       5,
+       3,
+       2,
+       3,
+       6,
+       6,
+       2,
+       1,
+       6,
+       2,
+       4,
+       5,
+       4,
+       4,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       1,
+       1,
+       0,
+       0,
+       1,
+       5,
+       3,
+       2,
+       3,
+       6,
+       6,
+       2,
+       1,
+       6,
+       2,
+       4,
+       5,
+       4,
+       4,
+       0,
+       5,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       1,
+       1,
+       0,
+       0,
+       1,
+       5,
+       3,
+       2,
+       3,
+       6,
+       6,
+       2,
+       1,
+       6,
+       2,
+       4,
+       5,
+       4,
+       4,
+       0,
+       5,
+       3,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-26",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    5,
+    5,
+    6,
+    1,
+    2,
+    1,
+    0,
+    5,
+    5,
+    6,
+    6,
+    0,
+    3,
+    4,
+    1,
+    4,
+    3,
+    4,
+    4,
+    4
+   ],
+   "bild": [
+    ".......",
+    "....B..",
+    "B...GG.",
+    "GG..BBG",
+    "BB.GBBB",
+    "GBGGBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       0,
+       5,
+       5,
+       6,
+       1,
+       2,
+       1,
+       0,
+       5,
+       5,
+       6,
+       6,
+       0,
+       3,
+       4,
+       1,
+       4,
+       3,
+       4,
+       4,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       0,
+       5,
+       5,
+       6,
+       1,
+       2,
+       1,
+       0,
+       5,
+       5,
+       6,
+       6,
+       0,
+       3,
+       4,
+       1,
+       4,
+       3,
+       4,
+       4,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       0,
+       5,
+       5,
+       6,
+       1,
+       2,
+       1,
+       0,
+       5,
+       5,
+       6,
+       6,
+       0,
+       3,
+       4,
+       1,
+       4,
+       3,
+       4,
+       4,
+       4,
+       3,
+       3,
+       5,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-27",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    1,
+    2,
+    2,
+    6,
+    5,
+    0,
+    1,
+    5,
+    3,
+    1,
+    1,
+    6,
+    6,
+    2,
+    2,
+    6,
+    1,
+    0,
+    0,
+    5,
+    5,
+    4,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".B.....",
+    "BBB..BG",
+    "BGG..GB",
+    "GBB..GG",
+    "GBGBGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       2,
+       2,
+       6,
+       5,
+       0,
+       1,
+       5,
+       3,
+       1,
+       1,
+       6,
+       6,
+       2,
+       2,
+       6,
+       1,
+       0,
+       0,
+       5,
+       5,
+       4,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       2,
+       6,
+       5,
+       0,
+       1,
+       5,
+       3,
+       1,
+       1,
+       6,
+       6,
+       2,
+       2,
+       6,
+       1,
+       0,
+       0,
+       5,
+       5,
+       4,
+       0,
+       4,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       2,
+       6,
+       5,
+       0,
+       1,
+       5,
+       3,
+       1,
+       1,
+       6,
+       6,
+       2,
+       2,
+       6,
+       1,
+       0,
+       0,
+       5,
+       5,
+       4,
+       0,
+       4,
+       3,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3,
+       4
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-28",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    3,
+    2,
+    6,
+    0,
+    1,
+    6,
+    0,
+    6,
+    3,
+    0,
+    4,
+    5,
+    0,
+    6,
+    6,
+    3,
+    4,
+    3,
+    4,
+    4,
+    0,
+    2,
+    2
+   ],
+   "bild": [
+    ".......",
+    "B.....B",
+    "B..GG.G",
+    "G.BGB.G",
+    "B.GBB.G",
+    "GBGBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       2,
+       6,
+       0,
+       1,
+       6,
+       0,
+       6,
+       3,
+       0,
+       4,
+       5,
+       0,
+       6,
+       6,
+       3,
+       4,
+       3,
+       4,
+       4,
+       0,
+       2,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       2,
+       6,
+       0,
+       1,
+       6,
+       0,
+       6,
+       3,
+       0,
+       4,
+       5,
+       0,
+       6,
+       6,
+       3,
+       4,
+       3,
+       4,
+       4,
+       0,
+       2,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       3,
+       2,
+       6,
+       0,
+       1,
+       6,
+       0,
+       6,
+       3,
+       0,
+       4,
+       5,
+       0,
+       6,
+       6,
+       3,
+       4,
+       3,
+       4,
+       4,
+       0,
+       2,
+       2,
+       3,
+       3,
+       5,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-29",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    3,
+    4,
+    4,
+    3,
+    4,
+    4,
+    0,
+    3,
+    3,
+    1,
+    1,
+    6,
+    5,
+    6,
+    5,
+    4,
+    3,
+    6,
+    6,
+    5,
+    1,
+    0,
+    3
+   ],
+   "bild": [
+    "...B...",
+    "...BG..",
+    "...BG.B",
+    ".B.GBGG",
+    "GB.GBBG",
+    "BG.BGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       4,
+       4,
+       3,
+       4,
+       4,
+       0,
+       3,
+       3,
+       1,
+       1,
+       6,
+       5,
+       6,
+       5,
+       4,
+       3,
+       6,
+       6,
+       5,
+       1,
+       0,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       3,
+       4,
+       4,
+       3,
+       4,
+       4,
+       0,
+       3,
+       3,
+       1,
+       1,
+       6,
+       5,
+       6,
+       5,
+       4,
+       3,
+       6,
+       6,
+       5,
+       1,
+       0,
+       3,
+       1,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       3,
+       4,
+       4,
+       3,
+       4,
+       4,
+       0,
+       3,
+       3,
+       1,
+       1,
+       6,
+       5,
+       6,
+       5,
+       4,
+       3,
+       6,
+       6,
+       5,
+       1,
+       0,
+       3,
+       1,
+       4,
+       2,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k3-30",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    2,
+    4,
+    2,
+    6,
+    4,
+    0,
+    0,
+    6,
+    3,
+    5,
+    0,
+    3,
+    6,
+    5,
+    3,
+    2,
+    0,
+    0,
+    4,
+    5,
+    5,
+    6,
+    5,
+    4,
+    2,
+    0,
+    6,
+    4,
+    4,
+    1
+   ],
+   "bild": [
+    "B...G..",
+    "B...BGG",
+    "G.G.BGB",
+    "G.BGGBG",
+    "G.GBGBB",
+    "BBGGBBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       4,
+       2,
+       6,
+       4,
+       0,
+       0,
+       6,
+       3,
+       5,
+       0,
+       3,
+       6,
+       5,
+       3,
+       2,
+       0,
+       0,
+       4,
+       5,
+       5,
+       6,
+       5,
+       4,
+       2,
+       0,
+       6,
+       4,
+       4,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       2,
+       6,
+       4,
+       0,
+       0,
+       6,
+       3,
+       5,
+       0,
+       3,
+       6,
+       5,
+       3,
+       2,
+       0,
+       0,
+       4,
+       5,
+       5,
+       6,
+       5,
+       4,
+       2,
+       0,
+       6,
+       4,
+       4,
+       1,
+       1,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       2,
+       6,
+       4,
+       0,
+       0,
+       6,
+       3,
+       5,
+       0,
+       3,
+       6,
+       5,
+       3,
+       2,
+       0,
+       0,
+       4,
+       5,
+       5,
+       6,
+       5,
+       4,
+       2,
+       0,
+       6,
+       4,
+       4,
+       1,
+       1,
+       1,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-01",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    6,
+    6,
+    6,
+    3,
+    3,
+    4,
+    3,
+    4,
+    2,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "...G..G",
+    "...GB.B",
+    "B.GBB.G"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       6,
+       6,
+       3,
+       3,
+       4,
+       3,
+       4,
+       2,
+       0
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       6,
+       6,
+       3,
+       3,
+       4,
+       3,
+       4,
+       2,
+       0,
+       3,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       6,
+       6,
+       3,
+       3,
+       4,
+       3,
+       4,
+       2,
+       0,
+       3,
+       3,
+       4,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       6,
+       6,
+       6,
+       3,
+       3,
+       4,
+       3,
+       4,
+       2,
+       0,
+       3,
+       3,
+       4,
+       3,
+       5,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-02",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    0,
+    3,
+    6,
+    6,
+    6,
+    2,
+    1,
+    4,
+    5,
+    3,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "......B",
+    "..BG..G",
+    "BBGGGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       3,
+       6,
+       6,
+       6,
+       2,
+       1,
+       4,
+       5,
+       3,
+       2
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       0,
+       3,
+       6,
+       6,
+       6,
+       2,
+       1,
+       4,
+       5,
+       3,
+       2,
+       4,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 6
+     },
+     {
+      "zuege": [
+       0,
+       3,
+       6,
+       6,
+       6,
+       2,
+       1,
+       4,
+       5,
+       3,
+       2,
+       4,
+       5,
+       5,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       3,
+       6,
+       6,
+       6,
+       2,
+       1,
+       4,
+       5,
+       3,
+       2,
+       4,
+       5,
+       5,
+       6,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4,
+       5
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-03",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    6,
+    3,
+    1,
+    3,
+    2,
+    1,
+    1,
+    5,
+    5,
+    4,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".B.....",
+    ".G.G.BB",
+    ".BBGGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       3,
+       1,
+       3,
+       2,
+       1,
+       1,
+       5,
+       5,
+       4,
+       6
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       6,
+       3,
+       1,
+       3,
+       2,
+       1,
+       1,
+       5,
+       5,
+       4,
+       6,
+       4,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       6,
+       3,
+       1,
+       3,
+       2,
+       1,
+       1,
+       5,
+       5,
+       4,
+       6,
+       4,
+       2,
+       2,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       3,
+       1,
+       3,
+       2,
+       1,
+       1,
+       5,
+       5,
+       4,
+       6,
+       4,
+       2,
+       2,
+       1,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-04",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    6,
+    3,
+    2,
+    2,
+    1,
+    0,
+    4,
+    4,
+    0,
+    3,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "BBGGG..",
+    "GBBGB.B"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       3,
+       2,
+       2,
+       1,
+       0,
+       4,
+       4,
+       0,
+       3,
+       1
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       3,
+       2,
+       2,
+       1,
+       0,
+       4,
+       4,
+       0,
+       3,
+       1,
+       3,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       3,
+       2,
+       2,
+       1,
+       0,
+       4,
+       4,
+       0,
+       3,
+       1,
+       3,
+       3,
+       1,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       0,
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       3,
+       2,
+       2,
+       1,
+       0,
+       4,
+       4,
+       0,
+       3,
+       1,
+       3,
+       3,
+       1,
+       3,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-05",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    1,
+    2,
+    6,
+    4,
+    5,
+    2,
+    3,
+    1,
+    5,
+    2,
+    2,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "..G....",
+    "..B....",
+    ".BB..G.",
+    "BGBGBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       2,
+       6,
+       4,
+       5,
+       2,
+       3,
+       1,
+       5,
+       2,
+       2,
+       0
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 6
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       6,
+       4,
+       5,
+       2,
+       3,
+       1,
+       5,
+       2,
+       2,
+       0,
+       4,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       6,
+       4,
+       5,
+       2,
+       3,
+       1,
+       5,
+       2,
+       2,
+       0,
+       4,
+       6,
+       4,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       6,
+       4,
+       5,
+       2,
+       3,
+       1,
+       5,
+       2,
+       2,
+       0,
+       4,
+       6,
+       4,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-06",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    0,
+    5,
+    4,
+    1,
+    5,
+    4,
+    3,
+    0,
+    1,
+    4,
+    3,
+    4,
+    4
+   ],
+   "bild": [
+    ".......",
+    "....B..",
+    "....G..",
+    "....G..",
+    "GB.BGB.",
+    "BG.BBG."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       5,
+       4,
+       1,
+       5,
+       4,
+       3,
+       0,
+       1,
+       4,
+       3,
+       4,
+       4
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       5,
+       4,
+       1,
+       5,
+       4,
+       3,
+       0,
+       1,
+       4,
+       3,
+       4,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1,
+       2,
+       5
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       0,
+       5,
+       4,
+       1,
+       5,
+       4,
+       3,
+       0,
+       1,
+       4,
+       3,
+       4,
+       4,
+       3,
+       3,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       5,
+       4,
+       1,
+       5,
+       4,
+       3,
+       0,
+       1,
+       4,
+       3,
+       4,
+       4,
+       3,
+       3,
+       2,
+       2,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       2,
+       5
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-07",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    6,
+    1,
+    4,
+    4,
+    0,
+    4,
+    2,
+    5,
+    5,
+    2,
+    6,
+    3,
+    4
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "....B..",
+    "....G..",
+    "..G.GBB",
+    "BGBGBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       1,
+       4,
+       4,
+       0,
+       4,
+       2,
+       5,
+       5,
+       2,
+       6,
+       3,
+       4
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       6,
+       1,
+       4,
+       4,
+       0,
+       4,
+       2,
+       5,
+       5,
+       2,
+       6,
+       3,
+       4,
+       3,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       1,
+       4,
+       4,
+       0,
+       4,
+       2,
+       5,
+       5,
+       2,
+       6,
+       3,
+       4,
+       3,
+       1,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       1,
+       4,
+       4,
+       0,
+       4,
+       2,
+       5,
+       5,
+       2,
+       6,
+       3,
+       4,
+       3,
+       1,
+       3,
+       3,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       2,
+       5
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-08",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    0,
+    2,
+    5,
+    2,
+    2,
+    1,
+    5,
+    6,
+    1,
+    3,
+    4,
+    6,
+    4,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "..G....",
+    "BGB.GGB",
+    "GBBBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       2,
+       5,
+       2,
+       2,
+       1,
+       5,
+       6,
+       1,
+       3,
+       4,
+       6,
+       4,
+       0
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 6
+     },
+     {
+      "zuege": [
+       0,
+       2,
+       5,
+       2,
+       2,
+       1,
+       5,
+       6,
+       1,
+       3,
+       4,
+       6,
+       4,
+       0,
+       2,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       0,
+       2,
+       5,
+       2,
+       2,
+       1,
+       5,
+       6,
+       1,
+       3,
+       4,
+       6,
+       4,
+       0,
+       2,
+       6,
+       6,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       2,
+       5,
+       2,
+       2,
+       1,
+       5,
+       6,
+       1,
+       3,
+       4,
+       6,
+       4,
+       0,
+       2,
+       6,
+       6,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-09",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    4,
+    1,
+    4,
+    4,
+    2,
+    5,
+    0,
+    3,
+    3,
+    4,
+    5,
+    2,
+    3,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "....B..",
+    "...GB..",
+    "B.BGGG.",
+    "GBGBGB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       1,
+       4,
+       4,
+       2,
+       5,
+       0,
+       3,
+       3,
+       4,
+       5,
+       2,
+       3,
+       0
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       1,
+       4,
+       4,
+       2,
+       5,
+       0,
+       3,
+       3,
+       4,
+       5,
+       2,
+       3,
+       0,
+       3,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       4,
+       1,
+       4,
+       4,
+       2,
+       5,
+       0,
+       3,
+       3,
+       4,
+       5,
+       2,
+       3,
+       0,
+       3,
+       3,
+       2,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       0,
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       1,
+       4,
+       4,
+       2,
+       5,
+       0,
+       3,
+       3,
+       4,
+       5,
+       2,
+       3,
+       0,
+       3,
+       3,
+       2,
+       1,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-10",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    4,
+    6,
+    6,
+    3,
+    3,
+    5,
+    0,
+    6,
+    0,
+    5,
+    1,
+    1,
+    1,
+    0,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "GB....G",
+    "BG.B.GB",
+    "BBBGBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       6,
+       6,
+       3,
+       3,
+       5,
+       0,
+       6,
+       0,
+       5,
+       1,
+       1,
+       1,
+       0,
+       2
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       4,
+       6,
+       6,
+       3,
+       3,
+       5,
+       0,
+       6,
+       0,
+       5,
+       1,
+       1,
+       1,
+       0,
+       2,
+       5,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       4,
+       6,
+       6,
+       3,
+       3,
+       5,
+       0,
+       6,
+       0,
+       5,
+       1,
+       1,
+       1,
+       0,
+       2,
+       5,
+       5,
+       6,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       6,
+       6,
+       3,
+       3,
+       5,
+       0,
+       6,
+       0,
+       5,
+       1,
+       1,
+       1,
+       0,
+       2,
+       5,
+       5,
+       6,
+       4,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-11",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    0,
+    5,
+    0,
+    5,
+    3,
+    6,
+    2,
+    1,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    1,
+    4
+   ],
+   "bild": [
+    ".......",
+    "G......",
+    "B.B....",
+    "G.G....",
+    "GGB..B.",
+    "GBGGBBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       5,
+       0,
+       5,
+       3,
+       6,
+       2,
+       1,
+       0,
+       0,
+       0,
+       2,
+       2,
+       2,
+       1,
+       4
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       0,
+       5,
+       0,
+       5,
+       3,
+       6,
+       2,
+       1,
+       0,
+       0,
+       0,
+       2,
+       2,
+       2,
+       1,
+       4,
+       3,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       0,
+       5,
+       0,
+       5,
+       3,
+       6,
+       2,
+       1,
+       0,
+       0,
+       0,
+       2,
+       2,
+       2,
+       1,
+       4,
+       3,
+       5,
+       5,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1,
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       5,
+       0,
+       5,
+       3,
+       6,
+       2,
+       1,
+       0,
+       0,
+       0,
+       2,
+       2,
+       2,
+       1,
+       4,
+       3,
+       5,
+       5,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-12",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    1,
+    5,
+    5,
+    3,
+    6,
+    6,
+    1,
+    6,
+    4,
+    2,
+    1,
+    1,
+    6,
+    4,
+    2,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".B....G",
+    ".G....B",
+    ".GG.BGB",
+    "BGBBGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       5,
+       5,
+       3,
+       6,
+       6,
+       1,
+       6,
+       4,
+       2,
+       1,
+       1,
+       6,
+       4,
+       2,
+       0
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       0
+      ],
+      "gespielt": 0,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       5,
+       5,
+       3,
+       6,
+       6,
+       1,
+       6,
+       4,
+       2,
+       1,
+       1,
+       6,
+       4,
+       2,
+       0,
+       0,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3,
+       4
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       5,
+       5,
+       3,
+       6,
+       6,
+       1,
+       6,
+       4,
+       2,
+       1,
+       1,
+       6,
+       4,
+       2,
+       0,
+       0,
+       3,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2,
+       4
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       5,
+       5,
+       3,
+       6,
+       6,
+       1,
+       6,
+       4,
+       2,
+       1,
+       1,
+       6,
+       4,
+       2,
+       0,
+       0,
+       3,
+       3,
+       3,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-13",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    5,
+    4,
+    4,
+    2,
+    4,
+    3,
+    1,
+    4,
+    0,
+    2,
+    1,
+    5,
+    0,
+    6,
+    6,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "....B..",
+    "B...G..",
+    "GGB.GBG",
+    "GGBBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       4,
+       4,
+       2,
+       4,
+       3,
+       1,
+       4,
+       0,
+       2,
+       1,
+       5,
+       0,
+       6,
+       6,
+       0
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       4,
+       2,
+       4,
+       3,
+       1,
+       4,
+       0,
+       2,
+       1,
+       5,
+       0,
+       6,
+       6,
+       0,
+       1,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       4,
+       2,
+       4,
+       3,
+       1,
+       4,
+       0,
+       2,
+       1,
+       5,
+       0,
+       6,
+       6,
+       0,
+       1,
+       1,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       4,
+       2,
+       4,
+       3,
+       1,
+       4,
+       0,
+       2,
+       1,
+       5,
+       0,
+       6,
+       6,
+       0,
+       1,
+       1,
+       2,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-14",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    6,
+    1,
+    3,
+    0,
+    0,
+    6,
+    6,
+    2,
+    4,
+    5,
+    1,
+    6,
+    5,
+    4,
+    0,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "B.....B",
+    "G.....G",
+    "GG..BGB",
+    "BBBGGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       1,
+       3,
+       0,
+       0,
+       6,
+       6,
+       2,
+       4,
+       5,
+       1,
+       6,
+       5,
+       4,
+       0,
+       0
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       6,
+       1,
+       3,
+       0,
+       0,
+       6,
+       6,
+       2,
+       4,
+       5,
+       1,
+       6,
+       5,
+       4,
+       0,
+       0,
+       3,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       1,
+       3,
+       0,
+       0,
+       6,
+       6,
+       2,
+       4,
+       5,
+       1,
+       6,
+       5,
+       4,
+       0,
+       0,
+       3,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       1,
+       3,
+       0,
+       0,
+       6,
+       6,
+       2,
+       4,
+       5,
+       1,
+       6,
+       5,
+       4,
+       0,
+       0,
+       3,
+       2,
+       3,
+       3,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-15",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    6,
+    5,
+    1,
+    5,
+    4,
+    0,
+    4,
+    2,
+    0,
+    3,
+    1,
+    4,
+    2,
+    3,
+    3,
+    4
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "....B..",
+    "...GB..",
+    "GGGBGB.",
+    "BGBBGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       5,
+       1,
+       5,
+       4,
+       0,
+       4,
+       2,
+       0,
+       3,
+       1,
+       4,
+       2,
+       3,
+       3,
+       4
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       1,
+       5,
+       4,
+       0,
+       4,
+       2,
+       0,
+       3,
+       1,
+       4,
+       2,
+       3,
+       3,
+       4,
+       1,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 0
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       1,
+       5,
+       4,
+       0,
+       4,
+       2,
+       0,
+       3,
+       1,
+       4,
+       2,
+       3,
+       3,
+       4,
+       1,
+       1,
+       2,
+       0
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       1,
+       5,
+       4,
+       0,
+       4,
+       2,
+       0,
+       3,
+       1,
+       4,
+       2,
+       3,
+       3,
+       4,
+       1,
+       1,
+       2,
+       0,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       2,
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-16",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    0,
+    4,
+    2,
+    2,
+    6,
+    0,
+    4,
+    3,
+    4,
+    4,
+    5,
+    2,
+    4,
+    6,
+    1,
+    5,
+    5
+   ],
+   "bild": [
+    ".......",
+    "....B..",
+    "....G..",
+    "..G.BB.",
+    "G.G.BGG",
+    "BBBGGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       4,
+       2,
+       2,
+       6,
+       0,
+       4,
+       3,
+       4,
+       4,
+       5,
+       2,
+       4,
+       6,
+       1,
+       5,
+       5
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       0,
+       4,
+       2,
+       2,
+       6,
+       0,
+       4,
+       3,
+       4,
+       4,
+       5,
+       2,
+       4,
+       6,
+       1,
+       5,
+       5,
+       3,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1,
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       4,
+       2,
+       2,
+       6,
+       0,
+       4,
+       3,
+       4,
+       4,
+       5,
+       2,
+       4,
+       6,
+       1,
+       5,
+       5,
+       3,
+       1,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       0,
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       4,
+       2,
+       2,
+       6,
+       0,
+       4,
+       3,
+       4,
+       4,
+       5,
+       2,
+       4,
+       6,
+       1,
+       5,
+       5,
+       3,
+       1,
+       3,
+       3,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-17",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    2,
+    4,
+    0,
+    1,
+    2,
+    2,
+    4,
+    2,
+    3,
+    5,
+    5,
+    3,
+    6,
+    0,
+    5,
+    4,
+    2
+   ],
+   "bild": [
+    ".......",
+    "..B....",
+    "..G....",
+    "..G.GB.",
+    "G.BGBB.",
+    "BGBBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       4,
+       0,
+       1,
+       2,
+       2,
+       4,
+       2,
+       3,
+       5,
+       5,
+       3,
+       6,
+       0,
+       5,
+       4,
+       2
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       0,
+       1,
+       2,
+       2,
+       4,
+       2,
+       3,
+       5,
+       5,
+       3,
+       6,
+       0,
+       5,
+       4,
+       2,
+       3,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       0,
+       1,
+       2,
+       2,
+       4,
+       2,
+       3,
+       5,
+       5,
+       3,
+       6,
+       0,
+       5,
+       4,
+       2,
+       3,
+       5,
+       5,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       0,
+       1,
+       2,
+       2,
+       4,
+       2,
+       3,
+       5,
+       5,
+       3,
+       6,
+       0,
+       5,
+       4,
+       2,
+       3,
+       5,
+       5,
+       3,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-18",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    5,
+    6,
+    3,
+    3,
+    5,
+    0,
+    0,
+    4,
+    1,
+    5,
+    6,
+    1,
+    0,
+    6,
+    5,
+    2,
+    4,
+    5
+   ],
+   "bild": [
+    ".......",
+    ".....B.",
+    ".....G.",
+    "G....BB",
+    "GB.BGGG",
+    "BGBGBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       6,
+       3,
+       3,
+       5,
+       0,
+       0,
+       4,
+       1,
+       5,
+       6,
+       1,
+       0,
+       6,
+       5,
+       2,
+       4,
+       5
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       0
+      ],
+      "gespielt": 0,
+      "verteidigung": 0
+     },
+     {
+      "zuege": [
+       5,
+       6,
+       3,
+       3,
+       5,
+       0,
+       0,
+       4,
+       1,
+       5,
+       6,
+       1,
+       0,
+       6,
+       5,
+       2,
+       4,
+       5,
+       0,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       6,
+       3,
+       3,
+       5,
+       0,
+       0,
+       4,
+       1,
+       5,
+       6,
+       1,
+       0,
+       6,
+       5,
+       2,
+       4,
+       5,
+       0,
+       0,
+       1,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       6,
+       3,
+       3,
+       5,
+       0,
+       0,
+       4,
+       1,
+       5,
+       6,
+       1,
+       0,
+       6,
+       5,
+       2,
+       4,
+       5,
+       0,
+       0,
+       1,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-19",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    6,
+    1,
+    3,
+    1,
+    1,
+    3,
+    1,
+    0,
+    0,
+    3,
+    3,
+    6,
+    2,
+    0,
+    1,
+    1,
+    4,
+    5,
+    5
+   ],
+   "bild": [
+    ".G.....",
+    ".B.....",
+    ".B.B...",
+    "GB.G...",
+    "BG.G.BG",
+    "GGBBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       1,
+       3,
+       1,
+       1,
+       3,
+       1,
+       0,
+       0,
+       3,
+       3,
+       6,
+       2,
+       0,
+       1,
+       1,
+       4,
+       5,
+       5
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       6,
+       1,
+       3,
+       1,
+       1,
+       3,
+       1,
+       0,
+       0,
+       3,
+       3,
+       6,
+       2,
+       0,
+       1,
+       1,
+       4,
+       5,
+       5,
+       2,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       6,
+       1,
+       3,
+       1,
+       1,
+       3,
+       1,
+       0,
+       0,
+       3,
+       3,
+       6,
+       2,
+       0,
+       1,
+       1,
+       4,
+       5,
+       5,
+       2,
+       4,
+       4,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       1,
+       3,
+       1,
+       1,
+       3,
+       1,
+       0,
+       0,
+       3,
+       3,
+       6,
+       2,
+       0,
+       1,
+       1,
+       4,
+       5,
+       5,
+       2,
+       4,
+       4,
+       4,
+       5,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-20",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    5,
+    4,
+    0,
+    5,
+    0,
+    0,
+    5,
+    4,
+    6,
+    5,
+    2,
+    1,
+    0,
+    0,
+    1,
+    5,
+    6,
+    3,
+    0,
+    6,
+    3,
+    2
+   ],
+   "bild": [
+    "G......",
+    "B....B.",
+    "G....B.",
+    "B....GB",
+    "GGBGBBG",
+    "GBGBBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       4,
+       0,
+       5,
+       0,
+       0,
+       5,
+       4,
+       6,
+       5,
+       2,
+       1,
+       0,
+       0,
+       1,
+       5,
+       6,
+       3,
+       0,
+       6,
+       3,
+       2
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       0,
+       5,
+       0,
+       0,
+       5,
+       4,
+       6,
+       5,
+       2,
+       1,
+       0,
+       0,
+       1,
+       5,
+       6,
+       3,
+       0,
+       6,
+       3,
+       2,
+       2,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       0,
+       5,
+       0,
+       0,
+       5,
+       4,
+       6,
+       5,
+       2,
+       1,
+       0,
+       0,
+       1,
+       5,
+       6,
+       3,
+       0,
+       6,
+       3,
+       2,
+       2,
+       4,
+       4,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       0,
+       5,
+       0,
+       0,
+       5,
+       4,
+       6,
+       5,
+       2,
+       1,
+       0,
+       0,
+       1,
+       5,
+       6,
+       3,
+       0,
+       6,
+       3,
+       2,
+       2,
+       4,
+       4,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-21",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    6,
+    2,
+    4,
+    3,
+    1,
+    4,
+    2,
+    4,
+    6,
+    4,
+    4,
+    2,
+    3,
+    1,
+    6,
+    6,
+    2,
+    3,
+    1,
+    6,
+    6,
+    3,
+    0
+   ],
+   "bild": [
+    "......B",
+    "....B.G",
+    "..BGG.G",
+    ".BGGG.B",
+    ".GBBG.B",
+    "BBGGB.B"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       2,
+       4,
+       3,
+       1,
+       4,
+       2,
+       4,
+       6,
+       4,
+       4,
+       2,
+       3,
+       1,
+       6,
+       6,
+       2,
+       3,
+       1,
+       6,
+       6,
+       3,
+       0
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       2,
+       4,
+       3,
+       1,
+       4,
+       2,
+       4,
+       6,
+       4,
+       4,
+       2,
+       3,
+       1,
+       6,
+       6,
+       2,
+       3,
+       1,
+       6,
+       6,
+       3,
+       0,
+       3,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2,
+       5
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       6,
+       2,
+       4,
+       3,
+       1,
+       4,
+       2,
+       4,
+       6,
+       4,
+       4,
+       2,
+       3,
+       1,
+       6,
+       6,
+       2,
+       3,
+       1,
+       6,
+       6,
+       3,
+       0,
+       3,
+       3,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       6,
+       2,
+       4,
+       3,
+       1,
+       4,
+       2,
+       4,
+       6,
+       4,
+       4,
+       2,
+       3,
+       1,
+       6,
+       6,
+       2,
+       3,
+       1,
+       6,
+       6,
+       3,
+       0,
+       3,
+       3,
+       2,
+       2,
+       5,
+       4
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-22",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    6,
+    6,
+    2,
+    0,
+    2,
+    5,
+    0,
+    3,
+    0,
+    0,
+    1,
+    6,
+    2,
+    2,
+    0,
+    2,
+    1,
+    3,
+    3,
+    1,
+    2,
+    6,
+    6
+   ],
+   "bild": [
+    "..B....",
+    "B.G...B",
+    "G.G...G",
+    "BGBB..G",
+    "BBBG..G",
+    "GBBG.GB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       6,
+       2,
+       0,
+       2,
+       5,
+       0,
+       3,
+       0,
+       0,
+       1,
+       6,
+       2,
+       2,
+       0,
+       2,
+       1,
+       3,
+       3,
+       1,
+       2,
+       6,
+       6
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       6,
+       6,
+       2,
+       0,
+       2,
+       5,
+       0,
+       3,
+       0,
+       0,
+       1,
+       6,
+       2,
+       2,
+       0,
+       2,
+       1,
+       3,
+       3,
+       1,
+       2,
+       6,
+       6,
+       3,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       6,
+       2,
+       0,
+       2,
+       5,
+       0,
+       3,
+       0,
+       0,
+       1,
+       6,
+       2,
+       2,
+       0,
+       2,
+       1,
+       3,
+       3,
+       1,
+       2,
+       6,
+       6,
+       3,
+       1,
+       5,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       6,
+       2,
+       0,
+       2,
+       5,
+       0,
+       3,
+       0,
+       0,
+       1,
+       6,
+       2,
+       2,
+       0,
+       2,
+       1,
+       3,
+       3,
+       1,
+       2,
+       6,
+       6,
+       3,
+       1,
+       5,
+       3,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-23",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    4,
+    3,
+    2,
+    0,
+    3,
+    2,
+    2,
+    0,
+    6,
+    3,
+    2,
+    2,
+    6,
+    3,
+    3,
+    6,
+    3,
+    2,
+    1,
+    4,
+    6,
+    6,
+    0,
+    1,
+    6
+   ],
+   "bild": [
+    "..GB..B",
+    "..GB..G",
+    "..BG..B",
+    "B.BG..G",
+    "GGGBG.B",
+    "GBBGB.B"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       3,
+       2,
+       0,
+       3,
+       2,
+       2,
+       0,
+       6,
+       3,
+       2,
+       2,
+       6,
+       3,
+       3,
+       6,
+       3,
+       2,
+       1,
+       4,
+       6,
+       6,
+       0,
+       1,
+       6
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       4,
+       3,
+       2,
+       0,
+       3,
+       2,
+       2,
+       0,
+       6,
+       3,
+       2,
+       2,
+       6,
+       3,
+       3,
+       6,
+       3,
+       2,
+       1,
+       4,
+       6,
+       6,
+       0,
+       1,
+       6,
+       4,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       4,
+       3,
+       2,
+       0,
+       3,
+       2,
+       2,
+       0,
+       6,
+       3,
+       2,
+       2,
+       6,
+       3,
+       3,
+       6,
+       3,
+       2,
+       1,
+       4,
+       6,
+       6,
+       0,
+       1,
+       6,
+       4,
+       1,
+       1,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       4,
+       3,
+       2,
+       0,
+       3,
+       2,
+       2,
+       0,
+       6,
+       3,
+       2,
+       2,
+       6,
+       3,
+       3,
+       6,
+       3,
+       2,
+       1,
+       4,
+       6,
+       6,
+       0,
+       1,
+       6,
+       4,
+       1,
+       1,
+       4,
+       5,
+       4
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-24",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    6,
+    4,
+    0,
+    6,
+    0,
+    1,
+    2,
+    2,
+    2,
+    6,
+    4,
+    3,
+    6,
+    0,
+    1,
+    5,
+    6,
+    6,
+    5,
+    5,
+    1,
+    2,
+    2,
+    2,
+    5,
+    4,
+    5
+   ],
+   "bild": [
+    "..G...G",
+    "..B..BB",
+    "..G..BB",
+    "GBB.GGG",
+    "BBG.BBG",
+    "BGBGGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       4,
+       0,
+       6,
+       0,
+       1,
+       2,
+       2,
+       2,
+       6,
+       4,
+       3,
+       6,
+       0,
+       1,
+       5,
+       6,
+       6,
+       5,
+       5,
+       1,
+       2,
+       2,
+       2,
+       5,
+       4,
+       5
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       6,
+       4,
+       0,
+       6,
+       0,
+       1,
+       2,
+       2,
+       2,
+       6,
+       4,
+       3,
+       6,
+       0,
+       1,
+       5,
+       6,
+       6,
+       5,
+       5,
+       1,
+       2,
+       2,
+       2,
+       5,
+       4,
+       5,
+       1,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       0
+      ],
+      "gespielt": 0,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       6,
+       4,
+       0,
+       6,
+       0,
+       1,
+       2,
+       2,
+       2,
+       6,
+       4,
+       3,
+       6,
+       0,
+       1,
+       5,
+       6,
+       6,
+       5,
+       5,
+       1,
+       2,
+       2,
+       2,
+       5,
+       4,
+       5,
+       1,
+       4,
+       0,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       4,
+       0,
+       6,
+       0,
+       1,
+       2,
+       2,
+       2,
+       6,
+       4,
+       3,
+       6,
+       0,
+       1,
+       5,
+       6,
+       6,
+       5,
+       5,
+       1,
+       2,
+       2,
+       2,
+       5,
+       4,
+       5,
+       1,
+       4,
+       0,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "k4-25",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    6,
+    5,
+    3,
+    4,
+    5,
+    4,
+    5,
+    2,
+    1,
+    5,
+    6,
+    1,
+    6,
+    6,
+    3,
+    0,
+    6,
+    3,
+    6,
+    4,
+    4,
+    4,
+    3,
+    3,
+    4,
+    0,
+    5
+   ],
+   "bild": [
+    "....B.B",
+    "...GGBB",
+    "...BBGG",
+    "...GGBB",
+    "GG.BGBB",
+    "GBGBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       5,
+       3,
+       4,
+       5,
+       4,
+       5,
+       2,
+       1,
+       5,
+       6,
+       1,
+       6,
+       6,
+       3,
+       0,
+       6,
+       3,
+       6,
+       4,
+       4,
+       4,
+       3,
+       3,
+       4,
+       0,
+       5
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       3,
+       4,
+       5,
+       4,
+       5,
+       2,
+       1,
+       5,
+       6,
+       1,
+       6,
+       6,
+       3,
+       0,
+       6,
+       3,
+       6,
+       4,
+       4,
+       4,
+       3,
+       3,
+       4,
+       0,
+       5,
+       1,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       3,
+       4,
+       5,
+       4,
+       5,
+       2,
+       1,
+       5,
+       6,
+       1,
+       6,
+       6,
+       3,
+       0,
+       6,
+       3,
+       6,
+       4,
+       4,
+       4,
+       3,
+       3,
+       4,
+       0,
+       5,
+       1,
+       3,
+       5,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       3,
+       4,
+       5,
+       4,
+       5,
+       2,
+       1,
+       5,
+       6,
+       1,
+       6,
+       6,
+       3,
+       0,
+       6,
+       3,
+       6,
+       4,
+       4,
+       4,
+       3,
+       3,
+       4,
+       0,
+       5,
+       1,
+       3,
+       5,
+       1,
+       2,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ]
+   }
+  }
+ ]
+}

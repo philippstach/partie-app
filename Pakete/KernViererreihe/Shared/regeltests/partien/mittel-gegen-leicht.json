@@ -1,0 +1,87 @@
+{
+ "name": "mittel-gegen-leicht",
+ "beschreibung": "Gold mittel, Blau leicht, Blau beginnt",
+ "strategien": [
+  "mittel",
+  "leicht"
+ ],
+ "beginner": 2,
+ "zufall": [
+  243,
+  606,
+  557,
+  133,
+  378,
+  937,
+  618,
+  485,
+  640
+ ],
+ "erwartet": {
+  "zuege": [
+   5,
+   3,
+   4,
+   3,
+   4,
+   3,
+   3,
+   4,
+   0,
+   4,
+   0,
+   4,
+   4,
+   3,
+   1,
+   3,
+   5,
+   5,
+   0,
+   0,
+   0,
+   6,
+   6,
+   6
+  ],
+  "status": "gewonnen",
+  "gewinner": 1,
+  "gewinnZellen": [
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    6,
+    2
+   ]
+  ],
+  "amZug": null,
+  "hoehen": [
+   5,
+   1,
+   0,
+   6,
+   6,
+   3,
+   3
+  ],
+  "legaleSpalten": [],
+  "bild": [
+   "...GB..",
+   "B..GG..",
+   "G..BG..",
+   "B..GGGG",
+   "B..GBBB",
+   "BB.GBBG"
+  ]
+ }
+}

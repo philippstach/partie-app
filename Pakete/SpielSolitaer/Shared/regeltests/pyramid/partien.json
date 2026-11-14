@@ -1,0 +1,1648 @@
+{
+ "beschreibung": "pyramid.deal(seed), dann alle Züge nacheinander mit apply → ende. Jeder Zug ist erlaubt.",
+ "faelle": [
+  {
+   "titel": "Lösung Seed 1",
+   "seed": 1,
+   "zuege": [
+    {
+     "paar": [
+      "P21"
+     ]
+    },
+    {
+     "paar": [
+      "P22"
+     ]
+    },
+    {
+     "paar": [
+      "P15",
+      "P27"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P25",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P26",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P24",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P23",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P16",
+      "P20"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P17",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P11"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P19",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P14",
+      "P18"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P12",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P10",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P6",
+      "P13"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P9",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P8",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P7",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P4",
+      "P5"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P2",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P3",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P1",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P0",
+      "A"
+     ]
+    }
+   ],
+   "ende": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "QS"
+    ],
+    "ablage": [
+     "7C",
+     "AS",
+     "QD",
+     "QC",
+     "6D",
+     "AD",
+     "AC"
+    ],
+    "durchgang": 3,
+    "zuege": 78
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Lösung Seed 2",
+   "seed": 2,
+   "zuege": [
+    {
+     "paar": [
+      "P21",
+      "P27"
+     ]
+    },
+    {
+     "paar": [
+      "P24",
+      "P25"
+     ]
+    },
+    {
+     "paar": [
+      "P18",
+      "P22"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P23",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P15",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P16",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P10",
+      "P26"
+     ]
+    },
+    {
+     "paar": [
+      "P17",
+      "P20"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P11",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P6"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P19",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P13",
+      "P14"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P9",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P12",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P7",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P3",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P8",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P5",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P4",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P2",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P1",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P0",
+      "A"
+     ]
+    }
+   ],
+   "ende": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "JC"
+    ],
+    "ablage": [
+     "8C",
+     "9S",
+     "4C",
+     "2D",
+     "5S"
+    ],
+    "durchgang": 3,
+    "zuege": 71
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Lösung Seed 5",
+   "seed": 5,
+   "zuege": [
+    {
+     "paar": [
+      "P22"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P25",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P24",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P18",
+      "P21"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P15",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P27",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P23",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P16",
+      "P17"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P10",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P11",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P6",
+      "P26"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P20",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P12",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P19",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P14",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P13",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P7",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P8",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P4",
+      "P9"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P5",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P2",
+      "P3"
+     ]
+    },
+    {
+     "paar": [
+      "P1"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P0",
+      "A"
+     ]
+    }
+   ],
+   "ende": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "QH"
+    ],
+    "ablage": [
+     "AH",
+     "QD",
+     "AC",
+     "AD",
+     "QS"
+    ],
+    "durchgang": 3,
+    "zuege": 72
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Zufallszüge Seed 3 bis festgefahren",
+   "seed": 3,
+   "zuege": [
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P25",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P27",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P23",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P21",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P22",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P16"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P15",
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P10"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    }
+   ],
+   "ende": {
+    "pyramide": [
+     "AH",
+     "3H",
+     "7C",
+     "QC",
+     "9C",
+     "2S",
+     "5C",
+     "AD",
+     "3D",
+     "JS",
+     null,
+     "QD",
+     "6S",
+     "6C",
+     "5S",
+     null,
+     null,
+     "KH",
+     "JH",
+     "4C",
+     "AS",
+     null,
+     null,
+     null,
+     "8S",
+     null,
+     "8H",
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "TS",
+     "JD",
+     "4D",
+     "2H",
+     "QH",
+     "TC",
+     "2C",
+     "3S",
+     "TD",
+     "4H",
+     "TH",
+     "9D",
+     "7D",
+     "7H",
+     "6H",
+     "9H",
+     "3C"
+    ],
+    "durchgang": 3,
+    "zuege": 71
+   },
+   "gewonnen": false,
+   "festgefahren": true
+  },
+  {
+   "titel": "Zufallszüge Seed 4 bis festgefahren",
+   "seed": 4,
+   "zuege": [
+    {
+     "paar": [
+      "P23",
+      "P27"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P21",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P24",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P26",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "A"
+     ]
+    },
+    {
+     "paar": [
+      "P17",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P25",
+      "A"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P19",
+      "P20"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "paar": [
+      "P14",
+      "P22"
+     ]
+    },
+    {
+     "paar": [
+      "P16",
+      "P18"
+     ]
+    },
+    {
+     "paar": [
+      "P11",
+      "P13"
+     ]
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    }
+   ],
+   "ende": {
+    "pyramide": [
+     "7S",
+     "JS",
+     "2D",
+     "AS",
+     "KS",
+     "TD",
+     "JH",
+     "2H",
+     "QD",
+     "4S",
+     "6H",
+     null,
+     "6C",
+     null,
+     null,
+     "AC",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "3D",
+     "5C",
+     "QH",
+     "3S",
+     "3C",
+     "9H",
+     "TS",
+     "5S",
+     "7H",
+     "4D",
+     "9S",
+     "3H",
+     "TC",
+     "TH",
+     "8S",
+     "8H"
+    ],
+    "durchgang": 3,
+    "zuege": 73
+   },
+   "gewonnen": false,
+   "festgefahren": true
+  }
+ ]
+}

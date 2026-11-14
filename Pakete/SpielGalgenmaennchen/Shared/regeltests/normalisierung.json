@@ -1,0 +1,175 @@
+{
+  "beschreibung": "Eingabe (Zwei-Spieler-Modus und Wortlisten) → Lösung in Großbuchstaben oder Fehlercode.",
+  "min_buchstaben": 3,
+  "max_buchstaben": 20,
+  "faelle": [
+    {
+      "sprache": "de",
+      "eingabe": "Apfel",
+      "loesung": "APFEL",
+      "fehler": null
+    },
+    {
+      "sprache": "de",
+      "eingabe": "  apfel  ",
+      "loesung": "APFEL",
+      "fehler": null
+    },
+    {
+      "sprache": "de",
+      "eingabe": "Straße",
+      "loesung": "STRASSE",
+      "fehler": null
+    },
+    {
+      "sprache": "de",
+      "eingabe": "STRASSE",
+      "loesung": "STRASSE",
+      "fehler": null
+    },
+    {
+      "sprache": "de",
+      "eingabe": "ẞ-Bahn",
+      "loesung": "SS-BAHN",
+      "fehler": null
+    },
+    {
+      "sprache": "de",
+      "eingabe": "Eis  am   Stiel",
+      "loesung": "EIS AM STIEL",
+      "fehler": null
+    },
+    {
+      "sprache": "de",
+      "eingabe": "U-Bahn",
+      "loesung": "U-BAHN",
+      "fehler": null
+    },
+    {
+      "sprache": "de",
+      "eingabe": "schildkröte",
+      "loesung": "SCHILDKRÖTE",
+      "fehler": null
+    },
+    {
+      "sprache": "de",
+      "eingabe": "ÄÖÜ",
+      "loesung": "ÄÖÜ",
+      "fehler": null
+    },
+    {
+      "sprache": "de",
+      "eingabe": "Ab",
+      "loesung": null,
+      "fehler": "zu_kurz"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "",
+      "loesung": null,
+      "fehler": "zu_kurz"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "   ",
+      "loesung": null,
+      "fehler": "zu_kurz"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "Café",
+      "loesung": null,
+      "fehler": "ungueltiges_zeichen"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "R2D2",
+      "loesung": null,
+      "fehler": "ungueltiges_zeichen"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "-Bahn",
+      "loesung": null,
+      "fehler": "ungueltiges_zeichen"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "Bahn-",
+      "loesung": null,
+      "fehler": "ungueltiges_zeichen"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "U--Bahn",
+      "loesung": null,
+      "fehler": "ungueltiges_zeichen"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "U - Bahn",
+      "loesung": null,
+      "fehler": "ungueltiges_zeichen"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "Hallo!",
+      "loesung": null,
+      "fehler": "ungueltiges_zeichen"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "Donaudampfschifffahrt",
+      "loesung": null,
+      "fehler": "zu_lang"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "Abcdefghijklmnopqrst",
+      "loesung": "ABCDEFGHIJKLMNOPQRST",
+      "fehler": null
+    },
+    {
+      "sprache": "de",
+      "eingabe": "Abcdefghijklmnopqrstu",
+      "loesung": null,
+      "fehler": "zu_lang"
+    },
+    {
+      "sprache": "de",
+      "eingabe": "A B C",
+      "loesung": "A B C",
+      "fehler": null
+    },
+    {
+      "sprache": "en",
+      "eingabe": "Käse",
+      "loesung": null,
+      "fehler": "ungueltiges_zeichen"
+    },
+    {
+      "sprache": "en",
+      "eingabe": "street",
+      "loesung": "STREET",
+      "fehler": null
+    },
+    {
+      "sprache": "en",
+      "eingabe": "ice cream",
+      "loesung": "ICE CREAM",
+      "fehler": null
+    },
+    {
+      "sprache": "en",
+      "eingabe": "Ab",
+      "loesung": null,
+      "fehler": "zu_kurz"
+    },
+    {
+      "sprache": "en",
+      "eingabe": "naïve",
+      "loesung": null,
+      "fehler": "ungueltiges_zeichen"
+    }
+  ]
+}

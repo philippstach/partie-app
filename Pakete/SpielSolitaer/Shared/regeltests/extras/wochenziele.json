@@ -1,0 +1,159 @@
+{
+ "beschreibung": "Wochenziele: Montag der Woche, seed = JJJJMMTT(Montag)×10+9, SplitMix64.below(12) ziehen bis 3 verschiedene. Zielliste (id, Anzahl, DE, EN) in 'ziele'.",
+ "faelle": [
+  {
+   "datum": "2026-10-05",
+   "montag": "2026-10-05",
+   "seed": 202610059,
+   "ziele": [
+    "ohneZurueck",
+    "siegeFreeCell",
+    "siegeSpider"
+   ]
+  },
+  {
+   "datum": "2026-10-07",
+   "montag": "2026-10-05",
+   "seed": 202610059,
+   "ziele": [
+    "ohneZurueck",
+    "siegeFreeCell",
+    "siegeSpider"
+   ]
+  },
+  {
+   "datum": "2026-10-11",
+   "montag": "2026-10-05",
+   "seed": 202610059,
+   "ziele": [
+    "ohneZurueck",
+    "siegeFreeCell",
+    "siegeSpider"
+   ]
+  },
+  {
+   "datum": "2026-10-12",
+   "montag": "2026-10-12",
+   "seed": 202610129,
+   "ziele": [
+    "tagesspiele",
+    "siegeSpider",
+    "unter5Min"
+   ]
+  },
+  {
+   "datum": "2026-12-28",
+   "montag": "2026-12-28",
+   "seed": 202612289,
+   "ziele": [
+    "dreiKarten",
+    "siegeFreeCell",
+    "siegePyramid"
+   ]
+  },
+  {
+   "datum": "2027-01-03",
+   "montag": "2026-12-28",
+   "seed": 202612289,
+   "ziele": [
+    "dreiKarten",
+    "siegeFreeCell",
+    "siegePyramid"
+   ]
+  },
+  {
+   "datum": "2027-01-04",
+   "montag": "2027-01-04",
+   "seed": 202701049,
+   "ziele": [
+    "ohneTipp",
+    "tagesspiele",
+    "ohneZurueck"
+   ]
+  },
+  {
+   "datum": "2028-02-29",
+   "montag": "2028-02-28",
+   "seed": 202802289,
+   "ziele": [
+    "tagesspiele",
+    "siegeSpider",
+    "ohneTipp"
+   ]
+  }
+ ],
+ "ziele": [
+  {
+   "id": "siege",
+   "anzahl": 10,
+   "de": "10 Partien gewinnen",
+   "en": "Win 10 games"
+  },
+  {
+   "id": "siegeSpider",
+   "anzahl": 3,
+   "de": "3 Spider-Partien gewinnen",
+   "en": "Win 3 Spider games"
+  },
+  {
+   "id": "siegeFreeCell",
+   "anzahl": 3,
+   "de": "3 FreeCell-Partien gewinnen",
+   "en": "Win 3 FreeCell games"
+  },
+  {
+   "id": "siegePyramid",
+   "anzahl": 2,
+   "de": "2 Pyramid-Partien gewinnen",
+   "en": "Win 2 Pyramid games"
+  },
+  {
+   "id": "siegeTriPeaks",
+   "anzahl": 3,
+   "de": "3 TriPeaks-Partien gewinnen",
+   "en": "Win 3 TriPeaks games"
+  },
+  {
+   "id": "ohneTipp",
+   "anzahl": 3,
+   "de": "3 Siege ohne Tipp",
+   "en": "3 wins without a hint"
+  },
+  {
+   "id": "ohneZurueck",
+   "anzahl": 2,
+   "de": "2 Siege ohne Rückgängig",
+   "en": "2 wins without undo"
+  },
+  {
+   "id": "schwer",
+   "anzahl": 1,
+   "de": "1 schwere Partie gewinnen",
+   "en": "Win 1 hard game"
+  },
+  {
+   "id": "tagesspiele",
+   "anzahl": 4,
+   "de": "An 4 Tagen das Tagesspiel gewinnen",
+   "en": "Win the daily game on 4 days"
+  },
+  {
+   "id": "kronen",
+   "anzahl": 2,
+   "de": "2 Kronen holen",
+   "en": "Earn 2 crowns"
+  },
+  {
+   "id": "unter5Min",
+   "anzahl": 2,
+   "de": "2 Siege in unter 5 Minuten",
+   "en": "2 wins in under 5 minutes"
+  },
+  {
+   "id": "dreiKarten",
+   "anzahl": 2,
+   "de": "2 Siege mit „3 Karten ziehen“",
+   "en": "2 wins with Draw 3"
+  }
+ ]
+}

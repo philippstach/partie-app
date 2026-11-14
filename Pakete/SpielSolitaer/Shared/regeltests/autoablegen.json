@@ -1,0 +1,434 @@
+{
+ "beschreibung": "auto_foundation_moves(start): sichere Karten, Zug für Zug.",
+ "faelle": [
+  {
+   "titel": "Asse und Zweien sind immer sicher",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "AH"
+    ],
+    "faecher": 1,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "AS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "AD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "zuege": [
+    {
+     "von": "A",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "Kette: Aufdecken bringt das nächste Ass",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [
+       "AC"
+      ],
+      "offen": [
+       "AS"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5D"
+      ],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "zuege": [
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "rote 3 nicht sicher, solange Schwarz bei 1",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     1,
+     2,
+     0,
+     1
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "zuege": []
+  },
+  {
+   "titel": "rote 3 sicher, wenn beide schwarzen Ziele bei 2",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     2,
+     2,
+     0,
+     2
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "zuege": [
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "schwarze 5 braucht beide roten Ziele bei 4",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     4,
+     4,
+     3,
+     4
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "5C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "zuege": []
+  },
+  {
+   "titel": "Reihenfolge: Ablage vor S0",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "2D"
+    ],
+    "faecher": 1,
+    "ziel": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "2H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "zuege": [
+    {
+     "von": "A",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "nichts zu tun",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "KD"
+    ],
+    "faecher": 1,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "zuege": []
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "beschreibung": "Tagesspiel: Seed = ziehen1.partien[(Tage seit 2026-01-01) mod 1000], immer 1 Karte ziehen. Rest nie negativ.",
+ "faelle": [
+  {
+   "datum": "2026-01-01",
+   "tage": 0,
+   "platz": 0,
+   "seed": 2
+  },
+  {
+   "datum": "2026-01-02",
+   "tage": 1,
+   "platz": 1,
+   "seed": 4
+  },
+  {
+   "datum": "2026-10-04",
+   "tage": 276,
+   "platz": 276,
+   "seed": 462
+  },
+  {
+   "datum": "2028-02-29",
+   "tage": 789,
+   "platz": 789,
+   "seed": 1339
+  },
+  {
+   "datum": "2029-01-01",
+   "tage": 1096,
+   "platz": 96,
+   "seed": 158
+  },
+  {
+   "datum": "2025-12-31",
+   "tage": -1,
+   "platz": 999,
+   "seed": 1713
+  }
+ ]
+}

@@ -1,0 +1,465 @@
+{
+ "beschreibung": "deal(seed, ziehen): Startaufstellung.",
+ "faelle": [
+  {
+   "seed": 1,
+   "ziehen": 1,
+   "zustand": {
+    "ziehen": 1,
+    "stapel": [
+     "QS",
+     "4C",
+     "6S",
+     "7S",
+     "AC",
+     "5S",
+     "AD",
+     "KC",
+     "6D",
+     "QC",
+     "QD",
+     "QH",
+     "9H",
+     "3H",
+     "3C",
+     "AS",
+     "4S",
+     "2D",
+     "8S",
+     "TS",
+     "3D",
+     "2C",
+     "9D",
+     "7C"
+    ],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "9S"
+      ],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4H",
+       "9C"
+      ],
+      "offen": [
+       "2H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "8D",
+       "JS",
+       "JD"
+      ],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "8H",
+       "5H",
+       "5D",
+       "AH"
+      ],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5C",
+       "KH",
+       "7D",
+       "6C",
+       "TD"
+      ],
+      "offen": [
+       "JC"
+      ]
+     },
+     {
+      "verdeckt": [
+       "JH",
+       "3S",
+       "4D",
+       "KS",
+       "TC",
+       "TH"
+      ],
+      "offen": [
+       "8C"
+      ]
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "seed": 2,
+   "ziehen": 3,
+   "zustand": {
+    "ziehen": 3,
+    "stapel": [
+     "3D",
+     "9H",
+     "6H",
+     "JC",
+     "AC",
+     "5S",
+     "JS",
+     "AD",
+     "KS",
+     "2D",
+     "7S",
+     "4C",
+     "9S",
+     "TD",
+     "5H",
+     "TC",
+     "QC",
+     "KC",
+     "8C",
+     "KH",
+     "3H",
+     "2S",
+     "8H",
+     "9D"
+    ],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "QD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "3C"
+      ],
+      "offen": [
+       "TH"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4S",
+       "AS"
+      ],
+      "offen": [
+       "7H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5D",
+       "6S",
+       "6D"
+      ],
+      "offen": [
+       "JH"
+      ]
+     },
+     {
+      "verdeckt": [
+       "7D",
+       "7C",
+       "JD",
+       "8S"
+      ],
+      "offen": [
+       "2C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "2H",
+       "3S",
+       "TS",
+       "4H",
+       "4D"
+      ],
+      "offen": [
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KD",
+       "QS",
+       "9C",
+       "5C",
+       "AH",
+       "6C"
+      ],
+      "offen": [
+       "8D"
+      ]
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "seed": 42,
+   "ziehen": 1,
+   "zustand": {
+    "ziehen": 1,
+    "stapel": [
+     "4D",
+     "3H",
+     "TD",
+     "JC",
+     "4S",
+     "6C",
+     "7C",
+     "3C",
+     "8H",
+     "QH",
+     "9C",
+     "KD",
+     "5D",
+     "6S",
+     "QC",
+     "9H",
+     "JH",
+     "QS",
+     "3S",
+     "9D",
+     "QD",
+     "9S",
+     "JS",
+     "TS"
+    ],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "3D"
+      ],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KS",
+       "TH"
+      ],
+      "offen": [
+       "4C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "AC",
+       "5S",
+       "6D"
+      ],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "2C",
+       "8C",
+       "5H",
+       "AH"
+      ],
+      "offen": [
+       "8D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "AS",
+       "JD",
+       "2H",
+       "7H",
+       "8S"
+      ],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "AD",
+       "2D",
+       "5C",
+       "2S",
+       "4H",
+       "KC"
+      ],
+      "offen": [
+       "TC"
+      ]
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "seed": 20261004,
+   "ziehen": 3,
+   "zustand": {
+    "ziehen": 3,
+    "stapel": [
+     "3C",
+     "4D",
+     "AS",
+     "7H",
+     "AH",
+     "QS",
+     "5S",
+     "7D",
+     "TC",
+     "7S",
+     "4H",
+     "5D",
+     "8S",
+     "9H",
+     "AD",
+     "9D",
+     "2D",
+     "JD",
+     "KH",
+     "6H",
+     "JH",
+     "QH",
+     "4S",
+     "KD"
+    ],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "QD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "2H"
+      ],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [
+       "QC",
+       "6D"
+      ],
+      "offen": [
+       "8D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KS",
+       "7C",
+       "4C"
+      ],
+      "offen": [
+       "TD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "6C",
+       "8C",
+       "TS",
+       "2S"
+      ],
+      "offen": [
+       "JS"
+      ]
+     },
+     {
+      "verdeckt": [
+       "3H",
+       "3S",
+       "JC",
+       "9C",
+       "6S"
+      ],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5C",
+       "2C",
+       "8H",
+       "3D",
+       "TH",
+       "AC"
+      ],
+      "offen": [
+       "9S"
+      ]
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,211 @@
+# n10 Hauptwörter, abgeglichen mit dem Bestand (L–Z)
+Lauer;2;Hinterhalt (auf der …)|Versteck des Jägers
+Leere;1;Nichts|Gegenteil von Fülle
+Legende;1;Sage|Erklärung der Zeichen auf der Karte
+Lehne;1;Stütze für den Rücken|Teil des Stuhls
+Leiche;1;Toter Körper|Fund im Krimi
+Lektüre;1;Lesestoff|Buch für den Urlaub
+Lump;2;Gemeiner Kerl|Schuft
+Makel;2;Fehler, Schandfleck|Unschöner Mangel
+Marge;2;Gewinnspanne|Spanne im Handel
+Marter;2;Qual|Folter
+Maske;1;Verhüllt das Gesicht|Trägt man im Fasching
+Matsch;1;Schlamm|Aufgeweichte Erde
+Maul;1;Mund der Tiere|Schnauze
+Milde;2;Nachsicht|Sanftheit
+Misere;2;Notlage|Elend
+Monster;1;Ungeheuer|Schreckgestalt im Film
+Muffel;1;Mürrischer Mensch|Brummbär
+Mündel;2;Kind unter Vormundschaft|Schützling
+Murks;1;Schlechte Arbeit (ugs.)|Pfusch
+Muße;2;Freie Zeit und Ruhe|Beschauliche Stunden
+Neige;2;Letzter Rest im Glas|Ende (zur … gehen)
+Niveau;2;Stufe, Rang|Höhe der Qualität
+Norm;2;Verbindliche Regel|Standard
+Nuance;2;Feiner Unterschied|Winzige Abstufung
+Nummer;1;Zahl am Haus|Ziffernfolge am Telefon
+Obhut;2;Fürsorglicher Schutz|Aufsicht
+Objekt;2;Gegenstand|Satzteil neben dem Subjekt
+Offerte;2;Angebot|Kaufvorschlag
+Omen;2;Vorzeichen|Wink des Schicksals
+Option;2;Wahlmöglichkeit|Vorkaufsrecht
+Pack;2;Bündel|Gesindel
+Pakt;2;Bündnis|Vertrag mit dem Teufel
+Parade;1;Festlicher Aufmarsch|Abwehr des Torwarts
+Paradies;1;Garten Eden|Ort der Seligen
+Parodie;2;Spöttische Nachahmung|Verulkung
+Part;2;Rolle, Stimme|Anteil
+Partner;1;Gefährte|Mitspieler
+Passage;2;Überdachte Ladenstraße|Durchfahrt
+Patron;2;Schutzheiliger|Schirmherr
+Patzer;1;Kleiner Fehler|Schnitzer
+Pensum;2;Arbeit für einen Tag|Zu bewältigender Stoff
+Person;1;Einzelner Mensch|Figur im Stück
+Phase;2;Abschnitt|Stufe einer Entwicklung
+Pirsch;2;Leise Jagd zu Fuß|Anschleichen an Wild
+Plunder;2;Wertloses Zeug|Blätterteiggebäck
+Pöbel;2;Rohe Menge|Gesindel
+Praline;1;Süßes mit Füllung|Konfekt aus Schokolade
+Premiere;1;Erste Aufführung|Uraufführung
+Prestige;2;Ansehen|Guter Ruf
+Prinzip;2;Grundsatz|Feste Regel
+Profit;2;Gewinn|Nutzen
+Prognose;2;Vorhersage|Aussicht für das Wetter
+Protz;2;Angeber|Prahlerei
+Pulk;2;Dichter Haufen|Gedränge von Radfahrern
+Quartier;2;Unterkunft|Stadtviertel
+Quote;2;Anteil in Prozent|Zahl der Zuschauer
+Rabauke;1;Grober Kerl|Rüpel
+Rage;2;Wut (in … geraten)|Raserei
+Rappel;2;Plötzlicher Wutanfall (ugs.)|Verrückte Laune
+Rarität;2;Seltenes Stück|Kostbarkeit für Sammler
+Ratgeber;1;Buch mit Tipps|Berater
+Raub;1;Diebstahl mit Gewalt|Beute
+Rausch;1;Folge von zu viel Alkohol|Taumel
+Razzia;2;Großeinsatz der Polizei|Durchsuchung
+Reform;2;Erneuerung|Umgestaltung
+Regung;2;Leichte Bewegung|Gefühl
+Reife;1;Zustand voller Entwicklung|Mittlere … (Abschluss)
+Reserve;1;Vorrat für den Notfall|Bank der Ersatzspieler
+Respekt;1;Achtung|Ehrerbietung
+Revier;1;Gebiet des Försters|Wache der Polizei
+Ritual;2;Fester Brauch|Feierliche Handlung
+Rohling;1;Brutaler Mensch|Leere CD
+Routine;1;Gewohnter Ablauf|Erfahrung durch Übung
+Rowdy;2;Rücksichtsloser Raufbold|Rüpel am Steuer
+Ruck;1;Jähe Bewegung|Kurzer Stoß
+Rüffel;2;Strenger Verweis|Anpfiff vom Chef
+Ruin;2;Völliger Untergang|Bankrott
+Rüpel;1;Flegel|Grober Kerl
+Sabotage;2;Heimliche Zerstörung|Mutwillige Störung
+Salut;2;Ehrengruß mit Schüssen|Gruß der Kanonen
+Salve;2;Mehrere Schüsse zugleich|Lachanfall
+Satan;1;Teufel|Fürst der Hölle
+Satire;2;Spott in Text oder Bild|Bissige Kunst
+Schar;1;Größere Gruppe|Menge von Vögeln
+Schikane;2;Böswillige Quälerei|Enge Kurve der Rennstrecke
+Schlappe;1;Niederlage|Misserfolg
+Schlinge;1;Zugezogene Schlaufe|Falle für Hasen
+Schmaus;2;Leckeres Mahl|Festessen
+Schmiere;1;Fett für Achsen|Wache der Ganoven
+Schmuck;1;Ring, Kette und Armband|Zierde
+Schote;1;Hülle der Erbse|Frucht der Paprika
+Schramme;1;Kratzer|Leichte Wunde
+Schub;1;Stoß nach vorn|Kraft der Rakete
+Schuft;1;Gemeiner Kerl|Halunke
+Schund;2;Wertloses Zeug|Kitschiges Machwerk
+Schur;2;Rasur der Schafe|Ernte der Wolle
+Schwatz;1;Kleine Plauderei|Plausch
+Schwips;1;Leichter Rausch|Folge von Sekt
+Schwur;1;Feierliches Versprechen|Eid
+Sekte;2;Kleine Glaubensgemeinschaft|Religiöse Splittergruppe
+Skandal;1;Großes Ärgernis|Affäre mit Schlagzeilen
+Skizze;1;Schnelle Zeichnung|Entwurf mit Bleistift
+Skrupel;2;Gewissensbisse|Moralische Bedenken
+Slogan;2;Werbespruch|Schlagwort
+Snob;2;Eingebildeter Vornehmtuer|Hochnäsiger Mensch
+Spanne;1;Zeitraum|Abstand Daumen bis kleiner Finger
+Sparte;2;Fachgebiet|Abteilung im Verein
+Sperre;1;Schranke|Verbot für Spieler
+Sphäre;2;Bereich|Himmelskugel
+Spitzel;2;Heimlicher Zuträger|Spion der Polizei
+Spleen;2;Verrückte Angewohnheit|Marotte
+Sprosse;1;Stufe der Leiter|Querholz
+Spuk;1;Geistertreiben|Gespenstisches Geschehen
+Stab;1;Stock|Team von Mitarbeitern
+Stapel;1;Aufgeschichteter Haufen|Turm aus Büchern
+Start;1;Beginn des Rennens|Abflug
+Status;2;Stellung, Rang|Stand der Dinge
+Stoß;1;Heftiger Schubs|Stapel Papier
+Strapaze;2;Große Anstrengung|Schinderei
+Strang;2;Dickes Seil|Am gleichen … ziehen
+Strich;1;Gezogene Linie|Zeichen mit dem Stift
+Strick;1;Seil|Tau
+Strolch;1;Herumtreiber|Freund von Susi (Film)
+Stups;1;Leichter Stoß|Sanfter Schubs
+Sturz;1;Fall|Fall vom Rad
+Stütze;1;Halt|Pfeiler
+Stuss;2;Unsinn (ugs.)|Dummes Gerede
+Sucht;1;Krankhaftes Verlangen|Abhängigkeit
+Sühne;2;Buße|Schuld und …
+Symbol;1;Sinnbild|Zeichen mit Bedeutung
+System;1;Geordnetes Ganzes|Methode
+Tabu;2;Strenges Verbot|Darüber spricht man nicht
+Talent;1;Begabung|Angeborenes Können
+Tarnung;1;Schutz durch Verstecken|Verkleidung des Spions
+Taumel;2;Schwindel|Rausch der Freude
+Terror;1;Schreckensherrschaft|Gewalt und Angst
+These;2;Behauptung|Lehrsatz zum Prüfen
+Tölpel;1;Ungeschickter Mensch|Tollpatsch
+Torheit;2;Dummheit|Unkluge Tat
+Tortur;2;Qual|Folter
+Trance;2;Schlafähnlicher Zustand|Zustand unter Hypnose
+Tratsch;1;Gerede über andere|Klatsch
+Triumph;1;Großer Sieg|Jubel des Gewinners
+Trott;1;Eintöniger Alltag|Langsamer Gang
+Trug;2;Täuschung (Lug und …)|Blendwerk
+Tücke;2;Hinterlist|Verborgene Schwierigkeit
+Tumult;1;Lärmender Aufruhr|Wildes Durcheinander
+Tyrann;1;Grausamer Herrscher|Gewaltherrscher
+Umgang;1;Verkehr mit anderen|Art, mit Menschen zu sein
+Umriss;1;Äußere Linie|Kontur
+Umstand;1;Besondere Lage|Mühe
+Umsturz;2;Gewaltsamer Machtwechsel|Putsch
+Unheil;1;Großes Unglück|Verhängnis
+Unmut;2;Ärger|Missfallen
+Unrat;2;Schmutz|Müll
+Unruhe;1;Nervosität|Aufruhr
+Untat;2;Verbrechen|Böse Handlung
+Urheber;2;Schöpfer eines Werks|Verursacher
+Ursprung;1;Anfang|Quelle
+Utopie;2;Schöner, unerfüllbarer Traum|Wunschbild der Zukunft
+Variante;2;Abwandlung|Andere Form
+Verdruss;2;Ärger|Missmut
+Verhör;1;Befragung durch die Polizei|Vernehmung
+Verlag;1;Bringt Bücher heraus|Haus für Autoren
+Verlauf;1;Hergang|Ablauf
+Verrat;1;Bruch der Treue|Tat des Judas
+Versuch;1;Probe|Experiment
+Verzug;2;Rückstand|Verspätung beim Zahlen
+Veto;2;Einspruch|Ich verbiete (lateinisch)
+Vision;2;Traumbild der Zukunft|Erscheinung
+Volk;1;Nation|Bewohner eines Landes
+Vorfall;1;Zwischenfall|Besonderes Ereignis
+Vorgang;1;Ablauf|Geschehen
+Vorhut;2;Truppe an der Spitze|Gegenteil von Nachhut
+Vorrang;1;Vorfahrt|Größere Wichtigkeit
+Vorsatz;1;Gute Absicht fürs neue Jahr|Feste Absicht
+Vorsicht;1;Achtsamkeit|Ruf: Pass auf!
+Vorzug;1;Gute Eigenschaft|Vorteil
+Votum;2;Abstimmung|Urteil der Wähler
+Wagnis;1;Riskantes Unternehmen|Kühnes Vorhaben
+Wahn;2;Krankhafte Einbildung|Irrglaube
+Wandel;1;Veränderung|Wechsel
+Wanst;2;Dicker Bauch|Wampe
+Weihe;2;Feierliche Segnung|Greifvogel
+Weile;1;Kurze Zeit|Zeitspanne
+Wesen;1;Geschöpf|Charakter
+Wicht;1;Kleiner Kerl|Zwerg
+Widmung;2;Zueignung im Buch|Persönliche Zeilen vom Autor
+Wirkung;1;Effekt|Folge einer Ursache
+Wirrwarr;1;Durcheinander|Chaos
+Witwe;1;Frau, deren Mann starb|Hinterbliebene
+Witwer;1;Mann, dessen Frau starb|Hinterbliebener
+Wrack;1;Gesunkenes Schiff|Schrottreifes Auto
+Wucht;1;Große Kraft|Schwung des Aufpralls
+Würze;1;Geschmack der Speise|Salz und Pfeffer
+Wust;2;Wirrer Haufen|Ungeordnete Menge
+Zacke;1;Spitze am Kamm|Zahn der Säge
+Zauber;1;Magie|Hokuspokus
+Zenit;2;Höchster Punkt|Scheitelpunkt am Himmel
+Zier;2;Schmuck|Verschönerung
+Zinke;1;Zahn der Gabel|Spitze am Kamm
+Zipfel;1;Ende der Mütze|Ecke des Tuchs
+Zoff;1;Streit (ugs.)|Ärger
+Zögling;2;Schüler im Internat|Schützling
+Zucht;1;Aufzucht von Tieren|Strenge Ordnung
+Zuflucht;1;Schützender Ort|Unterschlupf
+Zusatz;1;Ergänzung|Beigabe
+Zuwachs;1;Vermehrung|Nachwuchs in der Familie
+Zyklus;2;Kreislauf|Folge von Werken
+Zyniker;2;Bissiger Spötter|Verächter der Moral

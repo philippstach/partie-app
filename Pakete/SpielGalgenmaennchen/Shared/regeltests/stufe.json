@@ -1,0 +1,7603 @@
+{
+  "beschreibung": "Stufe aus den Fehlversuchen eines Mustermenschen, der in rate_reihenfolge rät. Die Apps lesen die Stufe aus Shared/woerter; dieser Test prüft nur die Formel.",
+  "rate_reihenfolge": {
+    "de": "ENISRATDHULCGMOBWFKZPVÜÄÖJYXQ",
+    "en": "ETAOINSHRDLCUMWFGYPBVKJXQZ"
+  },
+  "grenzen": {
+    "de": {
+      "leicht_bis": 10,
+      "mittel_bis": 13
+    },
+    "en": {
+      "leicht_bis": 10,
+      "mittel_bis": 13
+    }
+  },
+  "faelle": [
+    {
+      "sprache": "de",
+      "loesung": "HUND",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KATZE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MAUS",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "PFERD",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ELEFANT",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "GIRAFFE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KROKODIL",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "PINGUIN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHILDKRÖTE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "EICHHÖRNCHEN",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHMETTERLING",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "IGEL",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "FUCHS",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "HASE",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "EULE",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "DELFIN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZEBRA",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KÄNGURU",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "NASHORN",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "QUALLE",
+      "fehlversuche": 24,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PAPAGEI",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BIENE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHNECKE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "FROSCH",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WAL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "LÖWE",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TIGER",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BÄR",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "WOLF",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "AFFE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KUH",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHWEIN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHAF",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZIEGE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "HUHN",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ENTE",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GANS",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ESEL",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KAMEL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "HAMSTER",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "EISBÄR",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PANDA",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KOALA",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "FLAMINGO",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "STORCH",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ADLER",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "RABE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPECHT",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MÖWE",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPATZ",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TAUBE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "HAI",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KRABBE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SEEHUND",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "OTTER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BIBER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "DACHS",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "REH",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HIRSCH",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ELCH",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "LAMA",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "NILPFERD",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "GORILLA",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "LEOPARD",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "GEPARD",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MARIENKÄFER",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "AMEISE",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "LIBELLE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "HUMMEL",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "RAUPE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPINNE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "GOLDFISCH",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SEEPFERDCHEN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TINTENFISCH",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "PONY",
+      "fehlversuche": 23,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "DACKEL",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KANINCHEN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MEERSCHWEINCHEN",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WELLENSITTICH",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "UHU",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WASCHBÄR",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "FAULTIER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "DINOSAURIER",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "CHAMÄLEON",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ERDMÄNNCHEN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PFAU",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "HUMMER",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "APFEL",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BANANE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BROT",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BUTTER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KÄSE",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PIZZA",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "NUDELN",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "TOMATE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KARTOFFEL",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "ERDBEERE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "PFANNKUCHEN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "JOGHURT",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "HONIG",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KAKAO",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "LIMONADE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BREZEL",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZITRONE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "GURKE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KUCHEN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MARMELADE",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPAGHETTI",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MÖHRE",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "WAFFEL",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MÜSLI",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ANANAS",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BIRNE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KIRSCHE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TRAUBE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "PFLAUME",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PFIRSICH",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MELONE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ORANGE",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MANDARINE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HIMBEERE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BLAUBEERE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KIWI",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MANGO",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KOKOSNUSS",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ERDNUSS",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WALNUSS",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "HASELNUSS",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SALAT",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "PAPRIKA",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZWIEBEL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KNOBLAUCH",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BROKKOLI",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BLUMENKOHL",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ERBSE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BOHNE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MAIS",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KÜRBIS",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPINAT",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "REIS",
+      "fehlversuche": 1,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SUPPE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "EIS",
+      "fehlversuche": 1,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHOKOLADE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KEKS",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BONBON",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "LUTSCHER",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "POPCORN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "POMMES",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BURGER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WURST",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPIEGELEI",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TOAST",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BRÖTCHEN",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "CROISSANT",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MILCH",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SAFT",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "WASSER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TEE",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KAFFEE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SAHNE",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "QUARK",
+      "fehlversuche": 24,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PUDDING",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TORTE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MUFFIN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "LASAGNE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KETCHUP",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SENF",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZUCKER",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MEHL",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SALZ",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PFEFFER",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ROSINE",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "AVOCADO",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "RADIESCHEN",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SELLERIE",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GUMMIBÄRCHEN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "HAFERBREI",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "OMELETT",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "DEUTSCHLAND",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ÖSTERREICH",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHWEIZ",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "FRANKREICH",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ITALIEN",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPANIEN",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PORTUGAL",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "NORWEGEN",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHWEDEN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "FINNLAND",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "DÄNEMARK",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "POLEN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "GRIECHENLAND",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ÄGYPTEN",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KANADA",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BRASILIEN",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MEXIKO",
+      "fehlversuche": 22,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "JAPAN",
+      "fehlversuche": 22,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "INDIEN",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "AUSTRALIEN",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ISLAND",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "IRLAND",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KENIA",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PERU",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "CHILE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ARGENTINIEN",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BELGIEN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "NIEDERLANDE",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "LUXEMBURG",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TSCHECHIEN",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "UNGARN",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "RUMÄNIEN",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BULGARIEN",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KROATIEN",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SLOWENIEN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SLOWAKEI",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "ESTLAND",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "LETTLAND",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "LITAUEN",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ENGLAND",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHOTTLAND",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WALES",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TÜRKEI",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MAROKKO",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TUNESIEN",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SÜDAFRIKA",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "NIGERIA",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GHANA",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "TANSANIA",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MADAGASKAR",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "CHINA",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "THAILAND",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "VIETNAM",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "INDONESIEN",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "PHILIPPINEN",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MONGOLEI",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "NEPAL",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "NEUSEELAND",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KOLUMBIEN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KUBA",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "JAMAIKA",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BOLIVIEN",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ECUADOR",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "URUGUAY",
+      "fehlversuche": 22,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PARAGUAY",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "COSTA RICA",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "PANAMA",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MALTA",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ALBANIEN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SERBIEN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MONTENEGRO",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MONACO",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "LIECHTENSTEIN",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ANDORRA",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SINGAPUR",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MALAYSIA",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KAMBODSCHA",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "LAOS",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "VEREINIGTE STAATEN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "HANDBALL",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "TENNIS",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHWIMMEN",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "TURNEN",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "REITEN",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "RUDERN",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "VOLLEYBALL",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BASKETBALL",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TISCHTENNIS",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GOLF",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "JUDO",
+      "fehlversuche": 22,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KARATE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BADMINTON",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HOCKEY",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MARATHON",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "TRAMPOLIN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BALL",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TOR",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MEDAILLE",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "POKAL",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHIEDSRICHTER",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "STOPPUHR",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TURNSCHUH",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "LEICHTATHLETIK",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WEITSPRUNG",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "HOCHSPRUNG",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "STAFFELLAUF",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "RADFAHREN",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SKIFAHREN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SNOWBOARD",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHLITTSCHUH",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "EISHOCKEY",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SEGELN",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SURFEN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TAUCHEN",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KLETTERN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KEGELN",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BOWLING",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MINIGOLF",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BILLARD",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "YOGA",
+      "fehlversuche": 23,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "JOGGEN",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "WANDERN",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "RODELN",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHLITTEN",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "RUGBY",
+      "fehlversuche": 22,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BASEBALL",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WASSERBALL",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KANU",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KAJAK",
+      "fehlversuche": 23,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHLÄGER",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "NETZ",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TRIKOT",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "HELM",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPRUNGBRETT",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "HANTEL",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPRINGSEIL",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "HULA-HOOP",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "FRISBEE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SKATEBOARD",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ROLLSCHUH",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "TURNHALLE",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "STADION",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "TRAINER",
+      "fehlversuche": 1,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MANNSCHAFT",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "TORWART",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "ELFMETER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WELTMEISTER",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "OLYMPIA",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SIEGER",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZIELLINIE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZIELSCHEIBE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHWIMMBAD",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPORTPLATZ",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "PFEIFE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ANZEIGETAFEL",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BOGENSPORT",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BAUM",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BLUME",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WALD",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BERG",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "FLUSS",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SEE",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WOLKE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "REGENBOGEN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SONNE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MOND",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "STERN",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GEWITTER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHNEE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WIESE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "VULKAN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "WASSERFALL",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "INSEL",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WÜSTE",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TULPE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PILZ",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "EICHEL",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KASTANIE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "GLETSCHER",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HÖHLE",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "FELS",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "STEIN",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SAND",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "STRAND",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MEER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "OZEAN",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "WELLE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BACH",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TEICH",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "QUELLE",
+      "fehlversuche": 25,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TAL",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HÜGEL",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "GIPFEL",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHLUCHT",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MOOS",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "FARN",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "GRAS",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BLATT",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "AST",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WURZEL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ROSE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SONNENBLUME",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GÄNSEBLÜMCHEN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "LÖWENZAHN",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KAKTUS",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PALME",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TANNE",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "EICHE",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BIRKE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "AHORN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "NEBEL",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "REGEN",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HAGEL",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BLITZ",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "DONNER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WIND",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "STURM",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "EISZAPFEN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHNEEFLOCKE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "FROST",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TAU",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HIMMEL",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KOMET",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PLANET",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ERDE",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "STERNSCHNUPPE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SONNENAUFGANG",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "FRÜHLING",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SOMMER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HERBST",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WINTER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MUSCHEL",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KORALLE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "DSCHUNGEL",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SAVANNE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "FELD",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SONNENUNTERGANG",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "PFÜTZE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TISCH",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "STUHL",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "LAMPE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SOFA",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KISSEN",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TEPPICH",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "FENSTER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KÜHLSCHRANK",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BADEWANNE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZAHNBÜRSTE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPIEGEL",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHRANK",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TREPPE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "GABEL",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "LÖFFEL",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TELLER",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KERZE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "WECKER",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "REGAL",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "VORHANG",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "STAUBSAUGER",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BÜGELEISEN",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHLÜSSEL",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BETT",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "DECKE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TÜR",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "DACH",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WAND",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BODEN",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KELLER",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "DACHBODEN",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GARTEN",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BALKON",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KÜCHE",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BADEZIMMER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KINDERZIMMER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WOHNZIMMER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "HERD",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BACKOFEN",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TOASTER",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MIKROWELLE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WASCHMASCHINE",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPÜLMASCHINE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TOPF",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PFANNE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TASSE",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GLAS",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHÜSSEL",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MESSER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KANNE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BESEN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "EIMER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HANDTUCH",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SEIFE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SHAMPOO",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZAHNPASTA",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KAMM",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "HAARBÜRSTE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "UHR",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BILD",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BLUMENTOPF",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KOMMODE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SESSEL",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HOCKER",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHREIBTISCH",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BÜCHERREGAL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "FERNSEHER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TELEFON",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "COMPUTER",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "RADIO",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "STECKDOSE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "LICHTSCHALTER",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HEIZUNG",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BRIEFKASTEN",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KLINGEL",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WÄSCHEKLAMMER",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KLEIDERBÜGEL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BECHER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TEEKANNE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "AUTO",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BUS",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZUG",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "FAHRRAD",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "FLUGZEUG",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHIFF",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TRAKTOR",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "HUBSCHRAUBER",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "RAKETE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ROLLER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "AMPEL",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BAHNHOF",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TUNNEL",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BRÜCKE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "FEUERWEHR",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KRANKENWAGEN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TAXI",
+      "fehlversuche": 24,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SEGELBOOT",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KUTSCHE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "LASTWAGEN",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MOTORRAD",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "U-BAHN",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "LOKOMOTIVE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BAGGER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KRAN",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MÜLLAUTO",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "POLIZEIAUTO",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WOHNMOBIL",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "ANHÄNGER",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHUBKARRE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SEILBAHN",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GONDEL",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "FÄHRE",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "RUDERBOOT",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "DAMPFER",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "U-BOOT",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZEPPELIN",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "FLUGHAFEN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "HAFEN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TANKSTELLE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "PARKPLATZ",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KREUZUNG",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KREISVERKEHR",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "AUTOBAHN",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "FAHRKARTE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KOFFER",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "RUCKSACK",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "LANDKARTE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KOMPASS",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "LENKRAD",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "REIFEN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SICHERHEITSGURT",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BLINKER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "HUPE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PILOT",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "KAPITÄN",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHAFFNER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "RENNAUTO",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SPORTWAGEN",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WOHNWAGEN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "RAUMSCHIFF",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BAHNSTEIG",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GLEIS",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHRANKE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MOTORBOOT",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "LIEFERWAGEN",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "RAD",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "BALLON",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "GITARRE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KLAVIER",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TROMMEL",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GEIGE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "FLÖTE",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TROMPETE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "HARFE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "ORGEL",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "MUNDHARMONIKA",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "XYLOPHON",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SAXOPHON",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "CELLO",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TRIANGEL",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KONZERT",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MELODIE",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "CHOR",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "ORCHESTER",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KOPFHÖRER",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "MIKROFON",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TANZ",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "LIED",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "NOTE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KONTRABASS",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "TUBA",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "POSAUNE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "HORN",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KLARINETTE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "OBOE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "FAGOTT",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BLOCKFLÖTE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "AKKORDEON",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KEYBOARD",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHLAGZEUG",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BECKEN",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TAMBURIN",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "RASSEL",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "GLOCKENSPIEL",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "UKULELE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BANJO",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "DUDELSACK",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MANDOLINE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "PAUKE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SÄNGER",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BAND",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "BÜHNE",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "DIRIGENT",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "TAKTSTOCK",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "NOTENBLATT",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "RHYTHMUS",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TAKT",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "TON",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "LAUTSPRECHER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "MUSICAL",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "OPER",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "BALLETT",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "WALZER",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "POLKA",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ROCK",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "JAZZ",
+      "fehlversuche": 23,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "HIP-HOP",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHLAGER",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "KINDERLIED",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "GESANG",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "REFRAIN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "STROPHE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "VERSTÄRKER",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "PLATTENSPIELER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "SCHALLPLATTE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "de",
+      "loesung": "KASSETTE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "APPLAUS",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "ZUGABE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "de",
+      "loesung": "STIMMGABEL",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "METRONOM",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "de",
+      "loesung": "WIEGENLIED",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "DOG",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CAT",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MOUSE",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "HORSE",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ELEPHANT",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "GIRAFFE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CROCODILE",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PENGUIN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TURTLE",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SQUIRREL",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BUTTERFLY",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "HEDGEHOG",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "FOX",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "RABBIT",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "OWL",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "DOLPHIN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "ZEBRA",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "KANGAROO",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "RHINOCEROS",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "JELLYFISH",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PARROT",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BEE",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SNAIL",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "FROG",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "WHALE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "LION",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TIGER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BEAR",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "WOLF",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MONKEY",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "COW",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "PIG",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SHEEP",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "GOAT",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHICKEN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "DUCK",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "GOOSE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "DONKEY",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CAMEL",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "HAMSTER",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "POLAR BEAR",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "PANDA",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "KOALA",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "FLAMINGO",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "STORK",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "EAGLE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "RAVEN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "WOODPECKER",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SEAGULL",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SPARROW",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "PIGEON",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SHARK",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CRAB",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SEAL",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "OTTER",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BEAVER",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BADGER",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "DEER",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MOOSE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "LLAMA",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "HIPPO",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "GORILLA",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "LEOPARD",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHEETAH",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "LADYBUG",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "ANT",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "DRAGONFLY",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BUMBLEBEE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CATERPILLAR",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SPIDER",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "GOLDFISH",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SEAHORSE",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "OCTOPUS",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "PONY",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PUPPY",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "KITTEN",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "GUINEA PIG",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BUDGIE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "RACCOON",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SLOTH",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "DINOSAUR",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHAMELEON",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MEERKAT",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PEACOCK",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "LOBSTER",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "APPLE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BANANA",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BREAD",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BUTTER",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHEESE",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PIZZA",
+      "fehlversuche": 22,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "NOODLES",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TOMATO",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "POTATO",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "STRAWBERRY",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "PANCAKE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "YOGURT",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "HONEY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "COCOA",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "LEMONADE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PRETZEL",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "LEMON",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CUCUMBER",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CAKE",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "JAM",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SPAGHETTI",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CARROT",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "WAFFLE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "PINEAPPLE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SANDWICH",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PEAR",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHERRY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "GRAPE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PLUM",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PEACH",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MELON",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ORANGE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TANGERINE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "RASPBERRY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BLUEBERRY",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "KIWI",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MANGO",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "COCONUT",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PEANUT",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "WALNUT",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "HAZELNUT",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SALAD",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PEPPER",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "ONION",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "GARLIC",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BROCCOLI",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CAULIFLOWER",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PEA",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BEAN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CORN",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PUMPKIN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SPINACH",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "RICE",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SOUP",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "ICE CREAM",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHOCOLATE",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "COOKIE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CANDY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "LOLLIPOP",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "POPCORN",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "FRIES",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BURGER",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SAUSAGE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "EGG",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TOAST",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MUFFIN",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CROISSANT",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MILK",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "JUICE",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "WATER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TEA",
+      "fehlversuche": 0,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "COFFEE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CREAM",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PUDDING",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "PIE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "LASAGNA",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "KETCHUP",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MUSTARD",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SUGAR",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "FLOUR",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SALT",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "RAISIN",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "AVOCADO",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "RADISH",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CELERY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "GUMMY BEAR",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CEREAL",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PORRIDGE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CUPCAKE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "DOUGHNUT",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "OMELETTE",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "GERMANY",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "AUSTRIA",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SWITZERLAND",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "FRANCE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ITALY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SPAIN",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PORTUGAL",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "NORWAY",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SWEDEN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "FINLAND",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "DENMARK",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "POLAND",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "GREECE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "EGYPT",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CANADA",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BRAZIL",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MEXICO",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "JAPAN",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "INDIA",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "AUSTRALIA",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ICELAND",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "IRELAND",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "KENYA",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PERU",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHILE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ARGENTINA",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BELGIUM",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "NETHERLANDS",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "LUXEMBOURG",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CZECHIA",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "HUNGARY",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "ROMANIA",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BULGARIA",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CROATIA",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SLOVENIA",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SLOVAKIA",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "ESTONIA",
+      "fehlversuche": 0,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "LATVIA",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "LITHUANIA",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ENGLAND",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SCOTLAND",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "WALES",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MOROCCO",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TUNISIA",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SOUTH AFRICA",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "NIGERIA",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "GHANA",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TANZANIA",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MADAGASCAR",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHINA",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "THAILAND",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "VIETNAM",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "INDONESIA",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PHILIPPINES",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MONGOLIA",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "NEPAL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "NEW ZEALAND",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "COLOMBIA",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CUBA",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "JAMAICA",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BOLIVIA",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "ECUADOR",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "URUGUAY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "PARAGUAY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "COSTA RICA",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PANAMA",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MALTA",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ALBANIA",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SERBIA",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MONTENEGRO",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MONACO",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "LIECHTENSTEIN",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ANDORRA",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SINGAPORE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MALAYSIA",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CAMBODIA",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "LAOS",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "UNITED STATES",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "FOOTBALL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "HANDBALL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TENNIS",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SWIMMING",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "GYMNASTICS",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "RIDING",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "ROWING",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "VOLLEYBALL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BASKETBALL",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "GOLF",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "JUDO",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "KARATE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BADMINTON",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "HOCKEY",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MARATHON",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TRAMPOLINE",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BALL",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "GOAL",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MEDAL",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TROPHY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "REFEREE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "STOPWATCH",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SNEAKER",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "ATHLETICS",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "LONG JUMP",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "HIGH JUMP",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "RELAY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CYCLING",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SKIING",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SNOWBOARD",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "ICE SKATING",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "ICE HOCKEY",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SAILING",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SURFING",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "DIVING",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CLIMBING",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BOWLING",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MINI GOLF",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BILLIARDS",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "YOGA",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "JOGGING",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "HIKING",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SLEDDING",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "RUGBY",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BASEBALL",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CRICKET",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "WATER POLO",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CANOE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "KAYAK",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "RACKET",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "NET",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "JERSEY",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "HELMET",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "DIVING BOARD",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "DUMBBELL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "JUMP ROPE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "HULA HOOP",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "FRISBEE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SKATEBOARD",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "ROLLER SKATE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "GYM",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "STADIUM",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "COACH",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TEAM",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "GOALKEEPER",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PENALTY",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHAMPION",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "OLYMPICS",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "WINNER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "FINISH LINE",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TARGET",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SWIMMING POOL",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "WHISTLE",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SCOREBOARD",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "ARCHERY",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TABLE TENNIS",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TREE",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "FLOWER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "FOREST",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MOUNTAIN",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "RIVER",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "LAKE",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CLOUD",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "RAINBOW",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SUN",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MOON",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "STAR",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "THUNDERSTORM",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SNOW",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MEADOW",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "VOLCANO",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "WATERFALL",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ISLAND",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "DESERT",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TULIP",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MUSHROOM",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ACORN",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHESTNUT",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "GLACIER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CAVE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "ROCK",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "STONE",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SAND",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BEACH",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SEA",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "OCEAN",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "WAVE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "STREAM",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "POND",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "VALLEY",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "HILL",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PEAK",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CANYON",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MOSS",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "FERN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "GRASS",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "LEAF",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BRANCH",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "ROOT",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ROSE",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SUNFLOWER",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "DAISY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "DANDELION",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CACTUS",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PALM TREE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "FIR TREE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "OAK",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BIRCH",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MAPLE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "FOG",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "RAIN",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "HAIL",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "LIGHTNING",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "THUNDER",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "WIND",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "STORM",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ICICLE",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SNOWFLAKE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "FROST",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "DEW",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SKY",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "COMET",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PLANET",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "EARTH",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SHOOTING STAR",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SUNRISE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SUMMER",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "AUTUMN",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "WINTER",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SEASHELL",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CORAL",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "JUNGLE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SAVANNA",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "FIELD",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SUNSET",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "PUDDLE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TABLE",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHAIR",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "LAMP",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SOFA",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "PILLOW",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CARPET",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "WINDOW",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "FRIDGE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BATHTUB",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TOOTHBRUSH",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MIRROR",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "WARDROBE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "STAIRS",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "FORK",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SPOON",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PLATE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CANDLE",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ALARM CLOCK",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SHELF",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CURTAIN",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "KETTLE",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "KEY",
+      "fehlversuche": 19,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BED",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BLANKET",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "DOOR",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ROOF",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "WALL",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "FLOOR",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BASEMENT",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "ATTIC",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "GARDEN",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BALCONY",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "KITCHEN",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BATHROOM",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BEDROOM",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "LIVING ROOM",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "STOVE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "OVEN",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TOASTER",
+      "fehlversuche": 3,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MICROWAVE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "WASHING MACHINE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "DISHWASHER",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "POT",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PAN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CUP",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "GLASS",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BOWL",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "KNIFE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "JUG",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BROOM",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BUCKET",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TOWEL",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SOAP",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SHAMPOO",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TOOTHPASTE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "COMB",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "HAIRBRUSH",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CLOCK",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PICTURE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "FLOWERPOT",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "DRESSER",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ARMCHAIR",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "STOOL",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "DESK",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BOOKSHELF",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TELEVISION",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TELEPHONE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "COMPUTER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "RADIO",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SOCKET",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "LIGHT SWITCH",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "HEATER",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MAILBOX",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "DOORBELL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "DOORMAT",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CLOTHESPIN",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "HANGER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MUG",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TEAPOT",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CAR",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BUS",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TRAIN",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BICYCLE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "AIRPLANE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SHIP",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TRACTOR",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "HELICOPTER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ROCKET",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SCOOTER",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TRAFFIC LIGHT",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "STATION",
+      "fehlversuche": 1,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TUNNEL",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BRIDGE",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "FIRE ENGINE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "AMBULANCE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TAXI",
+      "fehlversuche": 20,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SAILBOAT",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CARRIAGE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TRUCK",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MOTORCYCLE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TRAM",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SUBWAY",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "LOCOMOTIVE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "DIGGER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CRANE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "GARBAGE TRUCK",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "POLICE CAR",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CAMPER VAN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TRAILER",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "WHEELBARROW",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CABLE CAR",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "GONDOLA",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "FERRY",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "ROWING BOAT",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "STEAMBOAT",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SUBMARINE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "HOT AIR BALLOON",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "AIRSHIP",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "AIRPORT",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "HARBOR",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "GAS STATION",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CROSSROADS",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ROUNDABOUT",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "HIGHWAY",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TICKET",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SUITCASE",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BACKPACK",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "MAP",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "COMPASS",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "STEERING WHEEL",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TIRE",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SEAT BELT",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "PILOT",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CAPTAIN",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "RACE CAR",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SPORTS CAR",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CARAVAN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SPACESHIP",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "PLATFORM",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "RAILWAY",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MOTORBOAT",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "VAN",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "LIMOUSINE",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "WHEEL",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "GUITAR",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "PIANO",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "DRUM",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "VIOLIN",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "FLUTE",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TRUMPET",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "HARP",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "ORGAN",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "HARMONICA",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "XYLOPHONE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SAXOPHONE",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CELLO",
+      "fehlversuche": 8,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TRIANGLE",
+      "fehlversuche": 9,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CONCERT",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "MELODY",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHOIR",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ORCHESTRA",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "HEADPHONES",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MICROPHONE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "DANCE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "SONG",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "NOTE",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BASS",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "DOUBLE BASS",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "TUBA",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TROMBONE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "HORN",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CLARINET",
+      "fehlversuche": 4,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "OBOE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BASSOON",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "RECORDER",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "ACCORDION",
+      "fehlversuche": 5,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "KEYBOARD",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "DRUM KIT",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "CYMBAL",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TAMBOURINE",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "RATTLE",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "GLOCKENSPIEL",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "UKULELE",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BANJO",
+      "fehlversuche": 18,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BAGPIPES",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MANDOLIN",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TIMPANI",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "SINGER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BAND",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "STAGE",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CONDUCTOR",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "BATON",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SHEET MUSIC",
+      "fehlversuche": 6,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "RHYTHM",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "BEAT",
+      "fehlversuche": 16,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "TONE",
+      "fehlversuche": 2,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "LOUDSPEAKER",
+      "fehlversuche": 12,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "MUSICAL",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "OPERA",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "BALLET",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "WALTZ",
+      "fehlversuche": 21,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "POLKA",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "ROCK MUSIC",
+      "fehlversuche": 14,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "JAZZ",
+      "fehlversuche": 23,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "HIP-HOP",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "LULLABY",
+      "fehlversuche": 15,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "SINGING",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "CHORUS",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "VERSE",
+      "fehlversuche": 17,
+      "stufe": 3
+    },
+    {
+      "sprache": "en",
+      "loesung": "AMPLIFIER",
+      "fehlversuche": 11,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "RECORD PLAYER",
+      "fehlversuche": 10,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "RECORD",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "CASSETTE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "APPLAUSE",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "ENCORE",
+      "fehlversuche": 7,
+      "stufe": 1
+    },
+    {
+      "sprache": "en",
+      "loesung": "TUNING FORK",
+      "fehlversuche": 13,
+      "stufe": 2
+    },
+    {
+      "sprache": "en",
+      "loesung": "METRONOME",
+      "fehlversuche": 8,
+      "stufe": 1
+    }
+  ]
+}

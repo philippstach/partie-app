@@ -1,0 +1,3014 @@
+{
+ "beschreibung": "Entscheidung der Computer bei mindestens zwei erlaubten Zügen. gutWerte = Punkte je erlaubtem Zug (gleiche Reihenfolge), gut = erster Zug mit den meisten Punkten.",
+ "faelle": [
+  {
+   "name": "schlagen statt vorziehen",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      5,
+      30,
+      -1,
+      -1
+     ],
+     [
+      37,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 5,
+      "nach": 7,
+      "schlaegt": 1
+     },
+     {
+      "von": 30,
+      "nach": 32,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     3137,
+     1030
+    ],
+    "einfach": {
+     "von": 5,
+     "nach": 7,
+     "schlaegt": 1
+    },
+    "gut": {
+     "von": 5,
+     "nach": 7,
+     "schlaegt": 1
+    }
+   }
+  },
+  {
+   "name": "ins Ziel retten",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      36,
+      10,
+      -1,
+      -1
+     ],
+     [
+      20,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 10,
+      "nach": 14,
+      "schlaegt": null
+     },
+     {
+      "von": 36,
+      "nach": 40,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1010,
+     2036
+    ],
+    "einfach": {
+     "von": 36,
+     "nach": 40,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 36,
+     "nach": 40,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "lieber sicher ziehen",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      24,
+      2,
+      40,
+      -1
+     ],
+     [
+      9,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 3,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 2,
+      "nach": 5,
+      "schlaegt": null
+     },
+     {
+      "von": 24,
+      "nach": 27,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1002,
+     1024,
+     40
+    ],
+    "einfach": {
+     "von": 24,
+     "nach": 27,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 24,
+     "nach": 27,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "nicht vor einen Gegner ziehen",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      10,
+      2,
+      40,
+      41
+     ],
+     [
+      28,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 2,
+      "nach": 4,
+      "schlaegt": null
+     },
+     {
+      "von": 10,
+      "nach": 12,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 42,
+      "schlaegt": null
+     },
+     {
+      "von": 41,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1002,
+     10,
+     40,
+     41
+    ],
+    "einfach": {
+     "von": 40,
+     "nach": 42,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 2,
+     "nach": 4,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "Startfeld eines Gegners mit Figuren im Haus meiden",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      7,
+      2,
+      40,
+      41
+     ],
+     [
+      25,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 3,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 2,
+      "nach": 5,
+      "schlaegt": null
+     },
+     {
+      "von": 7,
+      "nach": 10,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1002,
+     7,
+     40
+    ],
+    "einfach": {
+     "von": 2,
+     "nach": 5,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 2,
+     "nach": 5,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "raus ohne Raus-Pflicht",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      15,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 6,
+   "optionen": {
+    "rausPflicht": false
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": -1,
+      "nach": 0,
+      "schlaegt": null
+     },
+     {
+      "von": 15,
+      "nach": 21,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1500,
+     1015
+    ],
+    "einfach": {
+     "von": -1,
+     "nach": 0,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": -1,
+     "nach": 0,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "einfach: feste Zufallswahl",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      3,
+      30,
+      12,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 3,
+      "nach": 7,
+      "schlaegt": null
+     },
+     {
+      "von": 12,
+      "nach": 16,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 34,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1003,
+     1012,
+     1030
+    ],
+    "einfach": {
+     "von": 3,
+     "nach": 7,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 30,
+     "nach": 34,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 1",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      43,
+      42,
+      41,
+      39
+     ],
+     [
+      43,
+      41,
+      12,
+      0
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 1,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 1,
+      "schlaegt": null
+     },
+     {
+      "von": 12,
+      "nach": 13,
+      "schlaegt": null
+     },
+     {
+      "von": 41,
+      "nach": 42,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1000,
+     1012,
+     41
+    ],
+    "einfach": {
+     "von": 41,
+     "nach": 42,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 12,
+     "nach": 13,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 2",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      34,
+      18,
+      12,
+      0
+     ],
+     [
+      26,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 5,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 5,
+      "schlaegt": null
+     },
+     {
+      "von": 12,
+      "nach": 17,
+      "schlaegt": null
+     },
+     {
+      "von": 18,
+      "nach": 23,
+      "schlaegt": null
+     },
+     {
+      "von": 34,
+      "nach": 39,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1000,
+     1012,
+     1018,
+     1034
+    ],
+    "einfach": {
+     "von": 34,
+     "nach": 39,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 34,
+     "nach": 39,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 3",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2
+    ],
+    "figuren": [
+     [
+      23,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      12,
+      -1,
+      -1
+     ],
+     [
+      4,
+      17,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 5,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 1,
+      "nach": 6,
+      "schlaegt": null
+     },
+     {
+      "von": 12,
+      "nach": 17,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1001,
+     12
+    ],
+    "einfach": {
+     "von": 1,
+     "nach": 6,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 1,
+     "nach": 6,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 4",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2
+    ],
+    "figuren": [
+     [
+      19,
+      16,
+      -1,
+      -1
+     ],
+     [
+      12,
+      18,
+      2,
+      -1
+     ],
+     [
+      28,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 16,
+      "nach": 18,
+      "schlaegt": null
+     },
+     {
+      "von": 19,
+      "nach": 21,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     16,
+     1019
+    ],
+    "einfach": {
+     "von": 19,
+     "nach": 21,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 19,
+     "nach": 21,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 5",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2
+    ],
+    "figuren": [
+     [
+      7,
+      4,
+      -1,
+      -1
+     ],
+     [
+      4,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      7,
+      13,
+      -1
+     ]
+    ]
+   },
+   "spieler": 2,
+   "augen": 2,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 7,
+      "nach": 9,
+      "schlaegt": null
+     },
+     {
+      "von": 13,
+      "nach": 15,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1007,
+     1013
+    ],
+    "einfach": {
+     "von": 7,
+     "nach": 9,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 13,
+     "nach": 15,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 6",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      5,
+      41,
+      13,
+      -1
+     ],
+     [
+      9,
+      6,
+      -1,
+      -1
+     ],
+     [
+      6,
+      40,
+      12,
+      0
+     ],
+     [
+      42,
+      6,
+      4,
+      0
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 4,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 6,
+      "nach": 10,
+      "schlaegt": 2
+     },
+     {
+      "von": 9,
+      "nach": 13,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     3000,
+     9
+    ],
+    "einfach": {
+     "von": 6,
+     "nach": 10,
+     "schlaegt": 2
+    },
+    "gut": {
+     "von": 6,
+     "nach": 10,
+     "schlaegt": 2
+    }
+   }
+  },
+  {
+   "name": "aus Partie 7",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2
+    ],
+    "figuren": [
+     [
+      15,
+      13,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      22,
+      7,
+      20
+     ],
+     [
+      4,
+      -1,
+      41,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 1,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 13,
+      "nach": 14,
+      "schlaegt": null
+     },
+     {
+      "von": 15,
+      "nach": 16,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1013,
+     1015
+    ],
+    "einfach": {
+     "von": 15,
+     "nach": 16,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 15,
+     "nach": 16,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 8",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      31,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      25,
+      4,
+      -1,
+      -1
+     ],
+     [
+      23,
+      18,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      23,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 2,
+   "augen": 1,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 18,
+      "nach": 19,
+      "schlaegt": null
+     },
+     {
+      "von": 23,
+      "nach": 24,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     18,
+     1023
+    ],
+    "einfach": {
+     "von": 18,
+     "nach": 19,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 23,
+     "nach": 24,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 9",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      3,
+      -1,
+      7,
+      -1
+     ],
+     [
+      6,
+      41,
+      28,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 1,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 6,
+      "nach": 7,
+      "schlaegt": null
+     },
+     {
+      "von": 28,
+      "nach": 29,
+      "schlaegt": null
+     },
+     {
+      "von": 41,
+      "nach": 42,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1006,
+     28,
+     41
+    ],
+    "einfach": {
+     "von": 6,
+     "nach": 7,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 6,
+     "nach": 7,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 10",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      36,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      17,
+      -1,
+      28,
+      25
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 3,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 17,
+      "nach": 20,
+      "schlaegt": null
+     },
+     {
+      "von": 28,
+      "nach": 31,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     17,
+     1028
+    ],
+    "einfach": {
+     "von": 17,
+     "nach": 20,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 28,
+     "nach": 31,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 11",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      17,
+      10,
+      4,
+      -1
+     ],
+     [
+      -1,
+      19,
+      15,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      11,
+      -1,
+      15,
+      5
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 5,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 15,
+      "nach": 20,
+      "schlaegt": null
+     },
+     {
+      "von": 19,
+      "nach": 24,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     15,
+     1019
+    ],
+    "einfach": {
+     "von": 15,
+     "nach": 20,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 19,
+     "nach": 24,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 12",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2
+    ],
+    "figuren": [
+     [
+      40,
+      8,
+      0,
+      38
+     ],
+     [
+      20,
+      4,
+      6,
+      -1
+     ],
+     [
+      42,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 4,
+      "nach": 8,
+      "schlaegt": null
+     },
+     {
+      "von": 6,
+      "nach": 10,
+      "schlaegt": null
+     },
+     {
+      "von": 20,
+      "nach": 24,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1004,
+     6,
+     1020
+    ],
+    "einfach": {
+     "von": 6,
+     "nach": 10,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 20,
+     "nach": 24,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 13",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2
+    ],
+    "figuren": [
+     [
+      -1,
+      15,
+      -1,
+      -1
+     ],
+     [
+      20,
+      13,
+      11,
+      0
+     ],
+     [
+      18,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 1,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 1,
+      "schlaegt": null
+     },
+     {
+      "von": 11,
+      "nach": 12,
+      "schlaegt": null
+     },
+     {
+      "von": 13,
+      "nach": 14,
+      "schlaegt": null
+     },
+     {
+      "von": 20,
+      "nach": 21,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1000,
+     1011,
+     1013,
+     1020
+    ],
+    "einfach": {
+     "von": 20,
+     "nach": 21,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 20,
+     "nach": 21,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 14",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2
+    ],
+    "figuren": [
+     [
+      7,
+      12,
+      1,
+      -1
+     ],
+     [
+      17,
+      -1,
+      33,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 5,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 17,
+      "nach": 22,
+      "schlaegt": null
+     },
+     {
+      "von": 33,
+      "nach": 38,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1017,
+     33
+    ],
+    "einfach": {
+     "von": 33,
+     "nach": 38,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 17,
+     "nach": 22,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 15",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      -1,
+      11,
+      -1,
+      -1
+     ],
+     [
+      12,
+      7,
+      9,
+      0
+     ],
+     [
+      14,
+      28,
+      8,
+      -1
+     ],
+     [
+      6,
+      -1,
+      17,
+      -1
+     ]
+    ]
+   },
+   "spieler": 3,
+   "augen": 5,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 6,
+      "nach": 11,
+      "schlaegt": null
+     },
+     {
+      "von": 17,
+      "nach": 22,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1006,
+     17
+    ],
+    "einfach": {
+     "von": 6,
+     "nach": 11,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 6,
+     "nach": 11,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 16",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      27,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      0,
+      12,
+      3,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 3,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 3,
+      "nach": 6,
+      "schlaegt": null
+     },
+     {
+      "von": 12,
+      "nach": 15,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1003,
+     1012
+    ],
+    "einfach": {
+     "von": 3,
+     "nach": 6,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 12,
+     "nach": 15,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 17",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      6,
+      5,
+      3,
+      0
+     ],
+     [
+      1,
+      9,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      15,
+      -1,
+      -1
+     ],
+     [
+      19,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 4,
+      "schlaegt": null
+     },
+     {
+      "von": 3,
+      "nach": 7,
+      "schlaegt": null
+     },
+     {
+      "von": 5,
+      "nach": 9,
+      "schlaegt": 3
+     },
+     {
+      "von": 6,
+      "nach": 10,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1000,
+     1003,
+     3119,
+     6
+    ],
+    "einfach": {
+     "von": 5,
+     "nach": 9,
+     "schlaegt": 3
+    },
+    "gut": {
+     "von": 5,
+     "nach": 9,
+     "schlaegt": 3
+    }
+   }
+  },
+  {
+   "name": "aus Partie 18",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      25,
+      4,
+      -1,
+      -1
+     ],
+     [
+      28,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      14,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 4,
+      "nach": 8,
+      "schlaegt": null
+     },
+     {
+      "von": 25,
+      "nach": 29,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1004,
+     1025
+    ],
+    "einfach": {
+     "von": 25,
+     "nach": 29,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 25,
+     "nach": 29,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 19",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      0,
+      11,
+      4,
+      3
+     ],
+     [
+      -1,
+      17,
+      -1,
+      -1
+     ],
+     [
+      1,
+      4,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      11,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 2,
+      "schlaegt": null
+     },
+     {
+      "von": 3,
+      "nach": 5,
+      "schlaegt": null
+     },
+     {
+      "von": 4,
+      "nach": 6,
+      "schlaegt": null
+     },
+     {
+      "von": 11,
+      "nach": 13,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     0,
+     3,
+     4,
+     1011
+    ],
+    "einfach": {
+     "von": 11,
+     "nach": 13,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 11,
+     "nach": 13,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 20",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2
+    ],
+    "figuren": [
+     [
+      11,
+      3,
+      5,
+      -1
+     ],
+     [
+      42,
+      43,
+      13,
+      -1
+     ],
+     [
+      42,
+      6,
+      22,
+      0
+     ]
+    ]
+   },
+   "spieler": 2,
+   "augen": 6,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 6,
+      "nach": 12,
+      "schlaegt": null
+     },
+     {
+      "von": 22,
+      "nach": 28,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1006,
+     22
+    ],
+    "einfach": {
+     "von": 22,
+     "nach": 28,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 6,
+     "nach": 12,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 21",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      5,
+      28,
+      1,
+      -1
+     ],
+     [
+      6,
+      -1,
+      17,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 6,
+      "nach": 10,
+      "schlaegt": null
+     },
+     {
+      "von": 17,
+      "nach": 21,
+      "schlaegt": 0
+     }
+    ],
+    "gutWerte": [
+     6,
+     3101
+    ],
+    "einfach": {
+     "von": 17,
+     "nach": 21,
+     "schlaegt": 0
+    },
+    "gut": {
+     "von": 17,
+     "nach": 21,
+     "schlaegt": 0
+    }
+   }
+  },
+  {
+   "name": "aus Partie 22",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      42,
+      18,
+      -1,
+      -1
+     ],
+     [
+      41,
+      40,
+      7,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 3,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 7,
+      "nach": 10,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1007,
+     40
+    ],
+    "einfach": {
+     "von": 40,
+     "nach": 43,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 7,
+     "nach": 10,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 23",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      9,
+      25,
+      3,
+      -1
+     ],
+     [
+      7,
+      19,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 1,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 3,
+      "nach": 4,
+      "schlaegt": null
+     },
+     {
+      "von": 9,
+      "nach": 10,
+      "schlaegt": null
+     },
+     {
+      "von": 25,
+      "nach": 26,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     3,
+     1009,
+     1025
+    ],
+    "einfach": {
+     "von": 25,
+     "nach": 26,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 25,
+     "nach": 26,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 24",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2
+    ],
+    "figuren": [
+     [
+      43,
+      21,
+      2,
+      0
+     ],
+     [
+      16,
+      2,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      21,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 6,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 6,
+      "schlaegt": null
+     },
+     {
+      "von": 2,
+      "nach": 8,
+      "schlaegt": null
+     },
+     {
+      "von": 21,
+      "nach": 27,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     0,
+     1002,
+     21
+    ],
+    "einfach": {
+     "von": 2,
+     "nach": 8,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 2,
+     "nach": 8,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 25",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      42,
+      28,
+      9,
+      40
+     ],
+     [
+      43,
+      14,
+      5,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 5,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 9,
+      "nach": 14,
+      "schlaegt": null
+     },
+     {
+      "von": 28,
+      "nach": 33,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1009,
+     1028
+    ],
+    "einfach": {
+     "von": 9,
+     "nach": 14,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 28,
+     "nach": 33,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 26",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      24,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      10,
+      1,
+      -1,
+      -1
+     ],
+     [
+      39,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      12,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 4,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 1,
+      "nach": 5,
+      "schlaegt": null
+     },
+     {
+      "von": 10,
+      "nach": 14,
+      "schlaegt": 0
+     }
+    ],
+    "gutWerte": [
+     1001,
+     3124
+    ],
+    "einfach": {
+     "von": 10,
+     "nach": 14,
+     "schlaegt": 0
+    },
+    "gut": {
+     "von": 10,
+     "nach": 14,
+     "schlaegt": 0
+    }
+   }
+  },
+  {
+   "name": "aus Partie 27",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      6,
+      -1,
+      18,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      0,
+      4,
+      16,
+      8
+     ],
+     [
+      19,
+      1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 1,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 6,
+      "nach": 7,
+      "schlaegt": null
+     },
+     {
+      "von": 18,
+      "nach": 19,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1006,
+     1018
+    ],
+    "einfach": {
+     "von": 6,
+     "nach": 7,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 18,
+     "nach": 19,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 28",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      2,
+      7,
+      1,
+      -1
+     ],
+     [
+      11,
+      4,
+      -1,
+      -1
+     ],
+     [
+      7,
+      5,
+      -1,
+      -1
+     ],
+     [
+      3,
+      5,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 4,
+      "nach": 8,
+      "schlaegt": null
+     },
+     {
+      "von": 11,
+      "nach": 15,
+      "schlaegt": 2
+     }
+    ],
+    "gutWerte": [
+     1004,
+     3105
+    ],
+    "einfach": {
+     "von": 11,
+     "nach": 15,
+     "schlaegt": 2
+    },
+    "gut": {
+     "von": 11,
+     "nach": 15,
+     "schlaegt": 2
+    }
+   }
+  },
+  {
+   "name": "aus Partie 29",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      9,
+      39,
+      16,
+      6
+     ],
+     [
+      43,
+      42,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 1,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 6,
+      "nach": 7,
+      "schlaegt": null
+     },
+     {
+      "von": 9,
+      "nach": 10,
+      "schlaegt": null
+     },
+     {
+      "von": 16,
+      "nach": 17,
+      "schlaegt": null
+     },
+     {
+      "von": 39,
+      "nach": 40,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1006,
+     1009,
+     1016,
+     2039
+    ],
+    "einfach": {
+     "von": 9,
+     "nach": 10,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 39,
+     "nach": 40,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 30",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      -1,
+      4,
+      -1,
+      -1
+     ],
+     [
+      6,
+      1,
+      -1,
+      -1
+     ],
+     [
+      4,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 1,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 1,
+      "nach": 2,
+      "schlaegt": null
+     },
+     {
+      "von": 6,
+      "nach": 7,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1001,
+     1006
+    ],
+    "einfach": {
+     "von": 6,
+     "nach": 7,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 6,
+     "nach": 7,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 31",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      29,
+      3,
+      -1,
+      -1
+     ],
+     [
+      5,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      15,
+      1,
+      -1,
+      -1
+     ],
+     [
+      19,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 2,
+   "augen": 3,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 1,
+      "nach": 4,
+      "schlaegt": null
+     },
+     {
+      "von": 15,
+      "nach": 18,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1001,
+     1015
+    ],
+    "einfach": {
+     "von": 1,
+     "nach": 4,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 15,
+     "nach": 18,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 32",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      19,
+      21,
+      5,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      25,
+      -1
+     ],
+     [
+      19,
+      8,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 5,
+      "nach": 9,
+      "schlaegt": null
+     },
+     {
+      "von": 19,
+      "nach": 23,
+      "schlaegt": null
+     },
+     {
+      "von": 21,
+      "nach": 25,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1005,
+     1019,
+     1021
+    ],
+    "einfach": {
+     "von": 19,
+     "nach": 23,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 21,
+     "nach": 25,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 33",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      20,
+      11,
+      4,
+      -1
+     ],
+     [
+      18,
+      1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 2,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 1,
+      "nach": 3,
+      "schlaegt": null
+     },
+     {
+      "von": 18,
+      "nach": 20,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1,
+     18
+    ],
+    "einfach": {
+     "von": 18,
+     "nach": 20,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 18,
+     "nach": 20,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 34",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      43,
+      22,
+      -1,
+      -1
+     ],
+     [
+      42,
+      32,
+      26,
+      14
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 1,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 14,
+      "nach": 15,
+      "schlaegt": null
+     },
+     {
+      "von": 26,
+      "nach": 27,
+      "schlaegt": null
+     },
+     {
+      "von": 32,
+      "nach": 33,
+      "schlaegt": null
+     },
+     {
+      "von": 42,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1014,
+     1026,
+     1032,
+     42
+    ],
+    "einfach": {
+     "von": 26,
+     "nach": 27,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 32,
+     "nach": 33,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 35",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      40,
+      39,
+      25,
+      0
+     ],
+     [
+      41,
+      37,
+      2,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 4,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 4,
+      "schlaegt": null
+     },
+     {
+      "von": 25,
+      "nach": 29,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1000,
+     1025
+    ],
+    "einfach": {
+     "von": 25,
+     "nach": 29,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 25,
+     "nach": 29,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 36",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2
+    ],
+    "figuren": [
+     [
+      42,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      40,
+      5,
+      2,
+      3
+     ],
+     [
+      -1,
+      11,
+      3,
+      5
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 3,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 3,
+      "nach": 6,
+      "schlaegt": null
+     },
+     {
+      "von": 5,
+      "nach": 8,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1003,
+     1005,
+     40
+    ],
+    "einfach": {
+     "von": 40,
+     "nach": 43,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 5,
+     "nach": 8,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 37",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2
+    ],
+    "figuren": [
+     [
+      12,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      7,
+      5,
+      -1,
+      -1
+     ],
+     [
+      9,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 5,
+      "nach": 9,
+      "schlaegt": null
+     },
+     {
+      "von": 7,
+      "nach": 11,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1005,
+     1007
+    ],
+    "einfach": {
+     "von": 7,
+     "nach": 11,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 7,
+     "nach": 11,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 38",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      33,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      22,
+      14,
+      2,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 2,
+   "optionen": {},
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 2,
+      "nach": 4,
+      "schlaegt": null
+     },
+     {
+      "von": 14,
+      "nach": 16,
+      "schlaegt": null
+     },
+     {
+      "von": 22,
+      "nach": 24,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1002,
+     14,
+     1022
+    ],
+    "einfach": {
+     "von": 2,
+     "nach": 4,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 22,
+     "nach": 24,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 39",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      42,
+      40,
+      -1,
+      3
+     ],
+     [
+      43,
+      40,
+      26,
+      28
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 5,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 26,
+      "nach": 31,
+      "schlaegt": null
+     },
+     {
+      "von": 28,
+      "nach": 33,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1026,
+     1028
+    ],
+    "einfach": {
+     "von": 28,
+     "nach": 33,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 28,
+     "nach": 33,
+     "schlaegt": null
+    }
+   }
+  },
+  {
+   "name": "aus Partie 40",
+   "lage": {
+    "sitze": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      34,
+      13,
+      4,
+      0
+     ],
+     [
+      2,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      15,
+      12,
+      5,
+      0
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 3,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 3,
+      "schlaegt": null
+     },
+     {
+      "von": 4,
+      "nach": 7,
+      "schlaegt": null
+     },
+     {
+      "von": 13,
+      "nach": 16,
+      "schlaegt": null
+     },
+     {
+      "von": 34,
+      "nach": 37,
+      "schlaegt": null
+     }
+    ],
+    "gutWerte": [
+     1000,
+     1004,
+     13,
+     34
+    ],
+    "einfach": {
+     "von": 13,
+     "nach": 16,
+     "schlaegt": null
+    },
+    "gut": {
+     "von": 4,
+     "nach": 7,
+     "schlaegt": null
+    }
+   }
+  }
+ ]
+}

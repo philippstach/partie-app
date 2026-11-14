@@ -1,0 +1,105 @@
+{
+ "name": "03 Joker an, oberes Feld frei",
+ "beschreibung": "Zweiter Kniffel (Vieren) mit Joker: das passende obere Feld ist Pflicht.",
+ "rules": {
+  "joker": true
+ },
+ "players": [
+  "Anna"
+ ],
+ "dice": [
+  6,
+  6,
+  6,
+  6,
+  6,
+  4,
+  4,
+  4,
+  4,
+  4
+ ],
+ "steps": [
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     6,
+     6,
+     6,
+     6,
+     6
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "kniffel"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fullHouse"
+   },
+   "error": true
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fours"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  }
+ ],
+ "expected": {
+  "finished": false,
+  "scores": [
+   {
+    "kniffel": 50,
+    "fours": 20
+   }
+  ],
+  "totals": [
+   {
+    "upper": 20,
+    "bonus": 0,
+    "lower": 50,
+    "kniffelBonus": 0,
+    "total": 70
+   }
+  ]
+ }
+}

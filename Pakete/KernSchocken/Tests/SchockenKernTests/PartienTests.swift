@@ -1,0 +1,1 @@
+../../../SpielSchocken/Tests/SpielSchockenTests/PartienTests.swift

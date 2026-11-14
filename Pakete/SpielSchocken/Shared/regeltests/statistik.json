@@ -1,0 +1,304 @@
+{
+ "beschreibung": "R3 Statistik: aus der Folge beendeter Partien je Name partien, verloren, aktuelle Serie ohne Niederlage, längste Serie; dazu Duelle je Paar (a < b alphabetisch).",
+ "faelle": [
+  {
+   "name": "Kurz",
+   "partien": [
+    {
+     "spieler": [
+      "Anna",
+      "Ben",
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Ben"
+    },
+    {
+     "spieler": [
+      "Anna",
+      "Ben",
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Ben"
+    },
+    {
+     "spieler": [
+      "Anna",
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Dora"
+    }
+   ],
+   "erwartet": {
+    "spieler": {
+     "Anna": {
+      "partien": 3,
+      "verloren": 0,
+      "serieOhneNiederlage": 3,
+      "besteSerie": 3
+     },
+     "Ben": {
+      "partien": 2,
+      "verloren": 2,
+      "serieOhneNiederlage": 0,
+      "besteSerie": 0
+     },
+     "Clara": {
+      "partien": 3,
+      "verloren": 0,
+      "serieOhneNiederlage": 3,
+      "besteSerie": 3
+     },
+     "Dora": {
+      "partien": 3,
+      "verloren": 1,
+      "serieOhneNiederlage": 0,
+      "besteSerie": 2
+     }
+    },
+    "duelle": [
+     {
+      "a": "Anna",
+      "b": "Ben",
+      "gemeinsam": 2,
+      "aVerloren": 0,
+      "bVerloren": 2
+     },
+     {
+      "a": "Anna",
+      "b": "Clara",
+      "gemeinsam": 3,
+      "aVerloren": 0,
+      "bVerloren": 0
+     },
+     {
+      "a": "Anna",
+      "b": "Dora",
+      "gemeinsam": 3,
+      "aVerloren": 0,
+      "bVerloren": 1
+     },
+     {
+      "a": "Ben",
+      "b": "Clara",
+      "gemeinsam": 2,
+      "aVerloren": 2,
+      "bVerloren": 0
+     },
+     {
+      "a": "Ben",
+      "b": "Dora",
+      "gemeinsam": 2,
+      "aVerloren": 2,
+      "bVerloren": 0
+     },
+     {
+      "a": "Clara",
+      "b": "Dora",
+      "gemeinsam": 3,
+      "aVerloren": 0,
+      "bVerloren": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "Lang mit wechselnden Runden",
+   "partien": [
+    {
+     "spieler": [
+      "Anna",
+      "Ben",
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Ben"
+    },
+    {
+     "spieler": [
+      "Anna",
+      "Ben",
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Ben"
+    },
+    {
+     "spieler": [
+      "Anna",
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Dora"
+    },
+    {
+     "spieler": [
+      "Ben",
+      "Clara"
+     ],
+     "verlierer": "Ben"
+    },
+    {
+     "spieler": [
+      "Ben",
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Ben"
+    },
+    {
+     "spieler": [
+      "Anna",
+      "Ben",
+      "Clara"
+     ],
+     "verlierer": "Anna"
+    },
+    {
+     "spieler": [
+      "Ben",
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Clara"
+    },
+    {
+     "spieler": [
+      "Ben",
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Clara"
+    },
+    {
+     "spieler": [
+      "Anna",
+      "Clara"
+     ],
+     "verlierer": "Anna"
+    },
+    {
+     "spieler": [
+      "Anna",
+      "Dora"
+     ],
+     "verlierer": "Dora"
+    },
+    {
+     "spieler": [
+      "Anna",
+      "Ben",
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Clara"
+    },
+    {
+     "spieler": [
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Clara"
+    },
+    {
+     "spieler": [
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Clara"
+    },
+    {
+     "spieler": [
+      "Anna",
+      "Ben",
+      "Clara",
+      "Dora"
+     ],
+     "verlierer": "Anna"
+    }
+   ],
+   "erwartet": {
+    "spieler": {
+     "Anna": {
+      "partien": 8,
+      "verloren": 3,
+      "serieOhneNiederlage": 0,
+      "besteSerie": 3
+     },
+     "Ben": {
+      "partien": 9,
+      "verloren": 4,
+      "serieOhneNiederlage": 5,
+      "besteSerie": 5
+     },
+     "Clara": {
+      "partien": 13,
+      "verloren": 5,
+      "serieOhneNiederlage": 1,
+      "besteSerie": 6
+     },
+     "Dora": {
+      "partien": 11,
+      "verloren": 2,
+      "serieOhneNiederlage": 4,
+      "besteSerie": 4
+     }
+    },
+    "duelle": [
+     {
+      "a": "Anna",
+      "b": "Ben",
+      "gemeinsam": 5,
+      "aVerloren": 2,
+      "bVerloren": 2
+     },
+     {
+      "a": "Anna",
+      "b": "Clara",
+      "gemeinsam": 7,
+      "aVerloren": 3,
+      "bVerloren": 1
+     },
+     {
+      "a": "Anna",
+      "b": "Dora",
+      "gemeinsam": 6,
+      "aVerloren": 1,
+      "bVerloren": 2
+     },
+     {
+      "a": "Ben",
+      "b": "Clara",
+      "gemeinsam": 9,
+      "aVerloren": 4,
+      "bVerloren": 3
+     },
+     {
+      "a": "Ben",
+      "b": "Dora",
+      "gemeinsam": 7,
+      "aVerloren": 3,
+      "bVerloren": 0
+     },
+     {
+      "a": "Clara",
+      "b": "Dora",
+      "gemeinsam": 10,
+      "aVerloren": 5,
+      "bVerloren": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "Leer",
+   "partien": [],
+   "erwartet": {
+    "spieler": {},
+    "duelle": []
+   }
+  }
+ ]
+}

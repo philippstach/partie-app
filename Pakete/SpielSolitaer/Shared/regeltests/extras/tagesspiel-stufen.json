@@ -1,0 +1,103 @@
+{
+ "beschreibung": "Tagesspiel Leicht/Schwer: teil = Partien mit stufe s in Listenreihenfolge, Partie = teil[(Datum − 2026-01-01) mod len(teil)]. gemischt = bisheriges Tagesspiel (unverändert).",
+ "faelle": [
+  {
+   "datum": "2026-01-01",
+   "liste": "ziehen1",
+   "leicht": 5,
+   "schwer": 4,
+   "gemischt": 2
+  },
+  {
+   "datum": "2026-01-01",
+   "liste": "spider2",
+   "leicht": 2,
+   "schwer": 1,
+   "gemischt": 1
+  },
+  {
+   "datum": "2026-10-07",
+   "liste": "ziehen1",
+   "leicht": 1396,
+   "schwer": 1424,
+   "gemischt": 468
+  },
+  {
+   "datum": "2026-10-07",
+   "liste": "spider2",
+   "leicht": 1857,
+   "schwer": 1814,
+   "gemischt": 615
+  },
+  {
+   "datum": "2026-10-08",
+   "liste": "ziehen1",
+   "leicht": 1410,
+   "schwer": 1426,
+   "gemischt": 471
+  },
+  {
+   "datum": "2026-10-08",
+   "liste": "spider2",
+   "leicht": 1865,
+   "schwer": 1824,
+   "gemischt": 616
+  },
+  {
+   "datum": "2026-12-31",
+   "liste": "ziehen1",
+   "leicht": 172,
+   "schwer": 122,
+   "gemischt": 599
+  },
+  {
+   "datum": "2026-12-31",
+   "liste": "spider2",
+   "leicht": 210,
+   "schwer": 173,
+   "gemischt": 780
+  },
+  {
+   "datum": "2027-03-14",
+   "liste": "ziehen1",
+   "leicht": 530,
+   "schwer": 473,
+   "gemischt": 740
+  },
+  {
+   "datum": "2027-03-14",
+   "liste": "spider2",
+   "leicht": 650,
+   "schwer": 677,
+   "gemischt": 941
+  },
+  {
+   "datum": "2028-02-29",
+   "liste": "ziehen1",
+   "leicht": 637,
+   "schwer": 551,
+   "gemischt": 1339
+  },
+  {
+   "datum": "2028-02-29",
+   "liste": "spider2",
+   "leicht": 756,
+   "schwer": 829,
+   "gemischt": 1711
+  },
+  {
+   "datum": "2025-12-31",
+   "liste": "ziehen1",
+   "leicht": 1711,
+   "schwer": 1713,
+   "gemischt": 1713
+  },
+  {
+   "datum": "2025-12-31",
+   "liste": "spider2",
+   "leicht": 2154,
+   "schwer": 2155,
+   "gemischt": 2155
+  }
+ ]
+}

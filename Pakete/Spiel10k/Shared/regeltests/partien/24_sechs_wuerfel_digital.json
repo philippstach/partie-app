@@ -1,0 +1,125 @@
+{
+ "name": "24_sechs_wuerfel_digital",
+ "beschreibung": "6 Würfel, digital, 5er-Straße: 2–6 + einzelne 1 im vollen Wurf = 1.100, alle 6 punkten → mit allen 6 weiter; Angebot hat 6 Würfel.",
+ "rules": {
+  "diceMode": "digital",
+  "diceCount": 6
+ },
+ "players": [
+  "Anna",
+  "Ben"
+ ],
+ "dice": [
+  1,
+  5,
+  2,
+  3,
+  4,
+  6,
+  1,
+  1,
+  1,
+  5,
+  2,
+  3
+ ],
+ "steps": [
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "turn": {
+     "dice": [
+      1,
+      5,
+      2,
+      3,
+      4,
+      6
+     ],
+     "fullThrow": true
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "expect": {
+    "turn": {
+     "banked": 1100,
+     "locked": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "dice": [
+      1,
+      1,
+      1,
+      5,
+      2,
+      3
+     ],
+     "fullThrow": true
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "bank",
+    "keep": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "expect": {
+    "scores": [
+     2150,
+     0
+    ],
+    "current": 1,
+    "offer": {
+     "from": 0,
+     "points": 2150,
+     "kept": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+     ]
+    }
+   }
+  }
+ ],
+ "expected": {
+  "scores": [
+   2150,
+   0
+  ],
+  "log": [
+   [
+    0,
+    2150,
+    0
+   ]
+  ]
+ }
+}

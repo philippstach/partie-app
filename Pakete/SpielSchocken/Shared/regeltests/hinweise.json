@@ -1,0 +1,290 @@
+{
+ "beschreibung": "Geführte Partie (F6): Jedes Ereignis zeigt höchstens einen Hinweis, nämlich den ersten passenden noch nicht gezeigten in der Reihenfolge `reihenfolge`. erwartet = id oder null. Die Menge der gezeigten Hinweise wächst innerhalb eines Falls.",
+ "reihenfolge": [
+  "ersterWurf",
+  "vorgabe",
+  "zuSchlagen",
+  "sechsen",
+  "einsen",
+  "stehen",
+  "rundenwertung",
+  "stockLeer"
+ ],
+ "gefuehrtStart": [
+  6,
+  6,
+  1
+ ],
+ "faelle": [
+  {
+   "name": "Geführte Partie: typischer Anfang",
+   "schritte": [
+    {
+     "ereignis": {
+      "typ": "zugStart",
+      "mensch": true,
+      "vorleger": true,
+      "wuerfe": 0,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": true,
+     "erwartet": "ersterWurf"
+    },
+    {
+     "ereignis": {
+      "typ": "nachWurf",
+      "mensch": true,
+      "vorleger": true,
+      "wuerfe": 1,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": true,
+      "einsenHerauslegbar": true,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": true,
+     "erwartet": "sechsen"
+    },
+    {
+     "ereignis": {
+      "typ": "nachWurf",
+      "mensch": true,
+      "vorleger": true,
+      "wuerfe": 2,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": true,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": true,
+     "erwartet": "einsen"
+    },
+    {
+     "ereignis": {
+      "typ": "nachWurf",
+      "mensch": true,
+      "vorleger": true,
+      "wuerfe": 3,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": false,
+      "stock": 13
+     },
+     "an": true,
+     "erwartet": null
+    },
+    {
+     "ereignis": {
+      "typ": "zugStart",
+      "mensch": false,
+      "vorleger": false,
+      "wuerfe": 0,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": true,
+     "erwartet": null
+    },
+    {
+     "ereignis": {
+      "typ": "rundenwertung",
+      "mensch": false,
+      "vorleger": true,
+      "wuerfe": 0,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 11
+     },
+     "an": true,
+     "erwartet": "rundenwertung"
+    },
+    {
+     "ereignis": {
+      "typ": "zugStart",
+      "mensch": true,
+      "vorleger": false,
+      "wuerfe": 0,
+      "maxWuerfe": 2,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": true,
+     "erwartet": "vorgabe"
+    },
+    {
+     "ereignis": {
+      "typ": "nachWurf",
+      "mensch": true,
+      "vorleger": true,
+      "wuerfe": 1,
+      "maxWuerfe": 2,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": true,
+     "erwartet": "stehen"
+    },
+    {
+     "ereignis": {
+      "typ": "rundenwertung",
+      "mensch": false,
+      "vorleger": true,
+      "wuerfe": 0,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 8
+     },
+     "an": true,
+     "erwartet": null
+    },
+    {
+     "ereignis": {
+      "typ": "zugStart",
+      "mensch": true,
+      "vorleger": false,
+      "wuerfe": 0,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": true,
+     "erwartet": "zuSchlagen"
+    },
+    {
+     "ereignis": {
+      "typ": "rundenwertung",
+      "mensch": false,
+      "vorleger": true,
+      "wuerfe": 0,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 0
+     },
+     "an": true,
+     "erwartet": "stockLeer"
+    },
+    {
+     "ereignis": {
+      "typ": "rundenwertung",
+      "mensch": false,
+      "vorleger": true,
+      "wuerfe": 0,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 0
+     },
+     "an": true,
+     "erwartet": null
+    }
+   ]
+  },
+  {
+   "name": "Computer-Züge lösen keine Spieler-Hinweise aus",
+   "schritte": [
+    {
+     "ereignis": {
+      "typ": "zugStart",
+      "mensch": false,
+      "vorleger": true,
+      "wuerfe": 0,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": true,
+     "erwartet": null
+    },
+    {
+     "ereignis": {
+      "typ": "nachWurf",
+      "mensch": false,
+      "vorleger": true,
+      "wuerfe": 1,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": true,
+      "einsenHerauslegbar": true,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": true,
+     "erwartet": null
+    },
+    {
+     "ereignis": {
+      "typ": "zugStart",
+      "mensch": true,
+      "vorleger": true,
+      "wuerfe": 0,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": true,
+     "erwartet": "ersterWurf"
+    }
+   ]
+  },
+  {
+   "name": "Hinweise aus",
+   "schritte": [
+    {
+     "ereignis": {
+      "typ": "zugStart",
+      "mensch": true,
+      "vorleger": true,
+      "wuerfe": 0,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": false,
+     "erwartet": null
+    },
+    {
+     "ereignis": {
+      "typ": "rundenwertung",
+      "mensch": false,
+      "vorleger": true,
+      "wuerfe": 0,
+      "maxWuerfe": 3,
+      "umdrehenErlaubt": false,
+      "einsenHerauslegbar": false,
+      "darfWeiter": true,
+      "stock": 13
+     },
+     "an": false,
+     "erwartet": null
+    }
+   ]
+  }
+ ]
+}

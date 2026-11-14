@@ -1,0 +1,12902 @@
+{
+ "beschreibung": "Rätsel v3: Hauptvariante, Widerlegung falscher erster Züge, Retten",
+ "faelle": [
+  {
+   "id": "sofort-01",
+   "kapitel": "sofort",
+   "art": "gewinnen",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    4,
+    1,
+    1,
+    3,
+    4,
+    4,
+    1,
+    2,
+    0,
+    3,
+    5,
+    4,
+    5,
+    3,
+    2
+   ],
+   "motiv": "direkt",
+   "schwierigkeit": 25.8,
+   "bild": [
+    ".......",
+    ".......",
+    "....G..",
+    ".B.GG..",
+    ".BBGBB.",
+    "BGGGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       1,
+       1,
+       3,
+       4,
+       4,
+       1,
+       2,
+       0,
+       3,
+       5,
+       4,
+       5,
+       3,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "sofort-02",
+   "kapitel": "sofort",
+   "art": "gewinnen",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    4,
+    2,
+    3,
+    6,
+    3,
+    3,
+    5,
+    1,
+    5,
+    3,
+    3,
+    3,
+    5,
+    5,
+    4,
+    2
+   ],
+   "motiv": "direkt",
+   "schwierigkeit": 26.0,
+   "bild": [
+    "...B...",
+    "...G...",
+    "...B.B.",
+    "...B.G.",
+    "..BGGG.",
+    ".BBGGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       2,
+       3,
+       6,
+       3,
+       3,
+       5,
+       1,
+       5,
+       3,
+       3,
+       3,
+       5,
+       5,
+       4,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 6
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 6
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 6
+     },
+     "4": {
+      "art": "geschenk",
+      "antwort": 4
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 6
+     }
+    }
+   }
+  },
+  {
+   "id": "sofort-03",
+   "kapitel": "sofort",
+   "art": "gewinnen",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    5,
+    0,
+    6,
+    5,
+    2,
+    4,
+    4,
+    4,
+    2,
+    3,
+    1,
+    6,
+    4,
+    4,
+    3,
+    1
+   ],
+   "motiv": "direkt",
+   "schwierigkeit": 26.0,
+   "bild": [
+    ".......",
+    "....B..",
+    "....G..",
+    "....B..",
+    ".BGGGBB",
+    "BGGBBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       0,
+       6,
+       5,
+       2,
+       4,
+       4,
+       4,
+       2,
+       3,
+       1,
+       6,
+       4,
+       4,
+       3,
+       1
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "sofort-04",
+   "kapitel": "sofort",
+   "art": "gewinnen",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    4,
+    3,
+    2,
+    2,
+    1,
+    3,
+    0,
+    1,
+    0
+   ],
+   "motiv": "direkt",
+   "schwierigkeit": 26.2,
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "BGGG...",
+    "BBBGB.."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       3,
+       2,
+       2,
+       1,
+       3,
+       0,
+       1,
+       0
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 4
+     }
+    }
+   }
+  },
+  {
+   "id": "sofort-05",
+   "kapitel": "sofort",
+   "art": "gewinnen",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    3,
+    6,
+    2,
+    1,
+    3,
+    4,
+    4,
+    5,
+    2,
+    1
+   ],
+   "motiv": "direkt",
+   "schwierigkeit": 26.5,
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".BGGG..",
+    ".BGGBBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       6,
+       2,
+       1,
+       3,
+       4,
+       4,
+       5,
+       2,
+       1
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 5
+     }
+    }
+   }
+  },
+  {
+   "id": "sofort-06",
+   "kapitel": "sofort",
+   "art": "gewinnen",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    4,
+    5,
+    1,
+    4,
+    0,
+    2,
+    3,
+    3,
+    6,
+    2,
+    1
+   ],
+   "motiv": "direkt",
+   "schwierigkeit": 26.8,
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".BGGG..",
+    "BBGBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       5,
+       1,
+       4,
+       0,
+       2,
+       3,
+       3,
+       6,
+       2,
+       1
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 5
+     }
+    }
+   }
+  },
+  {
+   "id": "sofort-07",
+   "kapitel": "sofort",
+   "art": "gewinnen",
+   "n": 1,
+   "beginner": 2,
+   "zuege": [
+    4,
+    3,
+    6,
+    4,
+    3,
+    2,
+    4,
+    4,
+    4,
+    3,
+    3,
+    1,
+    0
+   ],
+   "motiv": "direkt",
+   "schwierigkeit": 27.2,
+   "bild": [
+    ".......",
+    "....B..",
+    "...BG..",
+    "...GB..",
+    "...BG..",
+    "BGGGB.B"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       3,
+       6,
+       4,
+       3,
+       2,
+       4,
+       4,
+       4,
+       3,
+       3,
+       1,
+       0
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "5": {
+      "art": "geschenk",
+      "antwort": 5
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "sofort-08",
+   "kapitel": "sofort",
+   "art": "gewinnen",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    4,
+    0,
+    2,
+    3,
+    5,
+    5,
+    2,
+    1,
+    1,
+    5,
+    2,
+    2,
+    3,
+    0
+   ],
+   "motiv": "direkt",
+   "schwierigkeit": 27.5,
+   "bild": [
+    ".......",
+    ".......",
+    "..B....",
+    "..G..B.",
+    "BGGG.B.",
+    "BBGBGG."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       0,
+       2,
+       3,
+       5,
+       5,
+       2,
+       1,
+       1,
+       5,
+       2,
+       2,
+       3,
+       0
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 4
+     }
+    }
+   }
+  },
+  {
+   "id": "sofort-09",
+   "kapitel": "sofort",
+   "art": "gewinnen",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    4,
+    1,
+    5,
+    2,
+    5,
+    1,
+    4,
+    4,
+    3,
+    6,
+    5,
+    5,
+    3,
+    2
+   ],
+   "motiv": "direkt",
+   "schwierigkeit": 27.5,
+   "bild": [
+    ".......",
+    ".......",
+    ".....B.",
+    "....BG.",
+    ".BBGGG.",
+    ".BBGGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       1,
+       5,
+       2,
+       5,
+       1,
+       4,
+       4,
+       3,
+       6,
+       5,
+       5,
+       3,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 6
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 6
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 6
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 6
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 6
+     }
+    }
+   }
+  },
+  {
+   "id": "sofort-10",
+   "kapitel": "sofort",
+   "art": "gewinnen",
+   "n": 1,
+   "beginner": 1,
+   "zuege": [
+    3,
+    2,
+    0,
+    0,
+    3,
+    3,
+    4,
+    1,
+    3,
+    0,
+    5,
+    6,
+    4,
+    3,
+    1,
+    2
+   ],
+   "motiv": "direkt",
+   "schwierigkeit": 28.0,
+   "bild": [
+    ".......",
+    "...B...",
+    "...G...",
+    "B..B...",
+    "BGBGG..",
+    "GBBGGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       2,
+       0,
+       0,
+       3,
+       3,
+       4,
+       1,
+       3,
+       0,
+       5,
+       6,
+       4,
+       3,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "4": {
+      "art": "geschenk",
+      "antwort": 4
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-01",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    6,
+    4,
+    5,
+    3,
+    2,
+    4,
+    4,
+    2,
+    0,
+    2,
+    3,
+    0,
+    0,
+    1,
+    3,
+    4
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 26.0,
+   "bild": [
+    ".......",
+    ".......",
+    "....B..",
+    "G.BGG..",
+    "B.BGB..",
+    "GBGBBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       4,
+       5,
+       3,
+       2,
+       4,
+       4,
+       2,
+       0,
+       2,
+       3,
+       0,
+       0,
+       1,
+       3,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       4,
+       5,
+       3,
+       2,
+       4,
+       4,
+       2,
+       0,
+       2,
+       3,
+       0,
+       0,
+       1,
+       3,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-02",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    6,
+    5,
+    1,
+    3,
+    3,
+    4,
+    2,
+    4,
+    5,
+    3,
+    5,
+    3
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 27.0,
+   "bild": [
+    ".......",
+    ".......",
+    "...B...",
+    "...B.G.",
+    "...GBG.",
+    ".GGBBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       5,
+       1,
+       3,
+       3,
+       4,
+       2,
+       4,
+       5,
+       3,
+       5,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       1,
+       3,
+       3,
+       4,
+       2,
+       4,
+       5,
+       3,
+       5,
+       3,
+       5,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4,
+       5
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-03",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    2,
+    5,
+    2,
+    5,
+    4,
+    5,
+    5,
+    1,
+    5,
+    2,
+    2,
+    5,
+    4,
+    1,
+    1,
+    3
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 28.0,
+   "bild": [
+    ".....B.",
+    ".....G.",
+    "..G..G.",
+    ".GB..B.",
+    ".BG.GB.",
+    ".BGBGB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       5,
+       2,
+       5,
+       4,
+       5,
+       5,
+       1,
+       5,
+       2,
+       2,
+       5,
+       4,
+       1,
+       1,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       5,
+       2,
+       5,
+       4,
+       5,
+       5,
+       1,
+       5,
+       2,
+       2,
+       5,
+       4,
+       1,
+       1,
+       3,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-04",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    4,
+    4,
+    4,
+    3,
+    2,
+    6,
+    3,
+    4,
+    3,
+    0,
+    2,
+    1,
+    3,
+    3,
+    0,
+    1
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 28.0,
+   "bild": [
+    ".......",
+    "...B...",
+    "...GB..",
+    "...GG..",
+    "GBGGB..",
+    "BBGBG.B"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       4,
+       4,
+       3,
+       2,
+       6,
+       3,
+       4,
+       3,
+       0,
+       2,
+       1,
+       3,
+       3,
+       0,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       4,
+       4,
+       3,
+       2,
+       6,
+       3,
+       4,
+       3,
+       0,
+       2,
+       1,
+       3,
+       3,
+       0,
+       1,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "3": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-05",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    2,
+    4,
+    5,
+    5,
+    5,
+    2,
+    4,
+    5,
+    1,
+    2,
+    3,
+    0,
+    3,
+    3,
+    0,
+    6,
+    2
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 28.2,
+   "bild": [
+    ".......",
+    ".......",
+    "..B..G.",
+    "..GG.B.",
+    "B.GBBG.",
+    "GBBBGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       4,
+       5,
+       5,
+       5,
+       2,
+       4,
+       5,
+       1,
+       2,
+       3,
+       0,
+       3,
+       3,
+       0,
+       6,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       5,
+       5,
+       5,
+       2,
+       4,
+       5,
+       1,
+       2,
+       3,
+       0,
+       3,
+       3,
+       0,
+       6,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-06",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    3,
+    2,
+    4,
+    5,
+    2,
+    4,
+    5,
+    1,
+    4,
+    3,
+    3,
+    1,
+    4,
+    5,
+    1,
+    2,
+    2
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 28.2,
+   "bild": [
+    ".......",
+    ".......",
+    "..B.B..",
+    ".BGBBG.",
+    ".GBGGB.",
+    ".GGBBG."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       2,
+       4,
+       5,
+       2,
+       4,
+       5,
+       1,
+       4,
+       3,
+       3,
+       1,
+       4,
+       5,
+       1,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       2,
+       4,
+       5,
+       2,
+       4,
+       5,
+       1,
+       4,
+       3,
+       3,
+       1,
+       4,
+       5,
+       1,
+       2,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geschenk",
+      "antwort": 5
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-07",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    6,
+    6,
+    0,
+    4,
+    4,
+    0,
+    1,
+    2,
+    3,
+    0,
+    2,
+    5,
+    2,
+    4,
+    2,
+    2,
+    2,
+    6
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 28.5,
+   "bild": [
+    "..G....",
+    "..B....",
+    "..G....",
+    "B.G.B.B",
+    "B.G.G.B",
+    "GGBGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       6,
+       0,
+       4,
+       4,
+       0,
+       1,
+       2,
+       3,
+       0,
+       2,
+       5,
+       2,
+       4,
+       2,
+       2,
+       2,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       6,
+       0,
+       4,
+       4,
+       0,
+       1,
+       2,
+       3,
+       0,
+       2,
+       5,
+       2,
+       4,
+       2,
+       2,
+       2,
+       6,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       5
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 4
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-08",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    3,
+    0,
+    1,
+    4,
+    3,
+    2,
+    3,
+    3,
+    3,
+    3,
+    2,
+    6
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 29.0,
+   "bild": [
+    "...B...",
+    "...G...",
+    "...B...",
+    "...G...",
+    "..GG...",
+    "BGBGB.B"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       0,
+       1,
+       4,
+       3,
+       2,
+       3,
+       3,
+       3,
+       3,
+       2,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       3,
+       0,
+       1,
+       4,
+       3,
+       2,
+       3,
+       3,
+       3,
+       3,
+       2,
+       6,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "2": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-09",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    3,
+    1,
+    3,
+    3,
+    1,
+    6,
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 29.0,
+   "bild": [
+    ".......",
+    ".......",
+    "...B...",
+    ".B.B...",
+    ".G.G...",
+    "GBGGGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       1,
+       3,
+       3,
+       1,
+       6,
+       2,
+       1,
+       0,
+       3,
+       4,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       1,
+       3,
+       3,
+       1,
+       6,
+       2,
+       1,
+       0,
+       3,
+       4,
+       5,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-10",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    5,
+    2,
+    3,
+    4,
+    4,
+    1,
+    4,
+    6,
+    2,
+    4,
+    2,
+    4
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 29.0,
+   "bild": [
+    ".......",
+    "....B..",
+    "....B..",
+    "..G.G..",
+    "..G.G..",
+    ".BBGBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       2,
+       3,
+       4,
+       4,
+       1,
+       4,
+       6,
+       2,
+       4,
+       2,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       2,
+       3,
+       4,
+       4,
+       1,
+       4,
+       6,
+       2,
+       4,
+       2,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       5
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-11",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    4,
+    2,
+    6,
+    4,
+    3,
+    5,
+    2,
+    1,
+    6,
+    2,
+    2,
+    2,
+    2,
+    3,
+    5,
+    0,
+    4,
+    4,
+    3,
+    3,
+    1,
+    4
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 29.5,
+   "bild": [
+    "..G....",
+    "..B.B..",
+    "..GBB..",
+    "..BGG..",
+    ".GGBBGG",
+    "BBBGGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       2,
+       6,
+       4,
+       3,
+       5,
+       2,
+       1,
+       6,
+       2,
+       2,
+       2,
+       2,
+       3,
+       5,
+       0,
+       4,
+       4,
+       3,
+       3,
+       1,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       2,
+       6,
+       4,
+       3,
+       5,
+       2,
+       1,
+       6,
+       2,
+       2,
+       2,
+       2,
+       3,
+       5,
+       0,
+       4,
+       4,
+       3,
+       3,
+       1,
+       4,
+       6,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5,
+       6
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 6
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-12",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    5,
+    3,
+    5,
+    4,
+    1,
+    6,
+    3,
+    0,
+    2,
+    1
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 30.5,
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".B.G.G.",
+    "BGGBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       3,
+       5,
+       4,
+       1,
+       6,
+       3,
+       0,
+       2,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       3,
+       5,
+       4,
+       1,
+       6,
+       3,
+       0,
+       2,
+       1,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 4
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-13",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    5,
+    6,
+    4,
+    3,
+    3,
+    2,
+    4,
+    0,
+    1,
+    6
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 30.5,
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "...GG.B",
+    "BGBBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       6,
+       4,
+       3,
+       3,
+       2,
+       4,
+       0,
+       1,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       6,
+       4,
+       3,
+       3,
+       2,
+       4,
+       0,
+       1,
+       6,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       5
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-14",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    0,
+    3,
+    3,
+    2,
+    0,
+    3,
+    2,
+    3,
+    5,
+    3,
+    3,
+    4,
+    1,
+    1,
+    2,
+    2,
+    4,
+    5,
+    5
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 30.8,
+   "bild": [
+    "...B...",
+    "...G...",
+    "..GG...",
+    "..BG.B.",
+    "BGBBBG.",
+    "BBGGGB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       3,
+       3,
+       2,
+       0,
+       3,
+       2,
+       3,
+       5,
+       3,
+       3,
+       4,
+       1,
+       1,
+       2,
+       2,
+       4,
+       5,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       0,
+       3,
+       3,
+       2,
+       0,
+       3,
+       2,
+       3,
+       5,
+       3,
+       3,
+       4,
+       1,
+       1,
+       2,
+       2,
+       4,
+       5,
+       5,
+       4,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 4
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-15",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    2,
+    4,
+    0,
+    4,
+    3,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    1,
+    2,
+    4,
+    2,
+    2,
+    0,
+    3,
+    4
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 30.8,
+   "bild": [
+    "..G....",
+    "..B.B..",
+    "..BGG..",
+    "..GGB..",
+    "BGBBG..",
+    "BGBBG.."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       4,
+       0,
+       4,
+       3,
+       1,
+       2,
+       2,
+       3,
+       3,
+       4,
+       1,
+       2,
+       4,
+       2,
+       2,
+       0,
+       3,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       0,
+       4,
+       3,
+       1,
+       2,
+       2,
+       3,
+       3,
+       4,
+       1,
+       2,
+       4,
+       2,
+       2,
+       0,
+       3,
+       4,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-16",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    4,
+    3,
+    3,
+    2,
+    3,
+    2,
+    2,
+    3,
+    4,
+    4,
+    3,
+    1,
+    0,
+    4,
+    4,
+    3,
+    2,
+    5,
+    4
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 30.8,
+   "bild": [
+    "...GB..",
+    "...BB..",
+    "..BGG..",
+    "..BBG..",
+    "..GBB..",
+    "BGGGBG."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       3,
+       3,
+       2,
+       3,
+       2,
+       2,
+       3,
+       4,
+       4,
+       3,
+       1,
+       0,
+       4,
+       4,
+       3,
+       2,
+       5,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       4,
+       3,
+       3,
+       2,
+       3,
+       2,
+       2,
+       3,
+       4,
+       4,
+       3,
+       1,
+       0,
+       4,
+       4,
+       3,
+       2,
+       5,
+       4,
+       5,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "geschenk",
+      "antwort": 1
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 5
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-17",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    4,
+    5,
+    4,
+    1,
+    3,
+    5,
+    2,
+    1,
+    3,
+    4,
+    4,
+    6,
+    6,
+    2,
+    2,
+    2,
+    2,
+    2,
+    4,
+    3,
+    3,
+    3,
+    4
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 31.8,
+   "bild": [
+    "..G.B..",
+    "..BGB..",
+    "..GBB..",
+    "..BGG..",
+    ".GGBBGB",
+    ".GBBBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       5,
+       4,
+       1,
+       3,
+       5,
+       2,
+       1,
+       3,
+       4,
+       4,
+       6,
+       6,
+       2,
+       2,
+       2,
+       2,
+       2,
+       4,
+       3,
+       3,
+       3,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       5,
+       4,
+       1,
+       3,
+       5,
+       2,
+       1,
+       3,
+       4,
+       4,
+       6,
+       6,
+       2,
+       2,
+       2,
+       2,
+       2,
+       4,
+       3,
+       3,
+       3,
+       4,
+       5,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5,
+       6
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geschenk",
+      "antwort": 1
+     },
+     "3": {
+      "art": "still",
+      "antwort": 1
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 5
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-18",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    0,
+    6,
+    3,
+    3,
+    5,
+    1,
+    6,
+    0,
+    5,
+    2,
+    3,
+    4,
+    2,
+    5,
+    1,
+    1,
+    5,
+    3,
+    4,
+    3,
+    1,
+    3,
+    4,
+    6
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 32.0,
+   "bild": [
+    "...B...",
+    "...B...",
+    ".G.B.G.",
+    ".B.GGBB",
+    "BGGBGGG",
+    "GBBGBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       6,
+       3,
+       3,
+       5,
+       1,
+       6,
+       0,
+       5,
+       2,
+       3,
+       4,
+       2,
+       5,
+       1,
+       1,
+       5,
+       3,
+       4,
+       3,
+       1,
+       3,
+       4,
+       6
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       0,
+       6,
+       3,
+       3,
+       5,
+       1,
+       6,
+       0,
+       5,
+       2,
+       3,
+       4,
+       2,
+       5,
+       1,
+       1,
+       5,
+       3,
+       4,
+       3,
+       1,
+       3,
+       4,
+       6,
+       4,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       4,
+       5
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 4
+     },
+     "1": {
+      "art": "still",
+      "antwort": 4
+     },
+     "2": {
+      "art": "geschenk",
+      "antwort": 2
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 4
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-19",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 1,
+   "zuege": [
+    5,
+    6,
+    5,
+    3,
+    3,
+    1,
+    3,
+    4,
+    2,
+    2,
+    1,
+    3,
+    3,
+    6,
+    0,
+    6,
+    6,
+    2,
+    1,
+    3,
+    6,
+    1
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 33.5,
+   "bild": [
+    "...B...",
+    "...G..G",
+    ".B.B..G",
+    ".GBG..B",
+    ".GBG.GB",
+    "GBGBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       6,
+       5,
+       3,
+       3,
+       1,
+       3,
+       4,
+       2,
+       2,
+       1,
+       3,
+       3,
+       6,
+       0,
+       6,
+       6,
+       2,
+       1,
+       3,
+       6,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       6,
+       5,
+       3,
+       3,
+       1,
+       3,
+       4,
+       2,
+       2,
+       1,
+       3,
+       3,
+       6,
+       0,
+       6,
+       6,
+       2,
+       1,
+       3,
+       6,
+       1,
+       2,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "doppel-20",
+   "kapitel": "doppel",
+   "art": "gewinnen",
+   "n": 2,
+   "beginner": 2,
+   "zuege": [
+    1,
+    3,
+    3,
+    1,
+    0,
+    0,
+    4,
+    3,
+    2,
+    3,
+    3,
+    4,
+    0,
+    2,
+    3,
+    6,
+    6,
+    2,
+    4
+   ],
+   "motiv": "doppeldrohung",
+   "schwierigkeit": 34.8,
+   "bild": [
+    "...B...",
+    "...B...",
+    "...G...",
+    "B.GGB..",
+    "GGGBG.B",
+    "BBBGB.G"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       3,
+       3,
+       1,
+       0,
+       0,
+       4,
+       3,
+       2,
+       3,
+       3,
+       4,
+       0,
+       2,
+       3,
+       6,
+       6,
+       2,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       1,
+       3,
+       3,
+       1,
+       0,
+       0,
+       4,
+       3,
+       2,
+       3,
+       3,
+       4,
+       0,
+       2,
+       3,
+       6,
+       6,
+       2,
+       4,
+       2,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 0
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-01",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    2,
+    3,
+    4,
+    6,
+    0,
+    2,
+    1,
+    2,
+    1,
+    3,
+    0
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 34.8,
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "..G....",
+    "BBGG...",
+    "BBBGB.G"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       3,
+       4,
+       6,
+       0,
+       2,
+       1,
+       2,
+       1,
+       3,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       3,
+       4,
+       6,
+       0,
+       2,
+       1,
+       2,
+       1,
+       3,
+       0,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       3,
+       4,
+       6,
+       0,
+       2,
+       1,
+       2,
+       1,
+       3,
+       0,
+       3,
+       3,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0
+      ],
+      "gespielt": 0,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-02",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    6,
+    3,
+    2,
+    1,
+    5,
+    6,
+    1,
+    5,
+    3,
+    2,
+    4,
+    2,
+    2,
+    1,
+    6,
+    0
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 36.0,
+   "bild": [
+    ".......",
+    ".......",
+    "..G....",
+    ".BB...G",
+    ".GBG.BB",
+    "BBGBGGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       3,
+       2,
+       1,
+       5,
+       6,
+       1,
+       5,
+       3,
+       2,
+       4,
+       2,
+       2,
+       1,
+       6,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       6,
+       3,
+       2,
+       1,
+       5,
+       6,
+       1,
+       5,
+       3,
+       2,
+       4,
+       2,
+       2,
+       1,
+       6,
+       0,
+       3,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       3,
+       2,
+       1,
+       5,
+       6,
+       1,
+       5,
+       3,
+       2,
+       4,
+       2,
+       2,
+       1,
+       6,
+       0,
+       3,
+       4,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-03",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    1,
+    5,
+    3,
+    3,
+    4,
+    2,
+    1,
+    2,
+    4,
+    3,
+    5
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 36.8,
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "...G...",
+    ".BGGBB.",
+    ".BGBBG."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       5,
+       3,
+       3,
+       4,
+       2,
+       1,
+       2,
+       4,
+       3,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       1,
+       5,
+       3,
+       3,
+       4,
+       2,
+       1,
+       2,
+       4,
+       3,
+       5,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       5,
+       3,
+       3,
+       4,
+       2,
+       1,
+       2,
+       4,
+       3,
+       5,
+       2,
+       2,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       5
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-04",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    2,
+    3,
+    4,
+    3,
+    3,
+    3,
+    5,
+    0,
+    3,
+    4,
+    3
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 36.8,
+   "bild": [
+    "...B...",
+    "...B...",
+    "...G...",
+    "...B...",
+    "...GG..",
+    "G.BGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       3,
+       4,
+       3,
+       3,
+       3,
+       5,
+       0,
+       3,
+       4,
+       3
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       2,
+       3,
+       4,
+       3,
+       3,
+       3,
+       5,
+       0,
+       3,
+       4,
+       3,
+       5,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4,
+       6
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       2,
+       3,
+       4,
+       3,
+       3,
+       3,
+       5,
+       0,
+       3,
+       4,
+       3,
+       5,
+       2,
+       4,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "4": {
+      "art": "still",
+      "antwort": 5
+     },
+     "6": {
+      "art": "still",
+      "antwort": 5
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-05",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    1,
+    2,
+    4,
+    3,
+    5,
+    3,
+    3,
+    3,
+    1,
+    3,
+    3,
+    5,
+    0
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 37.2,
+   "bild": [
+    "...B...",
+    "...G...",
+    "...G...",
+    "...B...",
+    ".B.G.G.",
+    "BBGGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       2,
+       4,
+       3,
+       5,
+       3,
+       3,
+       3,
+       1,
+       3,
+       3,
+       5,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       4,
+       3,
+       5,
+       3,
+       3,
+       3,
+       1,
+       3,
+       3,
+       5,
+       0,
+       4,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       4,
+       3,
+       5,
+       3,
+       3,
+       3,
+       1,
+       3,
+       3,
+       5,
+       0,
+       4,
+       2,
+       6,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4,
+       6
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 1
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-06",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    2,
+    1,
+    4,
+    3,
+    0,
+    0,
+    3,
+    0,
+    4,
+    0,
+    0,
+    4,
+    3,
+    4
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 37.5,
+   "bild": [
+    ".......",
+    "G......",
+    "B...B..",
+    "B..GB..",
+    "B..GG..",
+    "GBGBG.."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       1,
+       4,
+       3,
+       0,
+       0,
+       3,
+       0,
+       4,
+       0,
+       0,
+       4,
+       3,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       1,
+       4,
+       3,
+       0,
+       0,
+       3,
+       0,
+       4,
+       0,
+       0,
+       4,
+       3,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       1,
+       4,
+       3,
+       0,
+       0,
+       3,
+       0,
+       4,
+       0,
+       0,
+       4,
+       3,
+       4,
+       3,
+       3,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-07",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    4,
+    0,
+    5,
+    3,
+    5,
+    1,
+    2,
+    4,
+    5,
+    5,
+    3,
+    3,
+    2,
+    2,
+    5
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 37.8,
+   "bild": [
+    ".......",
+    ".....B.",
+    ".....G.",
+    "..GG.B.",
+    "..BBGB.",
+    "GGBGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       0,
+       5,
+       3,
+       5,
+       1,
+       2,
+       4,
+       5,
+       5,
+       3,
+       3,
+       2,
+       2,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       0,
+       5,
+       3,
+       5,
+       1,
+       2,
+       4,
+       5,
+       5,
+       3,
+       3,
+       2,
+       2,
+       5,
+       1,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       0,
+       5,
+       3,
+       5,
+       1,
+       2,
+       4,
+       5,
+       5,
+       3,
+       3,
+       2,
+       2,
+       5,
+       1,
+       3,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-08",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    5,
+    1,
+    4,
+    0,
+    1,
+    0,
+    2,
+    3,
+    4,
+    5,
+    5,
+    1,
+    2,
+    3,
+    4,
+    4,
+    4
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 38.2,
+   "bild": [
+    ".......",
+    "....B..",
+    "....G..",
+    ".G..BB.",
+    "GBBGBG.",
+    "GGBGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       1,
+       4,
+       0,
+       1,
+       0,
+       2,
+       3,
+       4,
+       5,
+       5,
+       1,
+       2,
+       3,
+       4,
+       4,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       0
+      ],
+      "gespielt": 0,
+      "verteidigung": 0
+     },
+     {
+      "zuege": [
+       5,
+       1,
+       4,
+       0,
+       1,
+       0,
+       2,
+       3,
+       4,
+       5,
+       5,
+       1,
+       2,
+       3,
+       4,
+       4,
+       4,
+       0,
+       0
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       1,
+       4,
+       0,
+       1,
+       0,
+       2,
+       3,
+       4,
+       5,
+       5,
+       1,
+       2,
+       3,
+       4,
+       4,
+       4,
+       0,
+       0,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-09",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    1,
+    2,
+    6,
+    1,
+    3,
+    3,
+    5,
+    4,
+    3,
+    1,
+    3,
+    3,
+    4,
+    1,
+    1,
+    3,
+    1,
+    6
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 38.5,
+   "bild": [
+    ".G.B...",
+    ".G.B...",
+    ".B.G...",
+    ".B.G...",
+    ".B.BG.B",
+    ".GBGBGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       2,
+       6,
+       1,
+       3,
+       3,
+       5,
+       4,
+       3,
+       1,
+       3,
+       3,
+       4,
+       1,
+       1,
+       3,
+       1,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       6,
+       1,
+       3,
+       3,
+       5,
+       4,
+       3,
+       1,
+       3,
+       3,
+       4,
+       1,
+       1,
+       3,
+       1,
+       6,
+       4,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4,
+       5
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       6,
+       1,
+       3,
+       3,
+       5,
+       4,
+       3,
+       1,
+       3,
+       3,
+       4,
+       1,
+       1,
+       3,
+       1,
+       6,
+       4,
+       5,
+       4,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "2": {
+      "art": "geschenk",
+      "antwort": 2
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-10",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    1,
+    3,
+    4,
+    2,
+    3,
+    0,
+    3,
+    4,
+    4,
+    0,
+    3,
+    3,
+    0,
+    3,
+    6,
+    2,
+    5,
+    5
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 38.5,
+   "bild": [
+    "...B...",
+    "...B...",
+    "...G...",
+    "G..GG..",
+    "B.BGBB.",
+    "BGBBGGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       3,
+       4,
+       2,
+       3,
+       0,
+       3,
+       4,
+       4,
+       0,
+       3,
+       3,
+       0,
+       3,
+       6,
+       2,
+       5,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       1,
+       3,
+       4,
+       2,
+       3,
+       0,
+       3,
+       4,
+       4,
+       0,
+       3,
+       3,
+       0,
+       3,
+       6,
+       2,
+       5,
+       5,
+       2,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       1,
+       3,
+       4,
+       2,
+       3,
+       0,
+       3,
+       4,
+       4,
+       0,
+       3,
+       3,
+       0,
+       3,
+       6,
+       2,
+       5,
+       5,
+       2,
+       5,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "still",
+      "antwort": 2
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-11",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    6,
+    5,
+    1,
+    4,
+    1,
+    2,
+    3,
+    0,
+    1,
+    1,
+    1,
+    5,
+    2,
+    1,
+    2,
+    5,
+    5,
+    4
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 38.5,
+   "bild": [
+    ".B.....",
+    ".G.....",
+    ".B...G.",
+    ".GG..B.",
+    ".GG.BB.",
+    "BGBGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       5,
+       1,
+       4,
+       1,
+       2,
+       3,
+       0,
+       1,
+       1,
+       1,
+       5,
+       2,
+       1,
+       2,
+       5,
+       5,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 0
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       1,
+       4,
+       1,
+       2,
+       3,
+       0,
+       1,
+       1,
+       1,
+       5,
+       2,
+       1,
+       2,
+       5,
+       5,
+       4,
+       3,
+       0
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       0,
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       1,
+       4,
+       1,
+       2,
+       3,
+       0,
+       1,
+       1,
+       1,
+       5,
+       2,
+       1,
+       2,
+       5,
+       5,
+       4,
+       3,
+       0,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "4": {
+      "art": "still",
+      "antwort": 0
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-12",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    2,
+    3,
+    5,
+    4,
+    3,
+    3,
+    0,
+    4,
+    4,
+    0,
+    2,
+    3,
+    0,
+    3,
+    3,
+    2,
+    4,
+    1,
+    1
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 38.8,
+   "bild": [
+    "...B...",
+    "...G...",
+    "...GB..",
+    "B.GGB..",
+    "GBBBG..",
+    "BGBGGB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       3,
+       5,
+       4,
+       3,
+       3,
+       0,
+       4,
+       4,
+       0,
+       2,
+       3,
+       0,
+       3,
+       3,
+       2,
+       4,
+       1,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       2,
+       3,
+       5,
+       4,
+       3,
+       3,
+       0,
+       4,
+       4,
+       0,
+       2,
+       3,
+       0,
+       3,
+       3,
+       2,
+       4,
+       1,
+       1,
+       2,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       0,
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       2,
+       3,
+       5,
+       4,
+       3,
+       3,
+       0,
+       4,
+       4,
+       0,
+       2,
+       3,
+       0,
+       3,
+       3,
+       2,
+       4,
+       1,
+       1,
+       2,
+       1,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "4": {
+      "art": "still",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-13",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    4,
+    4,
+    3,
+    5,
+    3,
+    3,
+    3,
+    4,
+    6,
+    4,
+    4,
+    4,
+    3,
+    0,
+    5,
+    3,
+    0,
+    5,
+    0,
+    0
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 39.0,
+   "bild": [
+    "...BB..",
+    "...GG..",
+    "B..GB..",
+    "G..BBB.",
+    "G..GBG.",
+    "B..GGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       4,
+       3,
+       5,
+       3,
+       3,
+       3,
+       4,
+       6,
+       4,
+       4,
+       4,
+       3,
+       0,
+       5,
+       3,
+       0,
+       5,
+       0,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       4,
+       4,
+       3,
+       5,
+       3,
+       3,
+       3,
+       4,
+       6,
+       4,
+       4,
+       4,
+       3,
+       0,
+       5,
+       3,
+       0,
+       5,
+       0,
+       0,
+       1,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       4,
+       4,
+       3,
+       5,
+       3,
+       3,
+       3,
+       4,
+       6,
+       4,
+       4,
+       4,
+       3,
+       0,
+       5,
+       3,
+       0,
+       5,
+       0,
+       0,
+       1,
+       2,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "geschenk",
+      "antwort": 6
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-14",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    2,
+    4,
+    3,
+    5,
+    5,
+    6,
+    3,
+    3,
+    6,
+    4,
+    1,
+    0,
+    3,
+    6,
+    3,
+    1,
+    4,
+    6,
+    2,
+    0,
+    6
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 39.2,
+   "bild": [
+    ".......",
+    "...B..B",
+    "...B..G",
+    "...GB.G",
+    "GGBBGBB",
+    "GBBBGGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       4,
+       3,
+       5,
+       5,
+       6,
+       3,
+       3,
+       6,
+       4,
+       1,
+       0,
+       3,
+       6,
+       3,
+       1,
+       4,
+       6,
+       2,
+       0,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       0
+      ],
+      "gespielt": 0,
+      "verteidigung": 0
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       3,
+       5,
+       5,
+       6,
+       3,
+       3,
+       6,
+       4,
+       1,
+       0,
+       3,
+       6,
+       3,
+       1,
+       4,
+       6,
+       2,
+       0,
+       6,
+       0,
+       0
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       3,
+       5,
+       5,
+       6,
+       3,
+       3,
+       6,
+       4,
+       1,
+       0,
+       3,
+       6,
+       3,
+       1,
+       4,
+       6,
+       2,
+       0,
+       6,
+       0,
+       0,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "1": {
+      "art": "still",
+      "antwort": 4
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "3": {
+      "art": "still",
+      "antwort": 4
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geschenk",
+      "antwort": 5
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-15",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    5,
+    4,
+    3,
+    4,
+    1,
+    1,
+    5,
+    3,
+    4,
+    3,
+    3,
+    6,
+    4,
+    3,
+    3,
+    4,
+    4,
+    5,
+    1,
+    2,
+    2
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 39.2,
+   "bild": [
+    "...BB..",
+    "...GG..",
+    "...BB..",
+    ".B.GBG.",
+    ".GBGGB.",
+    ".BGBGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       4,
+       3,
+       4,
+       1,
+       1,
+       5,
+       3,
+       4,
+       3,
+       3,
+       6,
+       4,
+       3,
+       3,
+       4,
+       4,
+       5,
+       1,
+       2,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       3,
+       4,
+       1,
+       1,
+       5,
+       3,
+       4,
+       3,
+       3,
+       6,
+       4,
+       3,
+       3,
+       4,
+       4,
+       5,
+       1,
+       2,
+       2,
+       1,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       4,
+       3,
+       4,
+       1,
+       1,
+       5,
+       3,
+       4,
+       3,
+       3,
+       6,
+       4,
+       3,
+       3,
+       4,
+       4,
+       5,
+       1,
+       2,
+       2,
+       1,
+       2,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-16",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    1,
+    0,
+    3,
+    3,
+    5,
+    3,
+    1,
+    2,
+    3,
+    4,
+    3,
+    3,
+    2,
+    4,
+    5,
+    0,
+    4,
+    6,
+    5,
+    5,
+    0,
+    1,
+    5
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 39.8,
+   "bild": [
+    "...G...",
+    "...B.B.",
+    "...B.G.",
+    "BG.GBB.",
+    "GBBGGB.",
+    "GBGBGBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       0,
+       3,
+       3,
+       5,
+       3,
+       1,
+       2,
+       3,
+       4,
+       3,
+       3,
+       2,
+       4,
+       5,
+       0,
+       4,
+       6,
+       5,
+       5,
+       0,
+       1,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       1,
+       0,
+       3,
+       3,
+       5,
+       3,
+       1,
+       2,
+       3,
+       4,
+       3,
+       3,
+       2,
+       4,
+       5,
+       0,
+       4,
+       6,
+       5,
+       5,
+       0,
+       1,
+       5,
+       1,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       1,
+       0,
+       3,
+       3,
+       5,
+       3,
+       1,
+       2,
+       3,
+       4,
+       3,
+       3,
+       2,
+       4,
+       5,
+       0,
+       4,
+       6,
+       5,
+       5,
+       0,
+       1,
+       5,
+       1,
+       2,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "4": {
+      "art": "still",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-17",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    2,
+    3,
+    5,
+    5,
+    3,
+    0,
+    2,
+    3,
+    4,
+    3,
+    6,
+    3,
+    3,
+    2,
+    2,
+    4,
+    2
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 40.2,
+   "bild": [
+    "...B...",
+    "..BG...",
+    "..BG...",
+    "..GG...",
+    "..BBGG.",
+    "G.BGBBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       3,
+       5,
+       5,
+       3,
+       0,
+       2,
+       3,
+       4,
+       3,
+       6,
+       3,
+       3,
+       2,
+       2,
+       4,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       2,
+       3,
+       5,
+       5,
+       3,
+       0,
+       2,
+       3,
+       4,
+       3,
+       6,
+       3,
+       3,
+       2,
+       2,
+       4,
+       2,
+       4,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       2,
+       3,
+       5,
+       5,
+       3,
+       0,
+       2,
+       3,
+       4,
+       3,
+       6,
+       3,
+       3,
+       2,
+       2,
+       4,
+       2,
+       4,
+       5,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "2": {
+      "art": "still",
+      "antwort": 4
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 4
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-18",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    1,
+    2,
+    2,
+    4,
+    3,
+    3,
+    4,
+    5,
+    5,
+    2,
+    1,
+    2,
+    5
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 41.2,
+   "bild": [
+    ".......",
+    ".......",
+    "..G....",
+    "..G..B.",
+    ".BBGBB.",
+    ".BGBGG."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       2,
+       2,
+       4,
+       3,
+       3,
+       4,
+       5,
+       5,
+       2,
+       1,
+       2,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       2,
+       4,
+       3,
+       3,
+       4,
+       5,
+       5,
+       2,
+       1,
+       2,
+       5,
+       1,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       2,
+       4,
+       3,
+       3,
+       4,
+       5,
+       5,
+       2,
+       1,
+       2,
+       5,
+       1,
+       1,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "3": {
+      "art": "still",
+      "antwort": 4
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-19",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    3,
+    4,
+    5,
+    3,
+    2,
+    6,
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    3,
+    3,
+    1,
+    0,
+    5,
+    5,
+    4,
+    2,
+    0,
+    2
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 41.5,
+   "bild": [
+    "..BB...",
+    "..BG...",
+    "..GG...",
+    "..BBGB.",
+    "G.GBBG.",
+    "BGGGBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       4,
+       5,
+       3,
+       2,
+       6,
+       2,
+       2,
+       2,
+       3,
+       3,
+       4,
+       3,
+       3,
+       1,
+       0,
+       5,
+       5,
+       4,
+       2,
+       0,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       3,
+       4,
+       5,
+       3,
+       2,
+       6,
+       2,
+       2,
+       2,
+       3,
+       3,
+       4,
+       3,
+       3,
+       1,
+       0,
+       5,
+       5,
+       4,
+       2,
+       0,
+       2,
+       4,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       3,
+       4,
+       5,
+       3,
+       2,
+       6,
+       2,
+       2,
+       2,
+       3,
+       3,
+       4,
+       3,
+       3,
+       1,
+       0,
+       5,
+       5,
+       4,
+       2,
+       0,
+       2,
+       4,
+       5,
+       1,
+       4
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 4
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 4
+     }
+    }
+   }
+  },
+  {
+   "id": "zwang-20",
+   "kapitel": "zwang",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    5,
+    3,
+    2,
+    1,
+    5,
+    3,
+    4,
+    5,
+    1,
+    2,
+    3,
+    6,
+    5,
+    2,
+    1,
+    0,
+    4,
+    2,
+    2,
+    4,
+    6,
+    4,
+    5
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 41.8,
+   "bild": [
+    ".......",
+    "..B..B.",
+    "..G.GB.",
+    ".BGBGG.",
+    ".BGGBBB",
+    "GGBGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       3,
+       2,
+       1,
+       5,
+       3,
+       4,
+       5,
+       1,
+       2,
+       3,
+       6,
+       5,
+       2,
+       1,
+       0,
+       4,
+       2,
+       2,
+       4,
+       6,
+       4,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       5,
+       3,
+       2,
+       1,
+       5,
+       3,
+       4,
+       5,
+       1,
+       2,
+       3,
+       6,
+       5,
+       2,
+       1,
+       0,
+       4,
+       2,
+       2,
+       4,
+       6,
+       4,
+       5,
+       4,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       3,
+       2,
+       1,
+       5,
+       3,
+       4,
+       5,
+       1,
+       2,
+       3,
+       6,
+       5,
+       2,
+       1,
+       0,
+       4,
+       2,
+       2,
+       4,
+       6,
+       4,
+       5,
+       4,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       5
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 1
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-01",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    5,
+    6,
+    4,
+    3,
+    2,
+    3,
+    3,
+    3,
+    1
+   ],
+   "motiv": "still",
+   "schwierigkeit": 40.2,
+   "bild": [
+    ".......",
+    ".......",
+    "...G...",
+    "...B...",
+    "...G...",
+    ".BBGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       6,
+       4,
+       3,
+       2,
+       3,
+       3,
+       3,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       6,
+       4,
+       3,
+       2,
+       3,
+       3,
+       3,
+       1,
+       5,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2,
+       4,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       5,
+       6,
+       4,
+       3,
+       2,
+       3,
+       3,
+       3,
+       1,
+       5,
+       3,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 4
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 5
+     },
+     "6": {
+      "art": "still",
+      "antwort": 4
+     }
+    }
+   }
+  },
+  {
+   "id": "still-02",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    3,
+    2,
+    4,
+    3,
+    2,
+    1,
+    4,
+    3,
+    5,
+    6,
+    4,
+    4,
+    1,
+    4,
+    6,
+    1,
+    1,
+    2,
+    2,
+    5,
+    3,
+    5,
+    5
+   ],
+   "motiv": "still",
+   "schwierigkeit": 41.8,
+   "bild": [
+    ".......",
+    "....G..",
+    ".BBBGB.",
+    ".GGGBG.",
+    ".BBGBGB",
+    ".GGBBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       2,
+       4,
+       3,
+       2,
+       1,
+       4,
+       3,
+       5,
+       6,
+       4,
+       4,
+       1,
+       4,
+       6,
+       1,
+       1,
+       2,
+       2,
+       5,
+       3,
+       5,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       2,
+       4,
+       3,
+       2,
+       1,
+       4,
+       3,
+       5,
+       6,
+       4,
+       4,
+       1,
+       4,
+       6,
+       1,
+       1,
+       2,
+       2,
+       5,
+       3,
+       5,
+       5,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1,
+       2,
+       5
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       3,
+       2,
+       4,
+       3,
+       2,
+       1,
+       4,
+       3,
+       5,
+       6,
+       4,
+       4,
+       1,
+       4,
+       6,
+       1,
+       1,
+       2,
+       2,
+       5,
+       3,
+       5,
+       5,
+       3,
+       3,
+       2,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       5
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-03",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    3,
+    6,
+    3,
+    3,
+    2,
+    6,
+    2,
+    6,
+    6,
+    4,
+    3,
+    0,
+    2,
+    2,
+    1,
+    1
+   ],
+   "motiv": "still",
+   "schwierigkeit": 42.0,
+   "bild": [
+    ".......",
+    ".......",
+    "..BG..G",
+    "..GB..B",
+    ".BGG..B",
+    "BGGGB.B"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       6,
+       3,
+       3,
+       2,
+       6,
+       2,
+       6,
+       6,
+       4,
+       3,
+       0,
+       2,
+       2,
+       1,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       6,
+       3,
+       3,
+       2,
+       6,
+       2,
+       6,
+       6,
+       4,
+       3,
+       0,
+       2,
+       2,
+       1,
+       1,
+       4,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       6,
+       3,
+       3,
+       2,
+       6,
+       2,
+       6,
+       6,
+       4,
+       3,
+       0,
+       2,
+       2,
+       1,
+       1,
+       4,
+       3,
+       5,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-04",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    4,
+    4,
+    3,
+    5,
+    3,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    1,
+    4,
+    5,
+    5,
+    2
+   ],
+   "motiv": "still",
+   "schwierigkeit": 42.0,
+   "bild": [
+    ".......",
+    "....G..",
+    "...BBG.",
+    "...GGB.",
+    "..BGBG.",
+    ".BBGGB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       4,
+       3,
+       5,
+       3,
+       2,
+       3,
+       3,
+       4,
+       4,
+       5,
+       1,
+       4,
+       5,
+       5,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       4,
+       3,
+       5,
+       3,
+       2,
+       3,
+       3,
+       4,
+       4,
+       5,
+       1,
+       4,
+       5,
+       5,
+       2,
+       2,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       4,
+       3,
+       5,
+       3,
+       2,
+       3,
+       3,
+       4,
+       4,
+       5,
+       1,
+       4,
+       5,
+       5,
+       2,
+       2,
+       3,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-05",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    2,
+    4,
+    6,
+    5,
+    3,
+    2,
+    5,
+    3,
+    3,
+    3,
+    3,
+    0,
+    2,
+    2,
+    2,
+    6,
+    5,
+    5,
+    3,
+    5
+   ],
+   "motiv": "still",
+   "schwierigkeit": 45.0,
+   "bild": [
+    "...G...",
+    "..GG.B.",
+    "..BB.B.",
+    "..GG.G.",
+    "..BB.GB",
+    "B.GGBBG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       4,
+       6,
+       5,
+       3,
+       2,
+       5,
+       3,
+       3,
+       3,
+       3,
+       0,
+       2,
+       2,
+       2,
+       6,
+       5,
+       5,
+       3,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       6,
+       5,
+       3,
+       2,
+       5,
+       3,
+       3,
+       3,
+       3,
+       0,
+       2,
+       2,
+       2,
+       6,
+       5,
+       5,
+       3,
+       5,
+       2,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       6,
+       5,
+       3,
+       2,
+       5,
+       3,
+       3,
+       3,
+       3,
+       0,
+       2,
+       2,
+       2,
+       6,
+       5,
+       5,
+       3,
+       5,
+       2,
+       1,
+       4,
+       4
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 6
+     }
+    }
+   }
+  },
+  {
+   "id": "still-06",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    1,
+    5,
+    6,
+    2,
+    3,
+    1,
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    5,
+    1,
+    5
+   ],
+   "motiv": "still",
+   "schwierigkeit": 45.8,
+   "bild": [
+    ".......",
+    "..G....",
+    ".GB....",
+    ".BB..B.",
+    ".GGG.B.",
+    ".BGB.GB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       5,
+       6,
+       2,
+       3,
+       1,
+       1,
+       2,
+       2,
+       3,
+       2,
+       2,
+       5,
+       1,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       5,
+       6,
+       2,
+       3,
+       1,
+       1,
+       2,
+       2,
+       3,
+       2,
+       2,
+       5,
+       1,
+       5,
+       5,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       5,
+       6,
+       2,
+       3,
+       1,
+       1,
+       2,
+       2,
+       3,
+       2,
+       2,
+       5,
+       1,
+       5,
+       5,
+       3,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 0
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-07",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 1,
+   "zuege": [
+    2,
+    3,
+    3,
+    6,
+    4,
+    3,
+    2,
+    4,
+    4,
+    2,
+    2,
+    5,
+    1,
+    3,
+    3,
+    6,
+    1,
+    6,
+    6,
+    2,
+    4,
+    1
+   ],
+   "motiv": "still",
+   "schwierigkeit": 47.5,
+   "bild": [
+    ".......",
+    "..BG...",
+    "..GBG.G",
+    ".BBBG.B",
+    ".GGGB.B",
+    ".GGBGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       3,
+       3,
+       6,
+       4,
+       3,
+       2,
+       4,
+       4,
+       2,
+       2,
+       5,
+       1,
+       3,
+       3,
+       6,
+       1,
+       6,
+       6,
+       2,
+       4,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       3,
+       3,
+       6,
+       4,
+       3,
+       2,
+       4,
+       4,
+       2,
+       2,
+       5,
+       1,
+       3,
+       3,
+       6,
+       1,
+       6,
+       6,
+       2,
+       4,
+       1,
+       2,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       2,
+       3,
+       3,
+       6,
+       4,
+       3,
+       2,
+       4,
+       4,
+       2,
+       2,
+       5,
+       1,
+       3,
+       3,
+       6,
+       1,
+       6,
+       6,
+       2,
+       4,
+       1,
+       2,
+       3,
+       5,
+       4
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 0
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-08",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 3,
+   "beginner": 2,
+   "zuege": [
+    5,
+    2,
+    5,
+    3,
+    5,
+    5,
+    2,
+    5,
+    1,
+    2,
+    5,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4
+   ],
+   "motiv": "still",
+   "schwierigkeit": 48.2,
+   "bild": [
+    "...G.B.",
+    "...B.G.",
+    "...G.G.",
+    "..GB.B.",
+    "..BG.B.",
+    ".BGGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       2,
+       5,
+       3,
+       5,
+       5,
+       2,
+       5,
+       1,
+       2,
+       5,
+       3,
+       3,
+       3,
+       3,
+       3,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       2,
+       5,
+       3,
+       5,
+       5,
+       2,
+       5,
+       1,
+       2,
+       5,
+       3,
+       3,
+       3,
+       3,
+       3,
+       4,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       2,
+       5,
+       3,
+       5,
+       5,
+       2,
+       5,
+       1,
+       2,
+       5,
+       3,
+       3,
+       3,
+       3,
+       3,
+       4,
+       2,
+       2,
+       4,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 1
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 0
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "still-09",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    1,
+    2,
+    5,
+    3,
+    4,
+    1,
+    4,
+    1,
+    1,
+    0,
+    6,
+    4
+   ],
+   "motiv": "still",
+   "schwierigkeit": 49.0,
+   "bild": [
+    ".......",
+    ".......",
+    ".G.....",
+    ".B..B..",
+    ".B..G..",
+    "BGBBGGG"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       2,
+       5,
+       3,
+       4,
+       1,
+       4,
+       1,
+       1,
+       0,
+       6,
+       4
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       5,
+       3,
+       4,
+       1,
+       4,
+       1,
+       1,
+       0,
+       6,
+       4,
+       3,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       5,
+       3,
+       4,
+       1,
+       4,
+       1,
+       1,
+       0,
+       6,
+       4,
+       3,
+       5,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       2,
+       5,
+       3,
+       4,
+       1,
+       4,
+       1,
+       1,
+       0,
+       6,
+       4,
+       3,
+       5,
+       3,
+       3,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-10",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    2,
+    1,
+    5,
+    6,
+    4,
+    3,
+    1,
+    5,
+    1,
+    5,
+    4,
+    3,
+    4,
+    4,
+    4,
+    1
+   ],
+   "motiv": "still",
+   "schwierigkeit": 50.0,
+   "bild": [
+    ".......",
+    "....G..",
+    ".B..B..",
+    ".G..GB.",
+    ".G.BGB.",
+    ".BGBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       1,
+       5,
+       6,
+       4,
+       3,
+       1,
+       5,
+       1,
+       5,
+       4,
+       3,
+       4,
+       4,
+       4,
+       1
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       2,
+       1,
+       5,
+       6,
+       4,
+       3,
+       1,
+       5,
+       1,
+       5,
+       4,
+       3,
+       4,
+       4,
+       4,
+       1,
+       3,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       1,
+       5,
+       6,
+       4,
+       3,
+       1,
+       5,
+       1,
+       5,
+       4,
+       3,
+       4,
+       4,
+       4,
+       1,
+       3,
+       5,
+       5,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       1,
+       5,
+       6,
+       4,
+       3,
+       1,
+       5,
+       1,
+       5,
+       4,
+       3,
+       4,
+       4,
+       4,
+       1,
+       3,
+       5,
+       5,
+       3,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-11",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    2,
+    2,
+    2,
+    6,
+    2,
+    2,
+    6,
+    4,
+    0,
+    0,
+    3,
+    1,
+    4,
+    2
+   ],
+   "motiv": "still",
+   "schwierigkeit": 51.5,
+   "bild": [
+    "..B....",
+    "..B....",
+    "..G....",
+    "..G....",
+    "B.B.G.G",
+    "GBGGB.B"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       2,
+       2,
+       6,
+       2,
+       2,
+       6,
+       4,
+       0,
+       0,
+       3,
+       1,
+       4,
+       2
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       2,
+       2,
+       2,
+       6,
+       2,
+       2,
+       6,
+       4,
+       0,
+       0,
+       3,
+       1,
+       4,
+       2,
+       5,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       2,
+       2,
+       2,
+       6,
+       2,
+       2,
+       6,
+       4,
+       0,
+       0,
+       3,
+       1,
+       4,
+       2,
+       5,
+       5,
+       1,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       2,
+       2,
+       6,
+       2,
+       2,
+       6,
+       4,
+       0,
+       0,
+       3,
+       1,
+       4,
+       2,
+       5,
+       5,
+       1,
+       4,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 4
+     },
+     "1": {
+      "art": "still",
+      "antwort": 5
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-12",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    5,
+    5,
+    0,
+    3,
+    3,
+    3,
+    3,
+    6,
+    6,
+    3,
+    6,
+    5,
+    4,
+    4,
+    6,
+    6
+   ],
+   "motiv": "still",
+   "schwierigkeit": 52.0,
+   "bild": [
+    ".......",
+    "...B..B",
+    "...G..G",
+    "...B.BG",
+    "...GBBG",
+    "G..BGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       5,
+       5,
+       0,
+       3,
+       3,
+       3,
+       3,
+       6,
+       6,
+       3,
+       6,
+       5,
+       4,
+       4,
+       6,
+       6
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       5,
+       0,
+       3,
+       3,
+       3,
+       3,
+       6,
+       6,
+       3,
+       6,
+       5,
+       4,
+       4,
+       6,
+       6,
+       5,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       5,
+       0,
+       3,
+       3,
+       3,
+       3,
+       6,
+       6,
+       3,
+       6,
+       5,
+       4,
+       4,
+       6,
+       6,
+       5,
+       2,
+       3,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       5,
+       5,
+       0,
+       3,
+       3,
+       3,
+       3,
+       6,
+       6,
+       3,
+       6,
+       5,
+       4,
+       4,
+       6,
+       6,
+       5,
+       2,
+       3,
+       2,
+       4,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 4
+     },
+     "3": {
+      "art": "still",
+      "antwort": 5
+     },
+     "4": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-13",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    3,
+    0,
+    3,
+    4,
+    2,
+    4,
+    6,
+    3,
+    4,
+    5,
+    1,
+    3,
+    4
+   ],
+   "motiv": "still",
+   "schwierigkeit": 53.2,
+   "bild": [
+    ".......",
+    ".......",
+    "...GB..",
+    "...GB..",
+    "...BG..",
+    "GBBBGGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       0,
+       3,
+       4,
+       2,
+       4,
+       6,
+       3,
+       4,
+       5,
+       1,
+       3,
+       4
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       3,
+       0,
+       3,
+       4,
+       2,
+       4,
+       6,
+       3,
+       4,
+       5,
+       1,
+       3,
+       4,
+       1,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       0,
+       3,
+       4,
+       2,
+       4,
+       6,
+       3,
+       4,
+       5,
+       1,
+       3,
+       4,
+       1,
+       4,
+       4,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       0,
+       3,
+       4,
+       2,
+       4,
+       6,
+       3,
+       4,
+       5,
+       1,
+       3,
+       4,
+       1,
+       4,
+       4,
+       3,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 4
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 1
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-14",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    4,
+    5,
+    1,
+    3,
+    0,
+    1,
+    5,
+    3,
+    3,
+    4,
+    0,
+    2,
+    2,
+    2
+   ],
+   "motiv": "still",
+   "schwierigkeit": 53.5,
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "..BG...",
+    "GBGBBG.",
+    "GGBBGB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       5,
+       1,
+       3,
+       0,
+       1,
+       5,
+       3,
+       3,
+       4,
+       0,
+       2,
+       2,
+       2
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 6
+     },
+     {
+      "zuege": [
+       4,
+       5,
+       1,
+       3,
+       0,
+       1,
+       5,
+       3,
+       3,
+       4,
+       0,
+       2,
+       2,
+       2,
+       3,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       5,
+       1,
+       3,
+       0,
+       1,
+       5,
+       3,
+       3,
+       4,
+       0,
+       2,
+       2,
+       2,
+       3,
+       6,
+       2,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2,
+       4
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       5,
+       1,
+       3,
+       0,
+       1,
+       5,
+       3,
+       3,
+       4,
+       0,
+       2,
+       2,
+       2,
+       3,
+       6,
+       2,
+       3,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 0
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "still-15",
+   "kapitel": "still",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    2,
+    2,
+    1,
+    1,
+    5,
+    2,
+    4,
+    3,
+    3,
+    3,
+    4,
+    5,
+    4,
+    4,
+    3,
+    4,
+    3,
+    3,
+    5,
+    5,
+    5,
+    4,
+    2
+   ],
+   "motiv": "still",
+   "schwierigkeit": 53.8,
+   "bild": [
+    "...GG..",
+    "...BGB.",
+    "..BBGG.",
+    "..GGBB.",
+    ".GGBBG.",
+    ".BBGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       2,
+       1,
+       1,
+       5,
+       2,
+       4,
+       3,
+       3,
+       3,
+       4,
+       5,
+       4,
+       4,
+       3,
+       4,
+       3,
+       3,
+       5,
+       5,
+       5,
+       4,
+       2
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       2,
+       2,
+       1,
+       1,
+       5,
+       2,
+       4,
+       3,
+       3,
+       3,
+       4,
+       5,
+       4,
+       4,
+       3,
+       4,
+       3,
+       3,
+       5,
+       5,
+       5,
+       4,
+       2,
+       1,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       0,
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       2,
+       2,
+       1,
+       1,
+       5,
+       2,
+       4,
+       3,
+       3,
+       3,
+       4,
+       5,
+       4,
+       4,
+       3,
+       4,
+       3,
+       3,
+       5,
+       5,
+       5,
+       4,
+       2,
+       1,
+       2,
+       2,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       2,
+       2,
+       1,
+       1,
+       5,
+       2,
+       4,
+       3,
+       3,
+       3,
+       4,
+       5,
+       4,
+       4,
+       3,
+       4,
+       3,
+       3,
+       5,
+       5,
+       5,
+       4,
+       2,
+       1,
+       2,
+       2,
+       5,
+       1,
+       1
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 1
+     },
+     "2": {
+      "art": "still",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 1
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-01",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    3,
+    4,
+    1,
+    6,
+    2,
+    0,
+    4,
+    2,
+    5,
+    1,
+    6,
+    2,
+    4,
+    4
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 45.5,
+   "bild": [
+    ".......",
+    ".......",
+    "....B..",
+    "..B.G..",
+    ".BB.G.G",
+    "BGGGBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       4,
+       1,
+       6,
+       2,
+       0,
+       4,
+       2,
+       5,
+       1,
+       6,
+       2,
+       4,
+       4
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       3,
+       4,
+       1,
+       6,
+       2,
+       0,
+       4,
+       2,
+       5,
+       1,
+       6,
+       2,
+       4,
+       4,
+       3,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       3,
+       4,
+       1,
+       6,
+       2,
+       0,
+       4,
+       2,
+       5,
+       1,
+       6,
+       2,
+       4,
+       4,
+       3,
+       5,
+       5,
+       5
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       4,
+       1,
+       6,
+       2,
+       0,
+       4,
+       2,
+       5,
+       1,
+       6,
+       2,
+       4,
+       4,
+       3,
+       5,
+       5,
+       5,
+       6,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       6
+      ],
+      "gespielt": 6,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 5
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-02",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    3,
+    5,
+    2,
+    4,
+    5,
+    5,
+    1,
+    0,
+    4,
+    1,
+    4,
+    3,
+    1,
+    2,
+    0,
+    3,
+    4,
+    4
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 46.5,
+   "bild": [
+    ".......",
+    "....B..",
+    "....G..",
+    ".G.BGB.",
+    "GBBBGG.",
+    "BGGGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       5,
+       2,
+       4,
+       5,
+       5,
+       1,
+       0,
+       4,
+       1,
+       4,
+       3,
+       1,
+       2,
+       0,
+       3,
+       4,
+       4
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 6
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       2,
+       4,
+       5,
+       5,
+       1,
+       0,
+       4,
+       1,
+       4,
+       3,
+       1,
+       2,
+       0,
+       3,
+       4,
+       4,
+       3,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1,
+       2,
+       3,
+       5
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       2,
+       4,
+       5,
+       5,
+       1,
+       0,
+       4,
+       1,
+       4,
+       3,
+       1,
+       2,
+       0,
+       3,
+       4,
+       4,
+       3,
+       6,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       2,
+       4,
+       5,
+       5,
+       1,
+       0,
+       4,
+       1,
+       4,
+       3,
+       1,
+       2,
+       0,
+       3,
+       4,
+       4,
+       3,
+       6,
+       3,
+       3,
+       2,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-03",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    3,
+    5,
+    3,
+    1,
+    3,
+    3,
+    2,
+    4,
+    5,
+    3
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 46.5,
+   "bild": [
+    ".......",
+    "...B...",
+    "...B...",
+    "...G...",
+    "...G.G.",
+    ".BGGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       5,
+       3,
+       1,
+       3,
+       3,
+       2,
+       4,
+       5,
+       3
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       3,
+       1,
+       3,
+       3,
+       2,
+       4,
+       5,
+       3,
+       2,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       3,
+       1,
+       3,
+       3,
+       2,
+       4,
+       5,
+       3,
+       2,
+       4,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       3,
+       1,
+       3,
+       3,
+       2,
+       4,
+       5,
+       3,
+       2,
+       4,
+       2,
+       2,
+       4,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-04",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    4,
+    4,
+    1,
+    3,
+    2,
+    3,
+    3,
+    2,
+    1,
+    4,
+    1,
+    1,
+    6,
+    4,
+    4,
+    4,
+    1,
+    0
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 46.5,
+   "bild": [
+    "....B..",
+    ".G..G..",
+    ".B..B..",
+    ".G.GB..",
+    ".GBBB..",
+    "BGGBG.G"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       4,
+       1,
+       3,
+       2,
+       3,
+       3,
+       2,
+       1,
+       4,
+       1,
+       1,
+       6,
+       4,
+       4,
+       4,
+       1,
+       0
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       4,
+       4,
+       1,
+       3,
+       2,
+       3,
+       3,
+       2,
+       1,
+       4,
+       1,
+       1,
+       6,
+       4,
+       4,
+       4,
+       1,
+       0,
+       3,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       4,
+       1,
+       3,
+       2,
+       3,
+       3,
+       2,
+       1,
+       4,
+       1,
+       1,
+       6,
+       4,
+       4,
+       4,
+       1,
+       0,
+       3,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       0,
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       4,
+       4,
+       1,
+       3,
+       2,
+       3,
+       3,
+       2,
+       1,
+       4,
+       1,
+       1,
+       6,
+       4,
+       4,
+       4,
+       1,
+       0,
+       3,
+       2,
+       3,
+       3,
+       2,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0
+      ],
+      "gespielt": 0,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geschenk",
+      "antwort": 5
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-05",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    3,
+    5,
+    3,
+    5,
+    4,
+    4,
+    0,
+    2,
+    1,
+    4,
+    6
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 46.8,
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "....G..",
+    "...BGG.",
+    "BBGBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       5,
+       3,
+       5,
+       4,
+       4,
+       0,
+       2,
+       1,
+       4,
+       6
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       3,
+       5,
+       4,
+       4,
+       0,
+       2,
+       1,
+       4,
+       6,
+       5,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       3,
+       5,
+       4,
+       4,
+       0,
+       2,
+       1,
+       4,
+       6,
+       5,
+       5,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       3,
+       5,
+       4,
+       4,
+       0,
+       2,
+       1,
+       4,
+       6,
+       5,
+       5,
+       3,
+       3,
+       2,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 5
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-06",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    1,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    4,
+    4,
+    2,
+    5,
+    2,
+    2,
+    3,
+    3
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 47.8,
+   "bild": [
+    ".......",
+    "..BB...",
+    "..GG...",
+    "..GG...",
+    ".BGBB..",
+    ".BBGGB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       3,
+       3,
+       3,
+       2,
+       2,
+       1,
+       4,
+       4,
+       2,
+       5,
+       2,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       1,
+       3,
+       3,
+       3,
+       2,
+       2,
+       1,
+       4,
+       4,
+       2,
+       5,
+       2,
+       2,
+       3,
+       3,
+       4,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       1,
+       3,
+       3,
+       3,
+       2,
+       2,
+       1,
+       4,
+       4,
+       2,
+       5,
+       2,
+       2,
+       3,
+       3,
+       4,
+       1,
+       1,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5,
+       6
+      ],
+      "gespielt": 5,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       3,
+       3,
+       3,
+       2,
+       2,
+       1,
+       4,
+       4,
+       2,
+       5,
+       2,
+       2,
+       3,
+       3,
+       4,
+       1,
+       1,
+       4,
+       5,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       5,
+       6
+      ],
+      "gespielt": 5,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 4
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 4
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-07",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    6,
+    5,
+    3,
+    3,
+    4,
+    3,
+    4,
+    3,
+    3,
+    6,
+    5,
+    3,
+    5,
+    2,
+    0
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 47.8,
+   "bild": [
+    "...G...",
+    "...B...",
+    "...G...",
+    "...G.B.",
+    "...GBBG",
+    "B.GBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       6,
+       5,
+       3,
+       3,
+       4,
+       3,
+       4,
+       3,
+       3,
+       6,
+       5,
+       3,
+       5,
+       2,
+       0
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       3,
+       3,
+       4,
+       3,
+       4,
+       3,
+       3,
+       6,
+       5,
+       3,
+       5,
+       2,
+       0,
+       5,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       3,
+       3,
+       4,
+       3,
+       4,
+       3,
+       3,
+       6,
+       5,
+       3,
+       5,
+       2,
+       0,
+       5,
+       4,
+       4,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       6,
+       5,
+       3,
+       3,
+       4,
+       3,
+       4,
+       3,
+       3,
+       6,
+       5,
+       3,
+       5,
+       2,
+       0,
+       5,
+       4,
+       4,
+       2,
+       4,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2,
+       6
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "2": {
+      "art": "still",
+      "antwort": 4
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "6": {
+      "art": "geschenk",
+      "antwort": 6
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-08",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    0,
+    4,
+    6,
+    3,
+    5,
+    4,
+    1,
+    0,
+    0,
+    2,
+    2,
+    2,
+    4,
+    5,
+    5,
+    2,
+    1
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 48.2,
+   "bild": [
+    ".......",
+    ".......",
+    "..G....",
+    "B.G.BB.",
+    "GBB.GG.",
+    "BBGGGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       0,
+       4,
+       6,
+       3,
+       5,
+       4,
+       1,
+       0,
+       0,
+       2,
+       2,
+       2,
+       4,
+       5,
+       5,
+       2,
+       1
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 6
+     },
+     {
+      "zuege": [
+       0,
+       4,
+       6,
+       3,
+       5,
+       4,
+       1,
+       0,
+       0,
+       2,
+       2,
+       2,
+       4,
+       5,
+       5,
+       2,
+       1,
+       3,
+       6
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1,
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       4,
+       6,
+       3,
+       5,
+       4,
+       1,
+       0,
+       0,
+       2,
+       2,
+       2,
+       4,
+       5,
+       5,
+       2,
+       1,
+       3,
+       6,
+       3,
+       3
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1,
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       0,
+       4,
+       6,
+       3,
+       5,
+       4,
+       1,
+       0,
+       0,
+       2,
+       2,
+       2,
+       4,
+       5,
+       5,
+       2,
+       1,
+       3,
+       6,
+       3,
+       3,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "geblockt",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-09",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    2,
+    2,
+    4,
+    3,
+    3,
+    4,
+    3,
+    4,
+    5,
+    3,
+    1,
+    3,
+    4,
+    3,
+    0,
+    1,
+    5
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 48.2,
+   "bild": [
+    "...G...",
+    "...G...",
+    "...GB..",
+    "...BG..",
+    ".GGBGB.",
+    "BBBGBB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       2,
+       4,
+       3,
+       3,
+       4,
+       3,
+       4,
+       5,
+       3,
+       1,
+       3,
+       4,
+       3,
+       0,
+       1,
+       5
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       2,
+       2,
+       4,
+       3,
+       3,
+       4,
+       3,
+       4,
+       5,
+       3,
+       1,
+       3,
+       4,
+       3,
+       0,
+       1,
+       5,
+       2,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       2,
+       2,
+       4,
+       3,
+       3,
+       4,
+       3,
+       4,
+       5,
+       3,
+       1,
+       3,
+       4,
+       3,
+       0,
+       1,
+       5,
+       2,
+       4,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       2,
+       2,
+       4,
+       3,
+       3,
+       4,
+       3,
+       4,
+       5,
+       3,
+       1,
+       3,
+       4,
+       3,
+       0,
+       1,
+       5,
+       2,
+       4,
+       2,
+       2,
+       1,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-10",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    1,
+    3,
+    1,
+    1,
+    5,
+    4,
+    3,
+    3,
+    1,
+    5,
+    2,
+    5,
+    0,
+    4,
+    2,
+    0,
+    4,
+    5,
+    5
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 48.8,
+   "bild": [
+    ".......",
+    ".....B.",
+    ".B...G.",
+    ".G.GBG.",
+    "GBBBGG.",
+    "BBBGGB."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       1,
+       3,
+       1,
+       1,
+       5,
+       4,
+       3,
+       3,
+       1,
+       5,
+       2,
+       5,
+       0,
+       4,
+       2,
+       0,
+       4,
+       5,
+       5
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 0
+     },
+     {
+      "zuege": [
+       1,
+       3,
+       1,
+       1,
+       5,
+       4,
+       3,
+       3,
+       1,
+       5,
+       2,
+       5,
+       0,
+       4,
+       2,
+       0,
+       4,
+       5,
+       5,
+       2,
+       0
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       1,
+       3,
+       1,
+       1,
+       5,
+       4,
+       3,
+       3,
+       1,
+       5,
+       2,
+       5,
+       0,
+       4,
+       2,
+       0,
+       4,
+       5,
+       5,
+       2,
+       0,
+       2,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3,
+       4
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       1,
+       3,
+       1,
+       1,
+       5,
+       4,
+       3,
+       3,
+       1,
+       5,
+       2,
+       5,
+       0,
+       4,
+       2,
+       0,
+       4,
+       5,
+       5,
+       2,
+       0,
+       2,
+       1,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "geblockt",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 0
+     },
+     "3": {
+      "art": "still",
+      "antwort": 0
+     },
+     "4": {
+      "art": "still",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-11",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    3,
+    5,
+    2,
+    2,
+    6,
+    5,
+    5,
+    2,
+    4,
+    1,
+    5,
+    5,
+    4,
+    2,
+    2,
+    4,
+    2,
+    4,
+    1
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 48.8,
+   "bild": [
+    "..B....",
+    "..B..G.",
+    "..G.GB.",
+    "..G.GB.",
+    ".BG.BG.",
+    ".GBBBGB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       5,
+       2,
+       2,
+       6,
+       5,
+       5,
+       2,
+       4,
+       1,
+       5,
+       5,
+       4,
+       2,
+       2,
+       4,
+       2,
+       4,
+       1
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       2,
+       2,
+       6,
+       5,
+       5,
+       2,
+       4,
+       1,
+       5,
+       5,
+       4,
+       2,
+       2,
+       4,
+       2,
+       4,
+       1,
+       4,
+       4
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       5
+      ],
+      "gespielt": 5,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       2,
+       2,
+       6,
+       5,
+       5,
+       2,
+       4,
+       1,
+       5,
+       5,
+       4,
+       2,
+       2,
+       4,
+       2,
+       4,
+       1,
+       4,
+       4,
+       5,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       2,
+       2,
+       6,
+       5,
+       5,
+       2,
+       4,
+       1,
+       5,
+       5,
+       4,
+       2,
+       2,
+       4,
+       2,
+       4,
+       1,
+       4,
+       4,
+       5,
+       1,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 4
+     },
+     "1": {
+      "art": "still",
+      "antwort": 1
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 4
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-12",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    3,
+    5,
+    0,
+    3,
+    5,
+    2,
+    5,
+    5,
+    2,
+    6,
+    4,
+    4,
+    4,
+    3,
+    1,
+    4,
+    3,
+    0,
+    3,
+    4
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 49.0,
+   "bild": [
+    ".......",
+    "...GB..",
+    "...GBB.",
+    "...BGG.",
+    "B.GBBG.",
+    "GGBGGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       3,
+       5,
+       0,
+       3,
+       5,
+       2,
+       5,
+       5,
+       2,
+       6,
+       4,
+       4,
+       4,
+       3,
+       1,
+       4,
+       3,
+       0,
+       3,
+       4
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       0,
+       3,
+       5,
+       2,
+       5,
+       5,
+       2,
+       6,
+       4,
+       4,
+       4,
+       3,
+       1,
+       4,
+       3,
+       0,
+       3,
+       4,
+       1,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       0,
+       3,
+       5,
+       2,
+       5,
+       5,
+       2,
+       6,
+       4,
+       4,
+       4,
+       3,
+       1,
+       4,
+       3,
+       0,
+       3,
+       4,
+       1,
+       2,
+       2,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       3,
+       5,
+       0,
+       3,
+       5,
+       2,
+       5,
+       5,
+       2,
+       6,
+       4,
+       4,
+       4,
+       3,
+       1,
+       4,
+       3,
+       0,
+       3,
+       4,
+       1,
+       2,
+       2,
+       2,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       1,
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geschenk",
+      "antwort": 2
+     },
+     "3": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "still",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-13",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    4,
+    2,
+    1,
+    1,
+    4,
+    1,
+    2,
+    5,
+    4,
+    4,
+    2,
+    6,
+    6,
+    0,
+    5,
+    4,
+    1,
+    5,
+    4,
+    6
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 49.0,
+   "bild": [
+    "....G..",
+    "....B..",
+    ".G..B..",
+    ".BG.GBB",
+    ".BG.GGG",
+    "BGB.GBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       4,
+       2,
+       1,
+       1,
+       4,
+       1,
+       2,
+       5,
+       4,
+       4,
+       2,
+       6,
+       6,
+       0,
+       5,
+       4,
+       1,
+       5,
+       4,
+       6
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       4,
+       2,
+       1,
+       1,
+       4,
+       1,
+       2,
+       5,
+       4,
+       4,
+       2,
+       6,
+       6,
+       0,
+       5,
+       4,
+       1,
+       5,
+       4,
+       6,
+       2,
+       2
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       4,
+       2,
+       1,
+       1,
+       4,
+       1,
+       2,
+       5,
+       4,
+       4,
+       2,
+       6,
+       6,
+       0,
+       5,
+       4,
+       1,
+       5,
+       4,
+       6,
+       2,
+       2,
+       1,
+       2
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       4,
+       2,
+       1,
+       1,
+       4,
+       1,
+       2,
+       5,
+       4,
+       4,
+       2,
+       6,
+       6,
+       0,
+       5,
+       4,
+       1,
+       5,
+       4,
+       6,
+       2,
+       2,
+       1,
+       2,
+       3,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       3
+      ],
+      "gespielt": 3,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-14",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    2,
+    4,
+    6,
+    3,
+    4,
+    0,
+    3,
+    3,
+    0,
+    3,
+    4,
+    2,
+    5
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 49.2,
+   "bild": [
+    ".......",
+    ".......",
+    "...G...",
+    "...GB..",
+    "B.GBB..",
+    "G.BGGBB"
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       4,
+       6,
+       3,
+       4,
+       0,
+       3,
+       3,
+       0,
+       3,
+       4,
+       2,
+       5
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       6,
+       3,
+       4,
+       0,
+       3,
+       3,
+       0,
+       3,
+       4,
+       2,
+       5,
+       4,
+       1
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": 1
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       6,
+       3,
+       4,
+       0,
+       3,
+       3,
+       0,
+       3,
+       4,
+       2,
+       5,
+       4,
+       1,
+       2,
+       1
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       1
+      ],
+      "gespielt": 1,
+      "verteidigung": 3
+     },
+     {
+      "zuege": [
+       2,
+       4,
+       6,
+       3,
+       4,
+       0,
+       3,
+       3,
+       0,
+       3,
+       4,
+       2,
+       5,
+       4,
+       1,
+       2,
+       1,
+       1,
+       3
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       0
+      ],
+      "gespielt": 0,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "2": {
+      "art": "still",
+      "antwort": 4
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "meister-15",
+   "kapitel": "meister",
+   "art": "gewinnen",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    3,
+    3,
+    4,
+    3,
+    1,
+    5,
+    4,
+    1,
+    3,
+    3,
+    5,
+    5,
+    0,
+    3,
+    1
+   ],
+   "motiv": "zwang",
+   "schwierigkeit": 51.0,
+   "bild": [
+    "...G...",
+    "...G...",
+    "BB.B...",
+    "GG.G.G.",
+    "GB.GBB.",
+    "BBGBBG."
+   ],
+   "erwartet": {
+    "hauptvariante": [
+     {
+      "zuege": [
+       2,
+       0,
+       0,
+       1,
+       0,
+       3,
+       3,
+       4,
+       3,
+       1,
+       5,
+       4,
+       1,
+       3,
+       3,
+       5,
+       5,
+       0,
+       3,
+       1
+      ],
+      "verbleibend": 4,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 5
+     },
+     {
+      "zuege": [
+       2,
+       0,
+       0,
+       1,
+       0,
+       3,
+       3,
+       4,
+       3,
+       1,
+       5,
+       4,
+       1,
+       3,
+       3,
+       5,
+       5,
+       0,
+       3,
+       1,
+       4,
+       5
+      ],
+      "verbleibend": 3,
+      "richtig": [
+       4
+      ],
+      "gespielt": 4,
+      "verteidigung": 4
+     },
+     {
+      "zuege": [
+       2,
+       0,
+       0,
+       1,
+       0,
+       3,
+       3,
+       4,
+       3,
+       1,
+       5,
+       4,
+       1,
+       3,
+       3,
+       5,
+       5,
+       0,
+       3,
+       1,
+       4,
+       5,
+       4,
+       4
+      ],
+      "verbleibend": 2,
+      "richtig": [
+       5,
+       6
+      ],
+      "gespielt": 5,
+      "verteidigung": 2
+     },
+     {
+      "zuege": [
+       2,
+       0,
+       0,
+       1,
+       0,
+       3,
+       3,
+       4,
+       3,
+       1,
+       5,
+       4,
+       1,
+       3,
+       3,
+       5,
+       5,
+       0,
+       3,
+       1,
+       4,
+       5,
+       4,
+       4,
+       5,
+       2
+      ],
+      "verbleibend": 1,
+      "richtig": [
+       2
+      ],
+      "gespielt": 2,
+      "verteidigung": null
+     }
+    ],
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 4
+     },
+     "1": {
+      "art": "still",
+      "antwort": 4
+     },
+     "2": {
+      "art": "geschenk",
+      "antwort": 2
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "6": {
+      "art": "still",
+      "antwort": 4
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-01",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    3,
+    4,
+    3,
+    2,
+    4,
+    4,
+    2,
+    2,
+    4
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 54.2,
+   "bild": [
+    ".......",
+    ".......",
+    "....B..",
+    "..G.G..",
+    "..BBB..",
+    "..GBG.."
+   ],
+   "erwartet": {
+    "richtig": [
+     3
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 1,
+     "2": 2,
+     "4": 2,
+     "5": 1,
+     "6": 2
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geschenk",
+      "antwort": 1
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geschenk",
+      "antwort": 5
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-02",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    4,
+    2,
+    6,
+    3,
+    5,
+    4,
+    5,
+    4,
+    0,
+    5,
+    4,
+    4,
+    1,
+    3,
+    5,
+    4,
+    6,
+    5
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 54.5,
+   "bild": [
+    "....B..",
+    "....BB.",
+    "....GG.",
+    "....BB.",
+    "...BBGG",
+    "GGBBGGG"
+   ],
+   "erwartet": {
+    "richtig": [
+     3
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 2,
+     "2": 2,
+     "5": 2,
+     "6": 1
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "geschenk",
+      "antwort": 6
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-03",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    1,
+    6,
+    2,
+    4,
+    1,
+    1,
+    1,
+    3,
+    5,
+    2,
+    0,
+    2,
+    3,
+    4
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 55.5,
+   "bild": [
+    ".......",
+    ".......",
+    ".G.....",
+    ".BB....",
+    ".GBGB..",
+    "GGGBBGB"
+   ],
+   "erwartet": {
+    "richtig": [
+     3
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 2,
+     "2": 2,
+     "4": 3,
+     "5": 2,
+     "6": 2
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-04",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    4,
+    3,
+    2,
+    6,
+    1,
+    3,
+    4,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    3,
+    2,
+    1,
+    4,
+    4,
+    0,
+    4,
+    4,
+    2
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 55.5,
+   "bild": [
+    "...BG..",
+    "..BBB..",
+    "..GGB..",
+    ".BBBG..",
+    ".GGBG..",
+    "GGGBG.B"
+   ],
+   "erwartet": {
+    "richtig": [
+     6
+    ],
+    "fehler": {
+     "0": 1,
+     "1": 1,
+     "2": 4,
+     "5": 4
+    },
+    "widerlegung": {
+     "0": {
+      "art": "geschenk",
+      "antwort": 0
+     },
+     "1": {
+      "art": "geschenk",
+      "antwort": 1
+     },
+     "2": {
+      "art": "still",
+      "antwort": 1
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-05",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    4,
+    3,
+    3,
+    2,
+    3,
+    3,
+    1,
+    3,
+    3,
+    4,
+    4,
+    2,
+    1,
+    5,
+    5
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 55.8,
+   "bild": [
+    "...B...",
+    "...G...",
+    "...G...",
+    "...BB..",
+    ".BGBGB.",
+    ".BGGBG."
+   ],
+   "erwartet": {
+    "richtig": [
+     2
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 2
+     },
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "still",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-06",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    0,
+    4,
+    2,
+    1,
+    2,
+    5,
+    2,
+    2,
+    1,
+    4,
+    6,
+    3,
+    4,
+    5,
+    6,
+    4,
+    4,
+    4,
+    1
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 56.8,
+   "bild": [
+    "....G..",
+    "....B..",
+    "..G.G..",
+    ".BB.B..",
+    ".BB.GGB",
+    "BGBGGGB"
+   ],
+   "erwartet": {
+    "richtig": [
+     0
+    ],
+    "fehler": {
+     "1": 2,
+     "2": 2,
+     "3": 1,
+     "5": 2,
+     "6": 2
+    },
+    "widerlegung": {
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "2": {
+      "art": "still",
+      "antwort": 2
+     },
+     "3": {
+      "art": "geschenk",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-07",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    1,
+    3,
+    3,
+    2,
+    3,
+    2,
+    4,
+    3,
+    2,
+    3,
+    1
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 56.8,
+   "bild": [
+    ".......",
+    "...G...",
+    "...G...",
+    "..BB...",
+    ".BGB...",
+    ".BGGB.."
+   ],
+   "erwartet": {
+    "richtig": [
+     2
+    ],
+    "fehler": {
+     "0": 4,
+     "1": 1,
+     "3": 4,
+     "4": 2,
+     "5": 4,
+     "6": 4
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geschenk",
+      "antwort": 1
+     },
+     "3": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-08",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    3,
+    5,
+    6,
+    4,
+    4,
+    1,
+    1,
+    2,
+    2,
+    3,
+    6,
+    6,
+    6,
+    3,
+    4,
+    6,
+    2,
+    4,
+    1
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 56.8,
+   "bild": [
+    ".......",
+    "......G",
+    "....G.B",
+    ".BBGB.G",
+    ".BBGB.B",
+    ".GGBGGB"
+   ],
+   "erwartet": {
+    "richtig": [
+     3
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 2,
+     "2": 2,
+     "4": 2,
+     "5": 1,
+     "6": 2
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geschenk",
+      "antwort": 5
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-09",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    4,
+    3,
+    6,
+    2,
+    5,
+    0,
+    1,
+    5,
+    2,
+    4,
+    2,
+    1,
+    5,
+    4,
+    4,
+    5,
+    3,
+    3,
+    3
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 56.8,
+   "bild": [
+    ".......",
+    ".......",
+    "...BBG.",
+    "..BGGB.",
+    ".GBBGG.",
+    "GBGGBBB"
+   ],
+   "erwartet": {
+    "richtig": [
+     3
+    ],
+    "fehler": {
+     "0": 3,
+     "1": 1,
+     "2": 4,
+     "4": 3,
+     "5": 3,
+     "6": 4
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "geschenk",
+      "antwort": 1
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-10",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    5,
+    3,
+    3,
+    4,
+    4,
+    3,
+    3,
+    1,
+    2,
+    2,
+    5
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 56.8,
+   "bild": [
+    ".......",
+    ".......",
+    "...B...",
+    "...G...",
+    "..GBBB.",
+    ".GBGGB."
+   ],
+   "erwartet": {
+    "richtig": [
+     4
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "5": 2,
+     "6": 1
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "geschenk",
+      "antwort": 6
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-11",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    5,
+    3,
+    5,
+    1,
+    3,
+    5,
+    6,
+    0,
+    2,
+    3,
+    4
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 56.8,
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "...G.G.",
+    "...B.B.",
+    "GGBGBBB"
+   ],
+   "erwartet": {
+    "richtig": [
+     2
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 3
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-12",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    2,
+    5,
+    1,
+    4,
+    5,
+    5,
+    3,
+    0,
+    3,
+    3,
+    3,
+    2,
+    4
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 57.2,
+   "bild": [
+    ".......",
+    ".......",
+    "...B...",
+    "...G.G.",
+    "..GBBB.",
+    "GBBBGG."
+   ],
+   "erwartet": {
+    "richtig": [
+     4
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "5": 2,
+     "6": 1
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geblockt",
+      "antwort": 4
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "geschenk",
+      "antwort": 6
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-13",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    3,
+    2,
+    3,
+    3,
+    1,
+    2,
+    3,
+    2,
+    2,
+    0,
+    4,
+    4,
+    4
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 57.2,
+   "bild": [
+    ".......",
+    ".......",
+    "..BB...",
+    "..GGB..",
+    "..GBG..",
+    "GBGBB.."
+   ],
+   "erwartet": {
+    "richtig": [
+     6
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-14",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    2,
+    4,
+    4,
+    3,
+    1,
+    0,
+    0,
+    4,
+    0,
+    0,
+    2,
+    2,
+    3,
+    1
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 57.5,
+   "bild": [
+    ".......",
+    ".......",
+    "B......",
+    "G.B.B..",
+    "GBGGG..",
+    "BGGBB.."
+   ],
+   "erwartet": {
+    "richtig": [
+     1
+    ],
+    "fehler": {
+     "0": 2,
+     "2": 2,
+     "3": 1,
+     "4": 2,
+     "5": 3,
+     "6": 2
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "geschenk",
+      "antwort": 3
+     },
+     "4": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "5": {
+      "art": "geblockt",
+      "antwort": 5
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-15",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    0,
+    4,
+    4,
+    3,
+    4,
+    4,
+    1,
+    2,
+    5,
+    3,
+    3,
+    3,
+    5,
+    3,
+    2
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 57.8,
+   "bild": [
+    ".......",
+    "...G...",
+    "...GG..",
+    "...BB..",
+    "..BGBB.",
+    "BBGGGB."
+   ],
+   "erwartet": {
+    "richtig": [
+     5
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 2,
+     "2": 1,
+     "3": 2,
+     "4": 2,
+     "6": 2
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "geschenk",
+      "antwort": 2
+     },
+     "3": {
+      "art": "still",
+      "antwort": 2
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-16",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 1,
+   "zuege": [
+    2,
+    5,
+    4,
+    5,
+    3,
+    1,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    2,
+    0,
+    3,
+    1
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 58.0,
+   "bild": [
+    ".......",
+    ".....B.",
+    "....GG.",
+    "....BB.",
+    ".BGGGB.",
+    "BBGGGB."
+   ],
+   "erwartet": {
+    "richtig": [
+     2
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "geblockt",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-17",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    2,
+    3,
+    4,
+    2,
+    1,
+    1,
+    2,
+    3,
+    4,
+    0,
+    0,
+    1,
+    1,
+    6,
+    3,
+    0,
+    0
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 58.2,
+   "bild": [
+    ".......",
+    ".......",
+    "BB.....",
+    "GGBB...",
+    "BGGGB..",
+    "GBBGB.G"
+   ],
+   "erwartet": {
+    "richtig": [
+     2
+    ],
+    "fehler": {
+     "0": 2,
+     "1": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-18",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    5,
+    4,
+    2,
+    3,
+    5,
+    5,
+    2,
+    4,
+    4,
+    4,
+    3,
+    5,
+    2,
+    2,
+    2,
+    0,
+    5
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 58.2,
+   "bild": [
+    ".......",
+    "..B..B.",
+    "..G.GG.",
+    "..B.BG.",
+    "..BBGB.",
+    "G.BGGB."
+   ],
+   "erwartet": {
+    "richtig": [
+     0
+    ],
+    "fehler": {
+     "1": 3,
+     "2": 4,
+     "3": 1,
+     "4": 4,
+     "5": 4,
+     "6": 4
+    },
+    "widerlegung": {
+     "1": {
+      "art": "still",
+      "antwort": 2
+     },
+     "2": {
+      "art": "still",
+      "antwort": 4
+     },
+     "3": {
+      "art": "geschenk",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 2
+     },
+     "5": {
+      "art": "still",
+      "antwort": 2
+     },
+     "6": {
+      "art": "still",
+      "antwort": 2
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-19",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    6,
+    4,
+    1,
+    5,
+    4,
+    2,
+    3,
+    5,
+    3,
+    2,
+    4,
+    2,
+    2,
+    2,
+    3,
+    3,
+    0
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 58.2,
+   "bild": [
+    ".......",
+    "..G....",
+    "..BG...",
+    "..GBB..",
+    "..GBBG.",
+    "BBGBGGB"
+   ],
+   "erwartet": {
+    "richtig": [
+     5
+    ],
+    "fehler": {
+     "0": 3,
+     "1": 4,
+     "2": 3,
+     "3": 3,
+     "4": 4,
+     "6": 2
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "1": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  },
+  {
+   "id": "retten-20",
+   "kapitel": "retten",
+   "art": "retten",
+   "n": 4,
+   "beginner": 2,
+   "zuege": [
+    3,
+    2,
+    1,
+    3,
+    3,
+    5,
+    4,
+    2,
+    4,
+    4,
+    5,
+    2,
+    2,
+    0,
+    4,
+    5,
+    5,
+    3,
+    1
+   ],
+   "motiv": "retten",
+   "schwierigkeit": 58.8,
+   "bild": [
+    ".......",
+    ".......",
+    "..BGBB.",
+    "..GBGG.",
+    ".BGGBB.",
+    "GBGBBG."
+   ],
+   "erwartet": {
+    "richtig": [
+     1
+    ],
+    "fehler": {
+     "0": 2,
+     "2": 2,
+     "3": 2,
+     "4": 2,
+     "5": 2,
+     "6": 2
+    },
+    "widerlegung": {
+     "0": {
+      "art": "still",
+      "antwort": 3
+     },
+     "2": {
+      "art": "still",
+      "antwort": 3
+     },
+     "3": {
+      "art": "still",
+      "antwort": 3
+     },
+     "4": {
+      "art": "still",
+      "antwort": 3
+     },
+     "5": {
+      "art": "still",
+      "antwort": 3
+     },
+     "6": {
+      "art": "still",
+      "antwort": 3
+     }
+    }
+   }
+  }
+ ]
+}

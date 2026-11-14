@@ -1,0 +1,1 @@
+../../../../App/SpielMiniaturen.swift

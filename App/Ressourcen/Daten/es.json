@@ -1,0 +1,929 @@
+{
+  "sprache": "es",
+  "version": 1,
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZÑ",
+  "kategorien": [
+    {
+      "id": "animals",
+      "de": "Tiere",
+      "en": "Animals",
+      "es": "Animales",
+      "fr": "Animaux"
+    },
+    {
+      "id": "food",
+      "de": "Essen & Trinken",
+      "en": "Food & Drink",
+      "es": "Comida y bebida",
+      "fr": "Nourriture et boissons"
+    },
+    {
+      "id": "countries",
+      "de": "Länder",
+      "en": "Countries",
+      "es": "Países",
+      "fr": "Pays"
+    },
+    {
+      "id": "sports",
+      "de": "Sport",
+      "en": "Sports",
+      "es": "Deportes",
+      "fr": "Sport"
+    },
+    {
+      "id": "nature",
+      "de": "Natur",
+      "en": "Nature",
+      "es": "Naturaleza",
+      "fr": "Nature"
+    },
+    {
+      "id": "home",
+      "de": "Zuhause",
+      "en": "At Home",
+      "es": "Hogar",
+      "fr": "Maison"
+    },
+    {
+      "id": "transport",
+      "de": "Unterwegs",
+      "en": "On the Move",
+      "es": "Transporte",
+      "fr": "Transports"
+    },
+    {
+      "id": "music",
+      "de": "Musik",
+      "en": "Music",
+      "es": "Música",
+      "fr": "Musique"
+    }
+  ],
+  "woerter": [
+    {
+      "wort": "gato",
+      "loesung": "GATO",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "perro",
+      "loesung": "PERRO",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "vaca",
+      "loesung": "VACA",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "pato",
+      "loesung": "PATO",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "lobo",
+      "loesung": "LOBO",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "rana",
+      "loesung": "RANA",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "caballo",
+      "loesung": "CABALLO",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "elefante",
+      "loesung": "ELEFANTE",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "tortuga",
+      "loesung": "TORTUGA",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "conejo",
+      "loesung": "CONEJO",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "jirafa",
+      "loesung": "JIRAFA",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "ardilla",
+      "loesung": "ARDILLA",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "hipopótamo",
+      "loesung": "HIPOPOTAMO",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "murciélago",
+      "loesung": "MURCIELAGO",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "cocodrilo",
+      "loesung": "COCODRILO",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "mariposa",
+      "loesung": "MARIPOSA",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "rinoceronte",
+      "loesung": "RINOCERONTE",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "libélula",
+      "loesung": "LIBELULA",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "pan",
+      "loesung": "PAN",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "queso",
+      "loesung": "QUESO",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "arroz",
+      "loesung": "ARROZ",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "leche",
+      "loesung": "LECHE",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "uvas",
+      "loesung": "UVAS",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "sopa",
+      "loesung": "SOPA",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "manzana",
+      "loesung": "MANZANA",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "naranja",
+      "loesung": "NARANJA",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "tortilla",
+      "loesung": "TORTILLA",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "ensalada",
+      "loesung": "ENSALADA",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "galleta",
+      "loesung": "GALLETA",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "piña",
+      "loesung": "PIÑA",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "chocolate",
+      "loesung": "CHOCOLATE",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "mermelada",
+      "loesung": "MERMELADA",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "albóndigas",
+      "loesung": "ALBONDIGAS",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "espaguetis",
+      "loesung": "ESPAGUETIS",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "empanadas",
+      "loesung": "EMPANADAS",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "calabacín",
+      "loesung": "CALABACIN",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "Chile",
+      "loesung": "CHILE",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Perú",
+      "loesung": "PERU",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Cuba",
+      "loesung": "CUBA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Italia",
+      "loesung": "ITALIA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "España",
+      "loesung": "ESPAÑA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Japón",
+      "loesung": "JAPON",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Francia",
+      "loesung": "FRANCIA",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Alemania",
+      "loesung": "ALEMANIA",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Portugal",
+      "loesung": "PORTUGAL",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Colombia",
+      "loesung": "COLOMBIA",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Ecuador",
+      "loesung": "ECUADOR",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Uruguay",
+      "loesung": "URUGUAY",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Argentina",
+      "loesung": "ARGENTINA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Nicaragua",
+      "loesung": "NICARAGUA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Guatemala",
+      "loesung": "GUATEMALA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Venezuela",
+      "loesung": "VENEZUELA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Dinamarca",
+      "loesung": "DINAMARCA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Marruecos",
+      "loesung": "MARRUECOS",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "golf",
+      "loesung": "GOLF",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "judo",
+      "loesung": "JUDO",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "remo",
+      "loesung": "REMO",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "tenis",
+      "loesung": "TENIS",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "boxeo",
+      "loesung": "BOXEO",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "surf",
+      "loesung": "SURF",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "fútbol",
+      "loesung": "FUTBOL",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "natación",
+      "loesung": "NATACION",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "ciclismo",
+      "loesung": "CICLISMO",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "esgrima",
+      "loesung": "ESGRIMA",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "gimnasia",
+      "loesung": "GIMNASIA",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "voleibol",
+      "loesung": "VOLEIBOL",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "baloncesto",
+      "loesung": "BALONCESTO",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "atletismo",
+      "loesung": "ATLETISMO",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "balonmano",
+      "loesung": "BALONMANO",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "halterofilia",
+      "loesung": "HALTEROFILIA",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "waterpolo",
+      "loesung": "WATERPOLO",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "equitación",
+      "loesung": "EQUITACION",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "sol",
+      "loesung": "SOL",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "luna",
+      "loesung": "LUNA",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "mar",
+      "loesung": "MAR",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "río",
+      "loesung": "RIO",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "flor",
+      "loesung": "FLOR",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "lago",
+      "loesung": "LAGO",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "montaña",
+      "loesung": "MONTAÑA",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "bosque",
+      "loesung": "BOSQUE",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "volcán",
+      "loesung": "VOLCAN",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "cascada",
+      "loesung": "CASCADA",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "desierto",
+      "loesung": "DESIERTO",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "tormenta",
+      "loesung": "TORMENTA",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "arcoíris",
+      "loesung": "ARCOIRIS",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "relámpago",
+      "loesung": "RELAMPAGO",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "estalactita",
+      "loesung": "ESTALACTITA",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "terremoto",
+      "loesung": "TERREMOTO",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "cordillera",
+      "loesung": "CORDILLERA",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "amanecer",
+      "loesung": "AMANECER",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "mesa",
+      "loesung": "MESA",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "silla",
+      "loesung": "SILLA",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "cama",
+      "loesung": "CAMA",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "sofá",
+      "loesung": "SOFA",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "puerta",
+      "loesung": "PUERTA",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "techo",
+      "loesung": "TECHO",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "cocina",
+      "loesung": "COCINA",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "armario",
+      "loesung": "ARMARIO",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "espejo",
+      "loesung": "ESPEJO",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "cortina",
+      "loesung": "CORTINA",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "ventana",
+      "loesung": "VENTANA",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "alfombra",
+      "loesung": "ALFOMBRA",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "refrigerador",
+      "loesung": "REFRIGERADOR",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "lavadora",
+      "loesung": "LAVADORA",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "aspiradora",
+      "loesung": "ASPIRADORA",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "estantería",
+      "loesung": "ESTANTERIA",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "televisor",
+      "loesung": "TELEVISOR",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "ventilador",
+      "loesung": "VENTILADOR",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "tren",
+      "loesung": "TREN",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "bus",
+      "loesung": "BUS",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "moto",
+      "loesung": "MOTO",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "barco",
+      "loesung": "BARCO",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "avión",
+      "loesung": "AVION",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "taxi",
+      "loesung": "TAXI",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "bicicleta",
+      "loesung": "BICICLETA",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "camión",
+      "loesung": "CAMION",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "tranvía",
+      "loesung": "TRANVIA",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "furgoneta",
+      "loesung": "FURGONETA",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "patinete",
+      "loesung": "PATINETE",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "autobús",
+      "loesung": "AUTOBUS",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "helicóptero",
+      "loesung": "HELICOPTERO",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "submarino",
+      "loesung": "SUBMARINO",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "ferrocarril",
+      "loesung": "FERROCARRIL",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "monopatín",
+      "loesung": "MONOPATIN",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "aeropuerto",
+      "loesung": "AEROPUERTO",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "ambulancia",
+      "loesung": "AMBULANCIA",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "coro",
+      "loesung": "CORO",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "nota",
+      "loesung": "NOTA",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "arpa",
+      "loesung": "ARPA",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "bajo",
+      "loesung": "BAJO",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "ritmo",
+      "loesung": "RITMO",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "tono",
+      "loesung": "TONO",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "guitarra",
+      "loesung": "GUITARRA",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "piano",
+      "loesung": "PIANO",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "violín",
+      "loesung": "VIOLIN",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "trompeta",
+      "loesung": "TROMPETA",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "batería",
+      "loesung": "BATERIA",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "canción",
+      "loesung": "CANCION",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "saxofón",
+      "loesung": "SAXOFON",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "acordeón",
+      "loesung": "ACORDEON",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "orquesta",
+      "loesung": "ORQUESTA",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "clarinete",
+      "loesung": "CLARINETE",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "violonchelo",
+      "loesung": "VIOLONCHELO",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "pentagrama",
+      "loesung": "PENTAGRAMA",
+      "kategorie": "music",
+      "stufe": 3
+    }
+  ]
+}

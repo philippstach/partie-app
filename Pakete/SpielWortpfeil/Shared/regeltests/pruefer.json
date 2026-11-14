@@ -1,0 +1,1679 @@
+{
+ "beschreibung": "pruefe(raetsel) → sortierte Liste der Fehlercodes (leer = gültig). Codes siehe SPEZIFIKATION.md",
+ "faelle": [
+  {
+   "name": "mini_gueltig",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": []
+  },
+  {
+   "name": "stufe_unbekannt",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "extrem",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": [
+    "stufe_unbekannt"
+   ]
+  },
+  {
+   "name": "gitter_groesse",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": [
+    "gitter_groesse"
+   ]
+  },
+  {
+   "name": "gitter_zeichen",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#oMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": [
+    "gitter_zeichen"
+   ]
+  },
+  {
+   "name": "frage_nicht_im_fragefeld",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     },
+     {
+      "zeile": 2,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "x"
+     }
+    ]
+   },
+   "fehler": [
+    "frage_nicht_im_fragefeld"
+   ]
+  },
+  {
+   "name": "frage_doppelt",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     },
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     }
+    ]
+   },
+   "fehler": [
+    "frage_doppelt",
+    "wort_doppelt"
+   ]
+  },
+  {
+   "name": "fragetext_leer",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "  "
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": [
+    "fragetext_leer"
+   ]
+  },
+  {
+   "name": "fragetext_zu_lang",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Eine viel zu lange Frage für ein Feld"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": [
+    "fragetext_zu_lang"
+   ]
+  },
+  {
+   "name": "mit_kurztext_gueltig",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater",
+      "kurz": "Opa"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": []
+  },
+  {
+   "name": "kurztext_leer",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater",
+      "kurz": "  "
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": [
+    "fragetext_leer"
+   ]
+  },
+  {
+   "name": "kurztext_zu_lang",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater",
+      "kurz": "Ein viel zu langer Kurztext fürs Feld"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": [
+    "fragetext_zu_lang"
+   ]
+  },
+  {
+   "name": "richtung_unbekannt",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "links",
+      "text": "x"
+     }
+    ]
+   },
+   "fehler": [
+    "richtung_unbekannt"
+   ]
+  },
+  {
+   "name": "wort_zu_kurz",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P---",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": [
+    "wort_zu_kurz"
+   ]
+  },
+  {
+   "name": "wort_ohne_frage",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": [
+    "wort_ohne_frage"
+   ]
+  },
+  {
+   "name": "buchstabe_ohne_wort",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S---Q"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": [
+    "buchstabe_ohne_wort"
+   ]
+  },
+  {
+   "name": "fragefeld_ohne_frage",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-##",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ]
+   },
+   "fehler": [
+    "fragefeld_ohne_frage"
+   ]
+  },
+  {
+   "name": "wort_doppelt",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "-----",
+     "#OPA-",
+     "-----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 5,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großvater"
+     }
+    ]
+   },
+   "fehler": [
+    "wort_doppelt"
+   ]
+  },
+  {
+   "name": "generiert_T-leicht-1",
+   "raetsel": {
+    "id": "T-leicht-1",
+    "stufe": "leicht",
+    "breite": 7,
+    "hoehe": 9,
+    "gitter": [
+     "-#--#-#",
+     "#KUCHEN",
+     "-I--I-A",
+     "-R--R-D",
+     "-C-#SEE",
+     "-H--C#L",
+     "#EICHE-",
+     "-----I-",
+     "#AUGUST"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Gotteshaus"
+     },
+     {
+      "zeile": 0,
+      "spalte": 4,
+      "richtung": "unten",
+      "text": "Geweihträger"
+     },
+     {
+      "zeile": 0,
+      "spalte": 6,
+      "richtung": "unten",
+      "text": "Nähwerkzeug"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Süßes Gebäck"
+     },
+     {
+      "zeile": 4,
+      "spalte": 3,
+      "richtung": "rechts",
+      "text": "Binnengewässer"
+     },
+     {
+      "zeile": 5,
+      "spalte": 5,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     },
+     {
+      "zeile": 6,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Laubbaum"
+     },
+     {
+      "zeile": 8,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Achter Monat"
+     }
+    ]
+   },
+   "fehler": []
+  },
+  {
+   "name": "generiert_T-leicht-2",
+   "raetsel": {
+    "id": "T-leicht-2",
+    "stufe": "leicht",
+    "breite": 7,
+    "hoehe": 9,
+    "gitter": [
+     "--#---#",
+     "#ZAHN-T",
+     "--M--#O",
+     "#TELLER",
+     "E-I--S-",
+     "I#S#-S-",
+     "#MESSER",
+     "-U-E-N-",
+     "#TUER--"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 2,
+      "richtung": "unten",
+      "text": "Fleißiges Insekt"
+     },
+     {
+      "zeile": 0,
+      "spalte": 6,
+      "richtung": "unten",
+      "text": "Große Tür"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Beißwerkzeug"
+     },
+     {
+      "zeile": 2,
+      "spalte": 5,
+      "richtung": "unten",
+      "text": "Stadt im Ruhrgebiet"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Essgeschirr"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Huhnprodukt"
+     },
+     {
+      "zeile": 5,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Tapferkeit"
+     },
+     {
+      "zeile": 5,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Meer"
+     },
+     {
+      "zeile": 6,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Schneidwerkzeug"
+     },
+     {
+      "zeile": 8,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Eingang"
+     }
+    ]
+   },
+   "fehler": []
+  },
+  {
+   "name": "generiert_T-mittel-1",
+   "raetsel": {
+    "id": "T-mittel-1",
+    "stufe": "mittel",
+    "breite": 9,
+    "hoehe": 12,
+    "gitter": [
+     "--#---#-#",
+     "#KINO#REH",
+     "--T-#-U-A",
+     "#KAFFEE-R",
+     "E-L-L-C-F",
+     "I-I-U-K-E",
+     "#FENSTER#",
+     "-#N-S-N-E",
+     "-S-#-##AR",
+     "#AMEISE-B",
+     "-C-L-E--S",
+     "#KOFFER-E"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 2,
+      "richtung": "unten",
+      "text": "Land in Südeuropa"
+     },
+     {
+      "zeile": 0,
+      "spalte": 6,
+      "richtung": "unten",
+      "text": "Hinterseite des Körpers"
+     },
+     {
+      "zeile": 0,
+      "spalte": 8,
+      "richtung": "unten",
+      "text": "Saiteninstrument"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Lichtspielhaus"
+     },
+     {
+      "zeile": 1,
+      "spalte": 5,
+      "richtung": "rechts",
+      "text": "Waldtier"
+     },
+     {
+      "zeile": 2,
+      "spalte": 4,
+      "richtung": "unten",
+      "text": "Fließgewässer"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Heißes Getränk"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Huhnprodukt"
+     },
+     {
+      "zeile": 6,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Glasöffnung in der Wand"
+     },
+     {
+      "zeile": 6,
+      "spalte": 8,
+      "richtung": "unten",
+      "text": "Grünes Gemüse"
+     },
+     {
+      "zeile": 7,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großer Beutel"
+     },
+     {
+      "zeile": 8,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Fußballmannschaft"
+     },
+     {
+      "zeile": 8,
+      "spalte": 5,
+      "richtung": "unten",
+      "text": "Binnengewässer"
+     },
+     {
+      "zeile": 8,
+      "spalte": 6,
+      "richtung": "rechts",
+      "text": "Flächenmaß"
+     },
+     {
+      "zeile": 9,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Fleißiges Insekt"
+     },
+     {
+      "zeile": 11,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Reisegepäck"
+     }
+    ]
+   },
+   "fehler": []
+  },
+  {
+   "name": "generiert_T-mittel-2",
+   "raetsel": {
+    "id": "T-mittel-2",
+    "stufe": "mittel",
+    "breite": 9,
+    "hoehe": 12,
+    "gitter": [
+     "-#-#--#-#",
+     "#AUTO-F-M",
+     "-M-U#BLAU",
+     "-E-B#-O-T",
+     "#ITALIEN-",
+     "-S--O-T-#",
+     "#ELBE#EIS",
+     "A-#-W---O",
+     "P#RUECKEN",
+     "R-O--#--A",
+     "I-M--A--T",
+     "L-#KIRCHE"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Fleißiges Insekt"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Blechblasinstrument"
+     },
+     {
+      "zeile": 0,
+      "spalte": 6,
+      "richtung": "unten",
+      "text": "Blasinstrument"
+     },
+     {
+      "zeile": 0,
+      "spalte": 8,
+      "richtung": "unten",
+      "text": "Tapferkeit"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Kraftfahrzeug"
+     },
+     {
+      "zeile": 2,
+      "spalte": 4,
+      "richtung": "rechts",
+      "text": "Farbe des Himmels"
+     },
+     {
+      "zeile": 3,
+      "spalte": 4,
+      "richtung": "unten",
+      "text": "König der Tiere"
+     },
+     {
+      "zeile": 4,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Land in Südeuropa"
+     },
+     {
+      "zeile": 5,
+      "spalte": 8,
+      "richtung": "unten",
+      "text": "Musikstück"
+     },
+     {
+      "zeile": 6,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Fluss durch Hamburg"
+     },
+     {
+      "zeile": 6,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Vierter Monat"
+     },
+     {
+      "zeile": 6,
+      "spalte": 5,
+      "richtung": "rechts",
+      "text": "Kalte Süßspeise"
+     },
+     {
+      "zeile": 7,
+      "spalte": 2,
+      "richtung": "unten",
+      "text": "Hauptstadt Italiens"
+     },
+     {
+      "zeile": 8,
+      "spalte": 1,
+      "richtung": "rechts",
+      "text": "Hinterseite des Körpers"
+     },
+     {
+      "zeile": 9,
+      "spalte": 5,
+      "richtung": "unten",
+      "text": "Flächenmaß"
+     },
+     {
+      "zeile": 11,
+      "spalte": 2,
+      "richtung": "rechts",
+      "text": "Gotteshaus"
+     }
+    ]
+   },
+   "fehler": []
+  },
+  {
+   "name": "generiert_T-schwer-1",
+   "raetsel": {
+    "id": "T-schwer-1",
+    "stufe": "schwer",
+    "breite": 11,
+    "hoehe": 15,
+    "gitter": [
+     "---##KAI#-#",
+     "#PARK-#-M-H",
+     "-#-U-#BIENE",
+     "#TRESOR-S-R",
+     "-O-C--I-S-I",
+     "-R#KIEL-E-N",
+     "-#-E-#L#R-G",
+     "#FENSTER-#-",
+     "-L---A#ODER",
+     "#ORKAN-S-I-",
+     "-E-#-T#ALM-",
+     "#TELLER-#E-",
+     "-E-I-##DORF",
+     "---E-A--D--",
+     "#RUDER#FEST"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Hinterseite des Körpers"
+     },
+     {
+      "zeile": 0,
+      "spalte": 4,
+      "richtung": "rechts",
+      "text": "Uferstraße im Hafen"
+     },
+     {
+      "zeile": 0,
+      "spalte": 8,
+      "richtung": "unten",
+      "text": "Schneidwerkzeug"
+     },
+     {
+      "zeile": 0,
+      "spalte": 10,
+      "richtung": "unten",
+      "text": "Zeltpflock"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Grünanlage"
+     },
+     {
+      "zeile": 1,
+      "spalte": 6,
+      "richtung": "unten",
+      "text": "Sehhilfe"
+     },
+     {
+      "zeile": 2,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Treffer im Fußball"
+     },
+     {
+      "zeile": 2,
+      "spalte": 5,
+      "richtung": "rechts",
+      "text": "Honigsammlerin"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Geldschrank"
+     },
+     {
+      "zeile": 5,
+      "spalte": 2,
+      "richtung": "rechts",
+      "text": "Hauptstadt Schleswig-Holsteins"
+     },
+     {
+      "zeile": 6,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Blasinstrument"
+     },
+     {
+      "zeile": 6,
+      "spalte": 5,
+      "richtung": "unten",
+      "text": "Schwester der Mutter"
+     },
+     {
+      "zeile": 6,
+      "spalte": 7,
+      "richtung": "unten",
+      "text": "Zartrot"
+     },
+     {
+      "zeile": 7,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Glasöffnung in der Wand"
+     },
+     {
+      "zeile": 7,
+      "spalte": 9,
+      "richtung": "unten",
+      "text": "Gefäß mit Henkel"
+     },
+     {
+      "zeile": 8,
+      "spalte": 6,
+      "richtung": "rechts",
+      "text": "Grenzfluss zu Polen"
+     },
+     {
+      "zeile": 9,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Sehr starker Sturm"
+     },
+     {
+      "zeile": 10,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Gesungenes Stück"
+     },
+     {
+      "zeile": 10,
+      "spalte": 6,
+      "richtung": "rechts",
+      "text": "Bergweide"
+     },
+     {
+      "zeile": 11,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Essgeschirr"
+     },
+     {
+      "zeile": 11,
+      "spalte": 8,
+      "richtung": "unten",
+      "text": "Feierliches Gedicht"
+     },
+     {
+      "zeile": 12,
+      "spalte": 5,
+      "richtung": "unten",
+      "text": "Flächenmaß"
+     },
+     {
+      "zeile": 12,
+      "spalte": 6,
+      "richtung": "rechts",
+      "text": "Kleiner Ort"
+     },
+     {
+      "zeile": 14,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Steuer am Boot"
+     },
+     {
+      "zeile": 14,
+      "spalte": 6,
+      "richtung": "rechts",
+      "text": "Feier"
+     }
+    ]
+   },
+   "fehler": []
+  },
+  {
+   "name": "generiert_T-schwer-2",
+   "raetsel": {
+    "id": "T-schwer-2",
+    "stufe": "schwer",
+    "breite": 11,
+    "hoehe": 15,
+    "gitter": [
+     "-#-#--#AR#-",
+     "#AULA-F--F-",
+     "-M-I#BLUME-",
+     "-E-M#-O--N-",
+     "#ITALIEN-S-",
+     "-S--O-T--T-",
+     "#E##RUECKEN",
+     "E#FEE--#-R-",
+     "I-I-##LOT-#",
+     "#ONKEL#M#-H",
+     "R-G-S#KATZE",
+     "A-E#E-A-I-R",
+     "#BRILLE-G-I",
+     "---O-#STERN",
+     "#BANANE-R-G"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Fleißiges Insekt"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Hauptstadt Perus"
+     },
+     {
+      "zeile": 0,
+      "spalte": 6,
+      "richtung": "rechts",
+      "text": "Flächenmaß"
+     },
+     {
+      "zeile": 0,
+      "spalte": 6,
+      "richtung": "unten",
+      "text": "Blasinstrument"
+     },
+     {
+      "zeile": 0,
+      "spalte": 9,
+      "richtung": "unten",
+      "text": "Glasöffnung in der Wand"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Festsaal der Schule"
+     },
+     {
+      "zeile": 2,
+      "spalte": 4,
+      "richtung": "rechts",
+      "text": "Rose oder Tulpe"
+     },
+     {
+      "zeile": 3,
+      "spalte": 4,
+      "richtung": "unten",
+      "text": "Wagen im Bergwerk"
+     },
+     {
+      "zeile": 4,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Land in Südeuropa"
+     },
+     {
+      "zeile": 6,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Huhnprodukt"
+     },
+     {
+      "zeile": 6,
+      "spalte": 2,
+      "richtung": "unten",
+      "text": "Teil der Hand"
+     },
+     {
+      "zeile": 6,
+      "spalte": 3,
+      "richtung": "rechts",
+      "text": "Hinterseite des Körpers"
+     },
+     {
+      "zeile": 7,
+      "spalte": 1,
+      "richtung": "rechts",
+      "text": "Märchenwesen"
+     },
+     {
+      "zeile": 7,
+      "spalte": 7,
+      "richtung": "unten",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 8,
+      "spalte": 4,
+      "richtung": "unten",
+      "text": "Grautier"
+     },
+     {
+      "zeile": 8,
+      "spalte": 5,
+      "richtung": "rechts",
+      "text": "Senkblei"
+     },
+     {
+      "zeile": 8,
+      "spalte": 10,
+      "richtung": "unten",
+      "text": "Zeltpflock"
+     },
+     {
+      "zeile": 9,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Bruder der Mutter"
+     },
+     {
+      "zeile": 9,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Ägyptischer Sonnengott"
+     },
+     {
+      "zeile": 9,
+      "spalte": 6,
+      "richtung": "unten",
+      "text": "Milchprodukt"
+     },
+     {
+      "zeile": 9,
+      "spalte": 8,
+      "richtung": "unten",
+      "text": "Gestreifte Raubkatze"
+     },
+     {
+      "zeile": 10,
+      "spalte": 5,
+      "richtung": "rechts",
+      "text": "Mäusefänger"
+     },
+     {
+      "zeile": 11,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Geladenes Teilchen"
+     },
+     {
+      "zeile": 12,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Sehhilfe"
+     },
+     {
+      "zeile": 13,
+      "spalte": 5,
+      "richtung": "rechts",
+      "text": "Himmelskörper"
+     },
+     {
+      "zeile": 14,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Gelbe Südfrucht"
+     }
+    ]
+   },
+   "fehler": []
+  }
+ ]
+}

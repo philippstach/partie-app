@@ -1,0 +1,313 @@
+{
+ "beschreibung": "a ist jeweils besser als b (und b nicht besser als a).",
+ "faelle": [
+  {
+   "name": "Schock aus schlägt alles",
+   "a": {
+    "wertung": {
+     "art": "schockAus",
+     "hoehe": 0,
+     "deckel": 0
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "b": {
+    "wertung": {
+     "art": "schock",
+     "hoehe": 6,
+     "deckel": 6
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Schock 6 schlägt Schock 5",
+   "a": {
+    "wertung": {
+     "art": "schock",
+     "hoehe": 6,
+     "deckel": 6
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "b": {
+    "wertung": {
+     "art": "schock",
+     "hoehe": 5,
+     "deckel": 5
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Schock 2 schlägt General 6",
+   "a": {
+    "wertung": {
+     "art": "schock",
+     "hoehe": 2,
+     "deckel": 2
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "b": {
+    "wertung": {
+     "art": "general",
+     "hoehe": 6,
+     "deckel": 3
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "aBesser": true
+  },
+  {
+   "name": "General 2 schlägt Straße 4-5-6",
+   "a": {
+    "wertung": {
+     "art": "general",
+     "hoehe": 2,
+     "deckel": 3
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "b": {
+    "wertung": {
+     "art": "strasse",
+     "hoehe": 6,
+     "deckel": 2
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Straße 1-2-3 schlägt Zahl 665",
+   "a": {
+    "wertung": {
+     "art": "strasse",
+     "hoehe": 3,
+     "deckel": 2
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "b": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 665,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Zahl 665 schlägt Zahl 664",
+   "a": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 665,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "b": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 664,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Zahl 221 ist die schlechteste",
+   "a": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 322,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "b": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 221,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Zusammengesetzte 3-2-1 ist Zahl 321 und verliert gegen 322",
+   "a": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 322,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "b": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 321,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Gleicher Wurf: weniger Würfe gewinnt, auch wenn später",
+   "a": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 653,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 2
+   },
+   "b": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 653,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Gleicher Wurf, gleiche Würfe: früher gewinnt",
+   "a": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 653,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "b": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 653,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Gleiche Zahl, verschiedene Reihenfolge der Würfel ist gleich – früher gewinnt",
+   "a": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 653,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "b": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 653,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Jule schlägt Schock 6",
+   "a": {
+    "wertung": {
+     "art": "jule",
+     "hoehe": 0,
+     "deckel": 7
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "b": {
+    "wertung": {
+     "art": "schock",
+     "hoehe": 6,
+     "deckel": 6
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Schock aus schlägt Jule",
+   "a": {
+    "wertung": {
+     "art": "schockAus",
+     "hoehe": 0,
+     "deckel": 0
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "b": {
+    "wertung": {
+     "art": "jule",
+     "hoehe": 0,
+     "deckel": 7
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "aBesser": true
+  },
+  {
+   "name": "Ohne Jule ist 4-2-1 eine Zahl",
+   "a": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 422,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "b": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 421,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "aBesser": true
+  }
+ ]
+}

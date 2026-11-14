@@ -1,0 +1,13 @@
+{
+ "name": "14_gleichstand_ohne_stechen",
+ "beschreibung": "Regel tiebreak aus: Gleichstand am Ende des Runden-Limits ist ein gemeinsamer Sieg.",
+ "rules": {"diceMode": "real", "roundLimit": 1, "tiebreak": false},
+ "players": ["Anna", "Ben", "Cem"],
+ "dice": [],
+ "steps": [
+  {"action": {"type": "points", "points": 200}},
+  {"action": {"type": "points", "points": 50}},
+  {"action": {"type": "points", "points": 200}, "expect": {"winners": [0, 2]}}
+ ],
+ "expected": {"winners": [0, 2], "tiebreak": null, "scores": [200, 50, 200]}
+}

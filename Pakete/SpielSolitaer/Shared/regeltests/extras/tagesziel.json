@@ -1,0 +1,403 @@
+{
+ "beschreibung": "Tagesziel: SplitMix64(JJJJMMTT×10+Spielnummer).below(k). Grenze = ⌈Lösungszüge×1,4⌉ (Spider: loesung−8). partieSeed = Tagesspiel dieses Datums.",
+ "faelle": [
+  {
+   "datum": "2026-01-01",
+   "spiel": "klondike",
+   "seed": 202601010,
+   "ziel": 3,
+   "art": "unter6Min"
+  },
+  {
+   "datum": "2026-01-01",
+   "spiel": "spider",
+   "seed": 202601011,
+   "ziel": 1,
+   "art": "zuege",
+   "grenze": 203,
+   "partieSeed": 1
+  },
+  {
+   "datum": "2026-01-01",
+   "spiel": "freecell",
+   "seed": 202601012,
+   "ziel": 2,
+   "art": "unter5Min"
+  },
+  {
+   "datum": "2026-01-01",
+   "spiel": "pyramid",
+   "seed": 202601013,
+   "ziel": 1,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2026-01-01",
+   "spiel": "tripeaks",
+   "seed": 202601014,
+   "ziel": 3,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2026-01-01",
+   "spiel": "golf",
+   "seed": 202601015,
+   "ziel": 0,
+   "art": "gewinnen"
+  },
+  {
+   "datum": "2026-01-01",
+   "spiel": "yukon",
+   "seed": 202601016,
+   "ziel": 2,
+   "art": "unter6Min"
+  },
+  {
+   "datum": "2026-10-05",
+   "spiel": "klondike",
+   "seed": 202610050,
+   "ziel": 4,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2026-10-05",
+   "spiel": "spider",
+   "seed": 202610051,
+   "ziel": 3,
+   "art": "unter12Min"
+  },
+  {
+   "datum": "2026-10-05",
+   "spiel": "freecell",
+   "seed": 202610052,
+   "ziel": 0,
+   "art": "gewinnen"
+  },
+  {
+   "datum": "2026-10-05",
+   "spiel": "pyramid",
+   "seed": 202610053,
+   "ziel": 0,
+   "art": "gewinnen"
+  },
+  {
+   "datum": "2026-10-05",
+   "spiel": "tripeaks",
+   "seed": 202610054,
+   "ziel": 0,
+   "art": "gewinnen"
+  },
+  {
+   "datum": "2026-10-05",
+   "spiel": "golf",
+   "seed": 202610055,
+   "ziel": 3,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2026-10-05",
+   "spiel": "yukon",
+   "seed": 202610056,
+   "ziel": 2,
+   "art": "unter6Min"
+  },
+  {
+   "datum": "2026-10-06",
+   "spiel": "klondike",
+   "seed": 202610060,
+   "ziel": 2,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2026-10-06",
+   "spiel": "spider",
+   "seed": 202610061,
+   "ziel": 4,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2026-10-06",
+   "spiel": "freecell",
+   "seed": 202610062,
+   "ziel": 1,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2026-10-06",
+   "spiel": "pyramid",
+   "seed": 202610063,
+   "ziel": 1,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2026-10-06",
+   "spiel": "tripeaks",
+   "seed": 202610064,
+   "ziel": 3,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2026-10-06",
+   "spiel": "golf",
+   "seed": 202610065,
+   "ziel": 2,
+   "art": "unter4Min"
+  },
+  {
+   "datum": "2026-10-06",
+   "spiel": "yukon",
+   "seed": 202610066,
+   "ziel": 2,
+   "art": "unter6Min"
+  },
+  {
+   "datum": "2026-10-07",
+   "spiel": "klondike",
+   "seed": 202610070,
+   "ziel": 3,
+   "art": "unter6Min"
+  },
+  {
+   "datum": "2026-10-07",
+   "spiel": "spider",
+   "seed": 202610071,
+   "ziel": 4,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2026-10-07",
+   "spiel": "freecell",
+   "seed": 202610072,
+   "ziel": 3,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2026-10-07",
+   "spiel": "pyramid",
+   "seed": 202610073,
+   "ziel": 2,
+   "art": "unter4Min"
+  },
+  {
+   "datum": "2026-10-07",
+   "spiel": "tripeaks",
+   "seed": 202610074,
+   "ziel": 0,
+   "art": "gewinnen"
+  },
+  {
+   "datum": "2026-10-07",
+   "spiel": "golf",
+   "seed": 202610075,
+   "ziel": 2,
+   "art": "unter4Min"
+  },
+  {
+   "datum": "2026-10-07",
+   "spiel": "yukon",
+   "seed": 202610076,
+   "ziel": 0,
+   "art": "gewinnen"
+  },
+  {
+   "datum": "2026-10-08",
+   "spiel": "klondike",
+   "seed": 202610080,
+   "ziel": 1,
+   "art": "zuege",
+   "grenze": 234,
+   "partieSeed": 471
+  },
+  {
+   "datum": "2026-10-08",
+   "spiel": "spider",
+   "seed": 202610081,
+   "ziel": 0,
+   "art": "gewinnen"
+  },
+  {
+   "datum": "2026-10-08",
+   "spiel": "freecell",
+   "seed": 202610082,
+   "ziel": 3,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2026-10-08",
+   "spiel": "pyramid",
+   "seed": 202610083,
+   "ziel": 1,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2026-10-08",
+   "spiel": "tripeaks",
+   "seed": 202610084,
+   "ziel": 0,
+   "art": "gewinnen"
+  },
+  {
+   "datum": "2026-10-08",
+   "spiel": "golf",
+   "seed": 202610085,
+   "ziel": 3,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2026-10-08",
+   "spiel": "yukon",
+   "seed": 202610086,
+   "ziel": 0,
+   "art": "gewinnen"
+  },
+  {
+   "datum": "2027-03-14",
+   "spiel": "klondike",
+   "seed": 202703140,
+   "ziel": 3,
+   "art": "unter6Min"
+  },
+  {
+   "datum": "2027-03-14",
+   "spiel": "spider",
+   "seed": 202703141,
+   "ziel": 3,
+   "art": "unter12Min"
+  },
+  {
+   "datum": "2027-03-14",
+   "spiel": "freecell",
+   "seed": 202703142,
+   "ziel": 3,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2027-03-14",
+   "spiel": "pyramid",
+   "seed": 202703143,
+   "ziel": 2,
+   "art": "unter4Min"
+  },
+  {
+   "datum": "2027-03-14",
+   "spiel": "tripeaks",
+   "seed": 202703144,
+   "ziel": 1,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2027-03-14",
+   "spiel": "golf",
+   "seed": 202703145,
+   "ziel": 1,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2027-03-14",
+   "spiel": "yukon",
+   "seed": 202703146,
+   "ziel": 1,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2028-02-29",
+   "spiel": "klondike",
+   "seed": 202802290,
+   "ziel": 2,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2028-02-29",
+   "spiel": "spider",
+   "seed": 202802291,
+   "ziel": 1,
+   "art": "zuege",
+   "grenze": 268,
+   "partieSeed": 1711
+  },
+  {
+   "datum": "2028-02-29",
+   "spiel": "freecell",
+   "seed": 202802292,
+   "ziel": 2,
+   "art": "unter5Min"
+  },
+  {
+   "datum": "2028-02-29",
+   "spiel": "pyramid",
+   "seed": 202802293,
+   "ziel": 0,
+   "art": "gewinnen"
+  },
+  {
+   "datum": "2028-02-29",
+   "spiel": "tripeaks",
+   "seed": 202802294,
+   "ziel": 3,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2028-02-29",
+   "spiel": "golf",
+   "seed": 202802295,
+   "ziel": 0,
+   "art": "gewinnen"
+  },
+  {
+   "datum": "2028-02-29",
+   "spiel": "yukon",
+   "seed": 202802296,
+   "ziel": 1,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2025-12-31",
+   "spiel": "klondike",
+   "seed": 202512310,
+   "ziel": 3,
+   "art": "unter6Min"
+  },
+  {
+   "datum": "2025-12-31",
+   "spiel": "spider",
+   "seed": 202512311,
+   "ziel": 2,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2025-12-31",
+   "spiel": "freecell",
+   "seed": 202512312,
+   "ziel": 3,
+   "art": "ohneTipp"
+  },
+  {
+   "datum": "2025-12-31",
+   "spiel": "pyramid",
+   "seed": 202512313,
+   "ziel": 1,
+   "art": "ohneRueckgaengig"
+  },
+  {
+   "datum": "2025-12-31",
+   "spiel": "tripeaks",
+   "seed": 202512314,
+   "ziel": 2,
+   "art": "unter4Min"
+  },
+  {
+   "datum": "2025-12-31",
+   "spiel": "golf",
+   "seed": 202512315,
+   "ziel": 2,
+   "art": "unter4Min"
+  },
+  {
+   "datum": "2025-12-31",
+   "spiel": "yukon",
+   "seed": 202512316,
+   "ziel": 1,
+   "art": "ohneRueckgaengig"
+  }
+ ]
+}

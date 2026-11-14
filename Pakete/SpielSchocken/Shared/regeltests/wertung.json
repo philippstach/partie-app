@@ -1,0 +1,4491 @@
+{
+ "beschreibung": "Jeder Wurf (sortiert absteigend) mit/ohne „aus einem Wurf“ -> Art, Höhe, Deckel. rangfolge = alle Werte aus einem Wurf von schlecht nach gut.",
+ "faelle": [
+  {
+   "wuerfel": [
+    6,
+    6,
+    6
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "general",
+    "hoehe": 6,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    6
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 666,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    5
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 665,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    5
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 665,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 664,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 664,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 663,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 663,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 662,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 662,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 661,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 661,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    5
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 655,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    5
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 655,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "strasse",
+    "hoehe": 6,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 654,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 653,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 653,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 652,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 652,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 651,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 651,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 644,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 644,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 643,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 643,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 642,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 642,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 641,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 641,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 633,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 633,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 632,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 632,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 631,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 631,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    2,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 622,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    2,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 622,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    2,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 621,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    2,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 621,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 6,
+    "deckel": 6
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 6,
+    "deckel": 6
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    5
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "general",
+    "hoehe": 5,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    5
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 555,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 554,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 554,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 553,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 553,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 552,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 552,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 551,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 551,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 544,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 544,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "strasse",
+    "hoehe": 5,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 543,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 542,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 542,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 541,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 541,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 533,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 533,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 532,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 532,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 531,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 531,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    2,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 522,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    2,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 522,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    2,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 521,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    2,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 521,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 5,
+    "deckel": 5
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 5,
+    "deckel": 5
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "general",
+    "hoehe": 4,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 444,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 443,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 443,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 442,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 442,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 441,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 441,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 433,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 433,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "strasse",
+    "hoehe": 4,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 432,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 431,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 431,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    2,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 422,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    2,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 422,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    2,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 421,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    2,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 421,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 4,
+    "deckel": 4
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 4,
+    "deckel": 4
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "general",
+    "hoehe": 3,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 333,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 332,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 332,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 331,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 331,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    2,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 322,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    2,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 322,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    2,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "strasse",
+    "hoehe": 3,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    2,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 321,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 3,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 3,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    2,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "general",
+    "hoehe": 2,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    2,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 222,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    2,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 221,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    2,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 221,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 2,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 2,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    1,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {},
+   "erwartet": {
+    "art": "schockAus",
+    "hoehe": 0,
+    "deckel": 0
+   }
+  },
+  {
+   "wuerfel": [
+    1,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {},
+   "erwartet": {
+    "art": "schockAus",
+    "hoehe": 0,
+    "deckel": 0
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    6
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "general",
+    "hoehe": 6,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    6
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 666,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    5
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 665,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    5
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 665,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 664,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 664,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 663,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 663,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 662,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 662,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 661,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    6,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 661,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    5
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 655,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    5
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 655,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "strasse",
+    "hoehe": 6,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 654,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 653,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 653,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 652,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 652,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 651,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    5,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 651,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 644,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 644,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 643,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 643,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 642,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 642,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 641,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    4,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 641,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 633,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 633,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 632,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 632,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 631,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    3,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 631,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    2,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 622,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    2,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 622,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    2,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 621,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    2,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 621,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 6,
+    "deckel": 6
+   }
+  },
+  {
+   "wuerfel": [
+    6,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 6,
+    "deckel": 6
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    5
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "general",
+    "hoehe": 5,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    5
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 555,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 554,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 554,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 553,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 553,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 552,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 552,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 551,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    5,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 551,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 544,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 544,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "strasse",
+    "hoehe": 5,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 543,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 542,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 542,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 541,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    4,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 541,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 533,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 533,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 532,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 532,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 531,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    3,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 531,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    2,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 522,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    2,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 522,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    2,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 521,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    2,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 521,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 5,
+    "deckel": 5
+   }
+  },
+  {
+   "wuerfel": [
+    5,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 5,
+    "deckel": 5
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    4
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "general",
+    "hoehe": 4,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    4
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 444,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 443,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 443,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 442,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 442,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 441,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    4,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 441,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 433,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 433,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "strasse",
+    "hoehe": 4,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 432,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 431,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    3,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 431,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    2,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 422,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    2,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 422,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    2,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "jule",
+    "hoehe": 0,
+    "deckel": 7
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    2,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "jule",
+    "hoehe": 0,
+    "deckel": 7
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 4,
+    "deckel": 4
+   }
+  },
+  {
+   "wuerfel": [
+    4,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 4,
+    "deckel": 4
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    3
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "general",
+    "hoehe": 3,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    3
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 333,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 332,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 332,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 331,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    3,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 331,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    2,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 322,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    2,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 322,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    2,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "strasse",
+    "hoehe": 3,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    2,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 321,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 3,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    3,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 3,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    2,
+    2
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "general",
+    "hoehe": 2,
+    "deckel": 3
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    2,
+    2
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 222,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    2,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 221,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    2,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "zahl",
+    "hoehe": 221,
+    "deckel": 1
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 2,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    2,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schock",
+    "hoehe": 2,
+    "deckel": 2
+   }
+  },
+  {
+   "wuerfel": [
+    1,
+    1,
+    1
+   ],
+   "ausEinemWurf": true,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schockAus",
+    "hoehe": 0,
+    "deckel": 0
+   }
+  },
+  {
+   "wuerfel": [
+    1,
+    1,
+    1
+   ],
+   "ausEinemWurf": false,
+   "optionen": {
+    "jule": true
+   },
+   "erwartet": {
+    "art": "schockAus",
+    "hoehe": 0,
+    "deckel": 0
+   }
+  }
+ ],
+ "rangfolge": {
+  "standard": [
+   {
+    "beispiel": [
+     2,
+     2,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 221,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     3,
+     2,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 322,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     3,
+     3,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 331,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     3,
+     3,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 332,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     2,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 421,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     2,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 422,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     3,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 431,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     3,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 433,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     4,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 441,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     4,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 442,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     4,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 443,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     2,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 521,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     2,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 522,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     3,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 531,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     3,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 532,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     3,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 533,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     4,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 541,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     4,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 542,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     4,
+     4
+    ],
+    "art": "zahl",
+    "hoehe": 544,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     5,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 551,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     5,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 552,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     5,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 553,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     5,
+     4
+    ],
+    "art": "zahl",
+    "hoehe": 554,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     2,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 621,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     2,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 622,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     3,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 631,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     3,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 632,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     3,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 633,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     4,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 641,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     4,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 642,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     4,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 643,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     4,
+     4
+    ],
+    "art": "zahl",
+    "hoehe": 644,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     5,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 651,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     5,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 652,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     5,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 653,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     5,
+     5
+    ],
+    "art": "zahl",
+    "hoehe": 655,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 661,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 662,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 663,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     4
+    ],
+    "art": "zahl",
+    "hoehe": 664,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     5
+    ],
+    "art": "zahl",
+    "hoehe": 665,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     3,
+     2,
+     1
+    ],
+    "art": "strasse",
+    "hoehe": 3,
+    "deckel": 2
+   },
+   {
+    "beispiel": [
+     4,
+     3,
+     2
+    ],
+    "art": "strasse",
+    "hoehe": 4,
+    "deckel": 2
+   },
+   {
+    "beispiel": [
+     5,
+     4,
+     3
+    ],
+    "art": "strasse",
+    "hoehe": 5,
+    "deckel": 2
+   },
+   {
+    "beispiel": [
+     6,
+     5,
+     4
+    ],
+    "art": "strasse",
+    "hoehe": 6,
+    "deckel": 2
+   },
+   {
+    "beispiel": [
+     2,
+     2,
+     2
+    ],
+    "art": "general",
+    "hoehe": 2,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     3,
+     3,
+     3
+    ],
+    "art": "general",
+    "hoehe": 3,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     4,
+     4,
+     4
+    ],
+    "art": "general",
+    "hoehe": 4,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     5,
+     5,
+     5
+    ],
+    "art": "general",
+    "hoehe": 5,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     6
+    ],
+    "art": "general",
+    "hoehe": 6,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     2,
+     1,
+     1
+    ],
+    "art": "schock",
+    "hoehe": 2,
+    "deckel": 2
+   },
+   {
+    "beispiel": [
+     3,
+     1,
+     1
+    ],
+    "art": "schock",
+    "hoehe": 3,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     4,
+     1,
+     1
+    ],
+    "art": "schock",
+    "hoehe": 4,
+    "deckel": 4
+   },
+   {
+    "beispiel": [
+     5,
+     1,
+     1
+    ],
+    "art": "schock",
+    "hoehe": 5,
+    "deckel": 5
+   },
+   {
+    "beispiel": [
+     6,
+     1,
+     1
+    ],
+    "art": "schock",
+    "hoehe": 6,
+    "deckel": 6
+   },
+   {
+    "beispiel": [
+     1,
+     1,
+     1
+    ],
+    "art": "schockAus",
+    "hoehe": 0,
+    "deckel": 0
+   }
+  ],
+  "jule": [
+   {
+    "beispiel": [
+     2,
+     2,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 221,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     3,
+     2,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 322,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     3,
+     3,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 331,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     3,
+     3,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 332,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     2,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 422,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     3,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 431,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     3,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 433,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     4,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 441,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     4,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 442,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     4,
+     4,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 443,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     2,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 521,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     2,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 522,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     3,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 531,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     3,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 532,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     3,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 533,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     4,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 541,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     4,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 542,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     4,
+     4
+    ],
+    "art": "zahl",
+    "hoehe": 544,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     5,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 551,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     5,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 552,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     5,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 553,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     5,
+     5,
+     4
+    ],
+    "art": "zahl",
+    "hoehe": 554,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     2,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 621,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     2,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 622,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     3,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 631,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     3,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 632,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     3,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 633,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     4,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 641,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     4,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 642,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     4,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 643,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     4,
+     4
+    ],
+    "art": "zahl",
+    "hoehe": 644,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     5,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 651,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     5,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 652,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     5,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 653,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     5,
+     5
+    ],
+    "art": "zahl",
+    "hoehe": 655,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     1
+    ],
+    "art": "zahl",
+    "hoehe": 661,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     2
+    ],
+    "art": "zahl",
+    "hoehe": 662,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     3
+    ],
+    "art": "zahl",
+    "hoehe": 663,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     4
+    ],
+    "art": "zahl",
+    "hoehe": 664,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     5
+    ],
+    "art": "zahl",
+    "hoehe": 665,
+    "deckel": 1
+   },
+   {
+    "beispiel": [
+     3,
+     2,
+     1
+    ],
+    "art": "strasse",
+    "hoehe": 3,
+    "deckel": 2
+   },
+   {
+    "beispiel": [
+     4,
+     3,
+     2
+    ],
+    "art": "strasse",
+    "hoehe": 4,
+    "deckel": 2
+   },
+   {
+    "beispiel": [
+     5,
+     4,
+     3
+    ],
+    "art": "strasse",
+    "hoehe": 5,
+    "deckel": 2
+   },
+   {
+    "beispiel": [
+     6,
+     5,
+     4
+    ],
+    "art": "strasse",
+    "hoehe": 6,
+    "deckel": 2
+   },
+   {
+    "beispiel": [
+     2,
+     2,
+     2
+    ],
+    "art": "general",
+    "hoehe": 2,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     3,
+     3,
+     3
+    ],
+    "art": "general",
+    "hoehe": 3,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     4,
+     4,
+     4
+    ],
+    "art": "general",
+    "hoehe": 4,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     5,
+     5,
+     5
+    ],
+    "art": "general",
+    "hoehe": 5,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     6,
+     6,
+     6
+    ],
+    "art": "general",
+    "hoehe": 6,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     2,
+     1,
+     1
+    ],
+    "art": "schock",
+    "hoehe": 2,
+    "deckel": 2
+   },
+   {
+    "beispiel": [
+     3,
+     1,
+     1
+    ],
+    "art": "schock",
+    "hoehe": 3,
+    "deckel": 3
+   },
+   {
+    "beispiel": [
+     4,
+     1,
+     1
+    ],
+    "art": "schock",
+    "hoehe": 4,
+    "deckel": 4
+   },
+   {
+    "beispiel": [
+     5,
+     1,
+     1
+    ],
+    "art": "schock",
+    "hoehe": 5,
+    "deckel": 5
+   },
+   {
+    "beispiel": [
+     6,
+     1,
+     1
+    ],
+    "art": "schock",
+    "hoehe": 6,
+    "deckel": 6
+   },
+   {
+    "beispiel": [
+     4,
+     2,
+     1
+    ],
+    "art": "jule",
+    "hoehe": 0,
+    "deckel": 7
+   },
+   {
+    "beispiel": [
+     1,
+     1,
+     1
+    ],
+    "art": "schockAus",
+    "hoehe": 0,
+    "deckel": 0
+   }
+  ]
+ }
+}

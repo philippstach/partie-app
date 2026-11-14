@@ -1,0 +1,105 @@
+{
+ "name": "29_punkte_angebot_verfaellt",
+ "beschreibung": "1.0.1 (8): Punkte eintippen – ein Angebot, das nicht angenommen wird, verfällt. Die App sendet nach ca. 3 s declineOffer; tippt die nächste Person direkt Punkte oder Niete ein, gilt das Angebot ebenfalls als abgelehnt (wie bisher bei noPoints). Kein Angebot nach einer Niete. Swift grün; Python und Kotlin ziehen nach.",
+ "status": "ab-1.0.1-build8",
+ "rules": {
+  "diceMode": "real"
+ },
+ "players": [
+  "Anna",
+  "Ben",
+  "Cem"
+ ],
+ "dice": [],
+ "steps": [
+  {
+   "action": {
+    "type": "points",
+    "points": 300
+   },
+   "expect": {
+    "current": 1,
+    "offer": {
+     "from": 0,
+     "points": 300
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "declineOffer"
+   },
+   "expect": {
+    "offer": null,
+    "current": 1
+   }
+  },
+  {
+   "action": {
+    "type": "points",
+    "points": 150
+   },
+   "expect": {
+    "scores": [
+     300,
+     150,
+     0
+    ],
+    "current": 2,
+    "offer": {
+     "from": 1,
+     "points": 150
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "points",
+    "points": 500
+   },
+   "expect": {
+    "scores": [
+     300,
+     150,
+     500
+    ],
+    "current": 0,
+    "offer": {
+     "from": 2,
+     "points": 500
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "noPoints"
+   },
+   "expect": {
+    "scores": [
+     300,
+     150,
+     500
+    ],
+    "current": 1,
+    "offer": null
+   }
+  },
+  {
+   "action": {
+    "type": "noPoints"
+   },
+   "expect": {
+    "current": 2,
+    "offer": null
+   }
+  }
+ ],
+ "expected": {
+  "scores": [
+   300,
+   150,
+   500
+  ],
+  "current": 2
+ }
+}

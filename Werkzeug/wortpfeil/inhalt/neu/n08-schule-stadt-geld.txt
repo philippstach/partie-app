@@ -1,0 +1,179 @@
+# n08 Schule, Büro, Medien, Stadt, Geld, Recht
+Tafel;1;Schreibfläche im Klassenzimmer|Festlich gedeckter Tisch
+Füller;1;Schreibgerät mit Tinte|Stift mit Feder und Patrone
+Ranzen;1;Schultasche auf dem Rücken|Tornister
+Mathe;1;Rechenfach (kurz)|Schulfach mit Zahlen
+Schüler;1;Lernt in der Klasse|Kind im Unterricht
+Student;1;Lernt an der Uni|Hochschüler
+Examen;2;Abschlussprüfung|Prüfung an der Uni
+Lexikon;1;Nachschlagewerk|Buch von A bis Z
+Referat;1;Vortrag in der Schule|Kurzvortrag
+Lektion;1;Abschnitt im Lehrbuch|Lehrstunde
+Vokabel;1;Wort zum Lernen|Fremdes Wort im Heft
+Fibel;2;Erstes Lesebuch|Buch der Erstklässler
+Mappe;1;Hülle für Papiere|Schultasche
+Kuli;1;Kugelschreiber (kurz)|Schreibt mit Mine
+Mine;1;Füllung im Bleistift|Bergwerk
+Radierer;1;Gummi gegen Bleistiftstriche|Löscht Bleistift
+Spitzer;1;Schärft den Bleistift|Gerät für stumpfe Stifte
+Block;1;Papier zum Abreißen|Klotz
+Zettel;1;Kleines Stück Papier|Notizblatt
+Seite;1;Blatt im Buch|Flanke
+Buch;1;Gebundener Lesestoff|Roman zwischen zwei Deckeln
+Titel;1;Name eines Buches|Doktor oder Professor
+Text;1;Geschriebene Worte|Inhalt eines Briefes
+Satz;1;Endet mit einem Punkt|Abschnitt beim Tennis
+Punkt;1;Satzzeichen am Ende|Zähler im Spiel
+Komma;1;Satzzeichen für die Pause|Trennt Sätze
+Zensur;2;Schulnote|Amtliche Prüfung von Texten
+Hort;2;Betreuung nach der Schule|Schatz der Nibelungen
+Kita;1;Kindertagesstätte (kurz)|Ort für die Kleinsten
+Uni;1;Hochschule (kurz)|Ort für Studenten
+Kurs;1;Lehrgang|Unterricht in der Volkshochschule
+Lehre;1;Ausbildung im Betrieb|Zeit des Azubis
+Azubi;1;Lehrling (kurz)|Macht eine Ausbildung
+Büro;1;Arbeitsraum mit Schreibtisch|Dort stehen Computer und Akten
+Akte;1;Sammlung von Schriftstücken|Ordner im Amt
+Brief;1;Post im Umschlag|Schreiben mit Marke
+Mail;1;Elektronische Post|Brief per Computer
+Fax;2;Fernkopie|Brief über die Telefonleitung
+Kopie;1;Abzug vom Original|Zweitschrift
+Datei;1;Gespeichertes Dokument|Liegt im Ordner (Computer)
+Maus;1;Zeigegerät am Computer|Kleiner Nager
+Taste;1;Knopf am Klavier|Knopf am Computer
+Netz;1;Internet (kurz)|Fanggerät des Fischers
+Seite;1;Blatt im Heft|Rechts oder links
+Login;2;Anmeldung am Computer|Einstieg mit Passwort
+Chat;1;Plauderei im Netz|Online-Gespräch
+Blog;2;Tagebuch im Internet|Online-Journal
+Foto;1;Bild aus der Kamera|Lichtbild
+Film;1;Läuft im Kino|Streifen
+Video;1;Bewegte Bilder|Clip
+Radio;1;Rundfunkgerät|Spielt Musik und Nachrichten
+Sender;1;Rundfunkstation|Programm im Fernsehen
+Presse;1;Zeitungen insgesamt|Gerät für Saft
+Zeitung;1;Tägliches Nachrichtenblatt|Blatt mit Schlagzeilen
+Werbung;1;Reklame|Spots zwischen Filmen
+Reklame;1;Werbung|Anpreisung von Waren
+Plakat;1;Großer Aushang|Poster an der Litfaßsäule
+Poster;1;Großes Bild an der Wand|Plakat im Kinderzimmer
+Comic;1;Bildergeschichte mit Sprechblasen|Heft mit Superhelden
+Roman;1;Dicke erfundene Geschichte|Langes Buch
+Krimi;1;Spannende Geschichte mit Mord|Fall mit Kommissar
+Fabel;2;Lehrreiche Tiergeschichte|Geschichte mit Moral
+Sage;1;Alte Erzählung mit wahrem Kern|Überlieferung
+Gedicht;1;Verse mit Reimen|Werk eines Lyrikers
+Strophe;2;Abschnitt im Lied|Teil eines Gedichts
+Bühne;1;Bretter, die die Welt bedeuten|Podium im Theater
+Rolle;1;Part eines Schauspielers|Aufgewickeltes Papier
+Szene;1;Abschnitt im Film|Auftritt
+Laden;1;Geschäft|Kleines Kaufhaus
+Markt;1;Platz mit Ständen|Handel unter freiem Himmel
+Kasse;1;Dort zahlt man|Zahlstelle
+Kunde;1;Käufer|König im Laden
+Preis;1;Kosten einer Ware|Auszeichnung für Sieger
+Rabatt;1;Nachlass beim Kauf|Prozente
+Bon;2;Kassenzettel|Gutschein
+Ware;1;Was im Regal liegt|Handelsgut
+Tüte;1;Beutel aus Papier|Tragetasche
+Bank;1;Dort liegt das Geld|Sitz im Park
+Konto;1;Führt die Bank für den Kunden|Guthaben mit Nummer
+Zins;2;Ertrag für Erspartes|Kosten eines Kredits
+Kredit;2;Geliehenes Geld|Darlehen
+Münze;1;Geldstück|Hartgeld
+Schein;1;Banknote|Geld aus Papier
+Lohn;1;Geld für Arbeit|Verdienst
+Gehalt;1;Monatliche Bezahlung|Lohn der Angestellten
+Rente;1;Geld im Alter|Bezug der Senioren
+Steuer;1;Abgabe an den Staat|Lenkrad
+Miete;1;Geld für die Wohnung|Monatlich an den Vermieter
+Schulden;1;Geld, das man zurückzahlen muss|Miese
+Gewinn;1;Hauptpreis|Plus in der Kasse
+Verlust;1;Minus|Einbuße
+Spende;1;Gabe für einen guten Zweck|Almosen
+Erbe;1;Nachlass|Hinterlassenschaft
+Schatz;1;Vergrabene Kostbarkeiten|Liebling
+Tresor;1;Stahlschrank für Wertvolles|Panzerschrank
+Börse;2;Handelsplatz für Aktien|Geldbeutel
+Aktie;2;Anteil an einer Firma|Papier an der Börse
+Firma;1;Betrieb|Unternehmen
+Fabrik;1;Betrieb mit Fließband|Werk
+Betrieb;1;Firma|Reges Treiben
+Chefin;1;Leiterin|Weiblicher Boss
+Kollege;1;Arbeitet im selben Büro|Mitarbeiter
+Streik;2;Arbeitsniederlegung|Ausstand
+Urlaub;1;Arbeitsfreie Wochen|Schönste Zeit des Jahres
+Pause;1;Kurze Unterbrechung|Zeit zwischen zwei Stunden
+Termin;1;Verabredeter Zeitpunkt|Eintrag im Kalender
+Vertrag;1;Schriftliche Abmachung|Abkommen mit Unterschrift
+Gesetz;1;Regel des Staates|Vorschrift aus dem Parlament
+Recht;1;Gegenteil von Unrecht|Fach der Juristen
+Gericht;1;Dort wird Recht gesprochen|Speise
+Richter;1;Fällt das Urteil|Jurist in der Robe
+Anwalt;1;Verteidigt vor Gericht|Jurist mit Kanzlei
+Polizei;1;Freund und Helfer|Ruft man mit 110
+Knast;2;Gefängnis (ugs.)|Kittchen
+Zelle;1;Raum im Gefängnis|Kleinster Baustein des Lebens
+Haft;2;Zeit im Gefängnis|Arrest
+Täter;1;Hat das Verbrechen begangen|Sucht die Polizei
+Opfer;1;Geschädigter einer Tat|Gabe an die Götter
+Räuber;1;Überfällt Banken|Hotzenplotz ist einer
+Gauner;1;Betrüger|Halunke
+Schurke;1;Bösewicht|Halunke im Film
+Bürger;1;Einwohner des Staates|Mitglied der Gemeinde
+Staat;1;Land mit Regierung|Nation
+Kanzler;1;Regierungschef in Berlin|Chef der Bundesregierung
+König;1;Herrscher mit Krone|Wichtigste Schachfigur
+Kaiser;1;Herrscher über Könige|Titel von Franz Joseph
+Prinz;1;Sohn des Königs|Küsst Dornröschen wach
+Krone;1;Kopfschmuck des Königs|Währung in Dänemark
+Thron;1;Sessel des Königs|Herrschersitz
+Partei;1;Politische Gruppe|Tritt bei Wahlen an
+Rathaus;1;Sitz des Bürgermeisters|Amtsgebäude der Stadt
+Amt;1;Behörde|Dienststelle
+Pass;1;Ausweis für Reisen|Übergang im Gebirge
+Zoll;1;Kontrolle an der Grenze|Altes Längenmaß
+Dorf;1;Kleiner Ort auf dem Land|Gegenteil von Stadt
+Gasse;1;Enge Straße|Schmaler Weg zwischen Häusern
+Allee;1;Straße mit Bäumen|Baumstraße
+Platz;1;Freie Fläche in der Stadt|Sitzgelegenheit
+Park;1;Grüne Anlage in der Stadt|Garten für alle
+Brunnen;1;Wasserstelle auf dem Marktplatz|Quelle mit Eimer
+Turm;1;Hohes schmales Bauwerk|Figur im Schach
+Kirche;1;Gotteshaus|Haus mit Glocken
+Kapelle;1;Kleines Gotteshaus|Gruppe von Musikern
+Kloster;1;Wohnort von Mönchen|Haus der Nonnen
+Schloss;1;Wohnsitz des Königs|Sichert die Tür
+Hütte;1;Kleines einfaches Haus|Unterkunft am Berg
+Villa;1;Vornehmes Haus|Haus von Pippi (… Kunterbunt)
+Hotel;1;Haus für Reisende|Herberge mit Sternen
+Pension;1;Kleines Gästehaus|Ruhegeld der Beamten
+Kneipe;1;Schänke|Lokal fürs Feierabendbier
+Lokal;1;Gaststätte|Wirtshaus
+Imbiss;1;Bude für Pommes und Wurst|Kleine Mahlzeit
+Kiosk;1;Bude für Zeitungen|Trinkhalle
+Klinik;1;Krankenhaus|Haus der Ärzte
+Praxis;1;Arbeitsräume des Arztes|Gegenteil von Theorie
+Museum;1;Haus voller Ausstellungen|Dort hängen alte Gemälde
+Theater;1;Haus mit Bühne|Schauspielhaus
+Zirkus;1;Zelt mit Manege|Clowns und Akrobaten
+Messe;1;Große Ausstellung|Gottesdienst
+Bahnhof;1;Dort halten Züge|Station mit Gleisen
+Hafen;1;Dort legen Schiffe an|Ankerplatz
+Tunnel;1;Röhre durch den Berg|Unterirdischer Weg
+Brücke;1;Bauwerk über den Fluss|Weg von Ufer zu Ufer
+Ampel;1;Regelt mit Rot, Gelb und Grün|Lichtsignal an der Kreuzung
+Kreisel;1;Verkehr im Rund|Spielzeug, das sich dreht
+Umweg;1;Längere Strecke|Kein direkter Pfad
+Ziel;1;Ende der Reise|Dort endet das Rennen
+Reise;1;Fahrt in die Ferne|Urlaubsfahrt
+Fahrt;1;Tour mit dem Auto|Ausflug
+Koffer;1;Gepäck mit Griff|Darin reist die Kleidung
+Gepäck;1;Koffer und Taschen|Last der Reisenden
+Ticket;1;Fahrschein|Eintrittskarte
+Karte;1;Plan mit Straßen und Orten|Gruß aus dem Urlaub
+Kompass;1;Zeigt nach Norden|Hilft bei der Richtung
+Norden;1;Dort zeigt die Nadel hin|Himmelsrichtung oben auf der Karte
+Süden;1;Himmelsrichtung der Mittagssonne|Gegenteil von Norden
+Osten;1;Dort geht die Sonne auf|Himmelsrichtung des Morgens
+Westen;1;Dort geht die Sonne unter|Himmelsrichtung des Abends

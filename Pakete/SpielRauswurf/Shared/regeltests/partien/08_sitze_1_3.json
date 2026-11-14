@@ -1,0 +1,2737 @@
+{
+ "name": "08_sitze_1_3",
+ "beschreibung": "2 Spieler auf den Sitzen 1 und 3, drei Spieler-Ende",
+ "optionen": {
+  "spielende": "alle"
+ },
+ "sitze": [
+  1,
+  3
+ ],
+ "strategien": [
+  "einfach",
+  "gut"
+ ],
+ "beginner": 1,
+ "wuerfel": [
+  2,
+  6,
+  1,
+  6,
+  4,
+  6,
+  3,
+  4,
+  2,
+  1,
+  3,
+  2,
+  2,
+  2,
+  6,
+  3,
+  2,
+  1,
+  2,
+  1,
+  5,
+  4,
+  1,
+  5,
+  3,
+  6,
+  4,
+  2,
+  6,
+  6,
+  5,
+  6,
+  1,
+  6,
+  6,
+  5,
+  4,
+  1,
+  3,
+  6,
+  3,
+  6,
+  2,
+  2,
+  5,
+  4,
+  2,
+  1,
+  1,
+  4,
+  5,
+  1,
+  4,
+  2,
+  3,
+  2,
+  6,
+  4,
+  6,
+  6,
+  1,
+  3,
+  2,
+  2,
+  5,
+  3,
+  5,
+  2,
+  1,
+  2,
+  5,
+  4,
+  4,
+  2,
+  1,
+  5,
+  6,
+  2,
+  1,
+  6,
+  5,
+  2,
+  5,
+  2,
+  3,
+  3,
+  1,
+  1,
+  6,
+  3,
+  2,
+  4,
+  6,
+  1,
+  4,
+  6,
+  4,
+  3,
+  3,
+  6,
+  5,
+  4,
+  1,
+  3,
+  5,
+  4,
+  1,
+  4,
+  4,
+  2,
+  2,
+  2,
+  2,
+  5,
+  6,
+  5
+ ],
+ "erwartet": {
+  "zuege": [
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": null
+     },
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 1,
+      "zug": {
+       "von": 0,
+       "nach": 1,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 4,
+      "zug": {
+       "von": 0,
+       "nach": 4,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      4,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 3,
+      "zug": {
+       "von": 0,
+       "nach": 3,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      4,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      3,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 4,
+       "nach": 8,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      8,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      3,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 3,
+       "nach": 5,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      8,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      5,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 8,
+       "nach": 9,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      5,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 5,
+       "nach": 8,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      8,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 9,
+       "nach": 11,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      11,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      8,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 8,
+       "nach": 10,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      11,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      10,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 11,
+       "nach": 13,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      13,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      10,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 3,
+      "zug": {
+       "von": 0,
+       "nach": 3,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      13,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      10,
+      3,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 13,
+       "nach": 15,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      15,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      10,
+      3,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 10,
+       "nach": 11,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      15,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      11,
+      3,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 15,
+       "nach": 17,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      17,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      11,
+      3,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 11,
+       "nach": 12,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      17,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      12,
+      3,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 5,
+      "zug": {
+       "von": 17,
+       "nach": 22,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      22,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      12,
+      3,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 12,
+       "nach": 16,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      22,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      16,
+      3,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 22,
+       "nach": 23,
+       "schlaegt": 1
+      }
+     }
+    ],
+    "figuren": [
+     [
+      23,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      16,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 5,
+      "zug": {
+       "von": 16,
+       "nach": 21,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      23,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      21,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 23,
+       "nach": 26,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      26,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      21,
+      -1,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 4,
+      "zug": {
+       "von": 0,
+       "nach": 4,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      26,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      21,
+      4,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 26,
+       "nach": 28,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      28,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      21,
+      4,
+      -1
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 6,
+      "zug": {
+       "von": 21,
+       "nach": 27,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 5,
+      "zug": {
+       "von": 27,
+       "nach": 32,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      28,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      32,
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 1,
+      "zug": {
+       "von": 0,
+       "nach": 1,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      28,
+      1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      32,
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": 32,
+       "nach": 38,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 6,
+      "zug": {
+       "von": 1,
+       "nach": 7,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 5,
+      "zug": {
+       "von": 38,
+       "nach": 43,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      28,
+      1,
+      -1,
+      -1
+     ],
+     [
+      7,
+      43,
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 28,
+       "nach": 32,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      32,
+      1,
+      -1,
+      -1
+     ],
+     [
+      7,
+      43,
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 7,
+       "nach": 8,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      32,
+      1,
+      -1,
+      -1
+     ],
+     [
+      8,
+      43,
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 1,
+       "nach": 4,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      32,
+      4,
+      -1,
+      -1
+     ],
+     [
+      8,
+      43,
+      4,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": 4,
+       "nach": 10,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 3,
+      "zug": {
+       "von": 8,
+       "nach": 11,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      32,
+      4,
+      -1,
+      -1
+     ],
+     [
+      11,
+      43,
+      10,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 2,
+      "zug": {
+       "von": 0,
+       "nach": 2,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      32,
+      4,
+      2,
+      -1
+     ],
+     [
+      11,
+      43,
+      10,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 10,
+       "nach": 12,
+       "schlaegt": 0
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      4,
+      2,
+      -1
+     ],
+     [
+      11,
+      43,
+      12,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 5,
+      "zug": {
+       "von": 2,
+       "nach": 7,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      4,
+      7,
+      -1
+     ],
+     [
+      11,
+      43,
+      12,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 12,
+       "nach": 16,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      4,
+      7,
+      -1
+     ],
+     [
+      11,
+      43,
+      16,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 7,
+       "nach": 9,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      4,
+      9,
+      -1
+     ],
+     [
+      11,
+      43,
+      16,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 16,
+       "nach": 17,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      4,
+      9,
+      -1
+     ],
+     [
+      11,
+      43,
+      17,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 4,
+       "nach": 5,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      5,
+      9,
+      -1
+     ],
+     [
+      11,
+      43,
+      17,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 17,
+       "nach": 21,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      5,
+      9,
+      -1
+     ],
+     [
+      11,
+      43,
+      21,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 5,
+      "zug": {
+       "von": 9,
+       "nach": 14,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      5,
+      14,
+      -1
+     ],
+     [
+      11,
+      43,
+      21,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 21,
+       "nach": 22,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      5,
+      14,
+      -1
+     ],
+     [
+      11,
+      43,
+      22,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 14,
+       "nach": 18,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      5,
+      18,
+      -1
+     ],
+     [
+      11,
+      43,
+      22,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 22,
+       "nach": 24,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      5,
+      18,
+      -1
+     ],
+     [
+      11,
+      43,
+      24,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 18,
+       "nach": 21,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      5,
+      21,
+      -1
+     ],
+     [
+      11,
+      43,
+      24,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 11,
+       "nach": 13,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      5,
+      21,
+      -1
+     ],
+     [
+      13,
+      43,
+      24,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 4,
+      "zug": {
+       "von": 0,
+       "nach": 4,
+       "schlaegt": 1
+      }
+     }
+    ],
+    "figuren": [
+     [
+      4,
+      5,
+      21,
+      -1
+     ],
+     [
+      13,
+      43,
+      -1,
+      0
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": 0,
+       "nach": 6,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 1,
+      "zug": {
+       "von": 0,
+       "nach": 1,
+       "schlaegt": 0
+      }
+     }
+    ],
+    "figuren": [
+     [
+      4,
+      5,
+      -1,
+      -1
+     ],
+     [
+      13,
+      43,
+      1,
+      6
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 4,
+       "nach": 7,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      7,
+      5,
+      -1,
+      -1
+     ],
+     [
+      13,
+      43,
+      1,
+      6
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 13,
+       "nach": 15,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      7,
+      5,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      6
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 7,
+       "nach": 9,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      5,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      6
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 5,
+      "zug": {
+       "von": 6,
+       "nach": 11,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      5,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      11
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 5,
+       "nach": 8,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      8,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      11
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 5,
+      "zug": {
+       "von": 11,
+       "nach": 16,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      8,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      16
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 8,
+       "nach": 10,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      10,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      16
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 16,
+       "nach": 17,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      10,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      17
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 10,
+       "nach": 12,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      12,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      17
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 5,
+      "zug": {
+       "von": 17,
+       "nach": 22,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      12,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      22
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 9,
+       "nach": 13,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      13,
+      12,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      22
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 22,
+       "nach": 26,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      13,
+      12,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      26
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 12,
+       "nach": 14,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      13,
+      14,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      26
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 26,
+       "nach": 27,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      13,
+      14,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      27
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 5,
+      "zug": {
+       "von": 14,
+       "nach": 19,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      13,
+      19,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      27
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": 27,
+       "nach": 33,
+       "schlaegt": 0
+      }
+     },
+     {
+      "augen": 2,
+      "zug": {
+       "von": 33,
+       "nach": 35,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      19,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      35
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 19,
+       "nach": 20,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      20,
+      -1,
+      -1
+     ],
+     [
+      15,
+      43,
+      1,
+      35
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": 35,
+       "nach": 41,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 5,
+      "zug": {
+       "von": 15,
+       "nach": 20,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      20,
+      -1,
+      -1
+     ],
+     [
+      20,
+      43,
+      1,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 20,
+       "nach": 22,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      22,
+      -1,
+      -1
+     ],
+     [
+      20,
+      43,
+      1,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 5,
+      "zug": {
+       "von": 20,
+       "nach": 25,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      22,
+      -1,
+      -1
+     ],
+     [
+      25,
+      43,
+      1,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 22,
+       "nach": 24,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      24,
+      -1,
+      -1
+     ],
+     [
+      25,
+      43,
+      1,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 1,
+       "nach": 4,
+       "schlaegt": 0
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      25,
+      43,
+      4,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": null
+     },
+     {
+      "augen": 1,
+      "zug": null
+     },
+     {
+      "augen": 1,
+      "zug": null
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      25,
+      43,
+      4,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": 25,
+       "nach": 31,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 3,
+      "zug": {
+       "von": 31,
+       "nach": 34,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      34,
+      43,
+      4,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": null
+     },
+     {
+      "augen": 4,
+      "zug": null
+     },
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 1,
+      "zug": {
+       "von": 0,
+       "nach": 1,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      34,
+      43,
+      4,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 34,
+       "nach": 38,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      38,
+      43,
+      4,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 4,
+      "zug": {
+       "von": 0,
+       "nach": 4,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      1,
+      4,
+      -1,
+      -1
+     ],
+     [
+      38,
+      43,
+      4,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 4,
+       "nach": 7,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      1,
+      4,
+      -1,
+      -1
+     ],
+     [
+      38,
+      43,
+      7,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 4,
+       "nach": 7,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      1,
+      7,
+      -1,
+      -1
+     ],
+     [
+      38,
+      43,
+      7,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": 7,
+       "nach": 13,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 5,
+      "zug": {
+       "von": 13,
+       "nach": 18,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      1,
+      7,
+      -1,
+      -1
+     ],
+     [
+      38,
+      43,
+      18,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 1,
+       "nach": 5,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      5,
+      7,
+      -1,
+      -1
+     ],
+     [
+      38,
+      43,
+      18,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 38,
+       "nach": 39,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      5,
+      7,
+      -1,
+      -1
+     ],
+     [
+      39,
+      43,
+      18,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 7,
+       "nach": 10,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      5,
+      10,
+      -1,
+      -1
+     ],
+     [
+      39,
+      43,
+      18,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 5,
+      "zug": {
+       "von": 18,
+       "nach": 23,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      5,
+      10,
+      -1,
+      -1
+     ],
+     [
+      39,
+      43,
+      23,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 10,
+       "nach": 14,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      5,
+      14,
+      -1,
+      -1
+     ],
+     [
+      39,
+      43,
+      23,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": {
+       "von": 39,
+       "nach": 40,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      5,
+      14,
+      -1,
+      -1
+     ],
+     [
+      40,
+      43,
+      23,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 5,
+       "nach": 9,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      14,
+      -1,
+      -1
+     ],
+     [
+      40,
+      43,
+      23,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 4,
+      "zug": {
+       "von": 23,
+       "nach": 27,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      9,
+      14,
+      -1,
+      -1
+     ],
+     [
+      40,
+      43,
+      27,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 9,
+       "nach": 11,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      11,
+      14,
+      -1,
+      -1
+     ],
+     [
+      40,
+      43,
+      27,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 27,
+       "nach": 29,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      11,
+      14,
+      -1,
+      -1
+     ],
+     [
+      40,
+      43,
+      29,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 11,
+       "nach": 13,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      13,
+      14,
+      -1,
+      -1
+     ],
+     [
+      40,
+      43,
+      29,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": {
+       "von": 29,
+       "nach": 31,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      13,
+      14,
+      -1,
+      -1
+     ],
+     [
+      40,
+      43,
+      31,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 0,
+    "wuerfe": [
+     {
+      "augen": 5,
+      "zug": {
+       "von": 13,
+       "nach": 18,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      18,
+      14,
+      -1,
+      -1
+     ],
+     [
+      40,
+      43,
+      31,
+      41
+     ]
+    ]
+   },
+   {
+    "spieler": 1,
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": 31,
+       "nach": 37,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 5,
+      "zug": {
+       "von": 37,
+       "nach": 42,
+       "schlaegt": null
+      }
+     }
+    ],
+    "figuren": [
+     [
+      18,
+      14,
+      -1,
+      -1
+     ],
+     [
+      40,
+      43,
+      42,
+      41
+     ]
+    ]
+   }
+  ],
+  "platzierung": [
+   1,
+   0
+  ]
+ }
+}

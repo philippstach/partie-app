@@ -1,0 +1,1250 @@
+{
+ "beschreibung": "tripeaks.deal(seed), dann alle Züge nacheinander mit apply → ende (inkl. kette und punkte). Jeder Zug ist erlaubt.",
+ "faelle": [
+  {
+   "titel": "Lösung Seed 1",
+   "seed": 1,
+   "zuege": [
+    {
+     "von": "T25"
+    },
+    {
+     "von": "T26"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T27"
+    },
+    {
+     "von": "T16"
+    },
+    {
+     "von": "T20"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T24"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T19"
+    },
+    {
+     "von": "T21"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T18"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T9"
+    },
+    {
+     "von": "T23"
+    },
+    {
+     "von": "T14"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T15"
+    },
+    {
+     "von": "T17"
+    },
+    {
+     "von": "T10"
+    },
+    {
+     "von": "T7"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T22"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T13"
+    },
+    {
+     "von": "T12"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T3"
+    },
+    {
+     "von": "T8"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T11"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T6"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T5"
+    },
+    {
+     "von": "T2"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T4"
+    },
+    {
+     "von": "T1"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T0"
+    }
+   ],
+   "ende": {
+    "gipfel": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "offen": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "stapel": [
+     "4C"
+    ],
+    "ablage": [
+     "QS",
+     "JC",
+     "TH",
+     "7C",
+     "8C",
+     "7D",
+     "6C",
+     "9D",
+     "TC",
+     "2C",
+     "AH",
+     "KS",
+     "3D",
+     "2S",
+     "TS",
+     "JS",
+     "TD",
+     "JD",
+     "8S",
+     "2D",
+     "4S",
+     "5D",
+     "4D",
+     "5H",
+     "6H",
+     "AS",
+     "KD",
+     "3C",
+     "2H",
+     "3S",
+     "3H",
+     "9H",
+     "8D",
+     "9C",
+     "QH",
+     "KH",
+     "QD",
+     "JH",
+     "QC",
+     "6D",
+     "5C",
+     "4H",
+     "KC",
+     "AD",
+     "5S",
+     "AC",
+     "7S",
+     "8H",
+     "9S",
+     "6S",
+     "7H"
+    ],
+    "kette": 1,
+    "punkte": 106,
+    "zuege": 50
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Lösung Seed 2",
+   "seed": 2,
+   "zuege": [
+    {
+     "von": "T23"
+    },
+    {
+     "von": "T21"
+    },
+    {
+     "von": "T20"
+    },
+    {
+     "von": "T11"
+    },
+    {
+     "von": "T22"
+    },
+    {
+     "von": "T24"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T19"
+    },
+    {
+     "von": "T10"
+    },
+    {
+     "von": "T27"
+    },
+    {
+     "von": "T13"
+    },
+    {
+     "von": "T26"
+    },
+    {
+     "von": "T4"
+    },
+    {
+     "von": "T14"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T17"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T25"
+    },
+    {
+     "von": "T18"
+    },
+    {
+     "von": "T16"
+    },
+    {
+     "von": "T15"
+    },
+    {
+     "von": "T12"
+    },
+    {
+     "von": "T6"
+    },
+    {
+     "von": "T8"
+    },
+    {
+     "von": "T5"
+    },
+    {
+     "von": "T1"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T9"
+    },
+    {
+     "von": "T3"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T7"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T0"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T2"
+    }
+   ],
+   "ende": {
+    "gipfel": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "offen": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "stapel": [
+     "9H",
+     "6H",
+     "JC",
+     "AC"
+    ],
+    "ablage": [
+     "3D",
+     "4D",
+     "5C",
+     "4H",
+     "3S",
+     "2C",
+     "AH",
+     "9D",
+     "8S",
+     "7C",
+     "8D",
+     "7H",
+     "6C",
+     "7D",
+     "6D",
+     "8H",
+     "9C",
+     "2S",
+     "3H",
+     "KH",
+     "QH",
+     "JH",
+     "TS",
+     "JD",
+     "QS",
+     "KD",
+     "AS",
+     "2H",
+     "3C",
+     "8C",
+     "KC",
+     "QC",
+     "TC",
+     "5H",
+     "6S",
+     "5D",
+     "TD",
+     "9S",
+     "TH",
+     "4C",
+     "7S",
+     "2D",
+     "KS",
+     "QD",
+     "AD",
+     "JS",
+     "5S",
+     "4S"
+    ],
+    "kette": 1,
+    "punkte": 161,
+    "zuege": 47
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Lösung Seed 4",
+   "seed": 4,
+   "zuege": [
+    {
+     "von": "T22"
+    },
+    {
+     "von": "T20"
+    },
+    {
+     "von": "T18"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T23"
+    },
+    {
+     "von": "T27"
+    },
+    {
+     "von": "T21"
+    },
+    {
+     "von": "T24"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T26"
+    },
+    {
+     "von": "T14"
+    },
+    {
+     "von": "T19"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T12"
+    },
+    {
+     "von": "T25"
+    },
+    {
+     "von": "T10"
+    },
+    {
+     "von": "T17"
+    },
+    {
+     "von": "T11"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T16"
+    },
+    {
+     "von": "T4"
+    },
+    {
+     "von": "T15"
+    },
+    {
+     "von": "T7"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T9"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T13"
+    },
+    {
+     "von": "T5"
+    },
+    {
+     "von": "T6"
+    },
+    {
+     "von": "T8"
+    },
+    {
+     "von": "T1"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T3"
+    },
+    {
+     "von": "T2"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T0"
+    }
+   ],
+   "ende": {
+    "gipfel": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "offen": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "stapel": [
+     "8D",
+     "JD",
+     "8H",
+     "8S",
+     "TH",
+     "TC",
+     "3H",
+     "9S",
+     "4D",
+     "7H",
+     "5S"
+    ],
+    "ablage": [
+     "KC",
+     "QC",
+     "JC",
+     "QS",
+     "8C",
+     "7C",
+     "6D",
+     "5D",
+     "4H",
+     "3D",
+     "2S",
+     "AD",
+     "2C",
+     "9C",
+     "5C",
+     "6C",
+     "7D",
+     "6H",
+     "5H",
+     "4C",
+     "KH",
+     "AH",
+     "KS",
+     "AC",
+     "2H",
+     "QH",
+     "3S",
+     "4S",
+     "3C",
+     "9H",
+     "TS",
+     "9D",
+     "TD",
+     "JH",
+     "QD",
+     "JS",
+     "KD",
+     "AS",
+     "2D",
+     "6S",
+     "7S"
+    ],
+    "kette": 1,
+    "punkte": 127,
+    "zuege": 40
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Zufallszüge Seed 3 bis zum Ende",
+   "seed": 3,
+   "zuege": [
+    {
+     "von": "T24"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T20"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T26"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T18"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T22"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T27"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T25"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T19"
+    }
+   ],
+   "ende": {
+    "gipfel": [
+     "AH",
+     "3H",
+     "7C",
+     "QC",
+     "9C",
+     "2S",
+     "5C",
+     "AD",
+     "3D",
+     "JS",
+     "KC",
+     "QD",
+     "6S",
+     "6C",
+     "5S",
+     "QS",
+     "KD",
+     "KH",
+     null,
+     null,
+     null,
+     "8D",
+     null,
+     "2D",
+     null,
+     null,
+     null,
+     null
+    ],
+    "offen": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "stapel": [],
+    "ablage": [
+     "9S",
+     "8S",
+     "TS",
+     "JD",
+     "4D",
+     "2H",
+     "AS",
+     "7S",
+     "8H",
+     "QH",
+     "JH",
+     "TC",
+     "2C",
+     "3S",
+     "4S",
+     "TD",
+     "5D",
+     "AC",
+     "KS",
+     "4H",
+     "TH",
+     "JC",
+     "9D",
+     "8C",
+     "5H",
+     "6D",
+     "7D",
+     "7H",
+     "6H",
+     "9H",
+     "3C",
+     "4C"
+    ],
+    "kette": 1,
+    "punkte": 8,
+    "zuege": 31
+   },
+   "gewonnen": false,
+   "festgefahren": true
+  },
+  {
+   "titel": "Zufallszüge Seed 7 bis zum Ende",
+   "seed": 7,
+   "zuege": [
+    {
+     "von": "T25"
+    },
+    {
+     "von": "T18"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T21"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T26"
+    },
+    {
+     "von": "T16"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T20"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T23"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T11"
+    },
+    {
+     "von": "T22"
+    },
+    {
+     "von": "T19"
+    },
+    {
+     "von": "T27"
+    },
+    {
+     "von": "T24"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T9"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T10"
+    },
+    {
+     "von": "T14"
+    },
+    {
+     "von": "T13"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T4"
+    },
+    {
+     "von": "T3"
+    },
+    {
+     "von": "T0"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "T17"
+    },
+    {
+     "von": "stapel"
+    },
+    {
+     "von": "stapel"
+    }
+   ],
+   "ende": {
+    "gipfel": [
+     null,
+     "5S",
+     "JD",
+     null,
+     null,
+     "TD",
+     "KC",
+     "6H",
+     "4C",
+     null,
+     null,
+     null,
+     "KH",
+     null,
+     null,
+     "2D",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "offen": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "stapel": [],
+    "ablage": [
+     "9S",
+     "8H",
+     "7C",
+     "QS",
+     "QH",
+     "8C",
+     "9C",
+     "5H",
+     "6C",
+     "7S",
+     "JS",
+     "TC",
+     "8S",
+     "TH",
+     "KS",
+     "QD",
+     "AH",
+     "QC",
+     "5C",
+     "9D",
+     "5D",
+     "7H",
+     "AC",
+     "2S",
+     "3S",
+     "2C",
+     "AS",
+     "2H",
+     "6S",
+     "7D",
+     "KD",
+     "AD",
+     "8D",
+     "9H",
+     "TS",
+     "JC",
+     "3D",
+     "4D",
+     "3C",
+     "4H",
+     "3H",
+     "4S",
+     "6D",
+     "JH"
+    ],
+    "kette": 0,
+    "punkte": 53,
+    "zuege": 43
+   },
+   "gewonnen": false,
+   "festgefahren": true
+  }
+ ]
+}

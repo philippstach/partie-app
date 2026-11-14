@@ -1,0 +1,792 @@
+{
+ "beschreibung": "Stufe geübt: Spalte und Suchwerte (Tiefe 6) exakt",
+ "faelle": [
+  {
+   "name": "leer-z950",
+   "beginner": 1,
+   "zuege": [],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......."
+   ],
+   "zufall": [
+    950
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": null
+   }
+  },
+  {
+   "name": "zufall0-z0",
+   "beginner": 1,
+   "zuege": [
+    4,
+    1,
+    6,
+    2,
+    2,
+    2,
+    6,
+    5,
+    0,
+    3,
+    2,
+    2,
+    0,
+    3,
+    3,
+    2,
+    1,
+    3
+   ],
+   "bild": [
+    "..B....",
+    "..B....",
+    "..GB...",
+    "..BG...",
+    "GGGB..G",
+    "GBBBGBG"
+   ],
+   "zufall": [
+    0
+   ],
+   "erwartet": {
+    "spalte": 0,
+    "zufallGezogen": 1,
+    "werte": [
+     -5,
+     -18,
+     null,
+     -3,
+     -22,
+     -19,
+     -5
+    ]
+   }
+  },
+  {
+   "name": "zufall0-z1",
+   "beginner": 1,
+   "zuege": [
+    4,
+    1,
+    6,
+    2,
+    2,
+    2,
+    6,
+    5,
+    0,
+    3,
+    2,
+    2,
+    0,
+    3,
+    3,
+    2,
+    1,
+    3
+   ],
+   "bild": [
+    "..B....",
+    "..B....",
+    "..GB...",
+    "..BG...",
+    "GGGB..G",
+    "GBBBGBG"
+   ],
+   "zufall": [
+    1
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 1,
+    "werte": [
+     -5,
+     -18,
+     null,
+     -3,
+     -22,
+     -19,
+     -5
+    ]
+   }
+  },
+  {
+   "name": "zufall1-z0",
+   "beginner": 2,
+   "zuege": [
+    0,
+    6,
+    2,
+    0,
+    3,
+    1,
+    0,
+    3,
+    2,
+    5,
+    0,
+    3,
+    1,
+    0,
+    4,
+    2,
+    4,
+    2,
+    0,
+    4
+   ],
+   "bild": [
+    "B......",
+    "G......",
+    "B.G....",
+    "B.GGG..",
+    "GBBGB..",
+    "BGBBBGG"
+   ],
+   "zufall": [
+    0
+   ],
+   "erwartet": {
+    "spalte": 1,
+    "zufallGezogen": 0,
+    "werte": null
+   }
+  },
+  {
+   "name": "zufall1-z1",
+   "beginner": 2,
+   "zuege": [
+    0,
+    6,
+    2,
+    0,
+    3,
+    1,
+    0,
+    3,
+    2,
+    5,
+    0,
+    3,
+    1,
+    0,
+    4,
+    2,
+    4,
+    2,
+    0,
+    4
+   ],
+   "bild": [
+    "B......",
+    "G......",
+    "B.G....",
+    "B.GGG..",
+    "GBBGB..",
+    "BGBBBGG"
+   ],
+   "zufall": [
+    1
+   ],
+   "erwartet": {
+    "spalte": 1,
+    "zufallGezogen": 0,
+    "werte": null
+   }
+  },
+  {
+   "name": "zufall2-z589",
+   "beginner": 2,
+   "zuege": [
+    3,
+    1,
+    1,
+    0,
+    3,
+    3,
+    0,
+    5,
+    2,
+    5,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "...B...",
+    "...G...",
+    "BB.B.G.",
+    "GGBB.G."
+   ],
+   "zufall": [
+    589
+   ],
+   "erwartet": {
+    "spalte": 2,
+    "zufallGezogen": 0,
+    "werte": null
+   }
+  },
+  {
+   "name": "zufall3-z177",
+   "beginner": 2,
+   "zuege": [
+    1,
+    5,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".B.....",
+    ".B...G."
+   ],
+   "zufall": [
+    177
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 1,
+    "werte": [
+     -12,
+     -9,
+     -9,
+     -1,
+     -10,
+     -9,
+     -16
+    ]
+   }
+  },
+  {
+   "name": "zufall4-z66",
+   "beginner": 2,
+   "zuege": [
+    3,
+    2,
+    3,
+    0,
+    2,
+    6,
+    1,
+    1,
+    0,
+    1,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".G.B...",
+    "BGBB...",
+    "GBGB..G"
+   ],
+   "zufall": [
+    66
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": null
+   }
+  },
+  {
+   "name": "zufall5-z993",
+   "beginner": 1,
+   "zuege": [
+    2,
+    1,
+    4,
+    2,
+    0,
+    6,
+    4,
+    5,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    3,
+    6,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".B.....",
+    ".G.....",
+    "GBG....",
+    "BGB.G.B",
+    "GBGGGBB"
+   ],
+   "zufall": [
+    993
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": null
+   }
+  },
+  {
+   "name": "zufall6-z834",
+   "beginner": 1,
+   "zuege": [
+    4,
+    1,
+    5,
+    5,
+    4,
+    4,
+    0,
+    0,
+    3,
+    2,
+    3,
+    6,
+    2,
+    6,
+    6,
+    6,
+    5,
+    4
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "....B.B",
+    "....BGG",
+    "B.GGGBB",
+    "GBBGGGB"
+   ],
+   "zufall": [
+    834
+   ],
+   "erwartet": {
+    "spalte": 1,
+    "zufallGezogen": 0,
+    "werte": null
+   }
+  },
+  {
+   "name": "zufall7-z243",
+   "beginner": 2,
+   "zuege": [
+    5,
+    2,
+    1,
+    4,
+    6,
+    2,
+    5,
+    4,
+    4,
+    5,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "....BG.",
+    ".BG.GB.",
+    ".BG.GBB"
+   ],
+   "zufall": [
+    243
+   ],
+   "erwartet": {
+    "spalte": 2,
+    "zufallGezogen": 1,
+    "werte": [
+     -13,
+     -9,
+     -5,
+     -9,
+     -7,
+     -12,
+     -13
+    ]
+   }
+  },
+  {
+   "name": "zufall8-z913",
+   "beginner": 1,
+   "zuege": [
+    0,
+    2,
+    4,
+    4,
+    6,
+    4,
+    2,
+    1,
+    4,
+    3,
+    6,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "....G..",
+    "..B.B..",
+    "..G.B.G",
+    "GBBBG.G"
+   ],
+   "zufall": [
+    913
+   ],
+   "erwartet": {
+    "spalte": 2,
+    "zufallGezogen": 1,
+    "werte": [
+     -13,
+     -11,
+     -8,
+     -20,
+     -17,
+     -19,
+     -17
+    ]
+   }
+  },
+  {
+   "name": "zufall9-z475",
+   "beginner": 1,
+   "zuege": [
+    2,
+    1,
+    0,
+    4,
+    0,
+    2,
+    2,
+    1,
+    1,
+    0,
+    2,
+    4,
+    4,
+    3,
+    5,
+    6,
+    2
+   ],
+   "bild": [
+    ".......",
+    "..G....",
+    "..G....",
+    "BGG.G..",
+    "GBB.B..",
+    "GBGBBGB"
+   ],
+   "zufall": [
+    475
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": null
+   }
+  },
+  {
+   "name": "zufall10-z317",
+   "beginner": 1,
+   "zuege": [
+    4,
+    5,
+    6,
+    3,
+    0,
+    1,
+    0,
+    3,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "G..B...",
+    "GBGBGBG"
+   ],
+   "zufall": [
+    317
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 1,
+    "werte": [
+     2,
+     2,
+     9,
+     11,
+     11,
+     6,
+     2
+    ]
+   }
+  },
+  {
+   "name": "zufall11-z919",
+   "beginner": 1,
+   "zuege": [
+    1,
+    3,
+    0,
+    2,
+    0,
+    0,
+    6,
+    1,
+    1,
+    1,
+    5,
+    0,
+    0
+   ],
+   "bild": [
+    ".......",
+    "G......",
+    "BB.....",
+    "BG.....",
+    "GB.....",
+    "GGBB.GG"
+   ],
+   "zufall": [
+    919
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 1,
+    "werte": [
+     -5,
+     -2,
+     -1,
+     5,
+     -5,
+     0,
+     -3
+    ]
+   }
+  },
+  {
+   "name": "zufall12-z686",
+   "beginner": 1,
+   "zuege": [
+    0,
+    1,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "GBG...."
+   ],
+   "zufall": [
+    686
+   ],
+   "erwartet": {
+    "spalte": 2,
+    "zufallGezogen": 1,
+    "werte": [
+     -7,
+     -3,
+     -1,
+     -5,
+     -5,
+     -5,
+     -6
+    ]
+   }
+  },
+  {
+   "name": "zufall13-z364",
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "B......",
+    "GG....."
+   ],
+   "zufall": [
+    364
+   ],
+   "erwartet": {
+    "spalte": 2,
+    "zufallGezogen": 1,
+    "werte": [
+     -6,
+     -8,
+     -6,
+     -3,
+     -11,
+     -10,
+     -10
+    ]
+   }
+  },
+  {
+   "name": "zufall14-z175",
+   "beginner": 1,
+   "zuege": [
+    2,
+    5,
+    5
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".....G.",
+    "..G..B."
+   ],
+   "zufall": [
+    175
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 1,
+    "werte": [
+     -9,
+     -7,
+     -7,
+     -7,
+     -8,
+     -14,
+     -18
+    ]
+   }
+  },
+  {
+   "name": "zufall15-z520",
+   "beginner": 2,
+   "zuege": [
+    4,
+    3,
+    5,
+    2,
+    4,
+    5,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "..B.BG.",
+    "..GGBB."
+   ],
+   "zufall": [
+    520
+   ],
+   "erwartet": {
+    "spalte": 2,
+    "zufallGezogen": 1,
+    "werte": [
+     -9,
+     -6,
+     -5,
+     -6,
+     -1,
+     -11,
+     -11
+    ]
+   }
+  },
+  {
+   "name": "zufall16-z191",
+   "beginner": 2,
+   "zuege": [
+    6,
+    1,
+    5,
+    2,
+    6,
+    6,
+    2,
+    6,
+    6,
+    0,
+    2
+   ],
+   "bild": [
+    ".......",
+    "......B",
+    "......G",
+    "..B...G",
+    "..B...B",
+    "GGG..BB"
+   ],
+   "zufall": [
+    191
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": null
+   }
+  },
+  {
+   "name": "zufall17-z165",
+   "beginner": 2,
+   "zuege": [
+    1,
+    2,
+    2,
+    1,
+    4
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".GB....",
+    ".BG.B.."
+   ],
+   "zufall": [
+    165
+   ],
+   "erwartet": {
+    "spalte": 2,
+    "zufallGezogen": 1,
+    "werte": [
+     -13,
+     -3,
+     -3,
+     -9,
+     -9,
+     -10,
+     -13
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+# n21 Zusätzliche, eindeutige Fragen für Vornamen (damit im selben Rätsel nie zwei gleichwertige Fragen stehen)
+Ute;2;Mutter Kriemhilds (Sage)|Königin im Nibelungenlied
+Nina;1;Karavelle des Kolumbus|Schiff neben Pinta und Santa Maria
+Inge;2;Vorname der Meysel|Vorname der Schauspielerin Meysel
+Lina;1;Magd bei Michel aus Lönneberga|Köchin auf Katthult
+Laura;1;Angebetete Petrarcas|Muse des Dichters Petrarca
+Emilia;1;… Galotti (Lessing)|Trauerspiel von Lessing (… Galotti)
+Rita;2;Vorname der Hayworth|Filmdiva Hayworth
+Gerda;2;Freundin von Kay im Märchen|Sucht Kay bei der Schneekönigin
+Ralf;2;Kurzform von Radolf|Altdeutscher Name: Rat und Wolf
+Theo;1;Vorname von Lingen|Komiker Lingen
+Ulf;2;Schwedisch: Wolf|Nordisch für Wolf
+Paula;1;Vorname der Modersohn-Becker|Malerin Modersohn-Becker
+Alex;1;Platz in Berlin (kurz)|Berliner Platz mit Fernsehturm
+Uta;3;Stifterfigur im Naumburger Dom|Schönste Frau des Mittelalters
+Ina;2;Vorname der Seidel|Dichterin Seidel
+Ilse;2;Vorname der Werner|… Bilse, keiner willse
+Erna;2;Vorname der Sack|Sopranistin Sack
+Elsa;1;Braut Lohengrins|… von Brabant (Wagner)
+Emma;1;Roman von Jane Austen|Lok aus Lummerland
+Anne;1;… Frank (Tagebuch)|… Boleyn (Frau Heinrichs VIII.)
+Ida;3;… Ehre (Schauspielerin)|Vorname der Ehre
+Mia;1;Mamma …! (Musical)|Musical mit Liedern von ABBA: Mamma …
+Lea;1;Erste Frau Jakobs|Schwester Rahels
+Flo;1;Kurzform von Florian|Kurz für Florian

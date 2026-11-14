@@ -1,0 +1,53 @@
+{
+  "beschreibung": "Wortsammlung: Siege (Einzelspieler, Wort des Tages) der Reihe nach sammeln, dann Fortschritt je Kategorie gegen Shared/woerter/de.json. Unbekannte Wörter bleiben in der Sammlung, zählen aber nirgends.",
+  "sprache": "de",
+  "siege": [
+    "HUND",
+    "KATZE",
+    "HUND",
+    "APFEL",
+    "GIBT ES NICHT",
+    "U-BAHN"
+  ],
+  "gesammelt": [
+    "HUND",
+    "KATZE",
+    "APFEL",
+    "GIBT ES NICHT",
+    "U-BAHN"
+  ],
+  "fortschritt": {
+    "animals": {
+      "erraten": 2,
+      "gesamt": 87
+    },
+    "food": {
+      "erraten": 1,
+      "gesamt": 91
+    },
+    "countries": {
+      "erraten": 0,
+      "gesamt": 79
+    },
+    "sports": {
+      "erraten": 0,
+      "gesamt": 77
+    },
+    "nature": {
+      "erraten": 0,
+      "gesamt": 82
+    },
+    "home": {
+      "erraten": 0,
+      "gesamt": 79
+    },
+    "transport": {
+      "erraten": 1,
+      "gesamt": 68
+    },
+    "music": {
+      "erraten": 0,
+      "gesamt": 74
+    }
+  }
+}

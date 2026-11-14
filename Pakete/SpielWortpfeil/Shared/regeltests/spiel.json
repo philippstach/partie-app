@@ -1,0 +1,5457 @@
+{
+ "beschreibung": "Spiellogik auf dem Rätsel 'raetsel'. Spiel.neu(raetsel), dann jede Aktion ausführen und den Zustand mit 'erwartet' vergleichen. Fall mit \"starthilfe\": true → Spiel.neu(raetsel, starthilfe=True). 'ergebnis' = Rückgabewert (Anzahl Fehler) bei Prüfen.",
+ "raetsel": {
+  "id": "T-MINI",
+  "stufe": "leicht",
+  "breite": 5,
+  "hoehe": 7,
+  "gitter": [
+   "-#-#-",
+   "#OMA-",
+   "-P-S-",
+   "#ART-",
+   "E----",
+   "I----",
+   "S----"
+  ],
+  "fragen": [
+   {
+    "zeile": 0,
+    "spalte": 1,
+    "richtung": "unten",
+    "text": "Großvater"
+   },
+   {
+    "zeile": 0,
+    "spalte": 3,
+    "richtung": "unten",
+    "text": "Teil des Baumes"
+   },
+   {
+    "zeile": 1,
+    "spalte": 0,
+    "richtung": "rechts",
+    "text": "Großmutter"
+   },
+   {
+    "zeile": 3,
+    "spalte": 0,
+    "richtung": "rechts",
+    "text": "Weise, Sorte"
+   },
+   {
+    "zeile": 3,
+    "spalte": 0,
+    "richtung": "unten",
+    "text": "Gefrorenes Wasser"
+   }
+  ]
+ },
+ "faelle": [
+  {
+   "name": "start",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "tippen_gleiches_feld_wechselt_richtung",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 1
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 1
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "tippen_ohne_querwort_bleibt_richtung",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 2,
+      "spalte": 3
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       2,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 2,
+      "spalte": 3
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       2,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "tippen_wechselt_richtung_wenn_noetig",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 2
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "fragefeld_mit_zwei_fragen",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 3,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 3,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       4,
+       0
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       3,
+       0,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 3,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "tippen_leerfeld_und_rand",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 4,
+      "spalte": 4
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 9,
+      "spalte": 9
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "eingabe_rueckt_vor_wortende_springt_zur_naechsten_luecke",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "x"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#X..-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "kluger_cursor_ueberspringt_gefuellte",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 0,
+      "spalte": 3
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#..A-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       2,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#..A-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O.A-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "korrektur_im_vollen_wort_rueckt_einfach_vor",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 1
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "x"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#XMA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "y"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#XYA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "z"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#XYZ-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "q"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#XYQ-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "lueckenfuellung_springt_im_wort_zurueck",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "loeschen"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "loeschen"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 2
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#.M.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#.MA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "wort_aufdecken",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "wortAufdecken"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        2
+       ],
+       [
+        1,
+        3
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "wortAufdecken"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#ART-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       4,
+       0
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       3,
+       0,
+       "unten"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        2
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        3,
+        2
+       ],
+       [
+        3,
+        3
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 2,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#ART-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        2
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        3,
+        2
+       ],
+       [
+        3,
+        3
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 2,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "wortAufdecken"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#ART-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        2
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        3,
+        2
+       ],
+       [
+        3,
+        3
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 2,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "bleistift",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "bleistiftUmschalten"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": true,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": true,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [
+       [
+        1,
+        1
+       ]
+      ],
+      "bleistift": true,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ],
+      "bleistift": true,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "bleistiftUmschalten"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 2
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        2
+       ]
+      ],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [
+       [
+        1,
+        1
+       ]
+      ],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 1
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [
+       [
+        1,
+        1
+       ]
+      ],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabeAufdecken"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "umlaut_und_sz",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "ä"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#AE.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "ß"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#AES-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "ungueltige_zeichen_ignoriert",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "1"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": " "
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "?"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "loeschen",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "loeschen"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "loeschen"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "loeschen"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "loeschen"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "aufdecken_sperrt_feld",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabeAufdecken"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabeAufdecken"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "loeschen"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "loeschen"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "loeschen"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "x"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OX.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "wort_pruefen_markiert_fehler",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "x"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OX.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OXA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "wortPruefen"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OXA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     },
+     "ergebnis": 0
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 2
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OXA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "raetsel_pruefen",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "x"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#X..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 3,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#X..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#X..-",
+       "-.-.-",
+       "#A..-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "q"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#X..-",
+       "-.-.-",
+       "#AQ.-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "raetselPruefen"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#X..-",
+       "-.-.-",
+       "#AQ.-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [
+       [
+        1,
+        1
+       ],
+       [
+        3,
+        2
+       ]
+      ],
+      "hilfen": 1,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     },
+     "ergebnis": 2
+    }
+   ]
+  },
+  {
+   "name": "naechste_und_vorige_frage",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "naechsteFrage"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "naechsteFrage"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "naechsteFrage"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "naechsteFrage"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       4,
+       0
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       3,
+       0,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "naechsteFrage"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "vorigeFrage"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       4,
+       0
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       3,
+       0,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "vorigeFrage"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "naechste_frage_springt_zur_luecke",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 0,
+      "spalte": 3
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#..A-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       2,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "s"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#..A-",
+       "-.-S-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "naechsteFrage"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#..A-",
+       "-.-S-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "naechsteFrage"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#..A-",
+       "-.-S-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "kreuzung_teilt_buchstaben",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 0,
+      "spalte": 1
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       2,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ]
+  },
+  {
+   "name": "voll_mit_fehlern",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#A..-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "r"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#AR.-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "t"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#ART-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       4,
+       0
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       3,
+       0,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "e"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#ART-",
+       "E----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       5,
+       0
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       3,
+       0,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "i"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#ART-",
+       "E----",
+       "I----",
+       ".----"
+      ],
+      "cursor": [
+       6,
+       0
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       3,
+       0,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "s"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#ART-",
+       "E----",
+       "I----",
+       "S----"
+      ],
+      "cursor": [
+       2,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "p"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-P-.-",
+       "#ART-",
+       "E----",
+       "I----",
+       "S----"
+      ],
+      "cursor": [
+       2,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "x"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-P-X-",
+       "#ART-",
+       "E----",
+       "I----",
+       "S----"
+      ],
+      "cursor": [
+       2,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "voll_mit_fehlern"
+     }
+    }
+   ]
+  },
+  {
+   "name": "geloest",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#...-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "o"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O..-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OM.-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#...-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       1
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#A..-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "r"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#AR.-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       3
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "t"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#ART-",
+       ".----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       4,
+       0
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       3,
+       0,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "e"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#ART-",
+       "E----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       5,
+       0
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       3,
+       0,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "i"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#ART-",
+       "E----",
+       "I----",
+       ".----"
+      ],
+      "cursor": [
+       6,
+       0
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       3,
+       0,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "s"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-.-.-",
+       "#ART-",
+       "E----",
+       "I----",
+       "S----"
+      ],
+      "cursor": [
+       2,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "p"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-P-.-",
+       "#ART-",
+       "E----",
+       "I----",
+       "S----"
+      ],
+      "cursor": [
+       2,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "s"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-P-S-",
+       "#ART-",
+       "E----",
+       "I----",
+       "S----"
+      ],
+      "cursor": [
+       2,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "geloest"
+     }
+    }
+   ]
+  },
+  {
+   "name": "starthilfe_anfangsbuchstaben",
+   "schritte": [
+    {
+     "aktion": null,
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O.A-",
+       "-.-.-",
+       "#A..-",
+       "E----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       2,
+       1
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       1,
+       "unten"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        4,
+        0
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "p"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O.A-",
+       "-P-.-",
+       "#A..-",
+       "E----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       2,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        4,
+        0
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "a"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O.A-",
+       "-P-A-",
+       "#A..-",
+       "E----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       3
+      ],
+      "richtung": "unten",
+      "aktiveFrage": [
+       0,
+       3,
+       "unten"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        4,
+        0
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "tippe",
+      "zeile": 1,
+      "spalte": 0
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#O.A-",
+       "-P-A-",
+       "#A..-",
+       "E----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       1,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       1,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        4,
+        0
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    },
+    {
+     "aktion": {
+      "aktion": "buchstabe",
+      "zeichen": "m"
+     },
+     "erwartet": {
+      "eintraege": [
+       "-#-#-",
+       "#OMA-",
+       "-P-A-",
+       "#A..-",
+       "E----",
+       ".----",
+       ".----"
+      ],
+      "cursor": [
+       3,
+       2
+      ],
+      "richtung": "rechts",
+      "aktiveFrage": [
+       3,
+       0,
+       "rechts"
+      ],
+      "aufgedeckt": [
+       [
+        1,
+        1
+       ],
+       [
+        1,
+        3
+       ],
+       [
+        3,
+        1
+       ],
+       [
+        4,
+        0
+       ]
+      ],
+      "markiert": [],
+      "hilfen": 0,
+      "unsicher": [],
+      "bleistift": false,
+      "status": "laeuft"
+     }
+    }
+   ],
+   "starthilfe": true
+  }
+ ]
+}

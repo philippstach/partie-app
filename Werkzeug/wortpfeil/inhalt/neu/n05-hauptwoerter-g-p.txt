@@ -1,0 +1,227 @@
+# n05 Hauptwörter des Alltags G–P
+Gabe;1;Geschenk|Talent
+Gast;1;Besucher|Kunde im Hotel
+Gatte;2;Ehemann|Angetrauter
+Gattin;2;Ehefrau|Angetraute
+Gaudi;2;Spaß (bayerisch)|Vergnügen im Süden
+Gebiet;1;Region|Bereich
+Gebot;1;Eines von zehn (Bibel)|Preis bei der Auktion
+Gedanke;1;Was man im Kopf hat|Überlegung
+Geduld;1;Ruhiges Abwarten|Langmut
+Gefahr;1;Risiko|Drohendes Unheil
+Gegend;1;Landstrich|Umgebung
+Geist;1;Gespenst|Verstand
+Geiz;1;Übertriebene Sparsamkeit|Knauserei
+Gemeinde;1;Dorf als Verwaltung|Kirchliche Gruppe
+Genie;2;Hochbegabter|Überflieger
+Genuss;1;Vergnügen beim Essen|Wonne
+Gerät;1;Apparat|Werkzeug
+Gerede;1;Klatsch|Geschwätz
+Gerücht;1;Unbestätigte Nachricht|Hörensagen
+Geschenk;1;Liegt unter dem Christbaum|Präsent
+Gespenst;1;Spukgestalt|Geist im Schloss
+Gestalt;1;Figur|Äußere Form
+Geste;2;Handbewegung|Zeichen ohne Worte
+Gewalt;1;Rohe Kraft|Zwang
+Gewohnheit;1;Was man immer tut|Routine
+Glaube;1;Religiöse Überzeugung|Vertrauen
+Glück;1;Gegenteil von Pech|Seligkeit
+Gnade;2;Milde statt Strafe|Erbarmen
+Grenze;1;Trennt zwei Länder|Limit
+Grund;1;Ursache|Boden des Sees
+Gruppe;1;Mehrere Personen zusammen|Team
+Gunst;2;Wohlwollen|Huld
+Güte;1;Herzensfreundlichkeit|Qualität
+Hälfte;1;Eines von zwei gleichen Teilen|Fünfzig Prozent
+Hast;1;Große Eile|Hetze
+Heimat;1;Wo man zu Hause ist|Land der Kindheit
+Heirat;1;Hochzeit|Eheschließung
+Herbst;1;Jahreszeit der bunten Blätter|Zeit der Ernte
+Herkunft;1;Abstammung|Ursprung
+Herr;1;Höfliche Anrede für Männer|Gebieter
+Himmel;1;Dort ziehen die Wolken|Reich der Engel
+Hinweis;1;Tipp|Fingerzeig
+Hobby;1;Freizeitbeschäftigung|Steckenpferd
+Hochzeit;1;Fest der Trauung|Ja-Wort-Feier
+Hohn;2;Bitterer Spott|Verächtliches Lachen
+Hölle;1;Reich des Teufels|Gegenteil von Himmel
+Humor;1;Sinn für Witz|Gabe zu lachen
+Inhalt;1;Was drin ist|Füllung
+Irrtum;1;Versehen|Falsche Annahme
+Jahr;1;Zwölf Monate|365 Tage
+Jammer;1;Großes Elend|Wehklagen
+Januar;1;Erster Monat|Monat nach Silvester
+Jubel;1;Lauter Beifall|Freudengeschrei
+Jugend;1;Zeit der Teenager|Junge Leute
+Juli;1;Siebter Monat|Monat der großen Ferien
+Junge;1;Knabe|Bub
+Jury;2;Preisgericht|Gremium der Bewerter
+Kerl;1;Bursche (ugs.)|Typ
+Klage;1;Beschwerde vor Gericht|Jammern
+Klasse;1;Schüler eines Jahrgangs|Kategorie
+Klatsch;1;Tratsch|Gerede über andere
+Knall;1;Lautes kurzes Geräusch|Peng
+Knick;1;Scharfe Falte|Eselsohr
+Kniff;1;Trick|Kunstgriff
+Kosten;1;Ausgaben|Was man zahlen muss
+Krimi;1;Spannender Roman mit Mord|Fall für den Kommissar
+Kritik;1;Tadel|Besprechung eines Films
+Kummer;1;Sorge|Seelischer Schmerz
+Kurs;1;Lehrgang|Richtung des Schiffes
+Lage;1;Position|Situation
+Land;1;Staat|Gegenteil von Stadt
+Last;1;Schwere Bürde|Fracht
+Leben;1;Dasein|Zeit zwischen Geburt und Tod
+Leid;1;Großer Kummer|Schmerz
+Leute;1;Menschen|Personen (Mehrzahl)
+List;1;Schlauer Trick|Finte
+Lücke;1;Leere Stelle|Fehlt ein Zahn, bleibt sie
+Lüge;1;Unwahrheit|Gegenteil von Wahrheit
+Lust;1;Freude an etwas|Verlangen
+Mama;1;Mutter (Kosewort)|Mutti
+Mangel;1;Fehlen von Nötigem|Knappheit
+Mann;1;Gegenstück zur Frau|Gatte
+Märchen;1;Geschichte der Brüder Grimm|Es war einmal …
+Maß;1;Liter Bier in Bayern|Einheit zum Messen
+Mensch;1;Homo sapiens|Person
+Miene;1;Gesichtsausdruck|Gesichtszug
+Minute;1;Sechzig Sekunden|Teil einer Stunde
+Mittag;1;Zwölf Uhr|Zeit des Hauptessens
+Mitte;1;Zentrum|Punkt im Kreis
+Mittel;1;Arznei|Durchschnitt
+Moment;1;Augenblick|Kurze Zeitspanne
+Montag;1;Erster Tag der Woche|Tag nach Sonntag
+Moral;2;Lehre der Fabel|Sittliche Haltung
+Mord;1;Vorsätzliche Tötung|Fall für die Kripo
+Mühe;1;Anstrengung|Plage
+Nachbar;1;Wohnt nebenan|Anwohner von nebenan
+Nacht;1;Zeit der Dunkelheit|Gegenteil von Tag
+Nähe;1;Geringe Entfernung|Gegenteil von Ferne
+Name;1;Steht im Ausweis|Bezeichnung
+Neffe;1;Sohn der Schwester|Sohn des Bruders
+Neubau;1;Gerade errichtetes Haus|Gegenteil von Altbau
+Nichte;1;Tochter des Bruders|Tochter der Schwester
+Nutzen;1;Vorteil|Gewinn
+Onkel;1;Bruder der Mutter|Bruder des Vaters
+Ordnung;1;Aufgeräumter Zustand|Gegenteil von Chaos
+Ostern;1;Fest der bunten Eier|Fest im Frühling
+Panik;1;Kopflose Angst|Massenangst
+Papa;1;Vater (Kosewort)|Vati
+Parole;2;Kennwort|Wahlspruch
+Party;1;Fete|Lockere Feier
+Pate;1;Zeuge bei der Taufe|Taufzeuge
+Pflicht;1;Was man tun muss|Gegenteil von Kür
+Plage;1;Quälendes Übel|Mücken im Sommer
+Plan;1;Vorhaben|Entwurf
+Platz;1;Freie Fläche in der Stadt|Sitz
+Pleite;1;Bankrott|Misserfolg
+Post;1;Briefe und Pakete|Bringt der Briefträger
+Pracht;1;Prunk|Herrlichkeit
+Problem;1;Schwierige Aufgabe|Schwierigkeit
+Protest;1;Lauter Widerspruch|Einspruch
+Prozess;2;Verhandlung vor Gericht|Ablauf, Vorgang
+Prüfung;1;Examen|Test am Ende der Lehre
+Publikum;1;Zuschauer|Zuhörerschaft
+Pointe;2;Knalleffekt am Ende des Witzes|Witz am Witz
+Quatsch;1;Unsinn|Blödsinn
+Rache;1;Vergeltung|Heimzahlung
+Rang;1;Stufe in der Hierarchie|Balkon im Theater
+Rätsel;1;Aufgabe zum Knobeln|Denkaufgabe
+Regel;1;Vorschrift|Gesetz im Spiel
+Reihe;1;Schlange|Linie von Stühlen
+Reue;1;Bedauern einer Tat|Zerknirschung
+Risiko;1;Wagnis|Gefahr
+Rolle;1;Part im Film|Walze
+Rückweg;1;Heimweg|Strecke nach Hause
+Rummel;1;Jahrmarkt|Lärmendes Treiben
+Runde;1;Bahn im Stadion|Kreis von Leuten
+Sache;1;Ding|Angelegenheit
+Samstag;1;Tag vor Sonntag|Sonnabend
+Schaden;1;Defekt|Nachteil
+Scham;1;Peinliches Gefühl|Verlegenheit
+Schande;1;Schmach|Verlust der Ehre
+Scherz;1;Witz|Spaß
+Schimpf;2;Schmach (mit Schande)|Beleidigung
+Schluss;1;Ende|Aus und vorbei
+Schmach;2;Schande|Demütigung
+Schock;1;Jäher Schreck|Schlag für die Nerven
+Schreck;1;Plötzliche Angst|Lähmt für einen Moment
+Schritt;1;Tritt beim Gehen|Gangart des Pferdes
+Schuld;1;Verantwortung für Unrecht|Last auf dem Gewissen
+Schule;1;Ort des Unterrichts|Dort lernen Kinder
+Schutz;1;Sicherheit vor Gefahr|Deckung
+Schwung;1;Elan|Pendelnde Bewegung
+Sekunde;1;Sechzigstel einer Minute|Kurzer Augenblick
+Serie;1;Sendung in vielen Folgen|Reihe
+Sohn;1;Männliches Kind|Bruder der Tochter
+Sommer;1;Heißeste Jahreszeit|Zeit der großen Ferien
+Sonntag;1;Tag der Ruhe|Letzter Tag der Woche
+Sorge;1;Kummer|Bangen um jemanden
+Spaß;1;Vergnügen|Scherz
+Sprache;1;Deutsch oder Englisch|Mittel zum Reden
+Spruch;1;Kurzer Merksatz|Urteil
+Stadt;1;Großer Ort|Gegenteil von Dorf
+Stelle;1;Ort, Platz|Arbeitsplatz
+Stolz;1;Selbstbewusste Freude|Hochgefühl nach Erfolg
+Strafe;1;Buße für ein Vergehen|Folgt auf die Tat
+Streich;1;Schabernack|Max und Moritz spielten sieben
+Streit;1;Zank|Auseinandersetzung
+Stück;1;Teil vom Kuchen|Theaterwerk
+Stunde;1;Sechzig Minuten|Schulische Zeiteinheit
+Suche;1;Fahndung|Jagd nach Verlorenem
+Sünde;1;Verstoß gegen Gottes Gebot|Frevel
+Tadel;1;Rüge|Gegenteil von Lob
+Tante;1;Schwester der Mutter|Schwester des Vaters
+Tatsache;1;Faktum|Was wirklich stimmt
+Teil;1;Stück vom Ganzen|Abschnitt
+Test;1;Prüfung|Probe
+Teufel;1;Satan|Herr der Hölle
+Tick;1;Wunderliche Angewohnheit|Spleen
+Tochter;1;Weibliches Kind|Schwester des Sohnes
+Tod;1;Ende des Lebens|Sensenmann
+Trauer;1;Schmerz um Verstorbene|Tiefe Betrübnis
+Treffen;1;Verabredung|Zusammenkunft
+Trost;1;Zuspruch im Kummer|Linderung für die Seele
+Trubel;1;Lebhaftes Durcheinander|Rummel
+Tugend;2;Gute Eigenschaft|Gegenteil von Laster
+Typ;1;Kerl (ugs.)|Sorte, Modell
+Übung;1;Training|Macht den Meister
+Unglück;1;Schlimmes Ereignis|Gegenteil von Glück
+Unrecht;1;Verstoß gegen das Gesetz|Ungerechtigkeit
+Unsinn;1;Blödsinn|Quatsch
+Ursache;1;Grund|Auslöser
+Urteil;1;Spruch des Richters|Meinung
+Vater;1;Männlicher Elternteil|Papa
+Verbot;1;Untersagung|Gegenteil von Erlaubnis
+Verdacht;1;Argwohn|Vermutung der Polizei
+Verein;1;Klub|Club mit Mitgliedern
+Vetter;2;Cousin|Sohn des Onkels
+Vorbild;1;Idol|Muster zum Nacheifern
+Vorrat;1;Reserve im Keller|Lagerbestand
+Vorteil;1;Plus|Günstiger Umstand
+Vortrag;1;Rede vor Publikum|Referat
+Vorwurf;1;Anklagende Worte|Beschuldigung
+Wahl;1;Abstimmung|Stimmabgabe
+Wahrheit;1;Gegenteil von Lüge|Was wirklich stimmt
+Welt;1;Erde|Globus
+Wert;1;Preis einer Sache|Bedeutung
+Wille;1;Fester Vorsatz|Entschlossenheit
+Winter;1;Kälteste Jahreszeit|Zeit von Schnee und Eis
+Wissen;1;Kenntnisse|Macht (Sprichwort)
+Wort;1;Teil eines Satzes|Vokabel
+Wunder;1;Unerklärliches Ereignis|Mirakel
+Wunsch;1;Schreibt man ans Christkind|Begehren
+Würde;1;Ehre und Ansehen|Achtung gebietender Rang
+Zank;1;Streit|Gezänk (kurz)
+Zeichen;1;Signal|Symbol
+Zeit;1;Vergeht wie im Flug|Die Uhr misst sie
+Zeuge;1;Sagt vor Gericht aus|Beobachter der Tat
+Ziel;1;Endpunkt des Rennens|Mitte der Scheibe
+Zorn;1;Heftige Wut|Grimm
+Zufall;1;Unerwartetes Zusammentreffen|Laune des Schicksals
+Zukunft;1;Kommende Zeit|Gegenteil von Vergangenheit
+Zusage;1;Bejahende Antwort|Gegenteil von Absage
+Zustand;1;Verfassung|Lage der Dinge
+Zwang;1;Druck, Nötigung|Muss
+Zweck;1;Sinn einer Sache|Absicht
+Zweifel;1;Unsicherheit|Bedenken

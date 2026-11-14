@@ -1,0 +1,483 @@
+# 009 Verkehr, Fahrzeuge, Technik, Computer, Elektrizität, Werkstoffe – geschrieben von Claude
+Auto	1	Pkw|Fahrzeug mit vier Rädern
+Bahn	1	Schienenverkehrsmittel|Zug und Gleise|Weg, Strecke
+Tram	2	Elektrische auf Schienen|Bim
+Fahrrad	1	Zweirad mit Pedalen|Drahtesel
+Moped	1	Kleines Kraftrad|Leichtes Motorzweirad
+Mofa	2	Motorfahrrad (kurz)|Zweirad bis 25 km/h
+Motorrad	1	Kraftrad|Schweres Zweirad
+Traktor	1	Trecker|Zugmaschine des Bauern
+Bagger	1	Baumaschine mit Schaufel|Gerät zum Ausheben
+Kran	1	Hebegerät auf der Baustelle|Hebt schwere Lasten
+Lokomotive	1	Zugmaschine auf Schienen|Zieht die Waggons
+Waggon	1	Eisenbahnwagen|Teil eines Zuges
+Kutsche	1	Pferdewagen|Gefährt mit Gespann
+Karren	2	Einfacher Handwagen|Fuhrwerk zum Schieben
+Schiff	1	Großes Wasserfahrzeug|Fährt über das Meer
+Fähre	1	Übersetzboot|Bringt Autos übers Wasser
+Dampfer	2	Schiff mit Kesselantrieb|Ozeanriese, früher
+Frachter	2	Güterschiff|Transportschiff für Ware
+Tanker	2	Schiff für Erdöl|Ölfrachter
+Kutter	2	Kleines Fischereischiff|Krabbenboot
+Segler	2	Segelschiff|Wer Segelsport treibt
+Flugzeug	1	Luftfahrzeug|Jet oder Propellermaschine
+Hubschrauber	1	Helikopter|Fluggerät mit Rotor
+Ballon	1	Luftgefülltes Spielzeug|Heißluftfahrzeug
+Zeppelin	2	Starres Luftschiff|Lenkbares Luftschiff
+Rakete	1	Raumfahrtgerät|Silvesterknaller, steigt auf
+Gleiter	2	Motorloses Fluggerät|Flugzeug ohne Antrieb
+Segelflugzeug	2	Motorloses Flugzeug|Gleitet mit Thermik
+Straße	1	Fahrbahn|Asphaltierter Verkehrsweg
+Autobahn	1	Schnellstraße|Fernstraße mit Mittelstreifen
+Gasse	1	Enge Straße|Schmaler Weg in der Altstadt
+Brücke	1	Führt über einen Fluss|Überführung
+Tunnel	1	Unterführung im Berg|Röhre durch den Fels
+Kreuzung	1	Treffpunkt zweier Straßen|Ort mit Ampel
+Kreisverkehr	1	Runde Kreuzung|Rondell für Autos
+Fahrspur	2	Streifen der Straße|Linke oder rechte Bahn
+Spur	1	Fährte|Fahrstreifen
+Bahnhof	1	Haltepunkt der Züge|Station für Reisende
+Bahnsteig	1	Perron|Wartebereich am Gleis
+Haltestelle	1	Ort zum Einsteigen in den Bus|Station
+Flughafen	1	Airport|Ort für Start und Landung
+Schleuse	2	Hebt Schiffe an|Staustufe im Kanal
+Kanal	1	Künstliche Wasserstraße|Fernsehsender
+Maut	2	Straßengebühr|Wegezoll
+Tankstelle	1	Ort zum Benzinholen|Zapfstation
+Benzin	1	Kraftstoff|Treibstoff fürs Auto
+Diesel	1	Kraftstoff für Lkw|Selbstzündender Motor
+Sprit	2	Benzin (umgangssprachlich)|Schnaps (salopp)
+Kerosin	2	Flugbenzin|Treibstoff für Jets
+Getriebe	2	Übersetzt die Motorkraft|Zahnradsatz im Auto
+Kupplung	2	Pedal links im Auto|Verbindet Waggons
+Gaspedal	1	Pedal rechts im Auto|Beschleuniger
+Lenkrad	1	Steuer im Auto|Volant
+Lenker	1	Griffstange am Rad|Steuernder Fahrer
+Reifen	1	Gummi um die Felge|Pneu
+Felge	2	Metallring des Rades|Hält den Reifen
+Auspuff	1	Abgasrohr am Auto|Röhrt beim Motorrad
+Hupe	1	Signalhorn im Auto|Tröte am Lenkrad
+Klingel	1	Glocke am Fahrrad|Türglocke
+Blinker	1	Fahrtrichtungsanzeiger|Lampe zum Abbiegen
+Scheinwerfer	1	Lampe vorn am Auto|Strahler auf der Bühne
+Rücklicht	1	Rote Lampe hinten am Rad|Schlusslicht
+Kotflügel	2	Radabdeckung am Auto|Schutzblech
+Stoßstange	1	Prallschutz am Auto|Puffer vorn und hinten
+Motorhaube	1	Deckel vorn am Auto|Klappe über dem Antrieb
+Kofferraum	1	Gepäckraum im Auto|Stauraum hinten im Pkw
+Tank	1	Behälter für Treibstoff|Großer Flüssigkeitsbehälter
+Vergaser	3	Mischt Luft und Benzin|Alter Motorbauteil
+Zündkerze	2	Gibt den Funken im Motor|Steckt im Motorblock
+Kühler	2	Wärmetauscher im Auto|Hält den Motor kalt
+Batterie	1	Akku im Auto|Stromspeicher|Geschützgruppe
+Gangschaltung	2	Wechselt die Übersetzung|Teil am Rennrad
+Reling	2	Geländer an Deck|Schiffsgeländer
+Kombüse	2	Schiffsküche|Küche an Bord
+Kajüte	2	Wohnraum auf dem Schiff|Kabine an Bord
+Bullauge	2	Rundes Schiffsfenster|Fenster an Bord
+Propeller	1	Luftschraube|Drehender Flügelantrieb
+Tragfläche	2	Flügel des Flugzeugs|Gibt dem Flugzeug Auftrieb
+Cockpit	1	Kanzel des Piloten|Führerstand im Flugzeug
+Fahrwerk	2	Räder des Flugzeugs|Federung und Achsen
+Fahrer	1	Lenkt das Auto|Chauffeur
+Fahrkarte	1	Ticket für Bus und Bahn|Billett
+Ticket	1	Fahrschein|Eintrittskarte
+Fahrplan	1	Zeiten von Bus und Bahn|Aushang an der Haltestelle
+Ankunft	1	Gegenteil von Abfahrt|Eintreffen
+Verspätung	1	Zu spät kommen|Wartezeit bei der Bahn
+Stau	1	Stockender Verkehr|Blechlawine
+Unfall	1	Zusammenstoß|Unglück im Verkehr
+Raststätte	2	Autohof mit Restaurant|Ort für Pause und Essen
+Parkplatz	1	Stellplatz fürs Auto|Abstellfläche
+Parkhaus	1	Mehrstöckige Garage|Hochgarage
+Führerschein	1	Fahrerlaubnis|Lappen (umgangssprachlich)
+Tacho	1	Zeigt die Geschwindigkeit|Geschwindigkeitsmesser
+Kilometer	1	Tausend Meter|Längenmaß, km
+Blitzer	2	Radarfalle|Misst zu schnelle Autos
+Zebrastreifen	1	Fußgängerüberweg|Weiß gestreifter Übergang
+Gehweg	1	Bürgersteig|Weg für Fußgänger
+Bürgersteig	1	Trottoir|Fußweg neben der Fahrbahn
+Radweg	1	Spur für Radfahrer|Weg für Zweiräder
+Leitplanke	2	Schutz am Straßenrand|Stahlband an der Autobahn
+Verkehr	1	Treiben auf der Straße|Autos, Busse, Bahnen
+Pendler	2	Fährt täglich zur Arbeit|Hin und her Reisender
+Fracht	2	Ladung eines Schiffs|Transportgut
+Ladung	2	Fracht|Elektrische Größe
+Container	1	Großer Frachtbehälter|Stahlkiste für Schiffe
+Palette	2	Holzgestell für Waren|Farbbrett des Malers
+Mutter	1	Gegenstück zur Schraube|Sechskantteil
+Lager	2	Depot|Magazin|Zeltcamp
+Angel	2	Gerät zum Fischen|Drehpunkt der Tür
+Bolzen	2	Metallstift|Stift ohne Gewinde
+Werkzeug	1	Hammer oder Zange|Gerät des Schreiners
+Schraubstock	2	Spannt Werkstücke ein|Klemme an der Werkbank
+Lötkolben	2	Heizstift des Elektrikers|Gerät zum Verbinden mit Zinn
+Maschine	1	Technisches Gerät|Apparat mit Antrieb
+Roboter	1	Automatischer Helfer|Maschinenmensch
+Automat	1	Selbsttätige Maschine|Gerät für Fahrscheine
+Technik	1	Ingenieurwesen|Kunst der Maschinen
+Erfinder	1	Tüftler mit Patent|Schöpfer von Neuem
+Erfindung	1	Neue technische Idee|Patentierbare Neuerung
+Patent	2	Schutzrecht für Erfinder|Geschickt (umgangssprachlich)
+Mechanik	2	Lehre von Kräften|Physikgebiet
+Hydraulik	2	Technik mit Flüssigkeitsdruck|Antrieb mit Öldruck
+Turbine	2	Schaufelradmaschine|Antrieb im Kraftwerk
+Generator	2	Stromerzeuger|Dynamomaschine
+Dynamo	2	Lichtmaschine am Fahrrad|Kleiner Stromerzeuger
+Dampfmaschine	2	Erfindung von James Watt|Antrieb der Industrialisierung
+Uhrwerk	2	Mechanik der Uhr|Federwerk mit Zahnrädern
+Pendel	2	Schwingendes Gewicht|Teil einer Standuhr
+Computer	1	PC|Datenverarbeiter
+Rechner	1	Computer|PC
+Laptop	1	Tragbarer Computer|Klapprechner
+Tablet	1	Flacher Computer|Tragbares Touchgerät
+Bildschirm	1	Monitor|Display
+Monitor	1	Display am PC|Kontrollgerät
+Tastatur	1	Keyboard|Eingabegerät am PC
+Scanner	2	Einlesegerät für Bilder|Abtaster
+Festplatte	2	Datenspeicher im PC|Laufwerk
+Speicher	1	Dachboden|Datenablage|Silo
+Prozessor	2	Rechenwerk des Computers|CPU
+Platine	2	Leiterkarte|Träger für Chips
+Datei	1	Gespeichertes Dokument|Computerdokument
+Programm	1	Software|Ablauf einer Sendung
+Software	1	Programme eines Computers|Gegenteil der Hardware
+Hardware	1	Gerätetechnik des PCs|Gegenteil der Software
+Code	2	Quelltext|Geheimzahl|Verschlüsselung
+Algorithmus	3	Rechenvorschrift|Lösungsverfahren
+Internet	1	Weltweites Datennetz|World Wide Web
+Netzwerk	1	Verbund von Rechnern|Beziehungsgeflecht
+Browser	2	Programm für Webseiten|Surfprogramm
+Server	2	Zentralrechner|Dienstrechner im Netz
+Router	2	Gerät fürs WLAN|Verteilt Daten im Netz
+Passwort	1	Kennwort|Geheimes Zugangswort
+Byte	2	Acht Bit|Dateneinheit
+Cursor	2	Mauszeiger|Blinkender Strich
+Download	1	Herunterladen|Daten aus dem Netz holen
+Update	1	Aktualisierung|Neue Programmversion
+Backup	2	Datensicherung|Sicherheitskopie
+Chat	1	Gespräch im Internet|Plauderei per Text
+Blog	2	Internettagebuch|Onlinejournal
+Webseite	1	Seite im Internet|Homepage
+Link	1	Verweis im Internet|Querverweis
+Klick	1	Druck auf die Maustaste|Leises Knackgeräusch
+Hacker	2	Eindringling ins Netz|Computerspezialist
+Spam	2	Unerwünschte Werbepost|Massenmail
+Spannung	1	Elektrischer Druck in Volt|Nervenkitzel
+Volt	1	Maßeinheit der Spannung|Einheit V
+Ampere	2	Maßeinheit der Stromstärke|Einheit A
+Kilowatt	2	Tausend Watt|Leistungseinheit
+Widerstand	1	Gegenwehr|Bauteil in Ohm
+Leitung	1	Kabel|Führung, Chefetage
+Magnet	1	Zieht Eisen an|Nord- und Südpol
+Kompass	1	Zeigt nach Norden|Magnetnadel
+Transformator	2	Spannungswandler|Umspanner
+Trafo	2	Spannungswandler (kurz)|Umspanner
+Sicherung	1	Schutz vor Überlast|Datenkopie
+Leuchte	1	Lampe|Kluger Kopf
+Diode	3	Halbleiterventil|Bauteil wie die LED
+Transistor	2	Halbleiterbauteil|Kleines Radio, früher
+Kondensator	2	Speichert Ladung|Elektronikbauteil
+Elektron	2	Negatives Teilchen|Teil der Atomhülle
+Elektronik	1	Technik der Schaltungen|Bauteile im Gerät
+Blitzableiter	2	Schutz vor Gewitter|Metallstab auf dem Dach
+Erdung	2	Schutzleiter|Verbindung zum Boden
+Kurzschluss	1	Fehler im Stromkreis|Löst die Sicherung aus
+Solarzelle	2	Wandelt Licht in Strom|Photovoltaikzelle
+Windrad	1	Rotor auf hohem Mast|Dreht sich bei Sturm
+Kraftwerk	1	Erzeugt Strom|Elektrizitätswerk
+Atomkraft	1	Kernenergie|Energie aus Spaltung
+Reaktor	2	Kern eines Atommeilers|Brutstätte der Spaltung
+Energie	1	Kraft, Schwung|Strom, Wärme, Licht
+Antenne	1	Empfangsstab|Fühler (Insekt)
+Sender	1	Rundfunkanstalt|Funkstation
+Empfänger	1	Adressat|Radioteil
+Smartphone	1	Handy mit Bildschirm|Mobiltelefon
+Fernseher	1	TV-Gerät|Glotze
+Kamera	1	Fotoapparat|Gerät zum Filmen
+Lautsprecher	1	Box der Stereoanlage|Gibt Töne wieder
+Verstärker	2	Macht Signale lauter|Gitarrenbox
+Metall	1	Eisen, Kupfer, Gold|Glänzender Werkstoff
+Stahl	1	Gehärtetes Eisen|Werkstoff für Brücken
+Kupfer	1	Rotes Metall|Leitet Strom gut|Chemisch Cu
+Messing	2	Gelbe Legierung|Kupfer mit Zink
+Bronze	1	Kupfer mit Zinn|Dritter Platz
+Blech	1	Dünnes Metall|Unsinn (umgangssprachlich)
+Aluminium	1	Leichtmetall|Chemisch Al
+Nickel	2	Silbriges Metall|Chemisch Ni
+Gusseisen	2	Gegossenes Eisen|Pfannenmaterial
+Legierung	2	Metallmischung|Gemisch wie Messing
+Kunststoff	1	Werkstoff aus Erdöl|Polymer
+Plastik	1	Kunststoff|Bildhauerwerk
+Gummi	1	Elastischer Stoff|Radierer
+Kautschuk	2	Rohstoff für Gummi|Milchsaft des Baumes
+Beton	1	Baustoff aus Zement|Gegossener Kunststein
+Zement	1	Bindemittel für Beton|Grauer Baustoffpuder
+Backstein	2	Ziegelstein|Gebrannter Baustein
+Asphalt	1	Straßenbelag|Teermischung
+Teer	2	Schwarze zähe Masse|Belag aus Kohle
+Keramik	2	Gebrannter Ton|Töpferware
+Porzellan	1	Feine weiße Keramik|Tellermaterial
+Karton	1	Pappschachtel|Dicke Pappe
+Papier	1	Schreibstoff|Blattmaterial
+Sperrholz	2	Verleimte Holzplatte|Furnierplatte
+Spanplatte	2	Gepresste Holzplatte|Möbelwerkstoff
+Furnier	3	Dünne Holzschicht|Edelholzauflage
+Kleber	1	Leim|Pappmittel
+Schrott	1	Altmetall|Kaputtes Zeug
+Erdöl	1	Rohöl|Schwarzes Gold
+Erdgas	1	Fossiler Brennstoff|Methan aus der Tiefe
+Treibstoff	1	Kraftstoff|Benzin oder Diesel
+Schmieröl	2	Öl für Gelenke und Lager|Gleitmittel
+Getriebeöl	3	Öl im Schaltwerk|Schmiermittel im Auto
+Hochofen	2	Ofen für Roheisen|Stahlwerksofen
+Schmiede	1	Werkstatt am Amboss|Esse
+Gießerei	2	Betrieb für Gussteile|Metallguss-Werkstatt
+Walzwerk	3	Formt Stahl zu Blech|Hüttenbetrieb
+Fließband	1	Montagelinie|Laufband in der Fabrik
+Montage	2	Zusammenbau|Filmschnitt
+Schornstein	1	Kamin|Esse, Schlot
+Zapfsäule	2	Tanksäule|Gerät an der Tankstelle
+Lastwagen	1	Lkw|Brummi
+Laster	1	Lkw|Untugend
+Transporter	1	Kleinlaster|Lieferfahrzeug
+Lieferwagen	1	Kleintransporter|Zustellfahrzeug
+Wohnwagen	1	Caravan|Anhänger für Camper
+Wohnmobil	1	Reisemobil|Camper mit Motor
+Cabrio	1	Auto mit Klappdach|Offener Wagen
+Kombi	1	Auto mit großem Heck|Familienwagen
+Limousine	2	Viertüriges Auto|Luxuswagen
+Rennwagen	1	Formel-1-Auto|Bolide
+Sportwagen	1	Schnelles Auto|Flitzer
+Krankenwagen	1	Rettungswagen|Ambulanz
+Feuerwehr	1	Rückt mit Blaulicht aus|Brandschutztruppe
+Polizeiauto	1	Streifenwagen|Fahrzeug mit Blaulicht
+Müllauto	1	Fahrzeug für den Abfall|Abfallsammler auf Rädern
+Seilbahn	1	Bergbahn am Kabel|Schwebt zum Gipfel
+Gondel	1	Venezianisches Boot|Kabine der Seilbahn
+Aufzug	1	Lift|Fahrstuhl
+Rolltreppe	1	Fahrtreppe|Laufende Stufen
+Fahrstuhl	1	Lift|Kabine im Schacht
+Sessellift	2	Lift für Skifahrer|Schwebesitz am Seil
+Rikscha	2	Zweirädriger Zugwagen|Fahrradtaxi in Asien
+Einrad	1	Zirkusfahrrad|Rad ohne Lenker
+Tretroller	1	Kinderroller|Roller ohne Motor
+Quad	2	Vierrädriges Motorrad|Geländefahrzeug
+Schlauchboot	1	Aufblasbares Boot|Gummiboot
+Katamaran	2	Doppelrumpfboot|Boot mit zwei Rümpfen
+Galeere	2	Ruderkriegsschiff|Sklavenschiff der Antike
+Fregatte	2	Kriegsschiff|Geleitschiff
+Kreuzer	2	Kriegsschiff|Alte Münze
+Zerstörer	2	Schnelles Kriegsschiff|Torpedoschiff
+Raumschiff	1	Fahrzeug im All|Sternenkreuzer
+Satellit	1	Künstlicher Erdtrabant|Kreist um die Erde
+Raumstation	1	Labor im All|Bemannter Außenposten
+Rangierlok	3	Lok im Güterbahnhof|Verschiebelokomotive
+Triebwagen	2	Wagen mit eigenem Motor|Schienenbus
+Straßenbahn	1	Tram|Schienenbahn in der Stadt
+Schwebebahn	2	Hängebahn in Wuppertal|Bahn unter der Schiene
+Zahnradbahn	2	Bergbahn für Steilstrecken|Bahn auf den Gipfel
+Magnetbahn	3	Schwebezug|Bahn ohne Räder
+Draisine	3	Laufrad|Schienenfahrzeug mit Hebel
+Lore	3	Grubenwagen|Kippwagen auf Schienen
+Tender	3	Kohlenwagen der Dampflok|Versorgungsschiff
+Kesselwagen	3	Tankwaggon|Güterwagen für Flüssiges
+Signal	1	Zeichen|Ampel der Bahn
+Schranke	1	Schlagbaum|Sperre am Bahnübergang
+Bahnübergang	1	Kreuzung mit Gleisen|Straße über die Schienen
+Stellwerk	2	Steuert Weichen und Signale|Bahnzentrale
+Prellbock	2	Gleisende|Puffer am Gleisende
+Oberleitung	2	Fahrdraht über dem Gleis|Stromkabel der Bahn
+Stromabnehmer	2	Bügel auf der E-Lok|Pantograf
+rangieren	2	Züge zusammenstellen|Hin- und herschieben
+Puffer	2	Stoßdämpfer am Waggon|Zwischenspeicher
+Abteil	1	Raum im Zug|Kompartiment
+Speisewagen	1	Restaurant im Zug|Bordrestaurant
+Schlafwagen	1	Waggon mit Betten|Nachtzugwagen
+Liegewagen	2	Nachtzug-Waggon mit Pritschen|Couchette
+Gepäck	1	Koffer und Taschen|Reisegut
+Koffer	1	Reisebehälter|Gepäckstück
+Fahrt	1	Reise|Tour
+Ausfahrt	1	Abfahrt von der Autobahn|Tor zur Straße
+Einfahrt	1	Zufahrt|Tor für Autos
+Auffahrt	2	Rampe zur Autobahn|Zufahrt zum Haus
+Umleitung	1	Ausweichstrecke|Umweg wegen Baustelle
+Baustelle	1	Ort des Bauens|Bauplatz
+Vorfahrt	1	Vorrang im Verkehr|Rechts vor links
+überholen	1	Vorbeifahren|Instandsetzen
+bremsen	1	Tempo verringern|Langsamer werden
+lenken	1	Steuern|Leiten, führen
+parken	1	Wagen abstellen|Auto hinstellen
+tanken	1	Benzin nachfüllen|Kraft schöpfen
+hupen	1	Auto-Signal geben|Tröten
+blinken	1	Fahrtrichtung anzeigen|Aufleuchten
+fahren	1	Sich bewegen mit dem Auto|Lenken, steuern
+fliegen	1	Durch die Luft reisen|Gekündigt werden
+paddeln	1	Kanu fahren|Mit Stechruder fahren
+landen	1	Aufsetzen|Ankommen
+starten	1	Abheben|Beginnen
+schweißen	2	Metall verbinden|Mit Flamme fügen
+löten	2	Mit Zinn verbinden|Elektronik verbinden
+schmieden	2	Eisen formen|Pläne aushecken
+gießen	1	Blumen wässern|In Formen füllen
+nieten	2	Mit Bolzen verbinden|Blech dauerhaft fügen
+schrauben	1	Drehen, festziehen|Mit Gewinde befestigen
+hämmern	1	Klopfen|Mit dem Hammer schlagen
+feilen	2	Glätten, raspeln|Verbessern, verfeinern
+tippen	1	Schreiben auf Tasten|Vorhersagen
+klicken	1	Maustaste drücken|Leise knacken
+speichern	1	Sichern|Vorrat anlegen
+löschen	1	Feuer ausmachen|Daten entfernen
+drucken	1	Auf Papier bringen|Bücher herstellen
+programmieren	2	Software schreiben|Codieren
+morsen	2	Funken mit Punkt und Strich|Telegrafieren
+Bastler	1	Heimwerker|Tüftler
+Tüftler	2	Erfinder im Kleinen|Knobler
+Bauplan	1	Konstruktionsplan|Zeichnung für den Bau
+Modell	1	Nachbildung|Mannequin
+Prototyp	2	Erstes Muster|Urtyp
+Baukasten	1	Spielzeugkiste mit Teilen|Bausatz
+Ersatzteil	1	Austauschteil|Reserveteil
+Wartung	2	Instandhaltung|Pflege der Maschine
+Inspektion	2	Prüfung, Kontrolle|Durchsicht in der Werkstatt
+Plakette	2	Prüfsiegel am Kennzeichen|Abzeichen
+Kennzeichen	1	Merkmal|Amtliches Autoschild
+Nummernschild	1	Autokennzeichen|Schild am Auto
+Fahrgestell	2	Chassis|Unterbau des Wagens
+Karosserie	2	Aufbau des Autos|Blechkleid des Wagens
+Chassis	3	Rahmen des Autos|Unterbau
+Airbag	1	Luftsack im Auto|Prallkissen
+Gurt	1	Sicherheitsriemen|Breiter Riemen
+Kindersitz	1	Sitz für Kleine im Auto|Babyschale
+Rückspiegel	1	Blick nach hinten im Auto|Innenspiegel
+Wischer	1	Scheibenreiniger|Gummi an der Frontscheibe
+Kurbel	2	Handgriff zum Drehen|Winkelhebel
+Handbremse	1	Feststellbremse|Bremse mit Hebel
+Schaltknüppel	2	Gangwahlhebel|Stange zum Gangwechsel
+Leerlauf	2	Kein Gang eingelegt|Nutzlose Arbeit
+Drehzahl	2	Touren je Minute|Wert am Motor
+Hubraum	2	Volumen der Zylinder|Motorgröße in Kubik
+Turbo	2	Aufgeladener Motor (kurz)|Lader im Motor
+Kompressor	2	Verdichter|Luftpresse
+Katalysator	2	Reinigt die Abgase|Kat
+Abgas	1	Verbrennungsrückstand|Auspuffgase
+Elektroauto	1	E-Auto|Wagen mit Akku
+Ladesäule	2	Stromtankstelle|Steckdose für E-Autos
+Navi	1	Zielführer im Auto|Satellitenlotse
+Navigation	2	Kursbestimmung|Wegführung
+Landkarte	1	Karte|Atlasblatt
+Wegweiser	1	Richtungsschild|Hinweistafel
+Schild	1	Tafel|Schutz des Ritters
+Verkehrsschild	1	Stoppschild oder Vorfahrt|Schild an der Straße
+Leitpfosten	3	Pfosten am Straßenrand|Begrenzungspfahl
+Poller	2	Sperrpfosten|Pfahl zum Festmachen
+Bordstein	1	Rand des Gehwegs|Kantstein
+Rinnstein	2	Gosse|Ablauf am Straßenrand
+Gully	1	Abfluss in der Straße|Kanalloch
+Kanaldeckel	1	Gullydeckel|Schachtabdeckung
+Schotter	2	Gleisbett-Steine|Grober Kies
+Trasse	2	Streckenverlauf|Linienführung
+Viadukt	2	Talbrücke|Brücke mit Bögen
+Rastplatz	1	Parkplatz an der Autobahn|Pausenort
+Bundesstraße	1	Fernstraße|B-Straße
+Landstraße	1	Straße zwischen Dörfern|Chaussee
+Feldweg	1	Weg durch Äcker|Schotterpfad
+Sackgasse	1	Straße ohne Ausgang|Ausweglose Lage
+Einbahnstraße	1	Nur in eine Richtung|Straße ohne Gegenverkehr
+Fußgänger	1	Passant|Geht auf dem Gehweg
+Radfahrer	1	Pedaltreter|Biker
+Autofahrer	1	Lenkt den Pkw|Mann oder Frau am Steuer
+Beifahrer	1	Sitzt neben dem Fahrer|Copilot
+Fahrgast	1	Passagier|Reisender im Taxi
+Passagier	1	Fluggast|Reisender an Bord
+Seemann	1	Matrose|Fahrensmann
+Schiffer	2	Kapitän eines Kahns|Flussfahrer
+Bootsmann	3	Unteroffizier zur See|Deckmeister
+Flieger	1	Pilot|Flugzeug (umgangssprachlich)
+Kosmonaut	2	Sowjetischer Raumfahrer|Weltraumreisender
+Stewardess	1	Flugbegleiterin|Hostess an Bord
+Busfahrer	1	Lenkt den Linienbus|Chauffeur im Bus
+Fuhrmann	3	Kutscher|Lenkt das Gespann
+Spediteur	2	Transportunternehmer|Frachtführer
+Spedition	2	Transportfirma|Umzugsfirma
+Logistik	2	Warenfluss-Planung|Versorgungswesen
+Sonar	3	Unterwasser-Ortung|Schallortung
+Echolot	2	Misst die Wassertiefe|Schall-Lot
+Funkgerät	1	Walkie-Talkie|Sprechgerät ohne Kabel
+Telegraf	2	Fernschreiber|Morsegerät
+Rechenmaschine	2	Mechanisches Addiergerät|Addiermaschine
+Abakus	2	Rechenbrett|Rechengerät mit Kugeln
+Rechenschieber	3	Logarithmisches Gerät|Ingenieurstab früher
+Lochkarte	3	Alter Datenträger|Gestanzter Steuerkarton
+Diskette	2	Alte Speicherscheibe|Floppy
+Kassette	1	Tonband in Plastikgehäuse|Schatulle
+Tonband	2	Magnetband|Aufnahmeband
+Plattenspieler	1	Abspielgerät für Vinyl|Grammofon-Nachfolger
+Grammophon	3	Alter Plattenspieler|Sprechmaschine
+Projektor	2	Bildwerfer|Dia-Werfer
+Beamer	1	Projektor|Bildwerfer
+Leinwand	1	Projektionsfläche|Malgrund
+Ladegerät	1	Lädt den Akku|Netzgerät fürs Handy
+Netzteil	2	Stromversorgung|Spannungswandler am Kabel
+Adapter	1	Zwischenstecker|Anschlussstück
+Glühfaden	2	Draht in der Birne|Wolframdraht
+Halogen	3	Elementgruppe mit Chlor|Hellere Glühlampenart
+Neon	2	Leuchtröhrengas|Edelgas
+Strommast	1	Masten für Leitungen|Hochspannungsmast
+Umspannwerk	2	Spannungswandelstation|Transformatorenstation
+Hochspannung	1	Lebensgefahr! (Schild)|Starke elektrische Spannung
+Elektrizität	1	Strom|Energieform aus der Dose
+Pluspol	2	Positiver Anschluss|Rote Klemme am Akku
+Minuspol	2	Negativer Anschluss|Gegenpol zum Plus
+Kathode	3	Gegenstück zur Anode|Elektronenquelle der Röhre
+Elektrode	2	Stromleiter in Flüssigkeit|Anode oder Kathode
+Stromkreis	1	Geschlossener Leiterkreis|Schaltung
+Schaltkreis	2	Elektronische Einheit|Chip mit Leiterbahnen
+Gleichstrom	2	Strom aus der Batterie|Fließt in eine Richtung
+Wechselstrom	2	Strom aus der Steckdose|Ändert ständig die Richtung
+Frequenz	2	Schwingungen pro Sekunde|Wert in Hertz
+Schwingung	2	Hin- und Herbewegung|Oszillation
+Impuls	2	Anstoß|Kurzer Stromstoß
+Sensor	2	Fühler|Messfühler
+Thermostat	2	Temperaturregler|Heizungsregler
+Regler	2	Steuerknopf|Steuergerät
+Ventilator	1	Lüfter|Windmaschine
+Gebläse	2	Lüfter|Windgerät
+Klimaanlage	1	Kühlt die Luft|Lüftung mit Kühlung
+Wecker	1	Klingelt am Morgen|Uhr mit Alarm
+Barometer	2	Luftdruckmesser|Wetterglas
+Mikroskop	1	Vergrößerungsgerät|Gerät im Labor
+Fernrohr	1	Teleskop|Gerät zum Weitsehen
+Teleskop	2	Sternenfernrohr|Gerät der Sternwarte
+Prisma	2	Lichtbrechender Körper|Glaskörper
+Fotoapparat	1	Kamera|Knipse
+Objektiv	2	Linse der Kamera|Sachlich
+Stativ	2	Dreibein|Kameraständer
+Film	1	Kinostück|Dünne Schicht
+Silizium	2	Halbleiterelement|Chemisch Si
+Halbleiter	2	Silizium|Werkstoff für Chips
+Glasfaser	2	Lichtleiter|Datenleitung
+Kohlefaser	3	Carbon|Leichter Werkstoff
+Silikon	2	Fugenmasse|Elastischer Kunststoff
+Zelluloid	3	Alter Filmstoff|Früher Kunststoff
+Linoleum	2	Fußbodenbelag|Belag aus Leinöl
+Asbest	2	Krebserregende Faser|Früherer Dämmstoff
+Träger	2	Balken, Stütze|Lastenschlepper
+Stahlträger	2	Eisenbalken|Doppel-T-Profil
+Pfahl	1	Pfosten|Spitzer Stab
+Schlauch	1	Biegsames Rohr|Luftröhre im Reifen
+Muffe	3	Rohrverbindung|Angst (umgangssprachlich)
+Flansch	3	Rohrverbindung mit Ring|Bundring am Rohr
+Dichtung	2	Gummiring|Poesie, Lyrik
+Winde	2	Seilaufzug|Kletterpflanze
+Seilwinde	2	Trommel zum Ziehen|Winde mit Kabel
+Trosse	3	Dickes Schiffstau|Starkes Seil
+Hebebühne	2	Lift in der Werkstatt|Arbeitsbühne
+Wagenheber	1	Hebt das Auto beim Radwechsel|Heber
+Gabelstapler	1	Hubwagen im Lager|Stapelfahrzeug
+Planierraupe	2	Bulldozer|Raupenfahrzeug
+Dampfwalze	2	Walzenfahrzeug|Rücksichtsloser Mensch
+Betonmischer	1	Mischtrommel|Mischfahrzeug
+Kipper	1	Lkw mit Mulde|Muldenwagen
+Mähdrescher	1	Erntemaschine|Getreideernter
+Sämaschine	2	Säwagen|Drillmaschine

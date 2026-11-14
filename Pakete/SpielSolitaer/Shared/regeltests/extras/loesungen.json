@@ -1,0 +1,1598 @@
+{
+ "beschreibung": "Kompakte Lösung (Zugschrift siehe SPEZIFIKATION-EXTRAS) von der Startaufstellung nachspielen → ende.",
+ "faelle": [
+  {
+   "liste": "ziehen1",
+   "seed": 2,
+   "zuege": "s s s s s s s s s s s s s s s s s AZ2 s s s AZ3 S4Z3 s s s s s s s s s s s s s s s s s s s s AZ2 s s s s s s s AZ2 S2S4 S2Z0 s s s s AZ0 s AS2 s s s s s AS3 s s s AS1 S6S1 S6S4 S6Z1 s s AS1 s s AS0 S1S0x4 S1Z3 s s s s s s s s s s s s s s AZ3 S6Z3 S4Z3 s AS1 S5S1 S5Z2 s s AS1 s AS0 AS0 S5S0 AS1 S6S1 S3S6x2 s AS5 S4S5x2 S5S4x4 S5Z0 S5Z1 S2Z1 S0Z1 S2Z0 AZ1 S0Z0 S0Z1 S4Z1 s s s AZ1 S3S0 S3Z0 S3Z2 S0Z2 S0Z0 S4Z0 S4Z1 S0S1 S0Z0 S0Z1 S4Z0 S0Z0 S6S4 S6Z1 S6Z0 S1S0x4 S1Z1 S1Z0 s AZ1 AS4 s AS4 s AS1 s AS6 S4S6x4 S4Z3 S4Z2 S0Z2 S6Z3 S0Z3 S6Z2 S0Z2 S6Z3 S0Z3 S6Z2 S0Z2 S6Z3 S1Z3 S6Z2",
+   "ende": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 450,
+    "zuege": 172,
+    "durchgaenge": 4
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "ziehen1",
+   "seed": 4,
+   "zuege": "S6S0 s AS2 S5S2 s s s AS0 s s s s s s s s AS2 s s s AS0 s s s s s s s AS3 s s s s s s s s AS0 S1S0 s s s AS3 S2S3x4 s s s s s s s AS1 s s s s s s s AS1 s s s s s s s s s s s s AS1 S5S1 S5S2 S5Z1 S0Z1 s s s s s s s s s s s s s AZ1 s s s s s s AS5 S6S5 S6Z1 S6S3 S5S3x3 s s s s s s s s AS5 s s s AS5 S0S5x5 s AS0 S2S0x2 S2S5 s s AS2 S4S2 S5S0x9 s s s s AS5 S3S5x11 S3Z2 S0Z2 S3S6 S3Z0 S5Z0 S0Z0 S6Z0 S6Z1 s AZ0 S4S5 S4Z3 S5Z3 S5Z2 S0Z2 S4Z1 s AZ1 s s s s s AZ3 S5Z3 S0Z3 S5Z2 S0Z2 S5Z0 S0Z0 S6Z3 S1Z3 S1Z1 S5Z2 S0Z2 S5Z3 S1Z3 S5Z2 s AZ1 S1Z1 S6Z1 AZ1 s AZ3 s AZ0 S0Z0 S0Z2 S0Z3 S5Z0 S1Z0 S5Z2 S0Z2 S2Z3 S0Z3 S5Z0 S2Z1 S4Z0 S5Z2",
+   "ende": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 435,
+    "zuege": 191,
+    "durchgaenge": 6
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "ziehen1",
+   "seed": 5,
+   "zuege": "s s s AZ1 s s s s s s s s AZ3 S5Z3 s s s AZ2 s s s s s AZ2 s AZ2 s s s s s s s s s s s s s s AZ2 s AZ2 S6S1 S6S2 S3S1 S2S6x2 S3S2 S3S0 S5S3 S5Z3 S5Z0 s s AS3 s AS6 s s s s s AS4 s s s AS4 S6S4x4 S6S0 S2S6x2 S2Z3 s s s s s s s s s s s s AZ3 S0Z3 S1Z3 S4S2x7 S4S5 S4Z1 S4Z2 S0Z2 S0Z3 S1Z2 S1Z3 s s s s s s s s AZ1 s s s s AZ1 S3S5x2 S3Z2 S5S6x3 S5Z3 s s s s AZ3 s s AS1 s AS0 S6S0x6 S6Z0 AZ0 S6Z1 S5Z1 S0Z1 s s s AZ0 AZ0 S4Z0 S2Z0 S0Z0 S2Z1 S0Z1 S2Z0 S0Z0 S2Z2 S0Z2 S0Z3 S1Z2 S0Z2 S1Z3 S2Z0 s AZ0 s s AZ1 s s AZ1 S2Z1 S2Z0 s AZ1",
+   "ende": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 200,
+    "zuege": 159,
+    "durchgaenge": 5
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "ziehen3",
+   "seed": 2,
+   "zuege": "s s s AS3 s AS1 s s s s s s s s s s AZ2 s AZ3 S4Z3 S6S1 S6S2 S6Z1 S2S4x2 S2Z0 s s s s AZ0 s s s s s s s s s s s AZ2 s s s AZ2 AS3 S4S3x3 s s AS2 s s s s AS0 S1S0x3 S1Z3 s s s s s AZ3 S6Z3 S3Z3 s AS5 AS1 S5S1x2 S5Z2 AS0 AS1 S6S1 S3S6x5 S3S0 S3S6 S3Z2 S0Z2 AS6 s AS0 AS0 S5S0 S5S4 S5Z0 S5Z1 S2Z1 S0Z1 S2Z0 S0Z0 S6Z1 S0Z1 S6Z0 S0Z0 S6Z1 S6Z0 S0S1 S0Z0 S4Z0 s s AS2 AZ1 S6Z1 S0Z1 S6S2x3 S1S0x3 S1Z0 S2S4 S2Z1 S1Z1 S2Z0 S1Z0 S2Z1 AS4 s AS6 S4S6x3 S4Z3 S4Z2 S0Z2 S6Z2 AS1 AZ3 S0Z3 S0Z2 S6Z3 S0Z3 S6Z2 S0Z2 S6Z3 S1Z3 S6Z2",
+   "ende": {
+    "ziehen": 3,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 595,
+    "zuege": 134,
+    "durchgaenge": 6
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "ziehen3",
+   "seed": 3,
+   "zuege": "S0Z1 S1Z2 s s s s AZ3 AS2 S4S2 s s s s s s s s s s s AS6 S2S6x3 S2S4 S5S2 S5Z2 S5Z0 S4Z2 s s s s AZ2 s s s s s s s s AZ1 S1Z1 s s s s s s s s s AZ3 s s s s AZ3 S4Z3 s s s s s AZ1 s s s s s s s s AZ1 S3S4 S3S2 S4S5x2 S5S0x3 S3S5 S4S1 S5S1x2 S5Z0 s s s s s AZ0 S6Z0 S2Z0 S6Z2 S2Z2 s s AZ2 s s s s AS1 AS0 s s s s s s s AZ1 AS0 S6S0x3 S6S4 s AS1 s s AS4 AS3 AS3 s s AS3 S6S3 S6Z2 S6S5 S6Z0 S4Z0 S6Z3 S0Z3 S0Z1 S2Z3 S0Z3 S3Z0 S0Z2 S4Z1 S1Z0 S3Z1 S3Z0 S4Z3 S0Z3 S1Z2 S3Z2 S1Z0 S1Z2 AZ3 AZ1 S0Z1 S0Z0 S3Z3 S0Z2 S1Z3 AZ0 AZ1 S5Z1",
+   "ende": {
+    "ziehen": 3,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 475,
+    "zuege": 153,
+    "durchgaenge": 10
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "ziehen3",
+   "seed": 5,
+   "zuege": "s AZ1 S6S1 S6S2 S3S1 S2S6x2 S3S2 S3S0 s s s s s s s s s s s s s AS6 s s s s s s s s s s s AS4 S0S3x2 S4S0x2 S4S2 S4Z1 S4S1 AS1 s s s s s AS1 s s s s s s s s AZ3 S5Z3 s AZ2 S5S2 S5Z3 S5Z0 s s s s s AS1 AS0 s s s s s s s s s s AZ2 s s s s s s AZ2 S6S0x4 S6S3 S2S6x4 S2Z3 s s s AS2 S6S2x5 S6Z0 S1Z0 S1Z2 S1Z3 S3Z3 s s s s s s s AZ2 S1Z2 S1Z3 S3Z2 S1Z2 S3Z3 S1Z3 S3Z2 S5Z3 s s s s s AZ0 AZ0 AZ1 S4Z0 S0Z0 S2Z0 s AZ1 S6Z1 S5Z1 s s s s AS3 AS3 AZ1 S0Z1 S0Z0 S0Z2 S2Z1 S2Z0 S2Z2 S0Z3 S2Z3 S1Z3 s AZ1 AZ1 S0Z1 AZ2 AZ0 S3Z0 S0Z0 S2Z2 S3Z1",
+   "ende": {
+    "ziehen": 3,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 450,
+    "zuege": 157,
+    "durchgaenge": 11
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "spider1",
+   "seed": 1,
+   "zuege": "S0S9 S9S3x2 S3S6x3 S6S0x4 S0S2x5 S2S0x6 S6S0 S5S4 S7S9 S9S5x2 S0S9x8 S9S4x9 S5S1x3 S9S1 S1S9x5 S2S9 S4S2x11 S2S1x12 S1Z S8S9 S7S9 S4S6 S4S6 s S0S8 S4S0 S7S3 S9S1 S9S0x9 S0S9x11 S1S0x2 S1S3 S8S3x2 s S1S6x2 S0S4 S5S0 S1S5 S7S0 S1S6 S5S4x2 S0S1x5 S1S0x5 S0S6x6 S5S0 S5S1 s S0S1 S0S5 S7S5 S7S5 S4S3 S6S4 S7S0 S7S4 S1S4x2 S2S7 S2S0 s S3S5 S6S7 S7S9x2 S9S0x3 s S0S9 S0S1x4 S0S3x2 S4S3 S9S2x2 S7S9 S2S7x3 S7S9x4 S1S0x5 S2S7 S2S3 S2S7 S9S2x6 S4S9 S0S4x5 S4Z S4S6 S7S4x2 S2S0x7 S1S7 S2S1 S6S2x2 S6S4x10 S4Z S1S6x2 S3S1x5 S6S4x3 S7S6 S6S7x4 S6S4 S6S0 S1S0x5 S0Z S5S4 S3S0x2 S3S1 S3S0x5 S1S3 S3S1x2 S3S7 S2S7x2 S3S2 S3S1 S7S3x7 S3S4x8 S4Z S5S1x2 S5S3x4 S8S4 S8S0 S9S0x2 S9S8x11 S8S2x12 S2Z S3S8x4 S8S2x5 S8S4 S8S1 S8S0 S4S0x2 S0Z S5S1 S8S1 S2S1x5 S1Z",
+   "ende": {
+    "farben": 1,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "punkte": 1179,
+    "zuege": 121,
+    "ausgeteilt": 5
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "spider1",
+   "seed": 2,
+   "zuege": "S0S5 S5S3x2 S3S9x3 S9S2x4 S2S6x5 S0S9 S9S4x2 S4S2x3 S6S4x6 S4S7x7 S7S9x8 S9S3x9 S8S7 s S0S2 S2S4x2 S2S6x4 S2S8 S6S2x6 S3S8 S7S8 S2S7x7 S8S1x4 S8S2 S4S2x3 S4S1 S6S1 S5S6 S5S4 s S1S8 S3S8 S3S5x10 S3S6 S3S9 S3S4 S8S6x3 S4S9x2 S5S4x11 S4Z s S2S6 S8S6 S6S8x3 S2S1 S7S2 S5S2 S5S8 S5S2 S1S2x2 S6S5x5 S6S4x2 S7S4 S0S4 S5S0x6 S2S5x10 S2S0 S4S0x5 S0Z S0S4 S0S8 S9S8 S0S9 S7S0x9 S0S3x10 S7S0 S7S2 S7S5 S4S5x2 S5Z S8S4x7 S8S1 S9S1x5 S1Z S1S0 S3S0x11 S0Z S1S3 S1S6 S2S3 S1S0 S1S2 S9S5 S9S7 s S6S0x3 S0S2x4 S2S4x5 S8S4 S1S8 S1S4 S3S9 S4S3x8 S7S4 S5S1 S9S6x2 s S1S2x2 S4S2 S2S4x4 S3S4 S4Z S3S8x11 S0S2 S8S0x12 S0Z S2S6x2 S6S8x3 S9S8 S9S8 S5S6 S6S5x3 S7S5 S8S7x7 S7S5x8 S5Z",
+   "ende": {
+    "farben": 1,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "punkte": 1192,
+    "zuege": 108,
+    "ausgeteilt": 5
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "spider1",
+   "seed": 3,
+   "zuege": "S0S7 S5S7 S7S6x3 S6S5x4 S5S1x5 S2S0 S8S3 S9S2 S6S5 S6S4 s S8S6 S0S2 S2S0x2 S2S5x2 S9S0 S9S7 S1S2 s S0S4 S9S0 S5S0 S3S5 S4S2x2 S2S1x3 S2S0x2 S1S3x4 S6S7 S6S5x3 S6S0 S7S9x2 S7S9x2 S7S2 S0S6x10 S0S4 S8S0 S7S8 S1S7x6 s S0S5 S0S7x2 S0S5 S0S7 S2S7 S2S7x2 S4S7 S5S7x3 S7S8x11 S8S1x12 S1Z S9S8 S6S3 S1S0 S1S6 S1S3 S4S6x2 S6Z S7S4x7 S1S6 s S1S6 S8S6 S2S6 S2S5 S2S6 S3S8 S7S3 S1S0 S8S1x4 S8S2 S3S8x4 S8S3x5 S8S0 S0S8x3 S6S0x5 S6S3 S5S3x2 S3Z S3S1x2 S3S1 S9S1 S2S3 S3S2x2 S3S6 S3S1 S3S2 S9S3x5 S9S3 S5S3x7 S3Z S5S0x2 S5S1 S0S5x8 S5S2x9 S4S2 S2Z S4S0x9 S4S2 S4S3 S4S5 s S3S4x2 S4S6x3 S0S2 S0S2x9 S4S8 S5S8 S9S7 S8S9x3 S9S5x4 S5S8x5 S1S0 S7S1x2 S7S1 S1Z S2S1x11 S2S8 S6S8x4 S8Z S1S6x11 S6S0x12 S0Z",
+   "ende": {
+    "farben": 1,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "punkte": 1186,
+    "zuege": 114,
+    "ausgeteilt": 5
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "spider2",
+   "seed": 1,
+   "zuege": "S2S1 S0S2 S0S1 S3S6 S9S6 S6S9x3 S8S9 S6S9 S9S6x6 S6S0x7 S1S9x3 S5S4 S7S9 S7S2 s S0S8 S7S3 S4S5 S9S1 s S0S4 S7S5 S5S2x2 s S9S3 S9S0 S0S1x2 S0S6x8 S0S4 S2S4 S5S0 s S3S5 S9S1 S0S9 S0S8x2 S8S0x2 S9S8x2 S6S7 s S0S9 S0S9x3 S9S5x5 S1S9 S1S9x2 S4S9 S4S1 S5S4x6 S5S0x2 S5S7 S0S5x2 S2S7 S5S0x2 S5S2 S1S5x3 S0S2x2 S1S0 S1S2 S1S5 S1S3 S4S1x9 S0S2 S8S5 S8S2x3 S4S0x2 S7S4 S9S7x8 S7S0x10 S7S0 S0Z S8S0 S9S8 S4S0x3 S8S4x2 S2S8x3 S4S2x3 S8S0x5 S8S6 S8S9 S8S1 S4S8 S4S5 S5S1x2 S1Z S5S9x5 S5S0 S5S4 S0S4x9 S6S4x2 S4Z S7S9 S9S1x7 S2S4x4 S5S2 S2S5x2 S5S9x2 S2S5x2 S6S2x10 S0S6 S2S0x11 S0S6x11 S7S0 S7S0 S7S8 S4S7x4 S7S5x5 S1S4x8 S9S1x2 S1S7x3 S9S1 S6S9x11 S9S2x11 S8S9x2 S3S8x2 S2S3x11 S3Z S8S7x3 S3S8 S4S3x8 S3S8x10 S2S3 S3S4x2 S3S9 S2S9x2 S2S5 S0S5x2 S6S3 S8S6x11 S2S6 S1S0x2 S7S1x3 S3S8x2 S3S4 S5S4x10 S4Z S1S3x4 S3S0x5 S2S1 S2S0x2 S6S0 S1S6 S6Z S7S6x3 S2S1 S6S2x4 S2S1x5 S1S2x6 S6S2 S9S2x5 S2Z S0S2x10 S2S8x11 S8Z",
+   "ende": {
+    "farben": 2,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [
+     "S",
+     "S",
+     "H",
+     "H",
+     "S",
+     "H",
+     "H",
+     "S"
+    ],
+    "punkte": 1155,
+    "zuege": 145,
+    "ausgeteilt": 5
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "spider2",
+   "seed": 2,
+   "zuege": "S0S5 S5S4x2 S4S9x3 S6S4 S4S8x2 S2S6 S2S6 S3S6 S2S1 S3S1 S6S2x4 S6S4 S2S4x4 S2S7 S5S2 S8S5x3 S5S1x4 S5S7 s S0S2 S3S4 S7S4 S8S1 S8S9 S4S1x3 S4S1x6 S9S4 S6S7 S6S7 S5S7 S1S5x9 S5S8x10 S0S5 s S7S2x2 S2S9x3 S1S2 S2S6x3 S6S1x4 S2S0 S5S0 S5S9 S3S1 S3S0 S3S6 S3S4 S9S4 S8S0 S2S5 S7S2x2 S9S7x4 S7S1x5 S2S7x3 S8S2x11 s S2S6 S8S3 S8S5 S8S7 S1S5 S0S1 S0S3 S7S3x2 S0S8x4 s S5S0x2 S6S0 S8S0 S5S4x2 S3S9 S0S3x5 S0S3 S9S5x2 S1S9 S9S0x2 S6S9x2 S7S2 s S3S4 S9S0 S4S1x2 S4S7x3 S6S7 S6S7 S0S7x2 S6S0 S0S6x4 S0S7 S0S9 S2S0x3 S1S2x2 S2Z S3S2 S3S8x10 S2S8 S9S2x4 S9S6x4 S9S1 S9S2 S9S2 S0S2x3 S7S1 S9S7 S1S0x2 S1S9 S0S9x2 S7S0x3 S7S5x6 S0S7x3 S1S0x7 S7S1x7 S1Z S0S7x7 S4S1 S7S0x8 S0S7x8 S1S0x5 S7S1x9 S1S3x10 S1S7x2 S1S7 S1S0 S0S7x6 S7S0x10 S6S7x8 S7S6x9 S7S5 S9S5x2 S9S0 S4S0x2 S0Z S1S0 S1S2 S4S2 S3S4x11 S5S3x9 S6S5x9 S5Z S4S5x11 S4S6x2 S4S2 S8S2 S2Z S8S6x10 S1S6 S6Z S5S8x11 S8S0x12 S0Z S3S8x9 S8Z",
+   "ende": {
+    "farben": 2,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [
+     "H",
+     "S",
+     "S",
+     "S",
+     "H",
+     "S",
+     "H",
+     "H"
+    ],
+    "punkte": 1157,
+    "zuege": 143,
+    "ausgeteilt": 5
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "spider2",
+   "seed": 4,
+   "zuege": "S7S6 S8S4 S4S8x2 S0S2 S0S9 S5S6 S1S5 S5S3x2 S5S8 S0S8 S8S0x5 S8S7 S1S8 S1S0 S8S0x2 S5S4 S6S7 s S1S3x2 S1S5 S2S3 S8S5 S0S5 S9S0 S6S9 S8S1 S3S1x4 S3S1x3 S3S4 S7S4 S3S7 S5S3x4 S3S8x5 S3S2 S1S2x3 S5S1 S6S5x2 S8S6x5 S6S8x6 S6S5 S0S5x9 S3S0 S6S3 S6S0 S1S6x5 S1S0 S1S7 S6S0x5 S0S1x5 S1S8x5 S0S1x2 S0S6 S1S6x2 S0S1 s S4S5 S4S0x3 S3S4 S3S5 S9S5 S8S5 S9S4x2 S0S4x4 S2S0 S7S1 S0S3x2 S0S8 S9S0 S3S9x2 S1S3 s S0S2x2 S2S9x3 S2S9x5 S2S4 S3S1x2 S4S6x2 S4S5x4 S4S2x4 S6S8x3 S2S6x5 S2S8 S6S1x6 S2S0 S0S2 S2S0x2 S4S3 S4S0 S5S4x5 s S5S6 S3S4 S3S0 S1S0 S5S9x5 S8S5 S5Z S6S8x2 S0S3 S0S5x2 S3S5 S1S3x9 S7S1 S7S1 S5S7 S5S1x2 S1S5x3 S5S4x3 S1S5 s S0S5 S3S5 S0S8x3 S2S6 S2S4 S2S5 S1S0 S5S2x4 S5S0 S9S0 S6S5 S5S0 S6S5 S6S0x2 S6S5 S8S6x3 S8S2 S6S2x3 S4S6 S4S8 S6S8 S2S6x3 S2S4x5 S6S4x3 S0S2x3 S7S6 S7S0x3 S2S7x3 S7S2x6 S7S1 S5S1x2 S7S5 S7S2 S8S7 S6S8 S9S6x5 S9S2 S6S2x5 S9S1x9 S7S9 S1S6x9 S1S7x2 S6S7x9 S1S6x2 S1S6 S4S1x3 S9S4x3 S9S3 S1S3x3 S3Z S9S1 S9S0 S7S9x9 S9S6x10 S6Z S0S3 S2S6x5 S3S0 S4S3x11 S7S4x2 S4S5x3 S6S2x5 S0S6 S2S7x5 S6S0 S4S6 S4S0x6 S3S4x11 S4S6x12 S6Z S7S2x5 S0S3x7 S2S4x5 S3S0x7 S8S3 S1S8 S4S2x5 S0S1x7 S2S4x5 S8S6x2 S8S2x3 S4S8x5 S8S5x9 S5Z S8S2 S3S2 S2Z S8S0x5 S1S8x7 S8Z S6S0x2 S0Z",
+   "ende": {
+    "farben": 2,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [
+     "S",
+     "S",
+     "H",
+     "H",
+     "S",
+     "H",
+     "H",
+     "S"
+    ],
+    "punkte": 1106,
+    "zuege": 194,
+    "ausgeteilt": 5
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "pyramid",
+   "seed": 1,
+   "zuege": "P21 P22 P15+P27 s s s P25+A s P26+A s s s s s s P24+A s P23+A P16+P20 s P17+A P11 s P19+A P14+P18 s s s s A s s s s s s s s s s s P12+A s P10+A P6+P13 s P9+A s P8+A s s s s s s s s P7+A P4+P5 s s s s s s P2+A s s s s s s P3+A s s s P1+A P0+A",
+   "ende": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "QS"
+    ],
+    "ablage": [
+     "7C",
+     "AS",
+     "QD",
+     "QC",
+     "6D",
+     "AD",
+     "AC"
+    ],
+    "durchgang": 3,
+    "zuege": 78
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "pyramid",
+   "seed": 2,
+   "zuege": "P21+P27 P24+P25 P18+P22 s P23+A s s P15+A s P16+A P10+P26 P17+P20 s A s s A s s P11+A P6 s P19+A P13+P14 s s s s P9+A s s A s P12+A s s s s s s s P7+A s s P3+A s s P8+A s s s s s P5+A s s s s P4+A s P2+A s s s P1+A s s s s s P0+A",
+   "ende": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "JC"
+    ],
+    "ablage": [
+     "8C",
+     "9S",
+     "4C",
+     "2D",
+     "5S"
+    ],
+    "durchgang": 3,
+    "zuege": 71
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "pyramid",
+   "seed": 5,
+   "zuege": "P22 s P25+A s s s P24+A P18+P21 s s A s P15+A s s P27+A s s s P23+A P16+P17 s s s P10+A s s s s s P11+A P6+P26 s A s s s P20+A s s P12+A s s s s P19+A P14+A s s P13+A s s s s P7+A s P8+A P4+P9 s s s s s s s s P5+A P2+P3 P1 s s P0+A",
+   "ende": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "QH"
+    ],
+    "ablage": [
+     "AH",
+     "QD",
+     "AC",
+     "AD",
+     "QS"
+    ],
+    "durchgang": 3,
+    "zuege": 72
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "tripeaks",
+   "seed": 1,
+   "zuege": "T25 T26 s T27 T16 T20 s T24 s T19 T21 s T18 s T9 T23 T14 s s s T15 T17 T10 T7 s T22 s T13 T12 s s T3 T8 s T11 s T6 s s T5 T2 s s s s s T4 T1 s T0",
+   "ende": {
+    "gipfel": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "offen": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "stapel": [
+     "4C"
+    ],
+    "ablage": [
+     "QS",
+     "JC",
+     "TH",
+     "7C",
+     "8C",
+     "7D",
+     "6C",
+     "9D",
+     "TC",
+     "2C",
+     "AH",
+     "KS",
+     "3D",
+     "2S",
+     "TS",
+     "JS",
+     "TD",
+     "JD",
+     "8S",
+     "2D",
+     "4S",
+     "5D",
+     "4D",
+     "5H",
+     "6H",
+     "AS",
+     "KD",
+     "3C",
+     "2H",
+     "3S",
+     "3H",
+     "9H",
+     "8D",
+     "9C",
+     "QH",
+     "KH",
+     "QD",
+     "JH",
+     "QC",
+     "6D",
+     "5C",
+     "4H",
+     "KC",
+     "AD",
+     "5S",
+     "AC",
+     "7S",
+     "8H",
+     "9S",
+     "6S",
+     "7H"
+    ],
+    "kette": 1,
+    "punkte": 106,
+    "zuege": 50
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "tripeaks",
+   "seed": 2,
+   "zuege": "T23 T21 T20 T11 T22 T24 s T19 T10 T27 T13 T26 T4 T14 s T17 s s s T25 T18 T16 T15 T12 T6 T8 T5 T1 s s s s s T9 T3 s s T7 s s s s T0 s s s T2",
+   "ende": {
+    "gipfel": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "offen": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "stapel": [
+     "9H",
+     "6H",
+     "JC",
+     "AC"
+    ],
+    "ablage": [
+     "3D",
+     "4D",
+     "5C",
+     "4H",
+     "3S",
+     "2C",
+     "AH",
+     "9D",
+     "8S",
+     "7C",
+     "8D",
+     "7H",
+     "6C",
+     "7D",
+     "6D",
+     "8H",
+     "9C",
+     "2S",
+     "3H",
+     "KH",
+     "QH",
+     "JH",
+     "TS",
+     "JD",
+     "QS",
+     "KD",
+     "AS",
+     "2H",
+     "3C",
+     "8C",
+     "KC",
+     "QC",
+     "TC",
+     "5H",
+     "6S",
+     "5D",
+     "TD",
+     "9S",
+     "TH",
+     "4C",
+     "7S",
+     "2D",
+     "KS",
+     "QD",
+     "AD",
+     "JS",
+     "5S",
+     "4S"
+    ],
+    "kette": 1,
+    "punkte": 161,
+    "zuege": 47
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "tripeaks",
+   "seed": 4,
+   "zuege": "T22 T20 T18 s T23 T27 T21 T24 s T26 T14 T19 s s T12 T25 T10 T17 T11 s T16 T4 T15 T7 s s T9 s s s T13 T5 T6 T8 T1 s T3 T2 s T0",
+   "ende": {
+    "gipfel": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "offen": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "stapel": [
+     "8D",
+     "JD",
+     "8H",
+     "8S",
+     "TH",
+     "TC",
+     "3H",
+     "9S",
+     "4D",
+     "7H",
+     "5S"
+    ],
+    "ablage": [
+     "KC",
+     "QC",
+     "JC",
+     "QS",
+     "8C",
+     "7C",
+     "6D",
+     "5D",
+     "4H",
+     "3D",
+     "2S",
+     "AD",
+     "2C",
+     "9C",
+     "5C",
+     "6C",
+     "7D",
+     "6H",
+     "5H",
+     "4C",
+     "KH",
+     "AH",
+     "KS",
+     "AC",
+     "2H",
+     "QH",
+     "3S",
+     "4S",
+     "3C",
+     "9H",
+     "TS",
+     "9D",
+     "TD",
+     "JH",
+     "QD",
+     "JS",
+     "KD",
+     "AS",
+     "2D",
+     "6S",
+     "7S"
+    ],
+    "kette": 1,
+    "punkte": 127,
+    "zuege": 40
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "golf",
+   "seed": 1,
+   "zuege": "s G0 s G4 G1 G4 G1 G0 s G3 G3 G6 s G5 G6 G0 s G2 G5 G4 s G0 s G6 G2 G2 s s s s s G5 G6 G1 G0 s G1 G5 G5 s G2 s G4 s G1 G3 G2 G4 G3 G6 G3",
+   "ende": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "KC",
+     "7C",
+     "8H",
+     "9D",
+     "TC",
+     "JS",
+     "TD",
+     "9C",
+     "8D",
+     "2C",
+     "AH",
+     "2S",
+     "AD",
+     "3D",
+     "4C",
+     "5S",
+     "4H",
+     "TS",
+     "JD",
+     "QS",
+     "KD",
+     "8S",
+     "9S",
+     "2D",
+     "AC",
+     "2H",
+     "3S",
+     "4S",
+     "AS",
+     "3C",
+     "3H",
+     "9H",
+     "8C",
+     "7S",
+     "6H",
+     "7H",
+     "QH",
+     "JH",
+     "TH",
+     "JC",
+     "QD",
+     "KH",
+     "QC",
+     "KS",
+     "6D",
+     "5C",
+     "4D",
+     "5H",
+     "6C",
+     "7D",
+     "6S",
+     "5D"
+    ],
+    "kette": 7,
+    "punkte": 0,
+    "zuege": 51
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "golf",
+   "seed": 2,
+   "zuege": "s G3 G0 G1 G0 G2 G2 s G5 s G4 s G4 G5 G4 G1 s s s s G6 G1 G3 G2 G1 s G3 G5 s G0 G6 G5 G4 G4 G0 G1 G6 s G6 G0 s G3 G3 G5 s G2 s G6 G2",
+   "ende": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "KS",
+     "2D"
+    ],
+    "ablage": [
+     "AD",
+     "9D",
+     "8S",
+     "7D",
+     "6S",
+     "5D",
+     "6D",
+     "7H",
+     "8H",
+     "9H",
+     "2S",
+     "AH",
+     "3H",
+     "4D",
+     "3D",
+     "2C",
+     "AS",
+     "KH",
+     "8C",
+     "KC",
+     "QC",
+     "JS",
+     "TH",
+     "JH",
+     "QS",
+     "KD",
+     "TC",
+     "9C",
+     "8D",
+     "5H",
+     "4S",
+     "5S",
+     "6C",
+     "5C",
+     "4H",
+     "3C",
+     "2H",
+     "AC",
+     "TD",
+     "JC",
+     "QD",
+     "9S",
+     "TS",
+     "JD",
+     "QH",
+     "4C",
+     "3S",
+     "7S",
+     "6H",
+     "7C"
+    ],
+    "kette": 2,
+    "punkte": 2,
+    "zuege": 49
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "golf",
+   "seed": 6,
+   "zuege": "G1 G0 G6 s G3 G2 G0 s G3 G5 G4 G2 s G5 G4 s G4 s G6 G5 G6 G1 G5 G2 s G1 G3 G3 G6 G2 s G2 G0 G3 G4 s G6 G0 G0 s G1 s G1 s s s s G4 s s G5",
+   "ende": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "6D",
+     "5D",
+     "4C",
+     "3H",
+     "6C",
+     "7D",
+     "8D",
+     "7H",
+     "9S",
+     "TC",
+     "JH",
+     "QS",
+     "KD",
+     "JD",
+     "QH",
+     "KC",
+     "TH",
+     "9D",
+     "AC",
+     "2C",
+     "AH",
+     "2S",
+     "3D",
+     "4D",
+     "3C",
+     "TD",
+     "JC",
+     "QD",
+     "JS",
+     "QC",
+     "KH",
+     "5S",
+     "6H",
+     "7C",
+     "6S",
+     "7S",
+     "2D",
+     "AS",
+     "2H",
+     "AD",
+     "8S",
+     "9H",
+     "TS",
+     "9C",
+     "8C",
+     "8H",
+     "KS",
+     "4H",
+     "5H",
+     "5C",
+     "4S",
+     "3S"
+    ],
+    "kette": 1,
+    "punkte": 0,
+    "zuege": 51
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "yukon",
+   "seed": 1,
+   "zuege": "S6S5x5 S1S5x5 S0S5 S4S0x5 S4Z1 S1S6 S2S1x3 S0S3 S0Z0 S2S4 S2Z1 S1S4x2 S5S4x3 S5Z2 S3S4x5 S3Z0 S3S0 S6S3x2 S6S0 S5S1x5 S5S0x3 S4S5x2 S1S4x4 S5S1x6 S2S5 S2S0 S6S2 S1S2x4 S1Z3 S2Z3 S5S1x2 S4S5x14 S2S4x2 S3S2x3 S3S1 S5S1x3 S5Z2 S4Z2 S5Z3 S6Z2 S6Z0 S4Z0 S6S1 S0S5x2 S5S1x8 S5Z1 S1Z1 S1Z0 S5Z3 S4Z1 S5Z2 S1Z2 S1Z0 S5S1 S5Z2 S5S3 S5Z3 S1Z3 S4S2 S0S3x5 S0Z0 S1S0x6 S1Z1 S0Z1 S0Z0 S1Z3 S1Z2 S2Z1 S2Z0 S3Z3 S0Z1 S1Z3 S2Z1 S3Z2 S0Z0 S1Z2 S2Z0 S3Z3 S0Z1 S1Z3 S1Z1 S3Z2 S0Z0 S2Z2 S2Z0 S3Z3 S0Z2 S1Z3 S3Z1",
+   "ende": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "punkte": 625,
+    "zuege": 89
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "yukon",
+   "seed": 2,
+   "zuege": "S4S3x5 S4S6 S2S1x5 S2Z0 S3Z0 S3S4 S3S0x2 S3S2x2 S2S3x3 S1S2 S1S3x2 S1S4 S1S4x2 S6S1x6 S6S4 S6Z1 S5S2x2 S5S2 S5Z3 S3S4x6 S5S3 S5S6 S3S2x3 S1S4x7 S1S2 S1S2x2 S1S5 S4S1x3 S0S5 S2S4 S4S0x6 S4Z2 S4Z3 S5Z2 S0Z2 S5Z3 S0Z3 S6Z2 S6Z3 S5S0 S5S3 S5Z0 S5Z1 S4Z1 S0Z1 S4Z0 S0Z0 S4Z1 S4Z3 S6S2 S3S6x2 S2S5x5 S2Z1 S4Z1 S3S2 S3Z0 S3Z2 S2Z2 S2Z0 S1Z0 S2Z1 S4S2x4 S4Z3 S4Z2 S0Z2 S0Z0 S2Z3 S1Z2 S2Z1 S5Z3 S0Z2 S2Z3 S5Z1 S0Z3 S6Z0 S2Z2 S5Z0 S0Z2 S6Z1 S2Z3 S5Z1 S1Z3 S6Z0 S2Z1 S5Z0 S6Z2",
+   "ende": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "punkte": 625,
+    "zuege": 86
+   },
+   "gewonnen": true
+  },
+  {
+   "liste": "yukon",
+   "seed": 3,
+   "zuege": "S0Z1 S3Z1 S5S2x5 S6S0x3 S2S6x10 S0S6 S1S5x2 S4S1x5 S2S4 S3S5x2 S6S3x13 S3S4x3 S1S3x2 S1S2x2 S1S2x3 S1Z2 S1Z1 S3S6x6 S4S3x5 S3S4x13 S6S3 S5S6x5 S5Z0 S5S1 S4S1x14 S5S4 S5Z0 S4S5x2 S6S4x11 S1S0x7 S1S3 S2S1x2 S1S0x6 S4S6x8 S3S4x3 S3S5 S4S6x7 S2S5x2 S0S3x8 S0S1x6 S6S0x10 S6Z3 S1Z3 S6Z2 S0Z3 S1Z2 S1Z3 S6Z0 S0Z2 S3Z0 S1Z2 S6Z1 S0Z0 S3Z1 S0Z2 S2Z1 S6Z1 S6S1 S6S5 S6S4 S6Z0 S0Z0 S6Z3 S3Z3 S2Z3 S0Z1 S3Z2 S1Z0 S3Z3 S3Z1 S5Z2 S0Z3 S1Z2 S1Z3 S5Z0 S0Z2 S3Z0 S3Z2 S5Z1 S0Z3 S1Z1 S3Z3 S5Z0 S0Z1 S1Z0 S4Z1 S5Z2 S0Z0 S1Z2 S5Z3",
+   "ende": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "punkte": 625,
+    "zuege": 90
+   },
+   "gewonnen": true
+  }
+ ]
+}

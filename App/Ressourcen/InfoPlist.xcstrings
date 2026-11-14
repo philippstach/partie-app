@@ -1,0 +1,147 @@
+{
+  "sourceLanguage": "de",
+  "strings": {
+    "NSCameraUsageDescription": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Kamera erkennt live die Augen deiner echten Würfel. Die Bilder bleiben auf deinem Gerät und werden nicht gesendet. Gespeichert werden sie nur in der Testversion (TestFlight), wenn du in den Einstellungen die Lern-Aufnahme einschaltest."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The camera recognises the pips of your real dice live. Images stay on your device and are not sent. In the test version (TestFlight) they are only saved if you turn on learning capture in the settings."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La cámara reconoce en directo los puntos de tus dados reales. Las imágenes permanecen en tu dispositivo y no se envían. En la versión de prueba (TestFlight) solo se guardan si activas la captura de aprendizaje en los ajustes."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’appareil photo reconnaît en direct les points de tes vrais dés. Les images restent sur ton appareil et ne sont pas envoyées. Dans la version test (TestFlight), elles ne sont enregistrées que si tu actives la capture d’apprentissage dans les réglages."
+          }
+        }
+      }
+    },
+    "NSFaceIDUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Face ID schützt den Kinder-Modus, damit Kinder ihn nicht selbst ausschalten."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Face ID protects Kids Mode so children cannot turn it off themselves."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Face ID protege el modo infantil para que los niños no puedan desactivarlo por su cuenta."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Face ID protège le mode enfant pour que les enfants ne puissent pas le désactiver eux-mêmes."
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Über das Mikrofon kannst du die Augen deiner echten Würfel ansagen. Der Ton wird auf deinem Gerät ausgewertet und weder gespeichert noch gesendet."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use the microphone to say the pips of your real dice. Audio is processed on your device and is neither saved nor sent."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con el micrófono puedes decir los puntos de tus dados reales. El audio se procesa en tu dispositivo y no se guarda ni se envía."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le micro te permet de dicter les points de tes vrais dés. Le son est traité sur ton appareil et n’est ni enregistré ni envoyé."
+          }
+        }
+      }
+    },
+    "NSSpeechRecognitionUsageDescription": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Spracherkennung versteht die angesagten Augenzahlen. Sie läuft auf deinem Gerät, es wird nichts gesendet."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speech recognition understands the numbers you say. It runs on your device and nothing is sent."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El reconocimiento de voz entiende los números que dices. Funciona en tu dispositivo y no se envía nada."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La reconnaissance vocale comprend les nombres que tu dictes. Elle fonctionne sur ton appareil et rien n’est envoyé."
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partie verbindet dein iPhone und dein iPad direkt miteinander, damit ein Gerät als Würfelscanner dienen kann. Übertragen werden die Augenzahlen und kleine Ausschnitte der Würfel, nur zwischen deinen Geräten."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partie connects your iPhone and iPad directly so that one device can serve as a dice scanner. The pip counts and small cutouts of the dice are sent, only between your devices."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partie conecta tu iPhone y tu iPad directamente para que un dispositivo sirva de escáner de dados. Se envían los puntos y pequeños recortes de los dados, solo entre tus dispositivos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partie relie directement ton iPhone et ton iPad pour qu’un appareil serve de scanner de dés. Les points et de petits extraits des dés sont envoyés, uniquement entre tes appareils."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,488 @@
+{
+ "beschreibung": "S4/S5: Aktionen nacheinander auf ein frisches Spiel (Notizen automatisch aufräumen = an). Aktionen: setzen, notiz, notiz_mehrfach, loeschen, rueckgaengig, wiederholen, fehlerfrei. Nach jeder Aktion: werte, notizen (nur nicht leere Zellen, Ziffern aufsteigend), kann_rueckgaengig, kann_wiederholen. Jede neue Aktion, die etwas ändert, leert die Wiederholen-Liste; Aktionen ohne Wirkung erzeugen keinen Zug.",
+ "faelle": [
+  {
+   "name": "wiederholen_grundlagen",
+   "raetsel": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+   "loesung": "534678912672195348198342567859761423426853791713924856961537284287419635345286179",
+   "schritte": [
+    {
+     "aktion": "setzen",
+     "zelle": 2,
+     "ziffer": 4,
+     "danach": {
+      "werte": "534070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "setzen",
+     "zelle": 3,
+     "ziffer": 6,
+     "danach": {
+      "werte": "534670000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "rueckgaengig",
+     "danach": {
+      "werte": "534070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": true
+     }
+    },
+    {
+     "aktion": "rueckgaengig",
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": false,
+      "kann_wiederholen": true
+     }
+    },
+    {
+     "aktion": "wiederholen",
+     "danach": {
+      "werte": "534070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": true
+     }
+    },
+    {
+     "aktion": "setzen",
+     "zelle": 5,
+     "ziffer": 8,
+     "danach": {
+      "werte": "534078000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "wiederholen",
+     "danach": {
+      "werte": "534078000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    }
+   ]
+  },
+  {
+   "name": "notizen_aufraeumen_und_wiederholen",
+   "raetsel": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+   "loesung": "534678912672195348198342567859761423426853791713924856961537284287419635345286179",
+   "schritte": [
+    {
+     "aktion": "notiz",
+     "zelle": 2,
+     "ziffer": 6,
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {
+       "2": "6"
+      },
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "notiz",
+     "zelle": 2,
+     "ziffer": 9,
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {
+       "2": "69"
+      },
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "setzen",
+     "zelle": 3,
+     "ziffer": 6,
+     "danach": {
+      "werte": "530670000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {
+       "2": "9"
+      },
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "rueckgaengig",
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {
+       "2": "69"
+      },
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": true
+     }
+    },
+    {
+     "aktion": "wiederholen",
+     "danach": {
+      "werte": "530670000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {
+       "2": "9"
+      },
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    }
+   ]
+  },
+  {
+   "name": "zum_letzten_fehlerfreien_stand",
+   "raetsel": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+   "loesung": "534678912672195348198342567859761423426853791713924856961537284287419635345286179",
+   "schritte": [
+    {
+     "aktion": "setzen",
+     "zelle": 2,
+     "ziffer": 4,
+     "danach": {
+      "werte": "534070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "setzen",
+     "zelle": 3,
+     "ziffer": 7,
+     "danach": {
+      "werte": "534770000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "notiz",
+     "zelle": 5,
+     "ziffer": 3,
+     "danach": {
+      "werte": "534770000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {
+       "5": "3"
+      },
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "setzen",
+     "zelle": 6,
+     "ziffer": 9,
+     "danach": {
+      "werte": "534770900600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {
+       "5": "3"
+      },
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "fehlerfrei",
+     "zurueckgenommen": 3,
+     "danach": {
+      "werte": "534070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": true
+     }
+    },
+    {
+     "aktion": "wiederholen",
+     "danach": {
+      "werte": "534770000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": true
+     }
+    },
+    {
+     "aktion": "fehlerfrei",
+     "zurueckgenommen": 1,
+     "danach": {
+      "werte": "534070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "fehlerfrei_ohne_fehler",
+   "raetsel": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+   "loesung": "534678912672195348198342567859761423426853791713924856961537284287419635345286179",
+   "schritte": [
+    {
+     "aktion": "setzen",
+     "zelle": 2,
+     "ziffer": 4,
+     "danach": {
+      "werte": "534070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "fehlerfrei",
+     "zurueckgenommen": 0,
+     "danach": {
+      "werte": "534070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    }
+   ]
+  },
+  {
+   "name": "notiz_in_mehreren_zellen",
+   "raetsel": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+   "loesung": "534678912672195348198342567859761423426853791713924856961537284287419635345286179",
+   "schritte": [
+    {
+     "aktion": "setzen",
+     "zelle": 6,
+     "ziffer": 9,
+     "danach": {
+      "werte": "530070900600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "notiz_mehrfach",
+     "zellen": [
+      0,
+      2,
+      3,
+      5,
+      6
+     ],
+     "ziffer": 4,
+     "danach": {
+      "werte": "530070900600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {
+       "2": "4",
+       "3": "4",
+       "5": "4"
+      },
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "notiz_mehrfach",
+     "zellen": [
+      2,
+      3,
+      5
+     ],
+     "ziffer": 4,
+     "danach": {
+      "werte": "530070900600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "rueckgaengig",
+     "danach": {
+      "werte": "530070900600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {
+       "2": "4",
+       "3": "4",
+       "5": "4"
+      },
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": true
+     }
+    },
+    {
+     "aktion": "rueckgaengig",
+     "danach": {
+      "werte": "530070900600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": true
+     }
+    }
+   ]
+  },
+  {
+   "name": "notiz_in_mehreren_zellen_teilweise",
+   "raetsel": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+   "loesung": "534678912672195348198342567859761423426853791713924856961537284287419635345286179",
+   "schritte": [
+    {
+     "aktion": "notiz",
+     "zelle": 2,
+     "ziffer": 6,
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {
+       "2": "6"
+      },
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "notiz_mehrfach",
+     "zellen": [
+      2,
+      3
+     ],
+     "ziffer": 6,
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {
+       "2": "6",
+       "3": "6"
+      },
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "notiz_mehrfach",
+     "zellen": [
+      2,
+      3
+     ],
+     "ziffer": 6,
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    }
+   ]
+  },
+  {
+   "name": "vorgaben_bleiben",
+   "raetsel": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+   "loesung": "534678912672195348198342567859761423426853791713924856961537284287419635345286179",
+   "schritte": [
+    {
+     "aktion": "setzen",
+     "zelle": 0,
+     "ziffer": 1,
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": false,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "loeschen",
+     "zelle": 0,
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": false,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "notiz",
+     "zelle": 0,
+     "ziffer": 2,
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": false,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "notiz_mehrfach",
+     "zellen": [
+      0,
+      1
+     ],
+     "ziffer": 2,
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": false,
+      "kann_wiederholen": false
+     }
+    }
+   ]
+  },
+  {
+   "name": "gleiche_zahl_loescht",
+   "raetsel": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+   "loesung": "534678912672195348198342567859761423426853791713924856961537284287419635345286179",
+   "schritte": [
+    {
+     "aktion": "setzen",
+     "zelle": 2,
+     "ziffer": 4,
+     "danach": {
+      "werte": "534070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "setzen",
+     "zelle": 2,
+     "ziffer": 4,
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    },
+    {
+     "aktion": "rueckgaengig",
+     "danach": {
+      "werte": "534070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": true
+     }
+    },
+    {
+     "aktion": "wiederholen",
+     "danach": {
+      "werte": "530070000600195000098000060800060003400803001700020006060000280000419005000080079",
+      "notizen": {},
+      "kann_rueckgaengig": true,
+      "kann_wiederholen": false
+     }
+    }
+   ]
+  }
+ ]
+}

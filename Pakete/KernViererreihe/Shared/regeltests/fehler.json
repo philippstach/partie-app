@@ -1,0 +1,132 @@
+{
+ "beschreibung": "Ungültige Züge ändern nichts",
+ "faelle": [
+  {
+   "name": "spalteVoll",
+   "beschreibung": "Siebter Stein in Spalte 0",
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "spalte": 0,
+   "erwartet": {
+    "fehler": "spalteVoll"
+   }
+  },
+  {
+   "name": "spalteVollMitte",
+   "beschreibung": "Spalte 3 voll, andere frei",
+   "beginner": 1,
+   "zuege": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "spalte": 3,
+   "erwartet": {
+    "fehler": "spalteVoll"
+   }
+  },
+  {
+   "name": "spielVorbeiGewonnen",
+   "beschreibung": "Nach einem Gewinn geht nichts mehr",
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+   ],
+   "spalte": 4,
+   "erwartet": {
+    "fehler": "spielVorbei"
+   }
+  },
+  {
+   "name": "ungueltigeSpalteZuGross",
+   "beschreibung": "Spalte 7 gibt es nicht",
+   "beginner": 1,
+   "zuege": [],
+   "spalte": 7,
+   "erwartet": {
+    "fehler": "ungueltigeSpalte"
+   }
+  },
+  {
+   "name": "ungueltigeSpalteNegativ",
+   "beschreibung": "Spalte -1 gibt es nicht",
+   "beginner": 1,
+   "zuege": [
+    2
+   ],
+   "spalte": -1,
+   "erwartet": {
+    "fehler": "ungueltigeSpalte"
+   }
+  },
+  {
+   "name": "spielVorbeiUnentschieden",
+   "beschreibung": "Volles Brett",
+   "beginner": 1,
+   "zuege": [
+    4,
+    6,
+    0,
+    0,
+    2,
+    6,
+    0,
+    1,
+    3,
+    4,
+    0,
+    3,
+    0,
+    2,
+    3,
+    6,
+    2,
+    0,
+    6,
+    6,
+    2,
+    6,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    1,
+    5,
+    5,
+    2,
+    2,
+    5,
+    4,
+    1,
+    1,
+    1,
+    1,
+    5,
+    5,
+    5
+   ],
+   "spalte": 0,
+   "erwartet": {
+    "fehler": "spielVorbei"
+   }
+  }
+ ]
+}

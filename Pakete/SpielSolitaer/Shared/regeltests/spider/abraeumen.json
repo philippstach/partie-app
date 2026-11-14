@@ -1,0 +1,315 @@
+{
+ "beschreibung": "auto_moves(start): fertige Reihen wandern ab.",
+ "faelle": [
+  {
+   "titel": "eine fertige Reihe",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [
+       "2C"
+      ],
+      "offen": [
+       "KH",
+       "QH",
+       "JH",
+       "TH",
+       "9H",
+       "8H",
+       "7H",
+       "6H",
+       "5H",
+       "4H",
+       "3H",
+       "2H",
+       "AH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "zuege": [
+    {
+     "von": "S0",
+     "nach": "Z",
+     "anzahl": 13
+    }
+   ]
+  },
+  {
+   "titel": "zwei fertige Reihen, links zuerst",
+   "start": {
+    "farben": 2,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "QH",
+       "JH",
+       "TH",
+       "9H",
+       "8H",
+       "7H",
+       "6H",
+       "5H",
+       "4H",
+       "3H",
+       "2H",
+       "AH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QS",
+       "JS",
+       "TS",
+       "9S",
+       "8S",
+       "7S",
+       "6S",
+       "5S",
+       "4S",
+       "3S",
+       "2S",
+       "AS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "zuege": [
+    {
+     "von": "S1",
+     "nach": "Z",
+     "anzahl": 13
+    },
+    {
+     "von": "S2",
+     "nach": "Z",
+     "anzahl": 13
+    }
+   ]
+  },
+  {
+   "titel": "13 Karten, aber gemischte Farben",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "QH",
+       "JH",
+       "TH",
+       "9H",
+       "8H",
+       "7H",
+       "6H",
+       "5H",
+       "4H",
+       "3H",
+       "2H",
+       "AD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "zuege": []
+  },
+  {
+   "titel": "Reihe unter weiterer Karte",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "QH",
+       "JH",
+       "TH",
+       "9H",
+       "8H",
+       "7H",
+       "6H",
+       "5H",
+       "4H",
+       "3H",
+       "2H",
+       "AH",
+       "9S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "zuege": []
+  }
+ ]
+}

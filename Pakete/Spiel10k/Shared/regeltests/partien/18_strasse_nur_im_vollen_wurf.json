@@ -1,0 +1,18 @@
+{
+ "name": "18_strasse_nur_im_vollen_wurf",
+ "beschreibung": "Eine Straße aus mehreren Würfen zählt nicht, im vollen Wurf schon.",
+ "rules": {},
+ "players": ["Anna", "Ben"],
+ "dice": [1, 2, 2, 3, 6, 2, 3, 4, 5, 6, 5, 4, 3, 2],
+ "steps": [
+  {"action": {"type": "roll", "keep": []}},
+  {"action": {"type": "roll", "keep": [0]}, "expect": {"turn": {"dice": [1, 2, 3, 4, 5], "fullThrow": false}}},
+  {"action": {"type": "bank", "keep": [0, 1, 2, 3, 4]}, "error": true},
+  {"action": {"type": "bank", "keep": [1, 2, 3, 4]}, "error": true},
+  {"action": {"type": "bank", "keep": [4]}, "expect": {"scores": [150, 0]}},
+  {"action": {"type": "declineOffer"}},
+  {"action": {"type": "roll", "keep": []}, "expect": {"turn": {"fullThrow": true}}},
+  {"action": {"type": "bank", "keep": [0, 1, 2, 3, 4]}, "expect": {"scores": [150, 1000], "offer": {"from": 1, "points": 1000, "dice": [6, 5, 4, 3, 2], "kept": [false, false, false, false, false]}}}
+ ],
+ "expected": {"scores": [150, 1000], "current": 0}
+}

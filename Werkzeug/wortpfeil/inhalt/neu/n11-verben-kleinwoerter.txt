@@ -1,0 +1,231 @@
+# n11 Verben mit Vorsilbe und kleine Wörter, abgeglichen mit dem Bestand
+abholen;1;Vom Bahnhof mitnehmen|Paket bei der Post holen
+anrufen;1;Zum Telefon greifen|Nummer wählen
+anfangen;1;Beginnen|Loslegen
+ansehen;1;Betrachten|Film gucken
+anhalten;1;Stoppen|Zum Stehen bringen
+ausgehen;1;Abends weggehen|Erlöschen (Licht)
+ausruhen;1;Sich erholen|Pause machen
+aussehen;1;Wirken, erscheinen|Äußere Erscheinung
+bedeuten;1;Einen Sinn haben|Heißen
+beenden;1;Zum Schluss bringen|Abschließen
+begegnen;1;Zufällig treffen|Über den Weg laufen
+beginnen;1;Anfangen|Starten
+behalten;1;Nicht hergeben|Im Kopf bewahren
+bekommen;1;Erhalten|Kriegen
+belohnen;1;Für gute Tat beschenken|Mit einem Preis ehren
+bemerken;1;Wahrnehmen|Beiläufig sagen
+benutzen;1;Verwenden|Gebrauchen
+besitzen;1;Sein Eigen nennen|Haben
+bestehen;1;Prüfung schaffen|Vorhanden sein
+besuchen;1;Zu Gast kommen|Vorbeischauen
+betreten;1;Hineingehen|Verlegen, peinlich berührt
+bewegen;1;Lage verändern|Rühren
+beweisen;1;Mit Fakten belegen|Nachweis führen
+bezahlen;1;Rechnung begleichen|Geld geben für Ware
+einladen;1;Zum Fest bitten|Gäste rufen
+erfinden;1;Neues ausdenken|Als Erster entwickeln
+erholen;1;Neue Kraft schöpfen|Sich entspannen
+erinnern;1;Ins Gedächtnis rufen|Nicht vergessen
+erkennen;1;Wiedersehen und wissen|Klar sehen
+erlauben;1;Gestatten|Genehmigen
+erleben;1;Selbst durchmachen|Dabei sein
+erraten;1;Durch Raten herausfinden|Lösung treffen
+erwarten;1;Rechnen mit|Entgegensehen
+gefallen;1;Zusagen|Gut ankommen
+gehören;1;Jemandes Besitz sein|Teil sein von
+gelingen;1;Glücken|Klappen
+umziehen;1;Wohnung wechseln|Andere Kleider anlegen
+vorlesen;1;Laut aus dem Buch lesen|Märchen am Bett sprechen
+zuhören;1;Aufmerksam lauschen|Ohren spitzen
+zumachen;1;Schließen|Verriegeln
+zusehen;1;Beobachten|Zuschauen
+abgeben;1;Aushändigen|Teilen mit anderen
+ablegen;1;Mantel ausziehen|Hafen verlassen (Schiff)
+abnehmen;1;Gewicht verlieren|Hörer vom Telefon heben
+absagen;1;Termin streichen|Nicht kommen können
+abwarten;1;Geduldig bleiben|Tee trinken und …
+anbieten;1;Offerieren|Zum Kauf vorlegen
+angeben;1;Prahlen|Nennen
+ankommen;1;Das Ziel erreichen|Eintreffen
+anlegen;1;Am Kai festmachen|Geld investieren
+anmelden;1;Eintragen lassen|Besuch ankündigen
+annehmen;1;Vermuten|Geschenk nicht ablehnen
+anpassen;1;Passend machen|Sich einfügen
+aufgeben;1;Nicht mehr kämpfen|Brief zur Post bringen
+aufheben;1;Vom Boden nehmen|Aufbewahren
+aufholen;1;Rückstand verkleinern|Näher herankommen
+aufladen;1;Akku füllen|Last auf den Wagen heben
+aufregen;1;In Erregung bringen|Sich ärgern
+aufsagen;1;Gedicht auswendig sprechen|Auswendig vortragen
+ausreden;1;Zu Ende sprechen|Von etwas abbringen
+beachten;1;Befolgen|Aufmerksamkeit schenken
+bedanken;1;Merci sagen|Sich erkenntlich zeigen
+bedienen;1;Gäste versorgen|Maschine handhaben
+beeilen;1;Schnell machen|Sich sputen
+befehlen;1;Anordnen|Kommandieren
+befreien;1;Aus der Haft holen|Erlösen
+begraben;1;Beerdigen|In die Erde legen
+behüten;1;Beschützen|Fürsorglich bewachen
+beklagen;1;Betrauern|Sich beschweren
+beladen;1;Fracht aufpacken|Wagen füllen
+beleben;1;Munter machen|Mit Leben füllen
+belegen;1;Brot mit Wurst versehen|Nachweisen
+bemalen;1;Mit Farbe verzieren|Ostereier färben
+bemühen;1;Sich anstrengen|Sich Mühe geben
+beraten;1;Mit Tipps helfen|Empfehlungen geben
+bereuen;1;Im Nachhinein bedauern|Leid tun
+besiegen;1;Bezwingen|Im Kampf schlagen
+bessern;1;Günstiger werden|Sich positiv ändern
+betonen;1;Hervorheben|Nachdruck legen auf
+bewachen;1;Aufpassen auf|Posten stehen vor
+bewerben;1;Sich um eine Stelle bemühen|Unterlagen einreichen
+bewohnen;1;In einem Haus leben|Als Mieter nutzen
+bezeugen;2;Vor Gericht bestätigen|Als Zeuge aussagen
+brauchen;1;Nötig haben|Benötigen
+dringen;2;Sich einen Weg bahnen|Durch die Mauer gelangen
+dürfen;1;Die Erlaubnis haben|Befugt sein
+duzen;1;Nicht siezen|Vertraulich anreden
+einigen;1;Sich verständigen|Streit beilegen
+empören;2;Zornig machen|Entrüsten
+entern;2;Schiff erstürmen|Piratenangriff an Bord
+ergeben;1;Sich geschlagen geben|Kapitulieren
+erheben;1;In die Höhe heben|Sich aufrichten
+erlösen;1;Von Qualen befreien|Retten
+erobern;1;Mit Gewalt einnehmen|Burg stürmen
+erröten;1;Rot werden|Vor Scham Farbe bekommen
+erzeugen;1;Herstellen|Hervorbringen
+faulen;1;Verderben (Obst)|Modrig werden
+gebären;2;Ein Kind zur Welt bringen|Entbinden
+gedeihen;2;Gut wachsen|Prächtig entwickeln
+geloben;2;Feierlich versprechen|Schwören
+genesen;2;Gesund werden|Sich von Krankheit erholen
+grölen;1;Laut und falsch singen|Lärmend schreien
+hopsen;1;Hüpfen|Kleine Sprünge machen
+kurven;1;Im Bogen fahren|Herumfahren (ugs.)
+abwärts;1;Nach unten|Bergab
+allzu;1;Übertrieben, gar zu|Viel zu
+anbei;2;Als Anlage beigefügt|Im Brief: beiliegend
+anfangs;1;Zu Beginn|Am Start
+anstatt;1;An Stelle von|Als Ersatz für
+bergab;1;Den Hang hinunter|Talwärts
+bergauf;1;Den Hang hinauf|Gipfelwärts
+bestimmt;1;Ganz sicher|Gewiss
+bislang;1;Bis jetzt|Bisher
+dadurch;1;Auf diese Weise|Infolgedessen
+dafür;1;Zugunsten|Gegenteil von dagegen
+dagegen;1;Kontra|Im Widerspruch dazu
+dahin;1;An jenen Ort|Vorbei, verloren
+damals;1;Zu jener Zeit|Einst
+danach;1;Anschließend|Später
+daneben;1;Seitlich davon|Nicht getroffen
+daran;1;An dieser Sache|An jener Stelle
+darauf;1;Oben auf der Sache|Anschließend
+daraus;1;Aus dieser Sache|Hieraus
+darin;1;In dieser Sache|Im Inneren davon
+darüber;1;Oberhalb davon|Über diese Sache
+davon;1;Von dieser Sache|Weg, fort
+davor;1;Zeitlich früher|An der Vorderseite
+dennoch;1;Trotzdem|Gleichwohl
+derart;1;So sehr|In solchem Maß
+deshalb;1;Aus diesem Grund|Darum
+desto;1;Je mehr, … besser|Umso
+deswegen;1;Aus diesem Grund|Darum
+dorthin;1;An jenen Ort|Zu der Stelle da
+drauf;1;Obenauf (ugs.)|Gut … sein (munter)
+dringend;1;Sehr eilig|Unaufschiebbar
+ehemals;2;Früher|Einst
+eigens;2;Extra, speziell|Nur zu diesem Zweck
+einerlei;2;Egal|Gleichgültig
+einzeln;1;Jeder für sich|Nicht in der Gruppe
+einzig;1;Nur einmal vorhanden|Alleinig
+entlang;1;Längs|Am Ufer …
+entzwei;1;Kaputt, zerbrochen|In zwei Stücken
+erneut;1;Noch einmal|Wieder
+falls;1;Wenn (Bindewort)|Für den Fall, dass
+folglich;2;Also|Demnach
+freilich;2;Natürlich (süddt.)|Allerdings
+gemäß;2;Entsprechend|Laut (Vorschrift)
+halbwegs;1;Einigermaßen|Leidlich
+herbei;1;Hierher|Ruf: Kommt alle …!
+herum;1;Im Kreis|Rings um etwas
+herunter;1;Von oben nach hier|Hinab
+hervor;1;Nach vorn heraus|Zum Vorschein
+hierher;1;An diesen Ort|Zu mir
+hinaus;1;Nach draußen|Ins Freie
+hindurch;1;Mitten durch etwas|Quer hinüber
+hinein;1;Nach drinnen|Ins Innere
+hinüber;1;Auf die andere Seite|Nach drüben
+hinunter;1;Nach unten|Abwärts
+hinweg;1;Fort von hier|Über etwas …
+hinzu;1;Zusätzlich|Obendrein
+indem;1;Dadurch, dass|Bindewort der Art und Weise
+indes;2;Jedoch|Währenddessen
+infolge;2;Aufgrund|Als Ergebnis von
+inmitten;2;Mittendrin|Umgeben von
+insofern;2;In dieser Hinsicht|So gesehen
+irgendwo;1;An einem unbekannten Ort|Wer weiß, an welcher Stelle
+jawohl;1;Betonte Zustimmung|Antwort des Soldaten
+jemals;1;Irgendwann einmal|Je
+jenseits;1;Auf der anderen Seite|Leben nach dem Tod
+jeweils;1;Jedes Mal|Pro Fall
+längs;2;Der Länge nach|Entlang
+längst;1;Schon seit geraumer Zeit|Seit Langem
+leider;1;Bedauerlicherweise|Zu meinem Bedauern
+mehrmals;1;Wiederholt|Öfter als einmal
+meistens;1;Fast immer|In der Regel
+mitten;1;Im Zentrum|In der Mitte
+mittels;2;Mit Hilfe von|Durch
+nachdem;1;Als es vorbei war (Bindewort)|Zeitlich später als
+nämlich;1;Und zwar|Denn (nachgestellt)
+nebenan;1;Im Nachbarhaus|Eine Tür weiter
+nebst;2;Zusammen mit|Samt
+nirgends;1;An keinem Ort|Gegenteil von überall
+nunmehr;2;Von jetzt an|Jetzt (gehoben)
+oberhalb;1;Höher gelegen als|Über
+obgleich;2;Obwohl|Wenn auch
+öfters;1;Mehrmals|Häufiger
+ohnehin;1;Sowieso|Auf jeden Fall
+quasi;2;Sozusagen|Gewissermaßen
+ringsum;1;Im Kreis herum|An allen Seiten
+seitdem;1;Von da an|Ab jenem Tag
+seither;1;Von damals bis heute|Ab jenem Tag bis jetzt
+seitlich;1;An der Flanke|Neben
+sodann;2;Danach|Als Nächstes
+sofern;2;Falls|Vorausgesetzt, dass
+sogleich;1;Sofort|Unverzüglich
+somit;1;Also|Folglich
+sowieso;1;Ohnehin|Eh
+täglich;1;Jeden Tag|Alle 24 Stunden
+teils;1;Zum Teil|Halb und halb
+trotzdem;1;Dennoch|Gleichwohl
+umher;1;Ziellos im Kreis|Hin und her
+unweit;2;In der Nähe|Nicht fern von
+völlig;1;Ganz und gar|Total
+vollends;2;Ganz und gar|Restlos
+vorab;2;Im Voraus|Zunächst einmal
+voran;1;Vorwärts|An der Spitze
+voraus;1;Vor den anderen|Im …: schon vorher
+vorerst;1;Zunächst|Fürs Erste
+wahrlich;2;Wirklich (gehoben)|In der Tat
+während;1;Zur gleichen Zeit wie|Im Verlauf von
+weder;1;… noch|Verneinung mit noch
+weitaus;2;Bei Weitem|Mit Abstand
+weshalb;1;Warum|Aus welchem Grund?
+wiederum;2;Abermals|Andererseits
+wobei;1;Bei welcher Sache?|Fragewort mit bei
+wodurch;1;Durch welche Sache?|Fragewort nach dem Mittel
+wofür;1;Zu welchem Zweck?|Für welche Sache?
+woran;1;An welcher Sache?|Fragewort mit an
+worauf;1;Auf welcher Sache?|Fragewort mit auf
+worin;1;In welcher Sache?|Fragewort mit in
+zeitig;1;Früh|Rechtzeitig
+ziemlich;1;Recht, einigermaßen|Beträchtlich
+zugleich;1;Im selben Moment|Gleichzeitig
+zuhause;1;Daheim|In den eigenen vier Wänden
+zuliebe;1;Jemandem zu Gefallen|Dir … (für dich)
+zumeist;2;In den meisten Fällen|Größtenteils
+zusammen;1;Gemeinsam|Miteinander
+zuvor;1;Vorher|Davor
+zuweilen;2;Manchmal|Ab und zu
+zwecks;2;Zum Zweck von|Um zu erreichen

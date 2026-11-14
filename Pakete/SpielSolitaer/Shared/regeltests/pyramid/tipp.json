@@ -1,0 +1,551 @@
+{
+ "beschreibung": "hint(start) oder null; festgefahren = nicht gewonnen und kein Tipp. Paare im Tipp: Pyramide vor Ablage, kleinere Platznummer zuerst.",
+ "faelle": [
+  {
+   "titel": "1: freier König, höchste Platznummer zuerst",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "KS",
+     "8H",
+     "5S",
+     null,
+     null,
+     null,
+     "KH"
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "tipp": {
+    "paar": [
+     "P27"
+    ]
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: König in der Pyramide vor König auf der Ablage",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "KS",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "KD"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "tipp": {
+    "paar": [
+     "P21"
+    ]
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: König auf der Ablage vor jedem Paar",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "8H",
+     "5S",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "KD"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "tipp": {
+    "paar": [
+     "A"
+    ]
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "2: Paar aus der Pyramide vor Paar mit Ablage",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "8H",
+     "5S",
+     null,
+     null,
+     null,
+     null,
+     "2C"
+    ],
+    "stapel": [],
+    "ablage": [
+     "JD"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "tipp": {
+    "paar": [
+     "P21",
+     "P22"
+    ]
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "2: erste Karte höchste Platznummer, Partner höchste Platznummer",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "5S",
+     "8H",
+     "5D",
+     null,
+     null,
+     null,
+     "8C"
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "tipp": {
+    "paar": [
+     "P23",
+     "P27"
+    ]
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "3: Pyramide + Ablage, höchste Platznummer zuerst",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     "2D",
+     null,
+     "6C",
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "7S"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "tipp": {
+    "paar": [
+     "P25",
+     "A"
+    ]
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "4: Stapel, wenn nichts passt",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "2C"
+    ],
+    "ablage": [
+     "9D"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "stapel"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "4: Stapel leer, aber Umdrehen übrig",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "9D",
+     "2C"
+    ],
+    "durchgang": 2,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "stapel"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "festgefahren: Durchgang 3, Stapel leer, nichts passt",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "9D",
+     "2C"
+    ],
+    "durchgang": 3,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "festgefahren: Stapel und Ablage leer (nichts zum Umdrehen)",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     "9C",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "festgefahren: Partner nur verdeckt",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "5S",
+     null,
+     null,
+     null,
+     null,
+     null,
+     "8H",
+     "3C",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 3,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "gewonnen: kein Tipp, nicht festgefahren",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "2C",
+     "3C"
+    ],
+    "ablage": [
+     "4C"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  }
+ ]
+}

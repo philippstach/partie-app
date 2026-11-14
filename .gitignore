@@ -1,0 +1,9 @@
+.build/
+build/
+xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata
+.bau/
+.DS_Store
+Lokal.xcconfig
+Partie.xcodeproj/
+DerivedData/

@@ -1,0 +1,129 @@
+{
+ "beschreibung": "R2 Auszeichnungen am Spieleabend (ab 2 Partien): schockKoenig, pechvogel, glueckspilz in dieser Reihenfolge; Gleichstand = alle teilen sich, Namen alphabetisch.",
+ "faelle": [
+  {
+   "name": "Normaler Abend",
+   "partien": 3,
+   "werte": {
+    "Anna": {
+     "schockAus": 1,
+     "deckel": 20,
+     "rundenVerloren": 9
+    },
+    "Ben": {
+     "schockAus": 0,
+     "deckel": 34,
+     "rundenVerloren": 12
+    },
+    "Clara": {
+     "schockAus": 2,
+     "deckel": 15,
+     "rundenVerloren": 7
+    }
+   },
+   "erwartet": [
+    {
+     "id": "schockKoenig",
+     "namen": [
+      "Clara"
+     ],
+     "wert": 2
+    },
+    {
+     "id": "pechvogel",
+     "namen": [
+      "Ben"
+     ],
+     "wert": 34
+    },
+    {
+     "id": "glueckspilz",
+     "namen": [
+      "Clara"
+     ],
+     "wert": 15
+    }
+   ]
+  },
+  {
+   "name": "Nur eine Partie: keine Auszeichnungen",
+   "partien": 1,
+   "werte": {
+    "Anna": {
+     "schockAus": 1,
+     "deckel": 5,
+     "rundenVerloren": 2
+    },
+    "Ben": {
+     "schockAus": 0,
+     "deckel": 13,
+     "rundenVerloren": 4
+    }
+   },
+   "erwartet": []
+  },
+  {
+   "name": "Kein Schock aus, gleich viele Deckel",
+   "partien": 2,
+   "werte": {
+    "Anna": {
+     "schockAus": 0,
+     "deckel": 13,
+     "rundenVerloren": 5
+    },
+    "Ben": {
+     "schockAus": 0,
+     "deckel": 13,
+     "rundenVerloren": 6
+    }
+   },
+   "erwartet": []
+  },
+  {
+   "name": "Geteilte Auszeichnungen",
+   "partien": 4,
+   "werte": {
+    "Dora": {
+     "schockAus": 2,
+     "deckel": 30,
+     "rundenVerloren": 10
+    },
+    "Emil": {
+     "schockAus": 2,
+     "deckel": 30,
+     "rundenVerloren": 11
+    },
+    "Fritz": {
+     "schockAus": 1,
+     "deckel": 9,
+     "rundenVerloren": 3
+    }
+   },
+   "erwartet": [
+    {
+     "id": "schockKoenig",
+     "namen": [
+      "Dora",
+      "Emil"
+     ],
+     "wert": 2
+    },
+    {
+     "id": "pechvogel",
+     "namen": [
+      "Dora",
+      "Emil"
+     ],
+     "wert": 30
+    },
+    {
+     "id": "glueckspilz",
+     "namen": [
+      "Fritz"
+     ],
+     "wert": 9
+    }
+   ]
+  }
+ ]
+}

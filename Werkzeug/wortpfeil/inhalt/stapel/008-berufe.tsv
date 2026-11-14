@@ -1,0 +1,304 @@
+# 008 Berufe, Arbeit, Ämter, Titel, Wirtschaft, Geld, Büro – geschrieben von Claude
+Zahnarzt	1	Behandelt Karies|Bohrt und plombiert
+Veterinär	3	Fachmann für Tiermedizin|Behandelt Hund und Katze
+Bäcker	1	Backt Brot und Brötchen|Steht früh in der Backstube
+Metzger	1	Verkauft Wurst und Fleisch|Schlachtet Vieh
+Fleischer	2	Metzger|Wurstmacher
+Schlachter	3	Metzger (norddeutsch)
+Kellner	1	Bedienung im Lokal|Serviert Speisen
+Lehrer	1	Unterrichtet an der Schule|Pädagoge
+Landwirt	1	Betreibt einen Hof|Bestellt die Felder
+Gärtner	1	Pflegt Beete und Pflanzen|Arbeitet im Grünen
+Maurer	1	Baut Wände aus Steinen|Arbeitet mit Kelle
+Tischler	1	Baut Möbel aus Holz|Arbeitet mit Hobel
+Schreiner	2	Tischler (süddeutsch)|Fertigt Möbel nach Maß
+Zimmerer	2	Baut Dachstühle aus Holz|Arbeitet mit Balken
+Dachdecker	2	Handwerker auf Ziegeldächern|Verlegt Schindeln
+Klempner	2	Repariert Wasserrohre|Installateur
+Installateur	2	Verlegt Rohre und Leitungen|Baut Heizungen ein
+Elektriker	1	Verlegt Stromleitungen|Repariert Kabel
+Schlosser	2	Metallhandwerker|Öffnet verriegelte Türen
+Schmied	2	Arbeitet am Amboss|Formt glühendes Eisen
+Schuster	2	Besohlt Stiefel|Flickt kaputte Absätze
+Schneider	1	Näht Kleidung nach Maß|Fertigt Anzüge
+Friseur	1	Schneidet Haare|Arbeitet im Salon
+Konditor	2	Macht Torten und Gebäck|Feinbäcker
+Brauer	2	Stellt Bier her|Arbeitet mit Hopfen
+Winzer	2	Baut Wein an|Weinbauer
+Fischer	1	Fängt Heringe im Netz|Arbeitet auf dem Kutter
+Jäger	1	Geht auf die Pirsch|Waidmann
+Förster	2	Pflegt den Wald|Waldhüter
+Schäfer	2	Hütet die Herde mit Hund|Wanderhirte
+Müller	1	Mahlt Korn zu Mehl|Arbeitet in der Mühle
+Bergmann	2	Kumpel unter Tage|Arbeitet im Stollen
+Kumpel	2	Arbeitet unter Tage|Freund (umgangssprachlich)
+Hauer	3	Bergmann vor Ort|Eckzahn des Keilers
+Steiger	3	Aufseher im Bergwerk
+Chauffeur	3	Privater Fahrer|Lenkt die Limousine
+Lokführer	2	Steuert die Eisenbahn|Lenkt den Zug
+Schaffner	2	Kontrolliert Fahrkarten|Zugbegleiter
+Kapitän	1	Führt ein Schiff|Mannschaftsführer
+Matrose	2	Einfacher Seemann|Dient an Deck
+Steuermann	2	Lenkt das Schiff|Sitzt im Ruderboot hinten
+Postbote	1	Bringt Briefe|Briefträger
+Briefträger	1	Verteilt Post|Zusteller
+Polizist	1	Hüter der Ordnung|Streifenbeamter
+Feuerwehrmann	1	Löscht Brände|Retter mit Atemschutz
+Soldat	1	Dient im Heer|Militärangehöriger
+Richter	2	Fällt das Urteil|Jurist mit Robe
+Anwalt	2	Vertritt vor Gericht|Verteidiger
+Jurist	2	Rechtsgelehrter|Studierte Rechtswissenschaft
+Apotheker	2	Gibt Arznei aus|Mischt Salben an
+Krankenpfleger	2	Betreut Patienten|Arbeitet auf Station
+Psychologe	2	Fachmann für die Seele|Therapeut
+Optiker	2	Verkauft Brillen|Passt Linsen an
+Erzieher	1	Arbeitet in der Kita|Betreut Kinder
+Professor	2	Hochschullehrer|Lehrstuhlinhaber
+Dozent	2	Lehrt an der Uni|Hält Vorlesungen
+Forscher	2	Wissenschaftler|Macht Experimente
+Ingenieur	2	Technischer Fachmann|Konstrukteur
+Architekt	2	Plant Gebäude|Entwirft Häuser
+Techniker	2	Fachmann für Geräte|Wartet Maschinen
+Mechaniker	2	Repariert Motoren|Arbeitet in der Werkstatt
+Monteur	2	Baut Anlagen auf|Arbeitet auf Baustellen
+Programmierer	2	Schreibt Software|Entwickelt Apps
+Journalist	2	Schreibt für die Zeitung|Medienschaffender
+Reporter	2	Berichtet vor Ort|Fernsehberichterstatter
+Redakteur	2	Bearbeitet Texte für Medien|Betreut eine Zeitungsseite
+Fotograf	2	Macht Bilder mit Kamera|Arbeitet im Studio
+Dolmetscher	2	Übersetzt mündlich|Sprachmittler bei Gipfeln
+Übersetzer	2	Macht aus Englisch Deutsch|Sprachmittler für Texte
+Bibliothekar	2	Verwaltet Bücher|Arbeitet in der Bücherei
+Verkäufer	1	Arbeitet im Laden|Bedient Kunden
+Kassierer	2	Nimmt im Laden Geld ein
+Händler	2	Treibt Handel|Verkäufer auf dem Markt
+Kaufmann	2	Händler mit Ausbildung|Treibt Handel
+Makler	2	Vermittelt Wohnungen|Vermittler gegen Provision
+Buchhalter	2	Führt die Bücher|Erstellt die Bilanz
+Bankier	3	Inhaber eines Geldhauses|Geldverleiher alter Art
+Unternehmer	2	Führt eine eigene Firma|Gründer eines Betriebs
+Manager	2	Führungskraft|Geschäftsführer
+Chef	1	Vorgesetzter|Leiter
+Boss	2	Chef (umgangssprachlich)|Oberhaupt einer Bande
+Direktor	2	Leiter einer Schule|Bankvorstand
+Meister	1	Ausbilder im Handwerk|Titelgewinner im Sport
+Geselle	2	Handwerker nach der Lehre|Wandert auf der Walz
+Lehrling	1	Azubi|Auszubildender
+Azubi	2	Kurz für Auszubildender
+Praktikant	2	Schnuppert in den Beruf|Arbeitet zum Lernen
+Volontär	3	Auszubildender bei der Zeitung
+Referendar	3	Angehender Lehrer|Junger Jurist in Ausbildung
+Beamter	2	Staatsdiener|Arbeitet im Amt
+Angestellter	2	Arbeitnehmer im Büro|Bezieht ein Gehalt
+Arbeiter	1	Werktätiger|Lohnempfänger
+Kollege	1	Mitarbeiter|Arbeitskamerad
+Pförtner	2	Wacht am Eingang|Sitzt an der Pforte
+Portier	3	Pförtner im Hotel|Empfangsmann
+Gastwirt	2	Betreibt eine Kneipe|Wirt
+Florist	2	Bindet Blumensträuße|Arbeitet im Blumenladen
+Uhrmacher	2	Repariert Uhren|Feinmechaniker für Zeitmesser
+Goldschmied	2	Fertigt Schmuck|Fasst Edelsteine
+Juwelier	2	Verkauft Schmuck|Händler mit Edelsteinen
+Töpfer	2	Formt Ton|Arbeitet an der Drehscheibe
+Glaser	2	Setzt Scheiben ein|Repariert Fenster
+Steinmetz	2	Meißelt Grabmale|Bearbeitet Granit
+Bildhauer	2	Schafft Skulpturen|Arbeitet mit Meißel
+Gerber	3	Macht Leder aus Häuten
+Sattler	3	Fertigt Sättel|Verarbeitet Leder
+Küfer	3	Fassmacher|Böttcher
+Böttcher	3	Fassbauer|Stellt Holzfässer her
+Drechsler	3	Bearbeitet Holz an der Bank|Dreht Holz
+Kürschner	3	Verarbeitet Pelze|Pelzmacher
+Hufschmied	3	Beschlägt Pferde|Arbeitet mit Hufeisen
+Köhler	3	Brennt Holzkohle|Arbeitet am Meiler
+Flößer	3	Steuert Stämme flussab
+Fährmann	2	Setzt über den Fluss|Bringt Leute ans andere Ufer
+Kutscher	2	Lenkt Pferdewagen|Sitzt auf dem Bock
+Knecht	2	Hofarbeiter|Dienstbote auf dem Land
+Magd	2	Dienerin auf dem Hof|Stallhelferin früher
+Diener	2	Lakai|Butler, Hausangestellter
+Butler	2	Oberster Hausdiener|Herrschaftlicher Diener
+Zofe	3	Kammerdienerin|Dienerin der Dame
+Page	3	Junger Hoteldiener|Edelknabe am Hof
+Gouvernante	3	Erzieherin im Haus|Hauslehrerin
+Zöllner	3	Zollbeamter|Grenzbeamter
+Henker	3	Vollstrecker|Scharfrichter
+Herold	3	Bote des Königs|Verkünder
+Bote	2	Überbringer|Kurier
+Kurier	2	Eilbote|Lieferfahrer
+Detektiv	2	Privatermittler|Ermittelt im Auftrag
+Kommissar	2	Ermittler der Kripo|Polizeidienstgrad
+Wächter	2	Aufpasser|Wachmann
+Bademeister	2	Aufsicht im Schwimmbad|Rettungsschwimmer
+Schauspieler	2	Steht auf der Bühne|Spielt in Filmen
+Astronaut	1	Raumfahrer|Fliegt zur Raumstation
+Pfarrer	1	Geistlicher in der Gemeinde|Hält die Predigt
+Pastor	2	Evangelischer Geistlicher|Seelsorger
+Küster	3	Mesner|Kirchendiener
+Mesner	3	Kirchendiener (süddeutsch)
+Kanzler	2	Deutscher Regierungschef|Leiter einer Uni-Verwaltung
+Minister	2	Leitet ein Ressort|Kabinettsmitglied
+Präsident	1	Staatsoberhaupt|Vorsitzender
+Bürgermeister	1	Stadtoberhaupt|Chef im Rathaus
+Landrat	2	Leitet den Kreis|Chef der Kreisverwaltung
+Abgeordneter	2	Mitglied im Parlament|Volksvertreter
+Senator	2	Landesminister in Hamburg|Ratsherr im alten Rom
+Botschafter	2	Diplomat im Ausland|Vertreter eines Staates
+Diplomat	2	Unterhändler eines Staates|Geschickter Vermittler
+Gesandter	3	Diplomatischer Vertreter
+Staatsanwalt	2	Ankläger vor Gericht|Erhebt Anklage
+Schöffe	3	Laienrichter
+Vorsitzender	2	Leitet den Verein|Führt die Sitzung
+Kassenwart	3	Verwaltet Vereinsgeld
+Schriftführer	3	Protokollant im Verein
+Kämmerer	3	Finanzchef der Stadt|Hofbeamter früher
+Stadtrat	2	Gemeindeparlament|Mitglied im Rathaus
+Behörde	2	Verwaltungsstelle|Amt
+Ministerium	2	Regierungsbehörde|Ressort
+Rathaus	1	Sitz des Bürgermeisters|Gemeindeverwaltung
+Finanzamt	2	Erhebt Steuern|Prüft die Erklärung
+Gericht	2	Ort der Rechtsprechung|Speise
+Doktor	1	Akademischer Grad|Arzt (umgangssprachlich)
+Magister	3	Alter Uni-Abschluss
+Diplom	2	Abschlusszeugnis|Urkunde über den Abschluss
+Bachelor	2	Erster Studienabschluss
+Master	2	Zweiter Studienabschluss
+Dekan	3	Leiter einer Fakultät
+Rektor	2	Leiter einer Hochschule|Schulleiter
+Fürst	2	Herrscher eines Landes|Adelstitel
+Herzog	2	Hoher Adelstitel
+Freiherr	3	Baron|Adelstitel
+Ritter	1	Kämpfer in Rüstung|Edler zu Pferd
+Kaiser	1	Höchster Herrscher|Monarch über Könige
+Sultan	2	Osmanischer Herrscher
+Emir	3	Arabischer Fürst
+Scheich	2	Beduinenfürst|Oberhaupt in Arabien
+General	2	Hoher Offizier|Heerführer
+Major	2	Offiziersrang|Stabsoffizier
+Leutnant	2	Unterster Offiziersrang
+Hauptmann	2	Offizier über Leutnant|Kompanieführer
+Oberst	2	Offizier über Major
+Feldwebel	3	Unteroffiziersrang
+Gefreiter	3	Mannschaftsdienstgrad
+Kadett	3	Offiziersschüler
+Rekrut	2	Neuer Soldat|Wehrdienstanfänger
+Offizier	2	Militärischer Vorgesetzter
+Unteroffizier	3	Rang über Mannschaften
+Geld	1	Zahlungsmittel|Münzen und Scheine
+Münze	1	Geldstück aus Metall|Hartgeld
+Schein	1	Banknote|Licht, Glanz
+Banknote	2	Geldschein|Papiergeld
+Zins	2	Ertrag für Erspartes|Preis eines Kredits
+Kredit	2	Darlehen|Vertrauenswürdigkeit
+Darlehen	2	Geliehenes Geld
+Schulden	1	Offene Zahlungen|Geliehenes Geld
+Steuer	1	Abgabe an den Staat|Lenkrad
+Gebühr	2	Entgelt für Leistung
+Rabatt	2	Preisnachlass
+Skonto	3	Abzug bei rascher Zahlung
+Rechnung	1	Zahlungsaufforderung|Mathematische Aufgabe
+Quittung	2	Zahlungsbeleg|Empfangsbestätigung
+Beleg	2	Nachweis|Kassenzettel
+Lohn	1	Bezahlung für Arbeit|Verdienst
+Gehalt	2	Monatlicher Verdienst|Anteil eines Stoffes
+Honorar	2	Vergütung freier Arbeit
+Sold	3	Lohn im Militär
+Pension	2	Ruhegeld für Beamte|Gästehaus
+Prämie	2	Bonuszahlung|Belohnung
+Bonus	2	Sonderzahlung|Zusatzvorteil
+Provision	2	Vermittlungslohn
+Spesen	2	Auslagen auf Dienstreise
+Umsatz	2	Summe der Verkäufe|Erlös
+Gewinn	1	Überschuss|Ertrag
+Verlust	1	Minus im Geschäft|Abhandenkommen
+Bilanz	2	Abschlussrechnung|Fazit
+Aktie	2	Anteil an einer AG|Wertpapier
+Börse	2	Handelsplatz für Aktien|Geldbeutel
+Dividende	3	Gewinnanteil je Aktie
+Anleihe	3	Schuldverschreibung
+Fonds	3	Geldtopf zur Anlage
+Inflation	2	Geldentwertung|Teuerung
+Rezession	3	Wirtschaftlicher Abschwung
+Konjunktur	3	Wirtschaftslage
+Export	2	Ausfuhr
+Import	2	Einfuhr
+Zoll	2	Abgabe an der Grenze|Längenmaß
+Handel	1	Kaufen und Verkaufen|Warenverkehr
+Ware	1	Handelsgut|Artikel
+Kunde	1	Käufer|Klient
+Angebot	1	Offerte|Sonderpreis
+Nachfrage	2	Bedarf am Markt|Rückfrage
+Kapital	2	Vermögen einer Firma|Großbuchstabe
+Vermögen	2	Besitz an Geld|Fähigkeit
+Budget	2	Etat|Verfügbares Geld
+Bargeld	1	Münzen und Scheine
+Wechselgeld	2	Rückgeld an der Kasse
+Kleingeld	1	Münzen im Portemonnaie
+Geldbörse	1	Portemonnaie
+Tresor	2	Panzerschrank
+Sparschwein	1	Münzdose in Tiergestalt
+Taschengeld	1	Geld für Kinder|Wöchentliche Zuwendung
+Pfand	2	Sicherheit|Geld für Leergut
+Pacht	3	Miete für Land
+Kaution	2	Mietsicherheit
+Versicherung	2	Schutz gegen Schäden
+Police	3	Versicherungsschein
+Vertrag	1	Vereinbarung|Kontrakt
+Firma	1	Betrieb|Unternehmen
+Betrieb	1	Unternehmen|Geschäftigkeit
+Fabrik	1	Industrieanlage|Werk
+Werk	2	Fabrik|Schöpfung eines Künstlers
+Konzern	2	Großunternehmen
+Filiale	2	Zweigstelle
+Gewerbe	2	Erwerbstätigkeit
+Handwerk	1	Arbeit mit den Händen|Zunftarbeit
+Industrie	2	Fabrikwesen
+Dienstleistung	2	Service gegen Geld
+Arbeit	1	Tätigkeit|Mühe
+Beruf	1	Erlernte Tätigkeit
+Lehre	1	Berufsausbildung|Unterricht
+Ausbildung	1	Berufslehre
+Studium	1	Lernen an der Uni
+Bewerbung	1	Schreiben an eine Firma|Antrag auf eine Stelle
+Zeugnis	1	Noten auf Papier|Arbeitsnachweis
+Lebenslauf	2	Gehört zur Bewerbung
+Kündigung	2	Ende des Arbeitsvertrags
+Streik	2	Arbeitsniederlegung|Ausstand
+Gewerkschaft	2	Arbeitnehmerverband
+Schicht	2	Arbeitszeit im Wechsel|Lage
+Urlaub	1	Freie Tage|Ferien
+Feierabend	1	Arbeitsschluss
+Überstunde	2	Mehrarbeit
+Teilzeit	2	Verkürzte Arbeitszeit
+Kantine	2	Betriebsrestaurant
+Werkstatt	1	Raum für Reparaturen|Raum mit Hobelbank
+Schreibtisch	1	Arbeitsmöbel im Büro
+Akte	2	Ordner mit Vorgang
+Ordner	1	Aktenhefter|Für Unterlagen
+Locher	1	Stanzt Löcher ins Papier
+Hefter	1	Tacker|Mappe
+Tacker	2	Heftgerät
+Stempel	1	Abdruckgerät|Blütenteil
+Kopierer	2	Vervielfältigt Blätter
+Drucker	1	Gerät am Computer|Bringt Text aufs Papier
+Formular	2	Vordruck
+Antrag	2	Gesuch|Heiratsfrage
+Termin	1	Verabredung|Frist
+Sitzung	2	Besprechung|Versammlung
+Konferenz	2	Tagung|Besprechung
+Protokoll	2	Mitschrift|Niederschrift
+Kalender	1	Jahresübersicht
+Papierkorb	1	Abfallbehälter
+Büroklammer	1	Hält Blätter zusammen
+Textmarker	2	Leuchtstift
+Umschlag	1	Briefhülle|Wendepunkt
+Kuvert	2	Briefumschlag
+Briefmarke	1	Postwertzeichen
+Archiv	2	Ablage|Dokumentensammlung
+Telefon	1	Fernsprecher
+Diktat	2	Gesprochenes zum Abschreiben
+Sekretariat	2	Vorzimmer|Büro der Leitung
+Empfang	2	Rezeption|Feier
+Visitenkarte	2	Kärtchen mit Adresse
+Aktentasche	2	Tasche für Unterlagen
+Unterschrift	2	Signatur|Namenszug

@@ -1,0 +1,1852 @@
+{
+  "beschreibung": "Raten, Treffer, Fehler, Gewinnen, Verlieren, Umlaute, Groß/klein, Hinweise, Lösen. Schritt '?' = Hinweis mit SplitMix64(seed), 'loesen' = ganzes Wort (loese(eingabe)), sonst raten(zeichen). Nach jedem Schritt gelten anzeige, fehler, falsche, hinweise, hinweis_moeglich, status.",
+  "max_fehler": 8,
+  "max_hinweise": 2,
+  "loesen_strafe": 2,
+  "verdeckt": "_",
+  "faelle": [
+    {
+      "name": "Treffer, Fehler, Gewinn",
+      "sprache": "de",
+      "wort": "Apfel",
+      "loesung": "APFEL",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "a",
+          "ergebnis": "treffer",
+          "anzeige": "A____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "X",
+          "ergebnis": "fehler",
+          "anzeige": "A____",
+          "fehler": 1,
+          "falsche": "X",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "p",
+          "ergebnis": "treffer",
+          "anzeige": "AP___",
+          "fehler": 1,
+          "falsche": "X",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "e",
+          "ergebnis": "treffer",
+          "anzeige": "AP_E_",
+          "fehler": 1,
+          "falsche": "X",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "l",
+          "ergebnis": "treffer",
+          "anzeige": "AP_EL",
+          "fehler": 1,
+          "falsche": "X",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "f",
+          "ergebnis": "treffer",
+          "anzeige": "APFEL",
+          "fehler": 1,
+          "falsche": "X",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Groß- und Kleinschreibung zählen gleich",
+      "sprache": "de",
+      "wort": "Banane",
+      "loesung": "BANANE",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "b",
+          "ergebnis": "treffer",
+          "anzeige": "B_____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "A",
+          "ergebnis": "treffer",
+          "anzeige": "BA_A__",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "N",
+          "ergebnis": "treffer",
+          "anzeige": "BANAN_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "n",
+          "ergebnis": "schon_geraten",
+          "anzeige": "BANAN_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "E",
+          "ergebnis": "treffer",
+          "anzeige": "BANANE",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Doppelt raten kostet nichts",
+      "sprache": "de",
+      "wort": "Hund",
+      "loesung": "HUND",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "h",
+          "ergebnis": "treffer",
+          "anzeige": "H___",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "h",
+          "ergebnis": "schon_geraten",
+          "anzeige": "H___",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "z",
+          "ergebnis": "fehler",
+          "anzeige": "H___",
+          "fehler": 1,
+          "falsche": "Z",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "z",
+          "ergebnis": "schon_geraten",
+          "anzeige": "H___",
+          "fehler": 1,
+          "falsche": "Z",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "u",
+          "ergebnis": "treffer",
+          "anzeige": "HU__",
+          "fehler": 1,
+          "falsche": "Z",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "n",
+          "ergebnis": "treffer",
+          "anzeige": "HUN_",
+          "fehler": 1,
+          "falsche": "Z",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "d",
+          "ergebnis": "treffer",
+          "anzeige": "HUND",
+          "fehler": 1,
+          "falsche": "Z",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Ungültige Zeichen kosten nichts",
+      "sprache": "de",
+      "wort": "Igel",
+      "loesung": "IGEL",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "1",
+          "ergebnis": "ungueltig",
+          "anzeige": "____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "ß",
+          "ergebnis": "ungueltig",
+          "anzeige": "____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "ab",
+          "ergebnis": "ungueltig",
+          "anzeige": "____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "",
+          "ergebnis": "ungueltig",
+          "anzeige": "____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": " ",
+          "ergebnis": "ungueltig",
+          "anzeige": "____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "-",
+          "ergebnis": "ungueltig",
+          "anzeige": "____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "é",
+          "ergebnis": "ungueltig",
+          "anzeige": "____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "i",
+          "ergebnis": "treffer",
+          "anzeige": "I___",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "g",
+          "ergebnis": "treffer",
+          "anzeige": "IG__",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "e",
+          "ergebnis": "treffer",
+          "anzeige": "IGE_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "l",
+          "ergebnis": "treffer",
+          "anzeige": "IGEL",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Verlieren nach 8 Fehlern, Wort wird gezeigt",
+      "sprache": "de",
+      "wort": "Zebra",
+      "loesung": "ZEBRA",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "q",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 1,
+          "falsche": "Q",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "w",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 2,
+          "falsche": "QW",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "x",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 3,
+          "falsche": "QWX",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "y",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 4,
+          "falsche": "QWXY",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "u",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 5,
+          "falsche": "QWXYU",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "i",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 6,
+          "falsche": "QWXYUI",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "o",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 7,
+          "falsche": "QWXYUIO",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "k",
+          "ergebnis": "fehler",
+          "anzeige": "ZEBRA",
+          "fehler": 8,
+          "falsche": "QWXYUIOK",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "verloren"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "z",
+          "ergebnis": "vorbei",
+          "anzeige": "ZEBRA",
+          "fehler": 8,
+          "falsche": "QWXYUIOK",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "verloren"
+        }
+      ]
+    },
+    {
+      "name": "Nach dem Ende wird nichts mehr gezählt",
+      "sprache": "de",
+      "wort": "Tor",
+      "loesung": "TOR",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "t",
+          "ergebnis": "treffer",
+          "anzeige": "T__",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "o",
+          "ergebnis": "treffer",
+          "anzeige": "TO_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "r",
+          "ergebnis": "treffer",
+          "anzeige": "TOR",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "a",
+          "ergebnis": "vorbei",
+          "anzeige": "TOR",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Umlaut ist ein eigener Buchstabe",
+      "sprache": "de",
+      "wort": "Käse",
+      "loesung": "KÄSE",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "a",
+          "ergebnis": "fehler",
+          "anzeige": "____",
+          "fehler": 1,
+          "falsche": "A",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "k",
+          "ergebnis": "treffer",
+          "anzeige": "K___",
+          "fehler": 1,
+          "falsche": "A",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "ä",
+          "ergebnis": "treffer",
+          "anzeige": "KÄ__",
+          "fehler": 1,
+          "falsche": "A",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "s",
+          "ergebnis": "treffer",
+          "anzeige": "KÄS_",
+          "fehler": 1,
+          "falsche": "A",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "e",
+          "ergebnis": "treffer",
+          "anzeige": "KÄSE",
+          "fehler": 1,
+          "falsche": "A",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Umlaut klein geraten",
+      "sprache": "de",
+      "wort": "Möhre",
+      "loesung": "MÖHRE",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "m",
+          "ergebnis": "treffer",
+          "anzeige": "M____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "ö",
+          "ergebnis": "treffer",
+          "anzeige": "MÖ___",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "h",
+          "ergebnis": "treffer",
+          "anzeige": "MÖH__",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "r",
+          "ergebnis": "treffer",
+          "anzeige": "MÖHR_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "e",
+          "ergebnis": "treffer",
+          "anzeige": "MÖHRE",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Großes Ö am Wortanfang",
+      "sprache": "de",
+      "wort": "Österreich",
+      "loesung": "ÖSTERREICH",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "o",
+          "ergebnis": "fehler",
+          "anzeige": "__________",
+          "fehler": 1,
+          "falsche": "O",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "Ö",
+          "ergebnis": "treffer",
+          "anzeige": "Ö_________",
+          "fehler": 1,
+          "falsche": "O",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "s",
+          "ergebnis": "treffer",
+          "anzeige": "ÖS________",
+          "fehler": 1,
+          "falsche": "O",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "t",
+          "ergebnis": "treffer",
+          "anzeige": "ÖST_______",
+          "fehler": 1,
+          "falsche": "O",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "e",
+          "ergebnis": "treffer",
+          "anzeige": "ÖSTE__E___",
+          "fehler": 1,
+          "falsche": "O",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "r",
+          "ergebnis": "treffer",
+          "anzeige": "ÖSTERRE___",
+          "fehler": 1,
+          "falsche": "O",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "i",
+          "ergebnis": "treffer",
+          "anzeige": "ÖSTERREI__",
+          "fehler": 1,
+          "falsche": "O",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "c",
+          "ergebnis": "treffer",
+          "anzeige": "ÖSTERREIC_",
+          "fehler": 1,
+          "falsche": "O",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "h",
+          "ergebnis": "treffer",
+          "anzeige": "ÖSTERREICH",
+          "fehler": 1,
+          "falsche": "O",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Bindestrich ist offen",
+      "sprache": "de",
+      "wort": "U-Bahn",
+      "loesung": "U-BAHN",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "u",
+          "ergebnis": "treffer",
+          "anzeige": "U-____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "b",
+          "ergebnis": "treffer",
+          "anzeige": "U-B___",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "a",
+          "ergebnis": "treffer",
+          "anzeige": "U-BA__",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "h",
+          "ergebnis": "treffer",
+          "anzeige": "U-BAH_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "n",
+          "ergebnis": "treffer",
+          "anzeige": "U-BAHN",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Leerzeichen ist offen",
+      "sprache": "en",
+      "wort": "alarm clock",
+      "loesung": "ALARM CLOCK",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "a",
+          "ergebnis": "treffer",
+          "anzeige": "A_A__ _____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "l",
+          "ergebnis": "treffer",
+          "anzeige": "ALA__ _L___",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "r",
+          "ergebnis": "treffer",
+          "anzeige": "ALAR_ _L___",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "m",
+          "ergebnis": "treffer",
+          "anzeige": "ALARM _L___",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "c",
+          "ergebnis": "treffer",
+          "anzeige": "ALARM CL_C_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "o",
+          "ergebnis": "treffer",
+          "anzeige": "ALARM CLOC_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "k",
+          "ergebnis": "treffer",
+          "anzeige": "ALARM CLOCK",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Englisch kennt keine Umlaute",
+      "sprache": "en",
+      "wort": "cheese",
+      "loesung": "CHEESE",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "ä",
+          "ergebnis": "ungueltig",
+          "anzeige": "______",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "ö",
+          "ergebnis": "ungueltig",
+          "anzeige": "______",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "ü",
+          "ergebnis": "ungueltig",
+          "anzeige": "______",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "c",
+          "ergebnis": "treffer",
+          "anzeige": "C_____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "h",
+          "ergebnis": "treffer",
+          "anzeige": "CH____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "e",
+          "ergebnis": "treffer",
+          "anzeige": "CHEE_E",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "s",
+          "ergebnis": "treffer",
+          "anzeige": "CHEESE",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "e",
+          "ergebnis": "vorbei",
+          "anzeige": "CHEESE",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Verlieren auf Englisch",
+      "sprache": "en",
+      "wort": "jam",
+      "loesung": "JAM",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "b",
+          "ergebnis": "fehler",
+          "anzeige": "___",
+          "fehler": 1,
+          "falsche": "B",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "c",
+          "ergebnis": "fehler",
+          "anzeige": "___",
+          "fehler": 2,
+          "falsche": "BC",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "d",
+          "ergebnis": "fehler",
+          "anzeige": "___",
+          "fehler": 3,
+          "falsche": "BCD",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "e",
+          "ergebnis": "fehler",
+          "anzeige": "___",
+          "fehler": 4,
+          "falsche": "BCDE",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "f",
+          "ergebnis": "fehler",
+          "anzeige": "___",
+          "fehler": 5,
+          "falsche": "BCDEF",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "g",
+          "ergebnis": "fehler",
+          "anzeige": "___",
+          "fehler": 6,
+          "falsche": "BCDEFG",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "h",
+          "ergebnis": "fehler",
+          "anzeige": "___",
+          "fehler": 7,
+          "falsche": "BCDEFGH",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "i",
+          "ergebnis": "fehler",
+          "anzeige": "JAM",
+          "fehler": 8,
+          "falsche": "BCDEFGHI",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "verloren"
+        }
+      ]
+    },
+    {
+      "name": "Hinweis deckt alle Stellen auf",
+      "sprache": "de",
+      "wort": "Banane",
+      "loesung": "BANANE",
+      "max_fehler": 8,
+      "seed": 7,
+      "schritte": [
+        {
+          "aktion": "hinweis",
+          "ergebnis": "ok",
+          "buchstabe": "N",
+          "anzeige": "__N_N_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 1,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "hinweis",
+          "ergebnis": "ok",
+          "buchstabe": "A",
+          "anzeige": "_ANAN_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 2,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "hinweis",
+          "ergebnis": "nicht_moeglich",
+          "buchstabe": null,
+          "anzeige": "_ANAN_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 2,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        }
+      ]
+    },
+    {
+      "name": "Höchstens zwei Hinweise",
+      "sprache": "de",
+      "wort": "Schmetterling",
+      "loesung": "SCHMETTERLING",
+      "max_fehler": 8,
+      "seed": 42,
+      "schritte": [
+        {
+          "aktion": "hinweis",
+          "ergebnis": "ok",
+          "buchstabe": "S",
+          "anzeige": "S____________",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 1,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "hinweis",
+          "ergebnis": "ok",
+          "buchstabe": "E",
+          "anzeige": "S___E__E_____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 2,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "hinweis",
+          "ergebnis": "nicht_moeglich",
+          "buchstabe": null,
+          "anzeige": "S___E__E_____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 2,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "e",
+          "ergebnis": "schon_geraten",
+          "anzeige": "S___E__E_____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 2,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        }
+      ]
+    },
+    {
+      "name": "Kein Hinweis beim letzten verdeckten Buchstaben",
+      "sprache": "de",
+      "wort": "Hase",
+      "loesung": "HASE",
+      "max_fehler": 8,
+      "seed": 3,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "h",
+          "ergebnis": "treffer",
+          "anzeige": "H___",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "a",
+          "ergebnis": "treffer",
+          "anzeige": "HA__",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "s",
+          "ergebnis": "treffer",
+          "anzeige": "HAS_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "hinweis",
+          "ergebnis": "nicht_moeglich",
+          "buchstabe": null,
+          "anzeige": "HAS_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        }
+      ]
+    },
+    {
+      "name": "Hinweis nach Fehlern, Fehler bleiben",
+      "sprache": "de",
+      "wort": "Giraffe",
+      "loesung": "GIRAFFE",
+      "max_fehler": 8,
+      "seed": 11,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "x",
+          "ergebnis": "fehler",
+          "anzeige": "_______",
+          "fehler": 1,
+          "falsche": "X",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "y",
+          "ergebnis": "fehler",
+          "anzeige": "_______",
+          "fehler": 2,
+          "falsche": "XY",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "z",
+          "ergebnis": "fehler",
+          "anzeige": "_______",
+          "fehler": 3,
+          "falsche": "XYZ",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "hinweis",
+          "ergebnis": "ok",
+          "buchstabe": "G",
+          "anzeige": "G______",
+          "fehler": 3,
+          "falsche": "XYZ",
+          "hinweise": 1,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "g",
+          "ergebnis": "schon_geraten",
+          "anzeige": "G______",
+          "fehler": 3,
+          "falsche": "XYZ",
+          "hinweise": 1,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        }
+      ]
+    },
+    {
+      "name": "Kein Hinweis nach dem Ende",
+      "sprache": "de",
+      "wort": "Bus",
+      "loesung": "BUS",
+      "max_fehler": 8,
+      "seed": 5,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "b",
+          "ergebnis": "treffer",
+          "anzeige": "B__",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "u",
+          "ergebnis": "treffer",
+          "anzeige": "BU_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "s",
+          "ergebnis": "treffer",
+          "anzeige": "BUS",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        },
+        {
+          "aktion": "hinweis",
+          "ergebnis": "nicht_moeglich",
+          "buchstabe": null,
+          "anzeige": "BUS",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Hinweis-Buchstabe nochmal raten",
+      "sprache": "en",
+      "wort": "rabbit",
+      "loesung": "RABBIT",
+      "max_fehler": 8,
+      "seed": 2,
+      "schritte": [
+        {
+          "aktion": "hinweis",
+          "ergebnis": "ok",
+          "buchstabe": "A",
+          "anzeige": "_A____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 1,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "r",
+          "ergebnis": "treffer",
+          "anzeige": "RA____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 1,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "a",
+          "ergebnis": "schon_geraten",
+          "anzeige": "RA____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 1,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "b",
+          "ergebnis": "treffer",
+          "anzeige": "RABB__",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 1,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "i",
+          "ergebnis": "treffer",
+          "anzeige": "RABBI_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 1,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "t",
+          "ergebnis": "treffer",
+          "anzeige": "RABBIT",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 1,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Lösen richtig, auch klein geschrieben",
+      "sprache": "de",
+      "wort": "Giraffe",
+      "loesung": "GIRAFFE",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "g",
+          "ergebnis": "treffer",
+          "anzeige": "G______",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "loesen",
+          "eingabe": "giraffe",
+          "ergebnis": "geloest",
+          "anzeige": "GIRAFFE",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "x",
+          "ergebnis": "vorbei",
+          "anzeige": "GIRAFFE",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Lösen falsch kostet 2 Ballons, gleicher Versuch nur einmal",
+      "sprache": "de",
+      "wort": "Giraffe",
+      "loesung": "GIRAFFE",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "loesen",
+          "eingabe": "Gitarre",
+          "ergebnis": "falsch",
+          "anzeige": "_______",
+          "fehler": 2,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "loesen",
+          "eingabe": "gitarre",
+          "ergebnis": "schon_versucht",
+          "anzeige": "_______",
+          "fehler": 2,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "x",
+          "ergebnis": "fehler",
+          "anzeige": "_______",
+          "fehler": 3,
+          "falsche": "X",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "loesen",
+          "eingabe": "Garage",
+          "ergebnis": "falsch",
+          "anzeige": "_______",
+          "fehler": 5,
+          "falsche": "X",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        }
+      ]
+    },
+    {
+      "name": "Lösen ungültig kostet nichts",
+      "sprache": "de",
+      "wort": "Igel",
+      "loesung": "IGEL",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "loesen",
+          "eingabe": "",
+          "ergebnis": "ungueltig",
+          "anzeige": "____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "loesen",
+          "eingabe": "ab",
+          "ergebnis": "ungueltig",
+          "anzeige": "____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "loesen",
+          "eingabe": "Igel1",
+          "ergebnis": "ungueltig",
+          "anzeige": "____",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "loesen",
+          "eingabe": "Hund",
+          "ergebnis": "falsch",
+          "anzeige": "____",
+          "fehler": 2,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "i",
+          "ergebnis": "treffer",
+          "anzeige": "I___",
+          "fehler": 2,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        }
+      ]
+    },
+    {
+      "name": "Lösen mit Umlaut und ß",
+      "sprache": "de",
+      "wort": "Schildkröte",
+      "loesung": "SCHILDKRÖTE",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "loesen",
+          "eingabe": "SCHILDKRÖTE",
+          "ergebnis": "geloest",
+          "anzeige": "SCHILDKRÖTE",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "ß im Lösen wird zu SS",
+      "sprache": "de",
+      "wort": "Fluss",
+      "loesung": "FLUSS",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "loesen",
+          "eingabe": "Fluß",
+          "ergebnis": "geloest",
+          "anzeige": "FLUSS",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Lösen mit Leerzeichen",
+      "sprache": "en",
+      "wort": "ice cream",
+      "loesung": "ICE CREAM",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "loesen",
+          "eingabe": "icecream",
+          "ergebnis": "falsch",
+          "anzeige": "___ _____",
+          "fehler": 2,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "loesen",
+          "eingabe": "ice  cream",
+          "ergebnis": "geloest",
+          "anzeige": "ICE CREAM",
+          "fehler": 2,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    },
+    {
+      "name": "Falsches Lösen am Ende verliert, Fehler höchstens 8",
+      "sprache": "de",
+      "wort": "Zebra",
+      "loesung": "ZEBRA",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "q",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 1,
+          "falsche": "Q",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "w",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 2,
+          "falsche": "QW",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "x",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 3,
+          "falsche": "QWX",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "y",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 4,
+          "falsche": "QWXY",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "u",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 5,
+          "falsche": "QWXYU",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "i",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 6,
+          "falsche": "QWXYUI",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "o",
+          "ergebnis": "fehler",
+          "anzeige": "_____",
+          "fehler": 7,
+          "falsche": "QWXYUIO",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "loesen",
+          "eingabe": "Zebus",
+          "ergebnis": "falsch",
+          "anzeige": "ZEBRA",
+          "fehler": 8,
+          "falsche": "QWXYUIO",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "verloren"
+        }
+      ]
+    },
+    {
+      "name": "Kein Lösen nach dem Ende",
+      "sprache": "de",
+      "wort": "Bus",
+      "loesung": "BUS",
+      "max_fehler": 8,
+      "seed": 1,
+      "schritte": [
+        {
+          "aktion": "raten",
+          "zeichen": "b",
+          "ergebnis": "treffer",
+          "anzeige": "B__",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": true,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "u",
+          "ergebnis": "treffer",
+          "anzeige": "BU_",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "laeuft"
+        },
+        {
+          "aktion": "raten",
+          "zeichen": "s",
+          "ergebnis": "treffer",
+          "anzeige": "BUS",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        },
+        {
+          "aktion": "loesen",
+          "eingabe": "Bus",
+          "ergebnis": "vorbei",
+          "anzeige": "BUS",
+          "fehler": 0,
+          "falsche": "",
+          "hinweise": 0,
+          "hinweis_moeglich": false,
+          "status": "gewonnen"
+        }
+      ]
+    }
+  ]
+}

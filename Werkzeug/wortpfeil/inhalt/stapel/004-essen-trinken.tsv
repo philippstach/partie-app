@@ -1,0 +1,268 @@
+# 004 Essen und Trinken – geschrieben von Claude
+Ei	1	Vom Huhn gelegt|Ostersymbol
+Tee	1	Aufgussgetränk|Heißgetränk aus Blättern
+Öl	1	Fett zum Braten|Salatzutat aus Oliven
+Eis	1	Gefrorene Leckerei|Kugeln in der Waffel
+Brot	1	Laib aus dem Ofen|Bäckerware aus Sauerteig
+Salz	1	Natriumchlorid|Würze neben Pfeffer
+Reis	1	Asiatisches Getreide|Körner für Risotto
+Mehl	1	Gemahlenes Getreide|Backzutat aus Weizen
+Milch	1	Weißes Getränk der Kuh|Grundstoff für Butter
+Saft	1	Gepresstes Fruchtgetränk|Obstgetränk
+Wein	2	Getränk aus Trauben|Rebensaft, vergoren
+Bier	2	Gerstengetränk|Gebraut aus Hopfen und Malz
+Most	2	Junger Fruchtsaft|Unvergorener Apfelsaft
+Topf	1	Kochgefäß mit Deckel
+Herd	1	Kochstelle in der Küche
+Ofen	1	Backrohr|Gerät zum Backen
+Sieb	1	Gerät zum Abgießen|Seiher
+Gabel	1	Essbesteck mit Zinken
+Kelle	2	Schöpflöffel|Werkzeug des Maurers
+Wok	2	Asiatische Pfanne
+Rost	2	Grillgitter|Eisenoxid
+Apfel	1	Häufigstes Kernobst|Obst für Strudel
+Birne	1	Kernobst|Glühlampe
+Kiwi	1	Grüne Frucht mit Pelzhaut|Laufvogel Neuseelands
+Feige	2	Frucht des Ficus
+Beere	1	Kleine Frucht am Strauch
+Nuss	1	Hartschalige Frucht
+Mango	2	Tropische Steinfrucht
+Lauch	2	Porree|Zwiebelgemüse in Stangen
+Kohl	1	Gemüse für Sauerkraut|Kopfgemüse
+Rübe	2	Wurzelgemüse|Zuckerpflanze
+Mais	1	Kolbengetreide|Grundstoff für Popcorn
+Erbse	1	Kleine grüne Hülsenfrucht
+Bohne	1	Hülsenfrucht|Kaffeekern
+Linse	2	Hülsenfrucht für Eintopf|Optisches Glas
+Gurke	1	Grünes Salatgemüse|Kürbisgewächs
+Dill	2	Gurkenkraut|Fischgewürz
+Minze	2	Kraut im Mojito|Frisches Teekraut
+Zimt	2	Rindengewürz|Gewürz für Milchreis
+Anis	2	Lakritzgewürz|Gewürz im Ouzo
+Senf	1	Würzpaste zur Bratwurst
+Essig	1	Saure Würze aus Wein
+Curry	2	Indische Gewürzmischung
+Chili	2	Scharfe Schote
+Nelke	2	Lebkuchengewürz|Blume
+Honig	1	Süßes von Bienen|Brotaufstrich der Imker
+Sirup	2	Dickflüssiger Zuckersaft
+Quark	1	Frischkäse aus Milch|Topfen
+Käse	1	Milchprodukt mit Lab
+Sahne	1	Rahm|Schlagobers
+Rahm	2	Fetter Teil der Milch
+Wurst	1	Fleisch im Darm
+Speck	1	Durchwachsenes Schweinefett
+Steak	2	Kurz gebratene Fleischscheibe
+Suppe	1	Flüssiges Gericht
+Brei	1	Mus für Babys|Haferschleim
+Mus	2	Pürierte Früchte|Breiige Speise
+Soße	1	Bratensaft|Tunke
+Dip	2	Tunke für Chips
+Pizza	1	Italienischer Teigfladen
+Pasta	2	Italienisch: Nudeln
+Nudel	1	Teigware
+Tofu	2	Sojaquark
+Sushi	2	Japanischer Reishappen
+Taco	2	Mexikanische Teigtasche
+Kebab	2	Gegrilltes Spießfleisch
+Torte	1	Feiner Schichtkuchen
+Keks	1	Kleines Gebäck|Plätzchen
+Toast	1	Geröstete Brotscheibe|Trinkspruch
+Flan	3	Karamellpudding
+Aal	2	Schlangenartiger Fisch|Räucherfisch
+Lachs	1	Rosa Speisefisch
+Grog	2	Heißes Rumgetränk
+Rum	2	Zuckerrohrschnaps
+Gin	2	Wacholderschnaps
+Sekt	2	Deutscher Schaumwein
+Kakao	1	Schokoladengetränk
+Mokka	2	Starker Kaffee
+Limo	1	Brause
+Met	3	Honigwein
+Sake	3	Japanischer Reiswein
+Ouzo	3	Griechischer Anisschnaps
+Raki	3	Türkischer Anisschnaps
+Wodka	2	Russischer Schnaps
+Likör	2	Süßer Branntwein
+Bowle	2	Gemischtes Partygetränk
+Mahl	2	Festessen|Essen (gehoben)
+Diät	2	Schonkost|Abnehmkur
+Koch	1	Beruf in der Küche|Küchenchef
+Menü	2	Speisenfolge
+Gang	2	Teil der Speisenfolge
+Glas	1	Durchsichtiges Trinkgefäß
+Tasse	1	Kaffeegefäß mit Henkel
+Krug	2	Bauchiges Gefäß mit Henkel
+Kanne	1	Gefäß mit Tülle
+Napf	2	Futterschüssel
+Mixer	2	Elektrischer Quirl
+Reibe	2	Gerät für Käse und Möhren
+Quirl	2	Rührgerät|Schneebesen
+Wiege	3	Kräutermesser|Babybett zum Schaukeln
+Grill	1	Rost über Holzkohle
+garen	2	Schonend zubereiten|Bis zum Ende kochen
+Essen	1	Mahlzeit|Speise
+kauen	1	Mit Zähnen zerkleinern
+Gans	1	Martinsbraten
+Ente	1	Geflügel mit Orangensoße|Peking-Spezialität
+Huhn	1	Suppengeflügel|Eierleger
+Pute	2	Truthenne
+Rind	1	Schlachtvieh für Steaks
+Kalb	2	Junges Rind|Schnitzelfleisch
+Lamm	2	Junges Schaf|Osterbraten
+Wild	2	Fleisch von Reh und Hirsch
+Hack	2	Faschiertes|Gemahlenes Fleisch
+Leber	2	Innerei mit Zwiebeln
+Niere	3	Innerei|Harnorgan
+Filet	2	Lendenstück|Grätenfreies Fischstück
+Brühe	1	Klare Suppe
+Chips	1	Knabberkartoffeln
+Kloß	1	Knödel
+Pilz	1	Champignon etwa
+Okra	3	Afrikanisches Schotengemüse
+Soja	2	Bohne für Tofu
+Sago	3	Palmstärke
+Kren	3	Meerrettich (österr.)
+Olive	2	Steinfrucht für Öl
+Kaper	3	Eingelegte Blütenknospe
+Bete	3	Rote ... (Gemüse)
+Rauke	3	Rucola
+Kraut	1	Weißkohl (südd.)|Petersilie etwa
+Kaki	3	Sharonfrucht
+Guave	3	Tropenfrucht mit rosa Fleisch
+Obst	1	Äpfel und Birnen
+Mohn	2	Samen auf Brötchen
+Sesam	2	Ölsaat|Samen auf Burgerbrötchen
+Krebs	2	Schalentier mit Scheren
+Hecht	2	Raubfisch aus Seen
+Rogen	3	Fischeier
+Teig	1	Masse aus Mehl und Wasser
+Hefe	2	Triebmittel für Brot
+Krume	3	Inneres des Brotes|Brotkrümel
+Laib	2	Ganzes Brot
+Zopf	2	Geflochtenes Hefegebäck
+Snack	2	Kleiner Imbiss
+Tafel	2	Festlich gedeckter Tisch
+Wirt	2	Inhaber eines Lokals
+Mensa	2	Kantine der Uni
+Bar	2	Lokal mit Tresen
+Café	2	Kaffeehaus
+Theke	2	Tresen|Verkaufstisch
+Durst	1	Wunsch zu trinken
+Gusto	3	Appetit (österr.)
+Fett	1	Butter, Öl oder Schmalz
+Zutat	2	Teil eines Rezepts
+Prise	2	Wenig Salz|Messerspitze
+Kefir	3	Sauermilchgetränk
+Ayran	3	Türkisches Joghurtgetränk
+Lassi	3	Indisches Joghurtgetränk
+Chai	3	Indischer Gewürztee
+Mate	3	Südamerikanischer Tee
+Cidre	3	Französischer Apfelwein
+Pils	2	Herbes helles Bier
+Alt	3	Dunkles Bier vom Rhein
+Kaffee	1	Getränk aus Bohnen|Muntermacher am Morgen
+Kuchen	1	Gebäck zum Geburtstag|Gebäck vom Blech
+Pfanne	1	Bratgefäß mit Stiel
+Löffel	1	Suppenbesteck
+Messer	1	Schneidbesteck|Klinge mit Griff
+Teller	1	Essgeschirr|Flaches Geschirrteil
+Becher	1	Trinkgefäß ohne Henkel
+Schale	1	Obsthülle|Flaches Gefäß
+Bräter	3	Schmortopf|Topf für Gänsebraten
+Tiegel	3	Flache Pfanne
+Butter	1	Brotaufstrich aus Sahne
+Zucker	1	Süßungsmittel|Raffinade
+Hering	2	Matjes|Fisch der Nordsee
+Dorsch	2	Kabeljau|Ostseefisch
+Kaviar	2	Störeier|Edle Fischeier
+Hummer	2	Edles Krustentier
+Ragout	2	Gericht aus Fleischstücken
+Püree	2	Kartoffelbrei|Mus
+Pommes	1	Fritten
+Knödel	1	Kloß|Beilage aus Kartoffelteig
+Brezel	1	Laugengebäck
+Semmel	2	Brötchen (südd.)
+Müsli	1	Haferflockenfrühstück
+Waffel	1	Gebäck aus dem Eisen|Hülle für Eiskugeln
+Dattel	2	Frucht der Palme
+Melone	1	Große saftige Frucht|Steifer Herrenhut
+Traube	1	Weinbeere
+Banane	1	Gelbe Tropenfrucht|Krumme Frucht
+Ananas	1	Tropenfrucht mit Schopf
+Orange	1	Apfelsine
+Zitrone	1	Saure gelbe Frucht
+Kirsche	1	Rote Steinfrucht
+Mandel	2	Kern für Marzipan
+Möhre	1	Karotte|Gelbe Rübe
+Tomate	1	Paradeiser|Rotes Nachtschattengewächs
+Spinat	1	Blattgemüse
+Spargel	2	Edelgemüse im Frühling
+Paprika	1	Gemüseschote|Rotes Gewürzpulver
+Kürbis	1	Halloween-Frucht
+Zwiebel	1	Gemüse, das Tränen treibt
+Pfeffer	1	Scharfes Körnergewürz
+Safran	2	Teuerstes Gewürz
+Kümmel	2	Brotgewürz|Gewürz im Sauerkraut
+Ingwer	2	Scharfe Wurzel
+Muskat	2	Nussgewürz
+Salbei	2	Heilkraut gegen Halsweh
+Lorbeer	2	Gewürzblatt|Siegerkranz
+Thymian	2	Kraut der Provence
+Vanille	1	Gewürzschote aus Orchideen
+Quitte	3	Gelbe Kernfrucht für Gelee
+dünsten	2	Im eigenen Saft garen
+braten	1	In der Pfanne garen
+backen	1	Im Ofen garen
+kochen	1	In Wasser garen
+sieden	2	Sprudelnd kochen
+rösten	2	Ohne Fett braun braten
+kneten	1	Teig durcharbeiten
+rühren	1	Mit dem Löffel mischen
+schälen	1	Haut abziehen
+würzen	1	Pfeffer und Salz zugeben
+Imbiss	2	Schnelle Mahlzeit|Kleiner Snack
+Rezept	1	Kochanleitung
+Gulasch	2	Ungarisches Fleischgericht
+Eintopf	1	Gericht aus einem Topf
+Lasagne	2	Überbackene Nudelplatten
+Omelett	2	Eierspeise aus der Pfanne
+Rührei	1	Gebratene verquirlte Eier
+Wasser	1	Durstlöscher|H2O
+Punsch	2	Heißes Mischgetränk
+Hunger	1	Lust auf Essen|Knurrender Magen
+Kühlschrank	1	Gerät zum Frischhalten
+Backofen	1	Ofen im Herd
+Nudelholz	1	Teigrolle
+Schneebesen	1	Quirl für Sahne
+Korkenzieher	1	Flaschenöffner für Wein
+Kartoffel	1	Erdapfel|Knolle
+Knoblauch	1	Würzknolle|Mittel gegen Vampire
+Erdbeere	1	Rote Frühsommerfrucht
+Himbeere	1	Rote Beere am Strauch
+Aprikose	1	Marille
+Pfirsich	1	Samtige Steinfrucht
+Johannisbeere	2	Ribisel|Rote Gartenbeere
+Heidelbeere	1	Blaubeere
+Rhabarber	2	Saures Stangengemüse
+Walnuss	1	Nuss mit Hirnform
+Haselnuss	1	Nuss für Nougat
+Schokolade	1	Süßigkeit aus Kakao
+Marmelade	1	Brotaufstrich aus Obst
+Pudding	1	Süße Nachspeise
+Joghurt	1	Sauermilchprodukt
+Pfannkuchen	1	Eierkuchen|Crêpe
+Bratwurst	1	Wurst vom Grill
+Frikadelle	1	Bulette|Fleischpflanzerl
+Sauerkraut	1	Vergorener Weißkohl
+Spätzle	2	Schwäbische Teigware
+Risotto	2	Italienisches Reisgericht
+Spiegelei	1	Eierspeise mit Dotter
+Schnitzel	1	Paniertes Fleisch
+Brötchen	1	Semmel|Schrippe
+Espresso	2	Kleiner starker Kaffee
+Limonade	1	Süßes Sprudelgetränk
+Zucchini	2	Gemüsekürbis
+Blumenkohl	1	Karfiol|Weißes Kohlgemüse
+Aubergine	2	Eierfrucht|Melanzani
+Artischocke	3	Distelgemüse

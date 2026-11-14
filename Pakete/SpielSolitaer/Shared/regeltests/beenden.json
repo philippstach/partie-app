@@ -1,0 +1,510 @@
+{
+ "beschreibung": "can_auto_finish(start) und auto_finish_moves(start).",
+ "faelle": [
+  {
+   "titel": "alles offen: beenden",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QH",
+       "JS",
+       "TH",
+       "9S",
+       "8H",
+       "7S",
+       "6H",
+       "5S",
+       "4H",
+       "3S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "QS",
+       "JH",
+       "TS",
+       "9H",
+       "8S",
+       "7H",
+       "6S",
+       "5H",
+       "4S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD",
+       "QC",
+       "JD",
+       "TC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC",
+       "QD",
+       "JC",
+       "TD",
+       "9C",
+       "8D",
+       "7C",
+       "6D",
+       "5C",
+       "4D",
+       "3C",
+       "2D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9D",
+       "8C",
+       "7D",
+       "6C",
+       "5D",
+       "4C",
+       "3D",
+       "2C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "3H",
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2H"
+      ]
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "moeglich": true,
+   "zuege": [
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "noch Karte im Stapel",
+   "start": {
+    "ziehen": 1,
+    "stapel": [
+     "2H"
+    ],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     1,
+     1,
+     13,
+     13
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "moeglich": false
+  },
+  {
+   "titel": "noch Karte in der Ablage",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "2H"
+    ],
+    "faecher": 1,
+    "ziel": [
+     1,
+     1,
+     13,
+     13
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "moeglich": false
+  },
+  {
+   "titel": "noch eine verdeckte Karte",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     1,
+     1,
+     13,
+     13
+    ],
+    "spalten": [
+     {
+      "verdeckt": [
+       "2H"
+      ],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "moeglich": false
+  }
+ ]
+}

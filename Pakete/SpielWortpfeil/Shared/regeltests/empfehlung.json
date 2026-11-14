@@ -1,0 +1,152 @@
+{
+ "beschreibung": "empfehlung(stufe, letzte) – letzte gelöste Rätsel DIESER Stufe, neueste zuletzt. Ergebnis: andere Stufe oder null.",
+ "faelle": [
+  {
+   "name": "zu_wenige",
+   "stufe": "leicht",
+   "letzte": [
+    {
+     "hilfen": 0
+    },
+    {
+     "hilfen": 0
+    }
+   ],
+   "erwartet": null
+  },
+  {
+   "name": "drei_ohne_hilfe_leicht",
+   "stufe": "leicht",
+   "letzte": [
+    {
+     "hilfen": 1
+    },
+    {
+     "hilfen": 0
+    },
+    {
+     "hilfen": 0
+    },
+    {
+     "hilfen": 0
+    }
+   ],
+   "erwartet": "mittel"
+  },
+  {
+   "name": "drei_ohne_hilfe_mittel",
+   "stufe": "mittel",
+   "letzte": [
+    {
+     "hilfen": 0
+    },
+    {
+     "hilfen": 0
+    },
+    {
+     "hilfen": 0
+    }
+   ],
+   "erwartet": "schwer"
+  },
+  {
+   "name": "schwer_bleibt",
+   "stufe": "schwer",
+   "letzte": [
+    {
+     "hilfen": 0
+    },
+    {
+     "hilfen": 0
+    },
+    {
+     "hilfen": 0
+    }
+   ],
+   "erwartet": null
+  },
+  {
+   "name": "eine_hilfe_unterbricht",
+   "stufe": "leicht",
+   "letzte": [
+    {
+     "hilfen": 0
+    },
+    {
+     "hilfen": 1
+    },
+    {
+     "hilfen": 0
+    }
+   ],
+   "erwartet": null
+  },
+  {
+   "name": "drei_mal_viele_hilfen",
+   "stufe": "mittel",
+   "letzte": [
+    {
+     "hilfen": 3
+    },
+    {
+     "hilfen": 3
+    },
+    {
+     "hilfen": 5
+    }
+   ],
+   "erwartet": "leicht"
+  },
+  {
+   "name": "leicht_nie_leichter",
+   "stufe": "leicht",
+   "letzte": [
+    {
+     "hilfen": 3
+    },
+    {
+     "hilfen": 3
+    },
+    {
+     "hilfen": 3
+    }
+   ],
+   "erwartet": null
+  },
+  {
+   "name": "nur_letzte_drei",
+   "stufe": "schwer",
+   "letzte": [
+    {
+     "hilfen": 0
+    },
+    {
+     "hilfen": 3
+    },
+    {
+     "hilfen": 3
+    },
+    {
+     "hilfen": 3
+    }
+   ],
+   "erwartet": "mittel"
+  },
+  {
+   "name": "gemischt",
+   "stufe": "mittel",
+   "letzte": [
+    {
+     "hilfen": 3
+    },
+    {
+     "hilfen": 0
+    },
+    {
+     "hilfen": 3
+    }
+   ],
+   "erwartet": null
+  }
+ ]
+}

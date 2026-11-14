@@ -1,0 +1,563 @@
+{
+ "beschreibung": "Heuristik der Stufen mittel und stark",
+ "faelle": [
+  {
+   "name": "stellung0",
+   "beginner": 1,
+   "zuege": [],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......."
+   ],
+   "erwartet": {
+    "spieler1": 0,
+    "spieler2": 0
+   }
+  },
+  {
+   "name": "stellung1",
+   "beginner": 1,
+   "zuege": [
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "...G..."
+   ],
+   "erwartet": {
+    "spieler1": 3,
+    "spieler2": -3
+   }
+  },
+  {
+   "name": "stellung2",
+   "beginner": 1,
+   "zuege": [
+    3,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "...B...",
+    "...G..."
+   ],
+   "erwartet": {
+    "spieler1": 0,
+    "spieler2": 0
+   }
+  },
+  {
+   "name": "stellung3",
+   "beginner": 2,
+   "zuege": [
+    5,
+    3,
+    5,
+    2,
+    3,
+    6,
+    1,
+    6,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "...B...",
+    "...B.BG",
+    ".BGG.BG"
+   ],
+   "erwartet": {
+    "spieler1": -11,
+    "spieler2": 11
+   }
+  },
+  {
+   "name": "stellung4",
+   "beginner": 1,
+   "zuege": [
+    6,
+    6,
+    1,
+    1,
+    5,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".B....B",
+    "BG...GG"
+   ],
+   "erwartet": {
+    "spieler1": 0,
+    "spieler2": 0
+   }
+  },
+  {
+   "name": "stellung5",
+   "beginner": 2,
+   "zuege": [
+    4,
+    3,
+    0,
+    2,
+    4,
+    3,
+    5,
+    0,
+    5,
+    2,
+    0,
+    1,
+    5,
+    6,
+    0,
+    0,
+    6
+   ],
+   "bild": [
+    ".......",
+    "G......",
+    "B......",
+    "B....B.",
+    "G.GGBBB",
+    "BGGGBBG"
+   ],
+   "erwartet": {
+    "spieler1": 8,
+    "spieler2": -8
+   }
+  },
+  {
+   "name": "stellung6",
+   "beginner": 2,
+   "zuege": [
+    1,
+    4,
+    5,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".BG.GB."
+   ],
+   "erwartet": {
+    "spieler1": 0,
+    "spieler2": 0
+   }
+  },
+  {
+   "name": "stellung7",
+   "beginner": 2,
+   "zuege": [
+    1,
+    1,
+    5,
+    0,
+    3,
+    6,
+    6,
+    1,
+    0,
+    6,
+    1,
+    1,
+    5,
+    6,
+    5,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".G....G",
+    ".B....G",
+    ".G...BG",
+    "BG...BB",
+    "GB.B.BG"
+   ],
+   "erwartet": {
+    "spieler1": -11,
+    "spieler2": 11
+   }
+  },
+  {
+   "name": "stellung8",
+   "beginner": 1,
+   "zuege": [
+    0,
+    4,
+    3,
+    4,
+    6,
+    3,
+    1,
+    2,
+    1,
+    4,
+    3,
+    2,
+    2,
+    3,
+    4,
+    3,
+    2,
+    3,
+    4,
+    2,
+    0,
+    0,
+    1,
+    6,
+    6,
+    4,
+    0,
+    5
+   ],
+   "bild": [
+    "...BB..",
+    "..BBG..",
+    "G.GBG..",
+    "BGGGB.G",
+    "GGBBB.B",
+    "GGBGBBG"
+   ],
+   "erwartet": {
+    "spieler1": -35,
+    "spieler2": 35
+   }
+  },
+  {
+   "name": "stellung9",
+   "beginner": 1,
+   "zuege": [
+    4,
+    4,
+    2,
+    4,
+    4,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "....G..",
+    "....B..",
+    "....B..",
+    "B.G.G.."
+   ],
+   "erwartet": {
+    "spieler1": 4,
+    "spieler2": -4
+   }
+  },
+  {
+   "name": "stellung10",
+   "beginner": 1,
+   "zuege": [
+    5,
+    2,
+    6,
+    2,
+    2,
+    6,
+    4,
+    2,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "..B....",
+    "..G....",
+    "..B...B",
+    ".GB.GGG"
+   ],
+   "erwartet": {
+    "spieler1": 7,
+    "spieler2": -7
+   }
+  },
+  {
+   "name": "stellung11",
+   "beginner": 1,
+   "zuege": [
+    0,
+    6,
+    1,
+    6,
+    3,
+    2,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".G....B",
+    "GGBG..B"
+   ],
+   "erwartet": {
+    "spieler1": 5,
+    "spieler2": -5
+   }
+  },
+  {
+   "name": "stellung12",
+   "beginner": 2,
+   "zuege": [
+    6,
+    3,
+    6,
+    5,
+    3,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "...B..B",
+    "G..G.GB"
+   ],
+   "erwartet": {
+    "spieler1": 0,
+    "spieler2": 0
+   }
+  },
+  {
+   "name": "stellung13",
+   "beginner": 2,
+   "zuege": [
+    1,
+    5,
+    4,
+    5,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".....G.",
+    ".B.BBG."
+   ],
+   "erwartet": {
+    "spieler1": -8,
+    "spieler2": 8
+   }
+  },
+  {
+   "name": "stellung14",
+   "beginner": 1,
+   "zuege": [
+    6,
+    2,
+    6,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......G",
+    ".BB...G"
+   ],
+   "erwartet": {
+    "spieler1": -2,
+    "spieler2": 2
+   }
+  },
+  {
+   "name": "stellung15",
+   "beginner": 2,
+   "zuege": [
+    3,
+    4,
+    6,
+    3,
+    2,
+    1,
+    4,
+    4,
+    2,
+    1,
+    6,
+    5,
+    0,
+    3,
+    5
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "...GG..",
+    ".GBGBBB",
+    "BGBBGGB"
+   ],
+   "erwartet": {
+    "spieler1": 9,
+    "spieler2": -9
+   }
+  },
+  {
+   "name": "stellung16",
+   "beginner": 2,
+   "zuege": [
+    6,
+    6,
+    1,
+    1,
+    1,
+    0,
+    3,
+    0,
+    1,
+    0,
+    5,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".B.....",
+    "GB.....",
+    "GG.G..G",
+    "GB.B.BB"
+   ],
+   "erwartet": {
+    "spieler1": 5,
+    "spieler2": -5
+   }
+  },
+  {
+   "name": "stellung17",
+   "beginner": 1,
+   "zuege": [
+    3,
+    3,
+    6,
+    0,
+    3
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "...G...",
+    "...B...",
+    "B..G..G"
+   ],
+   "erwartet": {
+    "spieler1": 5,
+    "spieler2": -5
+   }
+  },
+  {
+   "name": "stellung18",
+   "beginner": 1,
+   "zuege": [
+    4,
+    4,
+    5,
+    2,
+    4,
+    2,
+    2,
+    5,
+    4,
+    4,
+    6,
+    4,
+    1,
+    0,
+    5,
+    2,
+    1,
+    2,
+    0,
+    2,
+    5,
+    0,
+    0
+   ],
+   "bild": [
+    "..B.B..",
+    "..B.B..",
+    "G.B.GG.",
+    "B.G.GG.",
+    "GGB.BB.",
+    "BGB.GGG"
+   ],
+   "erwartet": {
+    "spieler1": 5,
+    "spieler2": -5
+   }
+  },
+  {
+   "name": "stellung19",
+   "beginner": 1,
+   "zuege": [
+    5,
+    6,
+    6,
+    6,
+    3,
+    4,
+    4,
+    0,
+    5,
+    5,
+    5,
+    3,
+    3,
+    4,
+    4,
+    3,
+    3,
+    0,
+    1,
+    0,
+    0,
+    5,
+    3,
+    0
+   ],
+   "bild": [
+    "...G...",
+    "B..G.B.",
+    "G..BGG.",
+    "B..GBBB",
+    "B..BGGG",
+    "BG.GBGB"
+   ],
+   "erwartet": {
+    "spieler1": 10,
+    "spieler2": -10
+   }
+  }
+ ]
+}

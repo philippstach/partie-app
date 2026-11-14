@@ -1,0 +1,21 @@
+{
+ "name": "07_strafe_digital",
+ "beschreibung": "Digital: drei Nieten in Folge kosten die Strafe (hier 300). Punkte zwischendurch setzen die Serie zurück.",
+ "rules": {"penalty": 300},
+ "players": ["Anna", "Ben"],
+ "dice": [2, 3, 4, 6, 6, 1, 2, 3, 4, 6, 2, 2, 3, 4, 6, 2, 3, 4, 6, 6, 2, 2, 4, 4, 6, 1, 2, 3, 4, 6, 3, 3, 4, 4, 6],
+ "steps": [
+  {"action": {"type": "roll", "keep": []}, "expect": {"players": [{"streak": 1}, {}]}},
+  {"action": {"type": "roll", "keep": []}},
+  {"action": {"type": "bank", "keep": [0]}},
+  {"action": {"type": "declineOffer"}},
+  {"action": {"type": "roll", "keep": []}, "expect": {"players": [{"streak": 2}, {}]}},
+  {"action": {"type": "roll", "keep": []}, "expect": {"players": [{}, {"streak": 1}]}},
+  {"action": {"type": "roll", "keep": []}, "expect": {"players": [{"streak": 0, "score": -300}, {}], "log": [[0, 0, 0], [1, 100, 0], [0, 0, 0], [1, 0, 0], [0, 0, 300]]}},
+  {"action": {"type": "roll", "keep": []}},
+  {"action": {"type": "bank", "keep": [0]}},
+  {"action": {"type": "declineOffer"}},
+  {"action": {"type": "roll", "keep": []}, "expect": {"players": [{"streak": 1, "score": -300}, {}]}}
+ ],
+ "expected": {"scores": [-300, 200], "current": 1, "players": [{"streak": 1, "mackes": 4}, {"streak": 0, "mackes": 1}]}
+}

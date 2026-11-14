@@ -1,0 +1,824 @@
+{
+ "beschreibung": "Ein kompletter Spielzug. Gewählt wird immer der erste erlaubte Zug. verbraucht = so viele Würfel aus der Liste wurden genommen (der Rest bleibt übrig).",
+ "faelle": [
+  {
+   "name": "drei Versuche ohne 6",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "optionen": {},
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": null
+     },
+     {
+      "augen": 2,
+      "zug": null
+     },
+     {
+      "augen": 3,
+      "zug": null
+     }
+    ],
+    "verbraucht": 3,
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": false
+   }
+  },
+  {
+   "name": "6 im zweiten Versuch, raus, nochmal",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    2,
+    6,
+    4,
+    5
+   ],
+   "optionen": {},
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": null
+     },
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 4,
+      "zug": {
+       "von": 0,
+       "nach": 4,
+       "schlaegt": null
+      }
+     }
+    ],
+    "verbraucht": 3,
+    "figuren": [
+     [
+      4,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": false
+   }
+  },
+  {
+   "name": "ohne drei Versuche: nur ein Wurf",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    2,
+    6
+   ],
+   "optionen": {
+    "dreiVersuche": false
+   },
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 2,
+      "zug": null
+     }
+    ],
+    "verbraucht": 1,
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": false
+   }
+  },
+  {
+   "name": "Figur auf der Laufbahn: ein Wurf",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      12,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    3,
+    6
+   ],
+   "optionen": {},
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 12,
+       "nach": 15,
+       "schlaegt": null
+      }
+     }
+    ],
+    "verbraucht": 1,
+    "figuren": [
+     [
+      15,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": false
+   }
+  },
+  {
+   "name": "6, 6, 3",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      12,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    6,
+    6,
+    3,
+    1
+   ],
+   "optionen": {},
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 6,
+      "zug": {
+       "von": 0,
+       "nach": 6,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 3,
+      "zug": {
+       "von": 6,
+       "nach": 9,
+       "schlaegt": null
+      }
+     }
+    ],
+    "verbraucht": 3,
+    "figuren": [
+     [
+      12,
+      9,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": false
+   }
+  },
+  {
+   "name": "6 ohne Nochmal-Regel",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      12,
+      20,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    6,
+    6
+   ],
+   "optionen": {
+    "sechsNochmal": false
+   },
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     }
+    ],
+    "verbraucht": 1,
+    "figuren": [
+     [
+      12,
+      20,
+      0,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": false
+   }
+  },
+  {
+   "name": "6, die nicht ziehen kann: kein Extrawurf",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      38,
+      41,
+      42,
+      43
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    6,
+    1
+   ],
+   "optionen": {},
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": null
+     }
+    ],
+    "verbraucht": 1,
+    "figuren": [
+     [
+      38,
+      41,
+      42,
+      43
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": false
+   }
+  },
+  {
+   "name": "letzte Figur mit 6 ins Ziel: Schluss",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      37,
+      40,
+      41,
+      42
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    6,
+    1
+   ],
+   "optionen": {},
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": 37,
+       "nach": 43,
+       "schlaegt": null
+      }
+     }
+    ],
+    "verbraucht": 1,
+    "figuren": [
+     [
+      43,
+      40,
+      41,
+      42
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": true
+   }
+  },
+  {
+   "name": "Rest fest im Ziel: drei Versuche",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      42,
+      43,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    1,
+    2,
+    6,
+    3,
+    2
+   ],
+   "optionen": {},
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": null
+     },
+     {
+      "augen": 2,
+      "zug": null
+     },
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 3,
+      "zug": {
+       "von": 0,
+       "nach": 3,
+       "schlaegt": null
+      }
+     }
+    ],
+    "verbraucht": 4,
+    "figuren": [
+     [
+      42,
+      43,
+      3,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": false
+   }
+  },
+  {
+   "name": "nach drei Versuchen eine 6 im vierten zählt nicht",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    1,
+    1,
+    1,
+    6
+   ],
+   "optionen": {},
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 1,
+      "zug": null
+     },
+     {
+      "augen": 1,
+      "zug": null
+     },
+     {
+      "augen": 1,
+      "zug": null
+     }
+    ],
+    "verbraucht": 3,
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": false
+   }
+  },
+  {
+   "name": "Raus mit 6 schlägt, dann weiter",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      30,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    6,
+    6,
+    2,
+    5
+   ],
+   "optionen": {},
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": {
+       "von": -1,
+       "nach": 0,
+       "schlaegt": 1
+      }
+     },
+     {
+      "augen": 6,
+      "zug": {
+       "von": 0,
+       "nach": 6,
+       "schlaegt": null
+      }
+     },
+     {
+      "augen": 2,
+      "zug": {
+       "von": 6,
+       "nach": 8,
+       "schlaegt": null
+      }
+     }
+    ],
+    "verbraucht": 3,
+    "figuren": [
+     [
+      8,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": false
+   }
+  },
+  {
+   "name": "zwei Figuren: letzte ins Ziel, fertig",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      41,
+      37
+     ],
+     [
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    3,
+    6
+   ],
+   "optionen": {
+    "figuren": 2
+   },
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 3,
+      "zug": {
+       "von": 37,
+       "nach": 40,
+       "schlaegt": null
+      }
+     }
+    ],
+    "verbraucht": 1,
+    "figuren": [
+     [
+      41,
+      40
+     ],
+     [
+      -1,
+      -1
+     ]
+    ],
+    "fertig": true
+   }
+  },
+  {
+   "name": "ohne Rauswerfen: Gegner auf dem Startfeld, drei Versuche",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      30,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "wuerfel": [
+    6,
+    2,
+    6
+   ],
+   "optionen": {
+    "rauswerfen": false
+   },
+   "erwartet": {
+    "wuerfe": [
+     {
+      "augen": 6,
+      "zug": null
+     },
+     {
+      "augen": 2,
+      "zug": null
+     },
+     {
+      "augen": 6,
+      "zug": null
+     }
+    ],
+    "verbraucht": 3,
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      30,
+      -1,
+      -1,
+      -1
+     ]
+    ],
+    "fertig": false
+   }
+  }
+ ]
+}

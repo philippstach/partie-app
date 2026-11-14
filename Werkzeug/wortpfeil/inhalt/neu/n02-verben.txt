@@ -1,0 +1,315 @@
+# n02 Verben (Grundform)
+ahnen;1;Vermuten|Ein Gefühl haben
+achten;1;Respektieren|Wertschätzen
+ändern;1;Anders machen|Wandeln
+bangen;2;Sich sorgen|Angst haben
+beben;1;Heftig zittern (Erde)|Erzittern
+beten;1;Zu Gott sprechen|Fromm bitten
+betteln;1;Um Almosen bitten|Um Gaben flehen
+beugen;1;Krümmen, neigen|Biegen
+bieten;1;Bei der Auktion Geld nennen|Offerieren
+binden;1;Mit Schnur festmachen|Schleife machen
+blühen;1;In voller Pracht stehen (Rose)|Knospen öffnen
+boxen;1;Mit Fäusten kämpfen|Faustkampf treiben
+brauen;1;Bier herstellen|Bier machen
+brüten;1;Auf Eiern sitzen|Eier wärmen
+buchen;1;Reise fest bestellen|Reservieren
+bücken;1;Sich nach unten beugen|Krumm machen
+dauern;1;Zeit brauchen|Anhalten, währen
+dichten;1;Verse schreiben|Reime schmieden
+dienen;1;Als Knecht arbeiten|Nützlich sein
+drängen;1;Schieben und drücken|Zur Eile mahnen
+drohen;1;Angst einjagen|Mit Strafe einschüchtern
+dulden;1;Zulassen|Still ertragen
+ebnen;2;Flach machen|Glätten (Weg)
+enden;1;Aufhören|Zum Schluss kommen
+essen;1;Nahrung zu sich nehmen|Speisen
+fällen;1;Baum umhauen|Zu Fall bringen (Baum)
+fassen;1;Ergreifen|Packen, greifen
+fehlen;1;Nicht da sein|Abwesend sein
+fesseln;1;Mit Stricken binden|In Bann ziehen
+feuern;1;Schießen|Entlassen (ugs.)
+fischen;1;Mit Netz oder Angel fangen|Angeln
+flehen;2;Inständig bitten|Demütig bitten
+fliehen;1;Davonlaufen|Die Flucht ergreifen
+flirten;1;Schöne Augen machen|Anbändeln
+folgen;1;Hinterhergehen|Gehorchen
+fordern;1;Verlangen|Beanspruchen
+formen;1;Gestalt geben|Modellieren
+fressen;1;Essen (Tier)|Tierisch speisen
+fügen;2;Sich anpassen|Zusammensetzen
+führen;1;Leiten|An der Hand geleiten
+füllen;1;Voll machen|Eingießen bis zum Rand
+gären;2;Zu Wein oder Bier werden|Fermentieren
+gelten;1;Gültig sein|In Kraft sein
+gönnen;1;Neidlos zugestehen|Von Herzen wünschen
+grasen;1;Weiden (Kuh)|Halme fressen
+grenzen;1;Benachbart sein|Anstoßen an
+gründen;1;Ins Leben rufen|Firma eröffnen
+haben;1;Besitzen|Hilfsverb neben sein
+haften;1;Kleben bleiben|Für Schaden einstehen
+hageln;1;Eiskörner regnen|Körner aus Eis fallen
+hallen;1;Laut widerklingen|Echo geben
+handeln;1;Etwas tun|Feilschen
+hassen;1;Gegenteil von lieben|Verabscheuen
+hauen;1;Schlagen (ugs.)|Prügeln
+heilen;1;Gesund machen|Kurieren
+heißen;1;Den Namen tragen|Genannt werden
+hemmen;2;Bremsen, aufhalten|Behindern
+hetzen;1;In großer Eile rennen|Jagen, treiben
+hindern;1;Im Weg stehen|Aufhalten
+hinken;1;Lahmen|Ungleich gehen
+hissen;2;Flagge hochziehen|Fahne aufziehen
+husten;1;Bei Erkältung bellen|Sich räuspern, stärker
+impfen;1;Schutzstoff spritzen|Gegen Krankheit schützen
+jagen;1;Wild verfolgen|Auf die Pirsch gehen
+jaulen;1;Klagend heulen (Hund)|Winseln
+jucken;1;Zum Kratzen reizen|Kribbeln auf der Haut
+keimen;1;Erste Triebe zeigen|Zu sprießen beginnen
+kentern;2;Umkippen (Boot)|Umschlagen (Schiff)
+kippen;1;Umfallen|Schräg stellen
+klappen;1;Gelingen (ugs.)|Funktionieren
+klären;1;Rein machen|Zweifel beseitigen
+klemmen;1;Festsitzen (Tür)|Sich nicht öffnen lassen
+knacken;1;Nuss öffnen|Code lösen
+knallen;1;Laut krachen|Peng machen
+knüpfen;1;Knoten machen|Teppich herstellen
+ködern;2;Mit Wurm anlocken|Anlocken
+können;1;Fähig sein|Vermögen
+krachen;1;Laut lärmen|Donnern
+kramen;1;Herumsuchen|Wühlen in der Schublade
+kränken;1;Seelisch verletzen|Beleidigen
+kreisen;1;Runden drehen|Sich im Rund bewegen
+kriegen;1;Bekommen (ugs.)|Erhalten
+krönen;1;Zum König machen|Feierlich vollenden
+kümmern;1;Sich sorgen um|Betreuen
+kürzen;1;Knapper machen|Verringern
+laden;1;Akku auffüllen|Fracht aufpacken
+lagern;1;Aufbewahren|Im Depot halten
+lassen;1;Erlauben|Nicht tun
+lasten;2;Schwer drücken|Bedrücken
+lauern;1;Versteckt warten|Auf der Pirsch liegen
+leeren;1;Ausgießen|Bis zum Boden trinken
+lehren;1;Unterrichten|Wissen vermitteln
+leiden;1;Schmerz ertragen|Kummer haben
+leisten;1;Vollbringen|Sich etwas gönnen können
+leiten;1;Führen|Vorstehen
+lieben;1;Von Herzen gernhaben|Gegenteil von hassen
+liefern;1;Ware bringen|Zustellen
+lindern;2;Schmerz mildern|Erträglicher machen
+locken;1;Anziehen, ködern|Herbeirufen (Tier)
+lösen;1;Rätsel knacken|Knoten öffnen
+machen;1;Tun|Herstellen
+mahlen;1;Körner zu Mehl reiben|Arbeit der Mühle
+mahnen;1;Erinnern, warnen|Eindringlich erinnern
+mangeln;2;Fehlen|Wäsche glätten
+meiden;1;Aus dem Weg gehen|Fernbleiben
+meinen;1;Der Ansicht sein|Glauben, denken
+melden;1;Den Finger heben (Schule)|Bescheid geben
+mögen;1;Gernhaben|Sympathisch finden
+münden;1;Ins Meer fließen|Enden (Fluss)
+müssen;1;Gezwungen sein|Keine Wahl haben
+nähern;1;Dichter herankommen|Auf jemanden zugehen
+necken;1;Liebevoll ärgern|Foppen
+neigen;1;Schräg halten|Kippen, beugen
+nennen;1;Mit Namen rufen|Bezeichnen
+nutzen;1;Gebrauch machen von|Verwenden
+opfern;1;Den Göttern darbringen|Hingeben
+ordnen;1;Sortieren|Aufräumen
+passen;1;Die richtige Größe haben|Beim Kartenspiel aussetzen
+pendeln;1;Hin und her schwingen|Täglich zur Arbeit fahren
+pflücken;1;Obst vom Baum holen|Blumen brechen
+plagen;1;Quälen|Sich abmühen
+planen;1;Vorhaben entwerfen|Im Voraus überlegen
+platzen;1;Bersten (Ballon)|Knallend kaputtgehen
+prägen;2;Münzen schlagen|Formen, stempeln
+prahlen;1;Angeben|Sich rühmen
+pressen;1;Fest drücken|Saft gewinnen
+prüfen;1;Testen|Kontrollieren
+pumpen;1;Luft in den Reifen drücken|Wasser fördern
+quälen;1;Peinigen|Wehtun
+quellen;2;Hervorsprudeln|Aufgehen (Erbsen)
+rächen;1;Vergeltung üben|Heimzahlen
+ragen;2;Hoch emporstehen|In die Höhe stehen
+rasen;1;Viel zu schnell fahren|Toben vor Wut
+rauschen;1;Geräusch des Baches|Tosen (Wind)
+regeln;1;Ordnen|In Ordnung bringen
+regen;2;Sich bewegen|Sich rühren
+reifen;1;Zur Ernte heranwachsen|Erwachsen werden
+reimen;1;Verse schmieden|Gleich klingen
+richten;1;Ein Urteil sprechen|In Ordnung bringen
+rücken;1;Ein Stück verschieben|Zur Seite schieben
+rupfen;1;Federn ausreißen|Unkraut zupfen
+rüsten;2;Waffen bereitstellen|Sich wappnen
+salzen;1;Mit weißer Würze würzen|Würzen (Suppe)
+saugen;1;Staub entfernen|Nuckeln
+schaden;1;Nachteil bringen|Beeinträchtigen
+schalten;1;Gang wechseln|Knopf betätigen
+schämen;1;Vor Verlegenheit rot werden|Peinlich berührt sein
+scheren;1;Schafe von Wolle befreien|Haare kürzen
+scheuen;1;Zurückschrecken (Pferd)|Meiden
+schießen;1;Aufs Tor zielen|Kugel abfeuern
+schlagen;1;Hauen|Besiegen
+schonen;1;Behutsam behandeln|Nicht belasten
+schöpfen;1;Mit der Kelle holen|Suppe austeilen
+schulden;1;Geld zurückzahlen müssen|Im Minus stehen bei
+schützen;1;Bewahren vor Gefahr|Behüten
+segnen;1;Gottes Schutz erbitten|Weihen
+sehnen;1;Verlangen haben nach|Schmachten
+senken;1;Niedriger machen|Herablassen
+sichern;1;Vor Verlust schützen|Daten speichern
+sinken;1;Untergehen|Nach unten gehen
+sollen;1;Verpflichtet sein|Auftrag haben
+sorgen;1;Sich kümmern|Kummer haben
+spannen;1;Straff ziehen|Bogen bereit machen
+spenden;1;Für Bedürftige geben|Blut geben
+sperren;1;Zugang verriegeln|Straße dichtmachen
+spotten;1;Sich lustig machen|Höhnen
+sprühen;1;Fein zerstäuben|Funken werfen
+spucken;1;Speichel auswerfen|Speien
+stapeln;1;Aufeinanderschichten|Türmen
+stechen;1;Mit der Nadel piken|Trumpf ausspielen
+stecken;1;Hineinschieben|Festsitzen
+sterben;1;Aus dem Leben scheiden|Den Tod finden
+steuern;1;Lenken|Am Ruder sitzen
+stiften;1;Spenden, schenken|Preis ausloben
+stillen;1;Baby an der Brust nähren|Durst löschen
+stören;1;Belästigen|Aus der Ruhe bringen
+strafen;1;Zur Rechenschaft ziehen|Büßen lassen
+streben;1;Eifrig nach etwas trachten|Sich bemühen
+strecken;1;Lang machen|Dehnen, recken
+streuen;1;Salz auf Glatteis werfen|Verteilen (Sand)
+stützen;1;Halt geben|Unter die Arme greifen
+tagen;2;Sitzung abhalten|Konferieren
+taugen;1;Brauchbar sein|Geeignet sein
+teilen;1;Dividieren|Abgeben, halbieren
+testen;1;Erproben|Ausprobieren
+töten;1;Ums Leben bringen|Umbringen
+traben;1;Mittelschnell laufen (Pferd)|Mittlere Gangart (Pferd)
+trauern;1;Um Verstorbene weinen|Kummer zeigen
+treffen;1;Ins Ziel gelangen|Begegnen
+treiben;1;Auf dem Wasser schwimmen|Vor sich herjagen
+trennen;1;Auseinanderbringen|Scheiden
+treten;1;Mit dem Fuß stoßen|Kicken
+trocknen;1;Nässe entfernen|Wäsche aufhängen
+trösten;1;Kummer lindern|Zuspruch geben
+trotzen;1;Widerstand leisten|Bockig sein
+wachsen;1;Größer werden|Gedeihen
+wagen;1;Riskieren|Mut zeigen
+wälzen;1;Rollend bewegen|Im Bett hin und her drehen
+wanken;2;Unsicher stehen|Taumeln
+warnen;1;Auf Gefahr hinweisen|Alarm schlagen
+waten;1;Durch seichtes Wasser gehen|Im Watt stapfen
+wehren;1;Sich verteidigen|Widerstand leisten
+weichen;2;Platz machen|Nachgeben
+weiden;1;Grasen|Auf der Wiese fressen
+weihen;2;Feierlich segnen|Heiligen
+weisen;1;Den Weg zeigen|Deuten
+werden;1;Entstehen|Hilfsverb der Zukunft
+wetten;1;Geld auf den Sieger setzen|Tippen
+wickeln;1;Baby frisch machen|Aufrollen
+wirken;1;Einfluss haben|Effekt zeigen
+wollen;1;Den Wunsch haben|Beabsichtigen
+wühlen;1;Graben (Maulwurf)|Kramen
+wünschen;1;Ersehnen|Begehren
+würgen;1;Die Kehle zudrücken|Am Hals packen
+zähmen;1;Wildes Tier bändigen|Gefügig machen
+zaubern;1;Hexen|Kaninchen aus dem Hut holen
+zehren;2;Kräfte aufbrauchen|An den Nerven nagen
+zelten;1;Campen|Im Freien übernachten
+zieren;2;Schmücken|Sich bitten lassen
+zucken;1;Kurz und ruckartig bewegen|Blitzen
+zünden;1;In Brand setzen|Rakete starten
+zweifeln;1;Unsicher sein|Nicht recht glauben
+zwingen;1;Mit Gewalt nötigen|Keine Wahl lassen
+ackern;1;Feld pflügen|Hart arbeiten (ugs.)
+adeln;2;In den Ritterstand heben|Auszeichnen
+altern;1;Betagt werden|Jahre zulegen
+ankern;1;Schiff festmachen|Im Hafen festliegen
+arbeiten;1;Berufstätig sein|Schaffen
+bauen;1;Haus errichten|Konstruieren
+baumeln;1;Lose hängen|Schlenkern
+bergen;1;Retten|In Sicherheit bringen
+bersten;2;Mit Krach zerbrechen|Platzen
+bilden;1;Formen|Wissen vermitteln
+blättern;1;Seiten wenden|Im Buch stöbern
+blenden;1;Mit grellem Licht stören|Am Sehen hindern
+blitzen;1;Aufleuchten am Himmel|Zu schnelle Fahrer knipsen
+blöken;1;Mäh machen|Laut geben (Schaf)
+bluffen;2;Täuschen (Poker)|Nur so tun als ob
+bocken;1;Störrisch sein|Trotzig sein
+bolzen;1;Fußball spielen (ugs.)|Kicken (ugs.)
+bowlen;2;Kugel auf Pins rollen|Kegeln (amerikanisch)
+bräunen;1;In der Sonne Farbe bekommen|Anbraten
+brausen;1;Duschen|Toben (Sturm)
+bröseln;1;Krümel machen|Zerkrümeln
+bürsten;1;Haare glätten|Schuhe putzen
+büßen;2;Schuld sühnen|Strafe erleiden
+campen;1;Zelten|Urlaub im Wohnwagen machen
+chatten;1;Online plaudern|Im Netz tippen
+checken;1;Prüfen (ugs.)|Begreifen (ugs.)
+dämmern;1;Langsam hell werden|Tag werden
+darben;2;Not leiden|Hungern
+dösen;1;Leicht schlafen|Im Halbschlaf liegen
+drängeln;1;Sich vorschieben|In der Schlange schubsen
+drosseln;2;Tempo verringern|Zufuhr bremsen
+ducken;1;Kopf einziehen|Sich klein machen
+düsen;1;Schnell sausen (ugs.)|Rasen (ugs.)
+ehren;1;Auszeichnen|Achtung erweisen
+eichen;2;Messgerät amtlich prüfen|Waage justieren
+einen;2;Verbinden|Zusammenführen
+ekeln;1;Abscheu empfinden|Igitt sagen
+erben;1;Nachlass bekommen|Hinterlassenes erhalten
+fächeln;2;Kühle Luft zuwedeln|Wedeln
+fädeln;1;Garn durchs Öhr ziehen|Perlen aufziehen
+faseln;2;Unsinn reden|Wirr daherreden
+fasten;1;Auf Nahrung verzichten|Vor Ostern verzichten
+faxen;2;Fernkopie senden|Per Fernkopierer schicken
+feilschen;1;Um den Preis handeln|Preis drücken
+ferkeln;2;Junge werfen (Sau)|Schmutzig machen (ugs.)
+festigen;2;Stabil machen|Stärken
+fetten;1;Backform einreiben|Schmieren
+fiebern;1;Erhöhte Temperatur haben|Aufgeregt erwarten
+filmen;1;Mit der Kamera aufnehmen|Video drehen
+flattern;1;Mit den Flügeln schlagen|Im Wind wehen
+flechten;1;Zopf binden|Korb herstellen
+flitzen;1;Sehr schnell rennen|Sausen
+flöten;1;Auf dem Blasrohr spielen|Pfeifen (Vogel)
+fluten;2;Unter Wasser setzen|Überschwemmen
+fönen;1;Haare mit Warmluft trocknen|Haare trocknen
+foppen;2;Necken|Zum Narren halten
+fräsen;2;Nut ins Holz schneiden|Spanend bearbeiten
+frönen;3;Sich einem Laster hingeben|Hingeben (Laster)
+funken;1;Morsezeichen senden|Per Radio senden
+fußen;2;Beruhen auf|Sich stützen auf
+gaukeln;2;Vorspiegeln|Tricks zeigen
+geigen;1;Violine spielen|Fiedeln
+geizen;1;Übertrieben sparen|Knausern
+gerben;2;Häute zu Leder machen|Leder herstellen
+gieren;2;Heftig verlangen|Lechzen
+glätten;1;Eben machen|Bügeln
+glucken;2;Brüten (Henne)|Behütend zusammensitzen
+grapschen;2;Hastig zugreifen|Gierig greifen
+gruseln;1;Schaudern|Sich fürchten
+gurren;1;Laut der Taube|Laut geben (Taube)
+hadern;2;Unzufrieden sein mit|Mit dem Schicksal streiten
+hageln;1;Körner aus Eis regnen|Eis regnen
+hakeln;2;Kraftsport mit dem Finger|Finger ziehen
+hamstern;1;Vorräte horten|Bunkern
+hangeln;1;An den Händen schwingen|Sich an Stangen fortbewegen
+hapern;2;Mangeln, nicht klappen|Fehlen
+härten;2;Fest machen (Stahl)|Stählen
+haschen;2;Fangen|Schnell greifen
+hauchen;1;Sanft blasen|Flüstern
+häufen;1;Zu einem Berg schichten|Türmen
+hecheln;1;Mit Zunge atmen (Hund)|Japsen
+heften;1;Mit Klammern verbinden|Lose annähen
+hegen;2;Pflegen (Wald und Wild)|Umsorgen
+heuern;2;Auf einem Schiff anfangen|Anwerben
+hexen;1;Zaubern|Mit Besen und Kessel wirken
+hobeln;1;Holz glätten|Späne machen
+horten;1;Vorräte ansammeln|Hamstern
+humpeln;1;Lahm gehen|Hinken
+hungern;1;Nichts zu essen haben|Magenknurren haben
+huschen;1;Lautlos eilen|Schnell vorbeigleiten
+hüten;1;Auf Schafe aufpassen|Bewachen

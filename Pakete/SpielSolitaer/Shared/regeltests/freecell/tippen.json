@@ -1,0 +1,770 @@
+{
+ "beschreibung": "tap_target(start, quelle, anzahl): Zug oder null (Karte wackelt).",
+ "faelle": [
+  {
+   "titel": "Ass: Ziel vor Spalte und Zelle",
+   "start": {
+    "spalten": [
+     [
+      "5C",
+      "AH"
+     ],
+     [
+      "2S"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "passt auf zwei Spalten: erst rechts von der Quelle",
+   "start": {
+    "spalten": [
+     [
+      "TS"
+     ],
+     [
+      "9H"
+     ],
+     [],
+     [
+      "TC"
+     ],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S1",
+   "anzahl": 1,
+   "zug": {
+    "von": "S1",
+    "nach": "S3",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "ringsum: nach S7 wieder S0",
+   "start": {
+    "spalten": [
+     [
+      "TS"
+     ],
+     [
+      "QD"
+     ],
+     [
+      "QH"
+     ],
+     [
+      "QS"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "KH"
+     ],
+     [
+      "KS"
+     ],
+     [
+      "9H"
+     ]
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S7",
+   "anzahl": 1,
+   "zug": {
+    "von": "S7",
+    "nach": "S0",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "aus der Zelle: Suche ab S0",
+   "start": {
+    "spalten": [
+     [
+      "TS"
+     ],
+     [
+      "TC"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     "9H",
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "F1",
+   "anzahl": 1,
+   "zug": {
+    "von": "F1",
+    "nach": "S0",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "Reihe aus 2 geht nie aufs Ziel, aber in passende Spalte",
+   "start": {
+    "spalten": [
+     [
+      "3S",
+      "2H"
+     ],
+     [
+      "4D"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S0",
+   "anzahl": 2,
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   }
+  },
+  {
+   "titel": "Reihe passt, aber zu lang für die freien Plätze: nichts",
+   "start": {
+    "spalten": [
+     [
+      "9C",
+      "8H",
+      "7S"
+     ],
+     [
+      "TD"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     null,
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S0",
+   "anzahl": 3,
+   "zug": null
+  },
+  {
+   "titel": "keine passende Spalte: leere Spalte, ringsum ab rechts",
+   "start": {
+    "spalten": [
+     [],
+     [
+      "AS"
+     ],
+     [
+      "2S",
+      "9C",
+      "8H"
+     ],
+     [
+      "3S"
+     ],
+     [],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S2",
+   "anzahl": 2,
+   "zug": {
+    "von": "S2",
+    "nach": "S4",
+    "anzahl": 2
+   }
+  },
+  {
+   "titel": "Reihe ist schon die ganze Spalte: nicht in leere Spalte, sondern Zelle",
+   "start": {
+    "spalten": [
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "9C"
+     ],
+     [
+      "3S"
+     ],
+     [],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S2",
+   "anzahl": 1,
+   "zug": {
+    "von": "S2",
+    "nach": "F0",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "passt nirgends: erste freie Zelle von links",
+   "start": {
+    "spalten": [
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "4D",
+      "9C"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "QS"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     "7H",
+     null,
+     null,
+     "8H"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S2",
+   "anzahl": 1,
+   "zug": {
+    "von": "S2",
+    "nach": "F1",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "aus der Zelle: leere Spalte ab S0",
+   "start": {
+    "spalten": [
+     [],
+     [
+      "QS"
+     ],
+     [],
+     [
+      "TH"
+     ],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     "5D",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "F2",
+   "anzahl": 1,
+   "zug": {
+    "von": "F2",
+    "nach": "S0",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "aus der Zelle: passt nirgends, nicht in andere Zelle",
+   "start": {
+    "spalten": [
+     [
+      "QS"
+     ],
+     [
+      "TH"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6D"
+     ]
+    ],
+    "zellen": [
+     null,
+     null,
+     "5D",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "F2",
+   "anzahl": 1,
+   "zug": null
+  },
+  {
+   "titel": "Reihe aus 2, nichts passt, keine leere Spalte: nichts",
+   "start": {
+    "spalten": [
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "9C",
+      "8H"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "QS"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S2",
+   "anzahl": 2,
+   "zug": null
+  },
+  {
+   "titel": "Zellen voll, nichts passt: nichts",
+   "start": {
+    "spalten": [
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "4D",
+      "9C"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "QS"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     "8C",
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S2",
+   "anzahl": 1,
+   "zug": null
+  },
+  {
+   "titel": "ungültige Reihe: nichts",
+   "start": {
+    "spalten": [
+     [
+      "9C",
+      "8C"
+     ],
+     [
+      "TD"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S0",
+   "anzahl": 2,
+   "zug": null
+  },
+  {
+   "titel": "Zielstapel antippen: nichts",
+   "start": {
+    "spalten": [
+     [
+      "7D"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     6,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "Z0",
+   "anzahl": 1,
+   "zug": null
+  },
+  {
+   "titel": "leere Zelle antippen: nichts",
+   "start": {
+    "spalten": [
+     [
+      "7D"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "F0",
+   "anzahl": 1,
+   "zug": null
+  },
+  {
+   "titel": "Supermove in passende Spalte, wenn Platz reicht",
+   "start": {
+    "spalten": [
+     [
+      "KH",
+      "QS",
+      "JH",
+      "TS"
+     ],
+     [
+      "KD"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "quelle": "S0",
+   "anzahl": 3,
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 3
+   }
+  }
+ ]
+}

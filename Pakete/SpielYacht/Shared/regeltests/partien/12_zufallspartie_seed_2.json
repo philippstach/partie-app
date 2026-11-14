@@ -1,0 +1,1405 @@
+{
+ "name": "12 Zufallspartie Seed 2",
+ "beschreibung": "2 Spieler, Regeln Standard; vollständige Partie.",
+ "rules": {},
+ "players": [
+  "Anna",
+  "Ben"
+ ],
+ "dice": [
+  1,
+  1,
+  1,
+  3,
+  2,
+  5,
+  1,
+  5,
+  6,
+  4,
+  6,
+  5,
+  5,
+  4,
+  5,
+  3,
+  1,
+  4,
+  3,
+  4,
+  4,
+  5,
+  2,
+  2,
+  2,
+  1,
+  2,
+  5,
+  5,
+  3,
+  5,
+  5,
+  2,
+  4,
+  4,
+  6,
+  3,
+  4,
+  2,
+  3,
+  4,
+  5,
+  3,
+  6,
+  4,
+  4,
+  3,
+  5,
+  3,
+  4,
+  3,
+  3,
+  4,
+  2,
+  1,
+  5,
+  6,
+  1,
+  3,
+  5,
+  2,
+  3,
+  2,
+  4,
+  6,
+  1,
+  1,
+  3,
+  2,
+  2,
+  6,
+  1,
+  1,
+  1,
+  1,
+  6,
+  1,
+  6,
+  2,
+  5,
+  4,
+  5,
+  1,
+  2,
+  2,
+  3,
+  5,
+  6,
+  6,
+  6,
+  3,
+  4,
+  1,
+  3,
+  4,
+  4,
+  6,
+  6,
+  3,
+  1,
+  4,
+  2,
+  5,
+  5,
+  4,
+  3,
+  4,
+  6,
+  1,
+  6,
+  5,
+  1,
+  3,
+  1,
+  2,
+  2,
+  4,
+  6,
+  2,
+  5,
+  6,
+  2,
+  6,
+  4,
+  1,
+  3,
+  2,
+  5,
+  5,
+  6,
+  3,
+  1,
+  4,
+  2,
+  1,
+  5,
+  6,
+  1,
+  1,
+  1,
+  2,
+  2,
+  1,
+  5,
+  6,
+  4,
+  4,
+  3,
+  4,
+  4,
+  1,
+  4,
+  3,
+  1,
+  5,
+  1,
+  3,
+  1,
+  6,
+  2,
+  6,
+  4,
+  1,
+  4,
+  6,
+  4,
+  5,
+  1,
+  1,
+  3,
+  3,
+  3,
+  6,
+  1,
+  2,
+  5,
+  3,
+  4,
+  6,
+  2,
+  3,
+  4,
+  1,
+  3
+ ],
+ "steps": [
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     1,
+     1,
+     1,
+     3,
+     2
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     1,
+     2
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     5,
+     1,
+     1,
+     1,
+     5
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     3
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     6,
+     4,
+     6,
+     1,
+     5
+    ],
+    "rollsUsed": 3
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "sixes"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     5,
+     4,
+     5,
+     3,
+     1
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "sixes"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     4,
+     3,
+     4,
+     4,
+     5
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "smallStraight"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     2,
+     2,
+     2,
+     1,
+     2
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     1
+    ]
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     5,
+     2,
+     5,
+     3,
+     5
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "kniffel"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     5,
+     2,
+     4,
+     4,
+     6
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     2,
+     4
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     3,
+     4,
+     4,
+     2,
+     6
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     1,
+     3,
+     4
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     3,
+     4,
+     4,
+     2,
+     6
+    ],
+    "rollsUsed": 3
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "largeStraight"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     5,
+     3,
+     6,
+     4,
+     4
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0,
+     1,
+     3,
+     4
+    ]
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     5,
+     3,
+     3,
+     4,
+     4
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "threes"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     5,
+     3,
+     4,
+     3,
+     3
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0,
+     1,
+     3,
+     4
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     5,
+     3,
+     4,
+     3,
+     3
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     5,
+     3,
+     4,
+     3,
+     2
+    ],
+    "rollsUsed": 3
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "twos"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     1,
+     5,
+     6,
+     1,
+     3
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0
+    ]
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     1,
+     5,
+     2,
+     3,
+     2
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0
+    ]
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     1,
+     4,
+     6,
+     1,
+     1
+    ],
+    "rollsUsed": 3
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fourOfAKind"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     3,
+     2,
+     2,
+     6,
+     1
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "threes"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     1,
+     1,
+     1,
+     6,
+     1
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     1,
+     4
+    ]
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     6,
+     1,
+     2,
+     5,
+     1
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "ones"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     4,
+     5,
+     1,
+     2,
+     2
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "ones"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     3,
+     5,
+     6,
+     6,
+     6
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fullHouse"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     3,
+     4,
+     1,
+     3,
+     4
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0,
+     1,
+     2,
+     4
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     3,
+     4,
+     1,
+     4,
+     4
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     3,
+     6,
+     6,
+     3,
+     1
+    ],
+    "rollsUsed": 3
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fours"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     4,
+     2,
+     5,
+     5,
+     4
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     3,
+     2,
+     5,
+     5,
+     4
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "smallStraight"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     4,
+     6,
+     1,
+     6,
+     5
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "chance"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     1,
+     3,
+     1,
+     2,
+     2
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "twos"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     4,
+     6,
+     2,
+     5,
+     6
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "threeOfAKind"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     2,
+     6,
+     4,
+     1,
+     3
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "chance"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     2,
+     5,
+     5,
+     6,
+     3
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0,
+     2,
+     3
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     2,
+     1,
+     5,
+     6,
+     4
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "kniffel"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     2,
+     1,
+     5,
+     6,
+     1
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fours"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     1,
+     1,
+     2,
+     2,
+     1
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fives"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     5,
+     6,
+     4,
+     4,
+     3
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     1,
+     2,
+     4
+    ]
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     4,
+     6,
+     4,
+     4,
+     3
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0,
+     1,
+     3,
+     4
+    ]
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     4,
+     6,
+     1,
+     4,
+     3
+    ],
+    "rollsUsed": 3
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "largeStraight"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     4,
+     3,
+     1,
+     5,
+     1
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     2,
+     4
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     3,
+     1,
+     1,
+     6,
+     1
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0,
+     1,
+     4
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     3,
+     1,
+     2,
+     6,
+     1
+    ],
+    "rollsUsed": 3
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fourOfAKind"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     4,
+     1,
+     4,
+     6,
+     4
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     4
+    ]
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     5,
+     1,
+     1,
+     3,
+     4
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fives"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     3,
+     3,
+     6,
+     1,
+     2
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     3,
+     5,
+     3,
+     4,
+     6
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fullHouse"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 1,
+    "dice": [
+     2,
+     3,
+     4,
+     1,
+     3
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "threeOfAKind"
+   },
+   "expect": {
+    "current": 1,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  }
+ ],
+ "expected": {
+  "finished": true,
+  "scores": [
+   {
+    "sixes": 12,
+    "smallStraight": 0,
+    "largeStraight": 0,
+    "twos": 2,
+    "threes": 3,
+    "ones": 1,
+    "fours": 0,
+    "chance": 22,
+    "threeOfAKind": 0,
+    "kniffel": 0,
+    "fives": 0,
+    "fourOfAKind": 0,
+    "fullHouse": 0
+   },
+   {
+    "sixes": 0,
+    "kniffel": 0,
+    "threes": 6,
+    "fourOfAKind": 0,
+    "ones": 2,
+    "fullHouse": 0,
+    "smallStraight": 30,
+    "twos": 4,
+    "chance": 16,
+    "fours": 0,
+    "largeStraight": 0,
+    "fives": 5,
+    "threeOfAKind": 0
+   }
+  ],
+  "totals": [
+   {
+    "upper": 18,
+    "bonus": 0,
+    "lower": 22,
+    "kniffelBonus": 0,
+    "total": 40
+   },
+   {
+    "upper": 17,
+    "bonus": 0,
+    "lower": 46,
+    "kniffelBonus": 0,
+    "total": 63
+   }
+  ]
+ }
+}

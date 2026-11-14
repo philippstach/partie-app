@@ -1,0 +1,765 @@
+{
+ "beschreibung": "tap_target(start, quelle, anzahl): Zug oder null (Karte wackelt).",
+ "faelle": [
+  {
+   "titel": "Ass: Ziel vor Spalte",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "AH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "passt auf zwei Spalten: erst rechts von der Quelle",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "TS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "S1",
+   "anzahl": 1,
+   "zug": {
+    "von": "S1",
+    "nach": "S3",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "ringsum: nach S6 wieder S0",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "TS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TC"
+      ]
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "S5",
+   "anzahl": 1,
+   "zug": {
+    "von": "S5",
+    "nach": "S6",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "Reihe aus 2 geht nie aufs Ziel",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "3S",
+       "2H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "4D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "S0",
+   "anzahl": 2,
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   }
+  },
+  {
+   "titel": "einzelne Karte: aufs Ziel",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "3S",
+       "2H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "4D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "König mit verdeckter Karte: leere Spalte",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [
+       "5C",
+       "3D"
+      ],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "AC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "König liegt schon allein unten: nichts",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "QS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "S0",
+   "anzahl": 2,
+   "zug": null
+  },
+  {
+   "titel": "Ablage: Suche ab S0",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "9H"
+    ],
+    "faecher": 1,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "TS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "A",
+   "anzahl": 1,
+   "zug": {
+    "von": "A",
+    "nach": "S0",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "König aus der Ablage: erste leere Spalte",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "KS"
+    ],
+    "faecher": 1,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "8D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "A",
+   "anzahl": 1,
+   "zug": {
+    "von": "A",
+    "nach": "S1",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "Zielstapel antippen: in Spalte",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     6,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "Z0",
+   "anzahl": 1,
+   "zug": {
+    "von": "Z0",
+    "nach": "S0",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "Zielstapel: passt nirgends",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     6,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "Z0",
+   "anzahl": 1,
+   "zug": null
+  },
+  {
+   "titel": "ungültige Reihe: nichts",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C",
+       "8C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "S0",
+   "anzahl": 2,
+   "zug": null
+  },
+  {
+   "titel": "passt nirgends: nichts",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "4D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": null
+  }
+ ]
+}

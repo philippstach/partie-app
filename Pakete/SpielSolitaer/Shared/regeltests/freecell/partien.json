@@ -1,0 +1,3662 @@
+{
+ "beschreibung": "deal(nummer), dann alle Züge nacheinander mit apply → ende. Jeder Zug ist erlaubt (keine automatische Ablage dazwischen; die steht als eigener Zug in der Liste).",
+ "faelle": [
+  {
+   "titel": "Lösung Partie 1",
+   "nummer": 1,
+   "zuege": [
+    {
+     "von": "S5",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "F3",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "F3",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "F3",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S6",
+     "anzahl": 2
+    },
+    {
+     "von": "S7",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "S5",
+     "anzahl": 2
+    },
+    {
+     "von": "S7",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S1",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S1",
+     "anzahl": 2
+    },
+    {
+     "von": "S6",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S1",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "F3",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "F3",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S1",
+     "nach": "S0",
+     "anzahl": 2
+    },
+    {
+     "von": "S1",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S1",
+     "anzahl": 2
+    },
+    {
+     "von": "S6",
+     "nach": "S0",
+     "anzahl": 2
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S0",
+     "anzahl": 3
+    },
+    {
+     "von": "S6",
+     "nach": "S7",
+     "anzahl": 3
+    },
+    {
+     "von": "S5",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 2
+    },
+    {
+     "von": "S7",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 2
+    },
+    {
+     "von": "S2",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S5",
+     "anzahl": 2
+    },
+    {
+     "von": "S2",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 2
+    },
+    {
+     "von": "S7",
+     "nach": "S0",
+     "anzahl": 3
+    },
+    {
+     "von": "S1",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S2",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 3
+    },
+    {
+     "von": "S5",
+     "nach": "S1",
+     "anzahl": 2
+    },
+    {
+     "von": "S1",
+     "nach": "S5",
+     "anzahl": 3
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 3
+    },
+    {
+     "von": "S7",
+     "nach": "S2",
+     "anzahl": 2
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 3
+    },
+    {
+     "von": "S7",
+     "nach": "S1",
+     "anzahl": 2
+    },
+    {
+     "von": "S1",
+     "nach": "S7",
+     "anzahl": 3
+    },
+    {
+     "von": "S1",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S0",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "F3",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S2",
+     "anzahl": 2
+    },
+    {
+     "von": "S0",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F3",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S0",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S2",
+     "anzahl": 2
+    },
+    {
+     "von": "S5",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "F3",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S2",
+     "anzahl": 2
+    },
+    {
+     "von": "S0",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "F1",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "F3",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "S3",
+     "anzahl": 2
+    },
+    {
+     "von": "S6",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S4",
+     "anzahl": 2
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "F3",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "S0",
+     "anzahl": 3
+    },
+    {
+     "von": "S5",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S2",
+     "anzahl": 2
+    },
+    {
+     "von": "S5",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S3",
+     "anzahl": 7
+    },
+    {
+     "von": "F0",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S4",
+     "anzahl": 3
+    },
+    {
+     "von": "S3",
+     "nach": "S0",
+     "anzahl": 7
+    },
+    {
+     "von": "F1",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S3",
+     "anzahl": 7
+    },
+    {
+     "von": "F2",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S0",
+     "anzahl": 7
+    },
+    {
+     "von": "S0",
+     "nach": "S7",
+     "anzahl": 5
+    },
+    {
+     "von": "S0",
+     "nach": "S3",
+     "anzahl": 2
+    },
+    {
+     "von": "F0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S0",
+     "anzahl": 2
+    },
+    {
+     "von": "S7",
+     "nach": "S0",
+     "anzahl": 5
+    },
+    {
+     "von": "S1",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S0",
+     "anzahl": 3
+    },
+    {
+     "von": "S3",
+     "nach": "S1",
+     "anzahl": 3
+    },
+    {
+     "von": "S4",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S5",
+     "anzahl": 3
+    },
+    {
+     "von": "S2",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z0",
+     "anzahl": 1
+    }
+   ],
+   "ende": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "zuege": 233,
+    "nummer": 1
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Lösung Partie 2",
+   "nummer": 2,
+   "zuege": [
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "F3",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "F3",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "F3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "S3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "F3",
+     "nach": "S3",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S0",
+     "anzahl": 2
+    },
+    {
+     "von": "S3",
+     "nach": "F3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S4",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S0",
+     "anzahl": 2
+    },
+    {
+     "von": "S5",
+     "nach": "S3",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S5",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S3",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S3",
+     "anzahl": 2
+    },
+    {
+     "von": "S5",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "F3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "S3",
+     "anzahl": 4
+    },
+    {
+     "von": "S0",
+     "nach": "S1",
+     "anzahl": 4
+    },
+    {
+     "von": "S0",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S6",
+     "anzahl": 4
+    },
+    {
+     "von": "S6",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S0",
+     "anzahl": 2
+    },
+    {
+     "von": "S1",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S3",
+     "anzahl": 2
+    },
+    {
+     "von": "S1",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S7",
+     "nach": "S1",
+     "anzahl": 3
+    },
+    {
+     "von": "S7",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z2",
+     "anzahl": 1
+    }
+   ],
+   "ende": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "zuege": 103,
+    "nummer": 2
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Lösung Partie 3",
+   "nummer": 3,
+   "zuege": [
+    {
+     "von": "S4",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "S1",
+     "anzahl": 2
+    },
+    {
+     "von": "S4",
+     "nach": "S6",
+     "anzahl": 2
+    },
+    {
+     "von": "S2",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S0",
+     "anzahl": 2
+    },
+    {
+     "von": "S7",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "S5",
+     "anzahl": 2
+    },
+    {
+     "von": "S4",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S5",
+     "anzahl": 3
+    },
+    {
+     "von": "S3",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S4",
+     "anzahl": 2
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "S3",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 4
+    },
+    {
+     "von": "S1",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "F3",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S6",
+     "anzahl": 4
+    },
+    {
+     "von": "S3",
+     "nach": "S7",
+     "anzahl": 2
+    },
+    {
+     "von": "S3",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S3",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S4",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "F3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S1",
+     "anzahl": 2
+    },
+    {
+     "von": "S7",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z1",
+     "anzahl": 1
+    }
+   ],
+   "ende": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "zuege": 101,
+    "nummer": 3
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Zufallszüge Partie 8",
+   "nummer": 8,
+   "zuege": [
+    {
+     "von": "S3",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "F3",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S6",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "S3",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "S1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "S2",
+     "anzahl": 1
+    }
+   ],
+   "ende": {
+    "spalten": [
+     [
+      "4C",
+      "8S",
+      "7D",
+      "QH",
+      "JH",
+      "QC",
+      "6S",
+      "5D"
+     ],
+     [
+      "5H",
+      "2D",
+      "KS",
+      "QS",
+      "JD",
+      "TS",
+      "9H"
+     ],
+     [
+      "3S",
+      "3C",
+      "8H",
+      "7H",
+      "9D",
+      "8C"
+     ],
+     [
+      "TD",
+      "JC",
+      "9C",
+      "7C",
+      "5C",
+      "4D"
+     ],
+     [
+      "KD"
+     ],
+     [
+      "3D",
+      "5S",
+      "4H"
+     ],
+     [
+      "KC",
+      "6H",
+      "QD",
+      "8D",
+      "3H",
+      "JS",
+      "TH",
+      "9S"
+     ],
+     [
+      "AH",
+      "6D",
+      "4S",
+      "2H"
+     ]
+    ],
+    "zellen": [
+     "7S",
+     "KH",
+     "TC",
+     "6C"
+    ],
+    "ziel": [
+     2,
+     0,
+     1,
+     2
+    ],
+    "zuege": 120,
+    "nummer": 8
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Zufallszüge Partie 9",
+   "nummer": 9,
+   "zuege": [
+    {
+     "von": "S7",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F3",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "F1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "F2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S2",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "F0",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "F0",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S7",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S7",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "S5",
+     "anzahl": 1
+    },
+    {
+     "von": "S5",
+     "nach": "S0",
+     "anzahl": 1
+    }
+   ],
+   "ende": {
+    "spalten": [
+     [
+      "5C",
+      "JH",
+      "4S",
+      "TS",
+      "6C",
+      "9S",
+      "8D"
+     ],
+     [
+      "8S",
+      "2H",
+      "7S",
+      "3H",
+      "3S",
+      "3C",
+      "JS"
+     ],
+     [
+      "7D",
+      "8C",
+      "KD",
+      "QC",
+      "TH",
+      "KH",
+      "QS"
+     ],
+     [
+      "2D",
+      "AH",
+      "JD",
+      "9D",
+      "5D",
+      "KC"
+     ],
+     [
+      "6H",
+      "7C",
+      "AS",
+      "4H",
+      "5S",
+      "2C"
+     ],
+     [
+      "9H",
+      "8H",
+      "AD",
+      "QH",
+      "JC",
+      "TD",
+      "9C"
+     ],
+     [
+      "6D",
+      "6S",
+      "2S",
+      "5H"
+     ],
+     [
+      "AC",
+      "QD",
+      "4C",
+      "KS"
+     ]
+    ],
+    "zellen": [
+     "7H",
+     "TC",
+     "4D",
+     "3D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 120,
+    "nummer": 9
+   },
+   "gewonnen": false
+  }
+ ]
+}

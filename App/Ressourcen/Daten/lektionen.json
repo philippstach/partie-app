@@ -1,0 +1,588 @@
+{
+ "formatVersion": 2,
+ "platzhalter": {
+  "{gegner}": "Farbname von Spieler 2 im gewählten Thema (Blau / Dunkel / Türkis)"
+ },
+ "lektionen": [
+  {
+   "id": "l1",
+   "regel": "mitte",
+   "titel": {
+    "de": "Die Mitte zählt",
+    "en": "The centre counts"
+   },
+   "text": {
+    "de": "Durch die mittlere Spalte laufen die meisten möglichen Viererreihen. Wer dort Steine hat, hat mehr Chancen.",
+    "en": "Most possible lines of four run through the middle column. Pieces there give you more chances."
+   },
+   "frage": {
+    "de": "Wo wirfst du den ersten Stein?",
+    "en": "Where do you drop your first piece?"
+   },
+   "fensterJeFeld": [
+    [
+     3,
+     4,
+     5,
+     7,
+     5,
+     4,
+     3
+    ],
+    [
+     4,
+     6,
+     8,
+     10,
+     8,
+     6,
+     4
+    ],
+    [
+     5,
+     8,
+     11,
+     13,
+     11,
+     8,
+     5
+    ],
+    [
+     5,
+     8,
+     11,
+     13,
+     11,
+     8,
+     5
+    ],
+    [
+     4,
+     6,
+     8,
+     10,
+     8,
+     6,
+     4
+    ],
+    [
+     3,
+     4,
+     5,
+     7,
+     5,
+     4,
+     3
+    ]
+   ],
+   "aufgaben": [
+    {
+     "beginner": 1,
+     "zuege": [],
+     "bild": [
+      ".......",
+      ".......",
+      ".......",
+      ".......",
+      ".......",
+      "......."
+     ],
+     "richtig": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "regel": "blocken",
+   "titel": {
+    "de": "Drohungen blocken",
+    "en": "Block threats"
+   },
+   "text": {
+    "de": "Hat {gegner} drei in einer Reihe und das vierte Feld ist frei, musst du es sofort besetzen.",
+    "en": "If {gegner} has three in a row and the fourth spot is open, you must take it right away."
+   },
+   "frage": {
+    "de": "{gegner} droht zu gewinnen. Wohin musst du?",
+    "en": "{gegner} is about to win. Where must you go?"
+   },
+   "aufgaben": [
+    {
+     "beginner": 1,
+     "zuege": [
+      0,
+      3,
+      2,
+      4,
+      6,
+      3,
+      6,
+      3,
+      3,
+      2,
+      0,
+      6,
+      2,
+      3,
+      1,
+      1
+     ],
+     "bild": [
+      ".......",
+      "...B...",
+      "...G...",
+      "..GB..B",
+      "GBBB..G",
+      "GGGBB.G"
+     ],
+     "richtig": [
+      4
+     ]
+    },
+    {
+     "beginner": 1,
+     "zuege": [
+      2,
+      6,
+      0,
+      3,
+      5,
+      2,
+      6,
+      4,
+      1,
+      1,
+      4,
+      6,
+      6,
+      6,
+      1,
+      1,
+      0,
+      3
+     ],
+     "bild": [
+      ".......",
+      "......B",
+      ".B....G",
+      ".G....B",
+      "GBBBG.G",
+      "GGGBBGB"
+     ],
+     "richtig": [
+      2
+     ]
+    },
+    {
+     "beginner": 2,
+     "zuege": [
+      6,
+      6,
+      4,
+      5,
+      2,
+      6,
+      4,
+      1,
+      3,
+      5,
+      6,
+      5,
+      5,
+      5,
+      3,
+      4,
+      3,
+      3,
+      2,
+      1,
+      2
+     ],
+     "bild": [
+      ".......",
+      ".....G.",
+      "...G.BB",
+      "..BBGGG",
+      ".GBBBGG",
+      ".GBBBGB"
+     ],
+     "richtig": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "regel": "gewinnen",
+   "titel": {
+    "de": "Gewinnen geht vor",
+    "en": "Winning comes first"
+   },
+   "text": {
+    "de": "Kannst du selbst gewinnen, tu es – auch wenn {gegner} gerade droht. Wer zuerst vier hat, hat gewonnen.",
+    "en": "If you can win, do it – even if {gegner} is threatening. Whoever gets four first wins."
+   },
+   "frage": {
+    "de": "Beide drohen. Was machst du?",
+    "en": "Both of you threaten. What do you do?"
+   },
+   "aufgaben": [
+    {
+     "beginner": 2,
+     "zuege": [
+      3,
+      3,
+      4,
+      4,
+      1,
+      2,
+      3,
+      2,
+      1,
+      4,
+      5
+     ],
+     "bild": [
+      ".......",
+      ".......",
+      ".......",
+      "...BG..",
+      ".BGGG..",
+      ".BGBBB."
+     ],
+     "richtig": [
+      5
+     ]
+    },
+    {
+     "beginner": 2,
+     "zuege": [
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      3,
+      3,
+      5,
+      5,
+      2,
+      6,
+      2,
+      3,
+      1,
+      4,
+      6,
+      3,
+      4
+     ],
+     "bild": [
+      "..BG...",
+      "..BG...",
+      "..GG...",
+      "..GB...",
+      "..BBBGB",
+      ".BGBGBG"
+     ],
+     "richtig": [
+      4
+     ]
+    },
+    {
+     "beginner": 1,
+     "zuege": [
+      3,
+      1,
+      6,
+      1,
+      3,
+      3,
+      0,
+      5,
+      3,
+      0,
+      4,
+      1,
+      1,
+      0,
+      4,
+      2,
+      1,
+      6,
+      0,
+      2
+     ],
+     "bild": [
+      ".......",
+      ".G.....",
+      "GG.G...",
+      "BB.B...",
+      "BBBGG.B",
+      "GBBGGBG"
+     ],
+     "richtig": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "regel": "sicher",
+   "titel": {
+    "de": "Keine Geschenke",
+    "en": "No gifts"
+   },
+   "text": {
+    "de": "Ein Stein unter einem Gewinnfeld von {gegner} macht {gegner} den Weg frei. Spiel woanders.",
+    "en": "A piece right below the winning spot of {gegner} opens the way for {gegner}. Play somewhere else."
+   },
+   "frage": {
+    "de": "Welche Spalte ist sicher?",
+    "en": "Which column is safe?"
+   },
+   "aufgaben": [
+    {
+     "beginner": 1,
+     "zuege": [
+      2,
+      5,
+      2,
+      4,
+      6,
+      4,
+      2,
+      2,
+      6,
+      2,
+      2,
+      4,
+      4,
+      3,
+      6,
+      6,
+      1,
+      1
+     ],
+     "bild": [
+      "..G....",
+      "..B....",
+      "..B.G.B",
+      "..G.B.G",
+      ".BG.B.G",
+      ".GGBBBG"
+     ],
+     "richtig": [
+      0,
+      1,
+      4,
+      6
+     ]
+    },
+    {
+     "beginner": 2,
+     "zuege": [
+      0,
+      2,
+      2,
+      1,
+      1,
+      4,
+      3,
+      3,
+      1,
+      1,
+      2,
+      5,
+      0,
+      1,
+      1,
+      6,
+      4,
+      2,
+      5
+     ],
+     "bild": [
+      ".B.....",
+      ".G.....",
+      ".GG....",
+      ".BB....",
+      "BBBGBB.",
+      "BGGBGGG"
+     ],
+     "richtig": [
+      2,
+      4,
+      5,
+      6
+     ]
+    },
+    {
+     "beginner": 1,
+     "zuege": [
+      4,
+      4,
+      0,
+      4,
+      2,
+      1,
+      5,
+      3,
+      6,
+      4,
+      4,
+      0,
+      5,
+      4,
+      2,
+      5,
+      6,
+      1,
+      1,
+      2,
+      1,
+      5
+     ],
+     "bild": [
+      "....B..",
+      "....G..",
+      ".G..BB.",
+      ".GB.BB.",
+      "BBG.BGG",
+      "GBGBGGG"
+     ],
+     "richtig": [
+      0,
+      1,
+      2,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "regel": "doppeldrohung",
+   "titel": {
+    "de": "Die Doppeldrohung",
+    "en": "The double threat"
+   },
+   "text": {
+    "de": "Zwei Drohungen auf einmal kann {gegner} nicht beide blocken. So gewinnst du in 2 Zügen.",
+    "en": "{gegner} can't block two threats at once. That's how you win in 2 moves."
+   },
+   "frage": {
+    "de": "Baue eine Doppeldrohung.",
+    "en": "Build a double threat."
+   },
+   "n": 2,
+   "aufgaben": [
+    {
+     "beginner": 1,
+     "zuege": [
+      1,
+      4,
+      4,
+      3,
+      0,
+      1,
+      2,
+      3,
+      6,
+      0,
+      2,
+      1,
+      4,
+      2,
+      1,
+      2
+     ],
+     "bild": [
+      ".......",
+      ".......",
+      ".GB....",
+      ".BB.G..",
+      "BBGBG..",
+      "GGGBB.G"
+     ],
+     "richtig": [
+      4
+     ]
+    },
+    {
+     "beginner": 1,
+     "zuege": [
+      2,
+      2,
+      0,
+      5,
+      2,
+      1,
+      0,
+      1,
+      5,
+      3,
+      5,
+      6,
+      4,
+      0,
+      3,
+      5,
+      4,
+      6
+     ],
+     "bild": [
+      ".......",
+      ".......",
+      ".....B.",
+      "B.G..G.",
+      "GBBGGGB",
+      "GBGBGBB"
+     ],
+     "richtig": [
+      4
+     ]
+    },
+    {
+     "beginner": 2,
+     "zuege": [
+      6,
+      3,
+      0,
+      2,
+      6,
+      0,
+      5,
+      4,
+      1,
+      2,
+      5,
+      1,
+      3,
+      4,
+      1,
+      6,
+      0,
+      4,
+      4
+     ],
+     "bild": [
+      ".......",
+      ".......",
+      "....B..",
+      "BB..G.G",
+      "GGGBGBB",
+      "BBGGGBB"
+     ],
+     "richtig": [
+      5
+     ]
+    }
+   ]
+  }
+ ]
+}

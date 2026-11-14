@@ -1,0 +1,77 @@
+{
+ "beschreibung": "normalisiere(text): Rätselschreibweise A–Z, Ä→AE, Ö→OE, Ü→UE, ß→SS, Akzente weg, Rest entfällt",
+ "faelle": [
+  {
+   "eingabe": "Löwe",
+   "erwartet": "LOEWE"
+  },
+  {
+   "eingabe": "Straße",
+   "erwartet": "STRASSE"
+  },
+  {
+   "eingabe": "GRÖSSE",
+   "erwartet": "GROESSE"
+  },
+  {
+   "eingabe": "Ärger",
+   "erwartet": "AERGER"
+  },
+  {
+   "eingabe": "Übel",
+   "erwartet": "UEBEL"
+  },
+  {
+   "eingabe": "Öl",
+   "erwartet": "OEL"
+  },
+  {
+   "eingabe": "maß",
+   "erwartet": "MASS"
+  },
+  {
+   "eingabe": "Café",
+   "erwartet": "CAFE"
+  },
+  {
+   "eingabe": "Rhône",
+   "erwartet": "RHONE"
+  },
+  {
+   "eingabe": "Señor",
+   "erwartet": "SENOR"
+  },
+  {
+   "eingabe": "Schleswig-Holstein",
+   "erwartet": "SCHLESWIGHOLSTEIN"
+  },
+  {
+   "eingabe": "New York",
+   "erwartet": "NEWYORK"
+  },
+  {
+   "eingabe": "A4",
+   "erwartet": "A"
+  },
+  {
+   "eingabe": "",
+   "erwartet": ""
+  },
+  {
+   "eingabe": "ẞ",
+   "erwartet": "SS"
+  },
+  {
+   "eingabe": "äöüß",
+   "erwartet": "AEOEUESS"
+  },
+  {
+   "eingabe": "x",
+   "erwartet": "X"
+  },
+  {
+   "eingabe": "?",
+   "erwartet": ""
+  }
+ ]
+}

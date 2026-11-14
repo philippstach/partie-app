@@ -1,0 +1,167 @@
+{
+ "name": "23_rauslegen_uebernahme",
+ "beschreibung": "layOut mit Übernahme: Die offenen Würfel und Punkte des Vorspielers gelten. Nach Übernahme mit allen 5 zählt im ersten Wurf keine Straße, danach geht es normal weiter. Niete verliert alles.",
+ "rules": {
+  "diceMode": "real"
+ },
+ "players": [
+  "Anna",
+  "Ben"
+ ],
+ "dice": [],
+ "steps": [
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     1,
+     5
+    ],
+    "bank": true
+   },
+   "expect": {
+    "scores": [
+     150,
+     0
+    ],
+    "offer": {
+     "from": 0,
+     "points": 150,
+     "kept": [
+      true,
+      true,
+      false,
+      false,
+      false
+     ]
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "acceptOffer"
+   },
+   "expect": {
+    "offer": null,
+    "turn": {
+     "banked": 150,
+     "locked": [
+      true,
+      true,
+      false,
+      false,
+      false
+     ],
+     "inheritedFrom": 0,
+     "inheritedPoints": 150,
+     "keptThrows": 0
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     1,
+     1,
+     1
+    ],
+    "bank": true
+   },
+   "expect": {
+    "scores": [
+     150,
+     1150
+    ],
+    "current": 0,
+    "offer": {
+     "from": 1,
+     "points": 1150,
+     "kept": [
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "acceptOffer"
+   },
+   "expect": {
+    "turn": {
+     "banked": 1150,
+     "inheritedFrom": 1
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "bank": false
+   },
+   "error": true
+  },
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     5
+    ],
+    "bank": false
+   },
+   "expect": {
+    "turn": {
+     "banked": 1200,
+     "keptThrows": 1
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "noPoints"
+   },
+   "expect": {
+    "scores": [
+     150,
+     1150
+    ],
+    "current": 1,
+    "offer": null
+   }
+  }
+ ],
+ "expected": {
+  "scores": [
+   150,
+   1150
+  ],
+  "log": [
+   [
+    0,
+    150,
+    0
+   ],
+   [
+    1,
+    1150,
+    0
+   ],
+   [
+    0,
+    0,
+    0
+   ]
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "name": "20_nur_einsen_fuenfen_drei_einsen",
+ "beschreibung": "Regel triples = onesAndFives (Stand 30.09.2026): drei Einsen = 500, vier Einsen + 5 = 650. Alle 5 rausgelegt: Angebot mit allen 5.",
+ "rules": {"triples": "onesAndFives"},
+ "players": ["Anna", "Ben"],
+ "dice": [1, 1, 1, 4, 6, 1, 1, 1, 1, 5],
+ "steps": [
+  {"action": {"type": "roll", "keep": []}},
+  {"action": {"type": "bank", "keep": [0, 1, 2]}, "expect": {"scores": [500, 0], "offer": {"from": 0, "points": 500, "dice": [1, 1, 1, 4, 6], "kept": [true, true, true, false, false]}}},
+  {"action": {"type": "declineOffer"}},
+  {"action": {"type": "roll", "keep": []}},
+  {"action": {"type": "bank", "keep": [0, 1, 2, 3, 4]}, "expect": {"scores": [500, 650], "offer": {"from": 1, "points": 650, "dice": [1, 1, 1, 1, 5], "kept": [false, false, false, false, false]}}}
+ ],
+ "expected": {"scores": [500, 650], "current": 0, "log": [[0, 500, 0], [1, 650, 0]], "players": [{"bestTurn": 500}, {"bestTurn": 650}]}
+}

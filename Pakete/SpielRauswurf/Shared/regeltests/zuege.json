@@ -1,0 +1,1976 @@
+{
+ "beschreibung": "alle = Bewegungsregeln ohne Pflichten, erlaubt = nach Raus-Pflicht, Start räumen, Schlagpflicht. Beide sortiert nach von aufsteigend. blockiert = mit 1–5 kein Zug möglich.",
+ "faelle": [
+  {
+   "name": "alle im Haus, keine 6",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 5,
+   "optionen": {},
+   "erwartet": {
+    "alle": [],
+    "erlaubt": []
+   }
+  },
+  {
+   "name": "alle im Haus, 6: raus",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 6,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": -1,
+      "nach": 0,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": -1,
+      "nach": 0,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "raus schlägt Gegner auf dem eigenen Startfeld",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      30,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 6,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": -1,
+      "nach": 0,
+      "schlaegt": 1
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": -1,
+      "nach": 0,
+      "schlaegt": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "6, eigene Figur auf dem Start: Start räumen",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      0,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 6,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 0,
+      "nach": 6,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 6,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "Start räumen geht nicht (eigene Figur im Weg): andere Figur",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      0,
+      3,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 3,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 3,
+      "nach": 6,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 3,
+      "nach": 6,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "Start räumen hat Vorrang",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      0,
+      20,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 0,
+      "nach": 2,
+      "schlaegt": null
+     },
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 2,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "Start räumen aus: freie Wahl",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      0,
+      20,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {
+    "startfeldRaeumen": false
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": 0,
+      "nach": 2,
+      "schlaegt": null
+     },
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 2,
+      "schlaegt": null
+     },
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "Start räumen gilt nur mit Figuren im Haus",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      0,
+      20,
+      40,
+      41
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 0,
+      "nach": 2,
+      "schlaegt": null
+     },
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 42,
+      "schlaegt": null
+     },
+     {
+      "von": 41,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 2,
+      "schlaegt": null
+     },
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 42,
+      "schlaegt": null
+     },
+     {
+      "von": 41,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "Raus-Pflicht: mit 6 muss raus",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      10,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 6,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": -1,
+      "nach": 0,
+      "schlaegt": null
+     },
+     {
+      "von": 10,
+      "nach": 16,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": -1,
+      "nach": 0,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "Raus-Pflicht aus: freie Wahl",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      10,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 6,
+   "optionen": {
+    "rausPflicht": false
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": -1,
+      "nach": 0,
+      "schlaegt": null
+     },
+     {
+      "von": 10,
+      "nach": 16,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": -1,
+      "nach": 0,
+      "schlaegt": null
+     },
+     {
+      "von": 10,
+      "nach": 16,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "Schlagen auf der Laufbahn",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      5,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      37,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 5,
+      "nach": 7,
+      "schlaegt": 1
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 5,
+      "nach": 7,
+      "schlaegt": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "ohne Schlagpflicht: freie Wahl",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      5,
+      20,
+      -1,
+      -1
+     ],
+     [
+      37,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {
+    "startfeldRaeumen": false
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": 5,
+      "nach": 7,
+      "schlaegt": 1
+     },
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 5,
+      "nach": 7,
+      "schlaegt": 1
+     },
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "Schlagpflicht: nur schlagen",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      5,
+      20,
+      30,
+      40
+     ],
+     [
+      37,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": 5,
+      "nach": 7,
+      "schlaegt": 1
+     },
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 32,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 42,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 5,
+      "nach": 7,
+      "schlaegt": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "Schlagpflicht, zwei Möglichkeiten: Wahl",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      5,
+      20,
+      30,
+      40
+     ],
+     [
+      37,
+      12,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": 5,
+      "nach": 7,
+      "schlaegt": 1
+     },
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": 1
+     },
+     {
+      "von": 30,
+      "nach": 32,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 42,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 5,
+      "nach": 7,
+      "schlaegt": 1
+     },
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "Raus-Pflicht vor Schlagpflicht",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      5,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 6,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": -1,
+      "nach": 0,
+      "schlaegt": null
+     },
+     {
+      "von": 5,
+      "nach": 11,
+      "schlaegt": 1
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": -1,
+      "nach": 0,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "Start räumen vor Schlagpflicht",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      0,
+      5,
+      -1,
+      -1
+     ],
+     [
+      37,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {
+    "schlagpflicht": true
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": 0,
+      "nach": 2,
+      "schlaegt": null
+     },
+     {
+      "von": 5,
+      "nach": 7,
+      "schlaegt": 1
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 0,
+      "nach": 2,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "Schlagen auf dem Startfeld des Gegners",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      8,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      0,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 8,
+      "nach": 10,
+      "schlaegt": 1
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 8,
+      "nach": 10,
+      "schlaegt": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "Gegner überspringen ist erlaubt",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      5,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      36,
+      37,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 3,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 5,
+      "nach": 8,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 5,
+      "nach": 8,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "eigene Figur blockiert das Zielfeld",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      5,
+      8,
+      40,
+      41
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 3,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 8,
+      "nach": 11,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 8,
+      "nach": 11,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "über das Startfeld des Gegners hinweg (Sitz 2, Laufbahn über 0)",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      17,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      35,
+      40,
+      41,
+      42
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 2,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 35,
+      "nach": 37,
+      "schlaegt": 0
+     },
+     {
+      "von": 41,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 35,
+      "nach": 37,
+      "schlaegt": 0
+     },
+     {
+      "von": 41,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "ins Ziel",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      38,
+      40,
+      41,
+      42
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 5,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 38,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 38,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "über das Ziel hinaus geht nicht",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      38,
+      40,
+      41,
+      42
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 6,
+   "optionen": {},
+   "erwartet": {
+    "alle": [],
+    "erlaubt": []
+   }
+  },
+  {
+   "name": "genau auf das letzte Zielfeld",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      39,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 39,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 39,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "im Ziel über eigene Figur springen (Standard erlaubt)",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      38,
+      41,
+      30,
+      20
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 20,
+      "nach": 24,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 34,
+      "schlaegt": null
+     },
+     {
+      "von": 38,
+      "nach": 42,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 20,
+      "nach": 24,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 34,
+      "schlaegt": null
+     },
+     {
+      "von": 38,
+      "nach": 42,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "im Ziel über eigene Figur springen verboten",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      38,
+      41,
+      30,
+      20
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 4,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": 20,
+      "nach": 24,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 34,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 20,
+      "nach": 24,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 34,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "im Ziel weiterziehen",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      40,
+      20,
+      30,
+      41
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 32,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 42,
+      "schlaegt": null
+     },
+     {
+      "von": 41,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 32,
+      "schlaegt": null
+     },
+     {
+      "von": 40,
+      "nach": 42,
+      "schlaegt": null
+     },
+     {
+      "von": 41,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "im Ziel weiterziehen, Springen verboten",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      40,
+      20,
+      30,
+      41
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 32,
+      "schlaegt": null
+     },
+     {
+      "von": 41,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 32,
+      "schlaegt": null
+     },
+     {
+      "von": 41,
+      "nach": 43,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "auf eigenes Zielfeld geht nie",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      37,
+      41,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 4,
+   "optionen": {},
+   "erwartet": {
+    "alle": [],
+    "erlaubt": []
+   }
+  },
+  {
+   "name": "Zielfelder des Gegners sind unerreichbar",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      8,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      40,
+      41,
+      42,
+      43
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 8,
+      "nach": 10,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 8,
+      "nach": 10,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "Sitz 3 schlägt Sitz 0 kurz vor dessen Ziel",
+   "lage": {
+    "sitze": [
+     0,
+     3
+    ],
+    "figuren": [
+     [
+      38,
+      40,
+      41,
+      42
+     ],
+     [
+      5,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 1,
+   "augen": 3,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 5,
+      "nach": 8,
+      "schlaegt": 0
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 5,
+      "nach": 8,
+      "schlaegt": 0
+     }
+    ]
+   }
+  },
+  {
+   "name": "mehrere Figuren, Reihenfolge nach Position",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      30,
+      4,
+      12,
+      41
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 1,
+   "optionen": {},
+   "erwartet": {
+    "alle": [
+     {
+      "von": 4,
+      "nach": 5,
+      "schlaegt": null
+     },
+     {
+      "von": 12,
+      "nach": 13,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 31,
+      "schlaegt": null
+     },
+     {
+      "von": 41,
+      "nach": 42,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 4,
+      "nach": 5,
+      "schlaegt": null
+     },
+     {
+      "von": 12,
+      "nach": 13,
+      "schlaegt": null
+     },
+     {
+      "von": 30,
+      "nach": 31,
+      "schlaegt": null
+     },
+     {
+      "von": 41,
+      "nach": 42,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "keine 6 und nichts beweglich",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      42,
+      43,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 3,
+   "optionen": {},
+   "erwartet": {
+    "alle": [],
+    "erlaubt": []
+   }
+  },
+  {
+   "name": "ohne Rauswerfen: fremd besetztes Feld gesperrt",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      5,
+      20,
+      -1,
+      -1
+     ],
+     [
+      37,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {
+    "rauswerfen": false
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 20,
+      "nach": 22,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "ohne Rauswerfen: Gegner überspringen geht",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      5,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      37,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 3,
+   "optionen": {
+    "rauswerfen": false
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": 5,
+      "nach": 8,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 5,
+      "nach": 8,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "ohne Rauswerfen: Gegner auf dem eigenen Startfeld sperrt das Rauskommen",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      10,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      30,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 6,
+   "optionen": {
+    "rauswerfen": false
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": 10,
+      "nach": 16,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 10,
+      "nach": 16,
+      "schlaegt": null
+     }
+    ]
+   }
+  },
+  {
+   "name": "zwei Figuren: Lage mit 2 Figuren",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      38,
+      -1
+     ],
+     [
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "augen": 2,
+   "optionen": {
+    "figuren": 2
+   },
+   "erwartet": {
+    "alle": [
+     {
+      "von": 38,
+      "nach": 40,
+      "schlaegt": null
+     }
+    ],
+    "erlaubt": [
+     {
+      "von": 38,
+      "nach": 40,
+      "schlaegt": null
+     }
+    ]
+   }
+  }
+ ],
+ "blockiert": [
+  {
+   "name": "alle im Haus",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "optionen": {},
+   "erwartet": true
+  },
+  {
+   "name": "Rest fest im Ziel",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      43,
+      42,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "optionen": {},
+   "erwartet": true
+  },
+  {
+   "name": "Figur im Ziel kann noch vor",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      40,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "optionen": {},
+   "erwartet": false
+  },
+  {
+   "name": "Figur auf der Laufbahn",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      12,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "optionen": {},
+   "erwartet": false
+  },
+  {
+   "name": "Lücke im Ziel, Springen verboten, trotzdem beweglich",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      41,
+      43,
+      -1,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": false
+  },
+  {
+   "name": "40, 41, 42 im Ziel: 42 kann noch auf 43",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      40,
+      41,
+      42,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "optionen": {
+    "zielUeberspringen": false
+   },
+   "erwartet": false
+  },
+  {
+   "name": "41, 42, 43 im Ziel, Rest im Haus: blockiert",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      41,
+      42,
+      43,
+      -1
+     ],
+     [
+      -1,
+      -1,
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "optionen": {},
+   "erwartet": true
+  },
+  {
+   "name": "zwei Figuren: eine im Ziel fest, eine im Haus",
+   "lage": {
+    "sitze": [
+     0,
+     2
+    ],
+    "figuren": [
+     [
+      43,
+      -1
+     ],
+     [
+      -1,
+      -1
+     ]
+    ]
+   },
+   "spieler": 0,
+   "optionen": {
+    "figuren": 2
+   },
+   "erwartet": true
+  },
+  {
+   "name": "ohne Rauswerfen: einzige Figur steht vor Gegnern, trotzdem nicht blockiert",
+   "lage": {
+    "sitze": [
+     0,
+     1
+    ],
+    "figuren": [
+     [
+      5,
+      -1,
+      -1,
+      -1
+     ],
+     [
+      36,
+      37,
+      38,
+      39
+     ]
+    ]
+   },
+   "spieler": 0,
+   "optionen": {
+    "rauswerfen": false
+   },
+   "erwartet": false
+  }
+ ]
+}

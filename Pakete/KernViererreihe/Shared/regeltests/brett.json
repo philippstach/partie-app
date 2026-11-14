@@ -1,0 +1,1299 @@
+{
+ "beschreibung": "Steine einwerfen, Gewinn, Unentschieden",
+ "faelle": [
+  {
+   "name": "leer",
+   "beschreibung": "Leeres Brett, Gold beginnt",
+   "beginner": 1,
+   "zuege": [],
+   "erwartet": {
+    "status": "laeuft",
+    "gewinner": null,
+    "gewinnZellen": [],
+    "amZug": 1,
+    "hoehen": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "legaleSpalten": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bild": [
+     ".......",
+     ".......",
+     ".......",
+     ".......",
+     ".......",
+     "......."
+    ]
+   }
+  },
+  {
+   "name": "leerBlauBeginnt",
+   "beschreibung": "Leeres Brett, Blau beginnt",
+   "beginner": 2,
+   "zuege": [],
+   "erwartet": {
+    "status": "laeuft",
+    "gewinner": null,
+    "gewinnZellen": [],
+    "amZug": 2,
+    "hoehen": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "legaleSpalten": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bild": [
+     ".......",
+     ".......",
+     ".......",
+     ".......",
+     ".......",
+     "......."
+    ]
+   }
+  },
+  {
+   "name": "ersterStein",
+   "beschreibung": "Ein Stein fällt ganz nach unten",
+   "beginner": 1,
+   "zuege": [
+    3
+   ],
+   "erwartet": {
+    "status": "laeuft",
+    "gewinner": null,
+    "gewinnZellen": [],
+    "amZug": 2,
+    "hoehen": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "legaleSpalten": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bild": [
+     ".......",
+     ".......",
+     ".......",
+     ".......",
+     ".......",
+     "...G..."
+    ]
+   }
+  },
+  {
+   "name": "stapeln",
+   "beschreibung": "Steine stapeln sich in einer Spalte",
+   "beginner": 1,
+   "zuege": [
+    3,
+    3,
+    3
+   ],
+   "erwartet": {
+    "status": "laeuft",
+    "gewinner": null,
+    "gewinnZellen": [],
+    "amZug": 2,
+    "hoehen": [
+     0,
+     0,
+     0,
+     3,
+     0,
+     0,
+     0
+    ],
+    "legaleSpalten": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bild": [
+     ".......",
+     ".......",
+     ".......",
+     "...G...",
+     "...B...",
+     "...G..."
+    ]
+   }
+  },
+  {
+   "name": "waagerechtEinfach",
+   "beschreibung": "Gold: unterste Reihe Spalte 0–3",
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+   ],
+   "erwartet": {
+    "status": "gewonnen",
+    "gewinner": 1,
+    "gewinnZellen": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      3,
+      0
+     ]
+    ],
+    "amZug": null,
+    "hoehen": [
+     2,
+     2,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     ".......",
+     ".......",
+     ".......",
+     ".......",
+     "BBB....",
+     "GGGG..."
+    ]
+   }
+  },
+  {
+   "name": "senkrechtEinfach",
+   "beschreibung": "Gold: Spalte 0 vier übereinander",
+   "beginner": 1,
+   "zuege": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "erwartet": {
+    "status": "gewonnen",
+    "gewinner": 1,
+    "gewinnZellen": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ]
+    ],
+    "amZug": null,
+    "hoehen": [
+     4,
+     3,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     ".......",
+     ".......",
+     "G......",
+     "GB.....",
+     "GB.....",
+     "GB....."
+    ]
+   }
+  },
+  {
+   "name": "blauGewinnt",
+   "beschreibung": "Blau gewinnt senkrecht in Spalte 6",
+   "beginner": 1,
+   "zuege": [
+    0,
+    6,
+    1,
+    6,
+    0,
+    6,
+    1,
+    6
+   ],
+   "erwartet": {
+    "status": "gewonnen",
+    "gewinner": 2,
+    "gewinnZellen": [
+     [
+      6,
+      0
+     ],
+     [
+      6,
+      1
+     ],
+     [
+      6,
+      2
+     ],
+     [
+      6,
+      3
+     ]
+    ],
+    "amZug": null,
+    "hoehen": [
+     2,
+     2,
+     0,
+     0,
+     0,
+     0,
+     4
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     ".......",
+     ".......",
+     "......B",
+     "......B",
+     "GG....B",
+     "GG....B"
+    ]
+   }
+  },
+  {
+   "name": "blauBeginntGewinnt",
+   "beschreibung": "Blau beginnt und gewinnt waagerecht",
+   "beginner": 2,
+   "zuege": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+   ],
+   "erwartet": {
+    "status": "gewonnen",
+    "gewinner": 2,
+    "gewinnZellen": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      3,
+      0
+     ]
+    ],
+    "amZug": null,
+    "hoehen": [
+     2,
+     2,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     ".......",
+     ".......",
+     ".......",
+     ".......",
+     "GGG....",
+     "BBBB..."
+    ]
+   }
+  },
+  {
+   "name": "dreiReichtNicht",
+   "beschreibung": "Drei in einer Reihe ist noch kein Gewinn",
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+   ],
+   "erwartet": {
+    "status": "laeuft",
+    "gewinner": null,
+    "gewinnZellen": [],
+    "amZug": 1,
+    "hoehen": [
+     2,
+     2,
+     2,
+     0,
+     0,
+     0,
+     0
+    ],
+    "legaleSpalten": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bild": [
+     ".......",
+     ".......",
+     ".......",
+     ".......",
+     "BBB....",
+     "GGG...."
+    ]
+   }
+  },
+  {
+   "name": "unterbrochen",
+   "beschreibung": "G G B G: unterbrochene Reihe zählt nicht",
+   "beginner": 1,
+   "zuege": [
+    0,
+    6,
+    1,
+    2,
+    3,
+    6,
+    4
+   ],
+   "erwartet": {
+    "status": "laeuft",
+    "gewinner": null,
+    "gewinnZellen": [],
+    "amZug": 2,
+    "hoehen": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     0,
+     2
+    ],
+    "legaleSpalten": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bild": [
+     ".......",
+     ".......",
+     ".......",
+     ".......",
+     "......B",
+     "GGBGG.B"
+    ]
+   }
+  },
+  {
+   "name": "spalteVoll",
+   "beschreibung": "Spalte 0 ist voll, nicht mehr legal",
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "erwartet": {
+    "status": "laeuft",
+    "gewinner": null,
+    "gewinnZellen": [],
+    "amZug": 1,
+    "hoehen": [
+     6,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "legaleSpalten": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bild": [
+     "B......",
+     "G......",
+     "B......",
+     "G......",
+     "B......",
+     "G......"
+    ]
+   }
+  },
+  {
+   "name": "waagerecht",
+   "beschreibung": "Zufallspartie, Gewinn waagerecht",
+   "beginner": 2,
+   "zuege": [
+    6,
+    2,
+    1,
+    1,
+    2,
+    2,
+    5,
+    6,
+    5,
+    6,
+    6,
+    2,
+    0,
+    6,
+    4,
+    2,
+    5,
+    3,
+    4,
+    1,
+    1,
+    1,
+    3
+   ],
+   "erwartet": {
+    "status": "gewonnen",
+    "gewinner": 2,
+    "gewinnZellen": [
+     [
+      2,
+      1
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      5,
+      1
+     ]
+    ],
+    "amZug": null,
+    "hoehen": [
+     1,
+     5,
+     5,
+     2,
+     2,
+     3,
+     5
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     ".......",
+     ".GG...G",
+     ".BG...B",
+     ".GG..BG",
+     ".GBBBBG",
+     "BBGGBBB"
+    ]
+   }
+  },
+  {
+   "name": "senkrecht",
+   "beschreibung": "Zufallspartie, Gewinn senkrecht",
+   "beginner": 2,
+   "zuege": [
+    4,
+    4,
+    5,
+    3,
+    5,
+    2,
+    1,
+    5,
+    1,
+    0,
+    3,
+    1,
+    5,
+    5,
+    3,
+    2,
+    1,
+    2,
+    3,
+    5,
+    4,
+    2
+   ],
+   "erwartet": {
+    "status": "gewonnen",
+    "gewinner": 1,
+    "gewinnZellen": [
+     [
+      2,
+      0
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "amZug": null,
+    "hoehen": [
+     1,
+     4,
+     4,
+     4,
+     3,
+     6,
+     0
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     ".....G.",
+     ".....G.",
+     ".BGB.B.",
+     ".GGBBG.",
+     ".BGBGB.",
+     "GBGGBB."
+    ]
+   }
+  },
+  {
+   "name": "diagonalSteigend",
+   "beschreibung": "Zufallspartie, Gewinn diagonal von links unten nach rechts oben",
+   "beginner": 2,
+   "zuege": [
+    0,
+    2,
+    4,
+    0,
+    4,
+    3,
+    5,
+    5,
+    6,
+    6,
+    5,
+    5,
+    0,
+    3,
+    3,
+    0,
+    3,
+    1,
+    6,
+    4
+   ],
+   "erwartet": {
+    "status": "gewonnen",
+    "gewinner": 1,
+    "gewinnZellen": [
+     [
+      2,
+      0
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      4,
+      2
+     ],
+     [
+      5,
+      3
+     ]
+    ],
+    "amZug": null,
+    "hoehen": [
+     4,
+     1,
+     1,
+     4,
+     3,
+     4,
+     3
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     ".......",
+     ".......",
+     "G..B.G.",
+     "B..BGBB",
+     "G..GBGG",
+     "BGGGBBB"
+    ]
+   }
+  },
+  {
+   "name": "diagonalFallend",
+   "beschreibung": "Zufallspartie, Gewinn diagonal von links oben nach rechts unten",
+   "beginner": 1,
+   "zuege": [
+    2,
+    0,
+    3,
+    1,
+    2,
+    6,
+    6,
+    2,
+    2,
+    4,
+    0,
+    3,
+    1,
+    3,
+    1,
+    0,
+    0
+   ],
+   "erwartet": {
+    "status": "gewonnen",
+    "gewinner": 1,
+    "gewinnZellen": [
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      3,
+      0
+     ]
+    ],
+    "amZug": null,
+    "hoehen": [
+     4,
+     3,
+     4,
+     3,
+     1,
+     0,
+     2
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     ".......",
+     ".......",
+     "G.G....",
+     "BGBB...",
+     "GGGB..G",
+     "BBGGB.B"
+    ]
+   }
+  },
+  {
+   "name": "zweiReihen",
+   "beschreibung": "Ein Stein vollendet zwei Reihen gleichzeitig: alle Zellen beider Reihen",
+   "beginner": 2,
+   "zuege": [
+    4,
+    0,
+    2,
+    1,
+    4,
+    3,
+    5,
+    4,
+    4,
+    6,
+    2,
+    3,
+    3,
+    4,
+    0,
+    1,
+    4,
+    0,
+    3,
+    6,
+    2,
+    5,
+    2
+   ],
+   "erwartet": {
+    "status": "gewonnen",
+    "gewinner": 2,
+    "gewinnZellen": [
+     [
+      2,
+      0
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      2
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      5,
+      0
+     ]
+    ],
+    "amZug": null,
+    "hoehen": [
+     3,
+     2,
+     4,
+     4,
+     6,
+     2,
+     2
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     "....B..",
+     "....G..",
+     "..BBB..",
+     "G.BBG..",
+     "BGBGBGG",
+     "GGBGBBG"
+    ]
+   }
+  },
+  {
+   "name": "fuenfInEinerReihe",
+   "beschreibung": "Lücke geschlossen: fünf in einer Reihe, alle fünf Zellen markiert",
+   "beginner": 1,
+   "zuege": [
+    2,
+    0,
+    5,
+    3,
+    3,
+    1,
+    0,
+    0,
+    0,
+    3,
+    4,
+    2,
+    6,
+    6,
+    0,
+    1,
+    4,
+    4,
+    2,
+    2,
+    6,
+    1,
+    6,
+    0,
+    3,
+    2,
+    1
+   ],
+   "erwartet": {
+    "status": "gewonnen",
+    "gewinner": 1,
+    "gewinnZellen": [
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      4,
+      0
+     ]
+    ],
+    "amZug": null,
+    "hoehen": [
+     6,
+     4,
+     5,
+     4,
+     3,
+     1,
+     4
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     "B......",
+     "G.B....",
+     "GGBG..G",
+     "BBGBB.G",
+     "GBBGG.B",
+     "BBGBGGG"
+    ]
+   }
+  },
+  {
+   "name": "unentschieden",
+   "beschreibung": "Brett voll, keine Reihe: unentschieden",
+   "beginner": 1,
+   "zuege": [
+    4,
+    6,
+    0,
+    0,
+    2,
+    6,
+    0,
+    1,
+    3,
+    4,
+    0,
+    3,
+    0,
+    2,
+    3,
+    6,
+    2,
+    0,
+    6,
+    6,
+    2,
+    6,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    1,
+    5,
+    5,
+    2,
+    2,
+    5,
+    4,
+    1,
+    1,
+    1,
+    1,
+    5,
+    5,
+    5
+   ],
+   "erwartet": {
+    "status": "unentschieden",
+    "gewinner": null,
+    "gewinnZellen": [],
+    "amZug": null,
+    "hoehen": [
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     "BGGBGBB",
+     "GBBGGGB",
+     "GGGBBBG",
+     "GBGGGBB",
+     "BGBBBGB",
+     "GBGGGBB"
+    ]
+   }
+  },
+  {
+   "name": "gewinnMitLetztemStein",
+   "beschreibung": "Der 42. Stein gewinnt: Gewinn geht vor Unentschieden",
+   "beginner": 1,
+   "zuege": [
+    4,
+    2,
+    1,
+    6,
+    2,
+    6,
+    3,
+    0,
+    6,
+    6,
+    5,
+    3,
+    4,
+    4,
+    1,
+    5,
+    0,
+    0,
+    5,
+    3,
+    3,
+    4,
+    6,
+    1,
+    5,
+    3,
+    3,
+    0,
+    6,
+    1,
+    1,
+    5,
+    5,
+    1,
+    2,
+    2,
+    2,
+    4,
+    2,
+    0,
+    0,
+    4
+   ],
+   "erwartet": {
+    "status": "gewonnen",
+    "gewinner": 2,
+    "gewinnZellen": [
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      2
+     ],
+     [
+      4,
+      3
+     ],
+     [
+      4,
+      4
+     ],
+     [
+      4,
+      5
+     ]
+    ],
+    "amZug": null,
+    "hoehen": [
+     6,
+     6,
+     6,
+     6,
+     6,
+     6,
+     6
+    ],
+    "legaleSpalten": [],
+    "bild": [
+     "GBGGBGG",
+     "BGGBBBG",
+     "BBBGBGB",
+     "BBGBBGG",
+     "GGGBGBB",
+     "BGBGGGB"
+    ]
+   }
+  },
+  {
+   "name": "laeuft9",
+   "beschreibung": "Laufende Partie nach 9 Steinen",
+   "beginner": 1,
+   "zuege": [
+    3,
+    6,
+    4,
+    6,
+    6,
+    3,
+    3,
+    4,
+    6
+   ],
+   "erwartet": {
+    "status": "laeuft",
+    "gewinner": null,
+    "gewinnZellen": [],
+    "amZug": 2,
+    "hoehen": [
+     0,
+     0,
+     0,
+     3,
+     2,
+     0,
+     4
+    ],
+    "legaleSpalten": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bild": [
+     ".......",
+     ".......",
+     "......G",
+     "...G..G",
+     "...BB.B",
+     "...GG.B"
+    ]
+   }
+  },
+  {
+   "name": "laeuft18",
+   "beschreibung": "Laufende Partie nach 18 Steinen",
+   "beginner": 1,
+   "zuege": [
+    4,
+    1,
+    1,
+    6,
+    4,
+    3,
+    5,
+    4,
+    6,
+    1,
+    0,
+    3,
+    2,
+    1,
+    0,
+    4,
+    6,
+    5
+   ],
+   "erwartet": {
+    "status": "laeuft",
+    "gewinner": null,
+    "gewinnZellen": [],
+    "amZug": 1,
+    "hoehen": [
+     2,
+     4,
+     1,
+     2,
+     4,
+     2,
+     3
+    ],
+    "legaleSpalten": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bild": [
+     ".......",
+     ".......",
+     ".B..B..",
+     ".B..B.G",
+     "GG.BGBG",
+     "GBGBGGB"
+    ]
+   }
+  },
+  {
+   "name": "laeuft27",
+   "beschreibung": "Laufende Partie nach 27 Steinen",
+   "beginner": 2,
+   "zuege": [
+    6,
+    0,
+    5,
+    2,
+    2,
+    6,
+    1,
+    4,
+    2,
+    0,
+    0,
+    4,
+    6,
+    0,
+    3,
+    0,
+    6,
+    2,
+    3,
+    0,
+    1,
+    6,
+    1,
+    2,
+    2,
+    1,
+    5
+   ],
+   "erwartet": {
+    "status": "laeuft",
+    "gewinner": null,
+    "gewinnZellen": [],
+    "amZug": 1,
+    "hoehen": [
+     6,
+     4,
+     6,
+     2,
+     2,
+     2,
+     5
+    ],
+    "legaleSpalten": [
+     1,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bild": [
+     "G.B....",
+     "G.G...G",
+     "GGG...B",
+     "BBB...B",
+     "GBBBGBG",
+     "GBGBGBB"
+    ]
+   }
+  }
+ ]
+}

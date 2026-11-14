@@ -1,0 +1,173 @@
+{
+ "beschreibung": "Rückgängig zu zweit und gegen Computer",
+ "faelle": [
+  {
+   "name": "zuZweitLeer",
+   "beschreibung": "Zu zweit, noch kein Zug",
+   "beginner": 1,
+   "zuege": [],
+   "computer": null,
+   "erwartet": {
+    "moeglich": false
+   }
+  },
+  {
+   "name": "zuZweitEinZug",
+   "beschreibung": "Zu zweit: der letzte Zug geht zurück",
+   "beginner": 1,
+   "zuege": [
+    3
+   ],
+   "computer": null,
+   "erwartet": {
+    "moeglich": true,
+    "zuege": [],
+    "amZug": 1
+   }
+  },
+  {
+   "name": "zuZweitMehrere",
+   "beschreibung": "Zu zweit: nur der letzte Zug",
+   "beginner": 1,
+   "zuege": [
+    3,
+    3,
+    4,
+    2
+   ],
+   "computer": null,
+   "erwartet": {
+    "moeglich": true,
+    "zuege": [
+     3,
+     3,
+     4
+    ],
+    "amZug": 2
+   }
+  },
+  {
+   "name": "computerAntwortMitWeg",
+   "beschreibung": "Gegen Computer (Blau): eigener Zug und Antwort gehen zurück",
+   "beginner": 1,
+   "zuege": [
+    3,
+    3,
+    4,
+    2
+   ],
+   "computer": 2,
+   "erwartet": {
+    "moeglich": true,
+    "zuege": [
+     3,
+     3
+    ],
+    "amZug": 1
+   }
+  },
+  {
+   "name": "computerNochNichtGeantwortet",
+   "beschreibung": "Gegen Computer: nur der eigene Zug, Computer hat noch nicht gezogen",
+   "beginner": 1,
+   "zuege": [
+    3,
+    3,
+    4
+   ],
+   "computer": 2,
+   "erwartet": {
+    "moeglich": true,
+    "zuege": [
+     3,
+     3
+    ],
+    "amZug": 1
+   }
+  },
+  {
+   "name": "computerBeginntNurEinZug",
+   "beschreibung": "Computer (Gold) hat begonnen, Mensch hat noch nicht gezogen",
+   "beginner": 1,
+   "zuege": [
+    3
+   ],
+   "computer": 1,
+   "erwartet": {
+    "moeglich": false
+   }
+  },
+  {
+   "name": "computerBeginnt",
+   "beschreibung": "Computer (Gold) beginnt: Mensch-Zug und Antwort zurück, Mensch wieder am Zug",
+   "beginner": 1,
+   "zuege": [
+    3,
+    2,
+    3
+   ],
+   "computer": 1,
+   "erwartet": {
+    "moeglich": true,
+    "zuege": [
+     3
+    ],
+    "amZug": 2
+   }
+  },
+  {
+   "name": "computerBlauBeginnt",
+   "beschreibung": "Computer ist Blau und beginnt",
+   "beginner": 2,
+   "zuege": [
+    3,
+    4,
+    3
+   ],
+   "computer": 2,
+   "erwartet": {
+    "moeglich": true,
+    "zuege": [
+     3
+    ],
+    "amZug": 1
+   }
+  },
+  {
+   "name": "nachGewinn",
+   "beschreibung": "Nach Spielende geht nichts zurück",
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+   ],
+   "computer": 2,
+   "erwartet": {
+    "moeglich": false
+   }
+  },
+  {
+   "name": "nachGewinnZuZweit",
+   "beschreibung": "Nach Spielende geht nichts zurück (zu zweit)",
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3
+   ],
+   "computer": null,
+   "erwartet": {
+    "moeglich": false
+   }
+  }
+ ]
+}

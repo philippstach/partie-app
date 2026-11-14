@@ -1,0 +1,2584 @@
+{
+ "beschreibung": "Strenge Wertung (vorläufig (Vegas-Art, ohne Währung): Start −52, +5 je Karte aufs Ziel, −5 vom Ziel weg; Durchgänge Ziehen 1 → 1, Ziehen 3 → 3 (Umdrehen nur, solange durchgaenge+1 < Grenze). Partie: Züge (Zugschrift wie Lösungen, inkl. Automatik) ab Geben nachspielen → punkteVerlauf nach jedem Zug, Ende. umdrehenErlaubt: Stapel leer, Ablage nicht leer – darf umgedreht werden? Zeitbonus (Standard): 700000 // Sekunden ab 30 s.",
+ "faelle": [
+  {
+   "art": "partie",
+   "seed": 1,
+   "ziehen": 1,
+   "zuege": "s s s s s s s s s AZ0 S3Z0 s s s s s s AS4 S3S4 s s s AZ2 s AS1 s AZ3 s s AS0 s s",
+   "punkteVerlauf": [
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -47,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -37,
+    -37,
+    -37,
+    -37,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32
+   ],
+   "punkteEnde": -32,
+   "durchgaenge": 0,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "7C",
+     "9D",
+     "2C",
+     "3D",
+     "TS",
+     "8S",
+     "2D",
+     "4S",
+     "3C",
+     "3H",
+     "9H",
+     "QH",
+     "QD",
+     "6D",
+     "KC",
+     "7S",
+     "4C",
+     "QS"
+    ],
+    "faecher": 1,
+    "ziel": [
+     2,
+     0,
+     1,
+     1
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7H",
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "9S"
+      ],
+      "offen": [
+       "6H",
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4H",
+       "9C"
+      ],
+      "offen": [
+       "2H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "8D"
+      ],
+      "offen": [
+       "JS"
+      ]
+     },
+     {
+      "verdeckt": [
+       "8H",
+       "5H",
+       "5D",
+       "AH"
+      ],
+      "offen": [
+       "KD",
+       "QC",
+       "JD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5C",
+       "KH",
+       "7D",
+       "6C",
+       "TD"
+      ],
+      "offen": [
+       "JC"
+      ]
+     },
+     {
+      "verdeckt": [
+       "JH",
+       "3S",
+       "4D",
+       "KS",
+       "TC",
+       "TH"
+      ],
+      "offen": [
+       "8C"
+      ]
+     }
+    ],
+    "punkte": 65,
+    "zuege": 32,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 2,
+   "ziehen": 1,
+   "zuege": "s s s s s s s s s AS3 s s s AS1 S6S1 S6S2 S6Z1 Z1S4 S4Z1 s s AS1 s s s AZ2 s AS0 S1S0x4 s s AZ3 S4Z3 S1Z3 S2S4x2 S2Z0 s AS5 s AS0 S6S0 s AS3 S4S3x3 s AS2",
+   "punkteVerlauf": [
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -47,
+    -52,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -37,
+    -32,
+    -27,
+    -27,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22
+   ],
+   "punkteEnde": -22,
+   "durchgaenge": 0,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "9D",
+     "8H",
+     "2S",
+     "3H",
+     "KH",
+     "8C",
+     "KC",
+     "QC",
+     "5H",
+     "TD",
+     "4C",
+     "2D",
+     "KS",
+     "5S"
+    ],
+    "faecher": 1,
+    "ziel": [
+     1,
+     1,
+     1,
+     3
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "QD",
+       "JS",
+       "TH",
+       "9S",
+       "8D",
+       "7S",
+       "6H",
+       "5C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "4S",
+       "3D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5D",
+       "6S",
+       "6D"
+      ],
+      "offen": [
+       "JH",
+       "TC",
+       "9H",
+       "8S",
+       "7H",
+       "6C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "7D",
+       "7C"
+      ],
+      "offen": [
+       "JD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "2H",
+       "3S",
+       "TS",
+       "4H",
+       "4D"
+      ],
+      "offen": [
+       "QH",
+       "JC"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KD",
+       "QS"
+      ],
+      "offen": [
+       "9C"
+      ]
+     }
+    ],
+    "punkte": 140,
+    "zuege": 46,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 3,
+   "ziehen": 1,
+   "zuege": "S0Z1 S1Z2 s AS3 s s s AZ1 S1Z1 s s s s s s s AS2 S4S2 s AZ3 s AS0 s AZ1 s s s AS3 S6S3 s AZ1 s AS3 S2S3x3 S2S3 S5S2 S5Z2 S5Z0 S3Z2 S5S1 S5S0 S5Z0 AS0 AS0 s s AZ1 AZ1 S6Z1 s AZ1 S0Z1 AS0 AZ0 AZ3 S3Z0 S4S3 S3S4x8 S3Z0 S4S1x9 S4S5 s AZ3 S1Z3 s AS0",
+   "punkteVerlauf": [
+    -47,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -37,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -27,
+    -27,
+    -27,
+    -27,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -12,
+    -7,
+    -2,
+    -2,
+    -2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    8,
+    13,
+    18,
+    18,
+    23,
+    28,
+    28,
+    33,
+    38,
+    43,
+    43,
+    43,
+    48,
+    48,
+    48,
+    48,
+    53,
+    58,
+    58,
+    58
+   ],
+   "punkteEnde": 58,
+   "durchgaenge": 0,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "JD",
+     "4D",
+     "7S",
+     "QH",
+     "TC"
+    ],
+    "faecher": 1,
+    "ziel": [
+     5,
+     10,
+     3,
+     4
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QD",
+       "JC",
+       "TD",
+       "9S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD",
+       "QS",
+       "JH",
+       "TS",
+       "9D",
+       "8C",
+       "7D",
+       "6C",
+       "5D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7C",
+       "6D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "QC"
+      ],
+      "offen": [
+       "JS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5C",
+       "6S",
+       "KH",
+       "8D"
+      ],
+      "offen": [
+       "8S"
+      ]
+     }
+    ],
+    "punkte": 345,
+    "zuege": 66,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 4,
+   "ziehen": 1,
+   "zuege": "S6S0 s AS2 S5S2 s s s AS0 s s s s s s s s AS2 s s s AS0 s s s s s s s AS3 s s",
+   "punkteVerlauf": [
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52
+   ],
+   "punkteEnde": -52,
+   "durchgaenge": 0,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "3D",
+     "9C",
+     "KH",
+     "QH",
+     "3S",
+     "3C",
+     "9H",
+     "TS",
+     "KD",
+     "5S",
+     "7H",
+     "9S",
+     "3H",
+     "TC",
+     "TH",
+     "8S",
+     "8H",
+     "8D",
+     "KC"
+    ],
+    "faecher": 1,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7S",
+       "6D",
+       "5C",
+       "4D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "JS"
+      ],
+      "offen": [
+       "2H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "2D",
+       "QD"
+      ],
+      "offen": [
+       "9D",
+       "8C",
+       "7D",
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "AS",
+       "4S",
+       "AD"
+      ],
+      "offen": [
+       "QS",
+       "JD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KS",
+       "6H",
+       "AC",
+       "2C"
+      ],
+      "offen": [
+       "QC"
+      ]
+     },
+     {
+      "verdeckt": [
+       "TD",
+       "4C",
+       "AH",
+       "JC"
+      ],
+      "offen": [
+       "7C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "JH",
+       "6C",
+       "5H",
+       "5D",
+       "4H"
+      ],
+      "offen": [
+       "2S"
+      ]
+     }
+    ],
+    "punkte": 35,
+    "zuege": 31,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 5,
+   "ziehen": 1,
+   "zuege": "S6S1 S6S2 S3S1 S2S6x2 S3S2 S3S0 s s s AZ1 s s AS4 s s s s s s AZ3 S5Z3 S5S3 S5Z3 S5Z0 s s s AZ2 s AS3 s AS6 s s s AZ2 s AZ2 s s s s",
+   "punkteVerlauf": [
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -42,
+    -37,
+    -37,
+    -32,
+    -27,
+    -27,
+    -27,
+    -27,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -17,
+    -17,
+    -12,
+    -12,
+    -12,
+    -12,
+    -12
+   ],
+   "punkteEnde": -12,
+   "durchgaenge": 0,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "JS",
+     "JC",
+     "3S",
+     "KD",
+     "JH",
+     "3H",
+     "5S",
+     "4D",
+     "5D",
+     "4S",
+     "QS",
+     "4H",
+     "KH",
+     "5C",
+     "QH",
+     "TH"
+    ],
+    "faecher": 1,
+    "ziel": [
+     1,
+     1,
+     3,
+     3
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "8C",
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KC"
+      ],
+      "offen": [
+       "9C",
+       "8D",
+       "7C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4C"
+      ],
+      "offen": [
+       "JD",
+       "TS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9D",
+       "8S",
+       "7H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "6S",
+       "6D",
+       "2H",
+       "9H"
+      ],
+      "offen": [
+       "KS",
+       "QD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "6H"
+      ],
+      "offen": [
+       "TC"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5H",
+       "2S",
+       "QC",
+       "6C"
+      ],
+      "offen": [
+       "TD",
+       "9S",
+       "8H",
+       "7S"
+      ]
+     }
+    ],
+    "punkte": 145,
+    "zuege": 42,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 6,
+   "ziehen": 1,
+   "zuege": "S0Z2 S6Z1 S5S6 S4S3 S5S0 s AS4 S5S4 s s s AS1 s AZ3 s AS5 s s AZ2 Z2S6 S6Z2 s AS3 S4S3x3 s s s s s s s AS3 s s AS3 s AZ3 s AS3 s AS2 s AZ0 S3Z0 S6Z0 s AS2 S3S2x8 s AS0 S5S0x2",
+   "punkteVerlauf": [
+    -47,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -32,
+    -37,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -22,
+    -17,
+    -12,
+    -12,
+    -12,
+    -12,
+    -12,
+    -12,
+    -12
+   ],
+   "punkteEnde": -12,
+   "durchgaenge": 0,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "9S",
+     "JD",
+     "5S",
+     "TS",
+     "8C",
+     "8H",
+     "KS",
+     "4H",
+     "5C",
+     "6D"
+    ],
+    "faecher": 1,
+    "ziel": [
+     3,
+     1,
+     2,
+     2
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC",
+       "QH",
+       "JS",
+       "TD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "2H"
+      ],
+      "offen": [
+       "JC",
+       "TH"
+      ]
+     },
+     {
+      "verdeckt": [
+       "7C",
+       "3D"
+      ],
+      "offen": [
+       "KD",
+       "QC",
+       "JH",
+       "TC",
+       "9D",
+       "8S",
+       "7D",
+       "6C",
+       "5H",
+       "4S",
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "7H",
+       "5D"
+      ],
+      "offen": [
+       "8D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4C",
+       "6H"
+      ],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "9C"
+      ],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [
+       "9H",
+       "3C",
+       "QD",
+       "7S",
+       "QS"
+      ],
+      "offen": [
+       "4D"
+      ]
+     }
+    ],
+    "punkte": 165,
+    "zuege": 51,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 7,
+   "ziehen": 1,
+   "zuege": "S6Z0 S4S0 S3S5 S1S5 s s s s AS6 s s s AS2 s s AZ1 s s AS5 s AS3 s s s AZ3 S4Z3 S4S0 s s s AZ2 S0Z2 s s AZ2 s s s s AS2 S5S2x4 S2S5x7 S2S6 S3S2x2 S6S3x3 S6Z1",
+   "punkteVerlauf": [
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -37,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -27,
+    -22,
+    -22,
+    -22,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -12
+   ],
+   "punkteEnde": -12,
+   "durchgaenge": 0,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "QS",
+     "QH",
+     "8C",
+     "JS",
+     "8S",
+     "KS",
+     "QC",
+     "5D",
+     "7H",
+     "6S",
+     "KD",
+     "8D",
+     "3H",
+     "6D",
+     "JH"
+    ],
+    "faecher": 1,
+    "ziel": [
+     1,
+     2,
+     3,
+     2
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "4H",
+       "3S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "JD",
+       "TS",
+       "9D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "3C"
+      ],
+      "offen": [
+       "7D",
+       "6C",
+       "5H",
+       "4C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4D"
+      ],
+      "offen": [
+       "9H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "TD",
+       "2S",
+       "7S",
+       "TC"
+      ],
+      "offen": [
+       "QD",
+       "JC",
+       "TH",
+       "9S",
+       "8H",
+       "7C",
+       "6H",
+       "5C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KC",
+       "KH",
+       "4S"
+      ],
+      "offen": [
+       "9C"
+      ]
+     }
+    ],
+    "punkte": 165,
+    "zuege": 46,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 8,
+   "ziehen": 1,
+   "zuege": "S5S2 S6S5 S3S0 S1S0 s AS3 S2S3x2 S2Z3 s s s AS2 s AS2 s s s s s AZ3 s s AS3 s s AZ0 S1Z0 S4S1 S5S4x2 S5Z0 s s s s AS4 s s AS6 s AS0 s s s AS1",
+   "punkteVerlauf": [
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -37,
+    -32,
+    -32,
+    -32,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27,
+    -27
+   ],
+   "punkteEnde": -27,
+   "durchgaenge": 0,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "TD",
+     "6S",
+     "TS",
+     "JH",
+     "8C",
+     "8S",
+     "2D",
+     "JC",
+     "QH",
+     "3D",
+     "4D",
+     "9S",
+     "5C",
+     "9H"
+    ],
+    "faecher": 1,
+    "ziel": [
+     3,
+     0,
+     0,
+     2
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "8H",
+       "7S",
+       "6H",
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD",
+       "QS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QD",
+       "JS"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KC",
+       "6D"
+      ],
+      "offen": [
+       "KH",
+       "QC",
+       "JD",
+       "TC",
+       "9D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4S",
+       "AD",
+       "3C"
+      ],
+      "offen": [
+       "7H",
+       "6C",
+       "5H",
+       "4C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5D",
+       "7D"
+      ],
+      "offen": [
+       "2H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "TH",
+       "4H",
+       "7C",
+       "3H",
+       "AH"
+      ],
+      "offen": [
+       "9C",
+       "8D"
+      ]
+     }
+    ],
+    "punkte": 135,
+    "zuege": 44,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 1,
+   "ziehen": 3,
+   "zuege": "s s s AZ0 S3Z0 s s AS4 S3S4 s AZ2",
+   "punkteVerlauf": [
+    -52,
+    -52,
+    -52,
+    -47,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -37
+   ],
+   "punkteEnde": -37,
+   "durchgaenge": 0,
+   "gewonnen": false,
+   "stapelGesperrt": false,
+   "umdrehenErlaubt": null,
+   "ende": {
+    "ziehen": 3,
+    "stapel": [
+     "QS",
+     "4C",
+     "6S",
+     "7S",
+     "AC",
+     "5S"
+    ],
+    "ablage": [
+     "7C",
+     "9D",
+     "2C",
+     "3D",
+     "TS",
+     "8S",
+     "2D",
+     "4S",
+     "3C",
+     "3H",
+     "9H",
+     "QH",
+     "QD",
+     "6D",
+     "KC"
+    ],
+    "faecher": 2,
+    "ziel": [
+     2,
+     0,
+     1,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "9S"
+      ],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4H",
+       "9C"
+      ],
+      "offen": [
+       "2H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "8D"
+      ],
+      "offen": [
+       "JS"
+      ]
+     },
+     {
+      "verdeckt": [
+       "8H",
+       "5H",
+       "5D",
+       "AH"
+      ],
+      "offen": [
+       "KD",
+       "QC",
+       "JD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5C",
+       "KH",
+       "7D",
+       "6C",
+       "TD"
+      ],
+      "offen": [
+       "JC"
+      ]
+     },
+     {
+      "verdeckt": [
+       "JH",
+       "3S",
+       "4D",
+       "KS",
+       "TC",
+       "TH"
+      ],
+      "offen": [
+       "8C"
+      ]
+     }
+    ],
+    "punkte": 45,
+    "zuege": 11,
+    "durchgaenge": 0
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 2,
+   "ziehen": 3,
+   "zuege": "s s s AS3 s AS1 S6S1 S6S2 S6Z1 Z1S4 S4Z1 s s AS0 AZ2 S1S0x3 s AS5 AZ3 S4Z3 S1Z3 S2S4x2 S2Z0 s AS2 AS3 S4S3x3 s s AZ0 s s AS3 s AS0 AZ3 S6Z3 AS5 S6S5 S3S6x7 S3S0 S6S3 S6Z3 S3S6x2 s AS0 AS1 AZ2 S2Z2 S5S1x4 S5Z2 S3Z2 S5S0 S5S4 S5Z0 S5Z1 S2Z0 s s s AZ1 S0Z1 S0Z0 S0Z2 S6Z1 S6Z0 S0Z0 AS1 AS4 s AS2 AS4 AS3 S6S3x6 S3S4 S3Z0 s AZ1 S4Z1 S1Z1 S3Z1 AS6 S4S6x4 S4Z3 S4Z2 S0Z2 S0Z0 S6Z3 S1Z3 S0Z1 S6Z2 S1Z2 S3Z3 S1Z3 S6Z0 S0Z0 S3Z1 S1Z1 S6Z2 S0Z2 S3Z0 S1Z0 S6Z3 S2Z3 S3Z1 S6Z2",
+   "punkteVerlauf": [
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -47,
+    -52,
+    -47,
+    -47,
+    -47,
+    -47,
+    -42,
+    -42,
+    -42,
+    -42,
+    -37,
+    -32,
+    -27,
+    -27,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -12,
+    -7,
+    -7,
+    -7,
+    -7,
+    -7,
+    -7,
+    -2,
+    -2,
+    -2,
+    -2,
+    -2,
+    3,
+    8,
+    8,
+    13,
+    18,
+    18,
+    18,
+    23,
+    28,
+    33,
+    33,
+    33,
+    33,
+    38,
+    43,
+    48,
+    53,
+    58,
+    63,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    68,
+    73,
+    73,
+    78,
+    83,
+    88,
+    93,
+    93,
+    93,
+    98,
+    103,
+    108,
+    113,
+    118,
+    123,
+    128,
+    133,
+    138,
+    143,
+    148,
+    153,
+    158,
+    163,
+    168,
+    173,
+    178,
+    183,
+    188,
+    193,
+    198,
+    203,
+    208
+   ],
+   "punkteEnde": 208,
+   "durchgaenge": 2,
+   "gewonnen": true,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": null,
+   "ende": {
+    "ziehen": 3,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 665,
+    "zuege": 106,
+    "durchgaenge": 2
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 3,
+   "ziehen": 3,
+   "zuege": "S0Z1 S1Z2 s s s s AZ3 AS2 S4S2 s s s s s s s s s s s AS6 S2S6x3 S2S4 S5S2 S5Z2 S5Z0 S4Z2 S5S0 s s s s AZ2 s s s s s s",
+   "punkteVerlauf": [
+    -47,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -37,
+    -32,
+    -27,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17
+   ],
+   "punkteEnde": -17,
+   "durchgaenge": 2,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 3,
+    "stapel": [],
+    "ablage": [
+     "TS",
+     "JD",
+     "2H",
+     "7S",
+     "QH",
+     "TC",
+     "2C",
+     "3S",
+     "TD",
+     "KS",
+     "4H",
+     "TH",
+     "JC",
+     "9D",
+     "5H",
+     "7D",
+     "6H",
+     "9H",
+     "3C",
+     "9S"
+    ],
+    "faecher": 3,
+    "ziel": [
+     1,
+     1,
+     4,
+     1
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7C",
+       "6D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "QC",
+       "JS",
+       "5S"
+      ],
+      "offen": [
+       "JH"
+      ]
+     },
+     {
+      "verdeckt": [
+       "9C",
+       "KC",
+       "QS"
+      ],
+      "offen": [
+       "4C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "2S"
+      ],
+      "offen": [
+       "QD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5C",
+       "6S",
+       "KH",
+       "8D",
+       "8S",
+       "8H"
+      ],
+      "offen": [
+       "8C",
+       "7H",
+       "6C",
+       "5D",
+       "4S"
+      ]
+     }
+    ],
+    "punkte": 80,
+    "zuege": 39,
+    "durchgaenge": 2
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 4,
+   "ziehen": 3,
+   "zuege": "S6S0 s s s s AS5 s s s s s s s s s AS0 s s s AS3 s s s s s s s s AS2 S5S2x2",
+   "punkteVerlauf": [
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52
+   ],
+   "punkteEnde": -52,
+   "durchgaenge": 2,
+   "gewonnen": false,
+   "stapelGesperrt": false,
+   "umdrehenErlaubt": null,
+   "ende": {
+    "ziehen": 3,
+    "stapel": [
+     "KC",
+     "8D",
+     "8H"
+    ],
+    "ablage": [
+     "8C",
+     "3D",
+     "9C",
+     "5C",
+     "KH",
+     "QH",
+     "3S",
+     "3C",
+     "9H",
+     "TS",
+     "KD",
+     "7H",
+     "4D",
+     "9S",
+     "3H",
+     "TC",
+     "TH"
+    ],
+    "faecher": 2,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7S",
+       "6D",
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "JS"
+      ],
+      "offen": [
+       "2H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "2D",
+       "QD"
+      ],
+      "offen": [
+       "9D",
+       "8S",
+       "7D",
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "AS",
+       "4S",
+       "AD"
+      ],
+      "offen": [
+       "QS",
+       "JD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KS",
+       "6H",
+       "AC",
+       "2C"
+      ],
+      "offen": [
+       "QC"
+      ]
+     },
+     {
+      "verdeckt": [
+       "TD",
+       "4C",
+       "AH",
+       "JC"
+      ],
+      "offen": [
+       "7C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "JH",
+       "6C",
+       "5H",
+       "5D",
+       "4H"
+      ],
+      "offen": [
+       "2S"
+      ]
+     }
+    ],
+    "punkte": 10,
+    "zuege": 30,
+    "durchgaenge": 2
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 5,
+   "ziehen": 3,
+   "zuege": "S6S1 S6S2 S3S1 S2S6x2 S3S2 S3S0 s AZ1 s s s s s s s s s s s s s AS6 s s s s s s s s s s s AS4",
+   "punkteVerlauf": [
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47
+   ],
+   "punkteEnde": -47,
+   "durchgaenge": 2,
+   "gewonnen": false,
+   "stapelGesperrt": false,
+   "umdrehenErlaubt": null,
+   "ende": {
+    "ziehen": 3,
+    "stapel": [
+     "TH"
+    ],
+    "ablage": [
+     "JS",
+     "JC",
+     "3S",
+     "QD",
+     "KD",
+     "JH",
+     "3H",
+     "5S",
+     "4D",
+     "AC",
+     "5D",
+     "4S",
+     "AD",
+     "7H",
+     "QS",
+     "4H",
+     "2D",
+     "3D",
+     "KH",
+     "5C"
+    ],
+    "faecher": 2,
+    "ziel": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "8C",
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KC"
+      ],
+      "offen": [
+       "9C",
+       "8D",
+       "7C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4C"
+      ],
+      "offen": [
+       "JD",
+       "TS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "6S",
+       "6D",
+       "2H",
+       "9H"
+      ],
+      "offen": [
+       "KS",
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [
+       "6H",
+       "TC",
+       "AS",
+       "3C",
+       "8S"
+      ],
+      "offen": [
+       "2C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5H",
+       "2S",
+       "QC",
+       "6C"
+      ],
+      "offen": [
+       "TD",
+       "9S",
+       "8H",
+       "7S"
+      ]
+     }
+    ],
+    "punkte": 10,
+    "zuege": 34,
+    "durchgaenge": 2
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 6,
+   "ziehen": 3,
+   "zuege": "S0Z2 S6Z1 S5S6 S4S3 S5S0 s s AS1 AZ3 s AS3 AZ2 Z2S6 S6Z2 S4S3 S5S4 S4S3x2 AS4 S6S4x2 S6S2 S4S6x4 AS5 AS2 S3S2x6 S6S3x5 S5S6x2 S6S0x3 AS0 S3S0x6 s s s AS4 s AS5 AS4 AZ3 S6Z3 s s s AS6 s s s s s s s AZ0 S4Z0 S0Z0 s",
+   "punkteVerlauf": [
+    -47,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -37,
+    -37,
+    -37,
+    -32,
+    -37,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -27,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -17,
+    -12,
+    -7,
+    -7
+   ],
+   "punkteEnde": -7,
+   "durchgaenge": 2,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 3,
+    "stapel": [],
+    "ablage": [
+     "6C",
+     "TS",
+     "8H",
+     "KS",
+     "4H",
+     "5C",
+     "4S",
+     "6D",
+     "JH",
+     "QH"
+    ],
+    "faecher": 2,
+    "ziel": [
+     3,
+     1,
+     2,
+     3
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC",
+       "QD",
+       "JS",
+       "TH",
+       "9S",
+       "8D",
+       "7S",
+       "6H",
+       "5S",
+       "4D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "2H"
+      ],
+      "offen": [
+       "JC",
+       "TD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "7C",
+       "3D"
+      ],
+      "offen": [
+       "KD",
+       "QS",
+       "JD",
+       "TC",
+       "9D",
+       "8S",
+       "7D",
+       "6S",
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "7H"
+      ],
+      "offen": [
+       "5D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "4C",
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "9C"
+      ],
+      "offen": [
+       "KH",
+       "QC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9H",
+       "8C"
+      ]
+     }
+    ],
+    "punkte": 175,
+    "zuege": 53,
+    "durchgaenge": 2
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 7,
+   "ziehen": 3,
+   "zuege": "S6Z0 S4S0 S3S5 S1S5 s s s AZ1 s AS3 AS5 s AZ3 S4Z3 S4S0 s AZ2 S0Z2 s s s s AS3 s AS4 s s s AZ2 s s s s AS6 s s AS3 S6S3x2 S6Z1 S5S6x4 S2S5 S2S3 S3S2x7 S3S4 S3Z3 S2Z3 S6Z3 s s s",
+   "punkteVerlauf": [
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -42,
+    -42,
+    -42,
+    -42,
+    -42,
+    -37,
+    -32,
+    -32,
+    -32,
+    -27,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -22,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -17,
+    -12,
+    -12,
+    -12,
+    -12,
+    -12,
+    -12,
+    -7,
+    -2,
+    3,
+    3,
+    3,
+    3
+   ],
+   "punkteEnde": 3,
+   "durchgaenge": 2,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 3,
+    "stapel": [],
+    "ablage": [
+     "QS",
+     "QH",
+     "JS",
+     "TH",
+     "KS",
+     "QC",
+     "5D",
+     "6S",
+     "KD",
+     "8D",
+     "3H",
+     "6D",
+     "JH",
+     "9S"
+    ],
+    "faecher": 1,
+    "ziel": [
+     1,
+     2,
+     3,
+     5
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "4H",
+       "3S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "JD",
+       "TS",
+       "9D",
+       "8C",
+       "7H",
+       "6C",
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [
+       "4D"
+      ],
+      "offen": [
+       "9H",
+       "8S",
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "TD",
+       "2S",
+       "7S",
+       "TC"
+      ],
+      "offen": [
+       "QD",
+       "JC"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KC",
+       "KH",
+       "4S"
+      ],
+      "offen": [
+       "9C",
+       "8H",
+       "7C",
+       "6H"
+      ]
+     }
+    ],
+    "punkte": 165,
+    "zuege": 50,
+    "durchgaenge": 2
+   }
+  },
+  {
+   "art": "partie",
+   "seed": 8,
+   "ziehen": 3,
+   "zuege": "S5S2 S6S5 S3S0 S1S0 s s s s AS2 s s AS5 s AS0 AS6 s AS3 S2S3x3 S2Z3 s s s s AS3 s s AS5 AS2 AZ0 S1Z0 Z0S5 S5Z0 S4S1 S5S4x4 S5Z0 S4S3x5 S5S4 AS2 s s s s AS5 AS2 S6S2x2 S6Z1 S4Z1 S6Z1 S6S2 S6Z1 AS1 s s AZ3 S4Z3 S4Z2 S4Z0 S0Z0 S5Z0 S3S4x11 S3S2 s AS6 s",
+   "punkteVerlauf": [
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -52,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -47,
+    -42,
+    -37,
+    -42,
+    -37,
+    -37,
+    -37,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -32,
+    -27,
+    -22,
+    -17,
+    -17,
+    -12,
+    -12,
+    -12,
+    -12,
+    -7,
+    -2,
+    3,
+    8,
+    13,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18
+   ],
+   "punkteEnde": 18,
+   "durchgaenge": 2,
+   "gewonnen": false,
+   "stapelGesperrt": true,
+   "umdrehenErlaubt": false,
+   "ende": {
+    "ziehen": 3,
+    "stapel": [],
+    "ablage": [
+     "QD",
+     "JS",
+     "TS",
+     "JH",
+     "8C",
+     "2D",
+     "4D",
+     "5C",
+     "9H"
+    ],
+    "faecher": 2,
+    "ziel": [
+     6,
+     4,
+     1,
+     3
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "8H",
+       "7S",
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD",
+       "QC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QH",
+       "JC",
+       "TD",
+       "9C",
+       "8D",
+       "7C",
+       "6D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "QS",
+       "JD",
+       "TC",
+       "9D",
+       "8S",
+       "7H",
+       "6C",
+       "5H",
+       "4C",
+       "3D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5D"
+      ],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TH",
+       "9S"
+      ]
+     }
+    ],
+    "punkte": 260,
+    "zuege": 64,
+    "durchgaenge": 2
+   }
+  },
+  {
+   "art": "zeitbonus",
+   "sekunden": 1,
+   "bonus": 0
+  },
+  {
+   "art": "zeitbonus",
+   "sekunden": 29,
+   "bonus": 0
+  },
+  {
+   "art": "zeitbonus",
+   "sekunden": 30,
+   "bonus": 23333
+  },
+  {
+   "art": "zeitbonus",
+   "sekunden": 31,
+   "bonus": 22580
+  },
+  {
+   "art": "zeitbonus",
+   "sekunden": 60,
+   "bonus": 11666
+  },
+  {
+   "art": "zeitbonus",
+   "sekunden": 180,
+   "bonus": 3888
+  },
+  {
+   "art": "zeitbonus",
+   "sekunden": 299,
+   "bonus": 2341
+  },
+  {
+   "art": "zeitbonus",
+   "sekunden": 700000,
+   "bonus": 1
+  },
+  {
+   "art": "zeitbonus",
+   "sekunden": 700001,
+   "bonus": 0
+  }
+ ]
+}

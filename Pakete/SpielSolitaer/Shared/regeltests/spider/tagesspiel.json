@@ -1,0 +1,29 @@
+{
+ "beschreibung": "Spider-Tagesspiel: immer 2 Farben, Seed = spider2.partien[(Tage seit 2026-01-01) mod 1000]. Rest nie negativ.",
+ "faelle": [
+  {
+   "datum": "2026-01-01",
+   "tage": 0,
+   "platz": 0,
+   "seed": 1
+  },
+  {
+   "datum": "2026-10-05",
+   "tage": 277,
+   "platz": 277,
+   "seed": 613
+  },
+  {
+   "datum": "2028-02-29",
+   "tage": 789,
+   "platz": 789,
+   "seed": 1711
+  },
+  {
+   "datum": "2025-12-31",
+   "tage": -1,
+   "platz": 999,
+   "seed": 2155
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+# n06 Eigenschaftswörter
+albern;1;Kindisch, töricht|Zum Kichern aufgelegt
+barsch;2;Unfreundlich, schroff|Grob im Ton
+bieder;2;Brav und spießig|Hausbacken
+blöd;1;Dumm (ugs.)|Ärgerlich (ugs.)
+brüchig;2;Leicht zerbrechend|Morsch
+dankbar;1;Voll Anerkennung für Hilfe|Erkenntlich
+derb;2;Grob, rau|Unfein
+dezent;2;Unaufdringlich|Zurückhaltend
+doof;1;Dumm (ugs.)|Einfältig
+dumm;1;Gegenteil von klug|Töricht
+eigen;1;Jemandem selbst gehörend|Sonderbar
+einsam;1;Ohne Gesellschaft|Verlassen
+elend;1;Jämmerlich|Sehr schlecht (Gefühl)
+endlos;1;Ohne Schluss|Unbegrenzt
+enorm;2;Sehr groß|Gewaltig
+erbost;2;Sehr verärgert|Wütend
+exakt;2;Ganz genau|Präzise
+extrem;2;Äußerst|Bis an die Grenze
+fähig;1;Begabt, tüchtig|Imstande
+fair;1;Anständig im Sport|Gerecht
+famos;2;Großartig (veraltend)|Prächtig
+feige;1;Ohne Mut|Ängstlich und mutlos
+feist;2;Dick und fett|Wohlgenährt
+fesch;2;Schick (österr.)|Flott gekleidet
+fett;1;Sehr dick|Reich an Öl
+feurig;1;Temperamentvoll|Scharf gewürzt
+fidel;2;Lustig, vergnügt|Munter
+fies;1;Gemein (ugs.)|Widerlich
+flau;2;Leicht übel|Schwach, matt
+forsch;2;Schneidig|Entschlossen und flott
+frei;1;Nicht gefangen|Unbesetzt
+fromm;1;Gottesfürchtig|Gläubig
+gemein;1;Niederträchtig|Fies
+genau;1;Exakt|Präzise
+gerade;1;Nicht krumm|Durch zwei teilbar
+gering;1;Klein, wenig|Unbedeutend
+gierig;1;Unersättlich|Voller Habsucht
+giftig;1;Wie der Fliegenpilz|Toxisch
+gnädig;2;Milde, nachsichtig|Barmherzig
+grausam;1;Roh und unbarmherzig|Brutal
+gültig;1;In Kraft|Nicht abgelaufen (Ticket)
+gütig;1;Voll Herzenswärme|Mild und freundlich
+haarig;1;Voller Fell|Heikel (ugs.)
+hager;2;Sehr dünn und knochig|Dürr
+heftig;1;Stark, wuchtig|Ungestüm
+heilig;1;Von Gott geweiht|Fromm verehrt
+hilflos;1;Ohne Beistand|Ratlos
+hitzig;2;Leicht aufbrausend|Erregt (Debatte)
+hoch;1;Gegenteil von tief|Weit oben
+hold;2;Lieblich (dichterisch)|Zugetan
+innig;2;Tief empfunden|Herzlich
+irre;1;Verrückt|Toll (ugs.)
+jäh;2;Plötzlich|Steil abfallend
+keusch;2;Sittsam, enthaltsam|Züchtig
+klamm;2;Feucht und kalt|Steif vor Kälte
+knorrig;2;Voller Astknoten|Verwachsen (Baum)
+korrekt;1;Richtig|Fehlerfrei
+kostbar;1;Sehr wertvoll|Teuer und edel
+kraus;1;Stark gelockt|Gekräuselt
+kundig;2;Erfahren, bewandert|Sachverständig
+künftig;2;In kommender Zeit|Von nun an
+lästig;1;Störend|Unangenehm aufdringlich
+launig;2;Humorvoll|Witzig (Rede)
+lausig;2;Sehr schlecht (ugs.)|Erbärmlich
+lebhaft;1;Voller Temperament|Munter
+licht;2;Hell|Dünn bewachsen
+mächtig;1;Sehr stark|Einflussreich
+markant;2;Auffallend, ausgeprägt|Einprägsam
+massiv;2;Durch und durch fest|Wuchtig
+mies;1;Schlecht (ugs.)|Übel
+möglich;1;Machbar|Denkbar
+mollig;1;Rundlich|Angenehm warm
+mürrisch;1;Schlecht gelaunt|Brummig
+naiv;2;Kindlich arglos|Leichtgläubig
+neblig;1;Voller Dunst|Diesig
+nervös;1;Unruhig, zappelig|Angespannt
+nieder;2;Flach, tief|Von geringem Rang
+nötig;1;Erforderlich|Unentbehrlich
+ölig;1;Fettig und glatt|Schmierig
+pampig;2;Frech (ugs.)|Breiig
+patzig;2;Unverschämt|Schnippisch
+perfekt;1;Vollkommen|Makellos
+plump;1;Unbeholfen|Schwerfällig
+prompt;2;Sofort, unverzüglich|Umgehend
+quitt;2;Ausgeglichen (wir sind …)|Ohne Schulden beim anderen
+rabiat;2;Rücksichtslos|Grob und wütend
+ranzig;2;Verdorben (Butter)|Alt (Fett)
+rasant;2;Sehr schnell|Stürmisch
+reich;1;Wohlhabend|Gegenteil von arm
+reif;1;Bereit zur Ernte|Erwachsen
+rostig;1;Vom Eisenfraß befallen|Korrodiert
+sachte;2;Behutsam|Vorsichtig und leise
+sandig;1;Voller feiner Körner|Wie am Strand
+schal;2;Abgestanden (Bier)|Ohne Würze
+schlimm;1;Arg, übel|Böse
+schroff;2;Steil und zerklüftet|Abweisend
+solide;2;Gediegen|Fest und haltbar
+sonnig;1;Wolkenlos und hell|Heiter (Wetter)
+sozial;2;Auf die Gemeinschaft bezogen|Hilfsbereit
+starr;1;Unbeweglich|Steif
+stolz;1;Selbstbewusst|Voller Hochgefühl
+stur;1;Dickköpfig|Unnachgiebig
+tief;1;Gegenteil von flach|Weit nach unten
+tüchtig;1;Fleißig und fähig|Ordentlich, kräftig
+üblich;1;Gewohnt|Normal
+üppig;2;Reichlich|Im Überfluss
+vage;2;Unbestimmt|Ungenau
+wacker;2;Tapfer|Redlich und tüchtig
+weise;1;Klug durch Erfahrung|Lebensklug
+wert;1;Lieb und teuer|Würdig
+wichtig;1;Bedeutend|Wesentlich
+windig;1;Mit steifer Brise|Stürmisch (Wetter)
+wirr;1;Durcheinander|Konfus
+witzig;1;Lustig|Voller Humor
+wohl;1;Gut, behaglich|Vermutlich
+würdig;2;Achtung gebietend|Angemessen
+wüst;2;Öde|Wild und unordentlich
+zierlich;1;Zart und fein gebaut|Grazil
+adrett;2;Sauber und hübsch gekleidet|Nett angezogen
+aktiv;1;Tätig, rührig|Gegenteil von passiv
+akut;2;Plötzlich auftretend|Dringend
+allein;1;Ohne andere|Solo
+alt;1;Betagt|Gegenteil von neu
+amtlich;2;Von der Behörde|Offiziell
+anders;1;Nicht so|Verschieden
+arg;2;Schlimm|Böse
+ärmlich;2;Dürftig|Karg
+banal;2;Alltäglich, platt|Abgedroschen
+bang;2;Ängstlich|Voller Sorge
+barfuß;1;Ohne Schuhe und Strümpfe|Mit nackten Sohlen
+bekannt;1;Berühmt|Vertraut
+beliebt;1;Von allen gemocht|Populär
+bereit;1;Fertig zum Start|Gewillt
+besetzt;1;Nicht frei (Platz)|Belegt
+bissig;1;Schnappend (Hund)|Scharfzüngig
+blutig;1;Kaum gebraten (Steak)|Mit rotem Saft befleckt
+brutal;1;Roh und gewalttätig|Rücksichtslos hart
+bucklig;2;Mit krummem Rücken|Uneben
+chic;2;Modisch elegant|Fesch
+dämlich;1;Dumm (ugs.)|Töricht
+deftig;2;Kräftig, herzhaft (Essen)|Derb
+dement;2;Geistig verwirrt im Alter|Vergesslich (krankhaft)
+dicht;1;Undurchlässig|Eng beieinander
+direkt;1;Ohne Umweg|Geradeheraus
+diskret;2;Verschwiegen|Taktvoll
+doppelt;1;Zweifach|Zweimal vorhanden
+drall;2;Rundlich und fest|Stramm
+dreckig;1;Schmutzig|Verschmiert
+duftig;2;Zart und leicht|Hauchfein
+dünn;1;Gegenteil von dick|Mager
+dürftig;2;Kärglich|Kaum ausreichend
+düster;2;Finster|Unheimlich dunkel
+egal;1;Einerlei|Gleichgültig
+eisern;1;Aus hartem Metall|Unbeugsam
+eisig;1;Sehr kalt|Frostig
+erfahren;1;Routiniert|Kundig
+erregt;2;Aufgewühlt|Aufgebracht
+ewig;1;Für alle Zeit|Ohne Ende
+fahrig;2;Zerstreut, unruhig|Unkonzentriert
+faltig;1;Voller Runzeln|Zerknittert
+faulig;2;Verdorben riechend|Modrig
+fein;1;Zart|Edel
+ferner;2;Außerdem|Des Weiteren
+fettig;1;Voll Schmiere|Ölig
+finster;1;Stockdunkel|Düster
+flach;1;Eben|Nicht tief
+fleckig;1;Mit Schmutzstellen|Voller Kleckse
+flockig;2;Locker wie Schnee|Luftig-leicht
+fraglich;2;Ungewiss|Zweifelhaft
+freudig;1;Voll Glück|Froh gestimmt
+frostig;1;Eiskalt|Unterkühlt (Stimmung)
+furchtlos;1;Ohne Angst|Unerschrocken
+gängig;2;Üblich|Weit verbreitet
+gebildet;1;Mit viel Wissen|Kultiviert
+gediegen;2;Solide und geschmackvoll|Rein (Metall)
+gefragt;1;Begehrt|Viel verlangt
+gelassen;1;Ruhig und entspannt|Unaufgeregt
+gelungen;1;Geglückt|Gut geworden
+gemach;3;Langsam, ruhig (veraltet)|Zimmer im Schloss
+genial;1;Überragend begabt|Großartig
+geraum;3;Längere (Zeit)|Beträchtlich (Zeit)
+gereizt;1;Leicht reizbar|Nervös und schroff
+geschickt;1;Gewandt|Fingerfertig
+gesellig;1;Gern unter Leuten|Kontaktfreudig
+gespannt;1;Voller Erwartung|Neugierig
+getrost;2;Zuversichtlich|Ohne Bedenken
+gewandt;2;Geschickt|Flink und sicher
+glasig;2;Starr (Blick)|Durchscheinend (Zwiebel)
+glatt;1;Ohne Unebenheit|Rutschig
+golden;1;Aus edlem gelbem Metall|Wie die Sonne glänzend
+graziös;2;Anmutig|Voll Liebreiz
+grell;1;Blendend hell|Schrill (Farbe)
+gruselig;1;Schaurig|Zum Fürchten

@@ -1,0 +1,101 @@
+{
+ "name": "mittel-gegen-mittel-2",
+ "beschreibung": "Zwei mittlere Computer, Blau beginnt",
+ "strategien": [
+  "mittel",
+  "mittel"
+ ],
+ "beginner": 2,
+ "zufall": [
+  637,
+  261,
+  759,
+  367,
+  814,
+  707,
+  965,
+  861,
+  757
+ ],
+ "erwartet": {
+  "zuege": [
+   3,
+   3,
+   3,
+   3,
+   4,
+   5,
+   1,
+   2,
+   2,
+   2,
+   2,
+   1,
+   0,
+   4,
+   3,
+   1,
+   4,
+   4,
+   4,
+   2,
+   3,
+   5,
+   1,
+   1,
+   5,
+   5,
+   5,
+   4,
+   1,
+   2,
+   5,
+   0,
+   0,
+   0,
+   0,
+   0,
+   6,
+   6
+  ],
+  "status": "gewonnen",
+  "gewinner": 1,
+  "gewinnZellen": [
+   [
+    3,
+    1
+   ],
+   [
+    4,
+    1
+   ],
+   [
+    5,
+    1
+   ],
+   [
+    6,
+    1
+   ]
+  ],
+  "amZug": null,
+  "hoehen": [
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   2
+  ],
+  "legaleSpalten": [],
+  "bild": [
+   "GBGBGB.",
+   "BGGBBB.",
+   "GBBGGG.",
+   "BGGBBB.",
+   "GGBGGGG",
+   "BBGBBGB"
+  ]
+ }
+}

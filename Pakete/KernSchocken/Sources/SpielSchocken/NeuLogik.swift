@@ -1,0 +1,1 @@
+../../../SpielSchocken/Sources/SpielSchocken/Model/NeuLogik.swift

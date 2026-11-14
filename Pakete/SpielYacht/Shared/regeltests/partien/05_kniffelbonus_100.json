@@ -1,0 +1,133 @@
+{
+ "name": "05 Kniffelbonus 100",
+ "beschreibung": "Mit kniffelBonus=100 bringt jeder weitere Kniffel (bei 50 im Kniffel-Feld) 100 Zusatzpunkte.",
+ "rules": {
+  "joker": true,
+  "kniffelBonus": 100
+ },
+ "players": [
+  "Anna"
+ ],
+ "dice": [
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5
+ ],
+ "steps": [
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     5,
+     5,
+     5,
+     5,
+     5
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "kniffel"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     5,
+     5,
+     5,
+     5,
+     5
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fives"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     5,
+     5,
+     5,
+     5,
+     5
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "chance"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  }
+ ],
+ "expected": {
+  "finished": false,
+  "scores": [
+   {
+    "kniffel": 50,
+    "fives": 25,
+    "chance": 25
+   }
+  ],
+  "totals": [
+   {
+    "upper": 25,
+    "bonus": 0,
+    "lower": 75,
+    "kniffelBonus": 200,
+    "total": 300
+   }
+  ]
+ }
+}

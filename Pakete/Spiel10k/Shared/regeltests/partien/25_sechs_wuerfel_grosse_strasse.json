@@ -1,0 +1,150 @@
+{
+ "name": "25_sechs_wuerfel_grosse_strasse",
+ "beschreibung": "6 Würfel, echte Würfel (layOut), große Straße 1–6 = 1.500 nur im vollen Wurf; 5er-Straße zählt bei dieser Regel nicht; zwei Drillinge zählen beide. Der Wert 1.500 ist vorläufig.",
+ "rules": {
+  "diceMode": "real",
+  "diceCount": 6,
+  "straight6": "full"
+ },
+ "players": [
+  "Anna",
+  "Ben"
+ ],
+ "dice": [],
+ "steps": [
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "bank": false
+   },
+   "error": true
+  },
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bank": false
+   },
+   "expect": {
+    "turn": {
+     "banked": 1500,
+     "locked": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+     ],
+     "keptThrows": 1
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     2,
+     2,
+     2,
+     4,
+     4,
+     4
+    ],
+    "bank": true
+   },
+   "expect": {
+    "scores": [
+     2100,
+     0
+    ],
+    "offer": {
+     "from": 0,
+     "points": 2100,
+     "kept": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+     ]
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "acceptOffer"
+   },
+   "expect": {
+    "turn": {
+     "banked": 2100,
+     "inheritedFrom": 0,
+     "keptThrows": 0
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bank": false
+   },
+   "error": true
+  },
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     5
+    ],
+    "bank": true
+   },
+   "expect": {
+    "scores": [
+     2100,
+     2150
+    ]
+   }
+  }
+ ],
+ "expected": {
+  "scores": [
+   2100,
+   2150
+  ],
+  "log": [
+   [
+    0,
+    2100,
+    0
+   ],
+   [
+    1,
+    2150,
+    0
+   ]
+  ]
+ }
+}

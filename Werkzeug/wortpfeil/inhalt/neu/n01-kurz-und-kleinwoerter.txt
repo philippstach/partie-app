@@ -1,0 +1,265 @@
+# n01 Kurzwörter und kleine Wörter des Alltags (Wort;Stufe;Frage|Frage)
+Am;1;An dem (kurz)|… Anfang, … Ende|An dem
+Im;1;In dem (kurz)|… Haus, … Garten|In dem
+Ah;1;Ausruf des Verstehens|Ausruf: Jetzt verstehe ich|Ausruf
+Ha;1;Ausruf des Triumphs|Triumphruf|Ausruf
+Hm;1;Laut des Nachdenkens|Laut beim Zögern|Zögern
+Hi;1;Lockerer Gruß (englisch)|Hallo (engl.)|Gruß
+Ui;1;Ausruf des Staunens|Staunender Ausruf|Ausruf
+Mo;1;Montag (Abk.)|Wochentag (Abk.)|Montag
+Di;1;Dienstag (Abk.)|Tag nach Mo (Abk.)|Dienstag
+Do;1;Donnerstag (Abk.)|Tag vor Fr (Abk.)
+Fr;1;Freitag (Abk.)|Tag vor Sa (Abk.)|Freitag
+Sa;1;Samstag (Abk.)|Tag vor So (Abk.)|Samstag
+So;1;Sonntag (Abk.)|Letzter Wochentag (Abk.)
+WC;1;Toilette (Abk.)|Stilles Örtchen (Abk.)|Toilette
+WG;2;Wohngemeinschaft (Abk.)|Wohnen zu mehreren (Abk.)|Wohnform
+AB;2;Anrufbeantworter (Abk.)|Nimmt Anrufe auf (Abk.)
+LP;2;Langspielplatte (Abk.)|Schallplatte (Abk.)|Platte
+Cm;1;Zentimeter (Abk.)|Hundertstel Meter (Abk.)|Längenmaß
+Mm;1;Millimeter (Abk.)|Tausendstel Meter (Abk.)
+Ml;1;Milliliter (Abk.)|Tausendstel Liter (Abk.)
+Mr;2;Englisch: Herr (Abk.)|Herr in London (Abk.)|Engl. Herr
+No;1;Englisch: nein|Nein in London|Engl. nein
+Ok;1;Einverstanden|In Ordnung
+Uh;1;Ausruf des Schauderns|Schaudernder Laut
+Pi;2;Griechischer Buchstabe|Kreiszahl
+Äh;1;Laut beim Stocken|Verlegenheitslaut|Stocklaut
+Nö;1;Nein (ugs.)|Ugs.: nein
+Öd;2;Langweilig, leer|Trostlos
+Bin;1;Ich … (von sein)|Form von sein (ich)
+Ist;1;Er … (von sein)|Form von sein (er)
+War;1;Vergangenheit von ist|Ist gewesen
+Hat;1;Er … (von haben)|Besitzt
+Sei;1;Befehlsform von sein|… leise!
+Mag;1;Hat gern|Ich … (von mögen)
+Kam;1;Vergangenheit von kommt|Traf ein
+Sah;1;Vergangenheit von sieht|Erblickte
+Gab;1;Vergangenheit von gibt|Reichte
+Lag;1;Vergangenheit von liegt|Ruhte
+Tat;1;Handlung|Vollbrachtes
+Bat;1;Vergangenheit von bittet|Ersuchte
+Aß;1;Vergangenheit von isst|Speiste
+Saß;1;Vergangenheit von sitzt|Hockte
+Her;1;Gegenteil von hin|Hierhin
+Ihm;1;Dativ von er|Dem Mann (Fürwort)
+Ihn;1;Akkusativ von er|Den Mann (Fürwort)
+Sie;1;Weibliches Fürwort|Höfliche Anrede|Fürwort
+Uns;1;Dativ von wir|Mir und dir
+Mir;1;Dativ von ich|Wem? (1. Person)
+Dir;1;Dativ von du|Wem? (2. Person)
+Wem;1;Fragewort im Dativ|Frage nach dem Empfänger
+Wen;1;Fragewort im Akkusativ|Frage nach der Person
+Vom;1;Von dem (kurz)|Von dem
+Von;1;Verhältniswort der Herkunft|Adelsprädikat|Adelswort
+Zum;1;Zu dem (kurz)|Zu dem
+Zur;1;Zu der (kurz)|Zu der
+Bei;1;Nahe, neben|In der Nähe von
+Für;1;Gegenteil von gegen|Zugunsten von
+Aha;1;Ausruf des Verstehens|Ausruf: Jetzt begriffen
+Ätsch;1;Schadenfroher Ausruf|Spottruf
+Igitt;1;Ausruf des Ekels|Pfui!
+Pfui;1;Ausruf des Abscheus|Igitt!
+Hurra;1;Jubelruf|Freudenruf
+Juhu;1;Jubelruf|Freudenruf
+Hallo;1;Lockerer Gruß|Gruß am Telefon|Gruß
+Hoppla;1;Ausruf beim Stolpern|Ups!
+Autsch;1;Schmerzensruf|Aua!
+Aua;1;Schmerzensruf|Wehlaut
+Hui;1;Ausruf: wie schnell!|Laut des Windes
+Buh;1;Ruf des Missfallens|Ruf beim Erschrecken
+Muh;1;Laut der Kuh|Kuhlaut
+Mäh;1;Laut des Schafs|Schaflaut
+Miau;1;Laut der Katze|Katzenlaut
+Wau;1;Laut des Hundes|Hundelaut
+Iah;1;Laut des Esels|Esellaut
+Kikeriki;1;Ruf des Hahns|Hahnenschrei
+Quak;1;Laut des Froschs|Froschlaut
+Piep;1;Laut des Kükens|Vogellaut
+Summ;1;Laut der Biene|Bienenlaut
+Tick;1;Laut der Uhr (mit Tack)|Kleine Eigenheit|Spleen
+Tack;1;Uhrenlaut nach Tick|Tick, …
+Bum;1;Laut beim Knall|Knall-Laut
+Peng;1;Laut eines Schusses|Knall!
+Zack;1;Ausruf: schnell!|Zick und …
+Tschüs;1;Lockerer Abschiedsgruß|Ade
+Servus;1;Gruß in Bayern und Österreich|Gruß im Süden
+Moin;1;Gruß im Norden|Norddeutscher Gruß
+Ahoi;1;Seemannsgruß|Gruß an Bord
+Prost;1;Trinkspruch|Zum Wohl!
+Danke;1;Höfliche Antwort auf Bitte|Vergelts Gott
+Aber;1;Bindewort des Einwands|Jedoch
+Auch;1;Ebenfalls|Gleichfalls
+Bald;1;In Kürze|Demnächst
+Beim;1;Bei dem (kurz)|Bei dem
+Bevor;1;Ehe (Bindewort)|Zeitlich vor
+Dann;1;Danach|Anschließend
+Dass;1;Bindewort mit Doppel-s|Bindewort
+Dein;1;Besitzanzeigend: zu dir|Dir gehörend
+Denn;1;Weil (Bindewort)|Begründendes Bindewort
+Doch;1;Widerspruch auf nein|Trotzdem
+Dort;1;An jener Stelle|Gegenteil von hier
+Durch;1;Mittels|Quer hinüber
+Eher;1;Lieber|Zeitiger
+Einst;1;Vor langer Zeit|Früher einmal
+Etwa;1;Ungefähr|Circa
+Euch;1;Dativ von ihr|Fürwort (2. Person Mz.)
+Euer;1;Besitzanzeigend: zu euch|Euch gehörend
+Fast;1;Beinahe|Nahezu
+Fort;1;Weg, nicht mehr da|Festung
+Gegen;1;Wider|Kontra
+Gern;1;Mit Freude|Bereitwillig
+Halt;1;Stopp!|Stütze
+Hier;1;An dieser Stelle|Gegenteil von dort
+Immer;1;Zu jeder Zeit|Stets
+Jede;1;Alle ohne Ausnahme (weibl.)|Alle einzeln
+Jetzt;1;In diesem Moment|Nun
+Kaum;1;Fast gar nicht|Nur mit Mühe
+Kein;1;Nicht ein|Verneinendes Wort
+Links;1;Gegenteil von rechts|Seite des Herzens
+Mehr;1;Gegenteil von weniger|Zusätzlich
+Mein;1;Besitzanzeigend: zu mir|Mir gehörend
+Mich;1;Akkusativ von ich|Wen? (1. Person)
+Dich;1;Akkusativ von du|Wen? (2. Person)
+Sich;1;Rückbezügliches Fürwort|Selbst (Fürwort)
+Nach;1;Gegenteil von vor (zeitlich)|In Richtung
+Nein;1;Ablehnung|Gegenteil von ja
+Nicht;1;Verneinungswort|Wort der Verneinung
+Noch;1;Bis jetzt, weiterhin|Zusätzlich
+Nur;1;Bloß, lediglich|Ausschließlich
+Oben;1;Gegenteil von unten|In der Höhe
+Ohne;1;Gegenteil von mit|Frei von
+Quer;1;Nicht längs|Von Seite zu Seite
+Schon;1;Bereits|Früher als gedacht
+Sehr;1;In hohem Maß|Äußerst
+Seit;1;Von einem Zeitpunkt an|Ab damals
+Sein;1;Existieren|Ihm gehörend
+Selbst;1;In eigener Person|Sogar
+Sind;1;Wir … (von sein)|Form von sein (wir)
+Sogar;1;Obendrein, auch noch|Selbst
+Statt;1;Anstelle von|Anstelle
+Stets;1;Immer|Jederzeit
+Über;1;Gegenteil von unter|Oberhalb
+Unser;1;Besitzanzeigend: zu uns|Uns gehörend
+Unten;1;Gegenteil von oben|In der Tiefe
+Unter;1;Gegenteil von über|Tiefer als
+Viel;1;Gegenteil von wenig|Eine Menge
+Vorn;1;Gegenteil von hinten|An der Spitze
+Hinten;1;Gegenteil von vorn|Am Ende
+Wann;1;Fragewort nach der Zeit|Zu welcher Zeit?
+Warum;1;Fragewort nach dem Grund|Weshalb
+Wieso;1;Fragewort nach dem Grund|Warum
+Wegen;1;Aufgrund von|Verhältniswort des Grundes
+Wenig;1;Gegenteil von viel|Kaum etwas
+Wenn;1;Falls (Bindewort)|Sobald
+Wird;1;Er … (von werden)|Form von werden
+Zwar;1;… , aber|Einräumendes Wort
+Außer;1;Abgesehen von|Mit Ausnahme von
+Damit;1;Auf dass (Bindewort)|Mit dieser Sache
+Dabei;1;Anwesend, mit von der Partie|Währenddessen
+Dazu;1;Zusätzlich|Zu dieser Sache
+Daher;1;Deshalb|Aus diesem Grund
+Darum;1;Deshalb|Aus diesem Grund
+Neben;1;An der Seite von|Seitlich von
+Innen;1;Gegenteil von außen|Im Haus
+Außen;1;Gegenteil von innen|An der Oberfläche
+Heute;1;An diesem Tag|Am jetzigen Tag
+Morgen;1;Tag nach heute|Früher Tagesabschnitt
+Gestern;1;Tag vor heute|Am vorigen Tag
+Früher;1;Einst, ehemals|Zeitlich vorher
+Später;1;Nachher|Zu einer anderen Zeit
+Manchmal;1;Ab und zu|Gelegentlich
+Sofort;1;Ohne zu warten|Auf der Stelle
+Bisher;1;Bis jetzt|Bis zu diesem Tag
+Nachher;1;Später, anschließend|Im Anschluss
+Vorhin;1;Vor kurzer Zeit|Eben erst
+Soeben;1;Gerade jetzt|In diesem Augenblick
+Einmal;1;Ein einziges Mal|Nicht zweimal
+Zweimal;1;Doppelt so oft wie einmal|Im Doppel
+Niemals;1;Zu keiner Zeit|Nie
+Überall;1;An jedem Ort|Allerorten
+Hinauf;1;Nach oben|Empor
+Hinab;1;Nach unten|Abwärts
+Herein;1;Ruf nach dem Anklopfen|Nach drinnen
+Heraus;1;Nach draußen|Von innen nach außen
+Vorbei;1;Vergangen, zu Ende|Vorüber
+Zurück;1;Wieder zum Ausgangspunkt|Rückwärts
+Weiter;1;Vorwärts, voran|Mehr davon
+Rechts;1;Gegenteil von links|Seite der Schreibhand (meist)
+Also;1;Folglich|Demnach
+Sonst;1;Andernfalls|Außerdem
+Trotz;1;Ungeachtet|Kindlicher Widerstand
+Obwohl;1;Wenn auch (Bindewort)|Obgleich
+Sowie;1;Und auch|Sobald
+Sondern;1;Nicht dies, … das|Vielmehr
+Jedoch;1;Aber, indessen|Allerdings
+Allein;1;Ohne Begleitung|Einsam
+Beide;1;Alle zwei|Die zwei
+Alle;1;Jeder ohne Ausnahme|Sämtliche
+Alles;1;Das Ganze|Gegenteil von nichts
+Jeder;1;Alle ohne Ausnahme (männl.)|Alle einzeln
+Einige;1;Ein paar|Manche
+Viele;1;Eine große Zahl|Gegenteil von wenige
+Etwas;1;Ein bisschen|Irgendeine Sache
+Nichts;1;Gegenteil von alles|Null und …
+Jemand;1;Irgendeine Person|Irgendwer
+Niemand;1;Kein Mensch|Keiner
+Welche;1;Fragewort nach der Auswahl|Was für eine?
+Diese;1;Hinweisendes Fürwort (weibl.)|Die hier
+Dies;1;Das hier|Hinweisendes Fürwort
+Jene;1;Die dort (Fürwort)|Hinweis auf Entferntes
+Draußen;1;Im Freien|Vor der Tür
+Drinnen;1;Im Haus|Nicht im Freien
+Droben;1;Dort oben (süddt.)|In der Höhe
+Drüben;1;Auf der anderen Seite|Jenseits
+Daheim;1;Zu Hause|In den eigenen vier Wänden
+Abseits;1;Entfernt, beiseite|Regelverstoß im Fußball
+Zuerst;1;Als Erstes|Am Anfang
+Zuletzt;1;Am Schluss|Als Letztes
+Endlich;1;Nach langem Warten|Schließlich
+Beinahe;1;Fast|Um ein Haar
+Bereits;1;Schon|Früher als erwartet
+Ebenso;1;Genauso|Gleichermaßen
+Genug;1;Ausreichend|Es reicht!
+Lange;1;Viel Zeit hindurch|Seit Stunden
+Lieber;1;Eher, vorzugsweise|Anrede im Brief
+Meist;1;Fast immer|In der Regel
+Oftmals;1;Häufig|Viele Male
+Rundum;1;Ringsherum|Völlig
+Samt;1;Zusammen mit|Nebst
+Sodass;1;Mit der Folge (Bindewort)|Folge-Bindewort
+Solange;1;Während der ganzen Zeit|Für die Dauer
+Sobald;1;In dem Moment, wenn|Gleich wenn
+Sowohl;1;… als auch|Nicht nur
+Umsonst;1;Gratis|Vergeblich
+Ungern;1;Widerwillig|Nicht mit Freude
+Vorher;1;Zuvor|Davor
+Wieder;1;Erneut|Noch einmal
+Wohin;1;Fragewort nach dem Ziel|An welchen Ort?
+Woher;1;Fragewort nach der Herkunft|Von welchem Ort?
+Womit;1;Fragewort nach dem Mittel|Mit welcher Sache?
+Wozu;1;Fragewort nach dem Zweck|Zu welchem Zweck?
+Zudem;1;Außerdem|Obendrein
+Zumal;1;Besonders weil|Vor allem da
+Null;1;Zahl ohne Wert|Ziffer vor eins
+Eins;1;Beste Schulnote|Erste Zahl
+Zwei;1;Zahl nach eins|Paar-Zahl
+Drei;1;Zahl der Musketiere|Zahl nach zwei
+Vier;1;Zahl der Jahreszeiten|Zahl nach drei
+Sieben;1;Zahl der Zwerge|Zahl der Wochentage
+Neun;1;Zahl vor zehn|Drei mal drei
+Zehn;1;Zahl der Finger|Zahl der Gebote
+Zwölf;1;Zahl der Monate|Ein Dutzend
+Zwanzig;1;Zwei mal zehn|Zahl nach neunzehn
+Dreißig;1;Zahl nach neunundzwanzig|Halbe Sechzig
+Vierzig;1;Zahl nach neununddreißig|Zahl der Räuber bei Ali Baba
+Hundert;1;Zehn mal zehn|Dreistellige Zahl
+Tausend;1;Zehn mal hundert|Vierstellige Zahl
+Million;1;Tausend mal tausend|Zahl mit sechs Nullen
+Dutzend;1;Zwölf Stück|Zwölf
+Doppelt;1;Zweifach|Zweimal so viel
+Halb;1;Zur Hälfte|Fünfzig Prozent
+Erste;1;Platz der Siegerin|Vor der Zweiten
+Zweite;1;Platz für Silber|Nach der Ersten
+Dritte;1;Platz für Bronze|Nach der Zweiten
+Letzte;1;Schlusslicht|Am Ende der Reihe

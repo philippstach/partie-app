@@ -1,0 +1,27 @@
+{
+ "name": "09_undo_echte_wuerfel",
+ "beschreibung": "Echte Würfel mit Augen-Eingabe: jeder eingetragene Wurf, Aufhören und Ablehnen lassen sich Schritt für Schritt zurücknehmen.",
+ "rules": {"diceMode": "real"},
+ "players": ["Anna", "Ben"],
+ "dice": [],
+ "steps": [
+  {"action": {"type": "undo"}, "error": true},
+  {"action": {"type": "roll", "keep": []}, "error": true},
+  {"action": {"type": "enterThrow", "keep": [], "dice": [1, 2, 3, 4]}, "error": true},
+  {"action": {"type": "enterThrow", "keep": [], "dice": [1, 2, 3, 4, 7]}, "error": true},
+  {"action": {"type": "enterThrow", "keep": [], "dice": [1, 2, 3, 4, 6]}, "expect": {"canUndo": true, "turn": {"dice": [1, 2, 3, 4, 6], "fullThrow": true}}},
+  {"action": {"type": "enterThrow", "keep": [0], "dice": [5, 5, 5, 2]}, "expect": {"turn": {"dice": [1, 5, 5, 5, 2], "banked": 100}}},
+  {"action": {"type": "undo"}, "expect": {"turn": {"dice": [1, 2, 3, 4, 6], "banked": 0, "locked": [false, false, false, false, false], "hasRolled": true}, "canUndo": true}},
+  {"action": {"type": "enterThrow", "keep": [0], "dice": [5, 2, 3, 4]}, "expect": {"turn": {"dice": [1, 5, 2, 3, 4], "banked": 100, "locked": [true, false, false, false, false], "fullThrow": false}}},
+  {"action": {"type": "bank", "keep": [1]}, "expect": {"scores": [150, 0], "offer": {"from": 0, "points": 150, "dice": [1, 5, 2, 3, 4], "kept": [true, true, false, false, false]}}},
+  {"action": {"type": "declineOffer"}, "expect": {"offer": null}},
+  {"action": {"type": "undo"}, "expect": {"offer": {"from": 0, "points": 150, "dice": [1, 5, 2, 3, 4], "kept": [true, true, false, false, false]}, "current": 1}},
+  {"action": {"type": "undo"}, "expect": {"scores": [0, 0], "current": 0, "offer": null, "log": [], "turn": {"dice": [1, 5, 2, 3, 4], "banked": 100, "hasRolled": true}}},
+  {"action": {"type": "undo"}, "expect": {"turn": {"dice": [1, 2, 3, 4, 6], "banked": 0, "hasRolled": true}}},
+  {"action": {"type": "undo"}, "expect": {"turn": {"hasRolled": false, "banked": 0}, "canUndo": false}},
+  {"action": {"type": "undo"}, "error": true},
+  {"action": {"type": "enterThrow", "keep": [], "dice": [2, 3, 4, 6, 6]}, "expect": {"log": [[0, 0, 0]], "current": 1, "players": [{"mackes": 1, "streak": 1}, {}]}},
+  {"action": {"type": "undo"}, "expect": {"log": [], "current": 0, "players": [{"mackes": 0, "streak": 0}, {}]}}
+ ],
+ "expected": {"scores": [0, 0], "current": 0, "log": [], "canUndo": false, "timeline": [[0, 0]], "turn": {"hasRolled": false}}
+}

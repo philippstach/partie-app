@@ -1,0 +1,3827 @@
+{
+  "sprache": "en",
+  "version": 1,
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "kategorien": [
+    {
+      "id": "animals",
+      "de": "Tiere",
+      "en": "Animals",
+      "es": "Animales",
+      "fr": "Animaux"
+    },
+    {
+      "id": "food",
+      "de": "Essen & Trinken",
+      "en": "Food & Drink",
+      "es": "Comida y bebida",
+      "fr": "Nourriture et boissons"
+    },
+    {
+      "id": "countries",
+      "de": "Länder",
+      "en": "Countries",
+      "es": "Países",
+      "fr": "Pays"
+    },
+    {
+      "id": "sports",
+      "de": "Sport",
+      "en": "Sports",
+      "es": "Deportes",
+      "fr": "Sport"
+    },
+    {
+      "id": "nature",
+      "de": "Natur",
+      "en": "Nature",
+      "es": "Naturaleza",
+      "fr": "Nature"
+    },
+    {
+      "id": "home",
+      "de": "Zuhause",
+      "en": "At Home",
+      "es": "Hogar",
+      "fr": "Maison"
+    },
+    {
+      "id": "transport",
+      "de": "Unterwegs",
+      "en": "On the Move",
+      "es": "Transporte",
+      "fr": "Transports"
+    },
+    {
+      "id": "music",
+      "de": "Musik",
+      "en": "Music",
+      "es": "Música",
+      "fr": "Musique"
+    }
+  ],
+  "woerter": [
+    {
+      "wort": "dog",
+      "loesung": "DOG",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "cat",
+      "loesung": "CAT",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "mouse",
+      "loesung": "MOUSE",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "horse",
+      "loesung": "HORSE",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "elephant",
+      "loesung": "ELEPHANT",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "giraffe",
+      "loesung": "GIRAFFE",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "crocodile",
+      "loesung": "CROCODILE",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "penguin",
+      "loesung": "PENGUIN",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "turtle",
+      "loesung": "TURTLE",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "squirrel",
+      "loesung": "SQUIRREL",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "butterfly",
+      "loesung": "BUTTERFLY",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "hedgehog",
+      "loesung": "HEDGEHOG",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "fox",
+      "loesung": "FOX",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "rabbit",
+      "loesung": "RABBIT",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "owl",
+      "loesung": "OWL",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "dolphin",
+      "loesung": "DOLPHIN",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "zebra",
+      "loesung": "ZEBRA",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "kangaroo",
+      "loesung": "KANGAROO",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "rhinoceros",
+      "loesung": "RHINOCEROS",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "jellyfish",
+      "loesung": "JELLYFISH",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "parrot",
+      "loesung": "PARROT",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "bee",
+      "loesung": "BEE",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "snail",
+      "loesung": "SNAIL",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "frog",
+      "loesung": "FROG",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "whale",
+      "loesung": "WHALE",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "lion",
+      "loesung": "LION",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "tiger",
+      "loesung": "TIGER",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "bear",
+      "loesung": "BEAR",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "wolf",
+      "loesung": "WOLF",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "monkey",
+      "loesung": "MONKEY",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "cow",
+      "loesung": "COW",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "pig",
+      "loesung": "PIG",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "sheep",
+      "loesung": "SHEEP",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "goat",
+      "loesung": "GOAT",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "chicken",
+      "loesung": "CHICKEN",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "duck",
+      "loesung": "DUCK",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "goose",
+      "loesung": "GOOSE",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "donkey",
+      "loesung": "DONKEY",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "camel",
+      "loesung": "CAMEL",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "hamster",
+      "loesung": "HAMSTER",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "polar bear",
+      "loesung": "POLAR BEAR",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "panda",
+      "loesung": "PANDA",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "koala",
+      "loesung": "KOALA",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "flamingo",
+      "loesung": "FLAMINGO",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "stork",
+      "loesung": "STORK",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "eagle",
+      "loesung": "EAGLE",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "raven",
+      "loesung": "RAVEN",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "woodpecker",
+      "loesung": "WOODPECKER",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "seagull",
+      "loesung": "SEAGULL",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "sparrow",
+      "loesung": "SPARROW",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "pigeon",
+      "loesung": "PIGEON",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "shark",
+      "loesung": "SHARK",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "crab",
+      "loesung": "CRAB",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "seal",
+      "loesung": "SEAL",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "otter",
+      "loesung": "OTTER",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "beaver",
+      "loesung": "BEAVER",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "badger",
+      "loesung": "BADGER",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "deer",
+      "loesung": "DEER",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "moose",
+      "loesung": "MOOSE",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "llama",
+      "loesung": "LLAMA",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "hippo",
+      "loesung": "HIPPO",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "gorilla",
+      "loesung": "GORILLA",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "leopard",
+      "loesung": "LEOPARD",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "cheetah",
+      "loesung": "CHEETAH",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "ladybug",
+      "loesung": "LADYBUG",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "ant",
+      "loesung": "ANT",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "dragonfly",
+      "loesung": "DRAGONFLY",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "bumblebee",
+      "loesung": "BUMBLEBEE",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "caterpillar",
+      "loesung": "CATERPILLAR",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "spider",
+      "loesung": "SPIDER",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "goldfish",
+      "loesung": "GOLDFISH",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "seahorse",
+      "loesung": "SEAHORSE",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "octopus",
+      "loesung": "OCTOPUS",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "pony",
+      "loesung": "PONY",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "puppy",
+      "loesung": "PUPPY",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "kitten",
+      "loesung": "KITTEN",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "guinea pig",
+      "loesung": "GUINEA PIG",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "budgie",
+      "loesung": "BUDGIE",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "raccoon",
+      "loesung": "RACCOON",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "sloth",
+      "loesung": "SLOTH",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "dinosaur",
+      "loesung": "DINOSAUR",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "chameleon",
+      "loesung": "CHAMELEON",
+      "kategorie": "animals",
+      "stufe": 1
+    },
+    {
+      "wort": "meerkat",
+      "loesung": "MEERKAT",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "peacock",
+      "loesung": "PEACOCK",
+      "kategorie": "animals",
+      "stufe": 3
+    },
+    {
+      "wort": "lobster",
+      "loesung": "LOBSTER",
+      "kategorie": "animals",
+      "stufe": 2
+    },
+    {
+      "wort": "apple",
+      "loesung": "APPLE",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "banana",
+      "loesung": "BANANA",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "bread",
+      "loesung": "BREAD",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "butter",
+      "loesung": "BUTTER",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "cheese",
+      "loesung": "CHEESE",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "pizza",
+      "loesung": "PIZZA",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "noodles",
+      "loesung": "NOODLES",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "tomato",
+      "loesung": "TOMATO",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "potato",
+      "loesung": "POTATO",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "strawberry",
+      "loesung": "STRAWBERRY",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "pancake",
+      "loesung": "PANCAKE",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "yogurt",
+      "loesung": "YOGURT",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "honey",
+      "loesung": "HONEY",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "cocoa",
+      "loesung": "COCOA",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "lemonade",
+      "loesung": "LEMONADE",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "pretzel",
+      "loesung": "PRETZEL",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "lemon",
+      "loesung": "LEMON",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "cucumber",
+      "loesung": "CUCUMBER",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "cake",
+      "loesung": "CAKE",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "jam",
+      "loesung": "JAM",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "spaghetti",
+      "loesung": "SPAGHETTI",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "carrot",
+      "loesung": "CARROT",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "waffle",
+      "loesung": "WAFFLE",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "pineapple",
+      "loesung": "PINEAPPLE",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "sandwich",
+      "loesung": "SANDWICH",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "pear",
+      "loesung": "PEAR",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "cherry",
+      "loesung": "CHERRY",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "grape",
+      "loesung": "GRAPE",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "plum",
+      "loesung": "PLUM",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "peach",
+      "loesung": "PEACH",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "melon",
+      "loesung": "MELON",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "orange",
+      "loesung": "ORANGE",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "tangerine",
+      "loesung": "TANGERINE",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "raspberry",
+      "loesung": "RASPBERRY",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "blueberry",
+      "loesung": "BLUEBERRY",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "kiwi",
+      "loesung": "KIWI",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "mango",
+      "loesung": "MANGO",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "coconut",
+      "loesung": "COCONUT",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "peanut",
+      "loesung": "PEANUT",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "walnut",
+      "loesung": "WALNUT",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "hazelnut",
+      "loesung": "HAZELNUT",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "salad",
+      "loesung": "SALAD",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "pepper",
+      "loesung": "PEPPER",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "onion",
+      "loesung": "ONION",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "garlic",
+      "loesung": "GARLIC",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "broccoli",
+      "loesung": "BROCCOLI",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "cauliflower",
+      "loesung": "CAULIFLOWER",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "pea",
+      "loesung": "PEA",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "bean",
+      "loesung": "BEAN",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "corn",
+      "loesung": "CORN",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "pumpkin",
+      "loesung": "PUMPKIN",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "spinach",
+      "loesung": "SPINACH",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "rice",
+      "loesung": "RICE",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "soup",
+      "loesung": "SOUP",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "ice cream",
+      "loesung": "ICE CREAM",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "chocolate",
+      "loesung": "CHOCOLATE",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "cookie",
+      "loesung": "COOKIE",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "candy",
+      "loesung": "CANDY",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "lollipop",
+      "loesung": "LOLLIPOP",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "popcorn",
+      "loesung": "POPCORN",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "fries",
+      "loesung": "FRIES",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "burger",
+      "loesung": "BURGER",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "sausage",
+      "loesung": "SAUSAGE",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "egg",
+      "loesung": "EGG",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "toast",
+      "loesung": "TOAST",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "muffin",
+      "loesung": "MUFFIN",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "croissant",
+      "loesung": "CROISSANT",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "milk",
+      "loesung": "MILK",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "juice",
+      "loesung": "JUICE",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "water",
+      "loesung": "WATER",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "tea",
+      "loesung": "TEA",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "coffee",
+      "loesung": "COFFEE",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "cream",
+      "loesung": "CREAM",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "pudding",
+      "loesung": "PUDDING",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "pie",
+      "loesung": "PIE",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "lasagna",
+      "loesung": "LASAGNA",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "ketchup",
+      "loesung": "KETCHUP",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "mustard",
+      "loesung": "MUSTARD",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "sugar",
+      "loesung": "SUGAR",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "flour",
+      "loesung": "FLOUR",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "salt",
+      "loesung": "SALT",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "raisin",
+      "loesung": "RAISIN",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "avocado",
+      "loesung": "AVOCADO",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "radish",
+      "loesung": "RADISH",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "celery",
+      "loesung": "CELERY",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "gummy bear",
+      "loesung": "GUMMY BEAR",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "cereal",
+      "loesung": "CEREAL",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "porridge",
+      "loesung": "PORRIDGE",
+      "kategorie": "food",
+      "stufe": 2
+    },
+    {
+      "wort": "cupcake",
+      "loesung": "CUPCAKE",
+      "kategorie": "food",
+      "stufe": 3
+    },
+    {
+      "wort": "doughnut",
+      "loesung": "DOUGHNUT",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "omelette",
+      "loesung": "OMELETTE",
+      "kategorie": "food",
+      "stufe": 1
+    },
+    {
+      "wort": "Germany",
+      "loesung": "GERMANY",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Austria",
+      "loesung": "AUSTRIA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Switzerland",
+      "loesung": "SWITZERLAND",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "France",
+      "loesung": "FRANCE",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Italy",
+      "loesung": "ITALY",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Spain",
+      "loesung": "SPAIN",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Portugal",
+      "loesung": "PORTUGAL",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Norway",
+      "loesung": "NORWAY",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Sweden",
+      "loesung": "SWEDEN",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Finland",
+      "loesung": "FINLAND",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Denmark",
+      "loesung": "DENMARK",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Poland",
+      "loesung": "POLAND",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Greece",
+      "loesung": "GREECE",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Egypt",
+      "loesung": "EGYPT",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Canada",
+      "loesung": "CANADA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Brazil",
+      "loesung": "BRAZIL",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Mexico",
+      "loesung": "MEXICO",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Japan",
+      "loesung": "JAPAN",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "India",
+      "loesung": "INDIA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Australia",
+      "loesung": "AUSTRALIA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Iceland",
+      "loesung": "ICELAND",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Ireland",
+      "loesung": "IRELAND",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Kenya",
+      "loesung": "KENYA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Peru",
+      "loesung": "PERU",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Chile",
+      "loesung": "CHILE",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Argentina",
+      "loesung": "ARGENTINA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Belgium",
+      "loesung": "BELGIUM",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Netherlands",
+      "loesung": "NETHERLANDS",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Luxembourg",
+      "loesung": "LUXEMBOURG",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Czechia",
+      "loesung": "CZECHIA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Hungary",
+      "loesung": "HUNGARY",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Romania",
+      "loesung": "ROMANIA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Bulgaria",
+      "loesung": "BULGARIA",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Croatia",
+      "loesung": "CROATIA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Slovenia",
+      "loesung": "SLOVENIA",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Slovakia",
+      "loesung": "SLOVAKIA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Estonia",
+      "loesung": "ESTONIA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Latvia",
+      "loesung": "LATVIA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Lithuania",
+      "loesung": "LITHUANIA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "England",
+      "loesung": "ENGLAND",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Scotland",
+      "loesung": "SCOTLAND",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Wales",
+      "loesung": "WALES",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Morocco",
+      "loesung": "MOROCCO",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Tunisia",
+      "loesung": "TUNISIA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "South Africa",
+      "loesung": "SOUTH AFRICA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Nigeria",
+      "loesung": "NIGERIA",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Ghana",
+      "loesung": "GHANA",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Tanzania",
+      "loesung": "TANZANIA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Madagascar",
+      "loesung": "MADAGASCAR",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "China",
+      "loesung": "CHINA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Thailand",
+      "loesung": "THAILAND",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Vietnam",
+      "loesung": "VIETNAM",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Indonesia",
+      "loesung": "INDONESIA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Philippines",
+      "loesung": "PHILIPPINES",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Mongolia",
+      "loesung": "MONGOLIA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Nepal",
+      "loesung": "NEPAL",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "New Zealand",
+      "loesung": "NEW ZEALAND",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Colombia",
+      "loesung": "COLOMBIA",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Cuba",
+      "loesung": "CUBA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Jamaica",
+      "loesung": "JAMAICA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Bolivia",
+      "loesung": "BOLIVIA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Ecuador",
+      "loesung": "ECUADOR",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Uruguay",
+      "loesung": "URUGUAY",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Paraguay",
+      "loesung": "PARAGUAY",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Costa Rica",
+      "loesung": "COSTA RICA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Panama",
+      "loesung": "PANAMA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Malta",
+      "loesung": "MALTA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Albania",
+      "loesung": "ALBANIA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Serbia",
+      "loesung": "SERBIA",
+      "kategorie": "countries",
+      "stufe": 3
+    },
+    {
+      "wort": "Montenegro",
+      "loesung": "MONTENEGRO",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Monaco",
+      "loesung": "MONACO",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Liechtenstein",
+      "loesung": "LIECHTENSTEIN",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Andorra",
+      "loesung": "ANDORRA",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Singapore",
+      "loesung": "SINGAPORE",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "Malaysia",
+      "loesung": "MALAYSIA",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Cambodia",
+      "loesung": "CAMBODIA",
+      "kategorie": "countries",
+      "stufe": 2
+    },
+    {
+      "wort": "Laos",
+      "loesung": "LAOS",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "United States",
+      "loesung": "UNITED STATES",
+      "kategorie": "countries",
+      "stufe": 1
+    },
+    {
+      "wort": "football",
+      "loesung": "FOOTBALL",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "handball",
+      "loesung": "HANDBALL",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "tennis",
+      "loesung": "TENNIS",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "swimming",
+      "loesung": "SWIMMING",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "gymnastics",
+      "loesung": "GYMNASTICS",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "riding",
+      "loesung": "RIDING",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "rowing",
+      "loesung": "ROWING",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "volleyball",
+      "loesung": "VOLLEYBALL",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "basketball",
+      "loesung": "BASKETBALL",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "golf",
+      "loesung": "GOLF",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "judo",
+      "loesung": "JUDO",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "karate",
+      "loesung": "KARATE",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "badminton",
+      "loesung": "BADMINTON",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "hockey",
+      "loesung": "HOCKEY",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "marathon",
+      "loesung": "MARATHON",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "trampoline",
+      "loesung": "TRAMPOLINE",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "ball",
+      "loesung": "BALL",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "goal",
+      "loesung": "GOAL",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "medal",
+      "loesung": "MEDAL",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "trophy",
+      "loesung": "TROPHY",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "referee",
+      "loesung": "REFEREE",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "stopwatch",
+      "loesung": "STOPWATCH",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "sneaker",
+      "loesung": "SNEAKER",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "athletics",
+      "loesung": "ATHLETICS",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "long jump",
+      "loesung": "LONG JUMP",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "high jump",
+      "loesung": "HIGH JUMP",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "relay",
+      "loesung": "RELAY",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "cycling",
+      "loesung": "CYCLING",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "skiing",
+      "loesung": "SKIING",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "snowboard",
+      "loesung": "SNOWBOARD",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "ice skating",
+      "loesung": "ICE SKATING",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "ice hockey",
+      "loesung": "ICE HOCKEY",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "sailing",
+      "loesung": "SAILING",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "surfing",
+      "loesung": "SURFING",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "diving",
+      "loesung": "DIVING",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "climbing",
+      "loesung": "CLIMBING",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "bowling",
+      "loesung": "BOWLING",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "mini golf",
+      "loesung": "MINI GOLF",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "billiards",
+      "loesung": "BILLIARDS",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "yoga",
+      "loesung": "YOGA",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "jogging",
+      "loesung": "JOGGING",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "hiking",
+      "loesung": "HIKING",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "sledding",
+      "loesung": "SLEDDING",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "rugby",
+      "loesung": "RUGBY",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "baseball",
+      "loesung": "BASEBALL",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "cricket",
+      "loesung": "CRICKET",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "water polo",
+      "loesung": "WATER POLO",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "canoe",
+      "loesung": "CANOE",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "kayak",
+      "loesung": "KAYAK",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "racket",
+      "loesung": "RACKET",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "net",
+      "loesung": "NET",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "jersey",
+      "loesung": "JERSEY",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "helmet",
+      "loesung": "HELMET",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "diving board",
+      "loesung": "DIVING BOARD",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "dumbbell",
+      "loesung": "DUMBBELL",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "jump rope",
+      "loesung": "JUMP ROPE",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "hula hoop",
+      "loesung": "HULA HOOP",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "frisbee",
+      "loesung": "FRISBEE",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "skateboard",
+      "loesung": "SKATEBOARD",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "roller skate",
+      "loesung": "ROLLER SKATE",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "gym",
+      "loesung": "GYM",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "stadium",
+      "loesung": "STADIUM",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "coach",
+      "loesung": "COACH",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "team",
+      "loesung": "TEAM",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "goalkeeper",
+      "loesung": "GOALKEEPER",
+      "kategorie": "sports",
+      "stufe": 3
+    },
+    {
+      "wort": "penalty",
+      "loesung": "PENALTY",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "champion",
+      "loesung": "CHAMPION",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "olympics",
+      "loesung": "OLYMPICS",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "winner",
+      "loesung": "WINNER",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "finish line",
+      "loesung": "FINISH LINE",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "target",
+      "loesung": "TARGET",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "swimming pool",
+      "loesung": "SWIMMING POOL",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "whistle",
+      "loesung": "WHISTLE",
+      "kategorie": "sports",
+      "stufe": 1
+    },
+    {
+      "wort": "scoreboard",
+      "loesung": "SCOREBOARD",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "archery",
+      "loesung": "ARCHERY",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "table tennis",
+      "loesung": "TABLE TENNIS",
+      "kategorie": "sports",
+      "stufe": 2
+    },
+    {
+      "wort": "tree",
+      "loesung": "TREE",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "flower",
+      "loesung": "FLOWER",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "forest",
+      "loesung": "FOREST",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "mountain",
+      "loesung": "MOUNTAIN",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "river",
+      "loesung": "RIVER",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "lake",
+      "loesung": "LAKE",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "cloud",
+      "loesung": "CLOUD",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "rainbow",
+      "loesung": "RAINBOW",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "sun",
+      "loesung": "SUN",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "moon",
+      "loesung": "MOON",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "star",
+      "loesung": "STAR",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "thunderstorm",
+      "loesung": "THUNDERSTORM",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "snow",
+      "loesung": "SNOW",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "meadow",
+      "loesung": "MEADOW",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "volcano",
+      "loesung": "VOLCANO",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "waterfall",
+      "loesung": "WATERFALL",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "island",
+      "loesung": "ISLAND",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "desert",
+      "loesung": "DESERT",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "tulip",
+      "loesung": "TULIP",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "mushroom",
+      "loesung": "MUSHROOM",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "acorn",
+      "loesung": "ACORN",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "chestnut",
+      "loesung": "CHESTNUT",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "glacier",
+      "loesung": "GLACIER",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "cave",
+      "loesung": "CAVE",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "rock",
+      "loesung": "ROCK",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "stone",
+      "loesung": "STONE",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "sand",
+      "loesung": "SAND",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "beach",
+      "loesung": "BEACH",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "sea",
+      "loesung": "SEA",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "ocean",
+      "loesung": "OCEAN",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "wave",
+      "loesung": "WAVE",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "stream",
+      "loesung": "STREAM",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "pond",
+      "loesung": "POND",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "valley",
+      "loesung": "VALLEY",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "hill",
+      "loesung": "HILL",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "peak",
+      "loesung": "PEAK",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "canyon",
+      "loesung": "CANYON",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "moss",
+      "loesung": "MOSS",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "fern",
+      "loesung": "FERN",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "grass",
+      "loesung": "GRASS",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "leaf",
+      "loesung": "LEAF",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "branch",
+      "loesung": "BRANCH",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "root",
+      "loesung": "ROOT",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "rose",
+      "loesung": "ROSE",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "sunflower",
+      "loesung": "SUNFLOWER",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "daisy",
+      "loesung": "DAISY",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "dandelion",
+      "loesung": "DANDELION",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "cactus",
+      "loesung": "CACTUS",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "palm tree",
+      "loesung": "PALM TREE",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "fir tree",
+      "loesung": "FIR TREE",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "oak",
+      "loesung": "OAK",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "birch",
+      "loesung": "BIRCH",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "maple",
+      "loesung": "MAPLE",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "fog",
+      "loesung": "FOG",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "rain",
+      "loesung": "RAIN",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "hail",
+      "loesung": "HAIL",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "lightning",
+      "loesung": "LIGHTNING",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "thunder",
+      "loesung": "THUNDER",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "wind",
+      "loesung": "WIND",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "storm",
+      "loesung": "STORM",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "icicle",
+      "loesung": "ICICLE",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "snowflake",
+      "loesung": "SNOWFLAKE",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "frost",
+      "loesung": "FROST",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "dew",
+      "loesung": "DEW",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "sky",
+      "loesung": "SKY",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "comet",
+      "loesung": "COMET",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "planet",
+      "loesung": "PLANET",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "earth",
+      "loesung": "EARTH",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "shooting star",
+      "loesung": "SHOOTING STAR",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "sunrise",
+      "loesung": "SUNRISE",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "summer",
+      "loesung": "SUMMER",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "autumn",
+      "loesung": "AUTUMN",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "winter",
+      "loesung": "WINTER",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "seashell",
+      "loesung": "SEASHELL",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "coral",
+      "loesung": "CORAL",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "jungle",
+      "loesung": "JUNGLE",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "savanna",
+      "loesung": "SAVANNA",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "field",
+      "loesung": "FIELD",
+      "kategorie": "nature",
+      "stufe": 2
+    },
+    {
+      "wort": "sunset",
+      "loesung": "SUNSET",
+      "kategorie": "nature",
+      "stufe": 1
+    },
+    {
+      "wort": "puddle",
+      "loesung": "PUDDLE",
+      "kategorie": "nature",
+      "stufe": 3
+    },
+    {
+      "wort": "table",
+      "loesung": "TABLE",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "chair",
+      "loesung": "CHAIR",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "lamp",
+      "loesung": "LAMP",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "sofa",
+      "loesung": "SOFA",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "pillow",
+      "loesung": "PILLOW",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "carpet",
+      "loesung": "CARPET",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "window",
+      "loesung": "WINDOW",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "fridge",
+      "loesung": "FRIDGE",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "bathtub",
+      "loesung": "BATHTUB",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "toothbrush",
+      "loesung": "TOOTHBRUSH",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "mirror",
+      "loesung": "MIRROR",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "wardrobe",
+      "loesung": "WARDROBE",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "stairs",
+      "loesung": "STAIRS",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "fork",
+      "loesung": "FORK",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "spoon",
+      "loesung": "SPOON",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "plate",
+      "loesung": "PLATE",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "candle",
+      "loesung": "CANDLE",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "alarm clock",
+      "loesung": "ALARM CLOCK",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "shelf",
+      "loesung": "SHELF",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "curtain",
+      "loesung": "CURTAIN",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "kettle",
+      "loesung": "KETTLE",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "key",
+      "loesung": "KEY",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "bed",
+      "loesung": "BED",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "blanket",
+      "loesung": "BLANKET",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "door",
+      "loesung": "DOOR",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "roof",
+      "loesung": "ROOF",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "wall",
+      "loesung": "WALL",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "floor",
+      "loesung": "FLOOR",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "basement",
+      "loesung": "BASEMENT",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "attic",
+      "loesung": "ATTIC",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "garden",
+      "loesung": "GARDEN",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "balcony",
+      "loesung": "BALCONY",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "kitchen",
+      "loesung": "KITCHEN",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "bathroom",
+      "loesung": "BATHROOM",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "bedroom",
+      "loesung": "BEDROOM",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "living room",
+      "loesung": "LIVING ROOM",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "stove",
+      "loesung": "STOVE",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "oven",
+      "loesung": "OVEN",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "toaster",
+      "loesung": "TOASTER",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "microwave",
+      "loesung": "MICROWAVE",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "washing machine",
+      "loesung": "WASHING MACHINE",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "dishwasher",
+      "loesung": "DISHWASHER",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "pot",
+      "loesung": "POT",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "pan",
+      "loesung": "PAN",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "cup",
+      "loesung": "CUP",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "glass",
+      "loesung": "GLASS",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "bowl",
+      "loesung": "BOWL",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "knife",
+      "loesung": "KNIFE",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "jug",
+      "loesung": "JUG",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "broom",
+      "loesung": "BROOM",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "bucket",
+      "loesung": "BUCKET",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "towel",
+      "loesung": "TOWEL",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "soap",
+      "loesung": "SOAP",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "shampoo",
+      "loesung": "SHAMPOO",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "toothpaste",
+      "loesung": "TOOTHPASTE",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "comb",
+      "loesung": "COMB",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "hairbrush",
+      "loesung": "HAIRBRUSH",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "clock",
+      "loesung": "CLOCK",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "picture",
+      "loesung": "PICTURE",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "flowerpot",
+      "loesung": "FLOWERPOT",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "dresser",
+      "loesung": "DRESSER",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "armchair",
+      "loesung": "ARMCHAIR",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "stool",
+      "loesung": "STOOL",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "desk",
+      "loesung": "DESK",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "bookshelf",
+      "loesung": "BOOKSHELF",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "television",
+      "loesung": "TELEVISION",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "telephone",
+      "loesung": "TELEPHONE",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "computer",
+      "loesung": "COMPUTER",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "radio",
+      "loesung": "RADIO",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "socket",
+      "loesung": "SOCKET",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "light switch",
+      "loesung": "LIGHT SWITCH",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "heater",
+      "loesung": "HEATER",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "mailbox",
+      "loesung": "MAILBOX",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "doorbell",
+      "loesung": "DOORBELL",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "doormat",
+      "loesung": "DOORMAT",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "clothespin",
+      "loesung": "CLOTHESPIN",
+      "kategorie": "home",
+      "stufe": 1
+    },
+    {
+      "wort": "hanger",
+      "loesung": "HANGER",
+      "kategorie": "home",
+      "stufe": 2
+    },
+    {
+      "wort": "mug",
+      "loesung": "MUG",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "teapot",
+      "loesung": "TEAPOT",
+      "kategorie": "home",
+      "stufe": 3
+    },
+    {
+      "wort": "car",
+      "loesung": "CAR",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "bus",
+      "loesung": "BUS",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "train",
+      "loesung": "TRAIN",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "bicycle",
+      "loesung": "BICYCLE",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "airplane",
+      "loesung": "AIRPLANE",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "ship",
+      "loesung": "SHIP",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "tractor",
+      "loesung": "TRACTOR",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "helicopter",
+      "loesung": "HELICOPTER",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "rocket",
+      "loesung": "ROCKET",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "scooter",
+      "loesung": "SCOOTER",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "traffic light",
+      "loesung": "TRAFFIC LIGHT",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "station",
+      "loesung": "STATION",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "tunnel",
+      "loesung": "TUNNEL",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "bridge",
+      "loesung": "BRIDGE",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "fire engine",
+      "loesung": "FIRE ENGINE",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "ambulance",
+      "loesung": "AMBULANCE",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "taxi",
+      "loesung": "TAXI",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "sailboat",
+      "loesung": "SAILBOAT",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "carriage",
+      "loesung": "CARRIAGE",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "truck",
+      "loesung": "TRUCK",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "motorcycle",
+      "loesung": "MOTORCYCLE",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "tram",
+      "loesung": "TRAM",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "subway",
+      "loesung": "SUBWAY",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "locomotive",
+      "loesung": "LOCOMOTIVE",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "digger",
+      "loesung": "DIGGER",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "crane",
+      "loesung": "CRANE",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "garbage truck",
+      "loesung": "GARBAGE TRUCK",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "police car",
+      "loesung": "POLICE CAR",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "camper van",
+      "loesung": "CAMPER VAN",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "trailer",
+      "loesung": "TRAILER",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "wheelbarrow",
+      "loesung": "WHEELBARROW",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "cable car",
+      "loesung": "CABLE CAR",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "gondola",
+      "loesung": "GONDOLA",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "ferry",
+      "loesung": "FERRY",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "rowing boat",
+      "loesung": "ROWING BOAT",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "steamboat",
+      "loesung": "STEAMBOAT",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "submarine",
+      "loesung": "SUBMARINE",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "hot air balloon",
+      "loesung": "HOT AIR BALLOON",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "airship",
+      "loesung": "AIRSHIP",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "airport",
+      "loesung": "AIRPORT",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "harbor",
+      "loesung": "HARBOR",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "gas station",
+      "loesung": "GAS STATION",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "crossroads",
+      "loesung": "CROSSROADS",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "roundabout",
+      "loesung": "ROUNDABOUT",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "highway",
+      "loesung": "HIGHWAY",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "ticket",
+      "loesung": "TICKET",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "suitcase",
+      "loesung": "SUITCASE",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "backpack",
+      "loesung": "BACKPACK",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "map",
+      "loesung": "MAP",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "compass",
+      "loesung": "COMPASS",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "steering wheel",
+      "loesung": "STEERING WHEEL",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "tire",
+      "loesung": "TIRE",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "seat belt",
+      "loesung": "SEAT BELT",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "pilot",
+      "loesung": "PILOT",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "captain",
+      "loesung": "CAPTAIN",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "race car",
+      "loesung": "RACE CAR",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "sports car",
+      "loesung": "SPORTS CAR",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "caravan",
+      "loesung": "CARAVAN",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "spaceship",
+      "loesung": "SPACESHIP",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "platform",
+      "loesung": "PLATFORM",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "railway",
+      "loesung": "RAILWAY",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "motorboat",
+      "loesung": "MOTORBOAT",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "van",
+      "loesung": "VAN",
+      "kategorie": "transport",
+      "stufe": 3
+    },
+    {
+      "wort": "limousine",
+      "loesung": "LIMOUSINE",
+      "kategorie": "transport",
+      "stufe": 1
+    },
+    {
+      "wort": "wheel",
+      "loesung": "WHEEL",
+      "kategorie": "transport",
+      "stufe": 2
+    },
+    {
+      "wort": "guitar",
+      "loesung": "GUITAR",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "piano",
+      "loesung": "PIANO",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "drum",
+      "loesung": "DRUM",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "violin",
+      "loesung": "VIOLIN",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "flute",
+      "loesung": "FLUTE",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "trumpet",
+      "loesung": "TRUMPET",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "harp",
+      "loesung": "HARP",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "organ",
+      "loesung": "ORGAN",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "harmonica",
+      "loesung": "HARMONICA",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "xylophone",
+      "loesung": "XYLOPHONE",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "saxophone",
+      "loesung": "SAXOPHONE",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "cello",
+      "loesung": "CELLO",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "triangle",
+      "loesung": "TRIANGLE",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "concert",
+      "loesung": "CONCERT",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "melody",
+      "loesung": "MELODY",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "choir",
+      "loesung": "CHOIR",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "orchestra",
+      "loesung": "ORCHESTRA",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "headphones",
+      "loesung": "HEADPHONES",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "microphone",
+      "loesung": "MICROPHONE",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "dance",
+      "loesung": "DANCE",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "song",
+      "loesung": "SONG",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "note",
+      "loesung": "NOTE",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "bass",
+      "loesung": "BASS",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "double bass",
+      "loesung": "DOUBLE BASS",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "tuba",
+      "loesung": "TUBA",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "trombone",
+      "loesung": "TROMBONE",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "horn",
+      "loesung": "HORN",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "clarinet",
+      "loesung": "CLARINET",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "oboe",
+      "loesung": "OBOE",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "bassoon",
+      "loesung": "BASSOON",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "recorder",
+      "loesung": "RECORDER",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "accordion",
+      "loesung": "ACCORDION",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "keyboard",
+      "loesung": "KEYBOARD",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "drum kit",
+      "loesung": "DRUM KIT",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "cymbal",
+      "loesung": "CYMBAL",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "tambourine",
+      "loesung": "TAMBOURINE",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "rattle",
+      "loesung": "RATTLE",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "glockenspiel",
+      "loesung": "GLOCKENSPIEL",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "ukulele",
+      "loesung": "UKULELE",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "banjo",
+      "loesung": "BANJO",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "bagpipes",
+      "loesung": "BAGPIPES",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "mandolin",
+      "loesung": "MANDOLIN",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "timpani",
+      "loesung": "TIMPANI",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "singer",
+      "loesung": "SINGER",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "band",
+      "loesung": "BAND",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "stage",
+      "loesung": "STAGE",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "conductor",
+      "loesung": "CONDUCTOR",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "baton",
+      "loesung": "BATON",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "sheet music",
+      "loesung": "SHEET MUSIC",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "rhythm",
+      "loesung": "RHYTHM",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "beat",
+      "loesung": "BEAT",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "tone",
+      "loesung": "TONE",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "loudspeaker",
+      "loesung": "LOUDSPEAKER",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "musical",
+      "loesung": "MUSICAL",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "opera",
+      "loesung": "OPERA",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "ballet",
+      "loesung": "BALLET",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "waltz",
+      "loesung": "WALTZ",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "polka",
+      "loesung": "POLKA",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "rock music",
+      "loesung": "ROCK MUSIC",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "jazz",
+      "loesung": "JAZZ",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "hip-hop",
+      "loesung": "HIP-HOP",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "lullaby",
+      "loesung": "LULLABY",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "singing",
+      "loesung": "SINGING",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "chorus",
+      "loesung": "CHORUS",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "verse",
+      "loesung": "VERSE",
+      "kategorie": "music",
+      "stufe": 3
+    },
+    {
+      "wort": "amplifier",
+      "loesung": "AMPLIFIER",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "record player",
+      "loesung": "RECORD PLAYER",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "record",
+      "loesung": "RECORD",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "cassette",
+      "loesung": "CASSETTE",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "applause",
+      "loesung": "APPLAUSE",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "encore",
+      "loesung": "ENCORE",
+      "kategorie": "music",
+      "stufe": 1
+    },
+    {
+      "wort": "tuning fork",
+      "loesung": "TUNING FORK",
+      "kategorie": "music",
+      "stufe": 2
+    },
+    {
+      "wort": "metronome",
+      "loesung": "METRONOME",
+      "kategorie": "music",
+      "stufe": 1
+    }
+  ]
+}

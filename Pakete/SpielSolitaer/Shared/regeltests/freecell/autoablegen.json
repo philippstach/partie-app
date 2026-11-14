@@ -1,0 +1,343 @@
+{
+ "beschreibung": "auto_foundation_moves(start): sichere Karten, Zug für Zug (Quellen je Runde F0…F3, S0…S7, nach jedem Treffer von vorn).",
+ "faelle": [
+  {
+   "titel": "Asse und Zweien sind immer sicher, auch aus Zellen",
+   "start": {
+    "spalten": [
+     [
+      "2S"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "AD"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     "AH",
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zuege": [
+    {
+     "von": "F1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "Reihenfolge: Zellen vor Spalten",
+   "start": {
+    "spalten": [
+     [
+      "2H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     "2D",
+     null
+    ],
+    "ziel": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zuege": [
+    {
+     "von": "F2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "Kette: Ablegen legt das nächste Ass frei",
+   "start": {
+    "spalten": [
+     [
+      "AC",
+      "AS"
+     ],
+     [
+      "2S",
+      "2C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zuege": [
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "rote 3 nicht sicher, solange Schwarz bei 1",
+   "start": {
+    "spalten": [
+     [
+      "3H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     1,
+     2,
+     0,
+     1
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zuege": []
+  },
+  {
+   "titel": "rote 3 sicher, wenn beide schwarzen Ziele bei 2",
+   "start": {
+    "spalten": [
+     [
+      "3H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     2,
+     2,
+     0,
+     2
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zuege": [
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "schwarze 5 nicht sicher, solange ein rotes Ziel erst bei 3",
+   "start": {
+    "spalten": [
+     [
+      "5S"
+     ],
+     [
+      "5C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     4,
+     4,
+     3,
+     4
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zuege": []
+  },
+  {
+   "titel": "schwarze 5 sicher, wenn beide roten Ziele bei 4",
+   "start": {
+    "spalten": [
+     [
+      "5S"
+     ],
+     [
+      "5C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zuege": [
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z3",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "nichts zu tun",
+   "start": {
+    "spalten": [
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     "KD",
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zuege": []
+  }
+ ]
+}

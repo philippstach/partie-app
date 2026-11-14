@@ -1,0 +1,387 @@
+# 007 Kleidung, Stoffe, Schmuck, Mode, Nähen – geschrieben von Claude
+Mantel	1	Wärmender Überzieher|Hülle eines Reifens
+Mütze	1	Wollene Kopfbedeckung|Kappe für den Winter
+Strumpf	1	Lange Socke|Beinkleid aus Nylon
+Schuh	1	Fußbekleidung|Hat Sohle und Absatz
+Stiefel	1	Hoher Schaftschuh|Bierglas in Fußform
+Sandale	1	Riemchenschuh für den Sommer|Offener Sommerschuh
+Pantoffel	2	Schlappen ohne Ferse|Steht der Ehemann unter ihm
+Hausschuh	1	Pantoffel|Puschen
+Schlappen	2	Bequemer Hausschuh|Ausgetretener Schuh
+Gürtel	1	Hosenhalter aus Leder|Riemen um die Taille
+Krawatte	1	Halsbinder zum Anzug|Männerhalsschmuck
+Schlips	2	Binder (umgangssprachlich)|Querbinder ums Hemd
+Pullover	1	Strickoberteil|Wollenes Oberteil
+Anzug	1	Sakko und Hose|Herrenkleidung fürs Büro
+Kostüm	1	Verkleidung zum Fasching|Jacke und Rock für Damen
+Sakko	2	Herrenjacke zum Anzug
+Jackett	2	Sakko|Teil des Anzugs
+Smoking	2	Abendanzug mit Fliege|Dinnerjacke
+Shorts	1	Kurze Hose|Sommerhose bis zum Knie
+Bikini	1	Zweiteiliger Badeanzug|Zweiteiler am Strand
+Badehose	1	Schwimmkleidung für Jungen|Schwimmhose
+Unterhose	1	Schlüpfer|Leibwäsche
+Unterwäsche	1	Dessous und Slips|Leibwäsche
+Unterhemd	1	Ärmellose Leibwäsche|Feinrippoberteil
+Slip	2	Kurzes Höschen|Damenschlüpfer
+Mieder	3	Formendes Wäschestück|Oberteil zum Dirndl
+Korsett	2	Schnürleib|Stützendes Mieder
+Büstenhalter	2	BH (ausgeschrieben)|Wäsche für den Busen
+Pyjama	1	Schlafanzug|Nachtkleidung
+Nachthemd	1	Langes Schlafgewand
+Bademantel	1	Frotteemantel nach der Dusche
+Morgenmantel	2	Hausmantel fürs Frühstück
+Kittel	2	Arztmantel|Arbeitsmantel
+Overall	2	Einteiliger Arbeitsanzug|Ganzkörperanzug
+Latzhose	2	Hose mit Trägern und Brustteil
+Anorak	2	Windjacke mit Kapuze
+Parka	2	Wattierte Kapuzenjacke
+Regenmantel	1	Schutz bei Schauern
+Cape	2	Schulterumhang
+Umhang	2	Mantel ohne Ärmel|Überwurf
+Poncho	2	Überwurf mit Kopfloch
+Kimono	2	Japanisches Gewand
+Kaftan	3	Langes orientalisches Gewand
+Burnus	3	Kapuzenmantel der Beduinen
+Turban	2	Gewickelte Kopfbedeckung
+Barett	3	Flache, randlose Mütze|Mütze der Richter
+Baskenmütze	2	Flache Wollkappe
+Zylinder	2	Hoher Herrenhut|Motorbauteil
+Kapuze	1	Kopfteil am Anorak
+Stirnband	1	Schweißband am Kopf
+Handschuh	1	Hat fünf Finger|Fingerling für den Winter
+Fäustling	2	Handschuh ohne Fingerteilung
+Kopftuch	1	Tuch ums Haar
+Halstuch	1	Tuch um den Nacken
+Schleier	2	Tüll vor dem Gesicht|Nebel, Dunst
+Fächer	2	Wedel gegen Hitze
+Schirm	1	Schutz vor Regen|Teil der Mütze
+Tasche	1	Beutel zum Tragen|Fach im Mantel
+Handtasche	1	Damenbeutel
+Armband	1	Schmuck am Handgelenk
+Ohrring	1	Schmuck am Läppchen
+Ohrstecker	2	Kleiner Schmuck im Läppchen
+Brosche	2	Anstecknadel als Schmuck
+Anhänger	1	Schmuck an der Kette|Wagen hinter dem Auto
+Medaillon	2	Aufklappbarer Kettenschmuck
+Diadem	2	Stirnreif der Fürstin|Kopfschmuck
+Silber	1	Edelmetall, Zeichen Ag
+Platin	2	Edelmetall, Zeichen Pt
+Edelstein	1	Juwel|Brillant oder Rubin
+Collier	2	Wertvolle Halskette
+Haarspange	1	Klemme für die Frisur
+Haarreif	2	Bügel in der Frisur
+Haarnetz	3	Schutz für die Frisur
+Schnalle	2	Gürtelverschluss
+Druckknopf	2	Verschluss zum Zudrücken
+Kragen	1	Halsteil am Hemd
+Ärmel	1	Teil des Hemdes für den Arm
+Manschette	2	Aufschlag am Ärmel
+Futter	2	Innenstoff im Mantel|Essen für Tiere
+Revers	2	Jackenaufschlag
+Bordüre	3	Zierstreifen am Rand
+Rüsche	2	Gekräuselter Besatz
+Volant	3	Stoffbesatz am Rock|Lenkrad (veraltet)
+Spitze	1	Durchbrochenes Gewebe|Gipfel
+Kordel	2	Gedrehte Schnur
+Schleife	1	Gebundenes Band
+Quaste	3	Fransenbüschel
+Troddel	3	Fadenbüschel als Zier
+Franse	2	Herabhängender Faden am Rand
+Paillette	3	Glitzerplättchen am Kleid
+Stoff	1	Textil|Gewebe für Kleider
+Baumwolle	1	Pflanzenfaser für T-Shirts
+Leinen	2	Gewebe aus Flachs
+Tüll	2	Netzartiger Stoff
+Chiffon	3	Hauchdünner Seidenstoff
+Taft	3	Steifer, raschelnder Stoff
+Brokat	3	Stoff mit Goldfäden
+Damast	3	Glänzender Tischtuchstoff
+Cord	2	Rippenstoff für Hosen
+Rips	3	Stoff mit Querrippen
+Denim	2	Jeansstoff
+Flanell	3	Weicher, angerauter Stoff
+Frottee	2	Stoff für Handtücher
+Leder	1	Gegerbte Tierhaut
+Wildleder	2	Raues Rindleder
+Velours	3	Samtartiger Stoff
+Nylon	2	Kunstfaser für Strümpfe
+Polyester	2	Häufige Kunstfaser
+Viskose	3	Chemiefaser aus Zellstoff
+Elastan	3	Dehnbare Kunstfaser
+Mohair	3	Wolle der Angoraziege
+Angora	3	Kaninchenwolle
+Alpaka	2	Andenkamel|Wolle aus Peru
+Merino	3	Feine Schafwolle
+Schurwolle	2	Wolle vom lebenden Schaf
+Kunstfaser	2	Synthetisches Garn
+Batist	3	Feines Leinengewebe
+Musselin	3	Feines Baumwollgewebe
+Organza	3	Steifer, durchsichtiger Stoff
+Popeline	3	Feiner Hemdenstoff
+Krepp	3	Gekräuselter Stoff
+Plüsch	2	Stoff für Kuscheltiere
+Barchent	3	Angerauter Baumwollstoff
+Drillich	3	Derber Arbeitsstoff
+Kattun	3	Bedruckter Baumwollstoff
+Chintz	3	Glänzender Möbelstoff
+Molton	3	Weicher Baumwollflanell
+Gabardine	3	Fester Mantelstoff
+Chenille	3	Raupenartiges Garn
+Jacquard	3	Gewebe mit eingewebtem Muster
+Gobelin	3	Gewirkter Bildteppich
+Lammfell	2	Pelz vom jungen Schaf
+Lackleder	2	Glänzendes Schuhleder
+Nappa	3	Weiches Glattleder
+Kunstpelz	2	Unechter Pelz
+Rohseide	3	Ungebleichte Seide
+Wildseide	3	Naturseide mit Noppen
+Textil	2	Stoffware
+Nähnadel	1	Hat ein Öhr
+Nadelöhr	2	Fadenloch|Engpass
+Stecknadel	1	Nadel mit Kopf
+Schere	1	Schneidwerkzeug
+Zackenschere	3	Schneidwerkzeug mit Zähnen
+Maßband	1	Messgerät des Schneiders
+Schnittmuster	2	Papiervorlage der Näherin
+Nähmaschine	1	Gerät mit Pedal und Spule
+Nähkästchen	2	Kasten mit Garn und Nadeln
+Garnrolle	1	Spule mit Faden
+Knäuel	2	Wollkugel
+Stricknadel	1	Werkzeug für Maschen
+Häkelnadel	1	Nadel mit Haken
+Nadelkissen	2	Stichpolster der Näherin
+stricken	1	Mit Nadeln Wolle verarbeiten
+häkeln	1	Mit Hakennadel arbeiten
+sticken	1	Mit Garn verzieren
+weben	1	Kette und Schuss verbinden
+spinnen	1	Fäden drehen|Unsinn reden
+flicken	1	Ausbessern|Loch zunähen
+stopfen	2	Socken ausbessern|Füllen
+säumen	3	Rand umnähen|Kanten einfassen
+heften	2	Mit großen Stichen vornähen
+filzen	3	Wolle verdichten
+färben	1	Farbe geben|Kolorieren
+einfädeln	2	Faden durchs Öhr ziehen
+Webstuhl	2	Gerät zum Weben
+Spindel	2	Drehachse|Dornröschen stach sich daran
+Spinnrad	2	Gerät zum Fadendrehen
+Masche	1	Strickschlinge|Trick
+Muster	1	Dessin|Vorlage
+Streifen	1	Längliches Muster|Schmales Stück
+Tupfen	2	Punktmuster|Pünktchen
+Paisley	3	Tropfenmuster
+Zopfmuster	2	Strickbild wie geflochten
+Mode	1	Was gerade getragen wird
+Laufsteg	2	Bühne der Models
+Modenschau	2	Vorführung neuer Kleider
+Näherin	1	Frau, die Kleider anfertigt
+Modistin	3	Hutmacherin
+Hutmacher	2	Verrückte Figur bei Alice
+Färber	3	Handwerker mit Farbbottich
+Couturier	3	Modeschöpfer
+Designer	2	Gestalter von Kleidern
+Boutique	2	Kleines Modegeschäft
+Kollektion	2	Modelinie einer Saison
+Trend	2	Modeströmung
+Stil	2	Eigene Art, sich zu kleiden
+Outfit	2	Gesamtes Erscheinungsbild
+Kleiderschrank	1	Möbel für Hemden und Hosen
+Kleiderbügel	1	Hängevorrichtung im Schrank
+Kleiderbürste	2	Entfernt Fusseln
+Mottenkugel	2	Schutz im Schrank
+Konfektion	3	Kleidung von der Stange
+Maßanzug	2	Vom Schneider angefertigt
+Anprobe	2	Probieren beim Schneider
+Schneiderei	2	Werkstatt für Maßkleidung
+Schneiderpuppe	2	Torso zum Abstecken
+Atelier	2	Werkstatt des Künstlers
+Weberei	2	Textilfabrik
+Spinnerei	2	Garnfabrik|Verrückte Idee
+Färberei	3	Betrieb, der Stoffe tönt
+Mannequin	3	Vorführdame
+Model	1	Laufstegschönheit|Fotogesicht
+Uniform	1	Dienstkleidung
+Tracht	2	Volkskleidung|Regionale Kleidung
+Dirndl	1	Bayrisches Trachtenkleid
+Lederhose	1	Bayrische Hose mit Trägern
+Janker	3	Trachtenjacke
+Joppe	3	Derbe Jacke
+Blazer	2	Sportliches Sakko
+Bolero	3	Kurzes Jäckchen|Spanischer Tanz
+Strickjacke	1	Wolljacke mit Knöpfen
+Leggings	2	Enge Hose aus Stretch
+Strumpfhose	1	Beinkleid bis zur Taille
+Kniestrumpf	2	Lange Socke für Kinder
+Gamasche	3	Beinschutz über dem Schuh
+Stulpe	3	Beinwärmer|Aufschlag am Stiefel
+Pumps	2	Damenschuh mit Absatz
+Stöckelschuh	2	Schuh mit hohem Absatz
+Mokassin	3	Weicher Indianerschuh
+Clog	3	Holzpantoffel
+Holzschuh	1	Klompe aus Holland
+Espadrille	3	Leinenschuh mit Bastsohle
+Turnschuh	1	Sportschuh
+Sneaker	2	Sportschuh (englisch)
+Halbschuh	2	Schuh unter dem Knöchel
+Wanderschuh	1	Schuh für Bergtouren
+Gummistiefel	1	Schuh für Pfützen
+Slipper	2	Schuh ohne Schnürung
+Galosche	3	Gummiüberschuh
+Reitstiefel	2	Schuh des Jockeys
+Sporen	2	Rädchen am Reiterschuh
+Absatz	1	Ferse am Schuh|Neuer Textabschnitt
+Schnürsenkel	1	Band am Schuh
+Abendkleid	1	Robe für den Ball
+Brautkleid	1	Weiß zur Hochzeit
+Hosenträger	1	Riemen über den Schultern
+Einstecktuch	2	Ziertuch im Sakko
+Monokel	3	Einglas
+Talar	3	Robe der Richter
+Soutane	3	Priestergewand
+Kutte	2	Mönchsgewand
+Livree	3	Dieneruniform
+Wams	3	Historische Männerjacke
+Gehrock	3	Langer Herrenrock um 1900
+Pelerine	3	Kragenumhang, früher
+Krinoline	3	Reifrock
+Petticoat	2	Steifer Unterrock
+Leibchen	3	Ärmelloses Hemdchen
+Feinripp	3	Gerippter Wäschestoff
+Dessous	3	Reizwäsche
+Negligé	3	Leichtes Nachtgewand
+Tanga	3	Knapper Slip
+Body	2	Einteiler für Damen
+Strampler	1	Babyanzug
+Lätzchen	1	Schutz beim Füttern
+Pudelmütze	1	Kappe mit Bommel
+Zipfelmütze	1	Kopfbedeckung der Zwerge
+Bommel	2	Wollkugel an der Mütze
+Strohhut	1	Sommerhut aus Halmen
+Sombrero	2	Mexikanischer Hut
+Cowboyhut	2	Hut der Rinderhirten
+Schiebermütze	2	Flache Kappe der Arbeiter
+Pickelhaube	3	Preußischer Helm
+Dreispitz	3	Hut der Rokokozeit
+Kalotte	3	Scheitelkäppchen
+Mitra	3	Bischofsmütze
+Gamsbart	3	Hutschmuck aus Bayern
+Hutnadel	3	Hält den Damenhut
+Trenchcoat	2	Regenmantel mit Gürtel
+Dufflecoat	3	Mantel mit Knebelknöpfen
+Paletot	3	Knielanger Herrenmantel
+Blouson	3	Kurze Jacke mit Bund
+Windjacke	1	Leichte Jacke gegen Böen
+Daunenjacke	1	Mit Federn gefüllt
+Fleece	2	Flauschiger Kunstfaserstoff
+Hoodie	2	Kapuzenpulli
+Sweatshirt	2	Pulli aus Baumwolle
+Polohemd	2	Kurzarmhemd mit Kragen
+Minirock	1	Sehr kurzer Rock
+Faltenrock	1	Rock mit Plissee
+Schottenrock	1	Kilt|Karierter Rock
+Wickelrock	2	Rock zum Umbinden
+Tartan	3	Schottenkaro
+Plaid	3	Karierte Wolldecke
+Knickerbocker	3	Kniebundhose
+Pluderhose	3	Weite Bauschhose
+Caprihose	2	Dreiviertelhose
+Jogginghose	1	Bequeme Sporthose
+Trainingsanzug	1	Sportdress
+Badeanzug	1	Einteiler zum Schwimmen
+Badekappe	2	Haarschutz im Becken
+Sarong	3	Wickelrock aus Asien
+Tschador	3	Persischer Umhang
+Burka	2	Ganzkörperschleier
+Kippa	3	Jüdische Kopfbedeckung
+Lendenschurz	3	Tarzans Kleidung
+Orden	2	Ehrenzeichen|Klostergemeinschaft
+Kokarde	3	Rosette an der Mütze
+Epaulette	3	Schulterstück der Uniform
+Tresse	3	Borte an der Uniform
+Schärpe	3	Breites Schulterband
+Kummerbund	3	Bauchbinde zum Smoking
+Jabot	3	Spitzenrüsche am Hals
+Halskrause	3	Gefältelter Kragen
+Stehkragen	2	Aufrechter Halsabschluss
+Rollkragen	2	Hoher Pulloverkragen
+Ausschnitt	2	Halsöffnung am Kleid
+Dekolleté	2	Tiefer Ausschnitt
+Schlitz	2	Öffnung im Rock
+Abnäher	3	Genähte Falte für Passform
+Bügelfalte	2	Kante in der Hose
+Bündchen	2	Gestrickter Abschluss am Ärmel
+Zwickel	3	Keilförmiger Einsatz
+Biese	3	Schmale Ziernaht
+Plissee	3	Feine Fältelung
+Paspel	3	Zierkante an der Naht
+Applikation	3	Aufgenähte Verzierung
+Stickerei	2	Verzierung mit Garn
+Makramee	3	Knüpftechnik
+Patchwork	2	Flickenarbeit
+Quilt	2	Steppdecke aus Flicken
+Kreuzstich	2	Stickart mit X
+Knopfloch	1	Schlitz zum Zuknöpfen
+Gummiband	1	Elastische Schnur
+Handarbeit	1	Stricken oder Sticken
+Kamee	3	Relief auf Schmuckstein
+Gemme	3	Geschnittener Schmuckstein
+Siegelring	2	Ring mit Wappen
+Ehering	1	Zeichen der Heirat
+Verlobungsring	2	Schmuck zum Antrag
+Brillant	2	Geschliffener Diamant
+Fassung	2	Halterung des Steins|Gemütsruhe
+Facette	3	Schlifffläche
+Weißgold	2	Helle Goldlegierung
+Doublé	3	Vergoldetes Metall
+Talmi	3	Unechter Schmuck
+Strass	2	Glitzernder Glasstein
+Modeschmuck	1	Billiger Schmuck
+Flitter	3	Glitzerkram
+Perlmutt	2	Innenschicht der Muschel
+Elfenbein	2	Stoßzahnmaterial
+Malachit	3	Grünes Mineral
+Lapislazuli	3	Blauer Schmuckstein
+Aquamarin	3	Blaugrüner Beryll
+Turmalin	3	Vielfarbiger Edelstein
+Zirkon	3	Diamantimitat
+Mondstein	3	Schimmernder Feldspat
+Karneol	3	Rotbrauner Chalcedon
+Bergkristall	2	Klarer Quarz
+Rosenquarz	2	Rosa Quarz
+Obsidian	3	Vulkanglas
+Piercing	2	Schmuck durch die Haut
+Armreif	2	Starrer Ring ums Handgelenk
+Fußkettchen	2	Schmuck am Knöchel
+Amulett	2	Schutzzauber am Hals
+Talisman	2	Glücksbringer
+Geschmeide	3	Kostbarer Schmuck
+Kleinod	3	Kostbarkeit
+Schatulle	3	Kästchen für Juwelen
+Perlenkette	1	Halsschmuck aus der Auster
+Accessoire	2	Modisches Zubehör
+Taschenuhr	2	Uhr an der Kette
+Armbanduhr	1	Zeitmesser am Gelenk
+Toupet	3	Teilperücke
+Schleppe	2	Langes Kleidende am Boden
+Mantille	3	Spitzenschleier in Spanien
+Sonnenschirm	1	Schattenspender am Strand
+Montur	3	Arbeitskleidung, Ausrüstung
+Gewand	2	Festliche Kleidung
+Fummel	3	Billiges Kleid (salopp)
+Klamotten	1	Kleider (umgangssprachlich)
+Kleidung	1	Textilien am Körper
+schick	1	Elegant gekleidet
+elegant	1	Fein und geschmackvoll
+Dandy	3	Eitler Modegeck
+Geck	3	Eitler Stutzer
+Stutzer	3	Modenarr früherer Zeit
+anprobieren	2	Kleidung testen
+anziehen	1	Kleidung überstreifen
+Schnitt	2	Form eines Kleidungsstücks
+Passform	2	Wie gut etwas sitzt
+Kragenweite	2	Halsumfang beim Hemd
+Schuhgröße	1	Maß für die Füße
+Meterware	3	Stoff vom Ballen
+Strickliesel	2	Spielzeug für Schnüre
+Nerzmantel	2	Teurer Pelz

@@ -1,0 +1,374 @@
+{
+ "beschreibung": "hint(start) oder null; festgefahren = nicht gewonnen und kein Tipp (= verloren).",
+ "faelle": [
+  {
+   "titel": "1: Kette geht weiter, vor niedrigerer Spalte ohne Fortsetzung",
+   "start": {
+    "spalten": [
+     [
+      "9C",
+      "4D"
+     ],
+     [
+      "JC"
+     ],
+     [],
+     [
+      "6H"
+     ],
+     [],
+     [
+      "7D"
+     ],
+     []
+    ],
+    "stapel": [
+     "2S"
+    ],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "G3"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: Fortsetzung durch die Karte darunter in derselben Spalte",
+   "start": {
+    "spalten": [
+     [],
+     [
+      "4D"
+     ],
+     [],
+     [],
+     [
+      "7D",
+      "6H"
+     ],
+     [],
+     []
+    ],
+    "stapel": [
+     "2S"
+    ],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "G4"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: mehrere mit Fortsetzung: niedrigste Spalte",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [
+      "3C"
+     ],
+     [
+      "4D"
+     ],
+     [],
+     [
+      "6H"
+     ],
+     [
+      "7D"
+     ]
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "G3"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: König beendet die Kette – Spalte mit Fortsetzung zuerst",
+   "start": {
+    "spalten": [
+     [
+      "KC"
+     ],
+     [
+      "9S",
+      "JH"
+     ],
+     [
+      "TD"
+     ],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "2S"
+    ],
+    "ablage": [
+     "QS"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "G1"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: kein Ringsum – Ass nach König zählt nicht als Fortsetzung",
+   "start": {
+    "spalten": [
+     [
+      "KC"
+     ],
+     [
+      "AD"
+     ],
+     [
+      "TD",
+      "JH"
+     ],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "2S"
+    ],
+    "ablage": [
+     "QS"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "G2"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "2: sonst niedrigste passende Spalte",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [
+      "4D"
+     ],
+     [],
+     [],
+     [
+      "6H"
+     ],
+     []
+    ],
+    "stapel": [
+     "2C"
+    ],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "G2"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "3: Stapel, wenn keine Karte passt",
+   "start": {
+    "spalten": [
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "2D"
+    ],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "stapel"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "3: Ablage König – Dame passt nicht, also Stapel",
+   "start": {
+    "spalten": [
+     [
+      "QC"
+     ],
+     [
+      "AH"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "2D"
+    ],
+    "ablage": [
+     "KS"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "stapel"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "3: passende Karte nur unten in der Spalte zählt nicht",
+   "start": {
+    "spalten": [
+     [
+      "6H",
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "2D"
+    ],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "stapel"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "festgefahren: nichts passt, Stapel leer",
+   "start": {
+    "spalten": [
+     [
+      "9C"
+     ],
+     [
+      "2H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "festgefahren: König oben auf der Ablage, Stapel leer",
+   "start": {
+    "spalten": [
+     [
+      "QC"
+     ],
+     [
+      "AH"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "KS"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "gewonnen: kein Tipp, nicht festgefahren",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "2D"
+    ],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+Wuerfel.mlmodelc: trainiertes Modell der Würfelerkennung (siehe Doku/LIVE-WUERFELERKENNUNG.md).

@@ -1,0 +1,99 @@
+{
+ "name": "06 Kniffel gestrichen, kein Bonus",
+ "beschreibung": "Kniffel-Feld mit 0 belegt: Joker ja, Bonus nein.",
+ "rules": {
+  "joker": true,
+  "kniffelBonus": 100
+ },
+ "players": [
+  "Anna"
+ ],
+ "dice": [
+  1,
+  2,
+  3,
+  4,
+  6,
+  5,
+  5,
+  5,
+  5,
+  5
+ ],
+ "steps": [
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     1,
+     2,
+     3,
+     4,
+     6
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "kniffel"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     5,
+     5,
+     5,
+     5,
+     5
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fives"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  }
+ ],
+ "expected": {
+  "finished": false,
+  "scores": [
+   {
+    "kniffel": 0,
+    "fives": 25
+   }
+  ],
+  "totals": [
+   {
+    "upper": 25,
+    "bonus": 0,
+    "lower": 0,
+    "kniffelBonus": 0,
+    "total": 25
+   }
+  ]
+ }
+}

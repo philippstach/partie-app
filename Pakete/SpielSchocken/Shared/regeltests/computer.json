@@ -1,0 +1,4671 @@
+{
+ "beschreibung": "Entscheidung der Computer-Strategien „einfach“ und „gut“ in einer Lage. zuSchlagen = schlechtestes bisheriges Ergebnis der Runde (null = Vorleger). gutWert = erwarteter Nutzen der besten Aktion (Toleranz 1e-6). Nur Lagen ohne knappe Entscheidungen.",
+ "faelle": [
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    3,
+    3,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.5208333333333334
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    3,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 621,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.7777777777777778
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    1,
+    2
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     1,
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.966820987654321
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    5,
+    6,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.7847222222222222
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    2,
+    3
+   ],
+   "wurf": [
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 532,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.16666666666666666
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    1
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "strasse",
+     "hoehe": 5,
+     "deckel": 2
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 542,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    5,
+    5,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 542,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    5,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 544,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    4,
+    4,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.8865740740740741
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.966820987654321
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    3,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 631,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 3
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    4,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.7708333333333334
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    1,
+    5
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 622,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 3
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 441,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    4,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 644,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.375
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    1,
+    3
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 431,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 2
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    3,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "schock",
+     "hoehe": 3,
+     "deckel": 3
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.07407407407407407
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 422,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    2
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 554,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    3
+   ],
+   "wurf": [
+    6,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 654,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    3,
+    4,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 554,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    5,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "general",
+     "hoehe": 6,
+     "deckel": 3
+    },
+    "wuerfe": 3,
+    "position": 2
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    4,
+    5,
+    5
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 431,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    3,
+    3,
+    5
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.2847222222222222
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    4,
+    5,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 622,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 2
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.966820987654321
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    5,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.666838134430727
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 665,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 2
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 552,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 531,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    2,
+    5
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.19444444444444445
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    3,
+    3
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.034722222222222224
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 651,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    3
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 633,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    2,
+    2,
+    2
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 555,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    5
+   ],
+   "wurf": [
+    5,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 552,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.6978595107453132
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    4,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 422,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.9745370370370371
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    3,
+    5
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 621,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.525977366255144
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.6602366255144033
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    1,
+    2
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 641,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    4,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "strasse",
+     "hoehe": 4,
+     "deckel": 2
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 531,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    3,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 431,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.3055555555555556
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    4
+   ],
+   "wurf": [
+    3,
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 441,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.7222222222222222
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    5,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 641,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    4,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.3055555555555556
+  },
+  {
+   "optionen": {},
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    4,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 532,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    4
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "schock",
+     "hoehe": 4,
+     "deckel": 4
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    3,
+    3,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.6357238797439415
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 532,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 2
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    5,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.5
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    3,
+    6
+   ],
+   "wurf": [
+    4
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.5972222222222222
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    3,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 331,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    4,
+    6,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 621,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    2,
+    5,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 631,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    1
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 421,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 664,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.6095679012345679
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    3,
+    3
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 221,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 652,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.3194444444444444
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    3,
+    3,
+    4
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.13194444444444445
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    3,
+    5
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.20833333333333334
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 541,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    2,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 643,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.3888888888888889
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    2,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.5
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    5,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 651,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.5
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    1,
+    2
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 665,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    1,
+    2
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 542,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    5,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "jule",
+     "hoehe": 0,
+     "deckel": 7
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.15123456790123457
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    3,
+    4,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 421,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    3,
+    4,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.6292402549154092
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    3,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     6
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.6470550411522634
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    5,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 322,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 641,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    2,
+    5,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 632,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 661,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    6,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 1
+   },
+   "gutWert": 0.9436728395061729
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    1,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 664,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 3
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    4,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "schock",
+     "hoehe": 2,
+     "deckel": 2
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "schock",
+     "hoehe": 2,
+     "deckel": 2
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    2,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 631,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.7899305555555556
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    3,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 663,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.3055555555555556
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    3,
+    4
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 663,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1,
+    6
+   ],
+   "wurf": [
+    1
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 542,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    5,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 632,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    4
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 541,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    5,
+    6,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 621,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    3,
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "strasse",
+     "hoehe": 4,
+     "deckel": 2
+    },
+    "wuerfe": 1,
+    "position": 3
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.3055555555555556
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    3,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 631,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 3
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    3
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "schock",
+     "hoehe": 4,
+     "deckel": 4
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.1388888888888889
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    2,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 521,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 3
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1,
+    4
+   ],
+   "wurf": [
+    3
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 632,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    3,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.8333333333333334
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 631,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.5138888888888888
+  },
+  {
+   "optionen": {},
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 554,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    3,
+    4
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.4976851851851852
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    3,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 551,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.7430555555555556
+  },
+  {
+   "optionen": {},
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.9467592592592593
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    3,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 631,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.7878086419753086
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    4,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.7430555555555556
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 643,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 3
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.6265432098765432
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.5416666666666666
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    4
+   ],
+   "wurf": [
+    4,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 622,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    4,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 641,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.4444444444444444
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    1,
+    2
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 431,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    3,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.5
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 421,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    3,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 533,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.5694444444444444
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 331,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    4,
+    4,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 643,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    5
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.9467592592592593
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.5
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.666838134430727
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1,
+    6
+   ],
+   "wurf": [
+    1
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "schock",
+     "hoehe": 4,
+     "deckel": 4
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    1
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.9976851851851852
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    5,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 221,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    2,
+    5,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 532,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    3
+   ],
+   "wurf": [
+    1,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     5
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.37037037037037035
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    6,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 655,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 3
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    1
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 654,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    5,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 664,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 2
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.3055555555555556
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    3,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "general",
+     "hoehe": 2,
+     "deckel": 3
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.3055555555555556
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    2
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 332,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    4
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 433,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    5,
+    6,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 531,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    2,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 651,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     6
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.5277777777777778
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    2,
+    5
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.16666666666666666
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    4,
+    5,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 661,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 2
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 633,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    5,
+    6
+   ],
+   "wurf": [
+    1
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.7013888888888888
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    5
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 441,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    4
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 421,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    1
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 663,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    4,
+    5
+   ],
+   "wurf": [
+    5
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 553,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 2
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    1,
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.9189814814814815
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 651,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 651,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.5925925925925926
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 542,
+     "deckel": 1
+    },
+    "wuerfe": 2,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.8817515432098766
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    5,
+    6,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 541,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.9467592592592593
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    2,
+    2,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 3,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 653,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 2
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    3,
+    4
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 531,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [],
+   "wurf": [
+    3,
+    3,
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 431,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    3,
+    4
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 2,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 432,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 653,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [
+     1
+    ],
+    "umdrehen": 0
+   },
+   "gutWert": 0.5555555555555556
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [
+    2,
+    4
+   ],
+   "wurf": [
+    1
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.22453703703703703
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    3
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "weiter",
+    "herauslegen": [],
+    "umdrehen": 0
+   },
+   "gutWert": 0.9436728395061729
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    2,
+    2
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 522,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.0
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    5,
+    6,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 2,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 421,
+     "deckel": 1
+    },
+    "wuerfe": 1,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    4,
+    6,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 1,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 322,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 0
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  },
+  {
+   "optionen": {
+    "jule": true
+   },
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    6,
+    6
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "position": 0,
+   "zuSchlagen": null,
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 0.7013888888888888
+  },
+  {
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "position": 4,
+   "zuSchlagen": {
+    "wertung": {
+     "art": "zahl",
+     "hoehe": 521,
+     "deckel": 1
+    },
+    "wuerfe": 3,
+    "position": 1
+   },
+   "einfach": {
+    "typ": "stehen"
+   },
+   "gut": {
+    "typ": "stehen"
+   },
+   "gutWert": 1.0
+  }
+ ],
+ "perzentil": [
+  {
+   "schluessel": {
+    "art": "zahl",
+    "hoehe": 221
+   },
+   "perzentil": 0.006944444444444444
+  },
+  {
+   "schluessel": {
+    "art": "zahl",
+    "hoehe": 665
+   },
+   "perzentil": 0.7847222222222222
+  },
+  {
+   "schluessel": {
+    "art": "strasse",
+    "hoehe": 6
+   },
+   "perzentil": 0.8888888888888888
+  },
+  {
+   "schluessel": {
+    "art": "general",
+    "hoehe": 6
+   },
+   "perzentil": 0.9236111111111112
+  },
+  {
+   "schluessel": {
+    "art": "schock",
+    "hoehe": 2
+   },
+   "perzentil": 0.9328703703703703
+  },
+  {
+   "schluessel": {
+    "art": "schockAus",
+    "hoehe": 0
+   },
+   "perzentil": 0.9976851851851852
+  }
+ ]
+}

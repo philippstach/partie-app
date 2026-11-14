@@ -1,0 +1,624 @@
+{
+ "beschreibung": "hint(start) oder null; festgefahren = is_stuck(start).",
+ "faelle": [
+  {
+   "titel": "1: aufs Ziel, Zelle vor Spalte",
+   "start": {
+    "spalten": [
+     [
+      "AS"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     "AH",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": {
+    "von": "F2",
+    "nach": "Z1",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: aufs Ziel aus Spalte, auch wenn nicht sicher",
+   "start": {
+    "spalten": [
+     [
+      "9C"
+     ],
+     [
+      "5H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     1,
+     4,
+     0,
+     1
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": {
+    "von": "S1",
+    "nach": "Z1",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "2: Reihe auf passende Karte, Ziele von links",
+   "start": {
+    "spalten": [
+     [
+      "5S",
+      "9H",
+      "8C"
+     ],
+     [],
+     [
+      "TC"
+     ],
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 2
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "2: Reihe liegt schon passend → kein Hin-und-her, sonst nichts",
+   "start": {
+    "spalten": [
+     [
+      "TS",
+      "9H"
+     ],
+     [
+      "TC"
+     ],
+     [
+      "KC"
+     ],
+     [
+      "QS"
+     ],
+     [
+      "JC"
+     ],
+     [
+      "6S"
+     ],
+     [
+      "5C"
+     ],
+     [
+      "4S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7S",
+     "6C",
+     "5S"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  },
+  {
+   "titel": "2: ganze Reihe zu lang, Teilreihen liegen passend → nichts",
+   "start": {
+    "spalten": [
+     [
+      "5D",
+      "QS",
+      "JH",
+      "TS"
+     ],
+     [
+      "KD"
+     ],
+     [
+      "KC"
+     ],
+     [
+      "JC"
+     ],
+     [
+      "6S"
+     ],
+     [
+      "5C"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "3C"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7S",
+     "6C",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  },
+  {
+   "titel": "2: Supermove mit freien Zellen",
+   "start": {
+    "spalten": [
+     [
+      "5D",
+      "QS",
+      "JH",
+      "TS"
+     ],
+     [
+      "KD"
+     ],
+     [
+      "KC"
+     ],
+     [
+      "JC"
+     ],
+     [
+      "6S"
+     ],
+     [
+      "5C"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "3C"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7S",
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 3
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "3: Zelle in passende Spalte",
+   "start": {
+    "spalten": [
+     [
+      "TS"
+     ],
+     [
+      "3D"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     "9H",
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": {
+    "von": "F1",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "4: Reihe in leere Spalte",
+   "start": {
+    "spalten": [
+     [
+      "4D",
+      "9H",
+      "8C"
+     ],
+     [
+      "3D"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 2
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "4: ganze Spalte nicht in leere Spalte",
+   "start": {
+    "spalten": [
+     [
+      "9H",
+      "8S"
+     ],
+     [
+      "3D"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     "7C",
+     "7S",
+     "6C",
+     "5S"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  },
+  {
+   "titel": "5: Karte in Zelle, damit die Karte darunter aufs Ziel kann",
+   "start": {
+    "spalten": [
+     [
+      "KC"
+     ],
+     [
+      "2D",
+      "9S"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "JC"
+     ],
+     [
+      "6S"
+     ],
+     [
+      "5C"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "3C"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     null,
+     "8C",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": {
+    "von": "S1",
+    "nach": "F1",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "festgefahren: Zellen voll, keine leere Spalte, nichts passt",
+   "start": {
+    "spalten": [
+     [
+      "KC"
+     ],
+     [
+      "2D",
+      "TS"
+     ],
+     [
+      "QS"
+     ],
+     [
+      "5C"
+     ],
+     [
+      "6S"
+     ],
+     [
+      "JC"
+     ],
+     [
+      "3C"
+     ],
+     [
+      "4S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7S",
+     "6C",
+     "5S"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "kein Tipp, aber nicht festgefahren (freie Zelle)",
+   "start": {
+    "spalten": [
+     [
+      "KC"
+     ],
+     [
+      "2D",
+      "TS"
+     ],
+     [
+      "QS"
+     ],
+     [
+      "5C"
+     ],
+     [
+      "6S"
+     ],
+     [
+      "JC"
+     ],
+     [
+      "3C"
+     ],
+     [
+      "4S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7S",
+     "6C",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  },
+  {
+   "titel": "gewonnen: kein Tipp, nicht festgefahren",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  },
+  {
+   "titel": "6: zur nächsten Zielkarte graben – oberste Karte in die Zelle",
+   "start": {
+    "spalten": [
+     [
+      "AS",
+      "9H",
+      "KS"
+     ],
+     [
+      "KC"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "JC"
+     ],
+     [
+      "6S"
+     ],
+     [
+      "5C"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "3C"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7S",
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "F2",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  }
+ ]
+}

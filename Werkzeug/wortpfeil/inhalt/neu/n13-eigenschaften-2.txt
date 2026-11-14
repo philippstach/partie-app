@@ -1,0 +1,274 @@
+# n13 Eigenschaftswörter, abgeglichen mit dem Bestand
+absolut;2;Uneingeschränkt|Ganz und gar
+absurd;2;Widersinnig|Völlig unsinnig
+abwegig;2;Unsinnig, verfehlt|Weit hergeholt
+achtbar;2;Ehrenwert|Respektabel
+adlig;1;Von vornehmer Geburt|Aus fürstlichem Haus
+affig;1;Albern eitel (ugs.)|Übertrieben geziert
+allerlei;1;Verschiedenes|Leipziger Gemüsegericht
+allseits;2;Bei jedem|Überall
+altklug;1;Vorlaut wie ein Erwachsener|Naseweis
+amüsant;1;Unterhaltsam|Zum Schmunzeln
+anmutig;2;Voll Liebreiz|Graziös
+apart;2;Reizvoll besonders|Ungewöhnlich hübsch
+arglos;2;Ohne Misstrauen|Nichts Böses ahnend
+aufrecht;1;Gerade stehend|Ehrlich, redlich
+autark;2;Wirtschaftlich unabhängig|Sich selbst versorgend
+bedacht;2;Überlegt|Vorsichtig
+behände;2;Flink und geschickt|Gewandt
+behutsam;1;Sehr vorsichtig|Sachte
+belebt;1;Voller Menschen (Straße)|Lebhaft
+beredt;2;Redegewandt|Wortgewandt
+bergig;1;Voller Hügel und Gipfel|Gebirgig
+besorgt;1;Voller Kummer|Beunruhigt
+bestens;1;Sehr gut|Ausgezeichnet
+betagt;2;Hoch an Jahren|Sehr alt
+bewusst;1;Mit Absicht|Bei klarem Verstand
+bildhaft;2;Anschaulich|Wie gemalt
+bisherig;2;Bis jetzt gültig|Früher
+blamabel;2;Beschämend|Peinlich
+blumig;2;Reich verziert (Sprache)|Nach Blüten duftend
+boshaft;1;Gemein, hinterhältig|Voller Tücke
+brenzlig;1;Gefährlich (ugs.)|Heikel
+bullig;2;Massig und stark|Gedrungen kräftig
+bündig;2;Kurz und treffend|In einer Ebene abschließend
+clever;1;Schlau|Gewitzt
+cool;1;Lässig (ugs.)|Gelassen
+dämmrig;2;Halbdunkel|Zwischen Tag und Nacht
+dauernd;1;Ständig|Immerzu
+deutlich;1;Klar erkennbar|Gut verständlich
+dicklich;1;Etwas rundlich|Mollig
+dienlich;2;Nützlich|Förderlich
+dornig;1;Voller Stacheln|Wie eine Rose bewehrt
+dösig;2;Schläfrig|Benommen
+drahtig;2;Schlank und sehnig|Sportlich zäh
+dreifach;1;Drei Mal|Triple
+dubios;2;Zweifelhaft|Fragwürdig
+duldsam;2;Nachsichtig|Tolerant
+dunstig;2;Leicht neblig|Diesig
+ehrbar;2;Rechtschaffen|Anständig
+einig;1;Einer Meinung|Ohne Streit
+eklig;1;Widerlich|Abstoßend
+elitär;2;Nur für Auserwählte|Abgehoben
+erfreut;1;Angenehm überrascht|Froh
+erhaben;2;Feierlich über den Dingen|Würdevoll
+erlesen;2;Besonders fein|Ausgesucht gut
+erpicht;2;Begierig|Versessen auf
+essbar;1;Zum Verzehr geeignet|Genießbar
+etwaig;2;Möglicherweise eintretend|Eventuell
+farbig;1;Bunt|Nicht schwarz-weiß
+fatal;2;Verhängnisvoll|Folgenschwer
+festlich;1;Feierlich|Für besondere Tage
+fiktiv;2;Erfunden|Nur ausgedacht
+filzig;2;Verklebt (Haar, Wolle)|Wie gewalkter Stoff
+flexibel;1;Biegsam|Anpassungsfähig
+flügge;2;Fähig zu fliegen (Jungvogel)|Selbstständig geworden
+fluffig;2;Locker und weich|Luftig-leicht (Teig)
+fotogen;2;Gut auf Bildern|Bildwirksam
+fraglos;2;Ohne Zweifel|Unbestritten
+fruchtig;1;Nach Obst schmeckend|Wie Beeren
+fündig;2;Erfolgreich bei der Suche|… werden (etwas entdecken)
+furios;2;Mitreißend|Wild und stürmisch
+galant;2;Höflich gegenüber Damen|Ritterlich
+gallig;2;Bitter, boshaft|Giftig im Ton
+garstig;2;Böse, ungezogen|Hässlich und frech
+gebeugt;2;Krumm vom Alter|Geneigt
+geboren;1;Zur Welt gekommen|Abkürzung geb.
+gefasst;2;Ruhig trotz Kummer|Beherrscht
+gehemmt;2;Schüchtern verkrampft|Befangen
+geladen;1;Voll Strom (Akku)|Sehr wütend (ugs.)
+gelenkig;1;Sehr beweglich|Biegsam im Körper
+geneigt;2;Schräg|Wohlgesinnt
+genervt;1;Entnervt (ugs.)|Leicht gereizt
+gerecht;1;Fair|Unparteiisch
+gerührt;1;Innerlich bewegt|Zu Tränen bewegt
+gesamt;1;Ganz, vollständig|Alles umfassend
+gewagt;1;Riskant|Kühn
+gewillt;2;Bereit|Entschlossen
+gewitzt;2;Schlau|Pfiffig
+gewohnt;1;Vertraut|Alltäglich
+glanzlos;2;Matt|Ohne Schimmer
+grantig;2;Mürrisch (süddt.)|Übel gelaunt
+grazil;2;Zierlich|Schlank und zart
+greifbar;2;In Reichweite|Konkret
+griffig;2;Gut zu fassen|Rutschfest
+grotesk;2;Verzerrt komisch|Absurd übertrieben
+haltbar;1;Lange genießbar|Stabil
+hämisch;2;Schadenfroh|Boshaft grinsend
+handlich;1;Bequem zu greifen|Klein und praktisch
+harmlos;1;Ungefährlich|Nicht schlimm
+hastig;1;Übereilt|In großer Eile
+heimisch;1;Aus der eigenen Gegend|Wie zu Hause
+hektisch;1;Nervös und eilig|Voller Unruhe
+herzhaft;1;Kräftig gewürzt|Deftig
+herzig;1;Niedlich|Süß (Kind)
+herzlich;1;Warm und freundlich|Von innen kommend
+hiesig;2;Von diesem Ort|Einheimisch
+holprig;1;Uneben (Weg)|Stockend
+hörbar;1;Mit den Ohren wahrnehmbar|Laut genug
+human;2;Menschlich|Menschenfreundlich
+hurtig;2;Schnell, flink|Geschwind
+illegal;1;Gegen das Gesetz|Verboten
+immens;2;Riesig|Unermesslich groß
+infam;2;Niederträchtig|Gemein
+intakt;2;Unbeschädigt|Heil und ganz
+intensiv;1;Stark, kräftig|Gründlich
+intern;2;Nur für den eigenen Kreis|Innerhalb der Firma
+intim;2;Sehr vertraut|Ganz persönlich
+irdisch;2;Von dieser Welt|Nicht himmlisch
+jeck;2;Närrisch im Karneval|Verrückt (rheinisch)
+jovial;2;Leutselig|Gönnerhaft freundlich
+kariert;1;Mit Kästchenmuster|Gewürfelt
+kernig;2;Urwüchsig kräftig|Markig
+kindisch;1;Albern|Unreif
+kitschig;1;Geschmacklos süßlich|Übertrieben rührselig
+klobig;1;Groß und unförmig|Plump
+knackig;1;Frisch und fest|Bissfest
+knallig;1;Grell (Farbe)|Schreiend bunt
+knochig;2;Sehr mager|Hager
+knuffig;1;Niedlich zum Drücken|Süß und rundlich
+komplett;1;Vollständig|Lückenlos
+konfus;2;Verwirrt|Durcheinander
+konkret;2;Greifbar, anschaulich|Nicht abstrakt
+konstant;2;Gleichbleibend|Beständig
+kopflos;1;Ohne Überlegung|In Panik
+körnig;2;Aus kleinen Teilchen|Wie Sand
+krass;1;Extrem (ugs.)|Auffallend stark
+kreativ;1;Schöpferisch|Voller Einfälle
+kritisch;1;Streng prüfend|Bedenklich
+kulant;2;Entgegenkommend|Großzügig im Geschäft
+labil;2;Nicht stabil|Leicht zu erschüttern
+lasch;2;Schlaff, kraftlos|Nicht streng
+latent;2;Verborgen vorhanden|Unterschwellig
+lauter;2;Rein, aufrichtig|Nichts als
+legal;1;Gesetzlich erlaubt|Rechtmäßig
+legitim;2;Rechtmäßig|Berechtigt
+leger;2;Zwanglos, lässig|Bequem gekleidet
+lehmig;2;Voll schwerer Erde|Tonhaltig (Boden)
+leidig;2;Lästig|Unangenehm
+liberal;2;Freiheitlich|Großzügig denkend
+logisch;1;Folgerichtig|Einleuchtend
+loyal;2;Treu ergeben|Anständig gegenüber anderen
+lukrativ;2;Einträglich|Gewinnbringend
+luftig;1;Leicht und locker|Gut durchweht
+makaber;2;Schaurig mit Tod spielend|Düster-komisch
+makellos;2;Ohne jeden Fehler|Tadellos
+marode;2;Heruntergekommen|Baufällig
+maßvoll;2;Zurückhaltend|Nicht übertrieben
+matschig;1;Weich und schlammig|Überreif (Obst)
+maximal;1;Höchstens|So groß wie möglich
+mehlig;1;Trocken zerfallend (Kartoffel)|Wie Backpulver bestäubt
+mickrig;1;Kümmerlich klein|Schwächlich
+minimal;1;Winzig|So gering wie möglich
+mobil;1;Beweglich|Nicht ortsgebunden
+modisch;1;Dem Trend entsprechend|Schick
+muffig;1;Dumpf riechend|Mürrisch
+mühsam;1;Anstrengend|Beschwerlich
+mulmig;1;Unbehaglich (Gefühl)|Bang
+mutlos;1;Verzagt|Ohne Zuversicht
+namhaft;2;Bekannt, berühmt|Von Rang
+naturnah;2;Ursprünglich belassen|Kaum vom Menschen verändert
+nebulös;2;Unklar|Verschwommen
+negativ;1;Verneinend|Unter null
+nervig;1;Lästig (ugs.)|Zum Aus-der-Haut-Fahren
+neutral;1;Unparteiisch|Weder gut noch schlecht
+nichtig;2;Ungültig|Unbedeutend
+nutzlos;1;Ohne Zweck|Vergeblich
+okay;1;In Ordnung|Einverstanden
+optimal;1;Bestmöglich|Ideal
+paradox;2;Widersprüchlich|Scheinbar unsinnig
+parat;2;Bereit, zur Hand|Griffbereit
+passabel;2;Ganz ordentlich|Annehmbar
+passend;1;Genau richtig|Geeignet
+passiv;2;Untätig|Gegenteil von aktiv
+peinlich;1;Unangenehm beschämend|Zum Rotwerden
+pfiffig;1;Schlau und witzig|Gewitzt
+pikant;2;Angenehm scharf|Leicht anzüglich
+poetisch;2;Dichterisch|Voller Stimmung
+polar;2;Die Pole betreffend|Arktisch
+pompös;2;Übertrieben prächtig|Prunkvoll
+populär;2;Beliebt|Im Volk bekannt
+positiv;1;Bejahend|Günstig
+präzise;2;Ganz genau|Exakt
+prekär;2;Schwierig, heikel|Unsicher
+primitiv;2;Sehr einfach|Urtümlich
+pummelig;1;Rundlich (ugs.)|Etwas dick
+quirlig;1;Sehr lebhaft|Unruhig wie ein Kreisel
+radikal;2;Bis zum Äußersten|Kompromisslos
+rasend;1;Sehr schnell|Außer sich vor Wut
+ratlos;1;Ohne Idee, was zu tun ist|Hilflos fragend
+regulär;2;Der Regel entsprechend|Normal
+reizend;1;Entzückend|Sehr nett
+reizvoll;1;Verlockend|Interessant
+rentabel;2;Gewinn abwerfend|Lohnend
+resolut;2;Energisch|Entschlossen zupackend
+rigoros;2;Sehr streng|Unerbittlich
+riskant;1;Gefährlich|Gewagt
+ruchlos;2;Gewissenlos|Skrupellos
+ruppig;2;Grob, unhöflich|Rau im Umgang
+rustikal;2;Ländlich schlicht|Bäuerlich derb
+sachlich;1;Nüchtern|Ohne Gefühl urteilend
+salopp;2;Betont lässig|Ungezwungen
+sämig;2;Dickflüssig (Soße)|Cremig gebunden
+schäbig;1;Abgenutzt|Kleinlich und gemein
+schaurig;1;Gruselig|Unheimlich
+schier;2;Geradezu|Pur
+schlapp;1;Kraftlos|Müde und matt
+schnöde;2;Verächtlich|Gemein
+schuldig;1;Verantwortlich für die Tat|Nicht unschuldig gesprochen
+seelisch;2;Das Gemüt betreffend|Psychisch
+seriös;2;Vertrauenswürdig|Ernsthaft und solide
+sinnlos;1;Ohne Zweck|Vergeblich
+speziell;1;Besonders|Eigens gedacht
+spürbar;1;Deutlich zu merken|Fühlbar
+stämmig;1;Kräftig gebaut|Gedrungen
+ständig;1;Immerzu|Andauernd
+stetig;2;Gleichmäßig fortlaufend|Beständig
+stickig;1;Voll verbrauchter Luft|Dumpf im Raum
+strikt;2;Streng|Genau einzuhalten
+strittig;2;Umstritten|Nicht geklärt
+struppig;1;Zerzaust (Fell)|Borstig abstehend
+stupide;2;Stumpfsinnig|Geistlos
+subtil;2;Fein, unterschwellig|Kaum merklich
+süffig;2;Angenehm zu trinken (Wein)|Gut im Geschmack (Bier)
+taff;2;Robust, hart im Nehmen|Durchsetzungsstark
+taktlos;1;Ohne Feingefühl|Unhöflich verletzend
+total;1;Völlig|Ganz und gar
+tragisch;1;Erschütternd|Schicksalhaft traurig
+trist;2;Trostlos|Grau und öde
+trivial;2;Alltäglich, platt|Banal
+trotzig;1;Bockig|Widerspenstig
+typisch;1;Kennzeichnend|Bezeichnend
+ulkig;1;Komisch|Spaßig
+unartig;1;Nicht brav|Ungezogen
+unfair;1;Nicht gerecht|Regelwidrig
+ungut;2;Unangenehm (Gefühl)|Nichts für …!
+unklar;1;Nicht eindeutig|Verschwommen
+unstet;2;Ruhelos|Rastlos umherziehend
+unwohl;1;Leicht übel|Nicht ganz gesund
+urig;2;Urwüchsig gemütlich|Originell (Lokal)
+verlegen;1;Peinlich berührt|Buch herausbringen
+verliebt;1;Voller Schmetterlinge im Bauch|Im siebten Himmel
+vertraut;1;Gut bekannt|Eng befreundet
+verwegen;2;Tollkühn|Draufgängerisch
+vornehm;1;Fein und edel|Von nobler Art
+wacklig;1;Nicht fest stehend|Kippelnd
+wässrig;1;Dünn und fade|Verdünnt
+wehrlos;1;Ohne Schutz|Ausgeliefert
+wendig;1;Leicht zu lenken|Flink
+wertvoll;1;Kostbar|Viel Geld bringend
+willig;2;Bereit zu folgen|Gehorsam
+wohlig;1;Angenehm behaglich|Kuschelig warm
+wollig;1;Wie ein Schaf|Flauschig
+wuchtig;1;Schwer und massig|Kraftvoll
+zaghaft;1;Zögernd|Schüchtern
+zahllos;2;Unendlich viele|Nicht zu zählen
+zentral;1;In der Mitte gelegen|Sehr wichtig
+zickig;1;Launisch (ugs.)|Überempfindlich
+ziellos;1;Ohne Plan|Planlos umher
+zivil;2;Nicht militärisch|Bürgerlich
+zottelig;1;Mit langem wirrem Fell|Struppig
+züchtig;2;Sittsam|Tugendhaft
+zünftig;2;Urig, wie es sich gehört|Kräftig (Brotzeit)
+zwanglos;1;Locker|Ungezwungen
+zynisch;2;Bissig spottend|Verletzend spöttisch

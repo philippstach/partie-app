@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+"""uebersetzungen_raetsel90.py: en/es/fr für die neuen VoiceOver-Ansagen der Rätsel (Steckspiel, Schiebepuzzle, Brücken, Minensuche,
+Hölzchen, Mahjong-Paare, Hanoi, Lichter aus, Zahlenfusion, Irrgang). Überschreibt nie Vorhandenes; beliebig oft wiederholbar.
+Aufruf aus dem Projektordner: python3 Werkzeug/uebersetzungen_raetsel90.py"""
+import json
+KAT = 'App/Ressourcen/Localizable.xcstrings'
+U = {
+"Steckbrett: %lld Stecker übrig": ("Peg board: %lld pegs left", "Tablero de clavijas: quedan %lld", "Plateau de fiches : %lld restantes"),
+"Springe von Zeile %lld, Spalte %lld nach Zeile %lld, Spalte %lld": ("Jump from row %lld, column %lld to row %lld, column %lld", "Saltar de la fila %lld, columna %lld a la fila %lld, columna %lld", "Sauter de la ligne %lld, colonne %lld à la ligne %lld, colonne %lld"),
+"%lld Stecker übrig": ("%lld pegs left", "Quedan %lld clavijas", "%lld fiches restantes"),
+", keine Sprünge mehr": (", no more jumps", ", no quedan saltos", ", plus aucun saut"),
+"Tipp: ": ("Hint: ", "Pista: ", "Indice : "),
+"Tipp: Kachel %lld in Zeile %lld, Spalte %lld schieben": ("Hint: slide tile %lld in row %lld, column %lld", "Pista: desliza la ficha %lld de la fila %lld, columna %lld", "Indice : fais glisser la tuile %lld de la ligne %lld, colonne %lld"),
+"Lücke jetzt in Zeile %lld, Spalte %lld": ("Gap now in row %lld, column %lld", "El hueco está ahora en la fila %lld, columna %lld", "Le trou est maintenant ligne %lld, colonne %lld"),
+"Tipp wird berechnet": ("Calculating hint", "Calculando pista", "Calcul de l’indice"),
+"Tipp: diese Kachel als Nächstes schieben": ("Hint: slide this tile next", "Pista: desliza esta ficha a continuación", "Indice : fais glisser cette tuile ensuite"),
+"Doppeltippen baut oder ändert die Brücke von der gewählten Insel hierher.": ("Double-tap to build or change the bridge from the selected island to here.", "Toca dos veces para construir o cambiar el puente desde la isla elegida hasta aquí.", "Touche deux fois pour construire ou modifier le pont depuis l’île choisie jusqu’ici."),
+"Zu viele Brücken": ("Too many bridges", "Demasiados puentes", "Trop de ponts"),
+"Fertig": ("Done", "Listo", "Terminé"),
+"Zwischen Zeile %lld, Spalte %lld und Zeile %lld, Spalte %lld: %lld Brücken": ("Between row %lld, column %lld and row %lld, column %lld: %lld bridges", "Entre la fila %lld, columna %lld y la fila %lld, columna %lld: %lld puentes", "Entre la ligne %lld, colonne %lld et la ligne %lld, colonne %lld : %lld ponts"),
+"Insel gewählt. Jetzt die Nachbarinsel antippen.": ("Island selected. Now tap the neighbouring island.", "Isla elegida. Ahora toca la isla vecina.", "Île choisie. Touche maintenant l’île voisine."),
+"%lld Minen übrig": ("%lld mines left", "Quedan %lld minas", "%lld mines restantes"),
+"Geschafft!": ("Done!", "¡Conseguido!", "Réussi !"),
+"Mine getroffen": ("Hit a mine", "Pisaste una mina", "Mine touchée"),
+"Tipp: aus Reihe %lld %lld nehmen": ("Hint: take %lld from row %lld", "Pista: toma %lld de la fila %lld", "Indice : prends %lld dans la rangée %lld"),
+"Computer nimmt %lld aus Reihe %lld": ("Computer takes %lld from row %lld", "El ordenador toma %lld de la fila %lld", "L’ordinateur prend %lld dans la rangée %lld"),
+"Tipp: Stein in Reihe %lld, Spalte %lld und Stein in Reihe %lld, Spalte %lld": ("Hint: tile in row %lld, column %lld and tile in row %lld, column %lld", "Pista: ficha en la fila %lld, columna %lld y ficha en la fila %lld, columna %lld", "Indice : tuile ligne %lld, colonne %lld et tuile ligne %lld, colonne %lld"),
+"Paar entfernt, %lld Steine übrig": ("Pair removed, %lld tiles left", "Pareja retirada, quedan %lld fichas", "Paire retirée, %lld tuiles restantes"),
+"Stein gewählt. Jetzt den passenden zweiten Stein antippen.": ("Tile selected. Now tap the matching second tile.", "Ficha elegida. Ahora toca la segunda ficha igual.", "Tuile choisie. Touche maintenant la tuile identique."),
+"Tipp: von Stab %lld nach Stab %lld": ("Hint: from peg %lld to peg %lld", "Pista: del poste %lld al poste %lld", "Indice : de la tige %lld à la tige %lld"),
+"Scheibe von Stab %lld auf Stab %lld gelegt": ("Disc moved from peg %lld to peg %lld", "Disco movido del poste %lld al poste %lld", "Disque déplacé de la tige %lld à la tige %lld"),
+"Nicht erlaubt: keine größere Scheibe auf eine kleinere": ("Not allowed: no larger disc on a smaller one", "No permitido: ningún disco grande sobre uno pequeño", "Interdit : pas de grand disque sur un plus petit"),
+"Tipp: Zeile %lld, Spalte %lld antippen": ("Hint: tap row %lld, column %lld", "Pista: toca la fila %lld, columna %lld", "Indice : touche la ligne %lld, colonne %lld"),
+"Kein Zug in diese Richtung": ("No move in that direction", "Ningún movimiento en esa dirección", "Aucun mouvement dans cette direction"),
+"Höchste Kachel %lld, %lld Punkte": ("Highest tile %lld, %lld points", "Ficha más alta %lld, %lld puntos", "Plus haute tuile %lld, %lld points"),
+"Jetzt in Zeile %lld, Spalte %lld": ("Now in row %lld, column %lld", "Ahora en la fila %lld, columna %lld", "Maintenant ligne %lld, colonne %lld"),
+"Wand": ("Wall", "Pared", "Mur"),
+"Ausgang gefunden": ("Exit found", "Salida encontrada", "Sortie trouvée"),
+}
+# --- Anleitungen (Runde 2) ---
+U.update({'Tipp und Zurück': ('Hint and undo', 'Pista y deshacer', 'Indice et annuler'), 'Der Tipp zeigt einen guten Sprung, „Zurück“ nimmt Sprünge zurück. Du wählst zwischen den Brettern Kreuz (33 Löcher) und Europa (37 Löcher).': ('The hint shows a good jump, “Back” takes jumps back. You choose between the Cross (33 holes) and Europe (37 holes) boards.', 'La pista muestra un buen salto y «Atrás» retira saltos. Eliges entre el tablero Cruz (33 agujeros) y Europa (37 agujeros).', 'L’indice montre un bon saut, « Retour » reprend des sauts. Tu choisis entre le plateau Croix (33 trous) et Europe (37 trous).'), 'Größe und Zurück': ('Size and undo', 'Tamaño y deshacer', 'Taille et annuler'), 'Im Menü wählst du das Feld von 3 × 3 bis 6 × 6. Zurück geht dreimal pro Spiel, der Tipp zeigt eine gute Richtung.': ('In the menu you choose the board from 3 × 3 to 6 × 6. You can undo three times per game; the hint shows a good direction.', 'En el menú eliges el campo de 3 × 3 a 6 × 6. Puedes deshacer tres veces por partida; la pista muestra una buena dirección.', 'Dans le menu, tu choisis la grille de 3 × 3 à 6 × 6. Tu peux annuler trois fois par partie ; l’indice montre une bonne direction.'), 'Stufen und Tipp': ('Levels and hint', 'Niveles y pista', 'Niveaux et indice'), 'Jede Stufe bringt ein größeres Labyrinth, ab Stufe 4 siehst du nur noch einen Ausschnitt. Ein Tipp zeigt die Richtung, kostet aber 25 Punkte.': ('Each level brings a bigger maze; from level 4 you only see a section. A hint shows the direction but costs 25 points.', 'Cada nivel trae un laberinto mayor; desde el nivel 4 solo ves una parte. Una pista muestra la dirección, pero cuesta 25 puntos.', 'Chaque niveau apporte un labyrinthe plus grand ; dès le niveau 4, tu n’en vois qu’une partie. Un indice montre la direction mais coûte 25 points.'), 'Schwierigkeit': ('Difficulty', 'Dificultad', 'Difficulté'), 'Im Menü wählst du Leicht bis Experte: mehr Inseln auf größerem Feld. Der Tipp setzt eine richtige Brücke, Rückgängig nimmt Züge zurück.': ('In the menu you pick Easy to Expert: more islands on a bigger board. The hint places a correct bridge, Undo takes moves back.', 'En el menú eliges de Fácil a Experto: más islas en un campo mayor. La pista coloca un puente correcto y Deshacer retira jugadas.', 'Dans le menu, tu choisis de Facile à Expert : plus d’îles sur une plus grande grille. L’indice pose un pont correct, Annuler reprend des coups.'), 'Größe, Stufe, Muster': ('Size, level, pattern', 'Tamaño, nivel, patrón', 'Taille, niveau, motif'), 'Im Menü stellst du Größe (3 × 3 bis 7 × 7), Schwierigkeit und Muster ein. Das Muster Plus, Diagonal oder Rund bestimmt, welche Nachbarn mitschalten.': ('In the menu you set size (3 × 3 to 7 × 7), difficulty and pattern. The pattern Plus, Diagonal or Round decides which neighbours toggle too.', 'En el menú ajustas tamaño (3 × 3 a 7 × 7), dificultad y patrón. El patrón Más, Diagonal o Redondo decide qué vecinas cambian también.', 'Dans le menu, tu règles la taille (3 × 3 à 7 × 7), la difficulté et le motif. Le motif Plus, Diagonale ou Rond décide quelles voisines changent aussi.'), 'Größe und Tipp': ('Size and hint', 'Tamaño y pista', 'Taille et indice'), 'Im Menü wählst du 3 × 3 bis 6 × 6. Der Tipp zeigt die nächste Kachel, Rückgängig nimmt Züge zurück.': ('In the menu you pick 3 × 3 to 6 × 6. The hint shows the next tile, Undo takes moves back.', 'En el menú eliges de 3 × 3 a 6 × 6. La pista muestra la siguiente ficha y Deshacer retira jugadas.', 'Dans le menu, tu choisis de 3 × 3 à 6 × 6. L’indice montre la prochaine tuile, Annuler reprend des coups.'), 'Tipp': ('Hint', 'Pista', 'Indice'), 'Der Tipp-Knopf zeigt dir die nächste Richtung. Wer ihn nicht braucht, schafft die Stufe ohne Hilfe.': ('The hint button shows you the next direction. If you don’t need it, you clear the level unaided.', 'El botón de pista te muestra la siguiente dirección. Quien no lo necesita, supera el nivel sin ayuda.', 'Le bouton d’indice te montre la prochaine direction. Sans lui, tu réussis le niveau sans aide.')})
+d = json.load(open(KAT)); neu = 0
+for k, v in U.items():
+    e = d['strings'].setdefault(k, {}); loc = e.setdefault('localizations', {})
+    for l, x in zip(('en', 'es', 'fr'), v):
+        if l not in loc: loc[l] = {"stringUnit": {"state": "translated", "value": x}}; neu += 1
+json.dump(d, open(KAT, 'w'), ensure_ascii=False, indent=2); open(KAT, 'a').write("\n")
+print('ergänzt:', neu)

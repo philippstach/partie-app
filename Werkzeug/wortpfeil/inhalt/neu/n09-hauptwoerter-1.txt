@@ -1,0 +1,232 @@
+# n09 Hauptwörter, abgeglichen mit dem Bestand (A–K)
+Aas;2;Totes Tier als Futter|Kadaver
+Abbruch;1;Vorzeitiges Ende|Abriss eines Hauses
+Abdruck;1;Spur im Sand|Kopie eines Stempels
+Abfuhr;2;Deutliche Zurückweisung|Abholung des Mülls
+Abgang;1;Verlassen der Bühne|Weggang
+Abgott;2;Vergöttertes Idol|Götze
+Abhilfe;2;Beseitigung eines Übels|Lösung für ein Problem
+Abkehr;2;Bewusstes Sichabwenden|Wendung weg von etwas
+Abkommen;2;Vertrag zwischen Staaten|Übereinkunft
+Ablage;1;Fach für Papiere|Platz für erledigte Akten
+Ableben;2;Tod (gehoben)|Dahinscheiden
+Abnahme;1;Verringerung|Verlust an Gewicht
+Abrede;2;Vereinbarung|In … stellen (bestreiten)
+Abriss;1;Zerstörung eines Hauses|Kurze Übersicht
+Absprung;1;Start vom Brett|Beginn des Weitsprungs
+Abstieg;1;Weg ins Tal|Wechsel in die tiefere Liga
+Abwurf;1;Torwart bringt den Ball ins Spiel|Fallenlassen aus dem Flugzeug
+Achtel;1;Halbes Viertel|Kleine Note
+Advent;1;Zeit vor Weihnachten|Zeit der vier Kerzen
+Agentur;2;Vermittlungsbüro|Büro für Werbung
+Aktion;1;Handlung|Sonderangebot
+Alibi;1;Beweis der Abwesenheit|Entlastet den Verdächtigen
+Almosen;2;Milde Gabe|Spende für Bettler
+Amateur;1;Kein Profi|Liebhaber, Laie
+Andacht;2;Kurzer Gottesdienst|Stilles Gebet
+Anekdote;2;Kurze heitere Geschichte|Episode zum Erzählen
+Anfall;1;Plötzlicher Ausbruch|Attacke
+Anhöhe;1;Kleiner Hügel|Erhebung im Gelände
+Anklage;1;Vorwurf vor Gericht|Sache des Staatsanwalts
+Anliegen;1;Wunsch, Bitte|Was einem wichtig ist
+Anrecht;2;Berechtigter Anspruch|Befugnis
+Anrede;1;Herr oder Frau|Du oder Sie
+Anreiz;2;Ansporn|Lockmittel
+Ansatz;1;Erster Versuch|Beginn einer Lösung
+Anschlag;1;Attentat|Aushang am Brett
+Anspruch;1;Forderung|Berechtigtes Verlangen
+Ansturm;1;Großer Andrang|Sturm auf die Kasse
+Anwesen;2;Großes Grundstück mit Haus|Landgut
+Apparat;1;Gerät|Telefon (am …)
+Areal;2;Gelände|Fläche
+Aroma;1;Würziger Duft|Geschmack von Kaffee
+Arrest;2;Haft|Stubenstrafe
+Asyl;2;Zuflucht für Verfolgte|Schutz im fremden Land
+Ausfall;1;Wegfall|Verlust der Haare
+Ausguss;1;Becken in der Küche|Schnabel der Kanne
+Ausmaß;1;Größe, Umfang|Dimension
+Ausritt;1;Tour auf dem Pferd|Unterwegs im Sattel
+Ausruf;1;Ach! oder Oh!|Kurzer Schrei
+Aussaat;1;Säen im Frühjahr|Arbeit vor der Ernte
+Austritt;1;Verlassen des Vereins|Gegenteil von Beitritt
+Balance;1;Gleichgewicht|Hält der Seiltänzer
+Ballast;2;Unnütze Last|Sandsäcke im Ballon
+Bandit;1;Räuber|Gangster
+Bankett;2;Festmahl|Feierliches Essen
+Barriere;2;Sperre|Schranke
+Basis;1;Grundlage|Fundament
+Beamte;1;Arbeitet für den Staat|Staatsdiener
+Befund;2;Ergebnis der Untersuchung|Diagnose
+Behagen;2;Wohlgefühl|Gemütliche Zufriedenheit
+Beichte;2;Sündenbekenntnis|Geständnis vor dem Priester
+Beileid;1;Mitgefühl im Trauerfall|Anteilnahme
+Belang;2;Bedeutung|Von … sein (wichtig sein)
+Bengel;1;Frecher Junge|Lausbub
+Bestie;1;Wildes Raubtier|Ungeheuer
+Betreff;2;Zeile über dem Brieftext|Thema der E-Mail
+Bewohner;1;Lebt im Haus|Mieter oder Eigentümer
+Biest;1;Lästiges Tier|Gemeines Wesen
+Bildung;1;Wissen und Erziehung|Schule vermittelt sie
+Bindung;1;Enge Beziehung|Hält den Ski am Schuh
+Blende;2;Öffnung im Objektiv|Sichtschutz
+Blöße;2;Nacktheit|Schwache Stelle
+Bluff;2;Täuschung beim Poker|Dreiste Irreführung
+Bohrung;2;Loch für die Schraube|Suche nach Öl
+Bonbon;1;Süßes zum Lutschen|Kamelle
+Boykott;2;Bewusstes Meiden|Kaufstreik
+Brand;1;Großes Feuer|Fall für die Feuerwehr
+Braut;1;Trägt Weiß und Schleier|Frau am Tag der Trauung
+Bruder;1;Sohn derselben Eltern|Männliches Geschwister
+Brummer;1;Dicke Fliege|Schwerer Lastwagen (ugs.)
+Büfett;1;Tisch zur Selbstbedienung|Anrichte
+Bündel;1;Zusammengeschnürtes Paket|Packen Geldscheine
+Bürde;2;Schwere Last|Joch
+Bursche;1;Junger Kerl|Geselle
+Camp;1;Zeltlager|Ferienlager
+Coup;2;Kühner Streich|Gelungener Schlag
+Cousin;1;Sohn der Tante|Vetter
+Cousine;1;Tochter des Onkels|Base
+Dackel;1;Kurzbeiniger Hund|Teckel
+Dasein;2;Leben|Vorhandensein
+Deckel;1;Verschluss des Topfes|Liegt auf der Dose
+Dekor;2;Verzierung|Muster auf Porzellan
+Delikt;2;Straftat|Vergehen
+Depot;2;Lager|Aufbewahrungsort der Bank
+Devise;2;Wahlspruch|Leitsatz
+Disput;2;Streitgespräch|Wortgefecht
+Dogma;2;Starrer Lehrsatz|Glaubenssatz
+Dompteur;1;Tierbändiger im Zirkus|Lehrt Löwen Kunststücke
+Dreh;1;Trick, Kniff|Aufnahme eines Films
+Drill;2;Harte Ausbildung|Strenges Einüben
+Droge;1;Rauschgift|Suchtmittel
+Dung;2;Mist als Dünger|Stallmist
+Dusche;1;Brause im Bad|Kurze Wäsche im Stehen
+Dussel;1;Dummkopf (ugs.)|Trottel
+Einsicht;1;Späte Erkenntnis|Blick in Akten
+Emblem;2;Sinnbild|Abzeichen
+Empore;2;Erhöhte Galerie in der Kirche|Platz der Orgel
+Enge;1;Schmaler Raum|Gegenteil von Weite
+Entgelt;2;Bezahlung|Lohn
+Entwurf;1;Erste Skizze|Vorläufiger Plan
+Erbin;1;Bekommt den Nachlass|Nachfolgerin im Besitz
+Erlös;2;Einnahme aus dem Verkauf|Ertrag
+Ertrag;1;Was die Ernte bringt|Gewinn
+Erwerb;2;Kauf|Verdienst
+Essenz;2;Konzentrat|Das Wesentliche
+Exil;2;Leben in der Verbannung|Zuflucht im Ausland
+Existenz;2;Dasein|Lebensgrundlage
+Extra;1;Zusätzliche Ausstattung|Sonderzugabe
+Fackel;1;Brennender Stab|Leuchte beim Umzug
+Faktor;2;Zahl beim Malnehmen|Wichtiger Umstand
+Fakt;2;Tatsache|Was feststeht
+Fang;1;Beute des Fischers|Zahn des Raubtiers
+Fantasie;1;Vorstellungskraft|Reich der Träume
+Ferne;1;Große Entfernung|Gegenteil von Nähe
+Fessel;1;Kette für Gefangene|Strick ums Handgelenk
+Fete;1;Party|Lockere Feier
+Fetzen;1;Abgerissenes Stück Stoff|Lumpen
+Fiasko;2;Völliger Misserfolg|Reinfall
+Finte;2;Täuschung|Scheinangriff
+Flegel;1;Ungezogener Kerl|Rüpel
+Flitzer;1;Schnelles Auto|Rasantes Gefährt
+Floskel;2;Leere Redensart|Hohle Phrase
+Fokus;2;Brennpunkt|Mittelpunkt des Interesses
+Format;1;Größe von Papier|Maß eines Bildes
+Fratze;1;Verzerrtes Gesicht|Grimasse
+Frevel;2;Schwere Sünde|Verstoß gegen Heiliges
+Friede;1;Gegenteil von Krieg|Ruhe und Eintracht
+Frucht;1;Apfel oder Birne|Ertrag der Pflanze
+Führer;1;Leitet die Gruppe|Buch für Reisende
+Fülle;1;Reichtum, Überfluss|Große Menge
+Fusion;2;Verschmelzung|Zusammenschluss zweier Firmen
+Ganove;1;Gauner|Kleiner Verbrecher
+Garant;2;Bürge|Sicherer Gewährsmann
+Gatter;1;Tor an der Weide|Zaun aus Latten
+Gaul;1;Pferd (abwertend)|Alter Klepper
+Gebrüll;1;Lautes Schreien|Lärm der Löwen
+Gefecht;2;Kurzer Kampf|Scharmützel
+Gefäß;1;Behälter|Krug, Vase oder Schale
+Gefolge;2;Begleiter des Königs|Tross
+Gehege;1;Eingezäunter Bereich im Zoo|Umzäunung für Tiere
+Geheul;1;Lautes Jaulen|Lärm der Wölfe
+Gehöft;2;Bauernhof|Hof mit Stall und Scheune
+Gelage;2;Üppiges Trinkfest|Zecherei
+Geläut;2;Klang der Glocken|Tönen vom Kirchturm
+Gesuch;2;Schriftliche Bitte|Antrag
+Getue;1;Übertriebenes Gehabe|Wirbel um nichts
+Gewähr;2;Garantie|Sicherheit
+Gewirr;1;Wirres Durcheinander|Knäuel
+Gewühl;1;Dichtes Gedränge|Trubel in der Menge
+Gezeter;2;Lautes Schimpfen|Geschrei
+Gier;1;Maßloses Verlangen|Habsucht
+Glosse;2;Spöttischer Kommentar|Kurzer Zeitungstext
+Gram;2;Tiefer Kummer|Nagende Sorge
+Grauen;1;Entsetzen|Schauder
+Graus;2;Schrecken|O …! (Ausruf)
+Griff;1;Henkel|Zum Anfassen am Koffer
+Grimm;2;Verhaltener Zorn|Brüder der Märchen
+Groll;2;Heimlicher Ärger|Verbitterung
+Größe;1;Maß der Kleidung|Länge und Breite
+Habe;2;Besitz|Hab und Gut
+Hader;2;Streit, Zwist|Zank
+Happen;1;Kleiner Bissen|Imbiss
+Haufen;1;Aufgeschichtete Menge|Berg von Laub
+Heimweh;1;Sehnsucht nach Zuhause|Kummer im Ferienlager
+Hektik;1;Nervöse Eile|Hast und Trubel
+Hemmung;2;Innere Scheu|Zurückhaltung
+Henkel;1;Griff an der Tasse|Zum Halten am Krug
+Herberge;1;Einfache Unterkunft|Gasthaus für Wanderer
+Hetze;1;Übertriebene Eile|Aufstachelung
+Hieb;1;Schlag|Streich mit dem Schwert
+Hingabe;2;Leidenschaftlicher Eifer|Selbstlose Liebe
+Hinsicht;2;Blickwinkel|Beziehung (in dieser …)
+Hirt;1;Hüter der Schafe|Schäfer
+Hoheit;2;Anrede für Fürsten|Würde
+Höhe;1;Ausdehnung nach oben|Gipfel
+Hub;2;Weg des Kolbens|Hebebewegung
+Hülle;1;Schutz für das Handy|Umschlag
+Imitat;2;Nachahmung|Fälschung
+Indiz;2;Hinweis auf den Täter|Anzeichen
+Info;1;Auskunft (kurz)|Nachricht (kurz)
+Inland;2;Gegenteil von Ausland|Eigener Staat
+Insasse;2;Fahrgast im Auto|Bewohner des Gefängnisses
+Instinkt;2;Angeborener Trieb|Sicheres Gespür
+Intrige;2;Hinterlistiges Ränkespiel|Böse Machenschaft
+Ironie;2;Feiner Spott|Sagt das Gegenteil des Gemeinten
+Irrsinn;1;Wahnsinn|Verrücktheit
+Jagd;1;Pirsch auf Wild|Hatz
+Jargon;2;Sondersprache einer Gruppe|Slang
+Kalkül;2;Berechnung|Überlegter Plan
+Kamerad;1;Gefährte|Kumpel
+Kandidat;1;Bewerber um ein Amt|Teilnehmer im Quiz
+Kapitel;1;Abschnitt im Buch|Teil eines Romans
+Karriere;1;Beruflicher Aufstieg|Laufbahn
+Kauf;1;Erwerb gegen Geld|Gegenteil von Verkauf
+Kehre;2;Scharfe Kurve|Serpentine
+Kenner;1;Experte|Fachmann mit Geschmack
+Kerbe;1;Einschnitt im Holz|Scharte
+Kitsch;1;Geschmackloser Zierrat|Süßlicher Schund
+Klaps;1;Leichter Schlag|Patsch auf den Po
+Klecks;1;Fleck Tinte|Tupfer Sahne
+Klemme;1;Notlage (in der …)|Zwinge
+Klinge;1;Schneide des Messers|Schärfe des Schwerts
+Klops;1;Fleischkloß|Königsberger Spezialität
+Klotz;1;Grobes Stück Holz|Baustein
+Klumpen;1;Unförmiger Brocken|Batzen Lehm
+Knacks;1;Feiner Riss|Kurzes Brechgeräusch
+Knebel;2;Stopft den Mund|Tuch gegen Hilferufe
+Knirps;1;Kleiner Junge|Dreikäsehoch
+Knuff;1;Leichter Stoß|Freundlicher Rempler
+Köder;1;Wurm am Haken|Lockmittel
+Komfort;1;Bequemlichkeit|Luxus im Hotel
+Komik;2;Lachen erregende Wirkung|Kunst des Clowns
+Konflikt;1;Streit|Zusammenstoß der Interessen
+Kontakt;1;Berührung|Verbindung zu anderen
+Kontra;2;Gegenteil von Pro|Ansage im Skat
+Kranz;1;Gebinde aus Zweigen|Ring aus Blumen
+Krawall;1;Lauter Aufruhr|Randale
+Krempel;1;Wertloses Zeug|Trödel
+Krümel;1;Winziges Stück Brot|Brösel
+Krux;2;Schwierigkeit|Haken an der Sache
+Kult;2;Übertriebene Verehrung|Religiöser Brauch
+Kumpan;2;Gefährte|Komplize

@@ -1,0 +1,517 @@
+{
+ "beschreibung": "tap_target(start, quelle, anzahl): Zug oder null.",
+ "faelle": [
+  {
+   "titel": "gleiche Farbe vor anderer Farbe",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "ringsum ab rechts",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6D"
+      ]
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "quelle": "S3",
+   "anzahl": 1,
+   "zug": {
+    "von": "S3",
+    "nach": "S9",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "sonst beliebige Farbe",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "leere Spalte, wenn darunter etwas liegt",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [
+       "2C"
+      ],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "ganze Spalte in leere Spalte: nichts",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H",
+       "4H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "quelle": "S0",
+   "anzahl": 2,
+   "zug": null
+  },
+  {
+   "titel": "gemischte Reihe nicht beweglich",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S",
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "quelle": "S0",
+   "anzahl": 2,
+   "zug": null
+  },
+  {
+   "titel": "Teil-Reihe gleicher Farbe",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C",
+       "8H",
+       "7H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "quelle": "S0",
+   "anzahl": 2,
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   }
+  },
+  {
+   "titel": "passt nirgends",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": null
+  }
+ ]
+}

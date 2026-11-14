@@ -1,0 +1,509 @@
+name: Partie
+options:
+  bundleIdPrefix: de.philippstach
+  deploymentTarget: { iOS: "17.0" }
+  createIntermediateGroups: true
+  developmentLanguage: de
+packages:
+  Baukasten: { path: Pakete/Baukasten }
+  SpieleKern: { path: Pakete/SpieleKern }
+  KernSudoku: { path: Pakete/KernSudoku }
+  SpielMinensuche: { path: Pakete/SpielMinensuche }
+  SpielFarbraetsel: { path: Pakete/SpielFarbraetsel }
+  SpielYacht: { path: Pakete/SpielYacht }
+  WuerfelScan: { path: Pakete/WuerfelScan }
+  WuerfelLive: { path: Pakete/WuerfelLive }
+  WuerfelFunk: { path: Pakete/WuerfelFunk }
+  SpielSchocken: { path: Pakete/SpielSchocken }
+  SpielRauswurf: { path: Pakete/SpielRauswurf }
+  SpielSudoku: { path: Pakete/SpielSudoku }
+  SpielViererreihe: { path: Pakete/SpielViererreihe }
+  SpielGalgenmaennchen: { path: Pakete/SpielGalgenmaennchen }
+  SpielSolitaer: { path: Pakete/SpielSolitaer }
+  SpielWortpfeil: { path: Pakete/SpielWortpfeil }
+  Spiel10k: { path: Pakete/Spiel10k }
+  SpielUngleichung: { path: Pakete/SpielUngleichung }
+  SpielKoenigsweg: { path: Pakete/SpielKoenigsweg }
+  SpielSchiffsfracht: { path: Pakete/SpielSchiffsfracht }
+  SpielFarbflut: { path: Pakete/SpielFarbflut }
+  SpielSpitSpeed: { path: Pakete/SpielSpitSpeed }
+  SpielCrazyEights: { path: Pakete/SpielCrazyEights }
+  SpielEsel: { path: Pakete/SpielEsel }
+  SpielSteckspiel: { path: Pakete/SpielSteckspiel }
+  SpielKaestchenjagd: { path: Pakete/SpielKaestchenjagd }
+  SpielPatolli: { path: Pakete/SpielPatolli }
+  SpielSechseck: { path: Pakete/SpielSechseck }
+  SpielFarbcode: { path: Pakete/SpielFarbcode }
+  SpielLagerplatz: { path: Pakete/SpielLagerplatz }
+  SpielFuchsjagd: { path: Pakete/SpielFuchsjagd }
+  SpielBunco: { path: Pakete/SpielBunco }
+  SpielOware: { path: Pakete/SpielOware }
+  SpielChinchon: { path: Pakete/SpielChinchon }
+  SpielDomino: { path: Pakete/SpielDomino }
+  SpielPokerwurf: { path: Pakete/SpielPokerwurf }
+  SpielBrisca: { path: Pakete/SpielBrisca }
+  SpielHoelzchen: { path: Pakete/SpielHoelzchen }
+  SpielHimmelsleiter: { path: Pakete/SpielHimmelsleiter }
+  SpielFlinkhand: { path: Pakete/SpielFlinkhand }
+  SpielKartenduell: { path: Pakete/SpielKartenduell }
+  SpielTruco: { path: Pakete/SpielTruco }
+  SpielEscoba: { path: Pakete/SpielEscoba }
+  SpielHerzensjagd: { path: Pakete/SpielHerzensjagd }
+  SpielPechvogel: { path: Pakete/SpielPechvogel }
+  SpielKreuzwurf: { path: Pakete/SpielKreuzwurf }
+  SpielStufenstapel: { path: Pakete/SpielStufenstapel }
+  SpielFarbwechsel: { path: Pakete/SpielFarbwechsel }
+  SpielIrrgang: { path: Pakete/SpielIrrgang }
+  SpielPaarsuche: { path: Pakete/SpielPaarsuche }
+  SpielMauerbrecher: { path: Pakete/SpielMauerbrecher }
+  SpielDauerlauf: { path: Pakete/SpielDauerlauf }
+  SpielWolkenhuepfer: { path: Pakete/SpielWolkenhuepfer }
+  SpielSteinfall: { path: Pakete/SpielSteinfall }
+  SpielBallwechsel: { path: Pakete/SpielBallwechsel }
+  SpielRomme: { path: Pakete/SpielRomme }
+  SpielBackgammon: { path: Pakete/SpielBackgammon }
+  SpielKakuro: { path: Pakete/SpielKakuro }
+  SpielBruecken: { path: Pakete/SpielBruecken }
+  SpielMahjongPaare: { path: Pakete/SpielMahjongPaare }
+  SpielSchach: { path: Pakete/SpielSchach }
+  SpielStadtLandFluss: { path: Pakete/SpielStadtLandFluss }
+  SpielHalma: { path: Pakete/SpielHalma }
+  SpielMogeln: { path: Pakete/SpielMogeln }
+  SpielLuegenwuerfel: { path: Pakete/SpielLuegenwuerfel }
+  SpielElferRaus: { path: Pakete/SpielElferRaus }
+  SpielChicago: { path: Pakete/SpielChicago }
+  SpielNonogramm: { path: Pakete/SpielNonogramm }
+  SpielMauMau: { path: Pakete/SpielMauMau }
+  SpielSchweinerei: { path: Pakete/SpielSchweinerei }
+  SpielSchiffe: { path: Pakete/SpielSchiffe }
+  SpielMaexchen: { path: Pakete/SpielMaexchen }
+  SpielSiebzehn: { path: Pakete/SpielSiebzehn }
+  SpielDame: { path: Pakete/SpielDame }
+  SpielWendespiel: { path: Pakete/SpielWendespiel }
+  SpielKalaha: { path: Pakete/SpielKalaha }
+  SpielZahlenfusion: { path: Pakete/SpielZahlenfusion }
+  SpielHanoi: { path: Pakete/SpielHanoi }
+  SpielLichterAus: { path: Pakete/SpielLichterAus }
+  SpielSchwimmen: { path: Pakete/SpielSchwimmen }
+  SpielMuehle: { path: Pakete/SpielMuehle }
+  SpielSchiebepuzzle: { path: Pakete/SpielSchiebepuzzle }
+  SpielKlappbrett: { path: Pakete/SpielKlappbrett }
+targets:
+  Partie:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+        excludes: ["Ressourcen/loesungen", "Ressourcen/raetsel"]
+      - path: App/Ressourcen/loesungen
+        type: folder
+      - path: App/Ressourcen/raetsel
+        type: folder
+      - path: Widget/Geteilt
+    entitlements:
+      path: App/Partie.entitlements
+      properties:
+        com.apple.developer.game-center: true
+        com.apple.security.application-groups: [group.de.philippstach.spiele]
+        com.apple.developer.icloud-container-identifiers: [iCloud.de.philippstach.partie]
+        com.apple.developer.icloud-services: [CloudKit]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        INFOPLIST_KEY_CFBundleDisplayName: Partie
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown"
+        SWIFT_VERSION: "5.10"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES: "Symbol-yacht Symbol-schocken Symbol-rauswurf Symbol-minensuche Symbol-farbraetsel Symbol-solitaer Symbol-wortpfeil Symbol-sudoku Symbol-viererreihe Symbol-galgenmaennchen Symbol-10k Symbol-aceydeucey Symbol-backgammon Symbol-ballwechsel Symbol-brisca Symbol-bruecken Symbol-bunco Symbol-chicago Symbol-chinchon Symbol-crazyeights Symbol-dame Symbol-dauerlauf Symbol-domino Symbol-dominocubano Symbol-elferraus Symbol-escoba Symbol-esel Symbol-farbcode Symbol-farbflut Symbol-farbwechsel Symbol-flinkhand Symbol-fuchsjagd Symbol-halma Symbol-hanoi Symbol-herzensjagd Symbol-himmelsleiter Symbol-hoelzchen Symbol-irrgang Symbol-kaestchenjagd Symbol-kakuro Symbol-kalaha Symbol-kartenduell Symbol-klappbrett Symbol-koenigsweg Symbol-kreuzwurf Symbol-lagerplatz Symbol-lichteraus Symbol-luegenwuerfel Symbol-maexchen Symbol-mahjongpaare Symbol-mauerbrecher Symbol-maumau Symbol-mogeln Symbol-muehle Symbol-nonogramm Symbol-oware Symbol-paarsuche Symbol-patolli Symbol-pechvogel Symbol-perudo Symbol-pokerwurf Symbol-romme Symbol-schach Symbol-schiebepuzzle Symbol-schiffeversenken Symbol-schiffsfracht Symbol-schweinerei Symbol-schwimmen Symbol-sechseck Symbol-siebzehnundvier Symbol-spitspeed Symbol-stadtlandfluss Symbol-steckspiel Symbol-steinfall Symbol-stufenstapel Symbol-truco Symbol-ungleichung Symbol-wendespiel Symbol-wolkenhuepfer Symbol-zahlenfusion"
+        ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS: YES
+        CODE_SIGN_STYLE: Automatic
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleURLTypes:
+          - CFBundleURLName: de.philippstach.partie
+            CFBundleURLSchemes: [partie]
+        NSSupportsLiveActivities: true
+        NSFaceIDUsageDescription: Face ID schützt den Kinder-Modus, damit Kinder ihn nicht selbst ausschalten.
+        NSMicrophoneUsageDescription: Über das Mikrofon kannst du die Augen deiner echten Würfel ansagen. Der Ton wird auf deinem Gerät ausgewertet und weder gespeichert noch gesendet.
+        NSSpeechRecognitionUsageDescription: Die Spracherkennung versteht die angesagten Augenzahlen. Sie läuft auf deinem Gerät, es wird nichts gesendet.
+        NSLocalNetworkUsageDescription: Partie verbindet dein iPhone und dein iPad direkt miteinander, damit ein Gerät als Würfelscanner dienen kann. Es werden nur die Augen der Würfel übertragen, keine Bilder.
+        NSBonjourServices: [_partie-wuerfel._tcp, _partie-wuerfel._udp]
+        NSCameraUsageDescription: Die Kamera erkennt live die Augen deiner echten Würfel. Die Bilder bleiben auf deinem Gerät und werden nicht gesendet. Gespeichert werden sie nur, wenn du in den Einstellungen die Lern-Aufnahme einschaltest.
+        UILaunchScreen: {}
+    dependencies:
+      - target: PartieWidget
+        embed: true
+      - package: Baukasten
+        product: KlarGlas
+      - package: Baukasten
+        product: Baukasten
+      - package: SpieleKern
+      - package: SpielMinensuche
+      - package: SpielFarbraetsel
+      - package: SpielYacht
+      - package: WuerfelLive
+      - package: WuerfelFunk
+      - package: SpielSchocken
+      - package: SpielRauswurf
+      - package: SpielSudoku
+      - package: SpielViererreihe
+      - package: SpielGalgenmaennchen
+      - package: SpielSolitaer
+      - package: SpielWortpfeil
+      - package: Spiel10k
+        product: Spiel10kModul
+      - package: SpielUngleichung
+      - package: SpielKoenigsweg
+      - package: SpielSchiffsfracht
+      - package: SpielFarbflut
+      - package: SpielSpitSpeed
+      - package: SpielCrazyEights
+      - package: SpielEsel
+      - package: SpielSteckspiel
+      - package: SpielKaestchenjagd
+      - package: SpielPatolli
+      - package: SpielSechseck
+      - package: SpielFarbcode
+      - package: SpielLagerplatz
+      - package: SpielFuchsjagd
+      - package: SpielBunco
+      - package: SpielOware
+      - package: SpielChinchon
+      - package: SpielDomino
+      - package: SpielPokerwurf
+      - package: SpielBrisca
+      - package: SpielHoelzchen
+      - package: SpielHimmelsleiter
+      - package: SpielFlinkhand
+      - package: SpielKartenduell
+      - package: SpielTruco
+      - package: SpielEscoba
+      - package: SpielHerzensjagd
+      - package: SpielPechvogel
+      - package: SpielKreuzwurf
+      - package: SpielStufenstapel
+      - package: SpielFarbwechsel
+      - package: SpielIrrgang
+      - package: SpielPaarsuche
+      - package: SpielMauerbrecher
+      - package: SpielDauerlauf
+      - package: SpielWolkenhuepfer
+      - package: SpielSteinfall
+      - package: SpielBallwechsel
+      - package: SpielRomme
+      - package: SpielBackgammon
+      - package: SpielKakuro
+      - package: SpielBruecken
+      - package: SpielMahjongPaare
+      - package: SpielSchach
+      - package: SpielStadtLandFluss
+      - package: SpielHalma
+      - package: SpielMogeln
+      - package: SpielLuegenwuerfel
+      - package: SpielElferRaus
+      - package: SpielChicago
+      - package: SpielNonogramm
+      - package: SpielMauMau
+      - package: SpielSchweinerei
+      - package: SpielSchiffe
+      - package: SpielMaexchen
+      - package: SpielSiebzehn
+      - package: SpielDame
+      - package: SpielWendespiel
+      - package: SpielKalaha
+      - package: SpielZahlenfusion
+      - package: SpielHanoi
+      - package: SpielLichterAus
+      - package: SpielSchwimmen
+      - package: SpielMuehle
+      - package: SpielSchiebepuzzle
+      - package: SpielKlappbrett
+  PartieWidget:
+    type: app-extension
+    platform: iOS
+    sources: [Widget]
+    dependencies:
+      - package: Baukasten
+        product: KlarGlas
+    entitlements:
+      path: Widget/PartieWidget.entitlements
+      properties:
+        com.apple.security.application-groups: [group.de.philippstach.spiele]
+    info:
+      path: Widget/Info.plist
+      properties:
+        CFBundleDisplayName: Partie
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.widget
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.10"
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_STYLE: Automatic
+  TestsRundgang:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [Test/Rundgang]
+    dependencies:
+      - target: Partie
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.tests.rundgang
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        TEST_TARGET_NAME: Partie
+  TestsRahmen:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Test/RahmenTests]
+    dependencies:
+      - target: Partie
+      - package: Baukasten
+        product: KlarGlas
+      - package: SpieleKern
+        product: SpieleKern
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.tests.rahmen
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Partie.app/Partie
+        BUNDLE_LOADER: $(TEST_HOST)
+  TestsYacht:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Pakete/SpielYacht/Tests/SpielYachtTests]
+    dependencies:
+      - target: Partie
+      - package: Baukasten
+        product: KlarGlas
+      - package: SpielYacht
+        product: SpielYacht
+      - package: SpieleKern
+        product: SpieleKern
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.tests.yacht
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Partie.app/Partie
+        BUNDLE_LOADER: $(TEST_HOST)
+  TestsSchocken:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Pakete/SpielSchocken/Tests/SpielSchockenTests]
+    dependencies:
+      - target: Partie
+      - package: Baukasten
+        product: KlarGlas
+      - package: SpielSchocken
+        product: SpielSchocken
+      - package: SpieleKern
+        product: SpieleKern
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.tests.schocken
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Partie.app/Partie
+        BUNDLE_LOADER: $(TEST_HOST)
+  TestsRauswurf:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Pakete/SpielRauswurf/Tests/SpielRauswurfTests]
+    dependencies:
+      - target: Partie
+      - package: Baukasten
+        product: KlarGlas
+      - package: SpielRauswurf
+        product: SpielRauswurf
+      - package: SpieleKern
+        product: SpieleKern
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.tests.rauswurf
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Partie.app/Partie
+        BUNDLE_LOADER: $(TEST_HOST)
+  TestsSudoku:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Pakete/SpielSudoku/Tests/SpielSudokuTests]
+    dependencies:
+      - target: Partie
+      - package: Baukasten
+        product: KlarGlas
+      - package: SpielSudoku
+        product: SpielSudoku
+      - package: SpieleKern
+        product: SpieleKern
+      - package: KernSudoku
+        product: SudokuKern
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.tests.sudoku
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Partie.app/Partie
+        BUNDLE_LOADER: $(TEST_HOST)
+  TestsGalgenmaennchen:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Pakete/SpielGalgenmaennchen/Tests/SpielGalgenmaennchenTests
+        excludes: [DesignSzenenTests.swift]   # braucht das Paket DesignBilder, läuft nur im Paketlauf
+    dependencies:
+      - target: Partie
+      - package: Baukasten
+        product: KlarGlas
+      - package: SpielGalgenmaennchen
+        product: SpielGalgenmaennchen
+      - package: SpieleKern
+        product: SpieleKern
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.tests.galgenmaennchen
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Partie.app/Partie
+        BUNDLE_LOADER: $(TEST_HOST)
+  TestsSolitaer:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Pakete/SpielSolitaer/Tests/SpielSolitaerTests
+        excludes: [DesignSzenenTests.swift]   # braucht das Paket DesignBilder, läuft nur im Paketlauf
+    dependencies:
+      - target: Partie
+      - package: Baukasten
+        product: KlarGlas
+      - package: SpielSolitaer
+        product: SpielSolitaer
+      - package: SpieleKern
+        product: SpieleKern
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.tests.solitaer
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Partie.app/Partie
+        BUNDLE_LOADER: $(TEST_HOST)
+  TestsWortpfeil:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Pakete/SpielWortpfeil/Tests/SpielWortpfeilTests]
+    dependencies:
+      - target: Partie
+      - package: Baukasten
+        product: KlarGlas
+      - package: SpielWortpfeil
+        product: SpielWortpfeil
+      - package: SpieleKern
+        product: SpieleKern
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.tests.wortpfeil
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Partie.app/Partie
+        BUNDLE_LOADER: $(TEST_HOST)
+  TestsFarbraetsel:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Pakete/SpielFarbraetsel/Tests/SpielFarbraetselTests]
+    dependencies:
+      - target: Partie
+      - package: Baukasten
+        product: KlarGlas
+      - package: SpielFarbraetsel
+        product: SpielFarbraetsel
+      - package: SpieleKern
+        product: SpieleKern
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.tests.farbraetsel
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Partie.app/Partie
+        BUNDLE_LOADER: $(TEST_HOST)
+  Tests10k:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Pakete/Spiel10k/Tests/Spiel10kTests
+        excludes: [RegelChatLiveTests.swift, ZehnkBausteinTests.swift]   # Live-Fragen mit dem Apple-Modell und KI-3-Bausteintests: nur im Paketlauf
+    dependencies:
+      - target: Partie
+      - package: Baukasten
+        product: KlarGlas
+      - package: Spiel10k
+        product: Spiel10k
+      - package: SpieleKern
+        product: SpieleKern
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.philippstach.partie.tests.10k
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "5.0"
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Partie.app/Partie
+        BUNDLE_LOADER: $(TEST_HOST)
+schemes:
+  Rundgang:
+    build:
+      targets:
+        Partie: all
+        TestsRundgang: [test]
+    test:
+      config: Debug
+      targets: [TestsRundgang]
+  Partie:
+    build:
+      targets:
+        Partie: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+  AlleSpielTests:
+    build:
+      targets:
+        Partie: all
+        TestsYacht: [test]
+        TestsRahmen: [test]
+        TestsSchocken: [test]
+        TestsRauswurf: [test]
+        TestsSudoku: [test]
+        TestsGalgenmaennchen: [test]
+        TestsSolitaer: [test]
+        TestsWortpfeil: [test]
+        TestsFarbraetsel: [test]
+        Tests10k: [test]
+    test:
+      targets:
+        - TestsYacht
+        - TestsRahmen
+        - TestsSchocken
+        - TestsRauswurf
+        - TestsSudoku
+        - TestsGalgenmaennchen
+        - TestsSolitaer
+        - TestsWortpfeil
+        - TestsFarbraetsel
+        - Tests10k
+      # Fallback für die Solitär-Listen, falls das Paket als eigenes Framework gebaut wird (siehe DealCatalog.partienBundle)
+      environmentVariables:
+        PARTIE_PARTIEN: $(SRCROOT)/Pakete/SpielSolitaer/Shared/partien
+
+configFiles:
+  Debug: Lokal.xcconfig
+  Release: Lokal.xcconfig

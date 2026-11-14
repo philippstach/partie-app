@@ -1,0 +1,21 @@
+{
+ "name": "12_stechen_mehrere_runden",
+ "beschreibung": "Runden-Limit 2 mit Gleichstand: Stechen nur der Führenden, keine Strafe und keine Serie im Stechen, die zweite Stechrunde entscheidet.",
+ "rules": {"diceMode": "real", "roundLimit": 2, "penalty": 500},
+ "players": ["Anna", "Ben", "Cem"],
+ "dice": [],
+ "steps": [
+  {"action": {"type": "points", "points": 300}},
+  {"action": {"type": "noPoints"}},
+  {"action": {"type": "points", "points": 100}},
+  {"action": {"type": "noPoints"}},
+  {"action": {"type": "points", "points": 300}},
+  {"action": {"type": "points", "points": 50}, "expect": {"tiebreak": {"players": [0, 1], "round": 1, "points": []}, "current": 0, "winners": [], "scores": [300, 300, 150]}},
+  {"action": {"type": "noPoints"}, "expect": {"current": 1, "players": [{"streak": 1, "mackes": 2}, {}, {}], "tiebreak": {"players": [0, 1], "round": 1, "points": [0]}}},
+  {"action": {"type": "noPoints"}, "expect": {"current": 0, "tiebreak": {"players": [0, 1], "round": 2, "points": []}, "winners": []}},
+  {"action": {"type": "noPoints"}, "expect": {"current": 1, "players": [{"streak": 1, "mackes": 3, "score": 300}, {}, {}]}},
+  {"action": {"type": "points", "points": 200}, "expect": {"winners": [1]}},
+  {"action": {"type": "points", "points": 50}, "error": true}
+ ],
+ "expected": {"winners": [1], "scores": [300, 500, 150], "tiebreak": {"players": [0, 1], "round": 2, "points": [0, 200]}, "players": [{"streak": 1, "mackes": 3, "turns": 4}, {"streak": 0, "mackes": 2, "turns": 4, "bestTurn": 300}, {"turns": 2}], "log": [[0, 300, 0], [1, 0, 0], [2, 100, 0], [0, 0, 0], [1, 300, 0], [2, 50, 0], [0, 0, 0], [1, 0, 0], [0, 0, 0], [1, 200, 0]]}
+}

@@ -1,0 +1,17 @@
+{
+ "name": "16_drillinge_nur_einsen_fuenfen",
+ "beschreibung": "Regel triples = onesAndFives: drei Zweien sind eine Niete, drei Fünfen 500, drei Vieren zählen nicht.",
+ "rules": {"triples": "onesAndFives"},
+ "players": ["Anna", "Ben"],
+ "dice": [2, 2, 2, 3, 4, 5, 5, 5, 2, 3, 4, 4, 4, 1, 6],
+ "steps": [
+  {"action": {"type": "roll", "keep": []}, "expect": {"log": [[0, 0, 0]], "current": 1}},
+  {"action": {"type": "roll", "keep": []}},
+  {"action": {"type": "bank", "keep": [0, 1, 2]}, "expect": {"scores": [0, 500], "offer": {"from": 1, "points": 500, "dice": [5, 5, 5, 2, 3], "kept": [true, true, true, false, false]}}},
+  {"action": {"type": "declineOffer"}},
+  {"action": {"type": "roll", "keep": []}},
+  {"action": {"type": "bank", "keep": [0, 1, 2, 3]}, "error": true},
+  {"action": {"type": "bank", "keep": [3]}, "expect": {"scores": [100, 500], "offer": {"from": 0, "points": 100, "dice": [4, 4, 4, 1, 6], "kept": [false, false, false, true, false]}}}
+ ],
+ "expected": {"scores": [100, 500], "current": 1, "log": [[0, 0, 0], [1, 500, 0], [0, 100, 0]]}
+}

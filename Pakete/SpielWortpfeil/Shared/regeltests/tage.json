@@ -1,0 +1,119 @@
+{
+ "beschreibung": "tagesindex(datum, anzahl) = Tage seit 2026-01-01, positiv modulo anzahl. serie(geloest, heute) = gelöste Tage am Stück bis heute (heute offen bricht nicht).",
+ "tagesindex": [
+  {
+   "datum": "2026-01-01",
+   "anzahl": 365,
+   "erwartet": 0
+  },
+  {
+   "datum": "2026-01-02",
+   "anzahl": 365,
+   "erwartet": 1
+  },
+  {
+   "datum": "2026-12-31",
+   "anzahl": 365,
+   "erwartet": 364
+  },
+  {
+   "datum": "2027-01-01",
+   "anzahl": 365,
+   "erwartet": 0
+  },
+  {
+   "datum": "2025-12-31",
+   "anzahl": 365,
+   "erwartet": 364
+  },
+  {
+   "datum": "2024-02-29",
+   "anzahl": 365,
+   "erwartet": 58
+  },
+  {
+   "datum": "2026-10-04",
+   "anzahl": 30,
+   "erwartet": 6
+  },
+  {
+   "datum": "2030-06-15",
+   "anzahl": 7,
+   "erwartet": 2
+  }
+ ],
+ "serie": [
+  {
+   "name": "leer",
+   "heute": "2026-10-04",
+   "geloest": [],
+   "erwartet": 0
+  },
+  {
+   "name": "nur_heute",
+   "heute": "2026-10-04",
+   "geloest": [
+    "2026-10-04"
+   ],
+   "erwartet": 1
+  },
+  {
+   "name": "heute_offen_gestern_geloest",
+   "heute": "2026-10-04",
+   "geloest": [
+    "2026-10-03",
+    "2026-10-02",
+    "2026-10-01"
+   ],
+   "erwartet": 3
+  },
+  {
+   "name": "heute_und_davor",
+   "heute": "2026-10-04",
+   "geloest": [
+    "2026-10-04",
+    "2026-10-03",
+    "2026-10-02"
+   ],
+   "erwartet": 3
+  },
+  {
+   "name": "luecke",
+   "heute": "2026-10-04",
+   "geloest": [
+    "2026-10-04",
+    "2026-10-03",
+    "2026-10-01",
+    "2026-09-30",
+    "2026-09-29"
+   ],
+   "erwartet": 2
+  },
+  {
+   "name": "vorgestern_zuletzt",
+   "heute": "2026-10-04",
+   "geloest": [
+    "2026-10-02",
+    "2026-10-01"
+   ],
+   "erwartet": 0
+  },
+  {
+   "name": "ueber_monatsgrenze",
+   "heute": "2026-10-04",
+   "geloest": [
+    "2026-10-04",
+    "2026-10-03",
+    "2026-10-02",
+    "2026-10-01",
+    "2026-09-30",
+    "2026-09-29",
+    "2026-09-28",
+    "2026-09-27",
+    "2026-09-26",
+    "2026-09-25"
+   ],
+   "erwartet": 10
+  }
+ ]
+}

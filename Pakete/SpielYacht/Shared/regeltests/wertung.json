@@ -1,0 +1,576 @@
+{
+ "wertung": [
+  {
+   "name": "ones: zwei passende",
+   "dice": [
+    1,
+    1,
+    2,
+    5,
+    4
+   ],
+   "category": "ones",
+   "joker": false,
+   "expectedScore": 2
+  },
+  {
+   "name": "ones: keiner passt",
+   "dice": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "category": "ones",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "ones: alle fünf",
+   "dice": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "category": "ones",
+   "joker": false,
+   "expectedScore": 5
+  },
+  {
+   "name": "twos: zwei passende",
+   "dice": [
+    2,
+    2,
+    3,
+    5,
+    4
+   ],
+   "category": "twos",
+   "joker": false,
+   "expectedScore": 4
+  },
+  {
+   "name": "twos: keiner passt",
+   "dice": [
+    1,
+    3,
+    4,
+    5,
+    6
+   ],
+   "category": "twos",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "twos: alle fünf",
+   "dice": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "category": "twos",
+   "joker": false,
+   "expectedScore": 10
+  },
+  {
+   "name": "threes: zwei passende",
+   "dice": [
+    3,
+    3,
+    2,
+    5,
+    4
+   ],
+   "category": "threes",
+   "joker": false,
+   "expectedScore": 6
+  },
+  {
+   "name": "threes: keiner passt",
+   "dice": [
+    1,
+    2,
+    4,
+    5,
+    6
+   ],
+   "category": "threes",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "threes: alle fünf",
+   "dice": [
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "category": "threes",
+   "joker": false,
+   "expectedScore": 15
+  },
+  {
+   "name": "fours: zwei passende",
+   "dice": [
+    4,
+    4,
+    2,
+    5,
+    1
+   ],
+   "category": "fours",
+   "joker": false,
+   "expectedScore": 8
+  },
+  {
+   "name": "fours: keiner passt",
+   "dice": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "category": "fours",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "fours: alle fünf",
+   "dice": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "category": "fours",
+   "joker": false,
+   "expectedScore": 20
+  },
+  {
+   "name": "fives: zwei passende",
+   "dice": [
+    5,
+    5,
+    2,
+    6,
+    4
+   ],
+   "category": "fives",
+   "joker": false,
+   "expectedScore": 10
+  },
+  {
+   "name": "fives: keiner passt",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "category": "fives",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "fives: alle fünf",
+   "dice": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "category": "fives",
+   "joker": false,
+   "expectedScore": 25
+  },
+  {
+   "name": "sixes: zwei passende",
+   "dice": [
+    6,
+    6,
+    2,
+    5,
+    4
+   ],
+   "category": "sixes",
+   "joker": false,
+   "expectedScore": 12
+  },
+  {
+   "name": "sixes: keiner passt",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "category": "sixes",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "sixes: alle fünf",
+   "dice": [
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "category": "sixes",
+   "joker": false,
+   "expectedScore": 30
+  },
+  {
+   "name": "Dreierpasch: genau drei",
+   "dice": [
+    3,
+    3,
+    3,
+    5,
+    6
+   ],
+   "category": "threeOfAKind",
+   "joker": false,
+   "expectedScore": 20
+  },
+  {
+   "name": "Dreierpasch: vier gleiche zählen",
+   "dice": [
+    4,
+    4,
+    4,
+    4,
+    2
+   ],
+   "category": "threeOfAKind",
+   "joker": false,
+   "expectedScore": 18
+  },
+  {
+   "name": "Dreierpasch: Kniffel zählt",
+   "dice": [
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "category": "threeOfAKind",
+   "joker": false,
+   "expectedScore": 30
+  },
+  {
+   "name": "Dreierpasch: nur zwei",
+   "dice": [
+    2,
+    2,
+    5,
+    6,
+    1
+   ],
+   "category": "threeOfAKind",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "Viererpasch: genau vier",
+   "dice": [
+    5,
+    5,
+    5,
+    5,
+    1
+   ],
+   "category": "fourOfAKind",
+   "joker": false,
+   "expectedScore": 21
+  },
+  {
+   "name": "Viererpasch: nur drei",
+   "dice": [
+    5,
+    5,
+    5,
+    2,
+    1
+   ],
+   "category": "fourOfAKind",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "Viererpasch: Kniffel zählt",
+   "dice": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "category": "fourOfAKind",
+   "joker": false,
+   "expectedScore": 10
+  },
+  {
+   "name": "Full House",
+   "dice": [
+    2,
+    2,
+    5,
+    5,
+    5
+   ],
+   "category": "fullHouse",
+   "joker": false,
+   "expectedScore": 25
+  },
+  {
+   "name": "Full House: Reihenfolge egal",
+   "dice": [
+    6,
+    1,
+    6,
+    1,
+    6
+   ],
+   "category": "fullHouse",
+   "joker": false,
+   "expectedScore": 25
+  },
+  {
+   "name": "Full House: Kniffel ohne Joker zählt nicht",
+   "dice": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "category": "fullHouse",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "Full House: Kniffel mit Joker",
+   "dice": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "category": "fullHouse",
+   "joker": true,
+   "expectedScore": 25
+  },
+  {
+   "name": "Full House: Vierling zählt nicht",
+   "dice": [
+    4,
+    4,
+    4,
+    4,
+    1
+   ],
+   "category": "fullHouse",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "Kleine Straße 1-4",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "category": "smallStraight",
+   "joker": false,
+   "expectedScore": 30
+  },
+  {
+   "name": "Kleine Straße 2-5 mit Doppel",
+   "dice": [
+    2,
+    3,
+    3,
+    4,
+    5
+   ],
+   "category": "smallStraight",
+   "joker": false,
+   "expectedScore": 30
+  },
+  {
+   "name": "Kleine Straße 3-6",
+   "dice": [
+    6,
+    3,
+    4,
+    5,
+    1
+   ],
+   "category": "smallStraight",
+   "joker": false,
+   "expectedScore": 30
+  },
+  {
+   "name": "Kleine Straße: große zählt auch",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "category": "smallStraight",
+   "joker": false,
+   "expectedScore": 30
+  },
+  {
+   "name": "Kleine Straße: Lücke",
+   "dice": [
+    1,
+    2,
+    4,
+    5,
+    6
+   ],
+   "category": "smallStraight",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "Kleine Straße: Kniffel mit Joker",
+   "dice": [
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "category": "smallStraight",
+   "joker": true,
+   "expectedScore": 30
+  },
+  {
+   "name": "Große Straße 1-5",
+   "dice": [
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "category": "largeStraight",
+   "joker": false,
+   "expectedScore": 40
+  },
+  {
+   "name": "Große Straße 2-6",
+   "dice": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "category": "largeStraight",
+   "joker": false,
+   "expectedScore": 40
+  },
+  {
+   "name": "Große Straße: nur vier in Folge",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    4
+   ],
+   "category": "largeStraight",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "Große Straße: Kniffel mit Joker",
+   "dice": [
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "category": "largeStraight",
+   "joker": true,
+   "expectedScore": 40
+  },
+  {
+   "name": "Kniffel",
+   "dice": [
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "category": "kniffel",
+   "joker": false,
+   "expectedScore": 50
+  },
+  {
+   "name": "Kniffel: vier gleiche",
+   "dice": [
+    6,
+    6,
+    6,
+    6,
+    5
+   ],
+   "category": "kniffel",
+   "joker": false,
+   "expectedScore": 0
+  },
+  {
+   "name": "Chance",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "category": "chance",
+   "joker": false,
+   "expectedScore": 16
+  },
+  {
+   "name": "Chance: Maximum",
+   "dice": [
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "category": "chance",
+   "joker": false,
+   "expectedScore": 30
+  }
+ ]
+}

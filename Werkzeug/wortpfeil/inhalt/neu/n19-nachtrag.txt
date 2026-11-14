@@ -1,0 +1,73 @@
+# n19 Nachtrag: kurze Wörter, Küche, Verschiedenes
+Abi;1;Reifeprüfung (kurz)|Abschluss am Gymnasium (kurz)
+Ahne;2;Vorfahr|Urgroßvater zum Beispiel
+Alu;1;Leichtmetall (kurz)|Folie in der Küche (kurz)
+Deo;1;Mittel gegen Schweißgeruch|Spray für die Achseln
+Dia;2;Durchsichtiges Bild für den Projektor|Foto im Rähmchen
+Kat;2;Abgasreiniger im Auto (kurz)|Filter am Auspuff (kurz)
+Pin;1;Geheimzahl|Stecknadel für die Pinnwand
+Tip;2;Englisch: Trinkgeld|Kleiner Rat (alte Schreibung)
+Zen;2;Japanische Meditation|Buddhistische Schule
+Abart;2;Abweichende Form|Spielart
+Bake;2;Seezeichen am Ufer|Warnpfosten an der Baustelle
+Balg;2;Freches Kind|Faltiger Teil der Ziehharmonika
+Bimbam;1;Klang der Glocke|Heiliger …! (Ausruf)
+Horde;1;Wilde Schar|Ungeordneter Haufen
+Jasmin;2;Duftender Zierstrauch|Weiße Blüte im Tee
+Henna;2;Roter Farbstoff fürs Haar|Farbe für Tattoos im Orient
+Majoran;2;Wurstkraut|Gewürz für Kartoffelsuppe
+Rucola;1;Scharfer Salat|Rauke auf der Pizza
+Mangold;2;Blattgemüse mit bunten Stielen|Verwandter der Roten Bete
+Sellerie;1;Knolle im Suppengrün|Gemüse mit Stangen
+Karotte;1;Möhre|Orange Wurzel
+Wirsing;1;Kohl mit krausen Blättern|Grüner Kohlkopf
+Kohlrabi;1;Knolle mit Blättern obenauf|Hellgrünes Gemüse
+Avocado;1;Grüne Frucht mit großem Kern|Zutat für Guacamole
+Kaper;2;Würzige Knospe im Glas|Zutat für Königsberger Klopse
+Papaya;2;Tropenfrucht mit schwarzen Kernen|Baummelone
+Limette;1;Kleine grüne Zitrusfrucht|Sauer im Cocktail
+Rosine;1;Getrocknete Weinbeere|Sitzt im Stollen
+Pistazie;1;Grüner Kern in harter Schale|Beliebte Eissorte
+Kokos;1;Raspel von der Palmenfrucht|Geschmack der Südsee
+Maroni;2;Esskastanie|Heiße Kastanie vom Markt
+Combo;2;Kleine Band|Jazzgruppe
+Spieluhr;1;Dose mit Melodie|Klimpert im Kinderzimmer
+Testbild;2;Flimmerte nachts im Fernsehen|Bunte Streifen ohne Programm
+Windhund;1;Schlanker Sprinter mit Schnauze|Vierbeiniger Rennläufer
+brabbeln;1;Undeutlich vor sich hin reden|Babylaute machen
+brummeln;1;Leise und mürrisch reden|In den Bart murmeln
+drucksen;2;Nicht mit der Sprache herauskommen|Zögernd herumreden
+fuchteln;1;Wild mit den Armen wedeln|Aufgeregt gestikulieren
+glucksen;1;Leise kichern|Geräusch von Wasser in der Flasche
+grummeln;1;Leise murren|Fernes Donnern
+japsen;1;Nach Luft schnappen|Außer Atem sein
+kläffen;1;Hell und aufgeregt bellen|Lärm kleiner Hunde
+klappern;1;Geräusch der Mühle am Bach|Laut des Storchs
+klirren;1;Geräusch von brechendem Glas|Laut von Ketten
+knarren;1;Geräusch alter Dielen|Ächzen der Tür
+knattern;1;Geräusch des Mopeds|Lautes Rattern
+knuspern;1;Hörbar knabbern|Am Lebkuchenhaus naschen
+krakeln;1;Unleserlich schreiben|Kritzeln
+piepsen;1;Hohe Töne von sich geben|Laut der Maus
+prasseln;1;Geräusch von starkem Regen|Laut des Kaminfeuers
+rattern;1;Geräusch der Nähmaschine|Lärm alter Züge
+rumpeln;1;Dumpf poltern|Über Kopfsteinpflaster holpern
+tapsen;1;Unbeholfen gehen|Wie ein kleiner Bär laufen
+tänzeln;1;Leichtfüßig hüpfen|Nervös trippeln (Pferd)
+tollen;1;Ausgelassen spielen|Wild herumspringen
+wedeln;1;Freude mit dem Schwanz zeigen|Kurze Schwünge im Schnee
+wimmeln;1;Voll sein von (Ameisen)|In Massen herumlaufen
+wimmern;1;Leise und kläglich weinen|Jammern
+winseln;1;Klagend fiepen (Hund)|Um Gnade betteln
+wirbeln;1;Schnell im Kreis drehen|Staub aufjagen
+wuseln;1;Flink durcheinanderlaufen|Geschäftig herumeilen
+zappeln;1;Unruhig hin und her rutschen|Sich im Netz winden
+zetern;2;Laut schimpfen|Schrill klagen
+zirpen;1;Laut der Grille|Geräusch an Sommerabenden
+feig;1;Ohne Mut|Ängstlich
+sacht;2;Behutsam|Vorsichtig und leise
+tot;1;Nicht mehr lebendig|Verstorben
+Aufbau;1;Errichtung|Gliederung
+Tier;1;Hund, Katze oder Maus|Lebewesen im Zoo
+Republik;1;Staat ohne König|Staatsform mit Präsident
+Panzer;1;Schutz der Schildkröte|Kettenfahrzeug der Armee

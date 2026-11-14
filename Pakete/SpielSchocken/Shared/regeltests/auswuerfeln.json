@@ -1,0 +1,385 @@
+{
+ "beschreibung": "R1 Auswürfeln: jeder einen Würfel in Sitzreihenfolge, höchste Augen beginnt; bei Gleichstand an der Spitze würfeln nur diese erneut. wuerfel = genau verbrauchte Folge.",
+ "faelle": [
+  {
+   "name": "Einer allein vorn",
+   "spieler": [
+    0,
+    1,
+    2
+   ],
+   "wuerfel": [
+    3,
+    6,
+    2
+   ],
+   "erwartet": {
+    "beginner": 1,
+    "runden": [
+     [
+      {
+       "spieler": 0,
+       "augen": 3
+      },
+      {
+       "spieler": 1,
+       "augen": 6
+      },
+      {
+       "spieler": 2,
+       "augen": 2
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Gleichstand an der Spitze: nur die Gleichen würfeln nach",
+   "spieler": [
+    0,
+    1,
+    2
+   ],
+   "wuerfel": [
+    5,
+    5,
+    1,
+    4,
+    2
+   ],
+   "erwartet": {
+    "beginner": 0,
+    "runden": [
+     [
+      {
+       "spieler": 0,
+       "augen": 5
+      },
+      {
+       "spieler": 1,
+       "augen": 5
+      },
+      {
+       "spieler": 2,
+       "augen": 1
+      }
+     ],
+     [
+      {
+       "spieler": 0,
+       "augen": 4
+      },
+      {
+       "spieler": 1,
+       "augen": 2
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Mehrfach gleich",
+   "spieler": [
+    0,
+    1
+   ],
+   "wuerfel": [
+    6,
+    6,
+    3,
+    3,
+    1,
+    2
+   ],
+   "erwartet": {
+    "beginner": 1,
+    "runden": [
+     [
+      {
+       "spieler": 0,
+       "augen": 6
+      },
+      {
+       "spieler": 1,
+       "augen": 6
+      }
+     ],
+     [
+      {
+       "spieler": 0,
+       "augen": 3
+      },
+      {
+       "spieler": 1,
+       "augen": 3
+      }
+     ],
+     [
+      {
+       "spieler": 0,
+       "augen": 1
+      },
+      {
+       "spieler": 1,
+       "augen": 2
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Gleichstand hinten zählt nicht",
+   "spieler": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "wuerfel": [
+    2,
+    2,
+    6,
+    1
+   ],
+   "erwartet": {
+    "beginner": 2,
+    "runden": [
+     [
+      {
+       "spieler": 0,
+       "augen": 2
+      },
+      {
+       "spieler": 1,
+       "augen": 2
+      },
+      {
+       "spieler": 2,
+       "augen": 6
+      },
+      {
+       "spieler": 3,
+       "augen": 1
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Zufall 2 Spieler",
+   "spieler": [
+    0,
+    1
+   ],
+   "wuerfel": [
+    3,
+    5
+   ],
+   "erwartet": {
+    "beginner": 1,
+    "runden": [
+     [
+      {
+       "spieler": 0,
+       "augen": 3
+      },
+      {
+       "spieler": 1,
+       "augen": 5
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Zufall 4 Spieler",
+   "spieler": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "wuerfel": [
+    1,
+    5,
+    5,
+    3,
+    3,
+    4
+   ],
+   "erwartet": {
+    "beginner": 2,
+    "runden": [
+     [
+      {
+       "spieler": 0,
+       "augen": 1
+      },
+      {
+       "spieler": 1,
+       "augen": 5
+      },
+      {
+       "spieler": 2,
+       "augen": 5
+      },
+      {
+       "spieler": 3,
+       "augen": 3
+      }
+     ],
+     [
+      {
+       "spieler": 1,
+       "augen": 3
+      },
+      {
+       "spieler": 2,
+       "augen": 4
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Zufall 2 Spieler",
+   "spieler": [
+    0,
+    1
+   ],
+   "wuerfel": [
+    6,
+    5
+   ],
+   "erwartet": {
+    "beginner": 0,
+    "runden": [
+     [
+      {
+       "spieler": 0,
+       "augen": 6
+      },
+      {
+       "spieler": 1,
+       "augen": 5
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Zufall 6 Spieler",
+   "spieler": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "wuerfel": [
+    4,
+    3,
+    2,
+    3,
+    6,
+    4
+   ],
+   "erwartet": {
+    "beginner": 4,
+    "runden": [
+     [
+      {
+       "spieler": 0,
+       "augen": 4
+      },
+      {
+       "spieler": 1,
+       "augen": 3
+      },
+      {
+       "spieler": 2,
+       "augen": 2
+      },
+      {
+       "spieler": 3,
+       "augen": 3
+      },
+      {
+       "spieler": 4,
+       "augen": 6
+      },
+      {
+       "spieler": 5,
+       "augen": 4
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Zufall 2 Spieler",
+   "spieler": [
+    0,
+    1
+   ],
+   "wuerfel": [
+    4,
+    5
+   ],
+   "erwartet": {
+    "beginner": 1,
+    "runden": [
+     [
+      {
+       "spieler": 0,
+       "augen": 4
+      },
+      {
+       "spieler": 1,
+       "augen": 5
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "name": "Zufall 4 Spieler",
+   "spieler": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "wuerfel": [
+    5,
+    4,
+    4,
+    2
+   ],
+   "erwartet": {
+    "beginner": 0,
+    "runden": [
+     [
+      {
+       "spieler": 0,
+       "augen": 5
+      },
+      {
+       "spieler": 1,
+       "augen": 4
+      },
+      {
+       "spieler": 2,
+       "augen": 4
+      },
+      {
+       "spieler": 3,
+       "augen": 2
+      }
+     ]
+    ]
+   }
+  }
+ ]
+}

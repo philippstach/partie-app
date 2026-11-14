@@ -1,0 +1,18 @@
+{
+ "name": "10_undo_digital_sperre",
+ "beschreibung": "Digital: Aufhören und Ablehnen sind zurücknehmbar, ein Wurf (auch beim Übernehmen) nicht und sperrt ältere Schritte.",
+ "rules": {},
+ "players": ["Anna", "Ben"],
+ "dice": [1, 2, 3, 4, 6, 5, 2, 3, 4, 2, 3, 4],
+ "steps": [
+  {"action": {"type": "roll", "keep": []}},
+  {"action": {"type": "undo"}, "error": true},
+  {"action": {"type": "roll", "keep": [0]}},
+  {"action": {"type": "bank", "keep": [1]}, "expect": {"scores": [150, 0], "canUndo": true}},
+  {"action": {"type": "undo"}, "expect": {"scores": [0, 0], "current": 0, "offer": null, "canUndo": false, "turn": {"dice": [1, 5, 2, 3, 4], "locked": [true, false, false, false, false], "banked": 100, "hasRolled": true}}},
+  {"action": {"type": "bank", "keep": [1]}, "expect": {"offer": {"from": 0, "points": 150, "dice": [1, 5, 2, 3, 4], "kept": [true, true, false, false, false]}}},
+  {"action": {"type": "acceptOffer"}, "expect": {"log": [[0, 150, 0], [1, 0, 0]], "current": 0, "canUndo": false}},
+  {"action": {"type": "undo"}, "error": true}
+ ],
+ "expected": {"scores": [150, 0], "current": 0, "offer": null, "players": [{}, {"mackes": 1, "streak": 1}]}
+}

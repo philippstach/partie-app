@@ -1,0 +1,226 @@
+# 005 Haushalt, Wohnen, Möbel, Werkzeug – geschrieben von Claude
+Haus	1	Gebäude zum Wohnen|Eigenheim mit Garten
+Heim	1	Zuhause|Wohnstätte der Familie
+Bude	2	Kleine Studentenwohnung|Verkaufsstand auf dem Markt
+Raum	1	Zimmer|Abgeschlossener Bereich
+Stube	2	Wohnzimmer (altmodisch)|Bauernzimmer
+Klo	1	Abort (umgangssprachlich)|Stilles Örtchen
+Diele	2	Vorraum der Wohnung|Fußbodenbrett aus Holz
+Halle	1	Großer überdachter Raum|Bahnhofsbau
+Wand	1	Seitliche Raumgrenze|Wird tapeziert
+Mauer	1	Wand aus Steinen|Grenzwall aus Ziegeln
+Decke	1	Oberer Raumabschluss|Wärmendes im Bett
+Erker	2	Vorbau an der Fassade|Fenstervorsprung
+First	3	Höchste Dachkante|Oberer Dachgrat
+Gaube	3	Dachfenster mit Aufbau|Fensteraufbau im Dach
+Reet	3	Dachstroh im Norden|Schilf für das Dach
+Fuge	2	Spalt zwischen Fliesen|Musikstück von Bach
+Putz	2	Mörtelschicht an der Wand|Wandverkleidung aus Kalk
+Stuck	3	Zierwerk an der Decke|Gipsornament im Altbau
+Kitt	2	Fensterdichtmasse|Knetbares Dichtmittel
+Leim	1	Klebstoff des Tischlers|Holzklebstoff
+Lack	1	Glänzender Anstrich|Schutzschicht für Holz
+Beize	3	Holzfärbemittel|Färbt Holz dunkler
+Farbe	1	Malerbedarf im Eimer|Rot, Blau oder Grün
+Tisch	1	Möbel zum Essen|Platte auf vier Beinen
+Stuhl	1	Sitzmöbel mit Lehne|Platz am Esstisch
+Bank	1	Sitzmöbel für mehrere|Geldinstitut
+Pult	2	Schräges Schreibmöbel|Stehtisch des Redners
+Spind	2	Schmaler Blechschrank|Kleiderschrank der Kaserne
+Regal	1	Möbel für Bücher|Bordgestell
+Truhe	2	Deckelkiste für Wäsche|Schatzkiste
+Lade	3	Schubfach|Kasten im Möbel
+Bord	3	Wandbrett|Ablage an der Wand
+Couch	1	Polstermöbel|Liegesofa im Wohnzimmer
+Diwan	3	Gepolsterte Liege|Orientalisches Sofa
+Liege	2	Ruhemöbel im Garten|Bettähnliches Gestell
+Kiste	1	Behälter aus Holz|Transportbehälter
+Fach	1	Abteil im Schrank|Lehrgebiet, z. B. Mathe
+Lampe	1	Lichtquelle im Zimmer|Leuchte
+Kerze	1	Wachslicht|Licht mit Docht
+Docht	2	Faden in der Kerze|Brennfaden im Wachs
+Bild	1	Gemälde an der Wand|Foto im Rahmen
+Spion	3	Guckloch in der Tür|Agent, Geheimdienstler
+Knauf	2	Runder Türgriff|Kugel am Griff
+Lift	2	Aufzug|Fahrstuhl
+Stufe	1	Teil der Treppe|Rang, Niveau
+Nagel	1	Stift für den Hammer|Spitzer Metallstift
+Säge	1	Werkzeug mit Zähnen|Holzschneider des Tischlers
+Zange	1	Greifwerkzeug|Werkzeug zum Kneifen
+Feile	1	Werkzeug zum Glätten|Raues Metallwerkzeug
+Hobel	2	Werkzeug des Tischlers|Glättet Holzbretter
+Keil	2	Spaltwerkzeug|Spitz zulaufendes Stück Holz
+Hebel	1	Stange zum Stemmen|Griff zum Umlegen
+Besen	1	Kehrgerät|Gerät zum Fegen
+Mopp	2	Wischgerät mit Fransen|Bodenwischer
+Eimer	1	Kübel mit Henkel|Wassergefäß zum Putzen
+Tuch	1	Stück Stoff|Lappen zum Wischen
+Seife	1	Waschmittel am Becken|Schäumendes Stück
+Lauge	2	Seifenwasser|Gegenteil der Säure
+Soda	3	Natron zum Reinigen|Kohlensaures Natrium
+Müll	1	Inhalt der Tonne|Wird getrennt gesammelt
+Tonne	1	Großer Abfallbehälter|Tausend Kilogramm
+Staub	1	Feine Schmutzteilchen|Wird gesaugt und gewischt
+Fleck	1	Schmutzstelle|Klecks auf dem Hemd
+Kram	2	Plunder|Sachen ohne Ordnung
+Tand	3	Wertloser Kram|Billiger Zierrat
+Waage	1	Gerät zum Wiegen|Sternzeichen im Herbst
+Pott	3	Topf (norddeutsch)|Große Tasse (norddeutsch)
+Fass	1	Gefäß aus Dauben|Bierbehälter aus Holz
+Zuber	3	Waschbottich|Holzwanne mit Griffen
+Trog	2	Futterwanne|Längliches Gefäß
+Sack	1	Großer Beutel|Behälter aus Jute
+Tüte	1	Beutel aus Papier|Einkaufsbeutel
+Rolle	1	Walze|Gestalt im Film
+Walze	2	Zylinder zum Glätten|Straßenbaumaschine
+Spule	2	Rolle für Garn|Teil der Nähmaschine
+Haken	1	Gebogener Aufhänger|Kleiderhalter an der Wand
+Niete	3	Metallbolzen zum Verbinden|Los ohne Gewinn
+Stift	1	Schreibgerät|Kleiner Nagel ohne Kopf
+Hacke	2	Gartenwerkzeug zum Lockern|Ferse (regional)
+Harke	1	Rechen|Gartengerät mit Zinken
+Sense	2	Mähgerät mit Bogenklinge|Werkzeug des Schnitters
+Beet	1	Gartenfläche mit Pflanzen|Gemüsefläche
+Akku	2	Wiederaufladbare Batterie|Stromspeicher im Gerät
+Kabel	1	Stromleitung|Isolierter Draht
+Draht	1	Dünner Metallfaden|Gebogenes Metall für Zäune
+Koks	3	Brennstoff aus Kohle|Entgaste Steinkohle
+Kohle	1	Brennstoff im Ofen|Schwarzes Fossil
+Miete	1	Monatliche Wohnkosten|Zins für die Wohnung
+Laken	1	Betttuch|Weißes Tuch über der Matratze
+Bezug	2	Hülle für das Kissen|Kissenhülle
+Matte	2	Fußabtreter|Turnunterlage
+Kate	3	Kleines Bauernhaus|Hütte (norddeutsch)
+Villa	1	Großes Wohnhaus|Herrschaftliches Landhaus
+Loft	3	Wohnung in alter Fabrik|Großraumwohnung
+Etage	2	Stockwerk|Geschoss
+Lasur	3	Durchsichtiger Anstrich|Holzschutzanstrich
+Quast	3	Breiter Malerpinsel|Pinsel für Tapetenkleister
+Brett	1	Flaches Holzstück|Diele, Planke
+Latte	2	Schmales Brett|Oberes Torgestänge
+Bohle	3	Dickes Brett|Starke Holzplanke
+Span	2	Holzsplitter|Dünnes Hobelstück
+Wanne	1	Becken zum Baden|Bauchige Schale
+Rinne	2	Ablauf am Dachrand|Schmale Furche
+Leine	1	Seil für Wäsche|Hundeführung
+Faden	1	Nähgarn|Dünner Zwirn
+Zwirn	2	Starker Nähfaden|Gedrehtes Garn
+fegen	1	Mit dem Besen säubern|Sausen, rasen
+Talg	3	Rohstoff alter Kerzen|Rinderfett
+Litze	3	Feiner Drahtstrang|Biegsame Leitung
+Folie	2	Dünne Kunststoffhaut|Frischhaltefilm
+Foyer	2	Vorhalle im Theater|Eingangshalle
+Büro	1	Arbeitszimmer|Schreibstube
+Patio	3	Spanischer Innenhof|Offener Hof im Süden
+Abort	3	Toilette|Klosett
+Bidet	3	Sitzwaschbecken|Becken im Bad
+Kamin	1	Offene Feuerstelle|Schornstein
+Zarge	3	Türrahmen|Fensterrahmen
+Rollo	2	Ziehbarer Sichtschutz|Sonnenschutz am Fenster
+Laden	1	Klappe am Fenster|Geschäft
+Salon	2	Empfangszimmer|Friseurgeschäft
+Stock	1	Geschoss|Spazierstab
+Klinke	1	Türgriff zum Drücken|Griff an der Tür
+Riegel	1	Schiebeverschluss|Schokoladenstück
+Schloss	1	Sicherung der Tür|Palast eines Fürsten
+Schlüssel	1	Öffnet die Haustür|Hat einen Bart
+Scharnier	2	Gelenk der Tür|Drehachse am Deckel
+Treppe	1	Stufenweg nach oben|Aufgang mit Stufen
+Geländer	1	Handlauf an der Treppe|Brüstung
+Leiter	1	Steiggerät mit Sprossen|Chef einer Abteilung
+Balkon	1	Austritt am Haus|Altan
+Giebel	2	Dreieckige Hauswand|Spitze Dachseite
+Balken	1	Kantholz im Dachstuhl|Tragender Holzträger
+Ziegel	1	Gebrannter Baustein|Dachpfanne
+Mörtel	2	Mauerbinder|Kalk-Sand-Gemisch
+Parkett	2	Holzfußboden|Zuschauerraum unten
+Fliese	1	Kachel|Wandplatte im Bad
+Kachel	2	Ofenplatte|Glasierte Wandplatte
+Tapete	1	Wandbelag aus Papier|Raufaser
+Keller	1	Raum unter dem Haus|Untergeschoss
+Dachboden	1	Raum unterm Giebel|Oberstes Lager im Haus
+Kammer	2	Kleiner Raum|Abstellraum
+Küche	1	Raum zum Kochen|Ort des Herdes
+Zimmer	1	Raum im Haus|Hotelraum
+Wohnung	1	Bleibe im Mehrfamilienhaus|Logis
+Garage	1	Unterstand fürs Auto|Stellplatz mit Tor
+Kissen	1	Weiches Polster|Liegt auf dem Sofa
+Polster	2	Weiche Auflage|Sitzfüllung
+Matratze	1	Liegefläche im Bett|Federkernauflage
+Teppich	1	Bodenbelag aus Wolle|Perser
+Vorhang	1	Stoff vor dem Fenster|Bühnenabschluss
+Gardine	1	Durchsichtiger Vorhang|Store
+Jalousie	2	Lamellenrollo|Sonnenschutz mit Lamellen
+Fenster	1	Glasöffnung in der Wand|Scheibe im Rahmen
+Schrank	1	Möbel für Kleider|Kasten mit Türen
+Kommode	2	Schubladenmöbel|Wäscheschrank, halbhoch
+Vitrine	2	Glasschrank|Schaukasten
+Sekretär	3	Schreibschrank|Mitarbeiter im Büro
+Garderobe	2	Kleiderablage im Flur|Umkleide im Theater
+Hocker	1	Sitz ohne Lehne|Barstuhl
+Schemel	2	Fußbank|Lehnenloser Sitz
+Sessel	1	Polsterstuhl|Lehnstuhl
+Hängematte	1	Schaukelbett|Netz zum Liegen
+Leuchter	2	Kerzenständer|Halter für Kerzen
+Laterne	1	Licht im Gehäuse|Licht beim Martinszug
+Schublade	1	Herausziehbares Fach|Lade
+Hammer	1	Werkzeug zum Nageln|Schlagwerkzeug
+Bohrer	1	Werkzeug für Löcher|Spiralstahl
+Raspel	2	Grobe Feile|Holzfeile
+Meißel	2	Werkzeug des Bildhauers|Steinbearbeitungsgerät
+Pinsel	1	Malwerkzeug|Borsten am Stiel
+Zollstock	1	Gliedermaßstab|Klappmeter
+Wasserwaage	1	Libelle des Maurers|Prüft das Lot
+Lineal	1	Messleiste|Strichhilfe
+Zirkel	1	Kreisziehgerät|Gerät für Kreise
+Winkel	1	Ecke, Nische|Gradmaß
+Werkbank	1	Arbeitstisch|Tischlertisch
+Schraube	1	Gewindebolzen|Wird gedreht
+Dübel	1	Halt in der Wand|Spreizhülse
+Spaten	1	Grabwerkzeug|Schaufel mit Blatt
+Schaufel	1	Gerät zum Schippen|Schippe
+Rechen	1	Gerät für Laub|Fanggitter am Wehr
+Kehrblech	1	Schaufel für Schmutz|Dreckschippe
+Lappen	1	Wischtuch|Putztuch
+Staubsauger	1	Saugt Teppiche ab|Elektrischer Sauger
+Bürste	1	Borstengerät|Haarpflegegerät
+Geschirr	1	Teller und Tassen|Pferdezaumzeug
+Besteck	1	Messer, Gabel, Löffel|Essgerät
+Schüssel	1	Salatgefäß|Tiefe Schale
+Tablett	1	Servierbrett|Platte zum Tragen
+Toaster	1	Brotröster|Gerät fürs Frühstück
+Wasserkocher	1	Teekessel, elektrisch|Elektrokessel
+Kessel	2	Großer Kochtopf|Behälter für Dampf
+Untertasse	1	Kleiner Teller|Fliegendes Ufo
+Schürze	1	Kittel ohne Ärmel|Kochkleidung vorn
+Spülmaschine	1	Abwaschautomat|Tellerwäscher-Gerät
+Waschmaschine	1	Wäscheautomat|Gerät für die Wäsche
+Bügeleisen	1	Plätteisen|Glättet Hemden
+Wäsche	1	Kleidung zum Waschen|Unterkleidung
+Heizung	1	Wärmequelle im Haus|Radiator
+Steckdose	1	Stromanschluss|Wandbuchse
+Schalter	1	Lichtknopf|Kippknopf an der Wand
+Glühbirne	1	Leuchtmittel|Lichtbirne
+Mieter	1	Bewohner auf Zeit|Wohnungsnehmer
+Hausmeister	1	Schulwart|Wart des Gebäudes
+Nachbar	1	Anwohner nebenan|Bewohner von gegenüber
+Umzug	1	Wohnungswechsel|Festzug im Karneval
+Hausrat	2	Möbel und Geräte|Inventar der Wohnung
+Möbel	1	Einrichtungsstück|Tisch, Stuhl, Schrank
+Haushalt	1	Wirtschaft im Heim|Staatsetat
+Gerümpel	2	Altes Zeug|Ausgedientes im Keller
+Nippes	3	Kleine Ziergegenstände|Porzellanfigürchen
+kehren	1	Fegen|Umdrehen
+putzen	1	Saubermachen|Reinigen
+spülen	1	Abwaschen|Geschirr säubern
+bügeln	1	Plätten|Wäsche glätten
+lüften	1	Frische Luft hereinlassen|Fenster öffnen
+wohnen	1	Leben, hausen|Daheim sein
+sägen	1	Holz zerteilen|Laut schnarchen
+bohren	1	Löcher machen|Nachhaken, nachfragen
+hobeln	2	Holz glätten|Späne machen
+nageln	1	Mit Stiften befestigen|Stifte einschlagen
+tapezieren	2	Wände bekleben|Raufaser anbringen
+räumen	1	Wegschaffen|Ordnung schaffen
+nähen	1	Mit Nadel arbeiten|Stiche setzen
+ölen	1	Schmieren|Gelenk gängig machen

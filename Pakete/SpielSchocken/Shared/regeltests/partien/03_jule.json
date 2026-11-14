@@ -1,0 +1,1863 @@
+{
+ "name": "03_jule",
+ "beschreibung": "Mit Jule. (Seed 1)",
+ "optionen": {
+  "jule": true
+ },
+ "strategien": [
+  "einfach",
+  "gut",
+  "einfach"
+ ],
+ "beginner": 0,
+ "wuerfel": [
+  2,
+  5,
+  1,
+  3,
+  1,
+  4,
+  4,
+  4,
+  6,
+  4,
+  2,
+  1,
+  4,
+  1,
+  4,
+  4,
+  5,
+  1,
+  6,
+  4,
+  3,
+  6,
+  2,
+  5,
+  1,
+  3,
+  1,
+  1,
+  1,
+  6,
+  5,
+  1,
+  4,
+  6,
+  2,
+  4,
+  6,
+  1,
+  5,
+  2,
+  4,
+  4,
+  5,
+  2,
+  3,
+  2,
+  6,
+  2,
+  4,
+  3,
+  1,
+  4,
+  5,
+  6,
+  1,
+  2,
+  6,
+  6,
+  3,
+  1,
+  6,
+  3,
+  6,
+  6,
+  5,
+  4,
+  5,
+  6,
+  2,
+  3,
+  3,
+  5,
+  4,
+  5,
+  4,
+  5,
+  1,
+  4,
+  2,
+  6,
+  4,
+  4,
+  6,
+  2,
+  3,
+  5,
+  6,
+  6,
+  6,
+  3,
+  1,
+  4,
+  6,
+  5,
+  1,
+  2,
+  5,
+  4,
+  3,
+  4,
+  6,
+  1,
+  4,
+  1,
+  3,
+  6,
+  5,
+  5,
+  5,
+  4,
+  6,
+  2,
+  2,
+  5,
+  2,
+  1,
+  2,
+  5,
+  5,
+  2,
+  4,
+  5,
+  3,
+  5,
+  3,
+  4,
+  3,
+  6,
+  5,
+  5,
+  6,
+  1,
+  4,
+  6,
+  5,
+  2,
+  5,
+  5,
+  2,
+  4,
+  1,
+  4,
+  3,
+  5,
+  5,
+  2,
+  5,
+  4,
+  4,
+  3,
+  4,
+  3,
+  1,
+  5,
+  5,
+  5,
+  5,
+  3,
+  4,
+  5,
+  1,
+  2,
+  6,
+  2,
+  5,
+  5,
+  2,
+  1,
+  5,
+  3,
+  1,
+  6,
+  1,
+  1,
+  1,
+  4,
+  1,
+  3,
+  2,
+  3,
+  1,
+  5,
+  2,
+  3,
+  3,
+  1,
+  2,
+  2,
+  3,
+  5,
+  2,
+  6,
+  3,
+  6,
+  6,
+  3,
+  4,
+  6,
+  3,
+  4,
+  4,
+  1,
+  1,
+  3,
+  4,
+  3,
+  4,
+  2,
+  3,
+  1,
+  3,
+  6,
+  5,
+  2,
+  5,
+  4,
+  1,
+  2,
+  1,
+  4,
+  2,
+  1,
+  6,
+  2,
+  4,
+  6,
+  5,
+  6,
+  4,
+  5,
+  2,
+  6,
+  6,
+  5,
+  4,
+  2,
+  5,
+  6,
+  1,
+  4,
+  6,
+  5,
+  3,
+  6,
+  6,
+  4,
+  1,
+  6,
+  3,
+  2,
+  2,
+  1,
+  3,
+  1,
+  1,
+  3,
+  3,
+  6,
+  2,
+  4,
+  5,
+  3,
+  2,
+  1,
+  5,
+  1,
+  5,
+  2,
+  5,
+  4,
+  2
+ ],
+ "erwartet": {
+  "verlierer": 0,
+  "haelften": [
+   {
+    "spieler": [
+     0,
+     1,
+     2
+    ],
+    "beginner": 0,
+    "verlierer": 1,
+    "runden": [
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         3,
+         1,
+         1
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 3,
+         "deckel": 3
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         6,
+         4,
+         2
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 642,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 2,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         4,
+         1,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 4,
+         "deckel": 4
+        }
+       }
+      ],
+      "verlierer": 1,
+      "gewinner": 2,
+      "deckel": 4,
+      "ausStock": true,
+      "stock": 9,
+      "stand": [
+       0,
+       4,
+       0
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 1,
+      "zuege": [
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         6,
+         3,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 631,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 2,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         3,
+         1,
+         1
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 3,
+         "deckel": 3
+        }
+       },
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         6,
+         1,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 6,
+         "deckel": 6
+        }
+       }
+      ],
+      "verlierer": 1,
+      "gewinner": 0,
+      "deckel": 6,
+      "ausStock": true,
+      "stock": 3,
+      "stand": [
+       0,
+       10,
+       0
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 1,
+      "zuege": [
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         6,
+         4,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 641,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 2,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         5,
+         2,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 521,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         6,
+         3,
+         2
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 632,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 2,
+      "gewinner": 1,
+      "deckel": 1,
+      "ausStock": true,
+      "stock": 2,
+      "stand": [
+       0,
+       10,
+       1
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 2,
+      "zuege": [
+       {
+        "spieler": 2,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         4,
+         3,
+         2
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "strasse",
+         "hoehe": 4,
+         "deckel": 2
+        }
+       },
+       {
+        "spieler": 0,
+        "aktionen": [],
+        "wuerfel": [
+         5,
+         4,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 541,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [],
+        "wuerfel": [
+         6,
+         2,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 621,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 2,
+      "deckel": 2,
+      "ausStock": true,
+      "stock": 0,
+      "stand": [
+       2,
+       10,
+       1
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         6,
+         6,
+         3
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 663,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [],
+        "wuerfel": [
+         6,
+         3,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 631,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 2,
+        "aktionen": [],
+        "wuerfel": [
+         6,
+         6,
+         5
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 665,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 1,
+      "gewinner": 2,
+      "deckel": 1,
+      "ausStock": false,
+      "stock": 0,
+      "stand": [
+       2,
+       11,
+       0
+      ],
+      "raus": [
+       2
+      ]
+     },
+     {
+      "beginner": 1,
+      "zuege": [
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         6,
+         5,
+         4
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "strasse",
+         "hoehe": 6,
+         "deckel": 2
+        }
+       },
+       {
+        "spieler": 0,
+        "aktionen": [],
+        "wuerfel": [
+         3,
+         3,
+         2
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 332,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 2,
+      "ausStock": false,
+      "stock": 0,
+      "stand": [
+       4,
+       9,
+       0
+      ],
+      "raus": [
+       2
+      ]
+     },
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         4,
+         2,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "jule",
+         "hoehe": 0,
+         "deckel": 7
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         6,
+         6,
+         5
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 665,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 1,
+      "gewinner": 0,
+      "deckel": 4,
+      "ausStock": false,
+      "stock": 0,
+      "stand": [
+       0,
+       13,
+       0
+      ],
+      "raus": [
+       0,
+       2
+      ]
+     }
+    ]
+   },
+   {
+    "spieler": [
+     0,
+     1,
+     2
+    ],
+    "beginner": 1,
+    "verlierer": 0,
+    "runden": [
+     {
+      "beginner": 1,
+      "zuege": [
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         5,
+         1,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 5,
+         "deckel": 5
+        }
+       },
+       {
+        "spieler": 2,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         4,
+         1,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 4,
+         "deckel": 4
+        }
+       },
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         6,
+         2,
+         2
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 622,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 5,
+      "ausStock": true,
+      "stock": 8,
+      "stand": [
+       5,
+       0,
+       0
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         5,
+         2,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 521,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         5,
+         4,
+         3
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "strasse",
+         "hoehe": 5,
+         "deckel": 2
+        }
+       },
+       {
+        "spieler": 2,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         5,
+         4,
+         3
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "strasse",
+         "hoehe": 5,
+         "deckel": 2
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 2,
+      "ausStock": true,
+      "stock": 6,
+      "stand": [
+       7,
+       0,
+       0
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         6,
+         5,
+         3
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 653,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [],
+        "wuerfel": [
+         6,
+         5,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 651,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 2,
+        "aktionen": [],
+        "wuerfel": [
+         6,
+         5,
+         4
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "strasse",
+         "hoehe": 6,
+         "deckel": 2
+        }
+       }
+      ],
+      "verlierer": 1,
+      "gewinner": 2,
+      "deckel": 2,
+      "ausStock": true,
+      "stock": 4,
+      "stand": [
+       7,
+       2,
+       0
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 1,
+      "zuege": [
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         4,
+         2,
+         1
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "jule",
+         "hoehe": 0,
+         "deckel": 7
+        }
+       },
+       {
+        "spieler": 2,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         5,
+         5,
+         2
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 552,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         4,
+         3,
+         1
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 431,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 4,
+      "ausStock": true,
+      "stock": 0,
+      "stand": [
+       11,
+       2,
+       0
+      ],
+      "raus": [
+       2
+      ]
+     },
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         5,
+         5,
+         5
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "general",
+         "hoehe": 5,
+         "deckel": 3
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [],
+        "wuerfel": [
+         5,
+         4,
+         3
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "strasse",
+         "hoehe": 5,
+         "deckel": 2
+        }
+       }
+      ],
+      "verlierer": 1,
+      "gewinner": 0,
+      "deckel": 3,
+      "ausStock": false,
+      "stock": 0,
+      "stand": [
+       8,
+       5,
+       0
+      ],
+      "raus": [
+       2
+      ]
+     },
+     {
+      "beginner": 1,
+      "zuege": [
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         5,
+         5,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 551,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         3,
+         1,
+         1
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 3,
+         "deckel": 3
+        }
+       }
+      ],
+      "verlierer": 1,
+      "gewinner": 0,
+      "deckel": 3,
+      "ausStock": false,
+      "stock": 0,
+      "stand": [
+       5,
+       8,
+       0
+      ],
+      "raus": [
+       2
+      ]
+     },
+     {
+      "beginner": 1,
+      "zuege": [
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         6,
+         1,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 6,
+         "deckel": 6
+        }
+       },
+       {
+        "spieler": 0,
+        "aktionen": [],
+        "wuerfel": [
+         4,
+         1,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 4,
+         "deckel": 4
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 6,
+      "ausStock": false,
+      "stock": 0,
+      "stand": [
+       11,
+       2,
+       0
+      ],
+      "raus": [
+       2
+      ]
+     },
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         3,
+         3,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 331,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         5,
+         3,
+         2
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 532,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 1,
+      "ausStock": false,
+      "stock": 0,
+      "stand": [
+       12,
+       1,
+       0
+      ],
+      "raus": [
+       2
+      ]
+     },
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         6,
+         6,
+         3
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 663,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [],
+        "wuerfel": [
+         6,
+         4,
+         3
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 643,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 1,
+      "gewinner": 0,
+      "deckel": 1,
+      "ausStock": false,
+      "stock": 0,
+      "stand": [
+       11,
+       2,
+       0
+      ],
+      "raus": [
+       2
+      ]
+     },
+     {
+      "beginner": 1,
+      "zuege": [
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1,
+           1
+          ],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         3,
+         1,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 3,
+         "deckel": 3
+        }
+       },
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         6,
+         3,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 631,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 2,
+      "ausStock": false,
+      "stock": 0,
+      "stand": [
+       13,
+       0,
+       0
+      ],
+      "raus": [
+       1,
+       2
+      ]
+     }
+    ]
+   },
+   {
+    "spieler": [
+     0,
+     1
+    ],
+    "beginner": 0,
+    "verlierer": 0,
+    "runden": [
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         4,
+         2,
+         1
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "jule",
+         "hoehe": 0,
+         "deckel": 7
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         4,
+         2,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "jule",
+         "hoehe": 0,
+         "deckel": 7
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 7,
+      "ausStock": true,
+      "stock": 6,
+      "stand": [
+       7,
+       0
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         6,
+         5,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 651,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         6,
+         6,
+         5
+        ],
+        "wuerfe": 2,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 665,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 1,
+      "ausStock": true,
+      "stock": 5,
+      "stand": [
+       8,
+       0
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         6,
+         5,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 651,
+         "deckel": 1
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         6,
+         6,
+         3
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "zahl",
+         "hoehe": 663,
+         "deckel": 1
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 1,
+      "ausStock": true,
+      "stock": 4,
+      "stand": [
+       9,
+       0
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         2,
+         1,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 2,
+         "deckel": 2
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "stehen"
+         }
+        ],
+        "wuerfel": [
+         3,
+         1,
+         1
+        ],
+        "wuerfe": 1,
+        "wertung": {
+         "art": "schock",
+         "hoehe": 3,
+         "deckel": 3
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 3,
+      "ausStock": true,
+      "stock": 1,
+      "stand": [
+       12,
+       0
+      ],
+      "raus": []
+     },
+     {
+      "beginner": 0,
+      "zuege": [
+       {
+        "spieler": 0,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         3,
+         2,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "strasse",
+         "hoehe": 3,
+         "deckel": 2
+        }
+       },
+       {
+        "spieler": 1,
+        "aktionen": [
+         {
+          "typ": "weiter",
+          "herauslegen": [
+           1
+          ],
+          "umdrehen": 0
+         },
+         {
+          "typ": "weiter",
+          "herauslegen": [],
+          "umdrehen": 0
+         }
+        ],
+        "wuerfel": [
+         4,
+         2,
+         1
+        ],
+        "wuerfe": 3,
+        "wertung": {
+         "art": "jule",
+         "hoehe": 0,
+         "deckel": 7
+        }
+       }
+      ],
+      "verlierer": 0,
+      "gewinner": 1,
+      "deckel": 1,
+      "ausStock": true,
+      "stock": 0,
+      "stand": [
+       13,
+       0
+      ],
+      "raus": [
+       1
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

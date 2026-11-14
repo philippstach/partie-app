@@ -1,0 +1,705 @@
+{
+ "beschreibung": "tap_target(start, quelle, anzahl): Zug oder null (Karte wackelt). 1. Ziel (nur 1 Karte, nicht vom Ziel), 2. Spalte mit passender Karte ab rechts neben der Quelle ringsum (vom Ziel ab S0), 3. leere Spalte nur für König – nicht, wenn er schon allein ganz unten liegt.",
+ "faelle": [
+  {
+   "titel": "Ass: Ziel vor Spalte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "AH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "Spalte rechts neben der Quelle zuerst",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "S3",
+   "anzahl": 1,
+   "zug": {
+    "von": "S3",
+    "nach": "S5",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "ringsum: nach S6 weiter bei S0",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "S5",
+   "anzahl": 1,
+   "zug": {
+    "von": "S5",
+    "nach": "S1",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "Gruppe (3 Karten, unten Ass): kein Ziel, sondern Spalte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "AH",
+       "9C",
+       "3D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "S0",
+   "anzahl": 3,
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 3
+   }
+  },
+  {
+   "titel": "Gruppe ohne Reihenfolge auf passende Karte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "4C"
+      ],
+      "offen": [
+       "7H",
+       "2S",
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "8C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "S0",
+   "anzahl": 3,
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 3
+   }
+  },
+  {
+   "titel": "König samt Gruppe in leere Spalte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "3D"
+      ],
+      "offen": [
+       "KS",
+       "4H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "S0",
+   "anzahl": 2,
+   "zug": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 2
+   }
+  },
+  {
+   "titel": "König allein ganz unten: wackelt",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "4H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "S0",
+   "anzahl": 2,
+   "zug": null
+  },
+  {
+   "titel": "passt nirgends: wackelt",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": null
+  },
+  {
+   "titel": "Dame und leere Spalte: wackelt (nur König)",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": null
+  },
+  {
+   "titel": "vom Ziel: Spalte ab S0",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     5,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "Z1",
+   "anzahl": 1,
+   "zug": {
+    "von": "Z1",
+    "nach": "S1",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "vom Ziel: König in leere Spalte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     13
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "Z3",
+   "anzahl": 1,
+   "zug": {
+    "von": "Z3",
+    "nach": "S1",
+    "anzahl": 1
+   }
+  },
+  {
+   "titel": "mehr Karten als offen: wackelt",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "5D"
+      ],
+      "offen": [
+       "4S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "S0",
+   "anzahl": 2,
+   "zug": null
+  },
+  {
+   "titel": "verdeckte Karte darunter zählt nicht als leer",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [
+       "8C"
+      ],
+      "offen": [
+       "4S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "quelle": "S0",
+   "anzahl": 1,
+   "zug": null
+  }
+ ]
+}

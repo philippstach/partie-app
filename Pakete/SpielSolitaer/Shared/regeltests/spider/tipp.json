@@ -1,0 +1,747 @@
+{
+ "beschreibung": "hint(start) oder null; festgefahren = is_stuck(start).",
+ "faelle": [
+  {
+   "titel": "1: deckt auf, gleiche Farbe bevorzugt",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [
+       "3C"
+      ],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "2: auf gleiche Farbe, wenn sie dort noch nicht liegt",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9S",
+       "8D",
+       "7H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "8H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "2: liegt schon auf gleicher Farbe → nicht",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "8H",
+       "7H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "8D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "3: von unpassender Karte weg",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "7H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "8C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "4: in leere Spalte, wenn aufgedeckt wird",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [
+       "3C"
+      ],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "5: austeilen",
+   "start": {
+    "farben": 4,
+    "stapel": [
+     "3S",
+     "4S",
+     "5S",
+     "5H",
+     "6H",
+     "7H",
+     "8D",
+     "9D",
+     "TD",
+     "JC"
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2H"
+      ]
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "tipp": {
+    "von": "stapel"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "6: leere Spalte füllen, damit man austeilen kann",
+   "start": {
+    "farben": 4,
+    "stapel": [
+     "3S",
+     "4S",
+     "5S",
+     "5H",
+     "6H",
+     "7H",
+     "8D",
+     "9D",
+     "TD",
+     "JC"
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "2D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S9",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "festgefahren",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2H"
+      ]
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "2: räumt keine Spalte leer, solange der Stapel nicht leer ist (sonst pendelt der Tipp mit 6) → austeilen",
+   "start": {
+    "farben": 4,
+    "stapel": [
+     "3S",
+     "4S",
+     "5S",
+     "5H",
+     "6H",
+     "7H",
+     "8D",
+     "9D",
+     "TD",
+     "JC"
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "AS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "3H",
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9D"
+      ]
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "tipp": {
+    "von": "stapel"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "2: Stapel leer → Spalte leer räumen ist erlaubt",
+   "start": {
+    "farben": 4,
+    "stapel": [],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "AS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "3H",
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9D"
+      ]
+     }
+    ],
+    "fertig": [],
+    "punkte": 500,
+    "zuege": 0,
+    "ausgeteilt": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  }
+ ]
+}

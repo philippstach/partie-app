@@ -1,0 +1,13 @@
+{
+ "name": "02_alle_fuenf_weiter_und_strasse",
+ "beschreibung": "Alle 5 rausgelegt: mit allen 5 weiter, Straße im vollen Wurf zählt. Danach Angebot mit allen 5.",
+ "rules": {},
+ "players": ["Anna", "Ben"],
+ "dice": [1, 1, 1, 5, 5, 2, 3, 4, 5, 6],
+ "steps": [
+  {"action": {"type": "roll", "keep": []}},
+  {"action": {"type": "roll", "keep": [0, 1, 2, 3, 4]}, "expect": {"turn": {"dice": [2, 3, 4, 5, 6], "locked": [false, false, false, false, false], "banked": 1100, "fullThrow": true}}},
+  {"action": {"type": "bank", "keep": [0, 1, 2, 3, 4]}, "expect": {"scores": [2100, 0], "current": 1, "offer": {"from": 0, "points": 2100, "dice": [2, 3, 4, 5, 6], "kept": [false, false, false, false, false]}}}
+ ],
+ "expected": {"scores": [2100, 0], "current": 1, "winners": [], "canUndo": true, "log": [[0, 2100, 0]]}
+}

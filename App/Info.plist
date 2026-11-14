@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>de.philippstach.partie</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>partie</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_partie-wuerfel._tcp</string>
+		<string>_partie-wuerfel._udp</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Die Kamera erkennt live die Augen deiner echten Würfel. Die Bilder bleiben auf deinem Gerät und werden nicht gesendet. Gespeichert werden sie nur, wenn du in den Einstellungen die Lern-Aufnahme einschaltest.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Face ID schützt den Kinder-Modus, damit Kinder ihn nicht selbst ausschalten.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Partie verbindet dein iPhone und dein iPad direkt miteinander, damit ein Gerät als Würfelscanner dienen kann. Es werden nur die Augen der Würfel übertragen, keine Bilder.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Über das Mikrofon kannst du die Augen deiner echten Würfel ansagen. Der Ton wird auf deinem Gerät ausgewertet und weder gespeichert noch gesendet.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Die Spracherkennung versteht die angesagten Augenzahlen. Sie läuft auf deinem Gerät, es wird nichts gesendet.</string>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+	<key>UILaunchScreen</key>
+	<dict/>
+</dict>
+</plist>

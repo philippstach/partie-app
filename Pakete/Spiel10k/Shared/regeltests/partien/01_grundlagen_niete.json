@@ -1,0 +1,22 @@
+{
+ "name": "01_grundlagen_niete",
+ "beschreibung": "Würfeln, rauslegen, aufhören, Übernahme ablehnen, Niete. Dazu ungültige Aktionen.",
+ "rules": {},
+ "players": ["Anna", "Ben"],
+ "dice": [1, 2, 3, 3, 6, 5, 2, 2, 4, 2, 3, 4, 6, 6],
+ "steps": [
+  {"action": {"type": "roll", "keep": [0]}, "error": true},
+  {"action": {"type": "bank", "keep": []}, "error": true},
+  {"action": {"type": "points", "points": 100}, "error": true},
+  {"action": {"type": "roll", "keep": []}, "expect": {"turn": {"dice": [1, 2, 3, 3, 6], "hasRolled": true, "fullThrow": true, "banked": 0}}},
+  {"action": {"type": "roll", "keep": []}, "error": true},
+  {"action": {"type": "roll", "keep": [0, 1]}, "error": true},
+  {"action": {"type": "roll", "keep": [0]}, "expect": {"turn": {"dice": [1, 5, 2, 2, 4], "locked": [true, false, false, false, false], "banked": 100, "fullThrow": false}}},
+  {"action": {"type": "roll", "keep": [0]}, "error": true},
+  {"action": {"type": "bank", "keep": [1]}, "expect": {"current": 1, "scores": [150, 0], "turn": {"hasRolled": false, "banked": 0}, "offer": {"from": 0, "points": 150, "dice": [1, 5, 2, 2, 4], "kept": [true, true, false, false, false]}}},
+  {"action": {"type": "roll", "keep": []}, "error": true},
+  {"action": {"type": "declineOffer"}, "expect": {"offer": null, "current": 1}},
+  {"action": {"type": "roll", "keep": []}, "expect": {"log": [[0, 150, 0], [1, 0, 0]], "current": 0, "offer": null}}
+ ],
+ "expected": {"current": 0, "scores": [150, 0], "winners": [], "offer": null, "tiebreak": null, "canUndo": false, "players": [{"streak": 0, "mackes": 0, "bestTurn": 150, "turns": 1}, {"streak": 1, "mackes": 1, "bestTurn": 0, "turns": 1}], "log": [[0, 150, 0], [1, 0, 0]], "timeline": [[0, 0], [150, 0], [150, 0]]}
+}

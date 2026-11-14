@@ -1,0 +1,515 @@
+# 018 Geschichte, Adel, Mittelalter – geschrieben von Claude
+Knappe	1	Junger Diener eines Ritters|Ritter in Ausbildung
+Schwert	1	Hieb- und Stichwaffe|Waffe mit langer Klinge
+Schild	1	Schutz vor Hieb und Pfeil|Am Arm getragener Schutz
+Rüstung	1	Panzer des Ritters|Schutz aus Metall am Körper
+Visier	2	Klappbarer Gesichtsschutz|Am Helm hochzuklappen
+Kettenhemd	2	Panzer aus Metallringen|Geflochtener Ringpanzer
+Tjost	3	Lanzenkampf zu Pferd|Zweikampf im Turnier
+Wappen	1	Zeichen eines Adelsgeschlechts|Bild auf dem Schild
+Banner	2	Fahne des Heeres|Fahne am Querholz
+Burggraben	1	Wasser rings um die Festung|Hindernis vor der Ringmauer
+Zugbrücke	1	Hochziehbarer Burgzugang|Brücke an Ketten
+Fallgitter	2	Herablassbares Torgitter|Eisengitter im Burgtor
+Bergfried	2	Hauptturm einer Burg|Letzte Zuflucht in der Burg
+Palas	3	Wohnbau einer Burg|Saalbau der Ritterburg
+Burghof	2	Freifläche in der Festung|Innenhof einer Ritterfeste
+Kemenate	3	Beheizbarer Burgraum|Frauengemach auf der Burg
+Verlies	2	Kerker im Burgturm|Finsteres Gefängnis
+Wehrgang	2	Laufgang auf der Mauer|Gang hinter den Zinnen
+Pechnase	3	Erker zum Ausgießen|Gusserker an der Burgmauer
+Schießscharte	2	Schmale Maueröffnung|Schlitz für Bogenschützen
+Torhaus	3	Bau über der Einfahrt|Gesicherter Burgzugang
+Vorburg	3	Äußerer Burgbereich|Wirtschaftshof vor der Burg
+Zwinger	3	Raum zwischen zwei Mauern|Dresdner Barockbau
+Festung	1	Bollwerk, Zitadelle|Wehranlage
+Zitadelle	2	Kernfestung einer Stadt|Befestigtes Stadtbollwerk
+Bastion	2	Vorspringendes Bollwerk|Festungsbau mit Spitze
+Bollwerk	2	Befestigung, Bastion|Starker Schutzwall
+Palast	1	Prächtiger Herrschersitz|Prunkvolles Schloss
+Kaiserpfalz	3	Reisesitz alter Herrscher|Pfalz des Reichsoberhaupts
+Residenz	2	Sitz eines Fürsten|Amtssitz des Herrschers
+Hofstaat	2	Gefolge am Fürstenhof|Gesamtheit der Höflinge
+Königin	1	Frau auf dem Thron|Stärkste Schachfigur
+Kaiserin	1	Gattin des Imperators|Sissi war eine
+Prinzessin	1	Königstochter|Tochter des Monarchen
+Herzogin	2	Adelige über dem Grafenrang|Duchess auf Deutsch
+Gräfin	2	Adelige im Rang des Grafen|Frau des Grafen
+Fürstin	2	Gattin des Landesherrn|Gracia Patricia war eine
+Baronin	2	Freifrau|Adelige mit Freiherrentitel
+Markgraf	2	Herr einer Grenzprovinz|Adeliger an der Reichsgrenze
+Landgraf	3	Titel in Hessen und Thüringen|Adelstitel über dem Grafen
+Pfalzgraf	3	Verwalter eines Königssitzes|Adelstitel bei Rhein
+Kurfürst	2	Wähler des Königs|Fürst mit Wahlrecht
+Burgherr	2	Besitzer einer Festung|Herr auf der Ritterfeste
+Burgfräulein	2	Edle Dame im Rittersaal|Junge Adelige auf der Feste
+Edelfrau	3	Adelige Dame|Frau von Stand
+Edelmann	2	Adeliger Herr|Mann von Stand
+Adel	1	Vornehmer Stand|Graf, Fürst und Baron
+Adliger	2	Angehöriger des Adels|Mann mit Titel
+Junker	2	Junger Adeliger|Gutsbesitzer in Preußen
+Lehen	2	Verliehenes Land|Gut auf Zeit vom Lehnsherrn
+Lehnsherr	2	Gibt Land an Vasallen|Oberherr im Feudalwesen
+Vasall	2	Lehnsmann|Abhängiger Gefolgsmann
+Leibeigener	2	Unfreier Bauer|Hörigkeit war sein Los
+Höriger	3	An die Scholle gebundener|Unfreier Bauer
+Frondienst	2	Pflichtarbeit für den Herrn|Unbezahlte Arbeit der Bauern
+Zehnt	2	Abgabe an Kirche und Herrn|Pflichtteil der Ernte
+Abgabe	2	Steuer, Zins|Pflichtzahlung
+Kogge	2	Schiff der Hanse|Dickbauchiges Segelschiff
+Pilger	1	Wallfahrer|Reisender aus Glaubensgrund
+Pilgerfahrt	2	Wallfahrt|Reise nach Santiago
+Kreuzzug	2	Feldzug ins Heilige Land|Kriegszug nach Jerusalem
+Kreuzritter	2	Kämpfer im Heiligen Land|Ritter vor Jerusalem
+Templer	2	Ritterorden in Jerusalem|1312 aufgelöster Orden
+Johanniter	2	Ritterorden, heute Hilfsdienst|Orden mit Malteserkreuz
+Ordensritter	2	Mönch und Kämpfer zugleich|Templer oder Johanniter
+Äbtissin	2	Vorsteherin eines Klosters|Oberin eines Frauenklosters
+Kloster	1	Wohnstätte von Mönchen|Abtei, Konvent
+Abtei	2	Kloster unter einem Abt|Stift, Kloster
+Bischof	1	Hoher Geistlicher|Träger von Mitra und Stab
+Erzbischof	2	Oberhirte einer Kirchenprovinz|Ranghöchster Bischof
+Papst	1	Oberhaupt der kath. Kirche|Bischof von Rom
+Kardinal	2	Wählt den Papst|Kirchenfürst in Purpur
+Truchsess	3	Hofbeamter für die Tafel|Vorsteher der Hofküche
+Mundschenk	3	Hofbeamter für Getränke|Reicht dem König den Becher
+Marschall	2	Hoher Offizier|Hofbeamter für die Pferde
+Vogt	2	Verwalter im Auftrag des Herrn|Schirmherr eines Klosters
+Schultheiß	3	Dorfvorsteher früher|Alter Gemeindevorsteher
+Büttel	3	Gerichtsdiener|Ordnungshüter früher
+Pranger	2	Schandpfahl|Ort der öffentlichen Schmach
+Galgen	2	Gerüst zum Hängen|Hinrichtungsgerüst
+Kerker	1	Verlies|Altes Gefängnis
+Folter	2	Peinliche Befragung|Qual zur Erpressung
+Hexenprozess	2	Gerichtsverfahren gegen Frauen|Verfahren mit Scheiterhaufen
+Inquisition	2	Glaubensgericht der Kirche|Verfolgung von Ketzern
+Ketzer	2	Abweichler vom Glauben|Häretiker
+Bann	2	Ausschluss aus der Kirche|Ächtung
+Acht	3	Friedlosigkeit früher|In die ... erklärt werden
+Minne	3	Höfische Liebe|Verehrung einer edlen Dame
+Minnesang	3	Höfische Liebeslyrik|Kunst Walthers
+Spielmann	2	Fahrender Musikant|Mittelalterlicher Sänger
+Gaukler	2	Fahrender Künstler|Jongleur auf dem Markt
+Hofnarr	1	Spaßmacher des Königs|Narr mit Schellenkappe
+Chronik	2	Geschichtliche Aufzeichnung|Jahrbuch der Ereignisse
+Chronist	2	Geschichtsschreiber|Verfasser von Jahrbüchern
+Urkunde	2	Amtliches Dokument|Schriftlicher Beweis
+Siegel	2	Abdruck im Wachs|Stempel auf Briefen
+Pergament	2	Beschreibstoff aus Tierhaut|Vorgänger des Papiers
+Schreiber	2	Mönch im Skriptorium|Kopist alter Bücher
+Bibliothek	1	Bücherei|Büchersammlung
+Skriptorium	3	Schreibstube im Kloster|Raum der Buchmaler
+Mittelalter	1	Zeit der Ritter und Burgen|Epoche von 500 bis 1500
+Altertum	2	Antike|Zeit der Römer und Griechen
+Antike	2	Altertum|Zeit von Rom und Athen
+Neuzeit	2	Epoche ab etwa 1500|Zeit nach dem Mittelalter
+Renaissance	2	Wiedergeburt der Antike|Epoche Leonardos
+Reformation	2	Kirchenerneuerung Luthers|Beginn: 1517
+Aufklärung	2	Epoche der Vernunft|Zeitalter Kants
+Revolution	2	Umsturz|Gewaltsamer Machtwechsel
+Epoche	2	Zeitabschnitt|Zeitalter, Ära
+Zeitalter	2	Epoche, Ära|Lange Geschichtsperiode
+Dynastie	2	Herrscherhaus|Herrscherfamilie
+Monarchie	2	Königsherrschaft|Staat mit Krone
+Kaiserreich	2	Imperium|Deutschland 1871 bis 1918
+Imperium	2	Weltreich|Herrschaftsbereich
+Königreich	1	Staat mit gekröntem Herrscher|Staat mit Monarchen
+Herzogtum	2	Fürstliches Territorium|Braunschweig einst
+Grafschaft	2	Gebiet eines Adelsherrn|Englischer Verwaltungsbezirk
+Fürstentum	2	Monaco oder Liechtenstein|Gebiet eines Landesherrn
+Zepter	2	Herrscherstab|Zeichen der Macht
+Reichsapfel	2	Goldkugel mit Kreuz|Herrschaftszeichen
+Purpur	2	Farbe der Herrscher|Kostbarer roter Farbstoff
+Krönung	1	Feierliche Thronbesteigung|Aufsetzen der Krone
+Salbung	3	Weihe mit heiligem Öl|Teil der Königsweihe
+Regent	2	Herrscher|Vertritt den unmündigen König
+Regentin	2	Herrscherin|Vertreterin des jungen Königs
+Herrscher	1	Regent, Machthaber|Monarch
+Herrscherin	1	Regentin|Königin, Kaiserin
+Monarch	2	König, Kaiser|Herrscher auf Lebenszeit
+Zarin	2	Russische Kaiserin|Katharina die Große war eine
+Maharadscha	3	Indischer Großfürst|Titel indischer Herrscher
+Tenno	3	Japanischer Kaiser|Himmlischer Herrscher Japans
+Wikinger	1	Nordmann|Seefahrer aus Skandinavien
+Normanne	2	Wikinger|Eroberer Englands 1066
+Germane	2	Angehöriger alter Nordvölker|Cherusker oder Sueben
+Gote	2	Germane wie Theoderich|Volk Alarichs
+Langobarde	3	Germane in Oberitalien|Volk Alboins
+Vandale	2	Germane in Nordafrika|Zerstörungswütiger Mensch
+Triumphbogen	2	Torbau für Sieger|Bauwerk in Paris
+Sklave	2	Unfreier Mensch|Leibeigener im Altertum
+Sklaverei	2	Menschen als Eigentum|Abgeschafftes Unrecht
+Plebejer	3	Einfacher Bürger in Rom|Nichtadeliger Römer
+Feldherr	2	Heerführer|Befehlshaber im Krieg
+Heer	1	Armee|Truppe auf dem Land
+Söldner	2	Bezahlter Kämpfer|Landsknecht
+Landsknecht	2	Fußsoldat um 1500|Söldner der Frühneuzeit
+Musketier	2	Athos, Porthos, Aramis|Soldat mit Vorderlader
+Hellebarde	2	Stangenwaffe mit Beil|Waffe der Schweizergarde
+Armbrust	1	Waffe Wilhelm Tells|Bolzen verschießende Waffe
+Katapult	1	Schleuder für Steine|Wurfmaschine
+Rammbock	2	Balken gegen Tore|Belagerungsgerät
+Belagerung	2	Einschließen einer Stadt|Ringen um eine Festung
+Schlacht	1	Großes Gefecht|Kampf zweier Heere
+Feldzug	2	Kriegszug|Militärischer Vorstoß
+Frieden	1	Ende des Krieges|Zustand ohne Krieg
+Bündnis	2	Allianz|Pakt zwischen Staaten
+Allianz	2	Bündnis|Zusammenschluss von Mächten
+Bürgerkrieg	2	Krieg im eigenen Land|Innerer Krieg
+Aufstand	2	Erhebung, Revolte|Rebellion
+Bauernkrieg	2	Erhebung von 1525|Aufstand der Landleute
+Revolte	2	Aufruhr|Erhebung
+Rebell	2	Aufständischer|Aufrührer
+Keilschrift	2	Schrift der Sumerer|Zeichen auf Tontafeln
+Runen	2	Schriftzeichen der Germanen|Futhark-Zeichen
+Faustkeil	2	Werkzeug der Steinzeit|Behauener Feuerstein
+Steinzeit	1	Frühe Menschheitsepoche|Zeit vor der Bronze
+Bronzezeit	2	Epoche nach der Steinzeit|Zeit von Kupfer und Zinn
+Eisenzeit	2	Epoche nach der Bronze|Zeit der Kelten
+Höhlenmalerei	2	Bilder in Lascaux|Steinzeitliche Wandkunst
+Neandertaler	1	Urmensch|Frühmensch aus dem Düsseltal
+Hünengrab	2	Großsteingrab|Megalithgrab im Norden
+Dolmen	3	Großsteingrab|Tischförmiges Steingrab
+Menhir	2	Aufrecht stehender Stein|Obelix trägt einen
+Steinkreis	2	Stonehenge zum Beispiel|Ring aus Megalithen
+Hügelgrab	2	Grab unter Erdhaufen|Tumulus
+Ausgrabung	2	Arbeit der Archäologen|Freilegung alter Funde
+Archäologe	2	Altertumsforscher|Ausgräber
+Archäologie	2	Altertumskunde|Wissenschaft der Ausgräber
+Historiker	2	Geschichtsforscher|Kenner der Vergangenheit
+Geschichte	1	Schulfach über Vergangenes|Historie
+Museum	1	Ausstellungshaus|Ort für Exponate
+Relikt	2	Überbleibsel|Rest aus alter Zeit
+Reliquie	2	Überrest eines Heiligen|Heiliges Andenken
+Schatz	1	Wertvoller Fund|Kostbarer Besitz
+Gulden	2	Alte Goldmünze|Frühere Münze der Niederlande
+Dukaten	2	Alte Goldmünze|Münze aus Venedig
+Heller	2	Alte kleine Münze|Auf ... und Pfennig
+Pfennig	1	Hundertstel der Mark|Früheres Kleingeld
+Groschen	1	Alte Münze, Zehnpfennigstück|Der ... ist gefallen
+Kreuzer	3	Alte süddeutsche Münze|Kriegsschiff
+Silberling	3	Alte Münze aus Edelmetall|Judaslohn
+Marktrecht	3	Recht auf Handelstage|Privileg einer Stadt
+Stadtrecht	2	Privileg einer Gemeinde|Verleihung durch den Fürsten
+Stadtmauer	1	Befestigung des Ortes|Wall mit Toren
+Stadttor	1	Holstentor ist eines|Durchgang im Ringwall
+Marktplatz	1	Zentraler Platz im Ort|Ort des Handels
+Bürger	1	Einwohner einer Stadt|Staatsangehöriger
+Patrizierhaus	3	Haus reicher Kaufleute|Prächtiges Bürgerhaus
+Fachwerk	2	Holzgerüst eines Hauses|Bauweise mit Balken
+Kathedrale	2	Bischofskirche|Dom
+Kreuzgang	2	Klosterumgang|Arkadengang am Dom
+Gotik	2	Baustil mit Spitzbögen|Stil des Kölner Doms
+Romanik	2	Baustil mit Rundbögen|Stil vor der Gotik
+Burgruine	1	Verfallene Festung|Rest einer Ritterfeste
+Ruine	1	Verfallenes Bauwerk|Trümmer eines Baus
+Leibwache	2	Schutztruppe des Herrschers|Garde
+Garde	2	Leibwache|Elitetruppe
+Gardist	2	Angehöriger der Leibwache|Wachsoldat
+Leibgarde	2	Schutztruppe des Königs|Persönliche Wache
+Kammerdiener	2	Persönlicher Diener|Diener im Gemach des Herrn
+Hofdame	2	Dame am Fürstenhof|Begleiterin der Königin
+Mätresse	3	Geliebte des Königs|Madame Pompadour war eine
+Thronfolger	2	Erbe der Krone|Kronprinz
+Thronerbe	2	Kronprinz|Nachfolger des Königs
+Kronprinz	2	Thronfolger|Ältester Königssohn
+Infant	3	Spanischer Prinz|Königssohn in Spanien
+Infantin	3	Spanische Prinzessin|Königstochter in Madrid
+Dauphin	3	Französischer Kronprinz|Erbe des Königs von Frankreich
+Erzherzog	2	Titel der Habsburger|Höchster Herzogstitel
+Großherzog	2	Herrscher von Luxemburg|Rang über dem Herzog
+Kurfürstentum	3	Gebiet eines Königswählers|Sachsen einst
+Reichstag	2	Versammlung der Stände|Parlamentsgebäude in Berlin
+Hoftag	3	Versammlung beim König|Fürstentreffen im Mittelalter
+Landtag	2	Länderparlament|Parlament in Kiel oder Mainz
+Ständestaat	3	Herrschaft von Adel und Klerus|Staatsform der Frühneuzeit
+Klerus	2	Geistlichkeit|Erster Stand
+Bauernstand	2	Dritter Stand auf dem Land|Landvolk
+Adelsstand	2	Stand der Edelleute|In ihn erhoben werden
+Ritterschlag	1	Weihe zum Edlen Kämpfer|Schwertstreich auf Schulter
+Ritterorden	2	Templer oder Johanniter|Geistlicher Kampfverband
+Schwertleite	3	Feierliche Ritterweihe|Umgürten mit der Klinge
+Gelübde	2	Feierliches Versprechen|Schwur eines Mönchs
+Treueid	3	Schwur der Gefolgschaft|Versprechen der Loyalität
+Huldigung	2	Ehrbezeugung|Treuegelöbnis an den König
+Audienz	2	Empfang beim Herrscher|Besuch beim Papst
+Depesche	3	Eilige Nachricht|Telegramm
+Edikt	2	Erlass des Herrschers|Verordnung
+Erlass	2	Verordnung|Behördliche Anordnung
+Dekret	2	Verordnung|Beschluss, Erlass
+Gesetz	1	Regel des Staates|Rechtsvorschrift
+Kodex	2	Gesetzessammlung|Handschrift in Buchform
+Verfassung	2	Grundgesetz|Zustand, Befinden
+Charta	3	Verfassungsurkunde|Magna ...
+Absolutismus	2	Herrschaft ohne Schranken|Zeitalter Ludwigs XIV.
+Feudalismus	2	Lehnswesen|Herrschaft des Grundadels
+Kolonie	2	Abhängiges Gebiet in Übersee|Siedlung, Niederlassung
+Kolonialismus	2	Ausbeutung fremder Länder|Herrschaft über Übersee
+Entdecker	2	Kolumbus war einer|Erforscher fremder Länder
+Entdeckung	2	Fund|Erstes Auffinden
+Seefahrer	1	Seemann|Entdecker auf dem Meer
+Karavelle	3	Schiff des Kolumbus|Leichtes Segelschiff
+Galeone	2	Spanisches Segelschiff|Schatzschiff der Spanier
+Galeere	2	Ruderkriegsschiff|Schiff mit Rudersklaven
+Trireme	3	Antikes Kriegsschiff|Dreiruderer
+Drakkar	3	Drachenschiff der Nordmänner|Langschiff mit Drachenkopf
+Wikingerschiff	1	Drachenboot der Nordmänner|Langschiff
+Kanone	1	Geschütz|Schweres Feuerrohr
+Muskete	2	Altes Gewehr|Vorderlader
+Flinte	2	Gewehr|... ins Korn werfen
+Schießpulver	2	Explosive Mischung|Schwarzpulver
+Dolch	1	Kurze Stichwaffe|Messerartige Waffe
+Streitaxt	2	Hiebwaffe mit Beil|Kriegsbeil
+Morgenstern	2	Stachelkeule|Keule mit Eisenspitzen
+Keule	1	Schlagwaffe|Schenkel vom Geflügel
+Schleuder	1	Davids Waffe gegen Goliath|Steinwurfgerät
+Kavallerie	2	Reiterei|Berittene Truppe
+Reiterei	2	Kavallerie|Berittene Truppe
+Infanterie	2	Fußtruppe|Fußvolk
+Ulan	3	Lanzenreiter|Polnischer Reitersoldat
+Husar	2	Leichter Reitersoldat|Ungarischer Reiter
+Dragoner	2	Berittener Infanterist|Derber Mensch, ugs.
+Kürassier	3	Reiter mit Brustpanzer|Schwerer Reitersoldat
+Grenadier	3	Soldat mit Handgranaten|Elitesoldat früher
+Füsilier	3	Infanterist mit Flinte|Fußsoldat
+Kosak	2	Reiterkrieger aus der Steppe|Freier Krieger am Don
+Samurai	2	Japanischer Krieger|Ritter Japans
+Shogun	3	Japanischer Militärherrscher|Feldherr in Edo
+Daimyo	3	Japanischer Fürst|Lehnsherr in Japan
+Mandarin	3	Chinesischer Beamter|Kleine Zitrusfrucht
+Kaiserhof	2	Hof des Monarchen|Hofstaat in Wien
+Harem	2	Frauenbereich im Palast|Serail
+Wesir	3	Minister des Sultans|Osmanischer Würdenträger
+Pascha	2	Osmanischer Titel|Mann, der sich bedienen lässt
+Hetman	3	Kosakenführer|Feldherr in Polen
+Bojar	3	Russischer Hochadliger|Adeliger im Zarenreich
+Doge	3	Herrscher Venedigs|Oberhaupt Genuas
+Dogenpalast	3	Amtssitz in Venedig|Bau am Markusplatz
+Medici	2	Florentiner Bankiersfamilie|Herrscher von Florenz
+Borgia	3	Papstfamilie der Renaissance|Lucrezias Familie
+Habsburg	2	Herrscherhaus Österreichs|Kaiserhaus in Wien
+Hohenzollern	2	Preußisches Herrscherhaus|Haus der deutschen Kaiser
+Staufer	2	Barbarossas Herrscherhaus|Kaiserhaus aus Schwaben
+Welfen	3	Herrscherhaus in Braunschweig|Gegner der Staufer
+Karolinger	2	Herrscherhaus Karls des Großen|Nachfolger der Merowinger
+Merowinger	3	Fränkisches Königshaus|Dynastie Chlodwigs
+Ottonen	3	Sächsisches Kaiserhaus|Dynastie Heinrichs I.
+Salier	3	Fränkisches Kaiserhaus|Dynastie Heinrichs IV.
+Tudor	2	Englisches Königshaus|Haus Heinrichs VIII.
+Stuart	3	Schottisches Königshaus|Haus Jakobs I.
+Bourbon	3	Französisches Königshaus|Dynastie Ludwigs XIV.
+Romanow	3	Russisches Zarenhaus|Letzte Zarendynastie
+Napoleon	1	Französischer Kaiser|Verlor bei Waterloo
+Bismarck	1	Eiserner Kanzler|Reichsgründer 1871
+Barbarossa	2	Kaiser Rotbart|Friedrich I.
+Lothar	3	Enkel Karls des Großen|Karolingerkaiser
+Pippin	3	Vater Karls des Großen|Karolinger, der Jüngere
+Chlodwig	3	Erster Frankenkönig|Merowinger, getauft in Reims
+Attila	2	Hunnenkönig|Etzel im Nibelungenlied
+Alarich	3	Westgotenkönig|Eroberte Rom 410
+Theoderich	3	Ostgotenkönig|Dietrich von Bern
+Arminius	2	Cheruskerfürst|Sieger im Teutoburger Wald
+Varus	2	Unterlag im Teutoburger Wald|Römischer Feldherr
+Caligula	2	Römischer Kaiser|Ernannte sein Pferd zum Konsul
+Trajan	3	Römischer Kaiser|Säule in Rom ehrt ihn
+Hadrian	2	Römischer Kaiser|Erbauer eines Grenzwalls
+Konstantin	2	Erster christlicher Kaiser|Namensgeber Istanbuls einst
+Justinian	3	Oströmischer Kaiser|Erbauer der Hagia Sophia
+Leonidas	2	Spartanerkönig|Fiel bei den Thermopylen
+Xerxes	2	Perserkönig|Gegner von Leonidas
+Darius	2	Perserkönig|Gegner Alexanders
+Kyros	3	Gründer des Perserreichs|Persischer Großkönig
+Hammurabi	3	Babylonischer König|Schöpfer eines Gesetzeswerks
+Nebukadnezar	3	König von Babylon|Erbauer des Ischtartors
+Saladin	2	Sultan gegen die Kreuzritter|Eroberer Jerusalems 1187
+Löwenherz	2	Beiname Richards I.|Englischer Kreuzfahrerkönig
+Kolumbus	1	Entdecker Amerikas|Segelte 1492 los
+Magellan	2	Weltumsegler|Namensgeber einer Meerenge
+Cortez	3	Eroberer Mexikos|Spanischer Konquistador
+Pizarro	3	Eroberer Perus|Bezwinger der Inka
+Luther	1	Reformator|Bibelübersetzer
+Calvin	2	Reformator in Genf|Schweizer Reformator
+Zwingli	2	Reformator in Zürich|Schweizer Kirchenerneuerer
+Gutenberg	1	Erfinder des Buchdrucks|Mainzer Drucker
+Hus	3	Böhmischer Reformator|1415 in Konstanz verbrannt
+Sickingen	3	Ritter Franz von ...|Reichsritter um 1520
+Hutten	3	Ulrich von ...|Humanist und Reichsritter
+Wallenstein	2	Feldherr im 30-jährigen Krieg|Herzog von Friedland
+Tilly	3	Feldherr der Liga|Gegner Gustav Adolfs
+Sissi	1	Kaiserin Elisabeth|Gattin Franz Josephs
+Robespierre	2	Jakobinerführer|Revolutionär in Paris
+Danton	3	Französischer Revolutionär|Held eines Büchner-Dramas
+Marat	3	Revolutionär, im Bad ermordet|Jakobiner in Paris
+Bastille	2	Gestürmt am 14. Juli 1789|Pariser Staatsgefängnis
+Guillotine	2	Fallbeil|Hinrichtungsgerät
+Jakobiner	2	Radikale Revolutionäre|Club um Robespierre
+Girondist	3	Gemäßigter Revolutionär|Gegner der Jakobiner
+Sansculotte	3	Revolutionär ohne Kniehose|Pariser Kleinbürger 1792
+Marseillaise	2	Französische Hymne|Lied der Revolution
+Waterloo	2	Napoleons letzte Schlacht|Ort bei Brüssel
+Austerlitz	3	Dreikaiserschlacht|Sieg Napoleons 1805
+Lechfeld	3	Schlacht gegen Ungarn 955|Ebene bei Augsburg
+Hastings	2	Schlacht von 1066|Englische Küstenstadt
+Poitiers	3	Schlacht von 732|Französische Stadt
+Cannae	3	Sieg Hannibals|Schlacht von 216 v. Chr.
+Konstantinopel	2	Alter Name Istanbuls|Hauptstadt Ostroms
+Herculaneum	3	Vom Vesuv verschüttet|Nachbarstadt Pompejis
+Ostrom	2	Byzantinisches Reich|Reich mit Hauptstadt Byzanz
+Westrom	3	476 untergegangen|Römisches Reich mit Ravenna
+Ablass	2	Erlass von Sündenstrafen|Von Luther angegriffen
+Ablassbrief	2	Gekaufter Sündenerlass|Tetzels Handelsware
+Thesen	2	Luther schlug 95 an|Behauptungen, Lehrsätze
+Reichsacht	3	Ächtung durch den Kaiser|Strafe gegen Luther 1521
+Reichsstadt	2	Dem Kaiser unterstellte Stadt|Etwa Nürnberg einst
+Gottesurteil	3	Probe durch Feuer oder Wasser|Ordal
+Femgericht	3	Heimliches Gericht|Westfälisches Freigericht
+Feme	3	Heimliches Gericht|Geheimgericht im Mittelalter
+Wergeld	3	Sühnegeld für Totschlag|Germanisches Bußgeld
+Mitgift	2	Aussteuer|Gabe der Braut
+Aussteuer	2	Mitgift|Wäsche und Hausrat der Braut
+Stammbaum	1	Ahnentafel|Bild der Familienherkunft
+Ahnen	2	Vorfahren|Urväter
+Ahnherr	3	Stammvater|Urahn
+Ahnin	3	Stammmutter|Weibliche Vorfahrin
+Vorfahr	2	Ahne|Altvorderer
+Urahn	2	Stammvater|Frühester Vorfahr
+Geschlecht	2	Adelsfamilie|Männlich oder weiblich
+Sippe	2	Großfamilie|Verwandtschaft
+Clan	2	Schottische Sippe|Familienverband
+Häuptling	1	Stammesführer|Anführer eines Stammes
+Fürstbischof	3	Geistlicher Landesherr|Bischof mit weltlicher Macht
+Hochmeister	3	Oberhaupt des Deutschen Ordens|Ordensoberhaupt
+Komtur	3	Ordensritter mit Amt|Leiter einer Kommende
+Landvogt	3	Gessler war einer|Statthalter des Fürsten
+Amtmann	3	Verwaltungsbeamter früher|Vorsteher eines Amtes
+Kastellan	3	Burgverwalter|Schlossaufseher
+Burgvogt	3	Verwalter einer Festung|Kastellan
+Seneschall	3	Oberster Hofbeamter|Hausmeier in Frankreich
+Majordomus	3	Hausmeier der Merowinger|Verwalter des Königshofs
+Hausmeier	3	Majordomus|Höchstes Hofamt der Franken
+Zeremonie	2	Feierliche Handlung|Festakt
+Etikette	2	Benimmregeln|Gesellschaftliche Form
+Hofball	2	Tanzfest am Fürstenhof|Ball bei Hofe
+Reifrock	3	Weiter Rock mit Gestell|Krinoline
+Gugel	3	Kapuzenkragen im Mittelalter|Zipfelkapuze
+Waffenrock	3	Uniformjacke|Soldatenrock
+Wappenrock	3	Überwurf des Ritters|Rock mit Familienzeichen
+Heraldik	3	Wappenkunde|Lehre von den Wappen
+Wappenkunde	3	Heraldik|Lehre der Schildzeichen
+Raubritter	2	Ritter als Wegelagerer|Plünderer von Kaufleuten
+Seidenstraße	2	Handelsweg nach China|Weg Marco Polos
+Lehnswesen	2	Feudalismus|Ordnung aus Herr und Vasall
+Grundherr	3	Besitzer von Land und Bauern|Gutsherr im Mittelalter
+Gutsherr	2	Besitzer eines Gutes|Herr über Landarbeiter
+Scheiterhaufen	2	Holzstoß zur Verbrennung|Hinrichtung von Ketzern
+Nachtwächter	2	Rief früher die Stunden aus|Wache mit Laterne
+Türmer	3	Wächter auf dem Kirchturm|Feuerwächter oben
+Zehntscheune	3	Speicher für Abgaben|Lagerhaus des Klosters
+Allmende	3	Gemeindeland|Gemeinsam genutzte Weide
+Kreuzfahrer	2	Pilger mit Schwert|Ritter vor Jerusalem
+Sarazene	3	Muslim im Mittelalter|Gegner der Kreuzfahrer
+Reconquista	3	Rückeroberung Spaniens|Ende 1492 in Granada
+Kalifat	3	Islamisches Herrschaftsgebiet|Reich der Abbasiden
+Osmane	2	Türke im alten Reich|Untertan des Sultans
+Janitschar	3	Osmanischer Elitesoldat|Leibgarde des Sultans
+Mameluck	3	Ägyptischer Kriegeradel|Soldat aus Sklaven
+Seldschuke	3	Türkischer Herrscher einst|Volk in Anatolien
+Hanseat	2	Bürger Lübecks oder Hamburgs|Hamburger Kaufmann
+Hansestadt	1	Lübeck oder Bremen|Mitglied des Städtebunds
+Stapelrecht	3	Pflicht, Waren anzubieten|Altes Marktprivileg
+Lehnsmann	3	Vasall|Inhaber eines Lehens
+Gefolgsmann	2	Treuer Anhänger|Vasall
+Gefolgschaft	2	Anhängerschaft|Treue Vasallen
+Schildknappe	2	Waffenträger des Ritters|Knappe
+Akkolade	3	Ritterschlag|Umarmung bei der Aufnahme
+Buhurt	3	Gruppenkampf im Turnier|Ritterliches Kampfspiel
+Streitross	2	Schlachtpferd|Reittier des Ritters
+Schlachtross	2	Streitross|Kriegspferd
+Zelter	3	Pferd im Passgang|Damenpferd im Mittelalter
+Brünne	3	Panzerhemd|Germanischer Ringpanzer
+Harnisch	2	Rüstung|In ... geraten
+Topfhelm	3	Geschlossener Ritterhelm|Kübelförmiger Kopfschutz
+Zweihänder	2	Langes Schwert|Mit beiden Händen geführt
+Breitschwert	2	Waffe mit großer Klinge|Schottische Waffe
+Krummsäbel	2	Gebogene Klinge|Waffe der Türken
+Langbogen	2	Englische Fernwaffe|Bogen von Mannshöhe
+Bolzen	2	Geschoss der Armbrust|Metallstift
+Blide	3	Wurfmaschine mit Gegengewicht|Trebuchet
+Burgkapelle	2	Gotteshaus in der Festung|Andachtsraum der Feste
+Rittersaal	2	Festsaal der Burg|Großer Burgsaal
+Thronsaal	2	Saal für Audienzen|Raum mit Herrschersitz
+Geheimgang	1	Verborgener Fluchtweg|Versteckter Tunnel
+Wassergraben	1	Nasser Schutzgraben|Schutz rund um ein Schloss
+Ringmauer	2	Wall rund um die Burg|Umfassungsmauer
+Schildmauer	3	Hohe Mauer zur Angriffsseite|Mantelmauer der Burg
+Wehrturm	2	Turm in der Stadtmauer|Befestigter Turm
+Spartaner	2	Krieger aus Lakonien|Kämpfer der Thermopylen
+Hellenen	2	Griechen|Volk der Antike in Athen
+Streitwagen	2	Antiker Kampfwagen|Pferdewagen der Ägypter
+Legat	3	Römischer Gesandter|Vermächtnis
+Diktator	2	Römischer Notstandsführer|Gewaltherrscher
+Triumvirat	3	Dreimännerherrschaft|Bund Caesars und Pompeius
+Ostgoten	3	Volk Theoderichs|Germanen in Italien
+Westgoten	3	Volk Alarichs|Germanen in Spanien
+Alemannen	2	Germanen am Oberrhein|Volk in Schwaben
+Bajuwaren	3	Altbayern|Germanischer Stamm im Süden
+Angelsachsen	2	Germanen in England|Briten und Amerikaner
+Jarl	3	Wikingerfürst|Nordischer Adelstitel
+Thing	3	Germanische Volksversammlung|Gericht der Germanen
+Runenstein	3	Beschrifteter Gedenkstein|Stein mit Germanenzeichen
+Langschiff	3	Wikingerschiff|Drachenboot
+Pfahlbau	2	Haus auf Stelzen im See|Steinzeitsiedlung am Bodensee
+Steinbeil	2	Werkzeug der Urzeit|Axt aus Flint
+Jungsteinzeit	2	Neolithikum|Zeit der ersten Bauern
+Altsteinzeit	2	Paläolithikum|Zeit der Jäger und Sammler
+Ötzi	1	Gletschermumie|Mann aus dem Eis
+Grabkammer	2	Raum in der Pyramide|Ruheort des Pharaos
+Gänsekiel	3	Alte Schreibfeder|Federkiel
+Wachstafel	3	Römische Schreibtafel|Notizbrett der Antike
+Canossa	2	Gang Heinrichs IV.|Ort der Buße 1077
+Konzil	2	Kirchenversammlung|Treffen in Trient
+Schisma	3	Kirchenspaltung|Abendländische Spaltung
+Gegenpapst	3	Rivale des Papstes|Unrechtmäßiger Pontifex
+Ablasshandel	2	Verkauf von Sündenerlass|Tetzels Geschäft
+Bildersturm	3	Zerstörung von Kirchenschmuck|Ikonoklasmus
+Täufer	3	Radikale Reformatoren|Ablehner der Kindstaufe
+Hugenotte	2	Französischer Protestant|Calvinist in Frankreich
+Jesuit	2	Ordensmann der Gegenreform|Ignatius gründete den Orden
+Fenstersturz	2	Prager Ereignis von 1618|Auslöser eines langen Kriegs
+Sonnenkönig	1	Ludwig XIV.|Erbauer von Versailles
+Versailles	2	Schloss Ludwigs XIV.|Ort bei Paris
+Vormärz	3	Zeit vor 1848|Epoche vor der Revolution
+Gründerzeit	2	Zeit nach 1871|Epoche des Baubooms
+Paulskirche	2	Parlament 1848|Frankfurter Kirche
+Stadtstaat	2	Hamburg oder Bremen|Polis
+Kleinstaaterei	3	Zersplitterung in viele Länder|Deutschland vor 1871
+Landesherr	2	Fürst eines Territoriums|Herrscher eines Gebiets
+Rittergut	3	Landgut eines Adeligen|Gutshof mit Vorrechten
+Tagelöhner	2	Arbeiter für einen Tag|Landarbeiter ohne Besitz
+Waffenschmied	2	Schmied für Schwerter|Hersteller von Klingen
+Plattner	3	Hersteller von Rüstungen|Harnischmacher
+Bogenschütze	1	Kämpfer mit Pfeilen|Robin Hood war einer
+Fußvolk	2	Infanterie|Einfache Soldaten
+Tross	2	Gefolge des Heeres|Nachschubkolonne
+Marketenderin	3	Händlerin beim Heer|Verkäuferin im Feldlager
+Feldlager	2	Lager des Heeres|Biwak
+Heerführer	2	Feldherr|Anführer der Truppen
+Heerbann	3	Aufgebot der Krieger|Waffenpflicht im Frankenreich
+Schlachtfeld	2	Ort des Gefechts|Walstatt
+Waffenruhe	2	Feuerpause|Vorübergehendes Kampfende
+Abdankung	2	Thronverzicht|Rücktritt des Monarchen
+Regentschaft	2	Herrschaftszeit|Vertretung des Monarchen
+Erbfolge	2	Reihenfolge der Erben|Thronfolge
+Heiratspolitik	3	Machtgewinn durch Ehen|Methode der Habsburger
+Insignien	2	Herrschaftszeichen|Krone, Zepter, Reichsapfel
+Reichskrone	2	Krone der alten Kaiser|In Wien aufbewahrt
+Kronjuwelen	2	Schmuck des Königshauses|Schatz im Tower
+Kaiserkrone	2	Krone des Monarchen in Wien|Herrschaftszeichen
+Lakai	2	Livrierter Diener|Unterwürfiger Mensch
+Edelknabe	3	Page bei Hofe|Junger Adeliger im Dienst
+Beichtvater	2	Geistlicher Berater|Hört die Sünden
+Leibarzt	2	Arzt des Herrschers|Persönlicher Mediziner
+Hofmaler	3	Maler im Dienst des Fürsten|Porträtist des Königs
+Hofmeister	3	Erzieher bei Hof|Verwalter des Hofes
+Zarenreich	2	Russland vor 1917|Reich der Romanows
+Weberaufstand	3	Erhebung in Schlesien 1844|Drama von Hauptmann

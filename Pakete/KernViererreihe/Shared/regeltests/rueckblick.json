@@ -1,0 +1,601 @@
+{
+ "beschreibung": "Rückblick: verpasste Siege und Fehler je Spieler",
+ "faelle": [
+  {
+   "name": "partie0-leicht-leicht",
+   "beginner": 1,
+   "zuege": [
+    3,
+    1,
+    0,
+    4,
+    4,
+    1,
+    4,
+    4,
+    5,
+    6,
+    6,
+    2,
+    3,
+    5,
+    5,
+    5,
+    2,
+    6,
+    6
+   ],
+   "erwartet": {
+    "spieler1": [
+     {
+      "zug": 14,
+      "art": "verpassterSieg",
+      "spalte": 5,
+      "besser": 3,
+      "zuege": 3
+     },
+     {
+      "zug": 16,
+      "art": "verpassterSieg",
+      "spalte": 2,
+      "besser": 3,
+      "zuege": 2
+     }
+    ],
+    "spieler2": [
+     {
+      "zug": 11,
+      "art": "fehler",
+      "spalte": 2,
+      "besser": 3,
+      "zuege": 4
+     },
+     {
+      "zug": 15,
+      "art": "fehler",
+      "spalte": 5,
+      "besser": 3,
+      "zuege": 2
+     },
+     {
+      "zug": 17,
+      "art": "fehler",
+      "spalte": 6,
+      "besser": 3,
+      "zuege": 1
+     }
+    ]
+   }
+  },
+  {
+   "name": "partie1-leicht-mittel",
+   "beginner": 2,
+   "zuege": [
+    3,
+    4,
+    3,
+    6,
+    3,
+    3,
+    4,
+    2,
+    2,
+    3,
+    6,
+    1,
+    1
+   ],
+   "erwartet": {
+    "spieler1": [],
+    "spieler2": []
+   }
+  },
+  {
+   "name": "partie2-mittel-leicht",
+   "beginner": 1,
+   "zuege": [
+    3,
+    4,
+    3,
+    1,
+    3,
+    3,
+    1,
+    6,
+    1,
+    5,
+    4,
+    5,
+    4,
+    3,
+    2,
+    2,
+    2
+   ],
+   "erwartet": {
+    "spieler1": [],
+    "spieler2": [
+     {
+      "zug": 11,
+      "art": "fehler",
+      "spalte": 5,
+      "besser": 4,
+      "zuege": 3
+     }
+    ]
+   }
+  },
+  {
+   "name": "partie3-leicht-geuebt",
+   "beginner": 2,
+   "zuege": [
+    3,
+    1,
+    3,
+    3,
+    3,
+    1,
+    3,
+    6,
+    3,
+    0,
+    1,
+    1,
+    0,
+    4,
+    4,
+    0,
+    6,
+    0,
+    4,
+    2,
+    4,
+    4,
+    5,
+    5,
+    5
+   ],
+   "erwartet": {
+    "spieler1": [
+     {
+      "zug": 19,
+      "art": "fehler",
+      "spalte": 2,
+      "besser": 4,
+      "zuege": 3
+     }
+    ],
+    "spieler2": []
+   }
+  },
+  {
+   "name": "partie4-mittel-mittel",
+   "beginner": 1,
+   "zuege": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    4,
+    4,
+    4,
+    4,
+    2,
+    3,
+    4,
+    2,
+    2,
+    3,
+    2,
+    2,
+    4,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    5,
+    5
+   ],
+   "erwartet": {
+    "spieler1": [],
+    "spieler2": []
+   }
+  },
+  {
+   "name": "partie5-leicht-leicht",
+   "beginner": 2,
+   "zuege": [
+    0,
+    6,
+    0,
+    5,
+    2,
+    3,
+    4,
+    1,
+    2,
+    0,
+    2,
+    2,
+    5,
+    1,
+    3,
+    4,
+    3,
+    6,
+    4,
+    1,
+    1
+   ],
+   "erwartet": {
+    "spieler1": [
+     {
+      "zug": 13,
+      "art": "fehler",
+      "spalte": 1,
+      "besser": 3,
+      "zuege": 4
+     },
+     {
+      "zug": 17,
+      "art": "fehler",
+      "spalte": 6,
+      "besser": 4,
+      "zuege": 2
+     }
+    ],
+    "spieler2": []
+   }
+  },
+  {
+   "name": "partie6-mittel-geuebt",
+   "beginner": 1,
+   "zuege": [
+    3,
+    3,
+    3,
+    3,
+    2,
+    1,
+    5,
+    4,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    5,
+    5,
+    3,
+    3,
+    2,
+    5,
+    4,
+    5,
+    5,
+    2,
+    4,
+    6,
+    6,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    6,
+    1,
+    1,
+    1,
+    0,
+    0,
+    6,
+    6,
+    6
+   ],
+   "erwartet": {
+    "spieler1": [],
+    "spieler2": []
+   }
+  },
+  {
+   "name": "partie7-leicht-leicht",
+   "beginner": 2,
+   "zuege": [
+    0,
+    1,
+    1,
+    1,
+    3,
+    2,
+    6,
+    3,
+    6,
+    5,
+    6,
+    6,
+    6,
+    1,
+    5,
+    4,
+    0,
+    1,
+    1,
+    4,
+    6,
+    5,
+    4,
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    2,
+    4,
+    3,
+    3,
+    5,
+    5,
+    5,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "erwartet": {
+    "spieler1": [
+     {
+      "zug": 25,
+      "art": "verpassterSieg",
+      "spalte": 2,
+      "besser": 4,
+      "zuege": 3
+     },
+     {
+      "zug": 37,
+      "art": "verpassterSieg",
+      "spalte": 0,
+      "besser": 2,
+      "zuege": 2
+     }
+    ],
+    "spieler2": [
+     {
+      "zug": 22,
+      "art": "fehler",
+      "spalte": 4,
+      "besser": 5,
+      "zuege": 4
+     },
+     {
+      "zug": 34,
+      "art": "fehler",
+      "spalte": 5,
+      "besser": 2,
+      "zuege": 3
+     }
+    ]
+   }
+  },
+  {
+   "name": "partie8-geuebt-leicht",
+   "beginner": 1,
+   "zuege": [
+    3,
+    6,
+    3,
+    3,
+    3,
+    5,
+    2,
+    4,
+    0,
+    1,
+    1,
+    6,
+    2,
+    0,
+    2
+   ],
+   "erwartet": {
+    "spieler1": [],
+    "spieler2": [
+     {
+      "zug": 7,
+      "art": "fehler",
+      "spalte": 4,
+      "besser": 1,
+      "zuege": 4
+     }
+    ]
+   }
+  },
+  {
+   "name": "partie9-leicht-mittel",
+   "beginner": 2,
+   "zuege": [
+    3,
+    1,
+    4,
+    6,
+    4,
+    6,
+    2,
+    5,
+    3,
+    6,
+    6,
+    3,
+    5,
+    2,
+    5
+   ],
+   "erwartet": {
+    "spieler1": [
+     {
+      "zug": 9,
+      "art": "fehler",
+      "spalte": 6,
+      "besser": 2,
+      "zuege": 4
+     }
+    ],
+    "spieler2": []
+   }
+  },
+  {
+   "name": "partie10-leicht-leicht",
+   "beginner": 1,
+   "zuege": [
+    4,
+    5,
+    5,
+    2,
+    1,
+    0,
+    6,
+    1,
+    4,
+    3,
+    5,
+    6,
+    4,
+    4,
+    5,
+    5,
+    6,
+    4,
+    2,
+    3,
+    3
+   ],
+   "erwartet": {
+    "spieler1": [
+     {
+      "zug": 10,
+      "art": "verpassterSieg",
+      "spalte": 5,
+      "besser": 3,
+      "zuege": 2
+     },
+     {
+      "zug": 14,
+      "art": "verpassterSieg",
+      "spalte": 5,
+      "besser": 3,
+      "zuege": 3
+     },
+     {
+      "zug": 16,
+      "art": "verpassterSieg",
+      "spalte": 6,
+      "besser": 3,
+      "zuege": 3
+     }
+    ],
+    "spieler2": [
+     {
+      "zug": 9,
+      "art": "fehler",
+      "spalte": 3,
+      "besser": 2,
+      "zuege": 2
+     },
+     {
+      "zug": 11,
+      "art": "fehler",
+      "spalte": 6,
+      "besser": 3,
+      "zuege": 4
+     },
+     {
+      "zug": 17,
+      "art": "fehler",
+      "spalte": 4,
+      "besser": 2,
+      "zuege": 2
+     }
+    ]
+   }
+  },
+  {
+   "name": "partie11-mittel-leicht",
+   "beginner": 2,
+   "zuege": [
+    2,
+    3,
+    2,
+    2,
+    3,
+    3,
+    1,
+    2,
+    0,
+    2,
+    2,
+    0,
+    4,
+    4,
+    5,
+    4,
+    6,
+    5,
+    3,
+    5
+   ],
+   "erwartet": {
+    "spieler1": [],
+    "spieler2": [
+     {
+      "zug": 16,
+      "art": "fehler",
+      "spalte": 6,
+      "besser": 3,
+      "zuege": 2
+     }
+    ]
+   }
+  },
+  {
+   "name": "laufend",
+   "beginner": 1,
+   "zuege": [
+    3,
+    3,
+    4,
+    4,
+    2,
+    0
+   ],
+   "erwartet": {
+    "spieler1": [],
+    "spieler2": [
+     {
+      "zug": 3,
+      "art": "fehler",
+      "spalte": 4,
+      "besser": 2,
+      "zuege": 2
+     }
+    ]
+   }
+  }
+ ]
+}

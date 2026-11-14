@@ -1,0 +1,18 @@
+{
+ "name": "11_runden_limit_sieg_und_undo",
+ "beschreibung": "Runden-Limit 2: der Führende gewinnt. Nach Spielende ist nichts mehr erlaubt außer Rückgängig.",
+ "rules": {"diceMode": "real", "roundLimit": 2},
+ "players": ["Anna", "Ben"],
+ "dice": [],
+ "steps": [
+  {"action": {"type": "points", "points": 300}},
+  {"action": {"type": "points", "points": 200}},
+  {"action": {"type": "points", "points": 100}},
+  {"action": {"type": "points", "points": 100}, "expect": {"winners": [0], "scores": [400, 300]}},
+  {"action": {"type": "points", "points": 50}, "error": true},
+  {"action": {"type": "noPoints"}, "error": true},
+  {"action": {"type": "undo"}, "expect": {"winners": [], "current": 1, "scores": [400, 200]}},
+  {"action": {"type": "points", "points": 250}, "expect": {"winners": [1], "scores": [400, 450]}}
+ ],
+ "expected": {"winners": [1], "scores": [400, 450], "tiebreak": null, "current": 1, "offer": null}
+}

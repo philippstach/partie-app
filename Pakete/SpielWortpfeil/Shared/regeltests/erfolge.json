@@ -1,0 +1,238 @@
+{
+ "beschreibung": "erfolge(statistik) → Liste erreichter Erfolg-ids in der Reihenfolge von 'liste'. Fehlende Felder = 0/leer; Bestzeit 0 = noch keine. Zeiten in Sekunden.",
+ "liste": [
+  {
+   "id": "erstes_raetsel",
+   "de": "Erstes Rätsel",
+   "en": "First puzzle"
+  },
+  {
+   "id": "zehn_raetsel",
+   "de": "Zehn gelöst",
+   "en": "Ten solved"
+  },
+  {
+   "id": "hundert_raetsel",
+   "de": "Hundert gelöst",
+   "en": "One hundred solved"
+  },
+  {
+   "id": "ohne_hilfe",
+   "de": "Ganz allein",
+   "en": "No help needed"
+  },
+  {
+   "id": "ohne_hilfe_25",
+   "de": "Rätselprofi",
+   "en": "Puzzle pro"
+  },
+  {
+   "id": "erstes_schwer",
+   "de": "Mutig",
+   "en": "Brave"
+  },
+  {
+   "id": "serie_7",
+   "de": "Eine Woche",
+   "en": "One week"
+  },
+  {
+   "id": "serie_30",
+   "de": "Ein Monat",
+   "en": "One month"
+  },
+  {
+   "id": "tages_30",
+   "de": "Treuer Gast",
+   "en": "Regular"
+  },
+  {
+   "id": "blitz_leicht",
+   "de": "Flink",
+   "en": "Quick"
+  },
+  {
+   "id": "blitz_mittel",
+   "de": "Schnell",
+   "en": "Fast"
+  },
+  {
+   "id": "blitz_schwer",
+   "de": "Blitz",
+   "en": "Lightning"
+  },
+  {
+   "id": "alle_leicht",
+   "de": "Leicht gemeistert",
+   "en": "Easy mastered"
+  },
+  {
+   "id": "thema_1",
+   "de": "Themenfreund",
+   "en": "Theme fan"
+  }
+ ],
+ "faelle": [
+  {
+   "name": "leer",
+   "statistik": {},
+   "erwartet": []
+  },
+  {
+   "name": "erstes",
+   "statistik": {
+    "geloest": {
+     "leicht": 1
+    },
+    "ohneHilfe": {},
+    "bestzeit": {
+     "leicht": 400
+    }
+   },
+   "erwartet": [
+    "erstes_raetsel"
+   ]
+  },
+  {
+   "name": "ohne_hilfe_und_flink",
+   "statistik": {
+    "geloest": {
+     "leicht": 3
+    },
+    "ohneHilfe": {
+     "leicht": 1
+    },
+    "bestzeit": {
+     "leicht": 170
+    }
+   },
+   "erwartet": [
+    "erstes_raetsel",
+    "ohne_hilfe",
+    "blitz_leicht"
+   ]
+  },
+  {
+   "name": "bestzeit_null_zaehlt_nicht",
+   "statistik": {
+    "geloest": {},
+    "bestzeit": {
+     "leicht": 0
+    }
+   },
+   "erwartet": []
+  },
+  {
+   "name": "grenzen_genau",
+   "statistik": {
+    "geloest": {
+     "leicht": 5,
+     "mittel": 4,
+     "schwer": 1
+    },
+    "ohneHilfe": {
+     "mittel": 25
+    },
+    "bestzeit": {
+     "mittel": 420,
+     "schwer": 900
+    },
+    "besteSerie": 7,
+    "tagesGeloest": 30
+   },
+   "erwartet": [
+    "erstes_raetsel",
+    "zehn_raetsel",
+    "ohne_hilfe",
+    "ohne_hilfe_25",
+    "erstes_schwer",
+    "serie_7",
+    "tages_30",
+    "blitz_mittel",
+    "blitz_schwer"
+   ]
+  },
+  {
+   "name": "knapp_daneben",
+   "statistik": {
+    "geloest": {
+     "leicht": 9
+    },
+    "ohneHilfe": {
+     "leicht": 24
+    },
+    "bestzeit": {
+     "mittel": 421
+    },
+    "besteSerie": 6,
+    "tagesGeloest": 29
+   },
+   "erwartet": [
+    "erstes_raetsel",
+    "ohne_hilfe"
+   ]
+  },
+  {
+   "name": "alle_leicht",
+   "statistik": {
+    "geloest": {
+     "leicht": 150,
+     "mittel": 0
+    },
+    "paketgroesse": {
+     "leicht": 150,
+     "mittel": 150,
+     "schwer": 150
+    }
+   },
+   "erwartet": [
+    "erstes_raetsel",
+    "zehn_raetsel",
+    "hundert_raetsel",
+    "alle_leicht"
+   ]
+  },
+  {
+   "name": "alles",
+   "statistik": {
+    "geloest": {
+     "leicht": 150,
+     "mittel": 60,
+     "schwer": 10
+    },
+    "ohneHilfe": {
+     "leicht": 30
+    },
+    "bestzeit": {
+     "leicht": 100,
+     "mittel": 300,
+     "schwer": 800
+    },
+    "besteSerie": 40,
+    "tagesGeloest": 50,
+    "themenGeloest": 2,
+    "paketgroesse": {
+     "leicht": 150,
+     "mittel": 150,
+     "schwer": 150
+    }
+   },
+   "erwartet": [
+    "erstes_raetsel",
+    "zehn_raetsel",
+    "hundert_raetsel",
+    "ohne_hilfe",
+    "ohne_hilfe_25",
+    "erstes_schwer",
+    "serie_7",
+    "serie_30",
+    "tages_30",
+    "blitz_leicht",
+    "blitz_mittel",
+    "blitz_schwer",
+    "alle_leicht",
+    "thema_1"
+   ]
+  }
+ ]
+}

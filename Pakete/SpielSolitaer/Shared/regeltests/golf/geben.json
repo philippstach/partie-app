@@ -1,0 +1,325 @@
+{
+ "beschreibung": "golf.deal(seed): Karten 0…34 in die Spalten G0…G6 (Spalte j: Karten j·5…j·5+4, unten → oben, die letzte liegt oben und ist frei; alle offen), Karte 35 auf die Ablage, 36…51 Stapel (51 oben), Kette 0, Punkte 0.",
+ "faelle": [
+  {
+   "seed": 1,
+   "zustand": {
+    "spalten": [
+     [
+      "7H",
+      "9S",
+      "4H",
+      "8D",
+      "8H"
+     ],
+     [
+      "5C",
+      "JH",
+      "6H",
+      "9C",
+      "JS"
+     ],
+     [
+      "5H",
+      "KH",
+      "3S",
+      "2H",
+      "JD"
+     ],
+     [
+      "5D",
+      "7D",
+      "4D",
+      "2S",
+      "AH"
+     ],
+     [
+      "6C",
+      "KS",
+      "KD",
+      "TD",
+      "TC"
+     ],
+     [
+      "JC",
+      "TH",
+      "8C",
+      "QS",
+      "4C"
+     ],
+     [
+      "6S",
+      "7S",
+      "AC",
+      "5S",
+      "AD"
+     ]
+    ],
+    "stapel": [
+     "6D",
+     "QC",
+     "QD",
+     "QH",
+     "9H",
+     "3H",
+     "3C",
+     "AS",
+     "4S",
+     "2D",
+     "8S",
+     "TS",
+     "3D",
+     "2C",
+     "9D",
+     "7C"
+    ],
+    "ablage": [
+     "KC"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   }
+  },
+  {
+   "seed": 2,
+   "zustand": {
+    "spalten": [
+     [
+      "QD",
+      "3C",
+      "4S",
+      "5D",
+      "7D"
+     ],
+     [
+      "2H",
+      "KD",
+      "TH",
+      "AS",
+      "6S"
+     ],
+     [
+      "7C",
+      "3S",
+      "QS",
+      "7H",
+      "6D"
+     ],
+     [
+      "JD",
+      "TS",
+      "9C",
+      "JH",
+      "8S"
+     ],
+     [
+      "4H",
+      "5C",
+      "2C",
+      "4D",
+      "AH"
+     ],
+     [
+      "QH",
+      "6C",
+      "8D",
+      "3D",
+      "9H"
+     ],
+     [
+      "6H",
+      "JC",
+      "AC",
+      "5S",
+      "JS"
+     ]
+    ],
+    "stapel": [
+     "KS",
+     "2D",
+     "7S",
+     "4C",
+     "9S",
+     "TD",
+     "5H",
+     "TC",
+     "QC",
+     "KC",
+     "8C",
+     "KH",
+     "3H",
+     "2S",
+     "8H",
+     "9D"
+    ],
+    "ablage": [
+     "AD"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   }
+  },
+  {
+   "seed": 42,
+   "zustand": {
+    "spalten": [
+     [
+      "7S",
+      "3D",
+      "KS",
+      "AC",
+      "2C"
+     ],
+     [
+      "AS",
+      "AD",
+      "KH",
+      "TH",
+      "5S"
+     ],
+     [
+      "8C",
+      "JD",
+      "2D",
+      "4C",
+      "6D"
+     ],
+     [
+      "5H",
+      "2H",
+      "5C",
+      "6H",
+      "AH"
+     ],
+     [
+      "7H",
+      "2S",
+      "8D",
+      "8S",
+      "4H"
+     ],
+     [
+      "7D",
+      "KC",
+      "TC",
+      "4D",
+      "3H"
+     ],
+     [
+      "TD",
+      "JC",
+      "4S",
+      "6C",
+      "7C"
+     ]
+    ],
+    "stapel": [
+     "8H",
+     "QH",
+     "9C",
+     "KD",
+     "5D",
+     "6S",
+     "QC",
+     "9H",
+     "JH",
+     "QS",
+     "3S",
+     "9D",
+     "QD",
+     "9S",
+     "JS",
+     "TS"
+    ],
+    "ablage": [
+     "3C"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   }
+  },
+  {
+   "seed": 20261006,
+   "zustand": {
+    "spalten": [
+     [
+      "5S",
+      "7S",
+      "6D",
+      "5C",
+      "QH"
+     ],
+     [
+      "3C",
+      "6H",
+      "2D",
+      "8H",
+      "JC"
+     ],
+     [
+      "8D",
+      "6S",
+      "AS",
+      "5D",
+      "QC"
+     ],
+     [
+      "5H",
+      "9D",
+      "JD",
+      "4H",
+      "KH"
+     ],
+     [
+      "7D",
+      "4C",
+      "TC",
+      "AH",
+      "2H"
+     ],
+     [
+      "2S",
+      "TS",
+      "KS",
+      "7C",
+      "KD"
+     ],
+     [
+      "4D",
+      "3S",
+      "9H",
+      "9C",
+      "2C"
+     ]
+    ],
+    "stapel": [
+     "KC",
+     "JH",
+     "AD",
+     "4S",
+     "3D",
+     "9S",
+     "3H",
+     "8C",
+     "QS",
+     "7H",
+     "TH",
+     "AC",
+     "JS",
+     "8S",
+     "TD",
+     "6C"
+    ],
+    "ablage": [
+     "QD"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   }
+  }
+ ]
+}

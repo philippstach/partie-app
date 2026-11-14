@@ -1,0 +1,188 @@
+# n07 Vornamen und bekannte Figuren
+Emma;1;Mädchenname|Lokomotive von Jim Knopf|Vorname
+Paul;1;Jungenname|Vorname des Malers Klee|Vorname
+Emil;1;… und die Detektive (Kästner)|Jungenname|Vorname
+Anton;1;Pünktchen und … (Kästner)|Jungenname|Vorname
+Karl;1;… der Große (Kaiser)|Vorname von Marx|Vorname
+Fritz;1;Kurzform von Friedrich|Der Alte … (Preußenkönig)|Vorname
+Hugo;2;Männlicher Vorname|Autor des Glöckners (Victor)|Vorname
+Erna;2;Altmodischer Frauenname|Weiblicher Vorname|Vorname
+Olga;2;Russischer Frauenname|Weiblicher Vorname|Vorname
+Inge;2;Kurzform von Ingeborg|Weiblicher Vorname|Vorname
+Jens;1;Nordischer Jungenname|Männlicher Vorname|Vorname
+Sven;1;Schwedischer Jungenname|Männlicher Vorname|Vorname
+Lars;1;Skandinavischer Jungenname|Kleiner Eisbär im Bilderbuch|Vorname
+Nina;1;Mädchenname|Weiblicher Vorname|Vorname
+Sara;1;Frau Abrahams (Bibel)|Mädchenname|Vorname
+Lara;1;Mädchenname|Geliebte von Doktor Schiwago|Vorname
+Jana;1;Mädchenname|Slawische Form von Johanna|Vorname
+Tina;1;Bibi und … (Reiterhof)|Kurzform von Christina|Vorname
+Rita;2;Weiblicher Vorname|Kurzform von Margarita|Vorname
+Gabi;1;Kurzform von Gabriele|Weiblicher Vorname|Vorname
+Heidi;1;Alpenmädchen bei Johanna Spyri|Enkelin des Alm-Öhi|Mädchen der Alm
+Peter;1;… Pan (fliegender Junge)|Geißenhirt bei Heidi|Vorname
+Klaus;1;Kurzform von Nikolaus|Männlicher Vorname|Vorname
+Georg;1;Heiliger Drachentöter|Männlicher Vorname|Vorname
+Franz;1;Kaiser … Joseph|Vorname von Schubert|Vorname
+Josef;1;Mann Marias (Bibel)|Zimmermann aus Nazareth|Vorname
+Maria;1;Mutter Jesu|Weiblicher Vorname|Vorname
+Marie;1;Vorname der Curie|Französische Form von Maria|Vorname
+Julia;1;Geliebte Romeos|Mädchenname|Vorname
+Laura;1;Mädchenname|Weiblicher Vorname|Vorname
+Klara;1;Freundin von Heidi|Weiblicher Vorname|Vorname
+Paula;1;Weibliche Form von Paul|Mädchenname|Vorname
+Greta;1;Vorname der Garbo|Mädchenname|Vorname
+Frieda;2;Altmodischer Frauenname|Weiblicher Vorname|Vorname
+Helga;2;Nordischer Frauenname|Weiblicher Vorname|Vorname
+Gerda;2;Freundin von Kay (Schneekönigin)|Weiblicher Vorname|Vorname
+Pippi;1;… Langstrumpf|Stärkstes Mädchen der Welt
+Michel;1;Lausbub aus Lönneberga|Junge bei Astrid Lindgren
+Momo;1;Mädchen bei Michael Ende|Kämpft gegen die grauen Herren
+Jim;1;… Knopf (Lokomotivführer)|Freund von Lukas
+Lukas;1;Lokomotivführer bei Jim Knopf|Evangelist|Vorname
+Maja;1;Biene der Kinderbücher|Freundin von Willi
+Willi;1;Fauler Freund der Biene Maja|Kurzform von Wilhelm
+Bambi;1;Rehkitz bei Felix Salten|Berühmtes Kitz
+Mogli;1;Junge im Dschungelbuch|Freund von Balu
+Balu;1;Bär im Dschungelbuch|Freund von Mogli
+Tarzan;1;Herr des Dschungels|Schwingt an Lianen
+Zorro;1;Rächer mit Maske und Degen|Held mit dem Z
+Sindbad;2;Seefahrer aus 1001 Nacht|Seefahrer im Märchen
+Aladin;1;Besitzer der Wunderlampe|Held aus 1001 Nacht
+Wickie;1;Schlauer kleiner Wikinger|Sohn von Halvar
+Hänsel;1;Bruder von Gretel|Junge im Hexenhaus
+Gretel;1;Schwester von Hänsel|Mädchen im Hexenhaus
+Rapunzel;1;Ließ ihr Haar herunter|Märchenfigur im Turm
+Asterix;1;Kleiner gallischer Held|Freund von Obelix
+Obelix;1;Dicker Gallier|Hinkelsteinlieferant
+Idefix;1;Hund von Obelix|Kleiner Hund der Gallier
+Faust;1;Drama von Goethe|Geballte Hand
+Hamlet;2;Dänenprinz bei Shakespeare|Sein oder Nichtsein
+Romeo;1;Geliebter Julias|Liebender aus Verona
+Othello;2;Eifersüchtiger bei Shakespeare|Oper von Verdi
+Tell;2;Schweizer Held mit Armbrust|Schoss auf den Apfel
+Watson;2;Freund von Sherlock Holmes|Doktor an Holmes' Seite
+Alice;1;Mädchen im Wunderland|Folgte dem weißen Kaninchen
+Robin;1;… Hood (Rächer der Armen)|Held aus Sherwood
+Merlin;2;Zauberer der Artussage|Berater von König Artus
+Artus;2;König der Tafelrunde|Herr von Camelot
+Siegfried;2;Drachentöter der Nibelungen|Held im Nibelungenlied
+Moritz;1;Freund von Max (Busch)|Lausbub bei Wilhelm Busch
+Felix;1;Der Glückliche (lateinisch)|Jungenname|Vorname
+Jonas;1;Prophet im Bauch des Wals|Jungenname|Vorname
+Elias;1;Prophet der Bibel|Jungenname|Vorname
+David;1;Besieger Goliaths|König mit der Harfe|Vorname
+Goliath;1;Riese der Bibel|Gegner Davids
+Moses;1;Empfing die Zehn Gebote|Führer durch das Rote Meer
+Jakob;1;Stammvater Israels|Bruder Esaus|Vorname
+Simon;1;Jungenname|Früherer Name des Petrus|Vorname
+Petrus;2;Wächter am Himmelstor|Erster der Apostel
+Paulus;2;Apostel und Briefschreiber|Früher Saulus
+Judas;2;Verräter Jesu|Jünger mit den Silberlingen
+Daniel;1;Prophet in der Löwengrube|Jungenname|Vorname
+Samuel;2;Prophet des Alten Testaments|Jungenname|Vorname
+Tobias;1;Jungenname|Männlicher Vorname|Vorname
+Martin;1;Heiliger mit dem geteilten Mantel|Vorname Luthers|Vorname
+Stefan;1;Männlicher Vorname|Erster Märtyrer (Kurzform)|Vorname
+Thomas;1;Ungläubiger Jünger|Vorname von Mann|Vorname
+Oskar;1;Trommler bei Günter Grass|Jungenname|Vorname
+Theo;1;Kurzform von Theodor|Jungenname|Vorname
+Bruno;1;Der Braune (Name)|Männlicher Vorname|Vorname
+Erwin;2;Männlicher Vorname|Vorname von Rommel|Vorname
+Egon;2;Männlicher Vorname|Vorname von Schiele|Vorname
+Kurt;2;Männlicher Vorname|Vorname von Tucholsky|Vorname
+Horst;2;Nest des Adlers|Männlicher Vorname|Vorname
+Heinz;1;Kurzform von Heinrich|Vorname von Erhardt|Vorname
+Rolf;2;Kurzform von Rudolf|Männlicher Vorname|Vorname
+Dirk;2;Kurzform von Dietrich|Männlicher Vorname|Vorname
+Bernd;2;Kurzform von Bernhard|Männlicher Vorname|Vorname
+Gerd;2;Kurzform von Gerhard|Männlicher Vorname|Vorname
+Ralf;2;Männlicher Vorname|Männername|Vorname
+Olaf;1;Norwegischer Königsname|Nordischer Männername|Vorname
+Knut;2;Dänischer Königsname|Nordischer Männername|Vorname
+Björn;2;Der Bär (nordischer Name)|Nordischer Männername|Vorname
+Finn;1;Nordischer Jungenname|Bewohner Helsinkis|Vorname
+Noah;1;Erbauer der Arche|Jungenname|Vorname
+Luis;1;Spanische Form von Ludwig|Jungenname|Vorname
+Luca;1;Italienische Form von Lukas|Jungenname|Vorname
+Milan;1;Slawischer Jungenname|Greifvogel|Vorname
+Henri;2;Französische Form von Heinrich|Vorname von Matisse|Vorname
+Pierre;2;Französische Form von Peter|Vorname von Curie|Vorname
+Pedro;2;Spanische Form von Peter|Spanischer Männername|Vorname
+Juan;2;Spanische Form von Johannes|Don … (Frauenheld)|Vorname
+Carlo;2;Italienische Form von Karl|Italienischer Männername|Vorname
+Iwan;2;Russische Form von Johannes|… der Schreckliche (Zar)|Vorname
+Boris;2;Russischer Männername|Zar … Godunow|Vorname
+Igor;2;Russischer Männername|Vorname von Strawinsky|Vorname
+John;2;Englische Form von Johannes|Vorname von Lennon|Vorname
+James;2;Englische Form von Jakob|Vorname von Bond|Vorname
+Elvis;1;Vorname von Presley|King des Rock ’n’ Roll
+Romy;2;Vorname der Schneider|Darstellerin der Sissi
+Anne;1;Tagebuchschreiberin Frank|Mädchenname|Vorname
+Elsa;1;Eiskönigin im Film|Frauenname|Vorname
+Elke;2;Norddeutscher Frauenname|Weiblicher Vorname|Vorname
+Antje;2;Friesische Form von Anna|Frau aus Holland (Käse)|Vorname
+Heike;2;Norddeutscher Frauenname|Weiblicher Vorname|Vorname
+Silke;2;Norddeutscher Frauenname|Weiblicher Vorname|Vorname
+Birgit;2;Schwedischer Frauenname|Weiblicher Vorname|Vorname
+Karin;2;Schwedische Form von Katharina|Weiblicher Vorname|Vorname
+Ingrid;2;Vorname der Bergman|Nordischer Frauenname|Vorname
+Astrid;1;Vorname der Lindgren|Nordischer Frauenname|Vorname
+Sonja;1;Russische Koseform von Sophia|Weiblicher Vorname|Vorname
+Tanja;1;Russische Koseform von Tatjana|Weiblicher Vorname|Vorname
+Katja;1;Russische Koseform von Katharina|Weiblicher Vorname|Vorname
+Nadja;2;Russischer Frauenname|Weiblicher Vorname|Vorname
+Vera;2;Die Wahre (Name)|Weiblicher Vorname|Vorname
+Rosa;1;Vorname der Luxemburg|Blassrot
+Marta;2;Schwester des Lazarus|Weiblicher Vorname|Vorname
+Edith;2;Vorname der Piaf|Weiblicher Vorname|Vorname
+Agnes;2;Die Reine (Name)|Weiblicher Vorname|Vorname
+Agathe;2;Vorname der Christie (deutsch)|Altmodischer Frauenname|Vorname
+Berta;2;Vorname der Benz|Altmodischer Frauenname|Vorname
+Emilia;1;Mädchenname|Weibliche Form von Emil|Vorname
+Sofia;1;Die Weise (Name)|Mädchenname
+Lotte;1;Kurzform von Charlotte|Werthers Angebetete|Vorname
+Luise;1;Preußische Königin|Weibliche Form von Ludwig|Vorname
+Ella;1;Mädchenname|Vorname der Fitzgerald|Vorname
+Lilli;1;Mädchenname|Kurzform von Elisabeth|Vorname
+Hanna;1;Mädchenname|Kurzform von Johanna|Vorname
+Leni;1;Kurzform von Helene|Mädchenname|Vorname
+Lina;1;Mädchenname|Kurzform von Karolina|Vorname
+Mila;1;Mädchenname|Slawischer Frauenname|Vorname
+Emmi;2;Koseform von Emma|Mädchenname|Vorname
+Susi;1;Koseform von Susanne|Freundin von Strolch|Vorname
+Moni;2;Koseform von Monika|Kurzer Frauenname|Vorname
+Uschi;2;Koseform von Ursula|Kurzer Frauenname|Vorname
+Kati;2;Koseform von Katharina|Kurzer Frauenname|Vorname
+Resi;2;Bayerische Koseform von Therese|Frauenname in Bayern|Vorname
+Vroni;2;Bayerische Koseform von Veronika|Frauenname in Bayern|Vorname
+Sepp;2;Bayerische Kurzform von Josef|Männername in Bayern|Vorname
+Schorsch;2;Bayerische Form von Georg|Männername in Bayern
+Toni;1;Kurzform von Anton|Kurzform von Antonia|Vorname
+Alex;1;Kurzform von Alexander|Kurzer Jungenname|Vorname
+Andi;1;Kurzform von Andreas|Kurzer Jungenname|Vorname
+Basti;1;Kurzform von Sebastian|Kurzer Jungenname|Vorname
+Flo;1;Kurzform von Florian|Kurzer Jungenname
+Jo;2;Kurzform von Josef|Sehr kurzer Vorname
+Ulli;2;Kurzform von Ulrich|Kurzer Männername|Vorname
+Edi;2;Kurzform von Eduard|Kurzer Männername
+Rudi;1;Kurzform von Rudolf|Kurzer Männername|Vorname
+Kalle;2;Koseform von Karl|… Blomquist (Meisterdetektiv)
+Ole;2;Nordischer Jungenname|Kurzform von Olaf
+Pit;2;Kurzform von Peter|Kurzer Männername
+Tom;1;… Sawyer (Mark Twain)|Kater, der Jerry jagt
+Jerry;1;Maus, die Tom ärgert|Maus im Zeichentrick
+Lassie;1;Berühmter Collie im Film|Treue Hündin im Fernsehen
+Flipper;1;Kluger Delfin im Fernsehen|Spielautomat mit Kugel
+Fury;2;Schwarzer Hengst im Fernsehen|Pferd von Joey
+Pluto;1;Hund von Micky Maus|Zwergplanet
+Garfield;2;Fauler Kater, liebt Lasagne|Comic-Kater
+Snoopy;1;Beagle der Peanuts|Hund von Charlie Brown
+Pumuckl;1;Kobold bei Meister Eder|Rothaariger Kobold
+Sams;1;Wesen mit Wunschpunkten|Kommt am Samstag (Kinderbuch)
+Urmel;1;Kommt aus dem Eis (Kinderbuch)|Drachenkind der Puppenkiste
+Nemo;2;Kapitän der Nautilus|Niemand (lateinisch)
+Ahab;2;Kapitän auf der Jagd nach Moby Dick|Walfänger bei Melville
+Dracula;1;Vampirgraf aus Transsilvanien|Berühmter Blutsauger
+Zeus;1;Oberster Gott der Griechen|Vater des Herakles
+Adam;1;Mann von Eva|Erster Mensch der Bibel

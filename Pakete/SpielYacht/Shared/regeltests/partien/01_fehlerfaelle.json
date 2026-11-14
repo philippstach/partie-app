@@ -1,0 +1,157 @@
+{
+ "name": "01 Fehlerfälle",
+ "beschreibung": "Illegale Aktionen lassen den Stand unverändert und verbrauchen keine Würfel.",
+ "rules": {},
+ "players": [
+  "Anna"
+ ],
+ "dice": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  6
+ ],
+ "steps": [
+  {
+   "action": {
+    "type": "score",
+    "category": "chance"
+   },
+   "error": true
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0
+    ]
+   },
+   "error": true
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0,
+     0
+    ]
+   },
+   "error": true
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     5
+    ]
+   },
+   "error": true
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     1,
+     2,
+     3,
+     4,
+     6
+    ],
+    "rollsUsed": 2
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     1,
+     2,
+     3,
+     4,
+     6
+    ],
+    "rollsUsed": 3
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "error": true
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "chance"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "chance"
+   },
+   "error": true
+  }
+ ],
+ "expected": {
+  "finished": false,
+  "scores": [
+   {
+    "chance": 16
+   }
+  ],
+  "totals": [
+   {
+    "upper": 0,
+    "bonus": 0,
+    "lower": 16,
+    "kniffelBonus": 0,
+    "total": 16
+   }
+  ]
+ }
+}

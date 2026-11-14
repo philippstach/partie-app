@@ -1,0 +1,118 @@
+{
+ "beschreibung": "S10: Länge der Tagesserie und ob sie ruht, für den Tag `heute`. Ein einzelner verpasster Tag ist ein Ruhetag (zählt nicht, bricht nicht), zwei verpasste Tage hintereinander beenden die Serie. Heute noch offen bricht nichts.",
+ "faelle": [
+  {
+   "name": "nichts_geloest",
+   "heute": "2026-10-10",
+   "geloest": [],
+   "laenge": 0,
+   "ruht": false
+  },
+  {
+   "name": "heute_geloest",
+   "heute": "2026-10-10",
+   "geloest": [
+    "2026-10-10"
+   ],
+   "laenge": 1,
+   "ruht": false
+  },
+  {
+   "name": "drei_in_folge_mit_heute",
+   "heute": "2026-10-10",
+   "geloest": [
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10"
+   ],
+   "laenge": 3,
+   "ruht": false
+  },
+  {
+   "name": "drei_in_folge_heute_offen",
+   "heute": "2026-10-10",
+   "geloest": [
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09"
+   ],
+   "laenge": 3,
+   "ruht": false
+  },
+  {
+   "name": "ein_ruhetag_dazwischen",
+   "heute": "2026-10-10",
+   "geloest": [
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-09",
+    "2026-10-10"
+   ],
+   "laenge": 4,
+   "ruht": false
+  },
+  {
+   "name": "gestern_verpasst_heute_offen",
+   "heute": "2026-10-10",
+   "geloest": [
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08"
+   ],
+   "laenge": 3,
+   "ruht": true
+  },
+  {
+   "name": "zwei_tage_verpasst",
+   "heute": "2026-10-10",
+   "geloest": [
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07"
+   ],
+   "laenge": 0,
+   "ruht": false
+  },
+  {
+   "name": "zwei_luecken_einzeln",
+   "heute": "2026-10-10",
+   "geloest": [
+    "2026-10-03",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-08",
+    "2026-10-10"
+   ],
+   "laenge": 5,
+   "ruht": false
+  },
+  {
+   "name": "lange_serie",
+   "heute": "2026-10-10",
+   "geloest": [
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10"
+   ],
+   "laenge": 10,
+   "ruht": false
+  },
+  {
+   "name": "heute_und_vorgestern",
+   "heute": "2026-10-10",
+   "geloest": [
+    "2026-10-08",
+    "2026-10-10"
+   ],
+   "laenge": 2,
+   "ruht": false
+  }
+ ]
+}

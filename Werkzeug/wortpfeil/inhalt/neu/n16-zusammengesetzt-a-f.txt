@@ -1,0 +1,121 @@
+# n16 Zusammengesetzte und weitere Hauptwörter A–F, abgeglichen mit dem Bestand
+Abwasser;1;Fließt in die Kanalisation|Schmutziges Nass aus dem Haus
+Adlige;2;Gräfin oder Baronin|Frau von Stand
+Affekt;2;Heftige Gemütsbewegung|Tat im … (ohne Überlegung)
+Agenda;2;Liste der Tagespunkte|Merkbuch
+Alptraum;1;Böses Erlebnis im Schlaf|Schlimmer Traum
+Altglas;1;Leere Flaschen für den Container|Scherben zum Recyceln
+Altöl;2;Verbrauchter Schmierstoff|Rest vom Ölwechsel
+Altstadt;1;Historischer Kern eines Ortes|Viertel mit alten Gassen
+Anbieter;2;Verkäufer|Firma mit Tarif
+Angler;1;Sitzt mit Rute am Wasser|Fängt Fische mit Haken
+Anlieger;2;Wohnt an der Straße|… frei (Schild)
+Ansager;1;Kündigt das Programm an|Sprecher auf der Bühne
+Anwohner;1;Lebt in der Straße|Nachbar der Baustelle
+Arsenal;2;Lager für Waffen|Zeughaus
+Asiate;1;Mensch aus Fernost|Chinese oder Japaner
+Attentat;2;Anschlag auf einen Politiker|Mordversuch
+Aufguss;1;Wasser auf den Saunaofen|Zubereitung von Tee
+Auktion;1;Versteigerung|Verkauf an den Meistbietenden
+Auslage;1;Ware im Schaufenster|Vorgestrecktes Geld
+Ausstieg;1;Tür zum Verlassen des Busses|Ende der Teilnahme
+Badesee;1;Gewässer zum Schwimmen|Ziel an heißen Tagen
+Bandage;1;Stützender Verband|Wickel am Boxerhandgelenk
+Bassist;2;Spielt die tiefen Töne|Musiker mit vier Saiten
+Bauart;2;Art der Konstruktion|Typ
+Baujahr;1;Jahr der Herstellung|Alter des Autos
+Baumarkt;1;Laden für Heimwerker|Dort gibt es Bretter und Schrauben
+Bauwerk;1;Gebäude|Brücke oder Turm
+Bazillus;2;Krankheitserreger|Stäbchenförmige Bakterie
+Beiboot;2;Kleines Boot am Schiff|Dingi
+Bergbau;1;Förderung von Kohle und Erz|Arbeit unter Tage
+Bergsee;1;Gewässer zwischen Gipfeln|Klares Wasser in den Alpen
+Bergtour;1;Wanderung zum Gipfel|Ausflug in die Alpen
+Bergwerk;1;Zeche|Grube mit Stollen
+Betonung;1;Nachdruck auf einer Silbe|Akzent
+Bettruhe;1;Verordnung bei Fieber|Liegen auf ärztlichen Rat
+Bewegung;1;Sport oder Spaziergang|Gegenteil von Stillstand
+Bierglas;1;Gefäß für Pils|Daraus trinkt man Helles
+Bierkrug;1;Humpen|Gefäß mit Henkel und Deckel
+Bildband;2;Buch voller Fotos|Schweres Buch zum Anschauen
+Biomüll;1;Schalen und Essensreste|Kommt in die braune Tonne
+Bleibe;2;Unterkunft|Dach über dem Kopf
+Blockade;2;Sperre|Absperrung einer Zufahrt
+Blutbahn;2;Weg des roten Lebenssafts|Adern und Venen
+Botanik;2;Pflanzenkunde|Lehre von den Gewächsen
+Boxring;1;Viereck mit Seilen|Kampfplatz der Faustkämpfer
+Brathuhn;1;Hähnchen vom Grill|Geflügel aus dem Ofen
+Brauerei;1;Dort entsteht Bier|Betrieb mit Sudkessel
+Brokkoli;1;Grünes Röschengemüse|Verwandter des Blumenkohls
+Brotkorb;1;Darin liegen die Semmeln|Behälter auf dem Frühstückstisch
+Brotzeit;1;Zünftige Zwischenmahlzeit|Vesper in Bayern
+Buddel;2;Flasche (norddt.)|… voll Rum
+Bungalow;1;Flaches Haus ohne Obergeschoss|Ferienhaus mit einer Etage
+Bunker;1;Schutzraum aus Beton|Sandhindernis beim Golf
+Bußgeld;1;Strafe für Falschparker|Kostet zu schnelles Fahren
+Campus;2;Gelände der Universität|Hochschulgelände
+Caravan;2;Wohnwagen|Anhänger zum Schlafen
+Chalet;2;Holzhaus in den Alpen|Schweizer Ferienhaus
+Chiffre;2;Geheimzeichen|Kennziffer der Anzeige
+Cola;1;Braune Limonade|Süße Brause mit Koffein
+Collage;2;Geklebtes Bild|Kunstwerk aus Schnipseln
+Dampfbad;1;Heißer Raum voller Nebel|Türkisches Schwitzbad
+Dampflok;1;Zugmaschine mit Kessel|Schnaubendes Schienenross
+Denkmal;1;Statue zur Erinnerung|Standbild auf dem Platz
+Dimmer;2;Regler für die Helligkeit|Macht das Licht sanfter
+Drehbuch;1;Textvorlage für den Film|Skript
+Drehtür;1;Eingang im Kreis|Karussell am Hoteleingang
+Dünger;1;Nährstoff für Pflanzen|Mist oder Kompost
+Durchzug;1;Luftstrom bei offenen Fenstern|Zugluft
+Dynamit;1;Sprengstoff von Nobel|Explosive Stangen
+Ehebett;1;Doppelte Schlafstatt|Möbel für zwei
+Ehepaar;1;Mann und Frau mit Trauschein|Verheiratete
+Eilbote;2;Bringt dringende Post|Kurier
+Einband;2;Deckel eines Buches|Hülle um die Seiten
+Einbruch;1;Diebstahl im Haus|Tat mit Brecheisen
+Eingabe;1;Tippen am Computer|Bittschrift
+Einlage;1;Sohle im Schuh|Nudeln in der Suppe
+Einöde;2;Verlassene Gegend|Menschenleeres Land
+Eisbahn;1;Fläche für Schlittschuhe|Platz für Kufenflitzer
+Eisbein;1;Gepökelte Haxe|Berliner Schweinshaxe
+Eisdiele;1;Dort gibt es Kugeln in der Waffel|Italienisches Café im Sommer
+Eisfach;1;Kältestes Abteil im Kühlschrank|Platz für Tiefgekühltes
+Eisregen;1;Gefrierender Niederschlag|Macht Straßen spiegelglatt
+Eiszeit;1;Epoche der Mammuts|Kaltzeit der Erde
+Emaille;2;Glasur auf Töpfen|Überzug alter Schilder
+Endspurt;1;Schlussphase des Rennens|Letzte Meter
+Engpass;1;Schmale Stelle|Knappheit
+Erdball;1;Unser Planet|Globus
+Erdkunde;1;Schulfach mit Atlas|Geografie
+Erdnuss;1;Knabberei mit Schale|Frucht für Flips
+Erdreich;1;Boden|Humus und Lehm
+Erdteil;1;Kontinent|Asien oder Afrika
+Eselsohr;1;Umgeknickte Ecke im Buch|Knick in der Seite
+Etikett;1;Schild an der Flasche|Zettel mit dem Preis
+Fachmann;1;Experte|Kenner seines Gebiets
+Fahrbahn;1;Teil der Straße für Autos|Asphaltband
+Fahrzeug;1;Auto, Bus oder Lkw|Gefährt
+Fallobst;1;Äpfel im Gras|Vom Baum Gepurzeltes
+Faltboot;2;Zerlegbares Kanu|Paddelgefährt im Sack
+Fanclub;1;Verein der Anhänger|Treff der Bewunderer
+Fassade;1;Vorderseite eines Hauses|Schauseite
+Feinkost;1;Delikatessen|Edle Lebensmittel
+Feldbett;1;Klappbare Liege|Lager der Soldaten
+Feldhase;1;Langohr auf dem Acker|Meister Lampe
+Feldmaus;1;Kleiner Nager auf dem Acker|Beute des Bussards
+Felswand;1;Steiler Hang aus Stein|Revier der Kletterer
+Fernglas;1;Holt Entferntes heran|Optik des Jägers
+Festland;1;Gegenteil von Insel|Kontinent
+Festsaal;1;Raum für große Feiern|Ort für den Ball
+Festzelt;1;Riesige Plane auf dem Volksfest|Dort spielt die Blaskapelle
+Filmstar;1;Berühmter Schauspieler|Gast auf dem roten Teppich
+Filzhut;1;Kopfbedeckung der Jäger|Hut zur Tracht
+Finne;1;Bewohner Helsinkis|Rückenflosse des Hais
+Fontäne;1;Aufsteigender Wasserstrahl|Springbrunnen
+Freibad;1;Schwimmbecken unter freiem Himmel|Sommerliches Schwimmbad
+Freizeit;1;Stunden ohne Arbeit|Zeit für Hobbys
+Friedhof;1;Ort der Gräber|Gottesacker
+Fuchsbau;1;Höhle von Reineke|Wohnung unter der Erde
+Fuhrpark;2;Alle Wagen einer Firma|Fahrzeugbestand
+Funkturm;1;Hoher Mast mit Antennen|Wahrzeichen in Berlin
+Fußweg;1;Pfad für Spaziergänger|Bürgersteig

@@ -1,0 +1,339 @@
+# n14 Ableitungen, Feste, Lehnwörter, Orte – abgeglichen mit dem Bestand
+Meinung;1;Persönliche Ansicht|Standpunkt
+Neigung;1;Schräge Lage|Vorliebe
+Packung;1;Schachtel mit Ware|Hülle um Kekse
+Rettung;1;Hilfe in höchster Not|Bergung aus Gefahr
+Sendung;1;Beitrag im Fernsehen|Paket mit der Post
+Spaltung;2;Teilung in zwei Lager|Zerfall einer Gruppe
+Stellung;1;Posten, Rang|Körperhaltung
+Störung;1;Unterbrechung|Fehler in der Leitung
+Teilung;1;Division|Trennung in Stücke
+Wendung;1;Drehung|Redensart
+Zahlung;1;Begleichen der Rechnung|Überweisung von Geld
+Deckung;1;Schutz vor Schüssen|Abwehr des Boxers
+Führung;1;Rundgang mit Erklärung|Leitung
+Handlung;1;Geschehen im Film|Tat
+Hoffnung;1;Zuversicht|Stirbt zuletzt
+Landung;1;Ende des Fluges|Aufsetzen des Fliegers
+Lenkung;1;Steuerung des Autos|Anlage mit Lenkrad
+Mahnung;1;Erinnerung ans Bezahlen|Warnender Brief
+Mischung;1;Gemenge|Mix
+Öffnung;1;Loch, Spalt|Lücke zum Durchsehen
+Planung;1;Vorbereitung eines Vorhabens|Entwurfsarbeit
+Prägung;2;Muster auf der Münze|Formung des Charakters
+Regelung;1;Festgelegte Ordnung|Vorschrift
+Reizung;2;Leichte Entzündung|Rötung der Haut
+Richtung;1;Norden oder Süden|Kurs
+Rodung;2;Fällen eines Waldes|Urbarmachung
+Schulung;1;Lehrgang für Mitarbeiter|Fortbildung
+Siedlung;1;Gruppe von Wohnhäusern|Ortsteil mit Reihenhäusern
+Steigung;1;Anstieg der Straße|Gefälle bergauf
+Stimmung;1;Laune|Atmosphäre auf dem Fest
+Stiftung;2;Vermögen für guten Zweck|Gemeinnützige Einrichtung
+Tagung;2;Konferenz|Treffen von Fachleuten
+Trauung;1;Feierliche Eheschließung|Zeremonie mit Ja-Wort
+Trennung;1;Ende einer Beziehung|Scheidung
+Warnung;1;Hinweis auf Gefahr|Alarmzeichen
+Wertung;1;Punktzahl im Sport|Beurteilung
+Windung;1;Schleife eines Flusses|Biegung der Schraube
+Zählung;1;Erfassung der Stückzahl|Inventur des Volkes
+Zündung;1;Start des Motors|Auslösung der Explosion
+Bergung;1;Rettung Verunglückter|Heben eines Wracks
+Blutung;1;Folge einer Wunde|Austritt von rotem Saft
+Buchung;1;Feste Bestellung einer Reise|Eintrag im Kassenbuch
+Dämmung;2;Schutz gegen Kälte am Haus|Isolierung
+Dehnung;1;Übung für die Muskeln|Strecken
+Deutung;1;Auslegung|Erklärung eines Traums
+Drehung;1;Bewegung um die Achse|Pirouette
+Drohung;1;Ankündigung von Gewalt|Einschüchternde Worte
+Ehrung;1;Feierliche Auszeichnung|Verleihung eines Preises
+Eignung;2;Befähigung|Tauglichkeit
+Einigung;1;Ende des Streits|Kompromiss
+Endung;1;Schluss eines Wortes|Silbe am Wortende
+Färbung;1;Tönung|Anstrich
+Fügung;2;Wink des Schicksals|Glücklicher Zufall
+Füllung;1;Inhalt der Praline|Plombe im Zahn
+Gärung;2;Vorgang im Weinfass|Umwandlung von Zucker in Alkohol
+Gattung;2;Art, Sorte|Gruppe verwandter Tiere
+Geltung;2;Gültigkeit|Ansehen
+Haftung;2;Verantwortung für Schäden|Einstehen für Schulden
+Hebung;2;Betonte Silbe im Vers|Anheben
+Innung;2;Verband von Handwerkern|Zunft heute
+Kühlung;1;Schutz vor Hitze|Aufgabe des Eisschranks
+Kürzung;1;Streichung im Text|Verringerung des Lohns
+Lähmung;2;Verlust der Bewegung|Stillstand
+Lesung;1;Autor trägt aus seinem Buch vor|Abschnitt im Gottesdienst
+Meldung;1;Nachricht|Kurze Information
+Nahrung;1;Essen und Trinken|Kost
+Nutzung;1;Gebrauch|Verwendung
+Ortung;2;Bestimmung der Lage|Suche per Radar
+Paarung;2;Fortpflanzung der Tiere|Zwei Gegner im Turnier
+Räumung;2;Leeren eines Hauses|Zwangsauszug
+Rührung;1;Innere Bewegtheit|Ergriffenheit
+Rundung;1;Gebogene Form|Kurve
+Satzung;2;Regeln eines Vereins|Statut
+Schonung;1;Junger Wald|Rücksicht
+Senkung;1;Herabsetzung|Mulde im Gelände
+Sperrung;1;Schließung der Straße|Blockade
+Spülung;1;Wasserkasten im WC|Pflege nach dem Shampoo
+Streuung;2;Verteilung|Breite Verteilung der Werte
+Tilgung;2;Abzahlung von Schulden|Rückzahlung
+Tönung;1;Leichte Haarfarbe|Farbschimmer
+Trübung;2;Verlust der Klarheit|Schleier im Wasser
+Umgebung;1;Gegend ringsum|Umland
+Währung;1;Euro oder Dollar|Geld eines Landes
+Wandlung;2;Tiefgreifende Änderung|Teil der Messe
+Weisung;2;Befehl|Anordnung von oben
+Wölbung;2;Gebogene Fläche|Bauch der Kuppel
+Ziehung;1;Auslosung im Lotto|Bestimmung der Glückszahlen
+Zuckung;2;Ruckartige Bewegung|Krampf im Muskel
+Freiheit;1;Gegenteil von Gefangenschaft|Unabhängigkeit
+Klugheit;1;Scharfer Verstand|Weisheit
+Bosheit;1;Gemeine Absicht|Tücke
+Faulheit;1;Trägheit|Gegenteil von Fleiß
+Feigheit;1;Mangel an Mut|Gegenteil von Tapferkeit
+Kindheit;1;Erste Lebensjahre|Zeit vor der Jugend
+Klarheit;1;Deutlichkeit|Durchsichtigkeit
+Mehrheit;1;Mehr als die Hälfte|Entscheidet die Abstimmung
+Reinheit;2;Sauberkeit|Unvermischter Zustand
+Weisheit;1;Lebenskluge Einsicht|Gabe der Eule
+Gottheit;2;Verehrtes höheres Wesen|Zeus oder Odin
+Neuheit;1;Gerade erst auf dem Markt|Erfindung
+Sturheit;1;Dickköpfigkeit|Eigensinn
+Feinheit;2;Zarte Beschaffenheit|Kleines Detail
+Erlebnis;1;Besonderes Geschehen|Abenteuer
+Bildnis;2;Porträt|Gemaltes Abbild
+Reichtum;1;Großes Vermögen|Gegenteil von Armut
+Wachstum;1;Größerwerden|Zunahme
+Findling;2;Großer einzelner Felsblock|Stein aus der Eiszeit
+Sperling;1;Spatz|Frecher grauer Vogel
+Bisschen;1;Ein wenig|Kleine Menge
+Februar;1;Kürzester Monat|Monat des Faschings
+August;1;Achter Monat|Dummer … (Clown)
+Oktober;1;Zehnter Monat|Monat des Bierfests in München
+November;1;Elfter Monat|Monat vor dem Advent
+Dezember;1;Letzter Monat|Monat mit Weihnachten
+Dienstag;1;Tag nach Montag|Zweiter Wochentag
+Mittwoch;1;Mitte der Woche|Tag nach Dienstag
+Freitag;1;Tag vor dem Wochenende|Gefährte von Robinson
+Neujahr;1;Erster Januar|Tag nach Silvester
+Nikolaus;1;Kommt am 6. Dezember|Füllt die Stiefel
+Fasching;1;Närrische Zeit|Fest der Kostüme
+Karneval;1;Fünfte Jahreszeit|Fest in Köln und Rio
+Feiertag;1;Arbeitsfreier Festtag|Ostermontag ist einer
+Werktag;1;Montag bis Samstag|Kein Sonntag
+Quartal;2;Vierteljahr|Drei Monate
+Semester;2;Halbjahr an der Uni|Abschnitt des Studiums
+Ewigkeit;1;Zeit ohne Ende|Unendliche Dauer
+Kirmes;1;Jahrmarkt|Fest mit Karussell
+Lametta;1;Silberfäden am Christbaum|Glitzer am Tannenbaum
+Osterei;1;Bunt bemaltes Geschenk im Nest|Versteckt der Hase
+Maibaum;1;Geschmückter Stamm im Frühling|Brauch am 1. Mai
+Vatertag;1;Himmelfahrt für Herren|Tag der Bollerwagen
+Firmung;2;Katholisches Fest der Jugend|Sakrament nach der Kommunion
+Shop;1;Laden (englisch)|Geschäft im Netz
+Sound;2;Klang (englisch)|Typischer Ton einer Band
+Box;1;Kiste|Lautsprecher
+Club;1;Verein|Disco
+Cup;2;Pokal (englisch)|Wettbewerb im Fußball
+Deal;2;Geschäft (ugs.)|Abmachung
+Game;2;Spiel (englisch)|Computerspiel
+Kid;2;Kind (englisch)|Jugendlicher (ugs.)
+Lady;1;Dame (englisch)|Vornehme Frau
+Level;1;Stufe im Computerspiel|Niveau
+Look;2;Aussehen, Stil|Modische Erscheinung
+Lunch;2;Mittagessen (englisch)|Mahlzeit um zwölf
+Match;1;Wettkampf (englisch)|Spiel im Tennis
+News;2;Nachrichten (englisch)|Neuigkeiten
+Pool;1;Schwimmbecken|Becken im Garten
+Power;2;Kraft (englisch)|Energie (ugs.)
+Sale;2;Schlussverkauf (englisch)|Schild im Schaufenster
+Slum;2;Elendsviertel|Armenviertel der Großstadt
+Spray;1;Sprühdose|Feiner Nebel aus der Dose
+Stop;1;Halt!|Aufschrift am roten Schild
+Story;2;Geschichte (englisch)|Handlung
+Trip;2;Kurze Reise|Ausflug
+User;2;Nutzer (englisch)|Anwender am Computer
+Zoom;2;Objektiv zum Heranholen|Vergrößerung im Bild
+Crew;2;Mannschaft an Bord|Besatzung
+Date;2;Verabredung (englisch)|Treffen zu zweit
+Drink;2;Getränk an der Bar|Cocktail
+Event;2;Veranstaltung|Großes Ereignis
+Fake;2;Fälschung (englisch)|Schwindel im Netz
+Feeling;2;Gefühl (englisch)|Gespür
+Label;2;Etikett|Marke einer Plattenfirma
+Lobby;2;Hotelhalle|Interessengruppe
+Logo;1;Zeichen einer Firma|Symbol der Marke
+Meeting;2;Besprechung|Treffen im Büro
+Service;1;Bedienung|Dienst am Kunden
+Sticker;1;Aufkleber|Klebebild
+Thriller;2;Spannender Film|Reißer
+Workshop;2;Kurs zum Mitmachen|Seminar mit Übungen
+Boom;2;Plötzlicher Aufschwung|Blütezeit
+Camping;1;Urlaub im Zelt|Ferien mit Wohnwagen
+Center;2;Einkaufszentrum|Zentrum (englisch)
+City;1;Innenstadt|Stadtzentrum
+Clip;1;Kurzes Video|Klemme
+Cocktail;1;Gemixtes Getränk|Drink mit Schirmchen
+Cowboy;1;Rinderhirt im Wilden Westen|Reiter mit Lasso
+Design;1;Gestaltung|Form und Aussehen
+Dinner;2;Abendessen (englisch)|Festliches Mahl
+Display;2;Anzeige am Handy|Bildschirm
+Drops;1;Kleines Bonbon|Saures zum Lutschen
+Farm;1;Bauernhof in Amerika|Ranch
+Fastfood;1;Schnelles Essen|Burger und Pommes
+Finish;2;Endspurt|Letzter Schliff
+Flyer;2;Handzettel|Werbeblatt
+Freak;2;Verrückter Fan|Sonderling
+Glamour;2;Glanz der Stars|Blendender Schick
+Hotdog;1;Würstchen im Brötchen|Imbiss aus Amerika
+Hype;2;Großer Rummel|Übertriebene Aufregung
+Jogging;1;Dauerlauf|Laufsport
+Joystick;2;Steuerhebel fürs Spiel|Hebel am Computer
+Kickoff;2;Anstoß (englisch)|Auftakt
+Layout;2;Gestaltung einer Seite|Anordnung von Text und Bild
+Loser;2;Verlierer (englisch)|Versager (ugs.)
+Mobbing;2;Schikane im Büro|Ausgrenzen von Kollegen
+Oldtimer;1;Sehr altes Auto|Wagen mit H-Kennzeichen
+Outlet;2;Fabrikverkauf|Laden mit Markenware
+Peeling;2;Pflege zum Abrubbeln|Hautpflege mit Körnchen
+Playback;2;Gesang vom Band|Nur Lippen bewegen
+Popcorn;1;Knabberei im Kino|Geplatzter Mais
+Ranking;2;Rangliste|Platzierung
+Remake;2;Neuverfilmung|Neue Fassung
+Revival;2;Wiederbelebung|Comeback eines Stils
+Rocker;2;Musiker mit E-Gitarre|Kerl auf dem Motorrad
+Safari;1;Fotoreise zu Löwen|Tour durch die Savanne
+Sandwich;1;Belegtes Doppelbrot|Toast mit Belag
+Scout;2;Pfadfinder (englisch)|Talentsucher
+Selfie;1;Foto von sich selbst|Bild mit ausgestrecktem Arm
+Shampoo;1;Mittel zum Haarewaschen|Schäumt auf dem Kopf
+Sheriff;1;Mann mit Stern im Western|Gesetzeshüter im Wilden Westen
+Shopping;1;Einkaufsbummel|Tour durch die Läden
+Shuttle;2;Pendelbus|Zubringer
+Sketch;1;Kurze komische Szene|Kleines Stück im Kabarett
+Slang;2;Lockere Umgangssprache|Jargon
+Smiley;1;Lachendes Gesicht|Gelber Grinser
+Smoothie;2;Püriertes Obst zum Trinken|Dicker Fruchtsaft
+Softeis;1;Cremige Kälte aus dem Automaten|Weiches Gefrorenes
+Sponsor;2;Geldgeber|Fördert den Verein
+Spot;2;Kurzer Werbefilm|Scheinwerfer
+Steward;2;Flugbegleiter|Betreuer an Bord
+Stuntman;2;Ersetzt den Star bei Gefahr|Double für gefährliche Szenen
+Styling;2;Aufmachung|Frisur und Schminke
+Sweater;2;Pullover (englisch)|Pulli
+Tattoo;1;Bild in der Haut|Tätowierung
+Teamwork;2;Arbeit in der Gruppe|Zusammenarbeit
+Teenager;1;Jugendlicher|Mensch zwischen 13 und 19
+Timing;2;Zeitliche Abstimmung|Wahl des richtigen Moments
+Trekking;2;Mehrtägiges Wandern|Tour mit Rucksack
+Trolley;2;Koffer mit Rollen|Rollkoffer
+Tutor;2;Betreuer von Studenten|Lehrer und Ratgeber
+Tweet;2;Kurze Nachricht im Netz|Gezwitscher
+Website;1;Seite im Internet|Auftritt im Netz
+Western;1;Film mit Cowboys|Streifen aus der Prärie
+Wellness;1;Wohlfühlen im Spa|Sauna, Massage und Ruhe
+Zombie;1;Untoter|Wandelnde Leiche im Film
+Bochum;2;Stadt im Ruhrgebiet|Stadt zwischen Essen und Dortmund
+Speyer;2;Domstadt am Rhein|Stadt in der Pfalz
+Chemnitz;2;Stadt in Sachsen|Früher Karl-Marx-Stadt
+Zwickau;2;Stadt in Sachsen|Geburtsort Schumanns
+Cottbus;2;Stadt in der Lausitz|Stadt an der Spree
+Dessau;2;Bauhausstadt|Stadt in Anhalt
+Coburg;2;Stadt in Oberfranken|Stadt mit der Veste
+Fürth;2;Nachbarstadt von Nürnberg|Stadt in Franken
+Kempten;2;Stadt im Allgäu|Stadt an der Iller
+Mannheim;2;Quadratestadt|Stadt an Rhein und Neckar
+Krefeld;2;Stadt am Niederrhein|Seidenstadt
+Dortmund;1;Größte Stadt im Ruhrgebiet|Stadt in Westfalen
+Duisburg;2;Stadt mit großem Binnenhafen|Stadt an Rhein und Ruhr
+Koblenz;2;Stadt am Deutschen Eck|Stadt an Rhein und Mosel
+Landshut;2;Stadt an der Isar|Hauptstadt Niederbayerns
+Erlangen;2;Unistadt in Franken|Stadt bei Nürnberg
+Eisenach;2;Stadt der Wartburg|Geburtsstadt Bachs
+Cuxhaven;2;Stadt an der Elbmündung|Nordseebad
+Türkei;1;Land mit Ankara|Heimat des Döners
+Kosovo;2;Staat auf dem Balkan|Land mit Pristina
+Preußen;2;Früherer deutscher Staat|Reich Friedrichs des Großen
+Armenien;2;Staat im Kaukasus|Land mit Eriwan
+Georgien;2;Staat im Kaukasus|Land mit Tiflis
+Botswana;2;Staat im südlichen Afrika|Land der Kalahari
+Guinea;2;Staat in Westafrika|Land mit Conakry
+Liberia;2;Staat in Westafrika|Land mit Monrovia
+Moldau;2;Fluss durch Prag|Tondichtung von Smetana
+Arche;1;Schiff Noahs|Rettete die Tiere vor der Flut
+Belag;1;Wurst oder Käse aufs Brot|Schicht auf der Straße
+Besatz;2;Borte am Kleid|Verzierung am Saum
+Esse;2;Schornstein|Herd des Schmieds
+Fahne;1;Tuch am Mast|Banner
+Flagge;1;Hoheitszeichen am Schiff|Tuch mit Landesfarben
+Flamme;1;Zunge des Feuers|Brennt an der Kerze
+Flasche;1;Gefäß mit Hals|Behälter für Wasser oder Wein
+Fleisch;1;Schnitzel und Braten|Ware des Metzgers
+Flocke;1;Winziges Stück Schnee|Schnee fällt in solchen
+Flotte;1;Alle Schiffe eines Landes|Verband von Schiffen
+Garten;1;Grünes Reich hinter dem Haus|Dort wachsen Blumen und Gemüse
+Gebäude;1;Haus|Bauwerk
+Gebrauch;1;Verwendung|Benutzung
+Gestein;1;Fels|Granit oder Kalk
+Gewissen;1;Innere Stimme|Meldet sich bei Schuld
+Gott;1;Höchstes Wesen|Schöpfer
+Göttin;1;Hera oder Venus|Weibliches höchstes Wesen
+Hass;1;Gegenteil von Liebe|Tiefe Feindschaft
+Jacht;1;Schickes Schiff|Luxusboot
+Loch;1;Öffnung|Lücke im Strumpf
+Qualm;1;Dichter Rauch|Dicke Schwaden
+Ritt;1;Tour auf dem Pferd|Galopp über das Feld
+Sarg;1;Letzte Ruhestätte aus Holz|Bett des Vampirs
+Schatten;1;Dunkles Abbild|Kühler Platz unter dem Baum
+Schaum;1;Krone auf dem Bier|Blasen in der Wanne
+Schlag;1;Hieb|Treffer des Boxers
+Schluck;1;Kleine Menge zum Trinken|Mundvoll Wasser
+Schmutz;1;Dreck|Unreinheit
+Schrei;1;Lauter Ruf|Gellender Laut
+Schrift;1;Buchstaben auf dem Papier|Art der Buchstaben
+Schuss;1;Knall aus der Pistole|Tritt gegen den Ball
+Sitz;1;Platz im Auto|Stuhl
+Vieh;1;Kühe, Schweine und Schafe|Tiere des Bauern
+Zelt;1;Unterkunft beim Camping|Haus aus Stoff
+Ahnin;2;Vorfahrin|Stammmutter
+Akteur;2;Handelnder|Schauspieler
+Apostel;2;Jünger Jesu|Einer der Zwölf
+Ärztin;1;Medizinerin|Frau Doktor
+Bäuerin;1;Frau auf dem Hof|Landwirtin
+Farmer;1;Landwirt in Amerika|Besitzer der Ranch
+Hausfrau;1;Führt den Haushalt|Managerin daheim
+Köchin;1;Steht am Herd|Küchenchefin
+Krämer;2;Kleiner Kaufmann (veraltet)|Händler im Tante-Emma-Laden
+Poet;2;Dichter|Lyriker
+Priester;1;Geistlicher|Liest die Messe
+Banker;2;Arbeitet im Geldinstitut|Bankier (englisch)
+Gangster;1;Schwerer Verbrecher|Ganove im Film
+Ranger;2;Aufseher im Nationalpark|Hüter der Wildnis
+Tester;1;Prüft Produkte|Probiert alles aus
+Texter;2;Schreibt Werbesprüche|Verfasser von Liedzeilen
+Trucker;2;Fernfahrer|Lenkt den Lastzug
+Wärter;1;Aufseher im Zoo|Bewacht Gefangene
+Zauberer;1;Magier|Merlin war einer
+Zeichner;1;Arbeitet mit Stift und Papier|Macht Comics
+Artist;1;Künstler im Zirkus|Akrobat
+Champion;1;Meister|Sieger im Sport
+Golfer;1;Spielt mit Eisen und Putter|Sportler auf dem Grün
+Keeper;2;Torwart (englisch)|Mann zwischen den Pfosten
+Schütze;1;Trifft ins Schwarze|Sternzeichen im Dezember
+Skater;1;Fährt auf dem Rollbrett|Sportler in der Halfpipe
+Sprinter;1;Schneller Läufer|Läuft die 100 Meter
+Surfer;1;Reitet auf Wellen|Sportler auf dem Brett
+Taucher;1;Schwimmt mit Flasche und Flossen|Sportler unter Wasser
+Shirt;1;Leichtes Oberteil|Hemd ohne Knöpfe
+Lumpen;1;Alte zerrissene Kleider|Fetzen
+Klamotte;1;Kleidungsstück (ugs.)|Alter Schwank
+Latschen;1;Ausgetretener Schuh|Hausschuh (ugs.)
+Puschen;2;Hausschuhe (norddt.)|Weiche Pantoffeln
+Senkel;1;Band zum Schuhebinden|Schnur am Schuh
+Gesäß;1;Hinterteil|Po
+Körper;1;Leib|Rumpf, Arme und Beine
+Popo;1;Hinterteil (Kindersprache)|Po
+Spucke;1;Speichel (ugs.)|Bleibt einem vor Staunen weg
+Pickel;1;Kleine Entzündung der Haut|Hacke für Eis
+Medizin;1;Heilkunde|Arznei

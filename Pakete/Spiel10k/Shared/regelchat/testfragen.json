@@ -1,0 +1,634 @@
+{
+ "_hinweis": "Testfragen für den Regel-Chat (Doku/REGELCHAT-PLAN.md). regeln = Teil-Objekt von GameRules, fehlende Schlüssel = Standard (GameRules()). Vor dem Vergleich die Antwort normalisieren: Kleinschreibung, Tausenderpunkte zwischen Ziffern entfernen (1.000 -> 1000). Zahlen werden als ganze Zahl verglichen (250 trifft nicht 1250). Text als Teilstring. 'a|b' = eine der Alternativen genügt. Alle Zahlen sind gegen Scoring.swift bzw. Server/regeln/scoring.py und Shared/regeltests geprüft. Seit 1.0.1 (8): 40 Fragen, auch umgangssprachlich (Zonk, stehen lassen); Zahlen gegen Server/regeln/scoring.py geprüft (z. B. sechs Einsen = 1300).",
+ "fragen": [
+  {
+   "id": "w01",
+   "frage": "Ich habe 1, 1 und 5 rausgelegt. Wie viele Punkte sind das?",
+   "regeln": {},
+   "erwartet": "250 Punkte: zwei Einsen je 100 und eine Fünf 50.",
+   "muss_enthalten": [
+    "250"
+   ],
+   "darf_nicht_enthalten": [
+    "200",
+    "300",
+    "350"
+   ],
+   "kategorie": "wertung"
+  },
+  {
+   "id": "w02",
+   "frage": "Was bringen drei Einsen?",
+   "regeln": {},
+   "erwartet": "Drei Einsen in einem Wurf sind 1.000 Punkte.",
+   "muss_enthalten": [
+    "1000"
+   ],
+   "darf_nicht_enthalten": [
+    "300",
+    "500"
+   ],
+   "kategorie": "wertung"
+  },
+  {
+   "id": "v01",
+   "frage": "Wir spielen mit „Nur Einsen und Fünfen“. Was zählen drei Einsen und was drei Vieren?",
+   "regeln": {
+    "triples": "onesAndFives"
+   },
+   "erwartet": "Drei Einsen sind 500 Punkte. Drei Vieren zählen in diesem Spiel nicht als Drilling, sie bringen keine Punkte.",
+   "muss_enthalten": [
+    "500",
+    "nicht|keine"
+   ],
+   "darf_nicht_enthalten": [
+    "1000",
+    "400"
+   ],
+   "kategorie": "variante"
+  },
+  {
+   "id": "w03",
+   "frage": "Ich habe vier Einsen geworfen. Wie viel ist das?",
+   "regeln": {},
+   "erwartet": "1.100 Punkte: drei Einsen 1.000 plus eine einzelne Eins 100.",
+   "muss_enthalten": [
+    "1100"
+   ],
+   "darf_nicht_enthalten": [
+    "2000",
+    "4000",
+    "400"
+   ],
+   "kategorie": "wertung"
+  },
+  {
+   "id": "g01",
+   "frage": "Ich habe 4-4-4-4-2 geworfen. Wie viele Punkte kann ich rauslegen?",
+   "regeln": {},
+   "erwartet": "400 Punkte für den Vierer-Drilling. Die vierte Vier und die Zwei bringen allein keine Punkte und bleiben liegen.",
+   "muss_enthalten": [
+    "400"
+   ],
+   "darf_nicht_enthalten": [
+    "800",
+    "500",
+    "1000",
+    "2000"
+   ],
+   "kategorie": "grenzfall"
+  },
+  {
+   "id": "w04",
+   "frage": "Was zählt eine Straße 1-2-3-4-5?",
+   "regeln": {},
+   "erwartet": "1.000 Punkte, aber nur, wenn alle 5 Würfel in einem Wurf geworfen wurden.",
+   "muss_enthalten": [
+    "1000",
+    "alle|einem wurf|voll"
+   ],
+   "darf_nicht_enthalten": [
+    "1500",
+    "500",
+    "750"
+   ],
+   "kategorie": "wertung"
+  },
+  {
+   "id": "g02",
+   "frage": "Ich habe erst eine 1 rausgelegt und dann mit den restlichen vier Würfeln 2-3-4-5 geworfen. Habe ich jetzt eine Straße?",
+   "regeln": {},
+   "erwartet": "Nein. Eine Straße zählt nur, wenn alle 5 Würfel gleichzeitig geworfen wurden. Aus 2-3-4-5 zählt nur die 5 mit 50 Punkten.",
+   "muss_enthalten": [
+    "nein|nicht",
+    "50"
+   ],
+   "darf_nicht_enthalten": [
+    "1000",
+    "1100"
+   ],
+   "kategorie": "grenzfall"
+  },
+  {
+   "id": "g03",
+   "frage": "Ich habe mit allen 5 Würfeln übernommen und direkt 1-2-3-4-5 geworfen. Zählt die Straße?",
+   "regeln": {},
+   "erwartet": "Nein. Beim ersten Wurf nach einer Übernahme zählt keine Straße. Du kannst die 1 und die 5 einzeln rauslegen: 150 Punkte.",
+   "muss_enthalten": [
+    "nein|nicht|keine",
+    "150"
+   ],
+   "darf_nicht_enthalten": [
+    "1000"
+   ],
+   "kategorie": "grenzfall"
+  },
+  {
+   "id": "a01",
+   "frage": "Was passiert, wenn alle meine Würfel punkten?",
+   "regeln": {},
+   "erwartet": "Hast du alle 5 Würfel rausgelegt, darfst du mit allen 5 weiterwürfeln. Die Punkte des Zugs bleiben.",
+   "muss_enthalten": [
+    "alle",
+    "5",
+    "weiter"
+   ],
+   "darf_nicht_enthalten": [
+    "350",
+    "einstieg",
+    "punkte sind verloren"
+   ],
+   "kategorie": "ablauf"
+  },
+  {
+   "id": "a02",
+   "frage": "Was ist eine Niete?",
+   "regeln": {},
+   "erwartet": "Ein Wurf, der keinen einzigen Punkt bringt. Dann ist dein Zug vorbei und alle Punkte dieses Zugs sind verloren.",
+   "muss_enthalten": [
+    "keine|keinen",
+    "verloren|weg"
+   ],
+   "darf_nicht_enthalten": [
+    "behältst du",
+    "bleiben erhalten"
+   ],
+   "kategorie": "ablauf"
+  },
+  {
+   "id": "a03",
+   "frage": "Was passiert, wenn ich dreimal hintereinander eine Niete habe?",
+   "regeln": {},
+   "erwartet": "Nach 3 Nieten in Folge werden dir 500 Strafpunkte abgezogen. Danach zählt die Serie wieder neu. Der Punktestand kann auch unter 0 fallen.",
+   "muss_enthalten": [
+    "500",
+    "neu|von vorn|zurück|wieder"
+   ],
+   "darf_nicht_enthalten": [
+    "1000",
+    "scheidest aus",
+    "ausgeschieden"
+   ],
+   "kategorie": "ablauf"
+  },
+  {
+   "id": "a04",
+   "frage": "Mein Vorgänger hat mit 300 Punkten aufgehört und Würfel offen gelassen. Ich übernehme und mache noch 200 dazu, dann höre ich auf. Wie viele Punkte bekomme ich?",
+   "regeln": {},
+   "erwartet": "500 Punkte: die übernommenen 300 plus deine 200. Die 300 zählen bei dir nur einmal; dein Vorgänger behält seine 300 trotzdem.",
+   "muss_enthalten": [
+    "500"
+   ],
+   "darf_nicht_enthalten": [
+    "800",
+    "200 punkte gutgeschrieben"
+   ],
+   "kategorie": "ablauf"
+  },
+  {
+   "id": "v02",
+   "frage": "Mein Vorgänger hat alle Würfel rausgelegt und aufgehört. Kann ich übernehmen?",
+   "regeln": {
+    "inheritAllFive": false
+   },
+   "erwartet": "Nein, in diesem Spiel gibt es nichts zu übernehmen, wenn alle 5 Würfel rausgelegt wurden. Du beginnst einen neuen Zug.",
+   "muss_enthalten": [
+    "nein|nicht|nichts"
+   ],
+   "darf_nicht_enthalten": [
+    "mit allen 5 würfeln übernehmen",
+    "ja,"
+   ],
+   "kategorie": "variante"
+  },
+  {
+   "id": "v03",
+   "frage": "Wie viel ist 1-2-3-4-5-5?",
+   "regeln": {
+    "diceCount": 6,
+    "straight6": "five"
+   },
+   "erwartet": "1.050 Punkte im vollen Wurf: die 5er-Straße 1.000 plus die zweite Fünf 50.",
+   "muss_enthalten": [
+    "1050"
+   ],
+   "darf_nicht_enthalten": [
+    "1500",
+    "1100",
+    "200"
+   ],
+   "kategorie": "variante"
+  },
+  {
+   "id": "v04",
+   "frage": "Was gibt die große Straße 1-2-3-4-5-6?",
+   "regeln": {
+    "diceCount": 6,
+    "straight6": "full"
+   },
+   "erwartet": "1.500 Punkte, aber nur mit allen 6 Würfeln in einem Wurf. Eine 5er-Straße zählt bei dieser Regel nicht.",
+   "muss_enthalten": [
+    "1500"
+   ],
+   "darf_nicht_enthalten": [
+    "1100",
+    "2500",
+    "3000"
+   ],
+   "kategorie": "variante"
+  },
+  {
+   "id": "v05",
+   "frage": "Ich habe mit 6 Würfeln 2-2-2-4-4-4 geworfen. Was zählt das?",
+   "regeln": {
+    "diceCount": 6
+   },
+   "erwartet": "600 Punkte: zwei Drillinge zählen beide, 200 plus 400.",
+   "muss_enthalten": [
+    "600"
+   ],
+   "darf_nicht_enthalten": [
+    "1500",
+    "2500",
+    "800"
+   ],
+   "kategorie": "variante"
+  },
+  {
+   "id": "v06",
+   "frage": "Wir spielen 10 Runden. Was passiert, wenn nach der letzten Runde zwei gleich viele Punkte haben?",
+   "regeln": {
+    "roundLimit": 10,
+    "tiebreak": true
+   },
+   "erwartet": "Dann gibt es ein Stechen: Nur die beiden haben je einen Zug. Wer dabei mehr Punkte macht, gewinnt; bei erneutem Gleichstand folgt die nächste Stechrunde.",
+   "muss_enthalten": [
+    "stechen",
+    "zug"
+   ],
+   "darf_nicht_enthalten": [
+    "gewinnen beide",
+    "gemeinsam gewonnen",
+    "unentschieden"
+   ],
+   "kategorie": "variante"
+  },
+  {
+   "id": "v07",
+   "frage": "Habe ich sofort gewonnen, wenn ich 10.000 Punkte erreiche?",
+   "regeln": {
+    "finalRound": true
+   },
+   "erwartet": "Nein, in diesem Spiel gilt die faire Schlussrunde: Die anderen spielen die Runde noch zu Ende. Danach gewinnt, wer vorne liegt; bei Gleichstand gibt es ein Stechen.",
+   "muss_enthalten": [
+    "nein|nicht",
+    "runde"
+   ],
+   "darf_nicht_enthalten": [
+    "ja, du hast sofort",
+    "du gewinnst sofort"
+   ],
+   "kategorie": "variante"
+  },
+  {
+   "id": "x01",
+   "frage": "Wer hat das Spiel erfunden?",
+   "regeln": {},
+   "erwartet": "Freundlicher Hinweis: Dazu weiß ich nichts, ich beantworte nur Fragen zu den 10k-Regeln in dieser App.",
+   "muss_enthalten": [
+    "regel"
+   ],
+   "darf_nicht_enthalten": [
+    "erfunden von",
+    "wurde erfunden",
+    "jahrhundert",
+    "farkle"
+   ],
+   "kategorie": "ausserhalb"
+  },
+  {
+   "id": "x02",
+   "frage": "Wie spielt man Kniffel?",
+   "regeln": {},
+   "erwartet": "Freundlicher Hinweis: Ich helfe nur bei den Regeln von 10k, nicht bei anderen Spielen.",
+   "muss_enthalten": [
+    "10k|zehntausend",
+    "regel"
+   ],
+   "darf_nicht_enthalten": [
+    "full house",
+    "13 runden",
+    "spielblock",
+    "dreimal würfeln"
+   ],
+   "kategorie": "ausserhalb"
+  },
+  {
+   "id": "w05",
+   "frage": "Zwei Fünfen und eine Eins, was ist das wert?",
+   "regeln": {},
+   "erwartet": "200 Punkte: 100 für die Eins, je 50 für die Fünfen.",
+   "muss_enthalten": [
+    "200"
+   ],
+   "darf_nicht_enthalten": [
+    "150",
+    "250",
+    "300"
+   ],
+   "kategorie": "wertung"
+  },
+  {
+   "id": "w06",
+   "frage": "Ich hab 5-5-5 gewürfelt, wie viel gibt das?",
+   "regeln": {},
+   "erwartet": "Drei Fünfen sind 500 Punkte.",
+   "muss_enthalten": [
+    "500"
+   ],
+   "darf_nicht_enthalten": [
+    "150",
+    "1000",
+    "1500"
+   ],
+   "kategorie": "wertung"
+  },
+  {
+   "id": "w07",
+   "frage": "Was bringen drei Sechsen?",
+   "regeln": {},
+   "erwartet": "Drei Sechsen sind 600 Punkte.",
+   "muss_enthalten": [
+    "600"
+   ],
+   "darf_nicht_enthalten": [
+    "1800",
+    "300",
+    "1000"
+   ],
+   "kategorie": "wertung"
+  },
+  {
+   "id": "w08",
+   "frage": "Wie viel sind fünf Einsen auf einmal?",
+   "regeln": {},
+   "erwartet": "Drilling 1000 plus zwei einzelne Einsen je 100 = 1200.",
+   "muss_enthalten": [
+    "1200"
+   ],
+   "darf_nicht_enthalten": [
+    "2000",
+    "4000",
+    "3000",
+    "500"
+   ],
+   "kategorie": "wertung"
+  },
+  {
+   "id": "w09",
+   "frage": "Zählt die Straße 2-3-4-5-6 auch?",
+   "regeln": {},
+   "erwartet": "Ja, 2–6 ist eine Straße: 1000 Punkte, wenn alle 5 Würfel in einem Wurf fallen.",
+   "muss_enthalten": [
+    "1000"
+   ],
+   "darf_nicht_enthalten": [
+    "1500",
+    "2000",
+    "500"
+   ],
+   "kategorie": "wertung"
+  },
+  {
+   "id": "g04",
+   "frage": "Mein Wurf: 2, 3, 4, 6, 6. Was kann ich rauslegen?",
+   "regeln": {},
+   "erwartet": "Nichts zählt – das ist eine Niete.",
+   "muss_enthalten": [
+    "niete|nichts"
+   ],
+   "darf_nicht_enthalten": [
+    "50 punkte",
+    "100 punkte",
+    "600"
+   ],
+   "kategorie": "grenzfall"
+  },
+  {
+   "id": "g05",
+   "frage": "Zählen zwei Fünfer und zwei Zweier zusammen was?",
+   "regeln": {},
+   "erwartet": "Nur die beiden Fünfen zählen: 100 Punkte. Zweier zählen einzeln nicht.",
+   "muss_enthalten": [
+    "100",
+    "nicht|keine"
+   ],
+   "darf_nicht_enthalten": [
+    "200",
+    "300",
+    "drei paare"
+   ],
+   "kategorie": "grenzfall"
+  },
+  {
+   "id": "g06",
+   "frage": "Ich habe 1-1-5-5-3 geworfen. Was ist das Beste, was ich rauslegen kann?",
+   "regeln": {},
+   "erwartet": "1, 1, 5, 5 = 300 Punkte, die 3 bleibt liegen.",
+   "muss_enthalten": [
+    "300"
+   ],
+   "darf_nicht_enthalten": [
+    "350",
+    "1000",
+    "400"
+   ],
+   "kategorie": "grenzfall"
+  },
+  {
+   "id": "g07",
+   "frage": "Gibt es Punkte für drei Paare, zum Beispiel 2-2-4-4-6-6?",
+   "regeln": {
+    "diceCount": 6
+   },
+   "erwartet": "Nein, drei Paare gibt es in 10k nicht. 2-2-4-4-6-6 ist eine Niete.",
+   "muss_enthalten": [
+    "nicht|keine|niete|nein"
+   ],
+   "darf_nicht_enthalten": [
+    "1500",
+    "750",
+    "1000"
+   ],
+   "kategorie": "grenzfall"
+  },
+  {
+   "id": "g08",
+   "frage": "Ich hab erst 5-5 rausgelegt und dann mit den restlichen drei Würfeln 1-1-1 geworfen. Wie viel hab ich jetzt?",
+   "regeln": {},
+   "erwartet": "100 + 1000 = 1100 Punkte.",
+   "muss_enthalten": [
+    "1100"
+   ],
+   "darf_nicht_enthalten": [
+    "1200",
+    "300",
+    "1000 punkte gesamt"
+   ],
+   "kategorie": "grenzfall"
+  },
+  {
+   "id": "a05",
+   "frage": "Muss ich am Anfang eine Mindestpunktzahl schaffen, um ins Spiel zu kommen?",
+   "regeln": {},
+   "erwartet": "Nein, eine Mindestpunktzahl gibt es nicht.",
+   "muss_enthalten": [
+    "nein|kein|keine"
+   ],
+   "darf_nicht_enthalten": [
+    "350",
+    "mindestens 500",
+    "500 punkte zum einstieg",
+    "1000 punkte zum einstieg"
+   ],
+   "kategorie": "ablauf"
+  },
+  {
+   "id": "a06",
+   "frage": "Darf ich nach einem Wurf gar nichts rauslegen und einfach nochmal würfeln?",
+   "regeln": {},
+   "erwartet": "Nein, nach jedem Wurf musst du mindestens einen Würfel mit Punkten rauslegen.",
+   "muss_enthalten": [
+    "mindestens|einen|nein"
+   ],
+   "darf_nicht_enthalten": [
+    "ja, du darfst",
+    "darfst du nochmal würfeln, ohne"
+   ],
+   "kategorie": "ablauf"
+  },
+  {
+   "id": "a07",
+   "frage": "Was heißt es, wenn jemand Würfel stehen lässt?",
+   "regeln": {},
+   "erwartet": "Die nächste Person darf die liegen gelassenen Würfel samt Punkten übernehmen.",
+   "muss_enthalten": [
+    "übernehm"
+   ],
+   "darf_nicht_enthalten": [
+    "kniffel",
+    "yahtzee"
+   ],
+   "kategorie": "ablauf"
+  },
+  {
+   "id": "a08",
+   "frage": "Wie viele Leute können mitspielen?",
+   "regeln": {},
+   "erwartet": "2 bis 8.",
+   "muss_enthalten": [
+    "8"
+   ],
+   "darf_nicht_enthalten": [
+    "6 personen",
+    "4 personen",
+    "10 personen"
+   ],
+   "kategorie": "ablauf"
+  },
+  {
+   "id": "a09",
+   "frage": "Was passiert, wenn ich durch die Strafe unter null komme?",
+   "regeln": {},
+   "erwartet": "Das geht, der Punktestand kann unter 0 fallen, es wird normal weitergespielt.",
+   "muss_enthalten": [
+    "unter 0|unter null|negativ|minus"
+   ],
+   "darf_nicht_enthalten": [
+    "scheidest aus",
+    "ausgeschieden",
+    "verloren hast du"
+   ],
+   "kategorie": "ablauf"
+  },
+  {
+   "id": "a10",
+   "frage": "Ich hab einen Zonk geworfen. Was heißt das?",
+   "regeln": {},
+   "erwartet": "Zonk ist ein anderes Wort für Niete: die Punkte des Zugs sind weg.",
+   "muss_enthalten": [
+    "niete",
+    "weg|verloren"
+   ],
+   "darf_nicht_enthalten": [
+    "punkte bleiben",
+    "behältst du"
+   ],
+   "kategorie": "ablauf"
+  },
+  {
+   "id": "v08",
+   "frage": "Gibt es bei uns eine Strafe nach drei Nieten?",
+   "regeln": {
+    "penalty": 0
+   },
+   "erwartet": "Nein, in diesem Spiel gibt es keine Strafe.",
+   "muss_enthalten": [
+    "nein|keine"
+   ],
+   "darf_nicht_enthalten": [
+    "500",
+    "1000"
+   ],
+   "kategorie": "variante"
+  },
+  {
+   "id": "v09",
+   "frage": "Bis wie viele Punkte spielen wir?",
+   "regeln": {
+    "goal": 5000
+   },
+   "erwartet": "Bis 5000 Punkte.",
+   "muss_enthalten": [
+    "5000"
+   ],
+   "darf_nicht_enthalten": [
+    "10000"
+   ],
+   "kategorie": "variante"
+  },
+  {
+   "id": "v10",
+   "frage": "Zählen drei Zweien bei uns?",
+   "regeln": {
+    "triples": "onesAndFives"
+   },
+   "erwartet": "Nein, bei „Nur Einsen und Fünfen“ zählen nur drei Einsen und drei Fünfen.",
+   "muss_enthalten": [
+    "nein|nicht|keine"
+   ],
+   "darf_nicht_enthalten": [
+    "200"
+   ],
+   "kategorie": "variante"
+  },
+  {
+   "id": "v11",
+   "frage": "Ich habe sechs Einsen geworfen. Wie viel ist das?",
+   "regeln": {
+    "diceCount": 6
+   },
+   "erwartet": "Drilling 1000 plus drei einzelne Einsen je 100 = 1300.",
+   "muss_enthalten": [
+    "1300"
+   ],
+   "darf_nicht_enthalten": [
+    "2000",
+    "3000",
+    "8000",
+    "600"
+   ],
+   "kategorie": "variante"
+  }
+ ]
+}

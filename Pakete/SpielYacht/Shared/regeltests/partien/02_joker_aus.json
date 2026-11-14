@@ -1,0 +1,98 @@
+{
+ "name": "02 Joker aus",
+ "beschreibung": "Ohne Joker-Regel zählt ein zweiter Kniffel nur regulär (Full House = 0).",
+ "rules": {
+  "joker": false
+ },
+ "players": [
+  "Anna"
+ ],
+ "dice": [
+  6,
+  6,
+  6,
+  6,
+  6,
+  4,
+  4,
+  4,
+  4,
+  4
+ ],
+ "steps": [
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     6,
+     6,
+     6,
+     6,
+     6
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "kniffel"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  },
+  {
+   "action": {
+    "type": "roll",
+    "keep": []
+   },
+   "expect": {
+    "current": 0,
+    "dice": [
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "rollsUsed": 1
+   }
+  },
+  {
+   "action": {
+    "type": "score",
+    "category": "fullHouse"
+   },
+   "expect": {
+    "current": 0,
+    "dice": [],
+    "rollsUsed": 0
+   }
+  }
+ ],
+ "expected": {
+  "finished": false,
+  "scores": [
+   {
+    "kniffel": 50,
+    "fullHouse": 0
+   }
+  ],
+  "totals": [
+   {
+    "upper": 0,
+    "bonus": 0,
+    "lower": 50,
+    "kniffelBonus": 0,
+    "total": 50
+   }
+  ]
+ }
+}

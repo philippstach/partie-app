@@ -1,0 +1,35 @@
+{
+ "beschreibung": "Tagesspiel: Nummer = ((Tage seit 2026-01-01) × 7919) mod 32000 + 1, Rest nie negativ; ergibt das 11982, dann 11983.",
+ "faelle": [
+  {
+   "datum": "2026-01-01",
+   "tage": 0,
+   "nummer": 1
+  },
+  {
+   "datum": "2026-01-02",
+   "tage": 1,
+   "nummer": 7920
+  },
+  {
+   "datum": "2026-10-04",
+   "tage": 276,
+   "nummer": 9645
+  },
+  {
+   "datum": "2028-02-29",
+   "tage": 789,
+   "nummer": 8092
+  },
+  {
+   "datum": "2025-12-31",
+   "tage": -1,
+   "nummer": 24082
+  },
+  {
+   "datum": "2037-03-23",
+   "tage": 4099,
+   "nummer": 11983
+  }
+ ]
+}

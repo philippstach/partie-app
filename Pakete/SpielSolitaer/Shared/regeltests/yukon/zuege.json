@@ -1,0 +1,2582 @@
+{
+ "beschreibung": "Ein Zug auf einen Zustand. erlaubt=false → Zustand bleibt unverändert. Jede offene Karte darf samt allem darauf bewegt werden (anzahl = Karten ab ihr bis oben); nur sie muss passen (eins kleiner, andere Farbe; leere Spalte nur König). Aufs Ziel nur die oberste Karte einzeln. Punkte: Ziel +10, Aufdecken +5, Ziel → Spalte −15, nie unter 0. Jeder erlaubte Zug zählt 1 bei zuege. Zustände in Tests müssen nicht alle 52 Karten enthalten.",
+ "faelle": [
+  {
+   "titel": "Gruppe ohne Reihenfolge: 9S samt 4H KD 2C auf TH",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9S",
+       "4H",
+       "KD",
+       "2C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 4
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TH",
+       "9S",
+       "4H",
+       "KD",
+       "2C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Gruppe ohne Reihenfolge: nur die unterste Karte muss passen (9H auf TH verboten)",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9H",
+       "8S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Gruppe aus der Mitte: Karten darunter bleiben liegen",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "3D",
+       "9S",
+       "4H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "3D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TH",
+       "9S",
+       "4H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "falsche Farbe: 5S auf 6C verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "falscher Wert: 5S auf 7H verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "gleicher Wert: 5S auf 5H verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "eins kleiner, andere Farbe: 5S auf 6H erlaubt",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H",
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "König samt Gruppe in leere Spalte, deckt auf (+5)",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "2D"
+      ],
+      "offen": [
+       "KS",
+       "3H",
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 3
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "2D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "3H",
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 5,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Nicht-König in leere Spalte: verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Gruppe mit König oben drauf, unten Dame: leere Spalte verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "QH",
+       "KS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "König allein ganz unten in andere leere Spalte: erlaubt (bringt nichts)",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "4C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 2
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "4C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "letzte offene Karte weg: oberste verdeckte deckt sich auf (+5)",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "4C",
+       "8D"
+      ],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "4C"
+      ],
+      "offen": [
+       "8D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H",
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 5,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Teil der offenen Karten weg: nichts wird aufgedeckt",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "8D"
+      ],
+      "offen": [
+       "9C",
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "8D"
+      ],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H",
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "mehr Karten als offen: verboten (verdeckte bewegen sich nie)",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "8D"
+      ],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "anzahl 0: verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 0
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Ass aufs Ziel: +10",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C",
+       "AH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "punkte": 10,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "aufs Ziel mit Aufdecken: +15",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "9C"
+      ],
+      "offen": [
+       "AH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "punkte": 15,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "aufs falsche Ziel: AH auf Z0 verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "AH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "Z0",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "aufs Ziel nur eins höher: 3H auf leeres Z1 verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "aufs Ziel nur einzeln: zwei Karten verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "AH",
+       "2H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "aufs Ziel nur die oberste Karte (Ass unter 9C)",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "AH",
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "vom Ziel zurück in Spalte: 5H auf 6S, −15",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     5,
+     0,
+     0
+    ],
+    "punkte": 20,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "Z1",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S",
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     4,
+     0,
+     0
+    ],
+    "punkte": 5,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "vom Ziel zurück: Punkte nie unter 0",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     5,
+     0,
+     0
+    ],
+    "punkte": 10,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "Z1",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S",
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     4,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "vom Ziel zurück und wieder hin: −15, dann +10",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     5,
+     0,
+     0
+    ],
+    "punkte": 40,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "Z1",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S",
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     4,
+     0,
+     0
+    ],
+    "punkte": 25,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "vom Ziel: König in leere Spalte erlaubt",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     13,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "Z1",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     12,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "vom Ziel: passt nicht (5H auf 6D) verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     5,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "Z1",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "vom Ziel: zwei Karten verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     5,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "Z1",
+    "nach": "S0",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "vom leeren Ziel: verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "Z1",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Ziel → Ziel: verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "Z0",
+    "nach": "Z1",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "gleicher Ort: verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S",
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "aus leerer Spalte: verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S1",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "unbekannter Ort S7: verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S7",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Stapel gibt es nicht: verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "stapel",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Ablage gibt es nicht: verboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "A",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Zähler: jeder erlaubte Zug +1",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 41
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6H",
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 42
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "letzter König aufs Ziel: gewonnen",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     12
+    ],
+    "punkte": 500,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "Z3",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "punkte": 510,
+    "zuege": 1
+   },
+   "gewonnen": true
+  }
+ ]
+}

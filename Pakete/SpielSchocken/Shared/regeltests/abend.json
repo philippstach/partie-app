@@ -1,0 +1,500 @@
+{
+ "beschreibung": "Spieleabend (F8): Nach jedem Schritt Zahl der Partien, ob die Karte „HEUTE“ erscheint, und die sortierte Bilanz. Zeiten in Sekunden; mehr als 6 h (21600 s) seit der letzten beendeten Partie = neuer Abend. haelftenVerlierer = Verlierer von Hälfte 1, 2 und ggf. Finale.",
+ "pauseSekunden": 21600,
+ "faelle": [
+  {
+   "name": "Ein Abend, drei Partien",
+   "schritte": [
+    {
+     "typ": "partieBeendet",
+     "zeit": 0,
+     "spieler": [
+      "Anna",
+      "Ben",
+      "Clara"
+     ],
+     "verlierer": "Ben",
+     "haelftenVerlierer": [
+      "Ben",
+      "Clara"
+     ],
+     "erwartet": {
+      "partien": 1,
+      "karteZeigen": false,
+      "bilanz": [
+       {
+        "name": "Ben",
+        "partien": 1,
+        "partienVerloren": 1,
+        "haelftenVerloren": 1
+       },
+       {
+        "name": "Clara",
+        "partien": 1,
+        "partienVerloren": 0,
+        "haelftenVerloren": 1
+       },
+       {
+        "name": "Anna",
+        "partien": 1,
+        "partienVerloren": 0,
+        "haelftenVerloren": 0
+       }
+      ]
+     }
+    },
+    {
+     "typ": "partieBeendet",
+     "zeit": 2400,
+     "spieler": [
+      "Anna",
+      "Ben",
+      "Clara"
+     ],
+     "verlierer": "Clara",
+     "haelftenVerlierer": [
+      "Clara",
+      "Clara"
+     ],
+     "erwartet": {
+      "partien": 2,
+      "karteZeigen": true,
+      "bilanz": [
+       {
+        "name": "Clara",
+        "partien": 2,
+        "partienVerloren": 1,
+        "haelftenVerloren": 3
+       },
+       {
+        "name": "Ben",
+        "partien": 2,
+        "partienVerloren": 1,
+        "haelftenVerloren": 1
+       },
+       {
+        "name": "Anna",
+        "partien": 2,
+        "partienVerloren": 0,
+        "haelftenVerloren": 0
+       }
+      ]
+     }
+    },
+    {
+     "typ": "partieBeendet",
+     "zeit": 5400,
+     "spieler": [
+      "Anna",
+      "Ben",
+      "Clara"
+     ],
+     "verlierer": "Ben",
+     "haelftenVerlierer": [
+      "Anna",
+      "Ben",
+      "Ben"
+     ],
+     "erwartet": {
+      "partien": 3,
+      "karteZeigen": true,
+      "bilanz": [
+       {
+        "name": "Ben",
+        "partien": 3,
+        "partienVerloren": 2,
+        "haelftenVerloren": 3
+       },
+       {
+        "name": "Clara",
+        "partien": 3,
+        "partienVerloren": 1,
+        "haelftenVerloren": 3
+       },
+       {
+        "name": "Anna",
+        "partien": 3,
+        "partienVerloren": 0,
+        "haelftenVerloren": 1
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "Nach mehr als 6 Stunden Pause beginnt ein neuer Abend",
+   "schritte": [
+    {
+     "typ": "partieBeendet",
+     "zeit": 0,
+     "spieler": [
+      "Anna",
+      "Ben"
+     ],
+     "verlierer": "Anna",
+     "haelftenVerlierer": [
+      "Anna",
+      "Anna"
+     ],
+     "erwartet": {
+      "partien": 1,
+      "karteZeigen": false,
+      "bilanz": [
+       {
+        "name": "Anna",
+        "partien": 1,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       },
+       {
+        "name": "Ben",
+        "partien": 1,
+        "partienVerloren": 0,
+        "haelftenVerloren": 0
+       }
+      ]
+     }
+    },
+    {
+     "typ": "partieBeendet",
+     "zeit": 21601,
+     "spieler": [
+      "Anna",
+      "Ben"
+     ],
+     "verlierer": "Ben",
+     "haelftenVerlierer": [
+      "Ben",
+      "Ben"
+     ],
+     "erwartet": {
+      "partien": 1,
+      "karteZeigen": false,
+      "bilanz": [
+       {
+        "name": "Ben",
+        "partien": 1,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       },
+       {
+        "name": "Anna",
+        "partien": 1,
+        "partienVerloren": 0,
+        "haelftenVerloren": 0
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "Genau 6 Stunden Pause zählen noch zum selben Abend",
+   "schritte": [
+    {
+     "typ": "partieBeendet",
+     "zeit": 0,
+     "spieler": [
+      "Anna",
+      "Ben"
+     ],
+     "verlierer": "Anna",
+     "haelftenVerlierer": [
+      "Anna",
+      "Anna"
+     ],
+     "erwartet": {
+      "partien": 1,
+      "karteZeigen": false,
+      "bilanz": [
+       {
+        "name": "Anna",
+        "partien": 1,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       },
+       {
+        "name": "Ben",
+        "partien": 1,
+        "partienVerloren": 0,
+        "haelftenVerloren": 0
+       }
+      ]
+     }
+    },
+    {
+     "typ": "partieBeendet",
+     "zeit": 21600,
+     "spieler": [
+      "Anna",
+      "Ben"
+     ],
+     "verlierer": "Ben",
+     "haelftenVerlierer": [
+      "Ben",
+      "Ben"
+     ],
+     "erwartet": {
+      "partien": 2,
+      "karteZeigen": true,
+      "bilanz": [
+       {
+        "name": "Anna",
+        "partien": 2,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       },
+       {
+        "name": "Ben",
+        "partien": 2,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "„Neuer Abend“ von Hand, wechselnde Spieler",
+   "schritte": [
+    {
+     "typ": "partieBeendet",
+     "zeit": 0,
+     "spieler": [
+      "Anna",
+      "Ben"
+     ],
+     "verlierer": "Ben",
+     "haelftenVerlierer": [
+      "Ben",
+      "Ben"
+     ],
+     "erwartet": {
+      "partien": 1,
+      "karteZeigen": false,
+      "bilanz": [
+       {
+        "name": "Ben",
+        "partien": 1,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       },
+       {
+        "name": "Anna",
+        "partien": 1,
+        "partienVerloren": 0,
+        "haelftenVerloren": 0
+       }
+      ]
+     }
+    },
+    {
+     "typ": "neuerAbend",
+     "erwartet": {
+      "partien": 0,
+      "karteZeigen": false,
+      "bilanz": []
+     }
+    },
+    {
+     "typ": "partieBeendet",
+     "zeit": 600,
+     "spieler": [
+      "Anna",
+      "Dora",
+      "Emil"
+     ],
+     "verlierer": "Dora",
+     "haelftenVerlierer": [
+      "Emil",
+      "Dora",
+      "Dora"
+     ],
+     "erwartet": {
+      "partien": 1,
+      "karteZeigen": false,
+      "bilanz": [
+       {
+        "name": "Dora",
+        "partien": 1,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       },
+       {
+        "name": "Emil",
+        "partien": 1,
+        "partienVerloren": 0,
+        "haelftenVerloren": 1
+       },
+       {
+        "name": "Anna",
+        "partien": 1,
+        "partienVerloren": 0,
+        "haelftenVerloren": 0
+       }
+      ]
+     }
+    },
+    {
+     "typ": "partieBeendet",
+     "zeit": 1200,
+     "spieler": [
+      "Dora",
+      "Emil"
+     ],
+     "verlierer": "Emil",
+     "haelftenVerlierer": [
+      "Emil",
+      "Emil"
+     ],
+     "erwartet": {
+      "partien": 2,
+      "karteZeigen": true,
+      "bilanz": [
+       {
+        "name": "Emil",
+        "partien": 2,
+        "partienVerloren": 1,
+        "haelftenVerloren": 3
+       },
+       {
+        "name": "Dora",
+        "partien": 2,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       },
+       {
+        "name": "Anna",
+        "partien": 1,
+        "partienVerloren": 0,
+        "haelftenVerloren": 0
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "Gleichstand: Hälften entscheiden, dann der Name",
+   "schritte": [
+    {
+     "typ": "partieBeendet",
+     "zeit": 0,
+     "spieler": [
+      "Clara",
+      "Anna",
+      "Ben"
+     ],
+     "verlierer": "Anna",
+     "haelftenVerlierer": [
+      "Anna",
+      "Ben",
+      "Anna"
+     ],
+     "erwartet": {
+      "partien": 1,
+      "karteZeigen": false,
+      "bilanz": [
+       {
+        "name": "Anna",
+        "partien": 1,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       },
+       {
+        "name": "Ben",
+        "partien": 1,
+        "partienVerloren": 0,
+        "haelftenVerloren": 1
+       },
+       {
+        "name": "Clara",
+        "partien": 1,
+        "partienVerloren": 0,
+        "haelftenVerloren": 0
+       }
+      ]
+     }
+    },
+    {
+     "typ": "partieBeendet",
+     "zeit": 100,
+     "spieler": [
+      "Clara",
+      "Anna",
+      "Ben"
+     ],
+     "verlierer": "Ben",
+     "haelftenVerlierer": [
+      "Ben",
+      "Ben"
+     ],
+     "erwartet": {
+      "partien": 2,
+      "karteZeigen": true,
+      "bilanz": [
+       {
+        "name": "Ben",
+        "partien": 2,
+        "partienVerloren": 1,
+        "haelftenVerloren": 3
+       },
+       {
+        "name": "Anna",
+        "partien": 2,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       },
+       {
+        "name": "Clara",
+        "partien": 2,
+        "partienVerloren": 0,
+        "haelftenVerloren": 0
+       }
+      ]
+     }
+    },
+    {
+     "typ": "partieBeendet",
+     "zeit": 200,
+     "spieler": [
+      "Clara",
+      "Anna",
+      "Ben"
+     ],
+     "verlierer": "Clara",
+     "haelftenVerlierer": [
+      "Clara",
+      "Clara"
+     ],
+     "erwartet": {
+      "partien": 3,
+      "karteZeigen": true,
+      "bilanz": [
+       {
+        "name": "Ben",
+        "partien": 3,
+        "partienVerloren": 1,
+        "haelftenVerloren": 3
+       },
+       {
+        "name": "Anna",
+        "partien": 3,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       },
+       {
+        "name": "Clara",
+        "partien": 3,
+        "partienVerloren": 1,
+        "haelftenVerloren": 2
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

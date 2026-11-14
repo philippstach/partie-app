@@ -1,0 +1,271 @@
+{
+  "beschreibung": "Wort des Tages: Kandidaten = Wörter mit stufe <= max_stufe in Listenreihenfolge, Index = SplitMix64(JJJJMMTT).index(anzahl). Dazu Tages-Statistik und Teilen-Text (Zeilen mit \\n).",
+  "max_stufe": 2,
+  "listen_version": 1,
+  "woerter": [
+    {
+      "sprache": "de",
+      "tag": "2026-10-04",
+      "loesung": "HAI"
+    },
+    {
+      "sprache": "de",
+      "tag": "2026-10-05",
+      "loesung": "BADEWANNE"
+    },
+    {
+      "sprache": "de",
+      "tag": "2026-12-24",
+      "loesung": "BILD"
+    },
+    {
+      "sprache": "de",
+      "tag": "2027-01-01",
+      "loesung": "SCHOTTLAND"
+    },
+    {
+      "sprache": "de",
+      "tag": "2028-02-29",
+      "loesung": "TELEFON"
+    },
+    {
+      "sprache": "en",
+      "tag": "2026-10-04",
+      "loesung": "WALNUT"
+    },
+    {
+      "sprache": "en",
+      "tag": "2026-10-05",
+      "loesung": "COMET"
+    },
+    {
+      "sprache": "en",
+      "tag": "2026-12-24",
+      "loesung": "ARCHERY"
+    },
+    {
+      "sprache": "en",
+      "tag": "2027-01-01",
+      "loesung": "ACCORDION"
+    },
+    {
+      "sprache": "en",
+      "tag": "2028-02-29",
+      "loesung": "SAUSAGE"
+    }
+  ],
+  "statistik": [
+    {
+      "name": "Drei Tage in Folge gewonnen",
+      "ereignisse": [
+        {
+          "tag": "2026-10-04",
+          "gewonnen": true
+        },
+        {
+          "tag": "2026-10-05",
+          "gewonnen": true
+        },
+        {
+          "tag": "2026-10-06",
+          "gewonnen": true
+        }
+      ],
+      "heute": "2026-10-06",
+      "erwartet": {
+        "gespielt": 3,
+        "gewonnen": 3,
+        "serie": 3,
+        "beste_serie": 3,
+        "letzter_sieg": "2026-10-06",
+        "letzter_tag": "2026-10-06"
+      },
+      "serie_anzeige": 3
+    },
+    {
+      "name": "Lücke setzt die Serie auf 1",
+      "ereignisse": [
+        {
+          "tag": "2026-10-04",
+          "gewonnen": true
+        },
+        {
+          "tag": "2026-10-06",
+          "gewonnen": true
+        }
+      ],
+      "heute": "2026-10-06",
+      "erwartet": {
+        "gespielt": 2,
+        "gewonnen": 2,
+        "serie": 1,
+        "beste_serie": 1,
+        "letzter_sieg": "2026-10-06",
+        "letzter_tag": "2026-10-06"
+      },
+      "serie_anzeige": 1
+    },
+    {
+      "name": "Niederlage setzt auf 0, beste Serie bleibt",
+      "ereignisse": [
+        {
+          "tag": "2026-10-04",
+          "gewonnen": true
+        },
+        {
+          "tag": "2026-10-05",
+          "gewonnen": true
+        },
+        {
+          "tag": "2026-10-06",
+          "gewonnen": false
+        }
+      ],
+      "heute": "2026-10-06",
+      "erwartet": {
+        "gespielt": 3,
+        "gewonnen": 2,
+        "serie": 0,
+        "beste_serie": 2,
+        "letzter_sieg": "2026-10-05",
+        "letzter_tag": "2026-10-06"
+      },
+      "serie_anzeige": 0
+    },
+    {
+      "name": "Zweites Ergebnis am selben Tag zählt nicht",
+      "ereignisse": [
+        {
+          "tag": "2026-10-04",
+          "gewonnen": true
+        },
+        {
+          "tag": "2026-10-04",
+          "gewonnen": false
+        }
+      ],
+      "heute": "2026-10-04",
+      "erwartet": {
+        "gespielt": 1,
+        "gewonnen": 1,
+        "serie": 1,
+        "beste_serie": 1,
+        "letzter_sieg": "2026-10-04",
+        "letzter_tag": "2026-10-04"
+      },
+      "serie_anzeige": 1
+    },
+    {
+      "name": "Angezeigte Serie verfällt nach einem verpassten Tag",
+      "ereignisse": [
+        {
+          "tag": "2026-10-04",
+          "gewonnen": true
+        },
+        {
+          "tag": "2026-10-05",
+          "gewonnen": true
+        }
+      ],
+      "heute": "2026-10-07",
+      "erwartet": {
+        "gespielt": 2,
+        "gewonnen": 2,
+        "serie": 2,
+        "beste_serie": 2,
+        "letzter_sieg": "2026-10-05",
+        "letzter_tag": "2026-10-05"
+      },
+      "serie_anzeige": 0
+    },
+    {
+      "name": "Angezeigte Serie hält bis zum Folgetag",
+      "ereignisse": [
+        {
+          "tag": "2026-10-04",
+          "gewonnen": true
+        },
+        {
+          "tag": "2026-10-05",
+          "gewonnen": true
+        }
+      ],
+      "heute": "2026-10-06",
+      "erwartet": {
+        "gespielt": 2,
+        "gewonnen": 2,
+        "serie": 2,
+        "beste_serie": 2,
+        "letzter_sieg": "2026-10-05",
+        "letzter_tag": "2026-10-05"
+      },
+      "serie_anzeige": 2
+    }
+  ],
+  "teilen": [
+    {
+      "tag": "2026-10-04",
+      "fehler": 3,
+      "hinweise": 0,
+      "gewonnen": true,
+      "app_sprache": "de",
+      "text": "Galgenmännchen – Wort des Tages 04.10.2026\n🎈🎈🎈🎈🎈💥💥💥\nErraten mit 3 Fehlern"
+    },
+    {
+      "tag": "2026-10-04",
+      "fehler": 1,
+      "hinweise": 1,
+      "gewonnen": true,
+      "app_sprache": "de",
+      "text": "Galgenmännchen – Wort des Tages 04.10.2026\n🎈🎈🎈🎈🎈🎈🎈💥\nErraten mit 1 Fehler · 1 Hinweis"
+    },
+    {
+      "tag": "2026-10-04",
+      "fehler": 0,
+      "hinweise": 0,
+      "gewonnen": true,
+      "app_sprache": "de",
+      "text": "Galgenmännchen – Wort des Tages 04.10.2026\n🎈🎈🎈🎈🎈🎈🎈🎈\nErraten ohne Fehler"
+    },
+    {
+      "tag": "2026-10-04",
+      "fehler": 8,
+      "hinweise": 2,
+      "gewonnen": false,
+      "app_sprache": "de",
+      "text": "Galgenmännchen – Wort des Tages 04.10.2026\n💥💥💥💥💥💥💥💥\nNicht erraten · 2 Hinweise"
+    },
+    {
+      "tag": "2026-10-04",
+      "fehler": 2,
+      "hinweise": 2,
+      "gewonnen": true,
+      "app_sprache": "en",
+      "text": "Galgenmännchen – Word of the Day 2026-10-04\n🎈🎈🎈🎈🎈🎈💥💥\nSolved with 2 mistakes · 2 hints"
+    },
+    {
+      "tag": "2026-10-04",
+      "fehler": 1,
+      "hinweise": 0,
+      "gewonnen": true,
+      "app_sprache": "en",
+      "text": "Galgenmännchen – Word of the Day 2026-10-04\n🎈🎈🎈🎈🎈🎈🎈💥\nSolved with 1 mistake"
+    },
+    {
+      "tag": "2026-10-04",
+      "fehler": 8,
+      "hinweise": 0,
+      "gewonnen": false,
+      "app_sprache": "en",
+      "text": "Galgenmännchen – Word of the Day 2026-10-04\n💥💥💥💥💥💥💥💥\nNot solved"
+    },
+    {
+      "tag": "2026-10-04",
+      "fehler": 0,
+      "hinweise": 1,
+      "gewonnen": true,
+      "app_sprache": "en",
+      "text": "Galgenmännchen – Word of the Day 2026-10-04\n🎈🎈🎈🎈🎈🎈🎈🎈\nSolved without mistakes · 1 hint"
+    }
+  ]
+}

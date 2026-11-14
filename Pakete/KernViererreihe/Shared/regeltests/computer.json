@@ -1,0 +1,1299 @@
+{
+ "beschreibung": "Stufen leicht und mittel, exakt",
+ "faelle": [
+  {
+   "name": "leicht-sofortgewinn",
+   "beschreibung": "Eigene Dreierreihe vollenden",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    5
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "BB.....",
+    "GGG..B."
+   ],
+   "zufall": [
+    12
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0
+   }
+  },
+  {
+   "name": "leicht-blocken",
+   "beschreibung": "Gegnerische Dreierreihe blockieren",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    0,
+    6,
+    1,
+    6,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......B",
+    "GGG...B"
+   ],
+   "zufall": [
+    480
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0
+   }
+  },
+  {
+   "name": "leicht-gewinnVorBlocken",
+   "beschreibung": "Gewinnen geht vor Blocken",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    0,
+    6,
+    0,
+    6,
+    0,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "G.....B",
+    "G.....B",
+    "G.....B"
+   ],
+   "zufall": [
+    115
+   ],
+   "erwartet": {
+    "spalte": 0,
+    "zufallGezogen": 0
+   }
+  },
+  {
+   "name": "leicht-zweiSofortgewinne",
+   "beschreibung": "Zwei Gewinnspalten: die kleinere",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    1,
+    1,
+    2,
+    2,
+    3,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".BB....",
+    ".GGG..B"
+   ],
+   "zufall": [
+    782
+   ],
+   "erwartet": {
+    "spalte": 0,
+    "zufallGezogen": 0
+   }
+  },
+  {
+   "name": "leicht-leer",
+   "beschreibung": "Leeres Brett",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......."
+   ],
+   "zufall": [
+    402
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 1
+   }
+  },
+  {
+   "name": "leicht-eineSpalteFrei",
+   "beschreibung": "Nur noch wenige Spalten frei",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    4,
+    6,
+    0,
+    0,
+    2,
+    6,
+    0,
+    1,
+    3,
+    4,
+    0,
+    3,
+    0,
+    2,
+    3,
+    6,
+    2,
+    0,
+    6,
+    6,
+    2,
+    6,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    1,
+    5,
+    5,
+    2,
+    2,
+    5,
+    4,
+    1,
+    1,
+    1,
+    1
+   ],
+   "bild": [
+    "BGGBG.B",
+    "GBBGG.B",
+    "GGGBB.G",
+    "GBGGGBB",
+    "BGBBBGB",
+    "GBGGGBB"
+   ],
+   "zufall": [
+    144
+   ],
+   "erwartet": {
+    "spalte": 5,
+    "zufallGezogen": 0
+   }
+  },
+  {
+   "name": "leicht-zufall0",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "leicht",
+   "beginner": 2,
+   "zuege": [
+    1,
+    1,
+    3,
+    4,
+    5,
+    2,
+    4,
+    2,
+    3,
+    6,
+    5,
+    6,
+    4,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "....B..",
+    ".GGBBBG",
+    "GBGBGBG"
+   ],
+   "zufall": [
+    700
+   ],
+   "erwartet": {
+    "spalte": 0,
+    "zufallGezogen": 1
+   }
+  },
+  {
+   "name": "leicht-zufall1",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    3,
+    5,
+    5,
+    5,
+    0,
+    4,
+    4,
+    3,
+    4,
+    6,
+    0,
+    1,
+    1,
+    3,
+    2,
+    5,
+    3,
+    5,
+    5,
+    3,
+    3,
+    0,
+    2,
+    6
+   ],
+   "bild": [
+    "...G.G.",
+    "...B.B.",
+    "...G.B.",
+    "B..BGB.",
+    "GGGBGGB",
+    "GBGGBBB"
+   ],
+   "zufall": [
+    44
+   ],
+   "erwartet": {
+    "spalte": 2,
+    "zufallGezogen": 0
+   }
+  },
+  {
+   "name": "leicht-zufall2",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    2,
+    3,
+    5,
+    2,
+    6,
+    4,
+    3,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "..BG..B",
+    "..GBBGG"
+   ],
+   "zufall": [
+    142
+   ],
+   "erwartet": {
+    "spalte": 2,
+    "zufallGezogen": 1
+   }
+  },
+  {
+   "name": "leicht-zufall3",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    6,
+    3,
+    4,
+    5,
+    5,
+    1,
+    4,
+    6,
+    3,
+    3,
+    2,
+    2,
+    6,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "..BB..G",
+    "..BGGGB",
+    ".BGBGBG"
+   ],
+   "zufall": [
+    973
+   ],
+   "erwartet": {
+    "spalte": 0,
+    "zufallGezogen": 1
+   }
+  },
+  {
+   "name": "leicht-zufall4",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    4,
+    5
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "....GB."
+   ],
+   "zufall": [
+    115
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 1
+   }
+  },
+  {
+   "name": "leicht-zufall5",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    0,
+    4,
+    5,
+    4,
+    5,
+    2,
+    1,
+    5,
+    3,
+    2,
+    2,
+    1,
+    2,
+    6,
+    3,
+    4,
+    1,
+    6,
+    0,
+    6,
+    5,
+    2,
+    4,
+    4,
+    3,
+    2,
+    4,
+    5,
+    1,
+    0,
+    6,
+    5
+   ],
+   "bild": [
+    "..B.GB.",
+    "..B.BB.",
+    ".GG.GGG",
+    "BGGGBBB",
+    "GBBGBGB",
+    "GGBGBGB"
+   ],
+   "zufall": [
+    548
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0
+   }
+  },
+  {
+   "name": "leicht-zufall6",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    3,
+    6,
+    3,
+    2,
+    2,
+    4,
+    1,
+    3,
+    6,
+    0,
+    1,
+    1,
+    6,
+    4,
+    4,
+    3,
+    1,
+    0,
+    5,
+    4,
+    4,
+    3,
+    0,
+    1,
+    6,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".B.BG.B",
+    ".G.BB.G",
+    "GB.BG.G",
+    "BGGGB.G",
+    "BGBGBGB"
+   ],
+   "zufall": [
+    237
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0
+   }
+  },
+  {
+   "name": "leicht-zufall7",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    4,
+    6,
+    4,
+    5,
+    1,
+    3,
+    5,
+    1,
+    0,
+    4
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "....B..",
+    ".B..GG.",
+    "GG.BGBB"
+   ],
+   "zufall": [
+    728
+   ],
+   "erwartet": {
+    "spalte": 0,
+    "zufallGezogen": 1
+   }
+  },
+  {
+   "name": "leicht-zufall8",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "leicht",
+   "beginner": 1,
+   "zuege": [
+    3,
+    0,
+    4,
+    4,
+    5,
+    0,
+    1,
+    2,
+    1,
+    2,
+    3,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "B......",
+    "BGBGB..",
+    "BGBGGG."
+   ],
+   "zufall": [
+    775
+   ],
+   "erwartet": {
+    "spalte": 6,
+    "zufallGezogen": 0
+   }
+  },
+  {
+   "name": "leicht-zufall9",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "leicht",
+   "beginner": 2,
+   "zuege": [
+    3,
+    5,
+    2,
+    5,
+    5,
+    4,
+    4,
+    5,
+    2,
+    4,
+    5,
+    1,
+    1,
+    6,
+    6,
+    0,
+    6,
+    2,
+    4,
+    0,
+    1,
+    6,
+    5,
+    2,
+    2,
+    2
+   ],
+   "bild": [
+    "..G..B.",
+    "..B..B.",
+    "..G.BGG",
+    ".BG.GBB",
+    "GBB.BGB",
+    "GGBBGGG"
+   ],
+   "zufall": [
+    142
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0
+   }
+  },
+  {
+   "name": "mittel-sofortgewinn",
+   "beschreibung": "Eigene Dreierreihe vollenden",
+   "stufe": "mittel",
+   "beginner": 1,
+   "zuege": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    5
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "BB.....",
+    "GGG..B."
+   ],
+   "zufall": [
+    150
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": [
+     -6,
+     -5,
+     -1,
+     9993,
+     -2,
+     -2,
+     -4
+    ]
+   }
+  },
+  {
+   "name": "mittel-blocken",
+   "beschreibung": "Gegnerische Dreierreihe blockieren",
+   "stufe": "mittel",
+   "beginner": 1,
+   "zuege": [
+    0,
+    6,
+    1,
+    6,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......B",
+    "GGG...B"
+   ],
+   "zufall": [
+    758
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": [
+     -9993,
+     -9993,
+     -9993,
+     -2,
+     -9993,
+     -9993,
+     -9993
+    ]
+   }
+  },
+  {
+   "name": "mittel-gewinnVorBlocken",
+   "beschreibung": "Gewinnen geht vor Blocken",
+   "stufe": "mittel",
+   "beginner": 1,
+   "zuege": [
+    0,
+    6,
+    0,
+    6,
+    0,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "G.....B",
+    "G.....B",
+    "G.....B"
+   ],
+   "zufall": [
+    33
+   ],
+   "erwartet": {
+    "spalte": 0,
+    "zufallGezogen": 0,
+    "werte": [
+     9993,
+     -9992,
+     -9992,
+     -9992,
+     -9992,
+     -9992,
+     2
+    ]
+   }
+  },
+  {
+   "name": "mittel-zweiSofortgewinne",
+   "beschreibung": "Zwei Gewinnspalten: die kleinere",
+   "stufe": "mittel",
+   "beginner": 1,
+   "zuege": [
+    1,
+    1,
+    2,
+    2,
+    3,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".BB....",
+    ".GGG..B"
+   ],
+   "zufall": [
+    678
+   ],
+   "erwartet": {
+    "spalte": 0,
+    "zufallGezogen": 1,
+    "werte": [
+     9993,
+     9991,
+     9991,
+     9991,
+     9993,
+     9991,
+     9991
+    ]
+   }
+  },
+  {
+   "name": "mittel-leer",
+   "beschreibung": "Leeres Brett",
+   "stufe": "mittel",
+   "beginner": 1,
+   "zuege": [],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "......."
+   ],
+   "zufall": [
+    62
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": [
+     -6,
+     -4,
+     -1,
+     0,
+     -1,
+     -4,
+     -6
+    ]
+   }
+  },
+  {
+   "name": "mittel-eineSpalteFrei",
+   "beschreibung": "Nur noch wenige Spalten frei",
+   "stufe": "mittel",
+   "beginner": 1,
+   "zuege": [
+    4,
+    6,
+    0,
+    0,
+    2,
+    6,
+    0,
+    1,
+    3,
+    4,
+    0,
+    3,
+    0,
+    2,
+    3,
+    6,
+    2,
+    0,
+    6,
+    6,
+    2,
+    6,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    1,
+    5,
+    5,
+    2,
+    2,
+    5,
+    4,
+    1,
+    1,
+    1,
+    1
+   ],
+   "bild": [
+    "BGGBG.B",
+    "GBBGG.B",
+    "GGGBB.G",
+    "GBGGGBB",
+    "BGBBBGB",
+    "GBGGGBB"
+   ],
+   "zufall": [
+    139
+   ],
+   "erwartet": {
+    "spalte": 5,
+    "zufallGezogen": 0,
+    "werte": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     0,
+     null
+    ]
+   }
+  },
+  {
+   "name": "mittel-zufall0",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "mittel",
+   "beginner": 2,
+   "zuege": [
+    5,
+    6,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    ".B...BG"
+   ],
+   "zufall": [
+    236
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": [
+     -8,
+     -8,
+     -6,
+     -3,
+     -7,
+     -6,
+     -6
+    ]
+   }
+  },
+  {
+   "name": "mittel-zufall1",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "mittel",
+   "beginner": 2,
+   "zuege": [
+    3,
+    1,
+    0,
+    6,
+    0,
+    6,
+    0,
+    3,
+    1,
+    0,
+    1,
+    4,
+    6
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "G......",
+    "BB....B",
+    "BB.G..G",
+    "BG.BG.G"
+   ],
+   "zufall": [
+    548
+   ],
+   "erwartet": {
+    "spalte": 1,
+    "zufallGezogen": 0,
+    "werte": [
+     -14,
+     -2,
+     -14,
+     -5,
+     -9,
+     -16,
+     -16
+    ]
+   }
+  },
+  {
+   "name": "mittel-zufall2",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "mittel",
+   "beginner": 1,
+   "zuege": [
+    6,
+    3,
+    4,
+    4,
+    2,
+    4,
+    1,
+    3,
+    0,
+    0,
+    4,
+    0,
+    1,
+    0,
+    6,
+    1,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "B...G..",
+    "BB..B..",
+    "BGGBB.G",
+    "GGGBG.G"
+   ],
+   "zufall": [
+    749
+   ],
+   "erwartet": {
+    "spalte": 0,
+    "zufallGezogen": 0,
+    "werte": [
+     9982,
+     -9981,
+     -9981,
+     9980,
+     -9981,
+     -9981,
+     -9981
+    ]
+   }
+  },
+  {
+   "name": "mittel-zufall3",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "mittel",
+   "beginner": 1,
+   "zuege": [
+    4,
+    4,
+    0,
+    6,
+    6,
+    4,
+    5,
+    5,
+    5,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "....BG.",
+    "B...BBG",
+    "G...GGB"
+   ],
+   "zufall": [
+    458
+   ],
+   "erwartet": {
+    "spalte": 4,
+    "zufallGezogen": 0,
+    "werte": [
+     -15,
+     -13,
+     -12,
+     -6,
+     -5,
+     -10,
+     -13
+    ]
+   }
+  },
+  {
+   "name": "mittel-zufall4",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "mittel",
+   "beginner": 2,
+   "zuege": [
+    6,
+    5,
+    5,
+    2,
+    2
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    ".......",
+    "..B..B.",
+    "..G..GB"
+   ],
+   "zufall": [
+    538
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": [
+     -9,
+     -7,
+     -9,
+     1,
+     -7,
+     -9,
+     -9
+    ]
+   }
+  },
+  {
+   "name": "mittel-zufall5",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "mittel",
+   "beginner": 2,
+   "zuege": [
+    1,
+    1,
+    6,
+    0,
+    6,
+    2,
+    0,
+    4,
+    2,
+    2,
+    5,
+    1,
+    5,
+    4,
+    0,
+    4,
+    5,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    "G......",
+    "BGG.GB.",
+    "BGB.GBB",
+    "GBG.GBB"
+   ],
+   "zufall": [
+    422
+   ],
+   "erwartet": {
+    "spalte": 5,
+    "zufallGezogen": 0,
+    "werte": [
+     -9980,
+     -9980,
+     -9980,
+     -9980,
+     -7,
+     9981,
+     -9980
+    ]
+   }
+  },
+  {
+   "name": "mittel-zufall6",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "mittel",
+   "beginner": 2,
+   "zuege": [
+    6,
+    5,
+    2,
+    5,
+    3,
+    0,
+    3,
+    3,
+    4,
+    6,
+    0
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".......",
+    "...G...",
+    "B..B.GG",
+    "G.BBBGB"
+   ],
+   "zufall": [
+    209
+   ],
+   "erwartet": {
+    "spalte": 1,
+    "zufallGezogen": 0,
+    "werte": [
+     -9987,
+     -15,
+     -9987,
+     -9987,
+     -9987,
+     -9987,
+     -9987
+    ]
+   }
+  },
+  {
+   "name": "mittel-zufall7",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "mittel",
+   "beginner": 1,
+   "zuege": [
+    1,
+    0,
+    0,
+    6,
+    6,
+    0,
+    1,
+    5,
+    0,
+    6,
+    6,
+    6,
+    2,
+    0,
+    5,
+    4
+   ],
+   "bild": [
+    ".......",
+    "B.....B",
+    "G.....G",
+    "B.....B",
+    "GG...GG",
+    "BGG.BBB"
+   ],
+   "zufall": [
+    607
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": [
+     -9982,
+     -9982,
+     -9982,
+     1,
+     -9982,
+     -9982,
+     -9982
+    ]
+   }
+  },
+  {
+   "name": "mittel-zufall8",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "mittel",
+   "beginner": 2,
+   "zuege": [
+    6,
+    5,
+    3,
+    6,
+    2,
+    6,
+    3,
+    0,
+    5,
+    0,
+    0,
+    5,
+    1,
+    6,
+    5,
+    3,
+    1
+   ],
+   "bild": [
+    ".......",
+    ".......",
+    ".....BG",
+    "B..G.GG",
+    "GB.B.BG",
+    "GBBB.GB"
+   ],
+   "zufall": [
+    95
+   ],
+   "erwartet": {
+    "spalte": 6,
+    "zufallGezogen": 0,
+    "werte": [
+     -9981,
+     -9981,
+     -9981,
+     -9981,
+     -13,
+     -9981,
+     9982
+    ]
+   }
+  },
+  {
+   "name": "mittel-zufall9",
+   "beschreibung": "Zufallsstellung",
+   "stufe": "mittel",
+   "beginner": 2,
+   "zuege": [
+    1,
+    0,
+    3,
+    4,
+    0,
+    0,
+    0,
+    0,
+    4,
+    6,
+    4,
+    6,
+    4,
+    4
+   ],
+   "bild": [
+    ".......",
+    "G...G..",
+    "B...B..",
+    "G...B..",
+    "B...B.G",
+    "GB.BG.G"
+   ],
+   "zufall": [
+    120
+   ],
+   "erwartet": {
+    "spalte": 3,
+    "zufallGezogen": 0,
+    "werte": [
+     5,
+     7,
+     5,
+     17,
+     5,
+     5,
+     7
+    ]
+   }
+  }
+ ]
+}

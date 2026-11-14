@@ -1,0 +1,229 @@
+{
+  "beschreibung": "Statistik nur für Einzelspieler. Ereignisse der Reihe nach auf eine leere Statistik anwenden.",
+  "faelle": [
+    {
+      "name": "Drei Siege, dann verloren",
+      "ereignisse": [
+        {
+          "art": "gewonnen",
+          "stufe": 1,
+          "fehler": 0,
+          "hinweise": 0
+        },
+        {
+          "art": "gewonnen",
+          "stufe": 2,
+          "fehler": 3,
+          "hinweise": 1
+        },
+        {
+          "art": "gewonnen",
+          "stufe": 1,
+          "fehler": 7,
+          "hinweise": 0
+        },
+        {
+          "art": "verloren",
+          "stufe": 3,
+          "fehler": 8,
+          "hinweise": 2
+        }
+      ],
+      "erwartet": {
+        "gespielt": 4,
+        "gewonnen": 3,
+        "serie": 0,
+        "beste_serie": 3,
+        "perfekt": 1,
+        "verteilung": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "je_stufe": {
+          "1": {
+            "gespielt": 2,
+            "gewonnen": 2
+          },
+          "2": {
+            "gespielt": 1,
+            "gewonnen": 1
+          },
+          "3": {
+            "gespielt": 1,
+            "gewonnen": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Beste Serie bleibt nach Niederlage",
+      "ereignisse": [
+        {
+          "art": "gewonnen",
+          "stufe": 2,
+          "fehler": 1,
+          "hinweise": 0
+        },
+        {
+          "art": "gewonnen",
+          "stufe": 2,
+          "fehler": 0,
+          "hinweise": 0
+        },
+        {
+          "art": "verloren",
+          "stufe": 2,
+          "fehler": 8,
+          "hinweise": 0
+        },
+        {
+          "art": "gewonnen",
+          "stufe": 3,
+          "fehler": 2,
+          "hinweise": 2
+        }
+      ],
+      "erwartet": {
+        "gespielt": 4,
+        "gewonnen": 3,
+        "serie": 1,
+        "beste_serie": 2,
+        "perfekt": 1,
+        "verteilung": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "je_stufe": {
+          "1": {
+            "gespielt": 0,
+            "gewonnen": 0
+          },
+          "2": {
+            "gespielt": 3,
+            "gewonnen": 2
+          },
+          "3": {
+            "gespielt": 1,
+            "gewonnen": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "Abbrechen ohne Rateversuch zählt nicht",
+      "ereignisse": [
+        {
+          "art": "gewonnen",
+          "stufe": 1,
+          "fehler": 0,
+          "hinweise": 0
+        },
+        {
+          "art": "abgebrochen",
+          "stufe": 1,
+          "fehler": 0,
+          "hinweise": 0,
+          "geraten": 0
+        },
+        {
+          "art": "gewonnen",
+          "stufe": 1,
+          "fehler": 0,
+          "hinweise": 0
+        }
+      ],
+      "erwartet": {
+        "gespielt": 2,
+        "gewonnen": 2,
+        "serie": 2,
+        "beste_serie": 2,
+        "perfekt": 2,
+        "verteilung": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "je_stufe": {
+          "1": {
+            "gespielt": 2,
+            "gewonnen": 2
+          },
+          "2": {
+            "gespielt": 0,
+            "gewonnen": 0
+          },
+          "3": {
+            "gespielt": 0,
+            "gewonnen": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Abbrechen nach Rateversuch zählt als verloren",
+      "ereignisse": [
+        {
+          "art": "gewonnen",
+          "stufe": 1,
+          "fehler": 0,
+          "hinweise": 0
+        },
+        {
+          "art": "abgebrochen",
+          "stufe": 2,
+          "fehler": 1,
+          "hinweise": 0,
+          "geraten": 3
+        }
+      ],
+      "erwartet": {
+        "gespielt": 2,
+        "gewonnen": 1,
+        "serie": 0,
+        "beste_serie": 1,
+        "perfekt": 1,
+        "verteilung": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "je_stufe": {
+          "1": {
+            "gespielt": 1,
+            "gewonnen": 1
+          },
+          "2": {
+            "gespielt": 1,
+            "gewonnen": 0
+          },
+          "3": {
+            "gespielt": 0,
+            "gewonnen": 0
+          }
+        }
+      }
+    }
+  ]
+}

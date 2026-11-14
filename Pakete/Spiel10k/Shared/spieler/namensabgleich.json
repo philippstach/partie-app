@@ -1,0 +1,18 @@
+{
+ "_hinweis": "Testfälle für HallOfFame.key(name) bzw. den Namensabgleich bekannter Mitspielender, 1.0.1 (vorläufig). gleich=true heißt: beide Namen gelten als dieselbe Person. Spezifikation: Doku/SPEC-1.0.1-B.md §2.",
+ "faelle": [
+  {"a": "Anna", "b": "anna", "gleich": true},
+  {"a": "  Anna ", "b": "Anna", "gleich": true},
+  {"a": "Oma  Gerda", "b": "oma gerda", "gleich": true},
+  {"a": "Oma Gerda", "b": "Oma Gerda", "gleich": true},
+  {"a": "Oma\tGerda", "b": "Oma Gerda", "gleich": true},
+  {"a": "Jörg", "b": "Jorg", "gleich": false},
+  {"a": "JÖRG", "b": "jörg", "gleich": true},
+  {"a": "René", "b": "Rene", "gleich": false},
+  {"a": "Strauß", "b": "strauß", "gleich": true},
+  {"a": "Max", "b": "Maximilian", "gleich": false},
+  {"a": "Max 2", "b": "Max", "gleich": false},
+  {"a": "OmaGerda", "b": "Oma Gerda", "gleich": false},
+  {"a": "", "b": "   ", "gleich": false, "hinweis": "leerer Schlüssel = kein bekannter Name"}
+ ]
+}

@@ -1,0 +1,1 @@
+../../../../App/Start/StartTinte.swift

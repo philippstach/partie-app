@@ -1,0 +1,521 @@
+{
+ "beschreibung": "can_auto_finish(start) und auto_finish_moves(start).",
+ "faelle": [
+  {
+   "titel": "alles geordnet, Karten in Zellen: fertig spielen",
+   "start": {
+    "spalten": [
+     [
+      "KS",
+      "QH",
+      "JS",
+      "TH",
+      "9S",
+      "8H",
+      "7S",
+      "6H",
+      "5S",
+      "4H",
+      "3S"
+     ],
+     [
+      "KH",
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H",
+      "6S",
+      "5H",
+      "4S"
+     ],
+     [
+      "KD",
+      "QC",
+      "JD",
+      "TC"
+     ],
+     [
+      "KC",
+      "QD",
+      "JC",
+      "TD",
+      "9C",
+      "8D",
+      "7C",
+      "6D",
+      "5C",
+      "4D",
+      "3C"
+     ],
+     [
+      "9D",
+      "8C",
+      "7D",
+      "6C",
+      "5D",
+      "4C",
+      "3D"
+     ],
+     [],
+     [
+      "3H"
+     ],
+     []
+    ],
+    "zellen": [
+     "2D",
+     "2C",
+     "2S",
+     "2H"
+    ],
+    "ziel": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "moeglich": true,
+   "zuege": [
+    {
+     "von": "F0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "F3",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S6",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S4",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S3",
+     "nach": "Z3",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "Gleichstand: Zelle vor Spalte",
+   "start": {
+    "spalten": [
+     [
+      "KH"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     "KD",
+     null,
+     null
+    ],
+    "ziel": [
+     13,
+     12,
+     12,
+     13
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "moeglich": true,
+   "zuege": [
+    {
+     "von": "F1",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "eine Spalte nicht geordnet: nicht möglich",
+   "start": {
+    "spalten": [
+     [
+      "2H",
+      "3S"
+     ],
+     [
+      "2S"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     1,
+     1,
+     13,
+     13
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "moeglich": false
+  },
+  {
+   "titel": "geordnet, aber gleiche Farbe übereinander: nicht möglich",
+   "start": {
+    "spalten": [
+     [
+      "3S",
+      "2C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     1,
+     13,
+     13,
+     1
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "moeglich": false
+  },
+  {
+   "titel": "gewonnen: nicht möglich",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "moeglich": false
+  },
+  {
+   "titel": "nur noch Karten in Zellen: fertig spielen",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     "KS",
+     "KH",
+     "KD",
+     "KC"
+    ],
+    "ziel": [
+     12,
+     12,
+     12,
+     12
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "moeglich": true,
+   "zuege": [
+    {
+     "von": "F0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "F1",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "F2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "F3",
+     "nach": "Z3",
+     "anzahl": 1
+    }
+   ]
+  }
+ ]
+}

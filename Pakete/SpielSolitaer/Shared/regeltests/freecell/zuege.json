@@ -1,0 +1,2563 @@
+{
+ "beschreibung": "Ein Zug auf einen Zustand. erlaubt=false → Zustand bleibt unverändert. Jeder erlaubte Zug zählt 1 bei zuege. Zustände in Tests müssen nicht alle 52 Karten enthalten.",
+ "faelle": [
+  {
+   "titel": "Spalte auf passende Spalte",
+   "start": {
+    "spalten": [
+     [
+      "9H"
+     ],
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [
+      "TS",
+      "9H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "gleiche Farbe: verboten",
+   "start": {
+    "spalten": [
+     [
+      "9D"
+     ],
+     [
+      "TH"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "falscher Wert: verboten",
+   "start": {
+    "spalten": [
+     [
+      "8H"
+     ],
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "beliebige Karte in leere Spalte",
+   "start": {
+    "spalten": [
+     [
+      "5D"
+     ],
+     [
+      "KC"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [
+      "KC"
+     ],
+     [
+      "5D"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "Spalte in freie Zelle",
+   "start": {
+    "spalten": [
+     [
+      "5D",
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "F2",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "5D"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     "9C",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "Zelle voll: verboten",
+   "start": {
+    "spalten": [
+     [
+      "5D",
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     "7H",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "F2",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "zwei Karten in eine Zelle: verboten",
+   "start": {
+    "spalten": [
+     [
+      "TD",
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "F0",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Zelle auf passende Spalte",
+   "start": {
+    "spalten": [
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     "9H",
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "F0",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "TS",
+      "9H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "Zelle in leere Spalte",
+   "start": {
+    "spalten": [
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     "4C",
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "F1",
+    "nach": "S3",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [
+      "4C"
+     ],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "Zelle aufs Ziel",
+   "start": {
+    "spalten": [
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     "AD"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "F3",
+    "nach": "Z2",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "Zelle → andere Zelle: verboten",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     "6S",
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "F0",
+    "nach": "F1",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Zelle in belegte Zelle: verboten",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     "6S",
+     "7S",
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "F0",
+    "nach": "F1",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "leere Zelle als Quelle: verboten",
+   "start": {
+    "spalten": [
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "F0",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "aus der Zelle 2 Karten: verboten",
+   "start": {
+    "spalten": [
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     "9H",
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "F0",
+    "nach": "S0",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Spalte aufs Ziel, nächster Wert",
+   "start": {
+    "spalten": [
+     [
+      "4H",
+      "3S"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     2,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "Z0",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "4H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     3,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "aufs falsche Ziel (Farbe): verboten",
+   "start": {
+    "spalten": [
+     [
+      "AH"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "Z0",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "aufs Ziel, Wert passt nicht: verboten",
+   "start": {
+    "spalten": [
+     [
+      "3S"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "Z0",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "zwei Karten aufs Ziel: verboten",
+   "start": {
+    "spalten": [
+     [
+      "3S",
+      "2H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     2,
+     1,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Ziel zurück in Spalte: verboten",
+   "start": {
+    "spalten": [
+     [
+      "5D"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     4,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "Z0",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Ziel zurück in Zelle: verboten",
+   "start": {
+    "spalten": [
+     [
+      "5D"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     4,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "Z0",
+    "nach": "F0",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Quelle gleich Ziel: verboten",
+   "start": {
+    "spalten": [
+     [
+      "9C",
+      "8H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Reihe keine gültige Folge: verboten",
+   "start": {
+    "spalten": [
+     [
+      "9C",
+      "8C"
+     ],
+     [
+      "TD"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "mehr Karten als in der Spalte: verboten",
+   "start": {
+    "spalten": [
+     [
+      "8H",
+      "7S"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 3
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "ganze Spalte weg, Spalte bleibt leer, Zähler +1",
+   "start": {
+    "spalten": [
+     [
+      "9C",
+      "8H"
+     ],
+     [
+      "TD"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 7,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [
+      "TD",
+      "9C",
+      "8H"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 8,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "Supermove 0 Zellen, 0 Spalten frei: 1 Karte geht",
+   "start": {
+    "spalten": [
+     [
+      "9C",
+      "8H"
+     ],
+     [
+      "9S"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     "8C",
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "9C"
+     ],
+     [
+      "9S",
+      "8H"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     "8C",
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "Supermove 0 Zellen, 0 Spalten frei: 2 Karten zu viel",
+   "start": {
+    "spalten": [
+     [
+      "9C",
+      "8H",
+      "7S"
+     ],
+     [
+      "9S"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     "8C",
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Supermove 2 Zellen, 0 Spalten frei: 3 Karten gehen",
+   "start": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "TC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     null,
+     "8C",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 3
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS"
+     ],
+     [
+      "TC",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     null,
+     "8C",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "Supermove 2 Zellen, 0 Spalten frei: 4 Karten zu viel",
+   "start": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "JD"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     null,
+     "8C",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 4
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Supermove 4 Zellen, 0 Spalten frei: 5 Karten gehen",
+   "start": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 5
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "QS"
+     ],
+     [
+      "QC",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "Supermove 4 Zellen, 0 Spalten frei: 6 Karten zu viel",
+   "start": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "KD"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "6S"
+     ]
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 6
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Supermove 1 Zelle, 1 Spalte frei: 4 Karten gehen",
+   "start": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "JD"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     []
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     null,
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 4
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "QS",
+      "JH"
+     ],
+     [
+      "JD",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     []
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     null,
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "Supermove 1 Zelle, 1 Spalte frei: 5 Karten zu viel",
+   "start": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     []
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     null,
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 5
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Supermove 0 Zellen, 2 Spalten frei: 4 Karten gehen",
+   "start": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "JD"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [],
+     []
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     "8C",
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 4
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "QS",
+      "JH"
+     ],
+     [
+      "JD",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [],
+     []
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     "8C",
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "Supermove 0 Zellen, 2 Spalten frei: 5 Karten zu viel",
+   "start": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [],
+     []
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     "8C",
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 5
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Supermove 3 Zellen, 3 Spalten frei: bis 32 erlaubt, 11 Karten gehen",
+   "start": {
+    "spalten": [
+     [
+      "KS",
+      "QH",
+      "JS",
+      "TH",
+      "9S",
+      "8H",
+      "7S",
+      "6H",
+      "5S",
+      "4H",
+      "3S",
+      "2H"
+     ],
+     [
+      "KC"
+     ],
+     [
+      "AD"
+     ],
+     [
+      "2D"
+     ],
+     [
+      "3D"
+     ],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     "7C",
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 11
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "KS"
+     ],
+     [
+      "KC",
+      "QH",
+      "JS",
+      "TH",
+      "9S",
+      "8H",
+      "7S",
+      "6H",
+      "5S",
+      "4H",
+      "3S",
+      "2H"
+     ],
+     [
+      "AD"
+     ],
+     [
+      "2D"
+     ],
+     [
+      "3D"
+     ],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     "7C",
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "in leere Spalte, 1 Zelle + 1 leere Spalte (das Ziel): 2 Karten gehen",
+   "start": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     []
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     null,
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S7",
+    "anzahl": 2
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "8S",
+      "7H"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     null,
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "in leere Spalte, 1 Zelle + 1 leere Spalte (das Ziel): 3 Karten zu viel",
+   "start": {
+    "spalten": [
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     []
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     null,
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S7",
+    "anzahl": 3
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "in leere Spalte, 2 Zellen + 2 leere Spalten: 6 Karten gehen",
+   "start": {
+    "spalten": [
+     [
+      "KC",
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [],
+     []
+    ],
+    "zellen": [
+     "7C",
+     null,
+     "8C",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S6",
+    "anzahl": 6
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "KC"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     []
+    ],
+    "zellen": [
+     "7C",
+     null,
+     "8C",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "in leere Spalte, 2 Zellen + 2 leere Spalten: 7 Karten zu viel",
+   "start": {
+    "spalten": [
+     [
+      "5C",
+      "KH",
+      "QS",
+      "JH",
+      "TS",
+      "9H",
+      "8S",
+      "7H"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [],
+     []
+    ],
+    "zellen": [
+     "7C",
+     null,
+     "8C",
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S6",
+    "anzahl": 7
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "in leere Spalte, 0 Zellen, nur das Ziel leer: nur 1 Karte",
+   "start": {
+    "spalten": [
+     [
+      "9C",
+      "8H"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     []
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     "8C",
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S7",
+    "anzahl": 1
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "9C"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     [
+      "8H"
+     ]
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     "8C",
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 1,
+    "nummer": 0
+   }
+  },
+  {
+   "titel": "in leere Spalte, 0 Zellen, nur das Ziel leer: 2 Karten zu viel",
+   "start": {
+    "spalten": [
+     [
+      "9C",
+      "8H"
+     ],
+     [
+      "QC"
+     ],
+     [
+      "AS"
+     ],
+     [
+      "2S"
+     ],
+     [
+      "3S"
+     ],
+     [
+      "4S"
+     ],
+     [
+      "5S"
+     ],
+     []
+    ],
+    "zellen": [
+     "7C",
+     "7D",
+     "8C",
+     "8D"
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S7",
+    "anzahl": 2
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "unbekannter Ort S8: verboten",
+   "start": {
+    "spalten": [
+     [
+      "9H"
+     ],
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S8",
+    "anzahl": 1
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "anzahl 0: verboten",
+   "start": {
+    "spalten": [
+     [
+      "9H"
+     ],
+     [
+      "TS"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "zellen": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "zuege": 0,
+    "nummer": 0
+   },
+   "zug": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 0
+   },
+   "erlaubt": false
+  }
+ ]
+}

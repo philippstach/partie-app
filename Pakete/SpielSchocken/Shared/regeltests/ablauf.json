@@ -1,0 +1,82 @@
+{
+ "beschreibung": "Nach den bisherigen Hälften-Verlierern: was kommt als Nächstes? naechste = haelfte2 | finale | null; verlierer = Verlierer der Partie.",
+ "faelle": [
+  {
+   "optionen": {},
+   "haelftenVerlierer": [
+    2
+   ],
+   "erwartet": {
+    "naechste": "haelfte2",
+    "verlierer": null,
+    "finaleSpieler": []
+   }
+  },
+  {
+   "optionen": {},
+   "haelftenVerlierer": [
+    2,
+    2
+   ],
+   "erwartet": {
+    "naechste": null,
+    "verlierer": 2,
+    "finaleSpieler": []
+   }
+  },
+  {
+   "optionen": {},
+   "haelftenVerlierer": [
+    2,
+    0
+   ],
+   "erwartet": {
+    "naechste": "finale",
+    "verlierer": null,
+    "finaleSpieler": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "optionen": {},
+   "haelftenVerlierer": [
+    1,
+    3,
+    3
+   ],
+   "erwartet": {
+    "naechste": null,
+    "verlierer": 3,
+    "finaleSpieler": []
+   }
+  },
+  {
+   "optionen": {},
+   "haelftenVerlierer": [
+    1,
+    3,
+    1
+   ],
+   "erwartet": {
+    "naechste": null,
+    "verlierer": 1,
+    "finaleSpieler": []
+   }
+  },
+  {
+   "optionen": {
+    "spiellaenge": "haelfte"
+   },
+   "haelftenVerlierer": [
+    2
+   ],
+   "erwartet": {
+    "naechste": null,
+    "verlierer": 2,
+    "finaleSpieler": []
+   }
+  }
+ ]
+}

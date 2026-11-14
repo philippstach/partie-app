@@ -1,0 +1,424 @@
+{
+ "beschreibung": "can_auto_finish(start): nicht gewonnen, keine verdeckte Karte, und allein mit obersten Karten geht alles aufs Ziel. auto_finish_moves: je Schritt die passende oberste Karte mit dem kleinsten Wert, bei Gleichstand die linke Spalte (wie Klondike).",
+ "faelle": [
+  {
+   "titel": "alles offen und lösbar: angeboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "QS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "JS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     10,
+     11,
+     13,
+     13
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "angeboten": true,
+   "zuege": [
+    {
+     "von": "S2",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z1",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "noch eine verdeckte Karte: nicht angeboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "KS"
+      ],
+      "offen": [
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "QS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "JS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     10,
+     11,
+     13,
+     13
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "angeboten": false
+  },
+  {
+   "titel": "alles offen, aber QS liegt auf JS: nicht angeboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "JS",
+       "QS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     10,
+     11,
+     13,
+     13
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "angeboten": false
+  },
+  {
+   "titel": "kleinster Wert zuerst, Gleichstand linke Spalte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD",
+       "QS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     11,
+     11,
+     11,
+     13
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "angeboten": true,
+   "zuege": [
+    {
+     "von": "S0",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S1",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z1",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "nur noch ein König: angeboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     13,
+     12,
+     13,
+     13
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "angeboten": true,
+   "zuege": [
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "gewonnen: nicht angeboten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "angeboten": false
+  },
+  {
+   "titel": "leere Spalten stören nicht",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "KD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     13,
+     13,
+     12,
+     13
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "angeboten": true,
+   "zuege": [
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    }
+   ]
+  }
+ ]
+}

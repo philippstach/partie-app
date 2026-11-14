@@ -1,0 +1,409 @@
+{
+ "beschreibung": "auto_foundation_moves(start): sichere Karten (Wert ≤ 2 oder beide Ziele der Gegenfarbe ≥ Wert − 1), Zug für Zug; je Runde S0…S6, nach jedem Treffer von vorn.",
+ "faelle": [
+  {
+   "titel": "Asse und Zweien sind immer sicher (Runde S0…S6, nach Treffer von vorn)",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "AS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "AD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zuege": [
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z0",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "3H nicht sicher, solange Pik und Kreuz unter 2 sind",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     2,
+     2,
+     0,
+     1
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zuege": []
+  },
+  {
+   "titel": "3H sicher, wenn Pik und Kreuz bei 2 sind",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     2,
+     2,
+     0,
+     2
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zuege": [
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "aufgedeckte Karte geht gleich weiter",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "2H"
+      ],
+      "offen": [
+       "AH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zuege": [
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z1",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "nur oberste Karten: Ass unter 9C bleibt",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "AH",
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "AS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zuege": [
+    {
+     "von": "S1",
+     "nach": "Z0",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "Kette über mehrere Spalten",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "3D",
+       "2C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "AC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2D",
+       "AD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     2,
+     2,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zuege": [
+    {
+     "von": "S1",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z3",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S2",
+     "nach": "Z2",
+     "anzahl": 1
+    },
+    {
+     "von": "S0",
+     "nach": "Z2",
+     "anzahl": 1
+    }
+   ]
+  },
+  {
+   "titel": "nichts sicher: leere Liste",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zuege": []
+  }
+ ]
+}

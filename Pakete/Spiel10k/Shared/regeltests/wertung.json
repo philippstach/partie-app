@@ -1,0 +1,1593 @@
+{
+ "_hinweis": "Gemeinsame Wertungsfälle für Swift (Scoring) und Python (regeln.scoring). expectedScore null = ungültige Auswahl. Siehe README.md. Optional je Fall: diceCount (5/6, Standard 5) und straight6 (five/full, Standard five).",
+ "wertung": [
+  {
+   "name": "leere Auswahl",
+   "dice": [],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "eine 1",
+   "dice": [
+    1
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 100
+  },
+  {
+   "name": "eine 5",
+   "dice": [
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 50
+  },
+  {
+   "name": "zwei Einsen",
+   "dice": [
+    1,
+    1
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": 200
+  },
+  {
+   "name": "zwei Fünfen",
+   "dice": [
+    5,
+    5
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": 100
+  },
+  {
+   "name": "1 und 5",
+   "dice": [
+    1,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 150
+  },
+  {
+   "name": "einzelne 2 zählt nicht",
+   "dice": [
+    2
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "einzelne 6 zählt nicht",
+   "dice": [
+    6
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "1 mit wertloser 3",
+   "dice": [
+    1,
+    3
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "zwei Zweien",
+   "dice": [
+    2,
+    2
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "drei Einsen",
+   "dice": [
+    1,
+    1,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 1000
+  },
+  {
+   "name": "drei Zweien",
+   "dice": [
+    2,
+    2,
+    2
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 200
+  },
+  {
+   "name": "drei Dreien",
+   "dice": [
+    3,
+    3,
+    3
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": 300
+  },
+  {
+   "name": "drei Vieren",
+   "dice": [
+    4,
+    4,
+    4
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 400
+  },
+  {
+   "name": "drei Fünfen",
+   "dice": [
+    5,
+    5,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 500
+  },
+  {
+   "name": "drei Sechsen",
+   "dice": [
+    6,
+    6,
+    6
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": 600
+  },
+  {
+   "name": "drei Einsen + 5",
+   "dice": [
+    1,
+    1,
+    1,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 1050
+  },
+  {
+   "name": "Plan-Beispiel 1,1,1,5 + wertlose 2",
+   "dice": [
+    1,
+    1,
+    1,
+    5,
+    2
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "drei Zweien + 1 + 5",
+   "dice": [
+    2,
+    2,
+    2,
+    1,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 350
+  },
+  {
+   "name": "vier Einsen",
+   "dice": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": 1100
+  },
+  {
+   "name": "fünf Einsen",
+   "dice": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 1200
+  },
+  {
+   "name": "vier Fünfen",
+   "dice": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 550
+  },
+  {
+   "name": "fünf Fünfen",
+   "dice": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 600
+  },
+  {
+   "name": "vier Zweien: vierte zählt nicht",
+   "dice": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "vier Sechsen: vierte zählt nicht",
+   "dice": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "fünf Dreien",
+   "dice": [
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "drei Vieren + zwei Einsen",
+   "dice": [
+    4,
+    4,
+    4,
+    1,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 600
+  },
+  {
+   "name": "drei Sechsen + 1 + 5",
+   "dice": [
+    6,
+    1,
+    6,
+    5,
+    6
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": 750
+  },
+  {
+   "name": "drei Fünfen + zwei Einsen",
+   "dice": [
+    5,
+    1,
+    5,
+    1,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 700
+  },
+  {
+   "name": "drei Einsen + zwei Fünfen",
+   "dice": [
+    1,
+    5,
+    1,
+    5,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 1100
+  },
+  {
+   "name": "Straße 1–5, voller Wurf",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 1000
+  },
+  {
+   "name": "Straße 2–6, voller Wurf",
+   "dice": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 1000
+  },
+  {
+   "name": "Straße ungeordnet",
+   "dice": [
+    5,
+    3,
+    1,
+    4,
+    2
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 1000
+  },
+  {
+   "name": "Straße 2–6 ungeordnet",
+   "dice": [
+    6,
+    4,
+    2,
+    5,
+    3
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 1000
+  },
+  {
+   "name": "Straße 1–5 ohne vollen Wurf",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "Straße 2–6 ohne vollen Wurf (Plan-Beispiel)",
+   "dice": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "nur vier Würfel einer Straße",
+   "dice": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "1,2,3,4,6 ist keine Straße",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "1,1,5,5,1 voller Wurf",
+   "dice": [
+    1,
+    1,
+    5,
+    5,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 1100
+  },
+  {
+   "name": "zwei Einsen zwei Fünfen",
+   "dice": [
+    1,
+    1,
+    5,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 300
+  },
+  {
+   "name": "drei Zweien + drei? (nur 5 Würfel) 2,2,2,3,3",
+   "dice": [
+    2,
+    2,
+    2,
+    3,
+    3
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "Straße 1–5 mit Drilling-Regel onesAndFives",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": 1000
+  },
+  {
+   "name": "Straße 2–6 mit onesAndFives",
+   "dice": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": 1000
+  },
+  {
+   "name": "Straße ohne vollen Wurf, onesAndFives",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "fullThrow": false,
+   "triples": "onesAndFives",
+   "expectedScore": null
+  },
+  {
+   "name": "onesAndFives: drei Einsen = 500",
+   "dice": [
+    1,
+    1,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": 500
+  },
+  {
+   "name": "onesAndFives: drei Fünfen",
+   "dice": [
+    5,
+    5,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": 500
+  },
+  {
+   "name": "onesAndFives: drei Zweien zählen nicht",
+   "dice": [
+    2,
+    2,
+    2
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": null
+  },
+  {
+   "name": "onesAndFives: drei Dreien zählen nicht",
+   "dice": [
+    3,
+    3,
+    3
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": null
+  },
+  {
+   "name": "onesAndFives: drei Vieren zählen nicht",
+   "dice": [
+    4,
+    4,
+    4
+   ],
+   "fullThrow": false,
+   "triples": "onesAndFives",
+   "expectedScore": null
+  },
+  {
+   "name": "onesAndFives: drei Sechsen zählen nicht",
+   "dice": [
+    6,
+    6,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": null
+  },
+  {
+   "name": "onesAndFives: drei Sechsen + 1",
+   "dice": [
+    6,
+    6,
+    6,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": null
+  },
+  {
+   "name": "onesAndFives: vier Einsen",
+   "dice": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": 600
+  },
+  {
+   "name": "onesAndFives: fünf Einsen",
+   "dice": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": 700
+  },
+  {
+   "name": "onesAndFives: drei Einsen ohne vollen Wurf",
+   "dice": [
+    1,
+    1,
+    1
+   ],
+   "fullThrow": false,
+   "triples": "onesAndFives",
+   "expectedScore": 500
+  },
+  {
+   "name": "onesAndFives: drei Einsen + 5",
+   "dice": [
+    1,
+    5,
+    1,
+    1
+   ],
+   "fullThrow": false,
+   "triples": "onesAndFives",
+   "expectedScore": 550
+  },
+  {
+   "name": "onesAndFives: fünf Fünfen",
+   "dice": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": 600
+  },
+  {
+   "name": "onesAndFives: vier Fünfen",
+   "dice": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "fullThrow": false,
+   "triples": "onesAndFives",
+   "expectedScore": 550
+  },
+  {
+   "name": "onesAndFives: drei Einsen + zwei Fünfen",
+   "dice": [
+    1,
+    1,
+    1,
+    5,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": 600
+  },
+  {
+   "name": "onesAndFives: drei Fünfen + zwei Einsen",
+   "dice": [
+    5,
+    5,
+    5,
+    1,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": 700
+  },
+  {
+   "name": "onesAndFives: einzelne 1 und 5",
+   "dice": [
+    1,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": 150
+  },
+  {
+   "name": "onesAndFives: einzelne 1",
+   "dice": [
+    1
+   ],
+   "fullThrow": false,
+   "triples": "onesAndFives",
+   "expectedScore": 100
+  },
+  {
+   "name": "onesAndFives: 2 zählt nicht",
+   "dice": [
+    2
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": null
+  },
+  {
+   "name": "onesAndFives: leer",
+   "dice": [],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedScore": null
+  },
+  {
+   "name": "all: drei Zweien + 5",
+   "dice": [
+    2,
+    5,
+    2,
+    2
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": 250
+  },
+  {
+   "name": "onesAndFives: drei Zweien + 5",
+   "dice": [
+    2,
+    5,
+    2,
+    2
+   ],
+   "fullThrow": false,
+   "triples": "onesAndFives",
+   "expectedScore": null
+  },
+  {
+   "name": "drei Einsen ohne vollen Wurf",
+   "dice": [
+    1,
+    1,
+    1
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedScore": 1000
+  },
+  {
+   "name": "fünf Sechsen",
+   "dice": [
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": null
+  },
+  {
+   "name": "vier Einsen + 5",
+   "dice": [
+    1,
+    1,
+    1,
+    1,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 1150
+  },
+  {
+   "name": "vier Fünfen + 1",
+   "dice": [
+    5,
+    5,
+    5,
+    5,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedScore": 650
+  },
+  {
+   "name": "6W: 5er-Straße 1–5",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": 1000
+  },
+  {
+   "name": "6W: 5er-Straße 2–6",
+   "dice": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": 1000
+  },
+  {
+   "name": "6W: 5er-Straße + 5",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": 1050
+  },
+  {
+   "name": "6W: 5er-Straße + 1",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": 1100
+  },
+  {
+   "name": "6W: 1–6 bei 5er-Regel = 2–6 + einzelne 1",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": 1100
+  },
+  {
+   "name": "6W: 5er-Straße + wertlose 3",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    3
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": null
+  },
+  {
+   "name": "6W: 5er-Straße nicht im vollen Wurf",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": null
+  },
+  {
+   "name": "6W: große Straße 1–6",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "full",
+   "expectedScore": 1500
+  },
+  {
+   "name": "6W: große-Straße-Regel, 5er zählt nicht",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "full",
+   "expectedScore": null
+  },
+  {
+   "name": "6W: große Straße nicht im vollen Wurf",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "full",
+   "expectedScore": null
+  },
+  {
+   "name": "6W: zwei Drillinge 2 und 4",
+   "dice": [
+    2,
+    2,
+    2,
+    4,
+    4,
+    4
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": 600
+  },
+  {
+   "name": "6W: zwei Drillinge 1 und 5",
+   "dice": [
+    1,
+    1,
+    1,
+    5,
+    5,
+    5
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": 1500
+  },
+  {
+   "name": "6W: sechs Einsen = Drilling + 3 Einzelne",
+   "dice": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": 1300
+  },
+  {
+   "name": "6W: sechs Zweien zählen nicht als zwei Drillinge",
+   "dice": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": null
+  },
+  {
+   "name": "6W: drei Paare zählen nicht",
+   "dice": [
+    2,
+    2,
+    3,
+    3,
+    4,
+    4
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": null
+  },
+  {
+   "name": "6W: nur Einsen/Fünfen, 1-1-1-5-5-5",
+   "dice": [
+    1,
+    1,
+    1,
+    5,
+    5,
+    5
+   ],
+   "fullThrow": false,
+   "triples": "onesAndFives",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": 1000
+  },
+  {
+   "name": "6W: nur Einsen/Fünfen, zwei andere Drillinge",
+   "dice": [
+    2,
+    2,
+    2,
+    4,
+    4,
+    4
+   ],
+   "fullThrow": false,
+   "triples": "onesAndFives",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedScore": null
+  }
+ ],
+ "nieten": [
+  {
+   "name": "2,3,4,6,6 Niete",
+   "dice": [
+    2,
+    3,
+    4,
+    6,
+    6
+   ],
+   "triples": "all",
+   "expectedCanScore": false
+  },
+  {
+   "name": "2,2,3,3,4 Niete",
+   "dice": [
+    2,
+    2,
+    3,
+    3,
+    4
+   ],
+   "triples": "all",
+   "expectedCanScore": false
+  },
+  {
+   "name": "eine 1 reicht",
+   "dice": [
+    2,
+    3,
+    1,
+    4,
+    6
+   ],
+   "triples": "all",
+   "expectedCanScore": true
+  },
+  {
+   "name": "eine 5 reicht",
+   "dice": [
+    5,
+    2,
+    3,
+    4,
+    6
+   ],
+   "triples": "all",
+   "expectedCanScore": true
+  },
+  {
+   "name": "drei Zweien",
+   "dice": [
+    2,
+    2,
+    2,
+    3,
+    4
+   ],
+   "triples": "all",
+   "expectedCanScore": true
+  },
+  {
+   "name": "drei Zweien, onesAndFives = Niete",
+   "dice": [
+    2,
+    2,
+    2,
+    3,
+    4
+   ],
+   "triples": "onesAndFives",
+   "expectedCanScore": false
+  },
+  {
+   "name": "drei Sechsen, onesAndFives = Niete",
+   "dice": [
+    6,
+    6,
+    6,
+    4,
+    3
+   ],
+   "triples": "onesAndFives",
+   "expectedCanScore": false
+  },
+  {
+   "name": "vier Vieren, onesAndFives = Niete",
+   "dice": [
+    4,
+    4,
+    4,
+    4,
+    2
+   ],
+   "triples": "onesAndFives",
+   "expectedCanScore": false
+  },
+  {
+   "name": "vier Vieren, all",
+   "dice": [
+    4,
+    4,
+    4,
+    4,
+    2
+   ],
+   "triples": "all",
+   "expectedCanScore": true
+  },
+  {
+   "name": "ein Würfel 3",
+   "dice": [
+    3
+   ],
+   "triples": "all",
+   "expectedCanScore": false
+  },
+  {
+   "name": "ein Würfel 5",
+   "dice": [
+    5
+   ],
+   "triples": "all",
+   "expectedCanScore": true
+  },
+  {
+   "name": "zwei Würfel 4,6",
+   "dice": [
+    4,
+    6
+   ],
+   "triples": "all",
+   "expectedCanScore": false
+  },
+  {
+   "name": "zwei Würfel 1,6",
+   "dice": [
+    1,
+    6
+   ],
+   "triples": "onesAndFives",
+   "expectedCanScore": true
+  },
+  {
+   "name": "drei Würfel 6,6,6",
+   "dice": [
+    6,
+    6,
+    6
+   ],
+   "triples": "all",
+   "expectedCanScore": true
+  },
+  {
+   "name": "drei Würfel 6,6,6 onesAndFives",
+   "dice": [
+    6,
+    6,
+    6
+   ],
+   "triples": "onesAndFives",
+   "expectedCanScore": false
+  },
+  {
+   "name": "Straße 2–6 enthält eine 5",
+   "dice": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "triples": "onesAndFives",
+   "expectedCanScore": true
+  },
+  {
+   "name": "drei Würfel 2,3,4",
+   "dice": [
+    2,
+    3,
+    4
+   ],
+   "triples": "all",
+   "expectedCanScore": false
+  },
+  {
+   "name": "vier Würfel 2,2,6,6",
+   "dice": [
+    2,
+    2,
+    6,
+    6
+   ],
+   "triples": "all",
+   "expectedCanScore": false
+  },
+  {
+   "name": "6W: Niete ohne 1, 5 und Drilling",
+   "dice": [
+    2,
+    3,
+    4,
+    6,
+    6,
+    2
+   ],
+   "triples": "all",
+   "diceCount": 6,
+   "expectedCanScore": false
+  }
+ ],
+ "besteAuswahl": [
+  {
+   "name": "Straße schlägt Einzelne",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedPoints": 1000,
+   "expectedIndices": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "name": "Straße ohne vollen Wurf: 1 + 5",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedPoints": 150,
+   "expectedIndices": [
+    0,
+    4
+   ]
+  },
+  {
+   "name": "drei Einsen + 5",
+   "dice": [
+    1,
+    1,
+    1,
+    5,
+    2
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedPoints": 1050,
+   "expectedIndices": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "name": "onesAndFives: Drilling Einsen (500) statt drei Einzelne (300)",
+   "dice": [
+    1,
+    1,
+    1,
+    4,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedPoints": 500,
+   "expectedIndices": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "name": "all: Drilling Einsen = 1.000",
+   "dice": [
+    1,
+    1,
+    1,
+    4,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedPoints": 1000,
+   "expectedIndices": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "name": "onesAndFives: Drilling Fünfen",
+   "dice": [
+    5,
+    5,
+    5,
+    2,
+    3
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedPoints": 500,
+   "expectedIndices": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "name": "onesAndFives: drei Vieren wertlos, nur die 1",
+   "dice": [
+    4,
+    4,
+    4,
+    1,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "onesAndFives",
+   "expectedPoints": 100,
+   "expectedIndices": [
+    3
+   ]
+  },
+  {
+   "name": "all: drei Vieren + 1",
+   "dice": [
+    4,
+    4,
+    4,
+    1,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedPoints": 500,
+   "expectedIndices": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Niete",
+   "dice": [
+    2,
+    3,
+    4,
+    6,
+    6
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedPoints": 0,
+   "expectedIndices": []
+  },
+  {
+   "name": "alle drei zusammen am besten",
+   "dice": [
+    5,
+    5,
+    1
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedPoints": 200,
+   "expectedIndices": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "name": "wertlose 2 bleibt liegen",
+   "dice": [
+    2,
+    1,
+    5,
+    5
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedPoints": 200,
+   "expectedIndices": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "name": "1 und 5, die 2 bleibt liegen",
+   "dice": [
+    5,
+    2,
+    1
+   ],
+   "fullThrow": false,
+   "triples": "all",
+   "expectedPoints": 150,
+   "expectedIndices": [
+    0,
+    2
+   ]
+  },
+  {
+   "name": "vier Gleiche 2: nur Drilling",
+   "dice": [
+    2,
+    2,
+    2,
+    2,
+    3
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedPoints": 200,
+   "expectedIndices": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "name": "leer",
+   "dice": [],
+   "fullThrow": true,
+   "triples": "all",
+   "expectedPoints": 0,
+   "expectedIndices": []
+  },
+  {
+   "name": "6W: Straße + 5 schlägt Einzelne",
+   "dice": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    5
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedPoints": 1050,
+   "expectedIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "name": "6W: große Straße",
+   "dice": [
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "full",
+   "expectedPoints": 1500,
+   "expectedIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "name": "6W: zwei Drillinge",
+   "dice": [
+    4,
+    2,
+    4,
+    2,
+    4,
+    2
+   ],
+   "fullThrow": true,
+   "triples": "all",
+   "diceCount": 6,
+   "straight6": "five",
+   "expectedPoints": 600,
+   "expectedIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  }
+ ]
+}

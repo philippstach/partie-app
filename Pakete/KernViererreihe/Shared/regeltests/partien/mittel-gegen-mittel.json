@@ -1,0 +1,104 @@
+{
+ "name": "mittel-gegen-mittel",
+ "beschreibung": "Zwei mittlere Computer",
+ "strategien": [
+  "mittel",
+  "mittel"
+ ],
+ "beginner": 1,
+ "zufall": [
+  241,
+  310,
+  105,
+  738,
+  405,
+  490,
+  158,
+  92,
+  68,
+  20,
+  411
+ ],
+ "erwartet": {
+  "zuege": [
+   3,
+   3,
+   3,
+   3,
+   4,
+   2,
+   2,
+   2,
+   2,
+   4,
+   3,
+   2,
+   4,
+   4,
+   3,
+   4,
+   4,
+   2,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   5,
+   5,
+   0,
+   0,
+   0,
+   0,
+   0,
+   5,
+   5,
+   6,
+   5,
+   5,
+   6,
+   6
+  ],
+  "status": "gewonnen",
+  "gewinner": 1,
+  "gewinnZellen": [
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    6,
+    2
+   ]
+  ],
+  "amZug": null,
+  "hoehen": [
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   3
+  ],
+  "legaleSpalten": [],
+  "bild": [
+   "BGBGGG.",
+   "GBBGBB.",
+   "BGGBBB.",
+   "GBBGGGG",
+   "BGGBBGB",
+   "GBBGGBG"
+  ]
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "name": "26_sechs_wuerfel_fuenfer_strasse_eintippen",
+ "beschreibung": "6 Würfel, echte Würfel (layOut), 5er-Straße: 1-2-3-4-5-5 = 1.050 im vollen Wurf; nur 5 Würfel als Straße lassen einen offen; höchstens 6 Würfel; Niete verliert alles.",
+ "rules": {
+  "diceMode": "real",
+  "diceCount": 6
+ },
+ "players": [
+  "Anna",
+  "Ben"
+ ],
+ "dice": [],
+ "steps": [
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     1,
+     1,
+     1,
+     5,
+     5,
+     5,
+     5
+    ],
+    "bank": false
+   },
+   "error": true
+  },
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     5
+    ],
+    "bank": true
+   },
+   "expect": {
+    "scores": [
+     1050,
+     0
+    ],
+    "current": 1
+   }
+  },
+  {
+   "action": {
+    "type": "declineOffer"
+   }
+  },
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bank": false
+   },
+   "expect": {
+    "turn": {
+     "banked": 1000,
+     "locked": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+     ]
+    }
+   }
+  },
+  {
+   "action": {
+    "type": "layOut",
+    "dice": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "bank": false
+   },
+   "error": true
+  },
+  {
+   "action": {
+    "type": "noPoints"
+   },
+   "expect": {
+    "scores": [
+     1050,
+     0
+    ],
+    "current": 0
+   }
+  }
+ ],
+ "expected": {
+  "scores": [
+   1050,
+   0
+  ],
+  "log": [
+   [
+    0,
+    1050,
+    0
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
+ }
+}

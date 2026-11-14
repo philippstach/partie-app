@@ -1,0 +1,569 @@
+{
+ "beschreibung": "Lösungswort: 'loesung' = Liste der Felder in Lesereihenfolge (optional im Rätsel). pruefe → 'loesung_ungueltig' bei doppeltem Feld, Nicht-Buchstabenfeld oder Länge außerhalb 3–12. Zustand 'loesung' = Einträge dieser Felder, '.' für leer (nur wenn das Rätsel eins hat). Das Lösungswort wird nicht extra eingegeben – es füllt sich aus dem Gitter.",
+ "pruefer": [
+  {
+   "name": "gueltig",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ],
+    "loesung": [
+     [
+      3,
+      2
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      3,
+      3
+     ]
+    ]
+   },
+   "fehler": []
+  },
+  {
+   "name": "feld_doppelt",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ],
+    "loesung": [
+     [
+      3,
+      2
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      3,
+      2
+     ]
+    ]
+   },
+   "fehler": [
+    "loesung_ungueltig"
+   ]
+  },
+  {
+   "name": "kein_buchstabenfeld",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ],
+    "loesung": [
+     [
+      3,
+      2
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      3,
+      3
+     ]
+    ]
+   },
+   "fehler": [
+    "loesung_ungueltig"
+   ]
+  },
+  {
+   "name": "zu_kurz",
+   "raetsel": {
+    "id": "T-MINI",
+    "stufe": "leicht",
+    "breite": 5,
+    "hoehe": 7,
+    "gitter": [
+     "-#-#-",
+     "#OMA-",
+     "-P-S-",
+     "#ART-",
+     "E----",
+     "I----",
+     "S----"
+    ],
+    "fragen": [
+     {
+      "zeile": 0,
+      "spalte": 1,
+      "richtung": "unten",
+      "text": "Großvater"
+     },
+     {
+      "zeile": 0,
+      "spalte": 3,
+      "richtung": "unten",
+      "text": "Teil des Baumes"
+     },
+     {
+      "zeile": 1,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Großmutter"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "rechts",
+      "text": "Weise, Sorte"
+     },
+     {
+      "zeile": 3,
+      "spalte": 0,
+      "richtung": "unten",
+      "text": "Gefrorenes Wasser"
+     }
+    ],
+    "loesung": [
+     [
+      3,
+      2
+     ],
+     [
+      1,
+      1
+     ]
+    ]
+   },
+   "fehler": [
+    "loesung_ungueltig"
+   ]
+  }
+ ],
+ "spiel": {
+  "raetsel": {
+   "id": "T-MINI",
+   "stufe": "leicht",
+   "breite": 5,
+   "hoehe": 7,
+   "gitter": [
+    "-#-#-",
+    "#OMA-",
+    "-P-S-",
+    "#ART-",
+    "E----",
+    "I----",
+    "S----"
+   ],
+   "fragen": [
+    {
+     "zeile": 0,
+     "spalte": 1,
+     "richtung": "unten",
+     "text": "Großvater"
+    },
+    {
+     "zeile": 0,
+     "spalte": 3,
+     "richtung": "unten",
+     "text": "Teil des Baumes"
+    },
+    {
+     "zeile": 1,
+     "spalte": 0,
+     "richtung": "rechts",
+     "text": "Großmutter"
+    },
+    {
+     "zeile": 3,
+     "spalte": 0,
+     "richtung": "rechts",
+     "text": "Weise, Sorte"
+    },
+    {
+     "zeile": 3,
+     "spalte": 0,
+     "richtung": "unten",
+     "text": "Gefrorenes Wasser"
+    }
+   ],
+   "loesung": [
+    [
+     3,
+     2
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     3,
+     3
+    ]
+   ]
+  },
+  "schritte": [
+   {
+    "aktion": null,
+    "erwartet": {
+     "eintraege": [
+      "-#-#-",
+      "#...-",
+      "-.-.-",
+      "#...-",
+      ".----",
+      ".----",
+      ".----"
+     ],
+     "cursor": [
+      1,
+      1
+     ],
+     "richtung": "unten",
+     "aktiveFrage": [
+      0,
+      1,
+      "unten"
+     ],
+     "aufgedeckt": [],
+     "markiert": [],
+     "hilfen": 0,
+     "unsicher": [],
+     "bleistift": false,
+     "status": "laeuft",
+     "loesung": "..."
+    }
+   },
+   {
+    "aktion": {
+     "aktion": "tippe",
+     "zeile": 1,
+     "spalte": 0
+    },
+    "erwartet": {
+     "eintraege": [
+      "-#-#-",
+      "#...-",
+      "-.-.-",
+      "#...-",
+      ".----",
+      ".----",
+      ".----"
+     ],
+     "cursor": [
+      1,
+      1
+     ],
+     "richtung": "rechts",
+     "aktiveFrage": [
+      1,
+      0,
+      "rechts"
+     ],
+     "aufgedeckt": [],
+     "markiert": [],
+     "hilfen": 0,
+     "unsicher": [],
+     "bleistift": false,
+     "status": "laeuft",
+     "loesung": "..."
+    }
+   },
+   {
+    "aktion": {
+     "aktion": "buchstabe",
+     "zeichen": "o"
+    },
+    "erwartet": {
+     "eintraege": [
+      "-#-#-",
+      "#O..-",
+      "-.-.-",
+      "#...-",
+      ".----",
+      ".----",
+      ".----"
+     ],
+     "cursor": [
+      1,
+      2
+     ],
+     "richtung": "rechts",
+     "aktiveFrage": [
+      1,
+      0,
+      "rechts"
+     ],
+     "aufgedeckt": [],
+     "markiert": [],
+     "hilfen": 0,
+     "unsicher": [],
+     "bleistift": false,
+     "status": "laeuft",
+     "loesung": ".O."
+    }
+   },
+   {
+    "aktion": {
+     "aktion": "tippe",
+     "zeile": 3,
+     "spalte": 0
+    },
+    "erwartet": {
+     "eintraege": [
+      "-#-#-",
+      "#O..-",
+      "-.-.-",
+      "#...-",
+      ".----",
+      ".----",
+      ".----"
+     ],
+     "cursor": [
+      3,
+      1
+     ],
+     "richtung": "rechts",
+     "aktiveFrage": [
+      3,
+      0,
+      "rechts"
+     ],
+     "aufgedeckt": [],
+     "markiert": [],
+     "hilfen": 0,
+     "unsicher": [],
+     "bleistift": false,
+     "status": "laeuft",
+     "loesung": ".O."
+    }
+   },
+   {
+    "aktion": {
+     "aktion": "buchstabe",
+     "zeichen": "a"
+    },
+    "erwartet": {
+     "eintraege": [
+      "-#-#-",
+      "#O..-",
+      "-.-.-",
+      "#A..-",
+      ".----",
+      ".----",
+      ".----"
+     ],
+     "cursor": [
+      3,
+      2
+     ],
+     "richtung": "rechts",
+     "aktiveFrage": [
+      3,
+      0,
+      "rechts"
+     ],
+     "aufgedeckt": [],
+     "markiert": [],
+     "hilfen": 0,
+     "unsicher": [],
+     "bleistift": false,
+     "status": "laeuft",
+     "loesung": ".O."
+    }
+   },
+   {
+    "aktion": {
+     "aktion": "buchstabe",
+     "zeichen": "r"
+    },
+    "erwartet": {
+     "eintraege": [
+      "-#-#-",
+      "#O..-",
+      "-.-.-",
+      "#AR.-",
+      ".----",
+      ".----",
+      ".----"
+     ],
+     "cursor": [
+      3,
+      3
+     ],
+     "richtung": "rechts",
+     "aktiveFrage": [
+      3,
+      0,
+      "rechts"
+     ],
+     "aufgedeckt": [],
+     "markiert": [],
+     "hilfen": 0,
+     "unsicher": [],
+     "bleistift": false,
+     "status": "laeuft",
+     "loesung": "RO."
+    }
+   },
+   {
+    "aktion": {
+     "aktion": "buchstabe",
+     "zeichen": "t"
+    },
+    "erwartet": {
+     "eintraege": [
+      "-#-#-",
+      "#O..-",
+      "-.-.-",
+      "#ART-",
+      ".----",
+      ".----",
+      ".----"
+     ],
+     "cursor": [
+      4,
+      0
+     ],
+     "richtung": "unten",
+     "aktiveFrage": [
+      3,
+      0,
+      "unten"
+     ],
+     "aufgedeckt": [],
+     "markiert": [],
+     "hilfen": 0,
+     "unsicher": [],
+     "bleistift": false,
+     "status": "laeuft",
+     "loesung": "ROT"
+    }
+   }
+  ]
+ }
+}

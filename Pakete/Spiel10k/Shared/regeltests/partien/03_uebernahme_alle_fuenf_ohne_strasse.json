@@ -1,0 +1,16 @@
+{
+ "name": "03_uebernahme_alle_fuenf_ohne_strasse",
+ "beschreibung": "Übernahme mit allen 5 Würfeln: der erste Wurf danach ist kein voller Wurf, die Straße zählt nicht.",
+ "rules": {"inheritAllFive": true},
+ "players": ["Anna", "Ben"],
+ "dice": [1, 1, 1, 5, 5, 1, 2, 3, 4, 5],
+ "steps": [
+  {"action": {"type": "roll", "keep": []}},
+  {"action": {"type": "bank", "keep": [0, 1, 2, 3, 4]}, "expect": {"offer": {"from": 0, "points": 1100, "dice": [1, 1, 1, 5, 5], "kept": [false, false, false, false, false]}}},
+  {"action": {"type": "acceptOffer"}, "expect": {"offer": null, "canUndo": false, "turn": {"dice": [1, 2, 3, 4, 5], "locked": [false, false, false, false, false], "banked": 1100, "hasRolled": true, "fullThrow": false, "inheritedFrom": 0, "inheritedPoints": 1100}}},
+  {"action": {"type": "bank", "keep": [0, 1, 2, 3, 4]}, "error": true},
+  {"action": {"type": "bank", "keep": [0, 4]}, "expect": {"scores": [1100, 1250], "current": 0, "offer": {"from": 1, "points": 1250, "dice": [1, 2, 3, 4, 5], "kept": [true, false, false, false, true]}}},
+  {"action": {"type": "declineOffer"}}
+ ],
+ "expected": {"scores": [1100, 1250], "current": 0, "offer": null, "log": [[0, 1100, 0], [1, 1250, 0]], "players": [{"bestTurn": 1100}, {"bestTurn": 1250, "turns": 1}]}
+}

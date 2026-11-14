@@ -1,0 +1,283 @@
+# n12 Dinge, Personen, Essen, Natur – abgeglichen mit dem Bestand
+Bast;2;Faser zum Basteln|Material für Hawaiiröcke
+Batzen;1;Großer Klumpen|Haufen Geld (ugs.)
+Beutel;1;Kleiner Sack|Tasche des Kängurus
+Borste;1;Steifes Haar der Bürste|Haar des Schweins
+Buckel;1;Krummer Rücken|Höcker
+Bügel;1;Hänger für die Jacke|Griff der Brille
+Flausch;2;Weicher Flor|Kuscheliger Stoff
+Furche;1;Rille im Acker|Spur des Pflugs
+Fusel;2;Schlechter Schnaps|Billiger Branntwein
+Garbe;2;Gebundenes Getreidebündel|Bündel Ähren
+Gebälk;2;Balken des Dachstuhls|Tragwerk aus Holz
+Geäst;2;Alle Zweige eines Baumes|Astwerk
+Gebüsch;1;Dichte Sträucher|Versteck im Park
+Geflecht;2;Verflochtenes Material|Korbwerk
+Gehäuse;1;Schale der Schnecke|Hülle des Computers
+Gelee;1;Klarer Fruchtaufstrich|Sülzige Masse
+Gemälde;1;Bild in Öl|Kunstwerk im Rahmen
+Gemäuer;2;Altes Mauerwerk|Reste einer Ruine
+Gemüse;1;Möhren, Kohl und Bohnen|Gesunde Beilage
+Gerippe;1;Skelett|Knochengerüst
+Gesims;2;Vorsprung an der Fassade|Waagerechte Mauerleiste
+Gestell;1;Rahmen der Brille|Aufbau aus Stangen
+Getier;2;Allerlei Tiere|Kleine Lebewesen
+Getränk;1;Saft, Wasser oder Tee|Flüssiges gegen Durst
+Getreide;1;Weizen, Roggen und Hafer|Korn vom Feld
+Gewinde;1;Rillen der Schraube|Windung am Schraubglas
+Gewölbe;1;Gebogene Decke|Keller mit Bögen
+Gewürz;1;Pfeffer, Zimt oder Curry|Macht das Essen schmackhaft
+Gitter;1;Stäbe vor dem Fenster|Absperrung aus Metall
+Gosse;2;Rinne am Straßenrand|Rinnstein
+Grieß;1;Körner für den Brei|Zutat für Klößchen
+Grütze;1;Rote … (Dessert)|Brei aus Körnern
+Haspel;2;Winde für Garn|Gerät zum Aufwickeln
+Holm;2;Stange am Barren|Griffstange der Leiter
+Humpen;2;Großer Bierkrug|Trinkgefäß der Ritter
+Joppe;2;Derbe Männerjacke|Jacke des Jägers
+Käfig;1;Gitterhaus für Vögel|Zwinger
+Kanzel;1;Ort der Predigt|Platz des Piloten
+Kasten;1;Eckiger Behälter|Kiste Bier
+Koppel;1;Eingezäunte Weide|Gürtel der Uniform
+Krempe;1;Rand des Hutes|Hutrand
+Krippe;1;Futtertrog im Stall|Lager des Jesuskinds
+Kruste;1;Harte Rinde am Brot|Knusprige Schicht
+Kübel;1;Großer Eimer|Topf für Palmen
+Kuppel;1;Runde Dachwölbung|Dach des Petersdoms
+Lasche;1;Zunge am Schuh|Verschluss am Karton
+Latz;1;Tuch vor der Brust|Schutz beim Essen
+Luke;1;Öffnung im Schiffsdeck|Kleines Dachfenster
+Mörser;2;Schale zum Zerstoßen|Gefäß mit Stößel
+Nabe;2;Mitte des Rades|Sitz der Achse
+Nische;1;Einbuchtung in der Wand|Kleine Ecke
+Nut;2;Rille im Brett|Gegenstück zur Feder
+Öhr;1;Loch der Nadel|Dort muss der Faden durch
+Pelle;1;Haut der Wurst|Schale der Kartoffel
+Pfeiler;1;Stütze der Brücke|Tragende Säule
+Pflock;1;Zugespitzter Holzpfahl|Hält das Zelt
+Pforte;1;Kleines Tor|Eingang des Klosters
+Pfropfen;1;Stöpsel|Korken
+Pfütze;1;Lache nach dem Regen|Darin hüpfen Kinder
+Planke;1;Dickes Brett am Schiff|Bohle
+Platte;1;Flache Scheibe|Tonträger aus Vinyl
+Pranke;1;Tatze des Löwen|Große Pfote
+Pritsche;1;Hartes Lager|Ladefläche des Lasters
+Rahmen;1;Einfassung des Bildes|Gestell des Fahrrads
+Riemen;1;Band aus Leder|Ruder
+Rille;1;Schmale Furche|Spur in der Schallplatte
+Ritze;1;Schmaler Spalt|Fuge
+Säule;1;Runde Stütze|Trägt das Tempeldach
+Schacht;1;Senkrechter Gang im Bergwerk|Röhre für den Aufzug
+Schaft;2;Oberteil des Stiefels|Stiel des Speers
+Scherbe;1;Stück zerbrochenes Glas|Bringt angeblich Glück
+Scheune;1;Lager für Heu und Stroh|Gebäude auf dem Bauernhof
+Schlaufe;1;Schlinge zum Festhalten|Öse am Gürtel
+Schnur;1;Dünnes Seil|Bindfaden
+Schoß;1;Dort sitzt das Kind|Platz auf den Knien
+Schwelle;1;Balken unter der Tür|Liegt unter den Schienen
+Sichel;1;Gebogenes Erntemesser|Form des Mondes
+Sockel;1;Unterbau des Denkmals|Fuß der Statue
+Spachtel;1;Werkzeug zum Glätten|Gerät des Malers
+Splitter;1;Spitzes Bruchstück|Span im Finger
+Sporn;2;Dorn am Reitstiefel|Stachel für das Pferd
+Stange;1;Langer Stab|Sitzplatz des Papageis
+Stoppel;1;Rest des Halms|Kurzes Barthaar
+Tresen;1;Theke|Schanktisch
+Tube;1;Hülle für Zahnpasta|Behälter für Senf
+Tülle;2;Ausguss der Kanne|Schnabel am Gefäß
+Wulst;2;Dicke Verdickung|Rand am Reifen
+Zinken;1;Zacke der Gabel|Große Nase (ugs.)
+Zwinge;2;Werkzeug zum Festklemmen|Klemme des Schreiners
+Bettler;1;Bittet um Almosen|Hält den Hut auf
+Bürge;2;Haftet für fremde Schulden|Garant
+Denker;1;Philosoph|Volk der Dichter und …
+Dichter;1;Schreibt Verse|Goethe war einer
+Fremde;1;Unbekannte|Ausland (die …)
+Helfer;1;Steht zur Seite|Assistent
+Hüter;1;Bewacher|Wächter der Herde
+Käufer;1;Kunde im Laden|Erwirbt etwas
+Kläger;2;Zieht vor Gericht|Gegner des Beklagten
+Leser;1;Freund der Bücher|Abonnent der Zeitung
+Lügner;1;Sagt die Unwahrheit|Dem glaubt man nicht
+Mörder;1;Täter im Krimi|Sucht der Kommissar
+Pächter;2;Mietet Land oder Gasthof|Zahlt Zins für den Hof
+Raser;1;Fährt viel zu schnell|Temposünder
+Redner;1;Spricht vor Publikum|Hält den Vortrag
+Retter;1;Hilft in der Not|Befreier
+Schelm;1;Spaßvogel|Till Eulenspiegel war einer
+Seher;2;Blickt in die Zukunft|Prophet
+Spinner;1;Verrückter Kerl (ugs.)|Hat nur Flausen im Kopf
+Sünder;1;Verstößt gegen Gebote|Braucht Vergebung
+Träumer;1;Lebt in Fantasien|Hans Guckindieluft
+Zecher;2;Trinkt gern und viel|Gast beim Gelage
+Zuhörer;1;Lauscht dem Redner|Publikum im Saal (einer)
+Angeber;1;Prahlt gern|Wichtigtuer
+Anhalter;1;Reist per Daumen|Tramper
+Aufseher;1;Wächter|Kontrolliert die Arbeit
+Bauherr;2;Lässt ein Haus errichten|Auftraggeber des Architekten
+Berater;1;Gibt Empfehlungen|Helfer mit Fachwissen
+Besucher;1;Gast|Zuschauer im Museum
+Bewerber;1;Möchte die Stelle|Kandidat
+Bummler;1;Trödelt gern|Geht gemütlich spazieren
+Camper;1;Schläft im Zelt|Urlauber mit Wohnwagen
+Dämon;2;Böser Geist|Teuflisches Wesen
+Depp;1;Dummkopf (süddt.)|Trottel
+Egoist;1;Denkt nur an sich|Selbstsüchtiger
+Eigner;2;Besitzer eines Schiffes|Inhaber
+Experte;1;Fachmann|Kenner
+Fee;1;Erfüllt drei Wünsche|Zauberin im Märchen
+Feigling;1;Hat keinen Mut|Angsthase
+Faulpelz;1;Arbeitet ungern|Tagedieb
+Geisel;2;Gefangener der Entführer|Druckmittel der Erpresser
+Gesell;2;Handwerker nach der Lehre (alt)|Bursche
+Gör;2;Freches Kind (norddt.)|Göre
+Greisin;2;Sehr alte Frau|Hochbetagte
+Halunke;1;Schuft|Gauner
+Hehler;2;Verkauft Diebesgut|Abnehmer des Diebes
+Heiland;2;Erlöser|Jesus Christus
+Heiliger;1;Von der Kirche verehrt|Sankt Martin war einer
+Heldin;1;Mutige Frau|Hauptfigur im Roman
+Hexer;2;Zauberer|Männliche Hexe
+Hippie;2;Blumenkind der 60er Jahre|Anhänger von Flower-Power
+Insider;2;Eingeweihter|Kenner von innen
+Jubilar;2;Feiert ein rundes Fest|Geburtstagskind im Alter
+Kavalier;2;Höflicher Mann|Hält Damen die Tür auf
+Knabe;1;Junge|Bub
+Komiker;1;Bringt das Publikum zum Lachen|Spaßmacher von Beruf
+Laie;2;Kein Fachmann|Amateur
+Liebling;1;Schatz|Kosewort
+Lümmel;1;Frecher Bengel|Flegel
+Macho;2;Übertrieben männlicher Typ|Gibt gern den harten Kerl
+Mädchen;1;Junges weibliches Kind|Gegenstück zum Jungen
+Mädel;1;Junge Frau (süddt.)|Deern
+Maid;2;Junge Frau (veraltet)|Jungfer
+Memme;2;Feigling|Angsthase
+Mitglied;1;Gehört zum Verein|Zahlt Beitrag
+Nachfahr;2;Enkel oder Urenkel|Nachkomme
+Neuling;1;Anfänger|Frisch dabei
+Nomade;2;Zieht mit der Herde umher|Hirte ohne festen Wohnsitz
+Nörgler;1;Hat immer etwas auszusetzen|Meckerer
+Novize;2;Mönch in der Probezeit|Neuling im Kloster
+Patin;1;Begleitet das Kind zur Taufe|Taufzeugin
+Patient;1;Sitzt im Wartezimmer|Wird vom Arzt behandelt
+Pionier;2;Wegbereiter|Vorkämpfer
+Prophet;2;Verkündet Gottes Wort|Seher der Bibel
+Rächer;2;Übt Vergeltung|Zorro war einer
+Rentner;1;Bezieht Ruhegeld|Arbeitet nicht mehr
+Schwager;1;Bruder des Ehepartners|Mann der Schwester
+Senior;1;Älterer Herr|Gegenteil von Junior
+Sprecher;1;Liest die Nachrichten|Stimme im Radio
+Spross;2;Junger Trieb|Nachkomme
+Streber;1;Übereifriger Schüler|Will immer der Beste sein
+Stromer;2;Herumtreiber|Streunender Hund
+Teenie;1;Jugendlicher (ugs.)|Zwischen 13 und 19
+Tourist;1;Urlauber|Reisender mit Kamera
+Trottel;1;Dummkopf|Einfaltspinsel
+Vagabund;2;Landstreicher|Zieht ohne Ziel umher
+Vampir;1;Blutsauger mit spitzen Zähnen|Scheut Knoblauch
+Veteran;2;Altgedienter Soldat|Alter Hase
+Winzling;1;Sehr kleines Wesen|Zwerg
+Wirtin;1;Chefin der Gaststätte|Frau hinter der Theke
+Zicke;1;Launische Person (ugs.)|Weibliche Ziege
+Apfelmus;1;Brei zu Reibekuchen|Püree aus Obst
+Auflauf;1;Im Ofen Überbackenes|Gericht aus der Form
+Backwerk;2;Kuchen und Kekse|Erzeugnis des Konditors
+Baguette;1;Französisches Stangenbrot|Langes Weißbrot
+Beilage;1;Reis oder Kartoffeln zum Fleisch|Prospekt in der Zeitung
+Biskuit;1;Lockerer Teig für Torten|Leichtes Gebäck
+Bissen;1;Mundvoll|Happen
+Bouillon;2;Klare Fleischbrühe|Brühe (französisch)
+Brösel;1;Krümel vom Brot|Panade aus Semmeln
+Buffet;1;Tisch zur Selbstbedienung|Kaltes … (Fest)
+Bulette;1;Frikadelle in Berlin|Fleischpflanzerl
+Burger;1;Brötchen mit Hacksteak|Kost im Schnellrestaurant
+Dessert;1;Nachtisch|Süßer Abschluss
+Döner;1;Fleisch vom Drehspieß|Türkischer Imbiss im Fladenbrot
+Dotter;1;Das Gelbe vom Ei|Inneres vom Ei
+Eigelb;1;Dotter|Zutat für Mayonnaise
+Festmahl;1;Üppiges Essen zur Feier|Bankett
+Fladen;1;Flaches Brot|Platter Kuchen
+Fondue;1;Topf mit Käse oder Öl|Schweizer Käsegericht
+Fritten;1;Pommes (ugs.)|Kartoffelstäbchen
+Gebäck;1;Kekse und Plätzchen|Gibt es zum Kaffee
+Gnocchi;2;Italienische Kartoffelnocken|Klößchen aus Italien
+Gratin;2;Überbackenes Gericht|Auflauf mit Kruste
+Haxe;1;Deftiges Stück vom Schwein|Unterer Teil vom Bein
+Jause;2;Brotzeit in Österreich|Zwischenmahlzeit
+Kandis;2;Zucker in großen Kristallen|Süße im Ostfriesentee
+Ketchup;1;Rote Soße zu Pommes|Würzsoße aus Tomaten
+Kompott;1;Gekochtes Obst|Nachtisch aus Pflaumen
+Konfekt;2;Feine Pralinen|Edles Naschwerk
+Kotelett;1;Rippenstück vom Schwein|Fleisch mit Knochen
+Krapfen;1;Berliner in Bayern|Schmalzgebäck im Fasching
+Lakritz;1;Schwarze Süßigkeit|Süßholz zum Naschen
+Majo;1;Zu Pommes neben Ketchup (kurz)|Weiße Soße (kurz)
+Malz;2;Gekeimte Gerste|Rohstoff für Bier
+Marzipan;1;Süße Masse aus Mandeln|Spezialität aus Lübeck
+Mett;1;Gewürztes rohes Hackfleisch|Belag fürs Brötchen
+Molke;2;Flüssiger Rest der Käserei|Wässrige Milch
+Nougat;1;Nussige Schokoladenmasse|Füllung der Praline
+Pastete;2;Fleischfüllung im Teigmantel|Feine Streichwurst
+Pesto;1;Grüne Soße aus Basilikum|Soße aus Genua
+Rollmops;1;Aufgewickelter saurer Hering|Fisch mit Gurke und Spieß
+Roulade;1;Gerolltes Rindfleisch|Wickel mit Füllung
+Salami;1;Harte Wurst aus Italien|Belag der Pizza
+Schinken;1;Geräucherte Keule|Stück vom Schwein
+Schmalz;1;Ausgelassenes Fett|Brotaufstrich mit Grieben
+Schmand;2;Fester Sauerrahm|Saure Sahne
+Schnaps;1;Klarer Hochprozentiger|Korn oder Obstler
+Schnitte;1;Scheibe Brot|Stulle
+Schoko;1;Süße Tafel (kurz)|Braune Nascherei (kurz)
+Schorle;1;Saft mit Sprudel|Mischgetränk
+Sorbet;2;Halbgefrorenes aus Frucht|Eis ohne Milch
+Speise;1;Gericht|Zubereitete Nahrung
+Sprudel;1;Wasser mit Kohlensäure|Mineralwasser
+Strudel;1;Wirbel im Wasser|Gebäck mit Äpfeln
+Stulle;1;Butterbrot in Berlin|Schnitte
+Sülze;2;Fleisch in Aspik|Gelierte Speise
+Trunk;2;Getränk (gehoben)|Schluck
+Vesper;2;Brotzeit im Südwesten|Abendgebet
+Whisky;2;Schnaps aus Schottland|Hochprozentiges aus Gerste
+Zwieback;1;Doppelt gebackenes Brot|Knusprige Schonkost
+Dickicht;1;Dichtes Gestrüpp|Undurchdringlicher Wald
+Gefilde;2;Landschaft (dichterisch)|Gegend
+Gelände;1;Stück Land|Terrain
+Gestade;2;Ufer (dichterisch)|Küste
+Horizont;1;Linie zwischen Himmel und Erde|Dort geht die Sonne unter
+Morast;2;Sumpfiger Schlamm|Tiefer Matsch
+Rinnsal;2;Winziger Bach|Dünner Wasserlauf
+Schlamm;1;Nasser Dreck|Aufgeweichte Erde
+Schlick;2;Schlamm im Watt|Feiner Meeresboden
+Schneise;2;Gerader Streifen im Wald|Lücke zwischen Bäumen
+Tümpel;1;Kleiner Teich|Zuhause der Frösche
+Weiher;1;Kleiner See|Fischteich
+Wildnis;1;Unberührte Natur|Gegend ohne Wege
+Zone;1;Abgegrenztes Gebiet|Bereich
+Baldrian;2;Beruhigende Heilpflanze|Lieblingskraut der Katzen
+Begonie;2;Balkonblume|Schiefblatt
+Lotus;2;Heilige Blume Asiens|Seerose Indiens
+Lupine;2;Blume mit Blütenkerzen|Wolfsbohne
+Petunie;2;Bunte Balkonblume|Sommerblüher im Kasten
+Dogge;1;Sehr großer Hund|Riesige Hunderasse
+Gockel;1;Hahn (süddt.)|Stolzer Herr im Hühnerhof
+Köter;1;Hund (abwertend)|Kläffer
+Mops;1;Kleiner Hund mit Faltengesicht|Rundlicher Hund
+Mustang;1;Wildpferd der Prärie|Pferd der Indianer
+Pudel;1;Hund mit Locken|Gelockte Hunderasse
+Puma;1;Berglöwe|Silberlöwe Amerikas
+Wachtel;2;Kleiner Hühnervogel|Legt winzige Eier
+Bettzeug;1;Decke und Kissen|Kommt unter den Bezug
+Boiler;2;Gerät für heißes Wasser|Warmwasserspeicher
+Bottich;2;Großes offenes Holzgefäß|Wanne des Färbers
+Fön;1;Trocknet die Haare|Bläst warme Luft
+Lüster;2;Kronleuchter|Prunkvolle Lampe
+Spiegel;1;Zeigt das eigene Gesicht|Glas im Bad
+Spüle;1;Becken in der Küche|Dort wird abgewaschen
+Konsole;2;Gerät für Videospiele|Wandtischchen
+Paneel;2;Holzbrett an Wand oder Decke|Tafel der Täfelung
+Terrasse;1;Sitzplatz hinter dem Haus|Stufe am Hang
+Veranda;1;Überdachter Vorbau|Sitzplatz vor dem Haus
+Loggia;2;Balkon in der Fassade|Überdachter Freisitz
+Schuppen;1;Kleiner Lagerbau|Hülle der Fische
+Stall;1;Haus für Kühe und Pferde|Unterkunft fürs Vieh
+Schindel;2;Holzplättchen fürs Dach|Kleines Brett an der Fassade

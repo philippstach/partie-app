@@ -1,0 +1,238 @@
+# 001 Tiere: Säugetiere und Vögel – geschrieben von Claude
+Aar	3	Adler (dichterisch)|Alter Name des Adlers
+Ara	3	Großpapagei|Bunter Papagei
+Gnu	3	Kuhantilope|Afrikanisches Huftier
+Emu	3	Australischer Laufvogel|Großer Laufvogel
+Elen	3	Elch (veraltet)|Größte Antilope
+Reh	1	Kleine Hirschart|Mutter des Kitzes
+Ren	3	Hirsch der Tundra|Zugtier in Lappland
+Yak	3	Tibetisches Rind|Grunzochse
+Lori	3	Kleiner Papagei|Kleiner Halbaffe
+Ibis	3	Heiliger Vogel Ägyptens|Schreitvogel
+Kauz	2	Kleine Eule|Eulenvogel
+Ur	3	Auerochse|Ausgestorbenes Wildrind
+Ai	3	Dreifingerfaultier
+Unau	3	Zweifingerfaultier
+Gaur	3	Indisches Wildrind
+Saiga	3	Steppenantilope
+Kea	3	Bergpapagei Neuseelands
+Moa	3	Ausgestorbener Riesenvogel
+Dodo	3	Dronte|Ausgestorbener Vogel
+Alk	3	Nordischer Seevogel|Tauchvogel im Nordmeer
+Nandu	3	Südamerikanischer Laufvogel
+Zebu	3	Buckelrind|Indisches Hausrind
+Oryx	3	Spießbock|Antilope mit Spießhörnern
+Kudu	3	Schraubenantilope
+Uhu	1	Große Eule|Nachtgreifvogel
+Elch	1	Größte Hirschart|Hirsch mit Schaufeln
+Hahn	1	Männliches Huhn|Gockel
+Huhn	1	Eierleger auf dem Hof|Gackerndes Federvieh
+Henne	1	Weibliches Huhn
+Gans	1	Martinsbraten|Schnatternder Vogel
+Ente	1	Weibchen des Erpels|Quakender Vogel
+Erpel	2	Männliche Ente
+Ganter	2	Männliche Gans
+Pute	1	Truthenne
+Puter	2	Truthahn
+Schwan	1	Weißer Wasservogel|Vogel mit langem Hals
+Taube	1	Friedensvogel|Gurrender Vogel
+Specht	1	Baumklopfer|Trommler im Wald
+Meise	1	Kleiner Singvogel|Gast am Futterknödel
+Amsel	1	Schwarzdrossel|Singvogel im Garten
+Star	1	Schwarmvogel|Glänzender Singvogel
+Fink	1	Kleiner Körnerfresser|Singvogelart
+Spatz	1	Sperling|Haussperling
+Rabe	1	Krähenvogel|Großer schwarzer Vogel
+Krähe	1	Rabenvogel|Schwarzer Vogel
+Dohle	2	Kleiner Rabenvogel
+Elster	1	Schwarz-weißer Vogel|Diebischer Vogel (Sage)
+Möwe	1	Küstenvogel|Seevogel
+Storch	1	Adebar|Kinderbringer (Sage)
+Adebar	3	Storch (Fabelname)
+Reiher	2	Fischjäger am Teich|Schreitvogel
+Eule	1	Nachtvogel|Vogel der Weisheit
+Falke	1	Greifvogel|Jagdvogel
+Adler	1	Wappenvogel|König der Lüfte
+Geier	1	Aasfresser|Greifvogel mit kahlem Hals
+Milan	3	Gabelweihe|Greifvogel
+Bussard	2	Häufiger Greifvogel
+Habicht	2	Greifvogel im Wald
+Horst	2	Adlernest|Greifvogelnest
+Strauß	1	Größter Vogel|Laufvogel Afrikas
+Kiwi	2	Vogel Neuseelands|Flugunfähiger Vogel
+Kasuar	3	Laufvogel mit Helm
+Pfau	1	Vogel mit Rad|Schlägt ein Rad
+Papagei	1	Sprechender Vogel
+Tukan	2	Pfefferfresser|Vogel mit Riesenschnabel
+Kolibri	1	Kleinster Vogel|Schwirrvogel
+Pinguin	1	Vogel der Antarktis|Frackträger im Eis
+Kuckuck	1	Brutparasit|Vogel der Schwarzwalduhr
+Lerche	2	Singvogel des Feldes
+Drossel	2	Singvogel|Familie der Amsel
+Kranich	2	Glücksvogel|Grauer Zugvogel
+Fasan	2	Hühnervogel mit langem Schwanz
+Gimpel	2	Dompfaff
+Dompfaff	3	Gimpel
+Pirol	3	Gelber Singvogel
+Ralle	3	Sumpfvogel
+Kiebitz	2	Watvogel der Wiesen
+Wiedehopf	3	Bunter Vogel mit Haube
+Albatros	2	Großer Seevogel|Meister des Segelflugs
+Pelikan	1	Vogel mit Kehlsack
+Flamingo	1	Rosa Stelzvogel
+Hund	1	Bellendes Haustier|Bester Freund des Menschen
+Katze	1	Mäusefänger|Stubentiger
+Kater	1	Männliche Katze
+Maus	1	Kleiner Nager|Beute der Katze
+Ratte	1	Großer Nager
+Pferd	1	Reittier|Ross
+Ross	2	Pferd (gehoben)|Edles Pferd
+Stute	1	Weibliches Pferd
+Hengst	1	Männliches Pferd
+Fohlen	1	Junges Pferd
+Pony	1	Kleines Pferd
+Rappe	2	Schwarzes Pferd
+Schimmel	1	Weißes Pferd
+Muli	2	Maultier|Kreuzung Esel und Pferd
+Esel	1	Grautier|Lasttier mit langen Ohren
+Kuh	1	Weibliches Rind|Milchgeberin
+Bulle	1	Stier|Männliches Rind
+Stier	1	Bulle|Tier in der Arena
+Ochse	1	Kastriertes Rind|Zugtier
+Kalb	1	Junges Rind
+Rind	1	Wiederkäuer auf der Weide
+Färse	3	Junge Kuh
+Schaf	1	Wollträger|Blökendes Tier
+Lamm	1	Junges Schaf
+Widder	2	Schafbock|Sternzeichen
+Bock	1	Männliche Ziege
+Ziege	1	Meckerndes Haustier
+Geiß	2	Weibliche Ziege
+Kitz	2	Junges Reh|Junge Gämse
+Schwein	1	Borstentier|Grunzendes Nutztier
+Sau	1	Mutterschwein
+Eber	2	Männliches Schwein
+Ferkel	1	Junges Schwein
+Keiler	2	Männliches Wildschwein
+Bache	2	Weibliches Wildschwein
+Frischling	2	Junges Wildschwein
+Hase	1	Langohr|Meister Lampe
+Kaninchen	1	Stallhase|Karnickel
+Igel	1	Stacheltier
+Fuchs	1	Reineke|Rotpelz
+Wolf	1	Isegrim|Rudeljäger
+Bär	1	Petz|Honigliebhaber im Wald
+Luchs	2	Pinselohr|Wildkatze Europas
+Dachs	2	Grimbart|Graupelz im Bau
+Marder	2	Kabelbeißer im Auto|Pelztier
+Iltis	3	Marderart|Stammform des Frettchens
+Otter	2	Wassermarder
+Biber	1	Dammbauer|Nager mit Kelle
+Hirsch	1	Geweihträger|König des Waldes
+Gämse	2	Kletterer der Alpen|Bergantilope
+Murmeltier	2	Pfeifender Alpennager
+Eichhörnchen	1	Kobelbauer|Nussnager im Baum
+Maulwurf	1	Erdwühler|Grabender Insektenfresser
+Fledermaus	1	Fliegendes Säugetier|Nachtflatterer
+Löwe	1	König der Tiere|Mähnenträger
+Tiger	1	Gestreifte Großkatze
+Leopard	2	Gefleckte Großkatze
+Panther	2	Schwarzer Leopard
+Gepard	2	Schnellstes Landtier
+Elefant	1	Dickhäuter mit Rüssel
+Nashorn	1	Rhinozeros
+Nilpferd	1	Flusspferd
+Giraffe	1	Langhals der Savanne
+Zebra	1	Gestreifter Einhufer
+Affe	1	Primat|Kletterer im Urwald
+Gorilla	1	Größter Menschenaffe
+Pavian	2	Affe der Savanne
+Lemur	3	Halbaffe|Primat auf Madagaskar
+Kamel	1	Wüstenschiff|Trampeltier
+Lama	1	Kamel der Anden
+Känguru	1	Springendes Beuteltier
+Koala	1	Beutelbär
+Panda	1	Bambusbär
+Wal	1	Meeressäuger|Riese der Ozeane
+Narwal	2	Einhorn des Meeres
+Orca	2	Schwertwal|Killerwal
+Delfin	1	Tümmler|Kluger Meeressäuger
+Robbe	1	Flossenfüßer|Seehund
+Walross	2	Robbe mit Stoßzähnen
+Eisbär	1	Weißer Bär|Polarbär
+Hyäne	2	Aasfresser Afrikas
+Schakal	2	Hundeartiger Aasfresser
+Dingo	2	Australischer Wildhund
+Kojote	2	Präriewolf
+Bison	2	Präriebüffel
+Wisent	2	Europäischer Bison
+Büffel	2	Wildrind|Wasserrind
+Okapi	2	Waldgiraffe
+Tapir	2	Unpaarhufer mit Rüssel
+Antilope	2	Flinker Hornträger|Gazelle oder Gnu
+Hamster	1	Backentaschennager
+Lemming	2	Kleiner Nager des Nordens
+Wiesel	2	Kleiner Marder
+Hermelin	2	Weißes Wiesel
+Nerz	2	Pelztier|Marderart
+Zobel	3	Pelztier Sibiriens
+Ozelot	3	Pardelkatze
+Mungo	3	Schlangentöter|Schleichkatze
+Faultier	1	Langsamer Baumhänger
+Schnabeltier	2	Eierlegendes Säugetier
+Skunk	2	Stinktier
+Rüde	2	Männlicher Hund
+Welpe	1	Junger Hund
+Küken	1	Junges Huhn
+Jährling	3	Tier im 2. Lebensjahr
+Ricke	3	Weibliches Reh
+Fähe	3	Weiblicher Fuchs
+Hinde	3	Hirschkuh
+Glucke	2	Brütende Henne
+Kapaun	3	Masthahn
+Rudel	2	Wolfsgruppe|Hirschgruppe
+Herde	1	Gruppe von Weidetieren
+Meute	2	Jagdhunde in Gruppe
+Schwarm	1	Vogelgruppe
+Kette	3	Rebhuhnfamilie (Jagd)
+Rotte	3	Wildschweingruppe
+Sprung	3	Gruppe von Rehen
+Wurf	2	Junge eines Muttertiers
+Brut	2	Ausgebrütete Junge
+Gelege	2	Eier im Nest
+Ei	1	Hühnerprodukt|Vom Huhn gelegt
+Geweih	2	Kopfschmuck des Hirsches
+Horn	1	Spitzer Kopfauswuchs|Waffe des Stiers
+Huf	1	Pferdefuß
+Pfote	1	Hundefuß|Tatze
+Tatze	1	Bärenfuß
+Kralle	1	Klaue|Scharfer Nagel
+Klaue	2	Kralle|Gespaltener Huf
+Mähne	1	Halshaar des Pferdes
+Rüssel	1	Elefantennase
+Schnabel	1	Vogelmund
+Feder	1	Gefiederteil
+Flügel	1	Schwinge
+Schwinge	3	Vogelflügel
+Kamm	2	Roter Kopfschmuck des Hahns
+Fell	1	Pelz|Tierhaar
+Pelz	1	Fell
+Stachel	1	Spitze am Igel
+Schwanz	1	Rute|Hinterer Körperanhang
+Rute	3	Hundeschwanz (Jagd)
+Lunte	3	Fuchsschwanz (Jagd)
+Blume	3	Hasenschwanz (Jagd)
+Löffel	3	Hasenohr (Jagd)
+Höcker	2	Kamelbuckel
+Euter	2	Milchdrüse der Kuh
+Gefieder	2	Federkleid
+Daune	2	Flaumfeder
+Nest	1	Vogelheim
+Bau	1	Fuchswohnung|Dachswohnung
+Kobel	3	Eichhörnchennest
+Burg	3	Biberwohnung
+Suhle	3	Schlammbad des Wildes
+Mauser	3	Federwechsel
+Brunft	3	Paarungszeit der Hirsche
+Fährte	2	Wildspur
+Losung	3	Wildkot (Jagd)

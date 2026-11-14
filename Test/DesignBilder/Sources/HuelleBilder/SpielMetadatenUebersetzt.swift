@@ -1,0 +1,1 @@
+../../../../App/SpielMetadatenUebersetzt.swift

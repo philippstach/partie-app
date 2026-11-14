@@ -1,0 +1,437 @@
+{
+ "beschreibung": "yukon.deal(seed): mischen wie Klondike. Deck 0…27 wie Klondike: Zeile r = 0…6, Spalte c = r…6 – Spalte r bekommt ihre offene Karte, die Spalten rechts davon je eine verdeckte. Dann Deck 28…51 in 4 Zeilen, je Zeile S1…S6 eine offene Karte obendrauf. Ergebnis: S0 1 offen; Si i verdeckt + 5 offen. Ziel 0, Punkte 0, Züge 0.",
+ "faelle": [
+  {
+   "seed": 1,
+   "zustand": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "9S"
+      ],
+      "offen": [
+       "6H",
+       "QS",
+       "AD",
+       "9H",
+       "8S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4H",
+       "9C"
+      ],
+      "offen": [
+       "2H",
+       "4C",
+       "KC",
+       "3H",
+       "TS"
+      ]
+     },
+     {
+      "verdeckt": [
+       "8D",
+       "JS",
+       "JD"
+      ],
+      "offen": [
+       "2S",
+       "6S",
+       "6D",
+       "3C",
+       "3D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "8H",
+       "5H",
+       "5D",
+       "AH"
+      ],
+      "offen": [
+       "KD",
+       "7S",
+       "QC",
+       "AS",
+       "2C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5C",
+       "KH",
+       "7D",
+       "6C",
+       "TD"
+      ],
+      "offen": [
+       "JC",
+       "AC",
+       "QD",
+       "4S",
+       "9D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "JH",
+       "3S",
+       "4D",
+       "KS",
+       "TC",
+       "TH"
+      ],
+      "offen": [
+       "8C",
+       "5S",
+       "QH",
+       "2D",
+       "7C"
+      ]
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   }
+  },
+  {
+   "seed": 2,
+   "zustand": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "QD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "3C"
+      ],
+      "offen": [
+       "TH",
+       "3D",
+       "JS",
+       "9S",
+       "8C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4S",
+       "AS"
+      ],
+      "offen": [
+       "7H",
+       "9H",
+       "AD",
+       "TD",
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5D",
+       "6S",
+       "6D"
+      ],
+      "offen": [
+       "JH",
+       "6H",
+       "KS",
+       "5H",
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "7D",
+       "7C",
+       "JD",
+       "8S"
+      ],
+      "offen": [
+       "2C",
+       "JC",
+       "2D",
+       "TC",
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "2H",
+       "3S",
+       "TS",
+       "4H",
+       "4D"
+      ],
+      "offen": [
+       "QH",
+       "AC",
+       "7S",
+       "QC",
+       "8H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KD",
+       "QS",
+       "9C",
+       "5C",
+       "AH",
+       "6C"
+      ],
+      "offen": [
+       "8D",
+       "5S",
+       "4C",
+       "KC",
+       "9D"
+      ]
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   }
+  },
+  {
+   "seed": 42,
+   "zustand": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "7S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "3D"
+      ],
+      "offen": [
+       "KH",
+       "4D",
+       "7C",
+       "5D",
+       "3S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "KS",
+       "TH"
+      ],
+      "offen": [
+       "4C",
+       "3H",
+       "3C",
+       "6S",
+       "9D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "AC",
+       "5S",
+       "6D"
+      ],
+      "offen": [
+       "6H",
+       "TD",
+       "8H",
+       "QC",
+       "QD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "2C",
+       "8C",
+       "5H",
+       "AH"
+      ],
+      "offen": [
+       "8D",
+       "JC",
+       "QH",
+       "9H",
+       "9S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "AS",
+       "JD",
+       "2H",
+       "7H",
+       "8S"
+      ],
+      "offen": [
+       "7D",
+       "4S",
+       "9C",
+       "JH",
+       "JS"
+      ]
+     },
+     {
+      "verdeckt": [
+       "AD",
+       "2D",
+       "5C",
+       "2S",
+       "4H",
+       "KC"
+      ],
+      "offen": [
+       "TC",
+       "6C",
+       "KD",
+       "QS",
+       "TS"
+      ]
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   }
+  },
+  {
+   "seed": 20261006,
+   "zustand": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "7S"
+      ],
+      "offen": [
+       "2D",
+       "7C",
+       "2C",
+       "3D",
+       "TH"
+      ]
+     },
+     {
+      "verdeckt": [
+       "6D",
+       "8H"
+      ],
+      "offen": [
+       "5D",
+       "KD",
+       "QD",
+       "9S",
+       "AC"
+      ]
+     },
+     {
+      "verdeckt": [
+       "5C",
+       "JC",
+       "QC"
+      ],
+      "offen": [
+       "4H",
+       "4D",
+       "KC",
+       "3H",
+       "JS"
+      ]
+     },
+     {
+      "verdeckt": [
+       "QH",
+       "8D",
+       "5H",
+       "KH"
+      ],
+      "offen": [
+       "TC",
+       "3S",
+       "JH",
+       "8C",
+       "8S"
+      ]
+     },
+     {
+      "verdeckt": [
+       "3C",
+       "6S",
+       "9D",
+       "7D",
+       "AH"
+      ],
+      "offen": [
+       "2S",
+       "9H",
+       "AD",
+       "QS",
+       "TD"
+      ]
+     },
+     {
+      "verdeckt": [
+       "6H",
+       "AS",
+       "JD",
+       "4C",
+       "2H",
+       "TS"
+      ],
+      "offen": [
+       "KS",
+       "9C",
+       "4S",
+       "7H",
+       "6C"
+      ]
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,8913 @@
+{
+ "beschreibung": "LogicBoard.nextStep(maxLevel: 4) wiederholt, bis gelöst oder kein Schritt mehr. Wie schritte.json, aber nach xWing kommen swordfish (Muster: alle Zellen der drei Grundlinien mit der Ziffer) und xyWing (Muster: Angel, erste Zange, zweite Zange; ziffern: die gestrichene Ziffer z) und simpleColoring (Muster: alle Zellen der Kette; ziffern: d; farbe_0: Zellen der Farbe 0, die übrigen Musterzellen haben Farbe 1). Alle drei ohne einheit. Die Stufe (rating) bleibt 4: Die Einstufung nutzt weiter nur Stufe 1–3.",
+ "faelle": [
+  {
+   "name": "experte_1",
+   "raetsel": "030402060000010005000005049040060050806030704010070080780100000100040000090708010",
+   "stufe": 4,
+   "geloest": true,
+   "schritte": [
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      22
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 22,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      4
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 4,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      0
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 0,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      29
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 29,
+      "ziffer": 7
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      8
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 8,
+      "ziffer": 7
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      19
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 19,
+      "ziffer": 7
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      14
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 14,
+      "ziffer": 7
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      30
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 30,
+      "ziffer": 8
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      41
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 41,
+      "ziffer": 1
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      32
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 32,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      50
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 50,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      43
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 43,
+      "ziffer": 9
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      60
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 60,
+      "ziffer": 9
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      56
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 56,
+      "ziffer": 4
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      9
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 9,
+      "ziffer": 4
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      11
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 11,
+      "ziffer": 9
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      15
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 15,
+      "ziffer": 8
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      6
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 6,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      2
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 2,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      20
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 20,
+      "ziffer": 1
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      35
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 35,
+      "ziffer": 1
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      45
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 45,
+      "ziffer": 9
+     },
+     "einheit": 5
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      58
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 58,
+      "ziffer": 5
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      76
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 76,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      70
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 70,
+      "ziffer": 7
+     },
+     "einheit": 7
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      71
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 71,
+      "ziffer": 8
+     },
+     "einheit": 7
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      66
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 66,
+      "ziffer": 9
+     },
+     "einheit": 7
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      78
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 78,
+      "ziffer": 4
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      74
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 74,
+      "ziffer": 5
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      48
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 48,
+      "ziffer": 5
+     },
+     "einheit": 5
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      39
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 39,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      37
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 37,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      69
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 69,
+      "ziffer": 5
+     },
+     "einheit": 7
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      51
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 51,
+      "ziffer": 6
+     },
+     "einheit": 15
+    },
+    {
+     "technik": "simpleColoring",
+     "muster": [
+      12,
+      16,
+      21,
+      24,
+      27,
+      33,
+      47,
+      53,
+      59,
+      61,
+      65,
+      68,
+      72,
+      80
+     ],
+     "ziffern": [
+      3
+     ],
+     "streichen": [
+      {
+       "zelle": 12,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 24,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 27,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 53,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 59,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 61,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 65,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 80,
+       "ziffern": [
+        3
+       ]
+      }
+     ],
+     "farbe_0": [
+      12,
+      24,
+      27,
+      53,
+      59,
+      61,
+      65,
+      80
+     ]
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      12
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 12,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      10
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 10,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      16
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 16,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      18
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 18,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      21
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 21,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      24
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 24,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      27
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 27,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      33
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 33,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      47
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 47,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      53
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 53,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      59
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 59,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      61
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 61,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      62
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 62,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      64
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 64,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      65
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 65,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      68
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 68,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      72
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 72,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      80
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 80,
+      "ziffer": 6
+     }
+    }
+   ]
+  },
+  {
+   "name": "experte_2",
+   "raetsel": "274000010053004006000070400000080060020105090090030000005010000300600120010000674",
+   "stufe": 4,
+   "geloest": true,
+   "schritte": [
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      16
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 16,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      61
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 61,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      25
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 25,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      52
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 52,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      9
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 9,
+      "ziffer": 1
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      15
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 15,
+      "ziffer": 7
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      23
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 23,
+      "ziffer": 1
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      28
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 28,
+      "ziffer": 3
+     },
+     "einheit": 10
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      74
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 74,
+      "ziffer": 2
+     },
+     "einheit": 11
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      13
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 13,
+      "ziffer": 2
+     },
+     "einheit": 13
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      12
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 12,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      26
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 26,
+      "ziffer": 2
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      21
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 21,
+      "ziffer": 3
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      32
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 32,
+      "ziffer": 9
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      77
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 77,
+      "ziffer": 3
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      71
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 71,
+      "ziffer": 5
+     },
+     "einheit": 26
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      27,
+      36
+     ],
+     "ziffern": [
+      4
+     ],
+     "streichen": [
+      {
+       "zelle": 54,
+       "ziffern": [
+        4
+       ]
+      }
+     ],
+     "einheit": 21
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      60,
+      62
+     ],
+     "ziffern": [
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 54,
+       "ziffern": [
+        8
+       ]
+      },
+      {
+       "zelle": 55,
+       "ziffern": [
+        8
+       ]
+      },
+      {
+       "zelle": 57,
+       "ziffern": [
+        8
+       ]
+      },
+      {
+       "zelle": 59,
+       "ziffern": [
+        8
+       ]
+      }
+     ],
+     "einheit": 26
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      60,
+      62
+     ],
+     "ziffern": [
+      9
+     ],
+     "streichen": [
+      {
+       "zelle": 54,
+       "ziffern": [
+        9
+       ]
+      }
+     ],
+     "einheit": 26
+    },
+    {
+     "technik": "nakedPair",
+     "muster": [
+      29,
+      35
+     ],
+     "ziffern": [
+      1,
+      7
+     ],
+     "streichen": [
+      {
+       "zelle": 27,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 30,
+       "ziffern": [
+        7
+       ]
+      }
+     ],
+     "einheit": 3
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      48,
+      50
+     ],
+     "ziffern": [
+      7
+     ],
+     "streichen": [
+      {
+       "zelle": 45,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 47,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 53,
+       "ziffern": [
+        7
+       ]
+      }
+     ],
+     "einheit": 22
+    },
+    {
+     "technik": "hiddenPair",
+     "muster": [
+      33,
+      51
+     ],
+     "ziffern": [
+      2,
+      5
+     ],
+     "streichen": [
+      {
+       "zelle": 51,
+       "ziffern": [
+        8
+       ]
+      }
+     ],
+     "einheit": 15
+    },
+    {
+     "technik": "xyWing",
+     "muster": [
+      64,
+      67,
+      72
+     ],
+     "ziffern": [
+      9
+     ],
+     "streichen": [
+      {
+       "zelle": 65,
+       "ziffern": [
+        9
+       ]
+      },
+      {
+       "zelle": 76,
+       "ziffern": [
+        9
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      76
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 76,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      4
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 4,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      5
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 5,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      3
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 3,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      40
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 40,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      30
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 30,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      33
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 33,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      27
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 27,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      48
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 48,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      50
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 50,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      51
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 51,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      57
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 57,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      55
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 55,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      19
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 19,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      54
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 54,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      59
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 59,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      64
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 64,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      65
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 65,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      47
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 47,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      29
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 29,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      35
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 35,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      38
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 38,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      20
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 20,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      18
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 18,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      36
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 36,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      42
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 42,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      6
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 6,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      8
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 8,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      44
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 44,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      45
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 45,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      53
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 53,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      60
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 60,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      62
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 62,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      67
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 67,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      68
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 68,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      72
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 72,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      75
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 75,
+      "ziffer": 8
+     }
+    }
+   ]
+  },
+  {
+   "name": "xy_wing_1",
+   "raetsel": "000000208020060090009807060090030400610000079008010030080203600060070080701000000",
+   "stufe": 4,
+   "geloest": true,
+   "schritte": [
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      51
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 51,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      42
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 42,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      2
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 2,
+      "ziffer": 6
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      1
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 1,
+      "ziffer": 7
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      46
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 46,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      45
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 45,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      27
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 27,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      29
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 29,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      30
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 30,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      38
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 38,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      50
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 50,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      48
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 48,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      53
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 53,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      9
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 9,
+      "ziffer": 8
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      22
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 22,
+      "ziffer": 2
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      32
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 32,
+      "ziffer": 8
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      41
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 41,
+      "ziffer": 2
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      62
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 62,
+      "ziffer": 7
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      15
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 15,
+      "ziffer": 7
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      61
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 61,
+      "ziffer": 1
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      34
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 34,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      35
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 35,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      80
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 80,
+      "ziffer": 2
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      65
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 65,
+      "ziffer": 2
+     },
+     "einheit": 7
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      77
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 77,
+      "ziffer": 6
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      76
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 76,
+      "ziffer": 8
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      24
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 24,
+      "ziffer": 1
+     },
+     "einheit": 15
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      0
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 0,
+      "ziffer": 1
+     },
+     "einheit": 9
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      3
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 3,
+      "ziffer": 3
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      4
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 4,
+      "ziffer": 9
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      17
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 17,
+      "ziffer": 3
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      54
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 54,
+      "ziffer": 9
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "xWing",
+     "muster": [
+      18,
+      63,
+      26,
+      71
+     ],
+     "ziffern": [
+      4
+     ],
+     "streichen": [
+      {
+       "zelle": 66,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 68,
+       "ziffern": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "claiming",
+     "muster": [
+      5,
+      14
+     ],
+     "ziffern": [
+      4
+     ],
+     "streichen": [
+      {
+       "zelle": 12,
+       "ziffern": [
+        4
+       ]
+      }
+     ],
+     "einheit": 14
+    },
+    {
+     "technik": "xyWing",
+     "muster": [
+      63,
+      71,
+      73
+     ],
+     "ziffern": [
+      5
+     ],
+     "streichen": [
+      {
+       "zelle": 79,
+       "ziffern": [
+        5
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      79
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 79,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      7
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 7,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      5
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 5,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      26
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 26,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      18
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 18,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      19
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 19,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      11
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 11,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      56
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 56,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      58
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 58,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      40
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 40,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      39
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 39,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      63
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 63,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      71
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 71,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      68
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 68,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      14
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 14,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      12
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 12,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      66
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 66,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      69
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 69,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      73
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 73,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      75
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 75,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      78
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 78,
+      "ziffer": 9
+     }
+    }
+   ]
+  },
+  {
+   "name": "xy_wing_2",
+   "raetsel": "400009080103000249090004000040083000000706000000140050000300060217000408080400007",
+   "stufe": 4,
+   "geloest": true,
+   "schritte": [
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      50
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 50,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      55
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 55,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      54
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 54,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      56
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 56,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      60
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 60,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      62
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 62,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      58
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 58,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      59
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 59,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      68
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 68,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      14
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 14,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      10
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 10,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      13
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 13,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      12
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 12,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      40
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 40,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      30
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 30,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      67
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 67,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      66
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 66,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      70
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 70,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      74
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 74,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      72
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 72,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      77
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 77,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      76
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 76,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      79
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 79,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      78
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 78,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      44
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 44,
+      "ziffer": 4
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "xyWing",
+     "muster": [
+      46,
+      27,
+      53
+     ],
+     "ziffern": [
+      6
+     ],
+     "streichen": [
+      {
+       "zelle": 33,
+       "ziffern": [
+        6
+       ]
+      },
+      {
+       "zelle": 35,
+       "ziffern": [
+        6
+       ]
+      },
+      {
+       "zelle": 45,
+       "ziffern": [
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      35
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 35,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      43
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 43,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      34
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 34,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      25
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 25,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      22
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 22,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      4
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 4,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      27
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 27,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      33
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 33,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      29
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 29,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      2
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 2,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      20
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 20,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      18
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 18,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      1
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 1,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      3
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 3,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      8
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 8,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      6
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 6,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      21
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 21,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      24
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 24,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      26
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 26,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      37
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 37,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      38
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 38,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      42
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 42,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      36
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 36,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      45
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 45,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      46
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 46,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      47
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 47,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      51
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 51,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      53
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 53,
+      "ziffer": 6
+     }
+    }
+   ]
+  },
+  {
+   "name": "xy_wing_3",
+   "raetsel": "700094100000000307003000040035870002200409003600013570020000700907000000004730005",
+   "stufe": 4,
+   "geloest": false,
+   "schritte": [
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      32
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 32,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      40
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 40,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      48
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 48,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      3
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 3,
+      "ziffer": 3
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      23
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 23,
+      "ziffer": 7
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      37
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 37,
+      "ziffer": 7
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      70
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 70,
+      "ziffer": 3
+     },
+     "einheit": 7
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      54
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 54,
+      "ziffer": 3
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      57
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 57,
+      "ziffer": 9
+     },
+     "einheit": 12
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      59
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 59,
+      "ziffer": 5
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      64
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 64,
+      "ziffer": 5
+     },
+     "einheit": 7
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      7
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 7,
+      "ziffer": 5
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      2
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 2,
+      "ziffer": 2
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      46,
+      47
+     ],
+     "ziffern": [
+      9
+     ],
+     "streichen": [
+      {
+       "zelle": 53,
+       "ziffern": [
+        9
+       ]
+      }
+     ],
+     "einheit": 21
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      26
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 26,
+      "ziffer": 9
+     },
+     "einheit": 17
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      34,
+      43
+     ],
+     "ziffern": [
+      1
+     ],
+     "streichen": [
+      {
+       "zelle": 61,
+       "ziffern": [
+        1
+       ]
+      },
+      {
+       "zelle": 79,
+       "ziffern": [
+        1
+       ]
+      }
+     ],
+     "einheit": 23
+    },
+    {
+     "technik": "hiddenPair",
+     "muster": [
+      10,
+      46
+     ],
+     "ziffern": [
+      4,
+      9
+     ],
+     "streichen": [
+      {
+       "zelle": 10,
+       "ziffern": [
+        1,
+        6,
+        8
+       ]
+      },
+      {
+       "zelle": 46,
+       "ziffern": [
+        8
+       ]
+      }
+     ],
+     "einheit": 10
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      38,
+      47
+     ],
+     "ziffern": [
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 11,
+       "ziffern": [
+        8
+       ]
+      },
+      {
+       "zelle": 56,
+       "ziffern": [
+        8
+       ]
+      }
+     ],
+     "einheit": 21
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      72,
+      73
+     ],
+     "ziffern": [
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 77,
+       "ziffern": [
+        8
+       ]
+      },
+      {
+       "zelle": 78,
+       "ziffern": [
+        8
+       ]
+      },
+      {
+       "zelle": 79,
+       "ziffern": [
+        8
+       ]
+      }
+     ],
+     "einheit": 24
+    },
+    {
+     "technik": "xyWing",
+     "muster": [
+      56,
+      38,
+      61
+     ],
+     "ziffern": [
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 43,
+       "ziffern": [
+        8
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "xy_wing_4",
+   "raetsel": "600008910040700020300040076050300000800050002000004050290070005010009030087600009",
+   "stufe": 4,
+   "geloest": true,
+   "schritte": [
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      19
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 19,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      1
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 1,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      2
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 2,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      3
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 3,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      4
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 4,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      8
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 8,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      79
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 79,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      72
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 72,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      63
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 63,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      65
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 65,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      56
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 56,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      59
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 59,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      23
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 23,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      14
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 14,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      24
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 24,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      17
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 17,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      15
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 15,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      41
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 41,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      32
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 32,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      60
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 60,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      61
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 61,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      57
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 57,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      71
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 71,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      69
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 69,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      67
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 67,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      66
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 66,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      76
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 76,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      77
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 77,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      78
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 78,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      11
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 11,
+      "ziffer": 8
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      35
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 35,
+      "ziffer": 8
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      53
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 53,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      47
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 47,
+      "ziffer": 2
+     },
+     "einheit": 5
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      48
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 48,
+      "ziffer": 8
+     },
+     "einheit": 5
+    },
+    {
+     "technik": "xWing",
+     "muster": [
+      20,
+      21,
+      38,
+      39
+     ],
+     "ziffern": [
+      1
+     ],
+     "streichen": [
+      {
+       "zelle": 29,
+       "ziffern": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "xWing",
+     "muster": [
+      9,
+      13,
+      45,
+      49
+     ],
+     "ziffern": [
+      9
+     ],
+     "streichen": [
+      {
+       "zelle": 27,
+       "ziffern": [
+        9
+       ]
+      },
+      {
+       "zelle": 31,
+       "ziffern": [
+        9
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "xyWing",
+     "muster": [
+      29,
+      33,
+      45
+     ],
+     "ziffern": [
+      7
+     ],
+     "streichen": [
+      {
+       "zelle": 27,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 51,
+       "ziffern": [
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      27
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 27,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      9
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 9,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      13
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 13,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      20
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 20,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      21
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 21,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      31
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 31,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      34
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 34,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      29
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 29,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      33
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 33,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      38
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 38,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      39
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 39,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      43
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 43,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      37
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 37,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      42
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 42,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      45
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 45,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      46
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 46,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      49
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 49,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      51
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 51,
+      "ziffer": 3
+     }
+    }
+   ]
+  },
+  {
+   "name": "swordfish_1",
+   "raetsel": "600300050900000020051060400000006002502040301400900000006080270070000009040003008",
+   "stufe": 4,
+   "geloest": false,
+   "schritte": [
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      8
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 8,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      26
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 26,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      17
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 17,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      53
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 53,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      62
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 62,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      34
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 34,
+      "ziffer": 4
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      1
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 1,
+      "ziffer": 2
+     },
+     "einheit": 10
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      70
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 70,
+      "ziffer": 3
+     },
+     "einheit": 16
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      79
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 79,
+      "ziffer": 1
+     },
+     "einheit": 16
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      72
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 72,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      69,
+      78
+     ],
+     "ziffern": [
+      6
+     ],
+     "streichen": [
+      {
+       "zelle": 51,
+       "ziffern": [
+        6
+       ]
+      }
+     ],
+     "einheit": 26
+    },
+    {
+     "technik": "claiming",
+     "muster": [
+      39,
+      41
+     ],
+     "ziffern": [
+      7
+     ],
+     "streichen": [
+      {
+       "zelle": 30,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 31,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 49,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 50,
+       "ziffern": [
+        7
+       ]
+      }
+     ],
+     "einheit": 4
+    },
+    {
+     "technik": "claiming",
+     "muster": [
+      57,
+      59
+     ],
+     "ziffern": [
+      5
+     ],
+     "streichen": [
+      {
+       "zelle": 66,
+       "ziffern": [
+        5
+       ]
+      },
+      {
+       "zelle": 67,
+       "ziffern": [
+        5
+       ]
+      },
+      {
+       "zelle": 68,
+       "ziffern": [
+        5
+       ]
+      },
+      {
+       "zelle": 75,
+       "ziffern": [
+        5
+       ]
+      },
+      {
+       "zelle": 76,
+       "ziffern": [
+        5
+       ]
+      }
+     ],
+     "einheit": 6
+    },
+    {
+     "technik": "nakedPair",
+     "muster": [
+      39,
+      41
+     ],
+     "ziffern": [
+      7,
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 37,
+       "ziffern": [
+        8
+       ]
+      },
+      {
+       "zelle": 43,
+       "ziffern": [
+        8
+       ]
+      }
+     ],
+     "einheit": 4
+    },
+    {
+     "technik": "claiming",
+     "muster": [
+      39,
+      41
+     ],
+     "ziffern": [
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 30,
+       "ziffern": [
+        8
+       ]
+      },
+      {
+       "zelle": 50,
+       "ziffern": [
+        8
+       ]
+      }
+     ],
+     "einheit": 4
+    },
+    {
+     "technik": "nakedPair",
+     "muster": [
+      30,
+      57
+     ],
+     "ziffern": [
+      1,
+      5
+     ],
+     "streichen": [
+      {
+       "zelle": 12,
+       "ziffern": [
+        1,
+        5
+       ]
+      },
+      {
+       "zelle": 66,
+       "ziffern": [
+        1
+       ]
+      }
+     ],
+     "einheit": 12
+    },
+    {
+     "technik": "swordfish",
+     "muster": [
+      23,
+      25,
+      37,
+      43,
+      55,
+      59
+     ],
+     "ziffern": [
+      9
+     ],
+     "streichen": [
+      {
+       "zelle": 5,
+       "ziffern": [
+        9
+       ]
+      },
+      {
+       "zelle": 28,
+       "ziffern": [
+        9
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "swordfish_2",
+   "raetsel": "000079500902500001000410030017008000090000040000300150080065000700004805004980000",
+   "stufe": 4,
+   "geloest": false,
+   "schritte": [
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      13
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 13,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      14
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 14,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      23
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 23,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      3
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 3,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      50
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 50,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      41
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 41,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      67
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 67,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      40
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 40,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      66
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 66,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      57
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 57,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      77
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 77,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      16
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 16,
+      "ziffer": 8
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      27
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 27,
+      "ziffer": 5
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      31
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 31,
+      "ziffer": 4
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      49
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 49,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      73
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 73,
+      "ziffer": 5
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      20
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 20,
+      "ziffer": 5
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      18
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 18,
+      "ziffer": 8
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      46
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 46,
+      "ziffer": 2
+     },
+     "einheit": 10
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      45
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 45,
+      "ziffer": 4
+     },
+     "einheit": 5
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      79
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 79,
+      "ziffer": 7
+     },
+     "einheit": 16
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      72
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 72,
+      "ziffer": 1
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      2
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 2,
+      "ziffer": 1
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      61
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 61,
+      "ziffer": 1
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      54
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 54,
+      "ziffer": 2
+     },
+     "einheit": 9
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      36,
+      38
+     ],
+     "ziffern": [
+      3
+     ],
+     "streichen": [
+      {
+       "zelle": 42,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 44,
+       "ziffern": [
+        3
+       ]
+      }
+     ],
+     "einheit": 21
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      64,
+      65
+     ],
+     "ziffern": [
+      6
+     ],
+     "streichen": [
+      {
+       "zelle": 70,
+       "ziffern": [
+        6
+       ]
+      }
+     ],
+     "einheit": 24
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      70
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 70,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      56
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 56,
+      "ziffer": 9
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "nakedPair",
+     "muster": [
+      30,
+      34
+     ],
+     "ziffern": [
+      2,
+      6
+     ],
+     "streichen": [
+      {
+       "zelle": 33,
+       "ziffern": [
+        2,
+        6
+       ]
+      },
+      {
+       "zelle": 35,
+       "ziffern": [
+        2,
+        6
+       ]
+      }
+     ],
+     "einheit": 3
+    },
+    {
+     "technik": "swordfish",
+     "muster": [
+      0,
+      7,
+      30,
+      34,
+      36,
+      39
+     ],
+     "ziffern": [
+      6
+     ],
+     "streichen": [
+      {
+       "zelle": 1,
+       "ziffern": [
+        6
+       ]
+      },
+      {
+       "zelle": 8,
+       "ziffern": [
+        6
+       ]
+      },
+      {
+       "zelle": 38,
+       "ziffern": [
+        6
+       ]
+      },
+      {
+       "zelle": 42,
+       "ziffern": [
+        6
+       ]
+      },
+      {
+       "zelle": 44,
+       "ziffern": [
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "xyWing",
+     "muster": [
+      15,
+      8,
+      42
+     ],
+     "ziffern": [
+      2
+     ],
+     "streichen": [
+      {
+       "zelle": 44,
+       "ziffern": [
+        2
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "swordfish_3",
+   "raetsel": "800009070003000500060700003000230000390804052000065000200007080006000100030500009",
+   "stufe": 4,
+   "geloest": true,
+   "schritte": [
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      32
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 32,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      40
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 40,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      38
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 38,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      42
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 42,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      48
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 48,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      3
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 3,
+      "ziffer": 3
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      66
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 66,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      8
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 8,
+      "ziffer": 6
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      27
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 27,
+      "ziffer": 6
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      60
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 60,
+      "ziffer": 3
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      70
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 70,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      52
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 52,
+      "ziffer": 3
+     },
+     "einheit": 5
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      53
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 53,
+      "ziffer": 1
+     },
+     "einheit": 5
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      57
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 57,
+      "ziffer": 6
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      12
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 12,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      1
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 1,
+      "ziffer": 1
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      14
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 14,
+      "ziffer": 6
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      25
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 25,
+      "ziffer": 1
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      58
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 58,
+      "ziffer": 1
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      56
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 56,
+      "ziffer": 9
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      68
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 68,
+      "ziffer": 3
+     },
+     "einheit": 7
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      67
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 67,
+      "ziffer": 9
+     },
+     "einheit": 7
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      64
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 64,
+      "ziffer": 8
+     },
+     "einheit": 7
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      72
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 72,
+      "ziffer": 1
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      79
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 79,
+      "ziffer": 6
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "xyWing",
+     "muster": [
+      63,
+      45,
+      55
+     ],
+     "ziffern": [
+      4
+     ],
+     "streichen": [
+      {
+       "zelle": 28,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 46,
+       "ziffern": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "swordfish",
+     "muster": [
+      10,
+      16,
+      17,
+      34,
+      35,
+      55,
+      62
+     ],
+     "ziffern": [
+      4
+     ],
+     "streichen": [
+      {
+       "zelle": 9,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 13,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 29,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 33,
+       "ziffern": [
+        4
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      45,
+      47
+     ],
+     "ziffern": [
+      4
+     ],
+     "streichen": [
+      {
+       "zelle": 51,
+       "ziffern": [
+        4
+       ]
+      }
+     ],
+     "einheit": 21
+    },
+    {
+     "technik": "nakedPair",
+     "muster": [
+      13,
+      76
+     ],
+     "ziffern": [
+      2,
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 4,
+       "ziffern": [
+        2
+       ]
+      },
+      {
+       "zelle": 22,
+       "ziffern": [
+        2,
+        8
+       ]
+      }
+     ],
+     "einheit": 13
+    },
+    {
+     "technik": "xyWing",
+     "muster": [
+      55,
+      28,
+      74
+     ],
+     "ziffern": [
+      7
+     ],
+     "streichen": [
+      {
+       "zelle": 29,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 47,
+       "ziffern": [
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      74
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 74,
+      "ziffer": 7
+     },
+     "einheit": 11
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      63
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 63,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      55
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 55,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      62
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 62,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      71
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 71,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      78
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 78,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      6
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 6,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      28
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 28,
+      "ziffer": 5
+     },
+     "einheit": 10
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      29
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 29,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      35
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 35,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      17
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 17,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      13
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 13,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      10
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 10,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      9
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 9,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      16
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 16,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      18
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 18,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      2
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 2,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      4
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 4,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      20
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 20,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      22
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 22,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      23
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 23,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      24
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 24,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      33
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 33,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      34
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 34,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      45
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 45,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      46
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 46,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      47
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 47,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      51
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 51,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      76
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 76,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      77
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 77,
+      "ziffer": 2
+     }
+    }
+   ]
+  },
+  {
+   "name": "swordfish_4",
+   "raetsel": "204000006506002980000006000050809002000020000900501030000700000069100507800000409",
+   "stufe": 4,
+   "geloest": false,
+   "schritte": [
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      70
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 70,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      24
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 24,
+      "ziffer": 2
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      43
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 43,
+      "ziffer": 9
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      44
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 44,
+      "ziffer": 5
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      58
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 58,
+      "ziffer": 9
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      75
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 75,
+      "ziffer": 2
+     },
+     "einheit": 12
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      39
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 39,
+      "ziffer": 6
+     },
+     "einheit": 12
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      51
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 51,
+      "ziffer": 6
+     },
+     "einheit": 5
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      27
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 27,
+      "ziffer": 6
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      61
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 61,
+      "ziffer": 6
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      79
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 79,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      76
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 76,
+      "ziffer": 6
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      33,
+      42
+     ],
+     "ziffern": [
+      1
+     ],
+     "streichen": [
+      {
+       "zelle": 6,
+       "ziffern": [
+        1
+       ]
+      }
+     ],
+     "einheit": 23
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      59,
+      77
+     ],
+     "ziffern": [
+      5
+     ],
+     "streichen": [
+      {
+       "zelle": 5,
+       "ziffern": [
+        5
+       ]
+      }
+     ],
+     "einheit": 25
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      60,
+      62
+     ],
+     "ziffern": [
+      3
+     ],
+     "streichen": [
+      {
+       "zelle": 54,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 55,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 56,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 59,
+       "ziffern": [
+        3
+       ]
+      }
+     ],
+     "einheit": 26
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      60,
+      62
+     ],
+     "ziffern": [
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 59,
+       "ziffern": [
+        8
+       ]
+      }
+     ],
+     "einheit": 26
+    },
+    {
+     "technik": "claiming",
+     "muster": [
+      3,
+      12,
+      21
+     ],
+     "ziffern": [
+      3
+     ],
+     "streichen": [
+      {
+       "zelle": 4,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 5,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 13,
+       "ziffern": [
+        3
+       ]
+      },
+      {
+       "zelle": 22,
+       "ziffern": [
+        3
+       ]
+      }
+     ],
+     "einheit": 12
+    },
+    {
+     "technik": "claiming",
+     "muster": [
+      12,
+      21
+     ],
+     "ziffern": [
+      4
+     ],
+     "streichen": [
+      {
+       "zelle": 13,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 22,
+       "ziffern": [
+        4
+       ]
+      }
+     ],
+     "einheit": 12
+    },
+    {
+     "technik": "swordfish",
+     "muster": [
+      10,
+      13,
+      46,
+      47,
+      49,
+      73,
+      74
+     ],
+     "ziffern": [
+      7
+     ],
+     "streichen": [
+      {
+       "zelle": 1,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 4,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 19,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 20,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 22,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 29,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 31,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 37,
+       "ziffern": [
+        7
+       ]
+      },
+      {
+       "zelle": 38,
+       "ziffern": [
+        7
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "claiming",
+     "muster": [
+      33,
+      34
+     ],
+     "ziffern": [
+      7
+     ],
+     "streichen": [
+      {
+       "zelle": 42,
+       "ziffern": [
+        7
+       ]
+      }
+     ],
+     "einheit": 3
+    },
+    {
+     "technik": "nakedTriple",
+     "muster": [
+      20,
+      29,
+      38
+     ],
+     "ziffern": [
+      1,
+      3,
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 47,
+       "ziffern": [
+        8
+       ]
+      },
+      {
+       "zelle": 56,
+       "ziffern": [
+        1
+       ]
+      },
+      {
+       "zelle": 74,
+       "ziffern": [
+        3
+       ]
+      }
+     ],
+     "einheit": 11
+    }
+   ]
+  },
+  {
+   "name": "faerbung_widerspruch_1",
+   "raetsel": "070009003908230007060700000310008002000060000800300061000002030600041208200600010",
+   "stufe": 4,
+   "geloest": true,
+   "schritte": [
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      6
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 6,
+      "ziffer": 6
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      15
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 15,
+      "ziffer": 1
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      14
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 14,
+      "ziffer": 6
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      20
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 20,
+      "ziffer": 3
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      25
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 25,
+      "ziffer": 2
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      2
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 2,
+      "ziffer": 2
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      29
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 29,
+      "ziffer": 6
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      39
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 39,
+      "ziffer": 1
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      37
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 37,
+      "ziffer": 2
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      42
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 42,
+      "ziffer": 3
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      43
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 43,
+      "ziffer": 8
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      49
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 49,
+      "ziffer": 2
+     },
+     "einheit": 5
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      62
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 62,
+      "ziffer": 6
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      64
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 64,
+      "ziffer": 3
+     },
+     "einheit": 7
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      77
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 77,
+      "ziffer": 3
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      56
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 56,
+      "ziffer": 1
+     },
+     "einheit": 11
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      24
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 24,
+      "ziffer": 8
+     },
+     "einheit": 15
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      26
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 26,
+      "ziffer": 9
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      38
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 38,
+      "ziffer": 9
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      51
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 51,
+      "ziffer": 9
+     },
+     "einheit": 5
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      70
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 70,
+      "ziffer": 9
+     },
+     "einheit": 16
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      66
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 66,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      65
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 65,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      50
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 50,
+      "ziffer": 7
+     },
+     "einheit": 5
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      36
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 36,
+      "ziffer": 7
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      34
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 34,
+      "ziffer": 7
+     },
+     "einheit": 16
+    },
+    {
+     "technik": "nakedPair",
+     "muster": [
+      74,
+      80
+     ],
+     "ziffern": [
+      4,
+      5
+     ],
+     "streichen": [
+      {
+       "zelle": 73,
+       "ziffern": [
+        4,
+        5
+       ]
+      },
+      {
+       "zelle": 78,
+       "ziffern": [
+        4,
+        5
+       ]
+      }
+     ],
+     "einheit": 8
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      78
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 78,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      58
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 58,
+      "ziffer": 7
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "nakedPair",
+     "muster": [
+      54,
+      60
+     ],
+     "ziffern": [
+      4,
+      5
+     ],
+     "streichen": [
+      {
+       "zelle": 55,
+       "ziffern": [
+        4,
+        5
+       ]
+      }
+     ],
+     "einheit": 6
+    },
+    {
+     "technik": "simpleColoring",
+     "muster": [
+      3,
+      7,
+      10,
+      16,
+      18,
+      23,
+      30,
+      33,
+      41,
+      44,
+      46,
+      47,
+      54,
+      60,
+      74,
+      80
+     ],
+     "ziffern": [
+      4
+     ],
+     "streichen": [
+      {
+       "zelle": 3,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 7,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 10,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 18,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 33,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 41,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 47,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 54,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 80,
+       "ziffern": [
+        4
+       ]
+      }
+     ],
+     "farbe_0": [
+      3,
+      7,
+      10,
+      18,
+      33,
+      41,
+      47,
+      54,
+      80
+     ]
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      3
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 3,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      7
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 7,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      4
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 4,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      0
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 0,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      10
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 10,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      16
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 16,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      18
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 18,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      22
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 22,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      23
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 23,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      31
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 31,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      30
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 30,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      33
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 33,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      41
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 41,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      44
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 44,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      46
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 46,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      47
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 47,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      54
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 54,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      57
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 57,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      55
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 55,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      60
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 60,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      73
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 73,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      74
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 74,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      76
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 76,
+      "ziffer": 8
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      80
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 80,
+      "ziffer": 5
+     }
+    }
+   ]
+  },
+  {
+   "name": "faerbung_widerspruch_2",
+   "raetsel": "003009710800000060000020300008600040012508930070004800004050000020000008037900600",
+   "stufe": 4,
+   "geloest": true,
+   "schritte": [
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      40
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 40,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      44
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 44,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      36
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 36,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      35
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 35,
+      "ziffer": 7
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      76
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 76,
+      "ziffer": 8
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      3
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 3,
+      "ziffer": 8
+     },
+     "einheit": 0
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      25
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 25,
+      "ziffer": 8
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      55
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 55,
+      "ziffer": 8
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      80
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 80,
+      "ziffer": 4
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      0
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 0,
+      "ziffer": 2
+     },
+     "einheit": 9
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      8
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 8,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      26
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 26,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      17
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 17,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      15
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 15,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      53
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 53,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      62
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 62,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      18
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 18,
+      "ziffer": 7
+     },
+     "einheit": 9
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      11,
+      20
+     ],
+     "ziffern": [
+      1
+     ],
+     "streichen": [
+      {
+       "zelle": 65,
+       "ziffern": [
+        1
+       ]
+      }
+     ],
+     "einheit": 18
+    },
+    {
+     "technik": "claiming",
+     "muster": [
+      1,
+      19
+     ],
+     "ziffern": [
+      6
+     ],
+     "streichen": [
+      {
+       "zelle": 20,
+       "ziffern": [
+        6
+       ]
+      }
+     ],
+     "einheit": 10
+    },
+    {
+     "technik": "nakedPair",
+     "muster": [
+      10,
+      28
+     ],
+     "ziffern": [
+      5,
+      9
+     ],
+     "streichen": [
+      {
+       "zelle": 19,
+       "ziffern": [
+        5
+       ]
+      }
+     ],
+     "einheit": 10
+    },
+    {
+     "technik": "nakedPair",
+     "muster": [
+      52,
+      79
+     ],
+     "ziffern": [
+      2,
+      5
+     ],
+     "streichen": [
+      {
+       "zelle": 61,
+       "ziffern": [
+        2
+       ]
+      },
+      {
+       "zelle": 70,
+       "ziffern": [
+        5
+       ]
+      }
+     ],
+     "einheit": 16
+    },
+    {
+     "technik": "hiddenPair",
+     "muster": [
+      4,
+      67
+     ],
+     "ziffern": [
+      4,
+      6
+     ],
+     "streichen": [
+      {
+       "zelle": 67,
+       "ziffern": [
+        1,
+        3
+       ]
+      }
+     ],
+     "einheit": 13
+    },
+    {
+     "technik": "xyWing",
+     "muster": [
+      79,
+      60,
+      72
+     ],
+     "ziffern": [
+      1
+     ],
+     "streichen": [
+      {
+       "zelle": 54,
+       "ziffern": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "xyWing",
+     "muster": [
+      79,
+      69,
+      77
+     ],
+     "ziffern": [
+      1
+     ],
+     "streichen": [
+      {
+       "zelle": 66,
+       "ziffern": [
+        1
+       ]
+      },
+      {
+       "zelle": 68,
+       "ziffern": [
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "simpleColoring",
+     "muster": [
+      32,
+      33,
+      48,
+      52,
+      57,
+      60,
+      77,
+      79
+     ],
+     "ziffern": [
+      2
+     ],
+     "streichen": [
+      {
+       "zelle": 32,
+       "ziffern": [
+        2
+       ]
+      },
+      {
+       "zelle": 52,
+       "ziffern": [
+        2
+       ]
+      },
+      {
+       "zelle": 57,
+       "ziffern": [
+        2
+       ]
+      },
+      {
+       "zelle": 60,
+       "ziffern": [
+        2
+       ]
+      },
+      {
+       "zelle": 77,
+       "ziffern": [
+        2
+       ]
+      }
+     ],
+     "farbe_0": [
+      32,
+      52,
+      57,
+      60,
+      77
+     ]
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      52
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 52,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      33
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 33,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      60
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 60,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      57
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 57,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      61
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 61,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      54
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 54,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      59
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 59,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      69
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 69,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      65
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 65,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      47
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 47,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      63
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 63,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      70
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 70,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      72
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 72,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      77
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 77,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      32
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 32,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      27
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 27,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      28
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 28,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      10
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 10,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      31
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 31,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      13
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 13,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      12
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 12,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      11
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 11,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      14
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 14,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      20
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 20,
+      "ziffer": 1
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      21
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 21,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      4
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 4,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      1
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 1,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      19
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 19,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      23
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 23,
+      "ziffer": 5
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      45
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 45,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      48
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 48,
+      "ziffer": 2
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      49
+     ],
+     "ziffern": [
+      9
+     ],
+     "setzen": {
+      "zelle": 49,
+      "ziffer": 9
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      66
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 66,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      67
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 67,
+      "ziffer": 4
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      68
+     ],
+     "ziffern": [
+      6
+     ],
+     "setzen": {
+      "zelle": 68,
+      "ziffer": 6
+     }
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      79
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 79,
+      "ziffer": 2
+     }
+    }
+   ]
+  },
+  {
+   "name": "faerbung_falle_1",
+   "raetsel": "210500000007000002009080170080095700002000400001430050074020300100000600000003097",
+   "stufe": 4,
+   "geloest": false,
+   "schritte": [
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      27
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 27,
+      "ziffer": 4
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      76
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 76,
+      "ziffer": 4
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      75
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 75,
+      "ziffer": 1
+     },
+     "einheit": 8
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      67
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 67,
+      "ziffer": 5
+     },
+     "einheit": 13
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      74
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 74,
+      "ziffer": 5
+     },
+     "einheit": 11
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      62
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 62,
+      "ziffer": 5
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      61
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 61,
+      "ziffer": 1
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      35
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 35,
+      "ziffer": 1
+     },
+     "einheit": 3
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      15
+     ],
+     "ziffern": [
+      5
+     ],
+     "setzen": {
+      "zelle": 15,
+      "ziffer": 5
+     },
+     "einheit": 15
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      6,
+      8
+     ],
+     "ziffern": [
+      9
+     ],
+     "streichen": [
+      {
+       "zelle": 5,
+       "ziffern": [
+        9
+       ]
+      }
+     ],
+     "einheit": 20
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      57,
+      59
+     ],
+     "ziffern": [
+      6
+     ],
+     "streichen": [
+      {
+       "zelle": 54,
+       "ziffern": [
+        6
+       ]
+      }
+     ],
+     "einheit": 25
+    },
+    {
+     "technik": "xyWing",
+     "muster": [
+      65,
+      29,
+      72
+     ],
+     "ziffern": [
+      6
+     ],
+     "streichen": [
+      {
+       "zelle": 36,
+       "ziffern": [
+        6
+       ]
+      },
+      {
+       "zelle": 45,
+       "ziffern": [
+        6
+       ]
+      }
+     ]
+    },
+    {
+     "technik": "simpleColoring",
+     "muster": [
+      2,
+      9,
+      16,
+      65
+     ],
+     "ziffern": [
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 70,
+       "ziffern": [
+        8
+       ]
+      }
+     ],
+     "farbe_0": [
+      2,
+      16
+     ]
+    }
+   ]
+  },
+  {
+   "name": "faerbung_falle_2",
+   "raetsel": "002080007000503812500000000040000130000604000038000070000000009976102000400070600",
+   "stufe": 4,
+   "geloest": false,
+   "schritte": [
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      19
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 19,
+      "ziffer": 8
+     },
+     "einheit": 2
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      40
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 40,
+      "ziffer": 3
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      60
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 60,
+      "ziffer": 7
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      54
+     ],
+     "ziffern": [
+      8
+     ],
+     "setzen": {
+      "zelle": 54,
+      "ziffer": 8
+     },
+     "einheit": 9
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      0
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 0,
+      "ziffer": 3
+     },
+     "einheit": 9
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      80
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 80,
+      "ziffer": 1
+     },
+     "einheit": 17
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      21,
+      23
+     ],
+     "ziffern": [
+      7
+     ],
+     "streichen": [
+      {
+       "zelle": 20,
+       "ziffern": [
+        7
+       ]
+      }
+     ],
+     "einheit": 19
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      27,
+      45
+     ],
+     "ziffern": [
+      6
+     ],
+     "streichen": [
+      {
+       "zelle": 9,
+       "ziffern": [
+        6
+       ]
+      }
+     ],
+     "einheit": 21
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      9
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 9,
+      "ziffer": 7
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      38
+     ],
+     "ziffern": [
+      7
+     ],
+     "setzen": {
+      "zelle": 38,
+      "ziffer": 7
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      49,
+      50
+     ],
+     "ziffern": [
+      1
+     ],
+     "streichen": [
+      {
+       "zelle": 45,
+       "ziffern": [
+        1
+       ]
+      }
+     ],
+     "einheit": 22
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      36
+     ],
+     "ziffern": [
+      1
+     ],
+     "setzen": {
+      "zelle": 36,
+      "ziffer": 1
+     },
+     "einheit": 9
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      30,
+      32
+     ],
+     "ziffern": [
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 35,
+       "ziffern": [
+        8
+       ]
+      }
+     ],
+     "einheit": 22
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      35,
+      53
+     ],
+     "ziffern": [
+      6
+     ],
+     "streichen": [
+      {
+       "zelle": 26,
+       "ziffern": [
+        6
+       ]
+      }
+     ],
+     "einheit": 23
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      55,
+      73
+     ],
+     "ziffern": [
+      2
+     ],
+     "streichen": [
+      {
+       "zelle": 37,
+       "ziffern": [
+        2
+       ]
+      }
+     ],
+     "einheit": 24
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      75,
+      77
+     ],
+     "ziffern": [
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 79,
+       "ziffern": [
+        8
+       ]
+      }
+     ],
+     "einheit": 25
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      61,
+      79
+     ],
+     "ziffern": [
+      2
+     ],
+     "streichen": [
+      {
+       "zelle": 43,
+       "ziffern": [
+        2
+       ]
+      }
+     ],
+     "einheit": 26
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      42
+     ],
+     "ziffern": [
+      2
+     ],
+     "setzen": {
+      "zelle": 42,
+      "ziffer": 2
+     },
+     "einheit": 4
+    },
+    {
+     "technik": "nakedPair",
+     "muster": [
+      73,
+      79
+     ],
+     "ziffern": [
+      2,
+      5
+     ],
+     "streichen": [
+      {
+       "zelle": 74,
+       "ziffern": [
+        5
+       ]
+      },
+      {
+       "zelle": 77,
+       "ziffern": [
+        5
+       ]
+      }
+     ],
+     "einheit": 8
+    },
+    {
+     "technik": "nakedSingle",
+     "muster": [
+      74
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 74,
+      "ziffer": 3
+     }
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      57
+     ],
+     "ziffern": [
+      3
+     ],
+     "setzen": {
+      "zelle": 57,
+      "ziffer": 3
+     },
+     "einheit": 6
+    },
+    {
+     "technik": "pointing",
+     "muster": [
+      58,
+      67
+     ],
+     "ziffern": [
+      4
+     ],
+     "streichen": [
+      {
+       "zelle": 13,
+       "ziffern": [
+        4
+       ]
+      },
+      {
+       "zelle": 22,
+       "ziffern": [
+        4
+       ]
+      }
+     ],
+     "einheit": 25
+    },
+    {
+     "technik": "hiddenSingle",
+     "muster": [
+      11
+     ],
+     "ziffern": [
+      4
+     ],
+     "setzen": {
+      "zelle": 11,
+      "ziffer": 4
+     },
+     "einheit": 1
+    },
+    {
+     "technik": "hiddenPair",
+     "muster": [
+      30,
+      32
+     ],
+     "ziffern": [
+      7,
+      8
+     ],
+     "streichen": [
+      {
+       "zelle": 30,
+       "ziffern": [
+        2,
+        9
+       ]
+      },
+      {
+       "zelle": 32,
+       "ziffern": [
+        5,
+        9
+       ]
+      }
+     ],
+     "einheit": 3
+    },
+    {
+     "technik": "simpleColoring",
+     "muster": [
+      20,
+      29,
+      31,
+      37,
+      43,
+      51
+     ],
+     "ziffern": [
+      9
+     ],
+     "streichen": [
+      {
+       "zelle": 25,
+       "ziffern": [
+        9
+       ]
+      }
+     ],
+     "farbe_0": [
+      20,
+      31,
+      37,
+      51
+     ]
+    }
+   ]
+  }
+ ]
+}

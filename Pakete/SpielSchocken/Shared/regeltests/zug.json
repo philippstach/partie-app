@@ -1,0 +1,566 @@
+{
+ "beschreibung": "Darf nach dem Wurf `wurf` (Würfel `draussen` liegen schon) `herauslegen` herausgelegt, `umdrehen` Sechsen zu Einsen gedreht und weitergeworfen werden? moeglicheZuege = alle erlaubten Züge in der festen Reihenfolge der Spezifikation.",
+ "faelle": [
+  {
+   "name": "Eins herauslegen",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [
+    1
+   ],
+   "umdrehen": 0,
+   "erlaubt": true
+  },
+  {
+   "name": "Zwei Einsen herauslegen",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    1,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [
+    1,
+    1
+   ],
+   "umdrehen": 0,
+   "erlaubt": true
+  },
+  {
+   "name": "Nichts herauslegen, alle neu",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [],
+   "umdrehen": 0,
+   "erlaubt": true
+  },
+  {
+   "name": "Fünf herauslegen nur bei „beliebig“",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [
+    5
+   ],
+   "umdrehen": 0,
+   "erlaubt": false
+  },
+  {
+   "name": "Fünf herauslegen bei „beliebig“",
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [
+    5
+   ],
+   "umdrehen": 0,
+   "erlaubt": true
+  },
+  {
+   "name": "Alle drei herauslegen geht nicht (einer muss geworfen werden)",
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [
+    1,
+    4,
+    5
+   ],
+   "umdrehen": 0,
+   "erlaubt": false
+  },
+  {
+   "name": "Nicht vorhandene Eins",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [
+    1
+   ],
+   "umdrehen": 0,
+   "erlaubt": false
+  },
+  {
+   "name": "Nach dem letzten erlaubten Wurf nicht weiter",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    1,
+    4,
+    5
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "herauslegen": [
+    1
+   ],
+   "umdrehen": 0,
+   "erlaubt": false
+  },
+  {
+   "name": "Vorlage 1: kein zweiter Wurf",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 1,
+   "herauslegen": [],
+   "umdrehen": 0,
+   "erlaubt": false
+  },
+  {
+   "name": "Vorlage 2: zweiter Wurf erlaubt",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    2,
+    4,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 2,
+   "herauslegen": [],
+   "umdrehen": 0,
+   "erlaubt": true
+  },
+  {
+   "name": "Zwei Sechsen: eine umdrehen",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    3
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [],
+   "umdrehen": 1,
+   "erlaubt": true
+  },
+  {
+   "name": "Zwei Sechsen: zwei umdrehen geht nicht",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    3
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [],
+   "umdrehen": 2,
+   "erlaubt": false
+  },
+  {
+   "name": "Drei Sechsen: zwei umdrehen",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [],
+   "umdrehen": 2,
+   "erlaubt": true
+  },
+  {
+   "name": "Drei Sechsen: eine umdrehen",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [],
+   "umdrehen": 1,
+   "erlaubt": true
+  },
+  {
+   "name": "Eine Sechs: nicht umdrehen",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    6,
+    4,
+    3
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [],
+   "umdrehen": 1,
+   "erlaubt": false
+  },
+  {
+   "name": "Sechsen umdrehen ausgeschaltet",
+   "optionen": {
+    "sechsenUmdrehen": false
+   },
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    3
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [],
+   "umdrehen": 1,
+   "erlaubt": false
+  },
+  {
+   "name": "Umdrehen und Eins herauslegen",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    1
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [
+    1
+   ],
+   "umdrehen": 1,
+   "erlaubt": true
+  },
+  {
+   "name": "Umdrehen im letzten Wurf geht nicht",
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    3
+   ],
+   "wuerfe": 3,
+   "maxWuerfe": 3,
+   "herauslegen": [],
+   "umdrehen": 1,
+   "erlaubt": false
+  },
+  {
+   "name": "Umdrehen mit einer Eins draußen",
+   "optionen": {},
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [],
+   "umdrehen": 1,
+   "erlaubt": true
+  },
+  {
+   "name": "Umdrehen und andere Sechs behalten geht nicht",
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    3
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "herauslegen": [
+    6
+   ],
+   "umdrehen": 1,
+   "erlaubt": false
+  },
+  {
+   "name": "Zwei Einsen draußen, eine Eins dazu: kein Würfel mehr übrig",
+   "optionen": {},
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    1
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "herauslegen": [
+    1
+   ],
+   "umdrehen": 0,
+   "erlaubt": false
+  },
+  {
+   "name": "Zwei Einsen draußen, neu werfen",
+   "optionen": {},
+   "draussen": [
+    1,
+    1
+   ],
+   "wurf": [
+    4
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "herauslegen": [],
+   "umdrehen": 0,
+   "erlaubt": true
+  }
+ ],
+ "moeglicheZuege": [
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    1
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "zuege": [
+    {
+     "herauslegen": [],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      1
+     ],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [],
+     "umdrehen": 1
+    },
+    {
+     "herauslegen": [
+      1
+     ],
+     "umdrehen": 1
+    }
+   ]
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    1
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "zuege": [
+    {
+     "herauslegen": [],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      1
+     ],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      6
+     ],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      1,
+      6
+     ],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      6,
+      6
+     ],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [],
+     "umdrehen": 1
+    },
+    {
+     "herauslegen": [
+      1
+     ],
+     "umdrehen": 1
+    }
+   ]
+  },
+  {
+   "optionen": {},
+   "draussen": [
+    1
+   ],
+   "wurf": [
+    1,
+    6
+   ],
+   "wuerfe": 2,
+   "maxWuerfe": 3,
+   "zuege": [
+    {
+     "herauslegen": [],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      1
+     ],
+     "umdrehen": 0
+    }
+   ]
+  },
+  {
+   "optionen": {
+    "herauslegen": "beliebig"
+   },
+   "draussen": [],
+   "wurf": [
+    2,
+    3,
+    5
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "zuege": [
+    {
+     "herauslegen": [],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      2
+     ],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      3
+     ],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      5
+     ],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      2,
+      3
+     ],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      2,
+      5
+     ],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [
+      3,
+      5
+     ],
+     "umdrehen": 0
+    }
+   ]
+  },
+  {
+   "optionen": {},
+   "draussen": [],
+   "wurf": [
+    6,
+    6,
+    6
+   ],
+   "wuerfe": 1,
+   "maxWuerfe": 3,
+   "zuege": [
+    {
+     "herauslegen": [],
+     "umdrehen": 0
+    },
+    {
+     "herauslegen": [],
+     "umdrehen": 1
+    },
+    {
+     "herauslegen": [],
+     "umdrehen": 2
+    }
+   ]
+  }
+ ]
+}

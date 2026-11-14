@@ -1,0 +1,1140 @@
+{
+ "beschreibung": "Ein Zug auf einen Zustand. erlaubt=false → Zustand bleibt unverändert. Jeder erlaubte Zug zählt 1 bei zuege. Spaltenkarte passt, wenn ihr Wert genau 1 höher oder niedriger ist als die oberste Ablagekarte; kein Ringsum, auf einen König darf nichts. Punkte beim Sieg = übrige Stapelkarten. Antippen einer Spalte = dieser Zug (sonst wackeln), Antippen des Stapels = ziehen. Zustände in Tests müssen nicht alle 52 Karten enthalten.",
+ "faelle": [
+  {
+   "titel": "eins höher: erlaubt, Kette 1, Punkte bleiben 0",
+   "start": {
+    "spalten": [
+     [
+      "6H"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S",
+     "6H"
+    ],
+    "kette": 1,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "eins niedriger: erlaubt",
+   "start": {
+    "spalten": [
+     [
+      "4H"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S",
+     "4H"
+    ],
+    "kette": 1,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "gleicher Wert: verboten",
+   "start": {
+    "spalten": [
+     [
+      "5H"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "zwei Werte Abstand: verboten",
+   "start": {
+    "spalten": [
+     [
+      "7H"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Zwei auf Ass: erlaubt",
+   "start": {
+    "spalten": [
+     [
+      "2H"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "AS"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "AS",
+     "2H"
+    ],
+    "kette": 1,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Ass auf Zwei: erlaubt",
+   "start": {
+    "spalten": [
+     [
+      "AH"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "2S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "2S",
+     "AH"
+    ],
+    "kette": 1,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "König auf Dame: erlaubt",
+   "start": {
+    "spalten": [
+     [
+      "KH"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "QS"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "QS",
+     "KH"
+    ],
+    "kette": 1,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "auf einen König darf nichts: Dame verboten",
+   "start": {
+    "spalten": [
+     [
+      "QH"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "KS"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "kein Ringsum: Ass auf König verboten",
+   "start": {
+    "spalten": [
+     [
+      "AH"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "KS"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "kein Ringsum: König auf Ass verboten",
+   "start": {
+    "spalten": [
+     [
+      "KH"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "AS"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Dame auf Bube: erlaubt",
+   "start": {
+    "spalten": [
+     [
+      "QH"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "JS"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "JS",
+     "QH"
+    ],
+    "kette": 1,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "nur die oberste Karte zählt: passende Karte darunter verboten",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [
+      "6H",
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G2"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "danach liegt die Karte darunter oben",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [
+      "9C",
+      "8H",
+      "6H"
+     ],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G2"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [],
+     [
+      "9C",
+      "8H"
+     ],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S",
+     "6H"
+    ],
+    "kette": 1,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "leere Spalte: verboten",
+   "start": {
+    "spalten": [
+     [
+      "6H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G1"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "unbekannter Ort G7: verboten",
+   "start": {
+    "spalten": [
+     [
+      "6H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G7"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "fremder Ort T3: verboten",
+   "start": {
+    "spalten": [
+     [
+      "6H"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "T3"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Stapel: Karte auf die Ablage, Kette 0, Punkte bleiben",
+   "start": {
+    "spalten": [
+     [
+      "2C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "9D",
+     "JH"
+    ],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 4,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "stapel"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "2C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "9D"
+    ],
+    "ablage": [
+     "5S",
+     "JH"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Stapel: passt nicht nötig, jede Karte geht",
+   "start": {
+    "spalten": [
+     [
+      "2C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "5H"
+    ],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "stapel"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "2C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S",
+     "5H"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Stapel: auch auf einen König",
+   "start": {
+    "spalten": [
+     [
+      "2C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "9H"
+    ],
+    "ablage": [
+     "KS"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "stapel"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "2C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "KS",
+     "9H"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Stapel: König vom Stapel geht",
+   "start": {
+    "spalten": [
+     [
+      "2C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "KH"
+    ],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "stapel"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [
+      "2C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S",
+     "KH"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Stapel leer: verboten (kein Umdrehen)",
+   "start": {
+    "spalten": [
+     [
+      "2C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S",
+     "9D"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "stapel"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Ablage leer: verboten",
+   "start": {
+    "spalten": [
+     [
+      "6H"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Kette zählt weiter (nur Anzeige, keine Punkte)",
+   "start": {
+    "spalten": [
+     [
+      "7H"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "6S"
+    ],
+    "kette": 3,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "6S",
+     "7H"
+    ],
+    "kette": 4,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "letzte Spaltenkarte: gewonnen, Punkte = übrige Stapelkarten (3)",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [
+      "JC"
+     ],
+     [],
+     []
+    ],
+    "stapel": [
+     "2D",
+     "3D",
+     "4D"
+    ],
+    "ablage": [
+     "QD"
+    ],
+    "kette": 2,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G4"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [
+     "2D",
+     "3D",
+     "4D"
+    ],
+    "ablage": [
+     "QD",
+     "JC"
+    ],
+    "kette": 3,
+    "punkte": 3,
+    "zuege": 1
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Sieg mit leerem Stapel: Punkte 0",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     [
+      "KC"
+     ]
+    ],
+    "stapel": [],
+    "ablage": [
+     "QD"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G6"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "QD",
+     "KC"
+    ],
+    "kette": 1,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "noch eine Karte übrig: nicht gewonnen, Punkte 0",
+   "start": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [
+      "JC"
+     ],
+     [
+      "2C"
+     ],
+     []
+    ],
+    "stapel": [
+     "2D",
+     "3D"
+    ],
+    "ablage": [
+     "QD"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "G4"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [],
+     [],
+     [],
+     [],
+     [
+      "2C"
+     ],
+     []
+    ],
+    "stapel": [
+     "2D",
+     "3D"
+    ],
+    "ablage": [
+     "QD",
+     "JC"
+    ],
+    "kette": 1,
+    "punkte": 0,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Zähler: jeder erlaubte Zug +1",
+   "start": {
+    "spalten": [
+     [
+      "6H"
+     ],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S"
+    ],
+    "kette": 0,
+    "punkte": 0,
+    "zuege": 41
+   },
+   "zug": {
+    "von": "G0"
+   },
+   "erlaubt": true,
+   "danach": {
+    "spalten": [
+     [],
+     [
+      "9C"
+     ],
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "stapel": [],
+    "ablage": [
+     "5S",
+     "6H"
+    ],
+    "kette": 1,
+    "punkte": 0,
+    "zuege": 42
+   },
+   "gewonnen": false
+  }
+ ]
+}

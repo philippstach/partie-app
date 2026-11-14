@@ -1,0 +1,14 @@
+{
+ "name": "08_strafe_aus",
+ "beschreibung": "Strafe 0: nach 3 Nullrunden keine Punkte weg, die Serie beginnt trotzdem neu.",
+ "rules": {"diceMode": "real", "penalty": 0},
+ "players": ["Anna"],
+ "dice": [],
+ "steps": [
+  {"action": {"type": "noPoints"}},
+  {"action": {"type": "noPoints"}},
+  {"action": {"type": "noPoints"}, "expect": {"players": [{"streak": 0, "score": 0}]}},
+  {"action": {"type": "noPoints"}}
+ ],
+ "expected": {"scores": [0], "current": 0, "players": [{"streak": 1, "mackes": 4}], "log": [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]}
+}

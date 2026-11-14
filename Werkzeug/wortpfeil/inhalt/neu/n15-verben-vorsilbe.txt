@@ -1,0 +1,229 @@
+# n15 Verben mit Vorsilbe, abgeglichen mit dem Bestand
+abbauen;1;Zelt wieder einpacken|Kohle fördern
+abbiegen;1;Die Richtung wechseln|Um die Ecke fahren
+abdecken;1;Tisch leer räumen|Mit einer Plane schützen
+abfahren;1;Losrollen (Zug)|Den Bahnhof verlassen
+abfragen;1;Vokabeln prüfen|Wissen kontrollieren
+abheben;1;Starten (Flugzeug)|Geld vom Konto holen
+abhören;1;Heimlich lauschen|Lunge untersuchen
+abladen;1;Fracht vom Wagen nehmen|Entleeren (Lkw)
+ablaufen;1;Ungültig werden|Verstreichen (Frist)
+ablehnen;1;Nein sagen zu|Zurückweisen
+ablenken;1;Vom Thema wegführen|Zerstreuen
+ablesen;1;Zählerstand notieren|Vom Blatt vortragen
+abmachen;1;Vereinbaren|Entfernen
+abmelden;1;Aus dem Verein austreten|Kündigen
+abnutzen;1;Durch Gebrauch verschleißen|Verbrauchen
+abraten;1;Warnen vor|Empfehlen, es zu lassen
+abreisen;1;Den Urlaubsort verlassen|Heimfahren
+abrufen;1;Daten holen|Nachrichten aufs Handy laden
+absehen;1;Voraussagen können|Verzichten (von etwas …)
+absetzen;1;Hut vom Kopf nehmen|Vom Thron stoßen
+absuchen;1;Gründlich durchforsten|Gelände durchkämmen
+abtasten;1;Mit den Händen prüfen|Fühlend untersuchen
+abwägen;1;Für und Wider prüfen|Sorgfältig überlegen
+abwehren;1;Angriff stoppen|Ball halten
+abwiegen;1;Menge auf der Waage prüfen|Mehl genau bemessen
+abwinken;1;Mit der Hand ablehnen|Rennen beenden (Flagge)
+abziehen;1;Minus rechnen|Truppen heimholen
+anbauen;1;Gemüse pflanzen|Haus erweitern
+anbeten;1;Wie einen Gott verehren|Vergöttern
+anbinden;1;Hund an die Leine legen|Festmachen
+anbraten;1;Kurz in der Pfanne bräunen|Fleisch scharf erhitzen
+anecken;1;Unangenehm auffallen|Anstoß erregen
+anfassen;1;Berühren|Mit der Hand greifen
+anfragen;1;Um Auskunft bitten|Sich erkundigen
+anhaben;1;Kleidung tragen|Am Leib führen
+anheben;1;Ein Stück hochnehmen|Preise erhöhen
+anhören;1;Aufmerksam lauschen|Lied bis zum Ende genießen
+anklagen;1;Vor Gericht beschuldigen|Zur Rechenschaft ziehen
+ankleben;1;Mit Leim befestigen|Plakat anbringen
+anlernen;1;Neuen einarbeiten|Kurz ausbilden
+anlocken;1;Mit Köder herbeiholen|Herbeiziehen
+anlügen;1;Die Unwahrheit sagen|Dreist beschwindeln
+anmalen;1;Mit Farbe bestreichen|Bunt machen
+annähen;1;Knopf befestigen|Mit Nadel und Faden anbringen
+anreden;1;Ansprechen|Mit Namen ansprechen
+anreisen;1;Am Urlaubsort eintreffen|Zum Ziel fahren
+ansagen;1;Programm ankündigen|Durchsage machen
+ansetzen;1;Termin bestimmen|Fett zulegen
+antreten;1;Sich in einer Reihe aufstellen|Stelle beginnen
+anzeigen;1;Bei der Polizei melden|Auf dem Display darstellen
+aufatmen;1;Erleichtert sein|Tief Luft holen
+aufbauen;1;Zelt errichten|Zusammensetzen
+aufessen;1;Teller leeren|Alles verzehren
+aufgehen;1;Am Himmel erscheinen (Sonne)|Sich öffnen (Tür)
+aufhaben;1;Hut tragen|Geöffnet sein (Laden)
+auflegen;1;Telefonat beenden|Platte abspielen
+aufrufen;1;Namen laut nennen|Seite im Netz öffnen
+auftauen;1;Gefrorenes warm werden lassen|Schmelzen
+ausatmen;1;Luft aus der Lunge lassen|Gegenteil von Luft holen
+ausbauen;1;Erweitern|Motor herausnehmen
+ausgeben;1;Geld bezahlen|Runde spendieren
+ausheben;1;Grube schaufeln|Loch graben
+ausladen;1;Kofferraum leeren|Gast wieder abbestellen
+auslegen;1;Geld vorstrecken|Deuten
+auslosen;1;Per Zettel bestimmen|Gewinner ziehen
+ausmalen;1;Bild mit Farbe füllen|Sich lebhaft vorstellen
+ausrufen;1;Laut verkünden|Sieger bekannt geben
+aussagen;1;Vor Gericht berichten|Als Zeuge sprechen
+ausüben;1;Beruf betreiben|Macht gebrauchen
+bedauern;1;Leid tun|Bemitleiden
+bedecken;1;Zudecken|Verhüllen
+bedenken;1;Überlegen|In Betracht ziehen
+bedrohen;1;Mit Gewalt einschüchtern|Angst machen
+beerben;2;Den Nachlass bekommen|Hinterlassenes übernehmen
+befassen;2;Sich beschäftigen mit|Sich widmen
+befinden;1;Sich aufhalten|Urteilen
+befragen;1;Interviewen|Um Auskunft bitten
+begehen;1;Straftat verüben|Fest feiern
+begehren;2;Heftig wünschen|Verlangen
+beheben;1;Fehler beseitigen|Schaden reparieren
+beichten;1;Sünden bekennen|Kleinlaut gestehen
+bejahen;1;Zustimmen|Mit Ja antworten
+bekennen;1;Offen zugeben|Farbe …
+belasten;1;Schwer beladen|Bedrücken
+belügen;1;Die Unwahrheit auftischen|Beschwindeln
+benennen;1;Einen Namen geben|Bezeichnen
+beneiden;1;Missgünstig bewundern|Gern tauschen wollen mit
+benoten;1;Zensuren geben|Arbeit bewerten
+bereisen;1;Land besuchen|Durch die Welt fahren
+beruhen;2;Sich gründen auf|Fußen
+berufen;2;In ein Amt holen|Ernennen
+besorgen;1;Einkaufen|Beschaffen
+beteuern;2;Nachdrücklich versichern|Hoch und heilig sagen
+betreuen;1;Sich kümmern um|Pflegen
+bewahren;1;Schützen vor|Erhalten
+bewerten;1;Urteil abgeben|Noten geben
+bewirken;1;Zur Folge haben|Verursachen
+bewirten;1;Gäste mit Speisen versorgen|Auftischen
+einatmen;1;Luft holen|Sauerstoff aufnehmen
+einbauen;1;Fest installieren|Küche montieren
+eingeben;1;In den Computer tippen|Arznei verabreichen
+eingehen;1;Kleiner werden (Wäsche)|Welken (Pflanze)
+einholen;1;Erreichen und gleichziehen|Segel herunternehmen
+einleben;1;Sich an Neues gewöhnen|Heimisch werden
+einlegen;1;In Essig haltbar machen|Gang wählen
+einreden;1;Etwas glauben machen|Weismachen
+einsehen;1;Fehler erkennen|Begreifen
+entehren;2;Die Würde nehmen|Schänden
+enterben;2;Vom Nachlass ausschließen|Nichts hinterlassen
+entgehen;1;Entkommen|Nicht bemerkt werden
+entladen;1;Fracht herunternehmen|Akku leeren
+entsagen;2;Freiwillig verzichten|Abschwören
+erahnen;2;Undeutlich spüren|Vermuten
+erbauen;1;Errichten|Burg hochziehen
+erbeuten;1;Durch Raub gewinnen|Als Fang machen
+erbitten;2;Höflich verlangen|Um etwas ersuchen
+erdulden;2;Geduldig aushalten|Ertragen
+ereignen;1;Geschehen|Passieren
+erfassen;1;Begreifen|In Listen aufnehmen
+erfreuen;1;Glücklich machen|Vergnügen bereiten
+erhalten;1;Bekommen|Bewahren
+erhellen;2;Licht bringen|Beleuchten
+erhitzen;1;Heiß machen|Zum Kochen bringen
+erhoffen;1;Zuversichtlich erwarten|Sich wünschen
+erhöhen;1;Heraufsetzen|Steigern
+erkalten;1;Die Wärme verlieren|Abkühlen
+erkunden;1;Auskundschaften|Gegend erforschen
+erlassen;1;Gesetz verkünden|Schulden streichen
+erlegen;1;Wild schießen|Auf der Jagd töten
+erleiden;1;Schlimmes durchmachen|Verlust hinnehmen
+erlernen;1;Sich aneignen|Beruf von Grund auf üben
+erliegen;2;Einer Krankheit zum Opfer fallen|Der Versuchung nachgeben
+ermahnen;1;Streng erinnern|Zur Ordnung rufen
+ermüden;1;Schläfrig werden|Kraft verlieren
+ernennen;1;In ein Amt einsetzen|Zum Minister machen
+erneuern;1;Altes ersetzen|Auffrischen
+erproben;1;Testen|Auf die Probe stellen
+erregen;1;In Aufruhr bringen|Aufsehen verursachen
+erringen;2;Mit Mühe gewinnen|Sieg erkämpfen
+ersehnen;2;Heiß herbeiwünschen|Sehnlich erwarten
+ersetzen;1;Austauschen|An die Stelle treten
+ersparen;1;Zurücklegen|Verschonen mit
+erteilen;1;Auskunft geben|Befehl geben
+ertönen;1;Zu hören sein|Laut erklingen
+ertragen;1;Aushalten|Erdulden
+erwägen;2;Prüfend überlegen|In Betracht ziehen
+erwecken;1;Aus dem Schlaf holen|Zum Leben bringen
+erweisen;2;Gefallen tun|Sich herausstellen
+erwerben;1;Kaufen|Durch Arbeit erlangen
+erwidern;1;Antworten|Entgegnen
+erzielen;1;Tor schießen|Erfolg erreichen
+veralten;1;Aus der Mode kommen|Unmodern werden
+verbauen;1;Den Weg versperren|Material verarbeiten
+verdauen;1;Nahrung im Magen verarbeiten|Arbeit des Darms
+vereinen;1;Zusammenführen|Verbinden
+vererben;1;Als Nachlass hinterlassen|An Kinder weitergeben
+vergeben;1;Verzeihen|Auftrag erteilen
+vergehen;1;Verstreichen (Zeit)|Schwinden
+verhexen;1;Mit bösem Zauber belegen|Verzaubern
+verirren;1;Vom Weg abkommen|Sich im Wald verlaufen
+verjagen;1;Fortscheuchen|In die Flucht schlagen
+verladen;1;Auf den Waggon packen|Fracht umschlagen
+verloben;1;Die Ehe versprechen|Ringe vor der Hochzeit tauschen
+verlosen;1;Als Gewinn ausspielen|Per Tombola vergeben
+vermuten;1;Annehmen|Für wahrscheinlich halten
+verraten;1;Geheimnis ausplaudern|Treue brechen
+versagen;1;Scheitern|Nicht funktionieren
+vertagen;1;Auf später verschieben|Sitzung unterbrechen
+vertonen;2;Text mit Musik unterlegen|Gedicht zum Lied machen
+verüben;2;Straftat begehen|Anschlag ausführen
+verzagen;2;Den Mut verlieren|Aufgeben
+vorgeben;1;So tun als ob|Behaupten
+vorgehen;1;Zu schnell laufen (Uhr)|Wichtiger sein
+vorhaben;1;Planen|Beabsichtigen
+vorladen;2;Vor Gericht bestellen|Zum Verhör rufen
+vorlegen;1;Ausweis zeigen|Zur Prüfung einreichen
+vorsagen;1;Dem Nachbarn zuflüstern|Lösung einflüstern
+vorsehen;1;Sich in Acht nehmen|Einplanen
+zergehen;1;Schmelzen (auf der Zunge)|Sich auflösen
+zerkauen;1;Mit den Zähnen zermahlen|Gründlich beißen
+zerlegen;1;In Teile auseinandernehmen|Braten tranchieren
+zubinden;1;Mit Schnur schließen|Sack verschnüren
+zudecken;1;Mit der Bettdecke wärmen|Verhüllen
+zudrehen;1;Hahn schließen|Verschluss festziehen
+zufügen;1;Schaden antun|Dazugeben
+zugeben;1;Gestehen|Einräumen
+zuhalten;1;Mit der Hand verschließen|Ohren bedecken
+zujubeln;1;Begeistert feiern|Dem Star applaudieren
+zukleben;1;Brief verschließen|Mit Klebstoff schließen
+zulassen;1;Erlauben|Auto anmelden
+zunähen;1;Loch mit Faden schließen|Riss flicken
+zunehmen;1;Dicker werden|Wachsen (Mond)
+zunicken;1;Mit dem Kopf grüßen|Freundlich den Kopf neigen
+zuordnen;1;An den richtigen Platz stellen|Einteilen
+zupacken;1;Kräftig helfen|Fest greifen
+zuraten;1;Empfehlen|Ermutigen, es zu tun
+zurufen;1;Laut hinüberschreien|Aus der Ferne ansprechen
+zusagen;1;Die Einladung annehmen|Gefallen
+zusenden;1;Per Post schicken|Übermitteln
+zustehen;1;Rechtmäßig gebühren|Anspruch sein
+zuteilen;1;Portionen vergeben|Jedem das Seine geben
+zutrauen;1;Für fähig halten|Glauben, dass jemand es kann
+zuwinken;1;Mit der Hand grüßen|Zum Abschied die Hand heben
+umbauen;1;Haus verändern|Bühne neu einrichten
+umbinden;1;Schal anlegen|Schürze befestigen
+umdrehen;1;Wenden|Auf die andere Seite legen
+umfallen;1;Zu Boden kippen|Umstürzen
+umfassen;1;Mit den Armen umschließen|Enthalten
+umformen;1;Anders gestalten|Gleichung verändern
+umgeben;1;Rings einschließen|Umringen
+umgehen;1;Einen Bogen machen um|Als Gespenst spuken
+umgraben;1;Beet mit dem Spaten wenden|Erde lockern
+umkehren;1;Zurückgehen|Kehrtmachen
+umkippen;1;Zur Seite fallen|Ohnmächtig werden (ugs.)
+umladen;1;Fracht auf anderen Wagen packen|Ware umschlagen
+umleiten;1;Verkehr anders führen|Auf andere Strecke lenken
+umlernen;1;Neue Methode einüben|Sich umgewöhnen
+umrahmen;1;Bild einfassen|Feier mit Musik begleiten
+umsehen;1;Den Kopf wenden|Nach etwas suchen
+umsetzen;1;Plan verwirklichen|An anderen Platz bringen
+umsorgen;1;Liebevoll pflegen|Betreuen
+umwerfen;1;Zu Fall bringen|Stark beeindrucken
+mitgehen;1;Begleiten|Sich anschließen
+mitreden;1;An der Diskussion teilnehmen|Seine Meinung einbringen
+weggehen;1;Sich entfernen|Den Ort verlassen
+losgehen;1;Aufbrechen|Beginnen
+hergeben;1;Abtreten|Verschenken
+hinlegen;1;Zum Schlafen betten|Ablegen

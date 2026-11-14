@@ -1,0 +1,180 @@
+{
+  "beschreibung": "Wortauswahl gegen Shared/woerter/<sprache>.json (Listenreihenfolge zählt!). Nach jeder Ziehung kommt die Lösung ans Ende von 'zuletzt' (max. zuletzt_max). kategorie/stufe null = alle.",
+  "listen_version": 1,
+  "zuletzt_max": 200,
+  "faelle": [
+    {
+      "name": "Alle Wörter",
+      "sprache": "de",
+      "kategorie": null,
+      "stufe": null,
+      "seed": 1,
+      "zuletzt": [],
+      "erwartet": [
+        "WURST",
+        "HUPE",
+        "SENF",
+        "HAARBÜRSTE",
+        "HAFERBREI",
+        "SCHAF"
+      ]
+    },
+    {
+      "name": "Kategorie Tiere",
+      "sprache": "de",
+      "kategorie": "animals",
+      "stufe": null,
+      "seed": 42,
+      "zuletzt": [],
+      "erwartet": [
+        "PINGUIN",
+        "ERDMÄNNCHEN",
+        "WAL",
+        "PONY",
+        "MAUS",
+        "ADLER"
+      ]
+    },
+    {
+      "name": "Stufe Leicht",
+      "sprache": "de",
+      "kategorie": null,
+      "stufe": 1,
+      "seed": 7,
+      "zuletzt": [],
+      "erwartet": [
+        "SCHAFFNER",
+        "AMEISE",
+        "LASAGNE",
+        "STERN",
+        "MONACO",
+        "SEILBAHN"
+      ]
+    },
+    {
+      "name": "Tiere, Schwer",
+      "sprache": "de",
+      "kategorie": "animals",
+      "stufe": 3,
+      "seed": 3,
+      "zuletzt": [],
+      "erwartet": [
+        "MÖWE",
+        "WAL",
+        "PFERD",
+        "EICHHÖRNCHEN"
+      ]
+    },
+    {
+      "name": "Zuletzt gespielte werden übersprungen",
+      "sprache": "de",
+      "kategorie": "animals",
+      "stufe": 1,
+      "seed": 5,
+      "zuletzt": [
+        "HUND",
+        "MAUS",
+        "SCHMETTERLING",
+        "IGEL",
+        "HASE",
+        "EULE",
+        "NASHORN",
+        "TIGER",
+        "SCHWEIN",
+        "HUHN",
+        "ENTE",
+        "GANS",
+        "ESEL",
+        "HAMSTER",
+        "FLAMINGO",
+        "STORCH",
+        "ADLER",
+        "HAI",
+        "SEEHUND",
+        "DACHS",
+        "REH",
+        "HIRSCH",
+        "ELCH",
+        "GORILLA",
+        "AMEISE",
+        "HUMMEL",
+        "GOLDFISCH",
+        "TINTENFISCH",
+        "MEERSCHWEINCHEN",
+        "WELLENSITTICH",
+        "UHU",
+        "FAULTIER"
+      ],
+      "erwartet": [
+        "DINOSAURIER",
+        "HUMMER",
+        "NASHORN"
+      ]
+    },
+    {
+      "name": "Alle schon gespielt: die ältere Hälfte ist wieder erlaubt",
+      "sprache": "de",
+      "kategorie": "music",
+      "stufe": 1,
+      "seed": 9,
+      "zuletzt": [
+        "GITARRE",
+        "TROMMEL",
+        "GEIGE",
+        "ORGEL",
+        "MUNDHARMONIKA",
+        "TRIANGEL",
+        "MELODIE",
+        "ORCHESTER",
+        "LIED",
+        "TAMBURIN",
+        "RASSEL",
+        "MANDOLINE",
+        "DIRIGENT",
+        "NOTENBLATT",
+        "MUSICAL",
+        "SCHLAGER",
+        "GESANG",
+        "STIMMGABEL",
+        "METRONOM",
+        "WIEGENLIED"
+      ],
+      "erwartet": [
+        "LIED",
+        "MELODIE",
+        "RASSEL",
+        "MUNDHARMONIKA"
+      ]
+    },
+    {
+      "name": "Englisch, Länder",
+      "sprache": "en",
+      "kategorie": "countries",
+      "stufe": null,
+      "seed": 2026,
+      "zuletzt": [],
+      "erwartet": [
+        "AUSTRIA",
+        "SINGAPORE",
+        "FRANCE",
+        "LITHUANIA",
+        "SOUTH AFRICA"
+      ]
+    },
+    {
+      "name": "Englisch, Stufe Mittel",
+      "sprache": "en",
+      "kategorie": null,
+      "stufe": 2,
+      "seed": 99,
+      "zuletzt": [],
+      "erwartet": [
+        "PHILIPPINES",
+        "COFFEE",
+        "GLOCKENSPIEL",
+        "WARDROBE",
+        "LOBSTER"
+      ]
+    }
+  ]
+}

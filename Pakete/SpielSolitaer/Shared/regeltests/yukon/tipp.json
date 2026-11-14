@@ -1,0 +1,1100 @@
+{
+ "beschreibung": "hint(start) oder null; festgefahren = nicht gewonnen und kein sinnvoller Zug (siehe SPEZIFIKATION-YUKON „Festgefahren“).",
+ "faelle": [
+  {
+   "titel": "1: aufdecken, kürzeste Gruppe zuerst",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [
+       "4D"
+      ],
+      "offen": [
+       "9C",
+       "2H",
+       "8S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [
+       "7C"
+      ],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TD"
+      ]
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S4",
+    "nach": "S5",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: gleich kurze Gruppen: linke Spalte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "4D"
+      ],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [
+       "7C"
+      ],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S3",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: einzelne Karte, die aufdeckt, aufs Ziel",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "9D"
+      ],
+      "offen": [
+       "AH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: Aufdecken vor sicherer Karte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "AS"
+      ]
+     },
+     {
+      "verdeckt": [
+       "4D"
+      ],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TD"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S1",
+    "nach": "S2",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: Ziel ist die erste passende Spalte von links",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [
+       "7C"
+      ],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S1",
+    "nach": "S2",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "1: König samt Gruppe in leere Spalte, deckt auf",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "4D"
+      ],
+      "offen": [
+       "KS",
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "2: sichere Karte aufs Ziel",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C",
+       "AS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "5D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "Z0",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "3: König weiter oben in Spalte mit verdeckten → leere Spalte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [
+       "4D"
+      ],
+      "offen": [
+       "9C",
+       "KS",
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "3: nicht, wenn die Spalte keine verdeckten hat",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C",
+       "KS",
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  },
+  {
+   "titel": "4: nicht sichere Karte aufs Ziel",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C",
+       "3H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "5D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     1,
+     2,
+     0,
+     1
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "Z1",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "5: Karte von nicht passender Unterlage auf passende Karte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C",
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "5: unterste nicht passende Karte zuerst, samt Gruppe",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C",
+       "5H",
+       "2D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "3C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "5: nie in eine leere Spalte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C",
+       "KH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  },
+  {
+   "titel": "6: Spalte leeren, damit ein König mit verdeckten darunter Platz findet",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [
+       "8D"
+      ],
+      "offen": [
+       "9C",
+       "KS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "3C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "4D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "JC"
+      ]
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S2",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "6: nicht ohne König mit verdeckten darunter",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9C",
+       "KS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "2D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "3C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "4D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "JC"
+      ]
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  },
+  {
+   "titel": "festgefahren: nur Tausch zwischen gleichwertigen Unterlagen",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S",
+       "5H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "6C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "festgefahren: nur Ziel → Spalte ginge",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "6S"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "9H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     5,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "festgefahren: König allein unten könnte nur in andere leere Spalte",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KH",
+       "QS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "nicht festgefahren: Tausch macht eine Karte fürs Ziel frei",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "9D",
+       "3H",
+       "2C"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "3D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     0,
+     2,
+     0,
+     0
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  },
+  {
+   "titel": "gewonnen: kein Tipp, nicht festgefahren",
+   "start": {
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "punkte": 0,
+    "zuege": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  }
+ ]
+}

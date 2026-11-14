@@ -1,0 +1,1891 @@
+{
+ "beschreibung": "Ein Zug auf einen Zustand. erlaubt=false → Zustand bleibt unverändert. Jeder erlaubte Zug zählt 1 bei zuege. Zustände in Tests müssen nicht alle 52 Karten enthalten.",
+ "faelle": [
+  {
+   "titel": "König in Reihe 6 verschwindet allein",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "5D",
+     null,
+     null,
+     null,
+     null,
+     null,
+     "KS",
+     "3C",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P21"
+    ]
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "5D",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "3C",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "König, aber verdeckt: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "KS",
+     null,
+     null,
+     null,
+     null,
+     null,
+     "2C",
+     "3C",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P15"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "König oben auf der Ablage verschwindet",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "2C",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "5H",
+     "KD"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "A"
+    ]
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "2C",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "5H"
+    ],
+    "durchgang": 1,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "unter der obersten Ablagekarte liegt ein König: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "2C",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "KD",
+     "5H"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "A"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "einzelne Karte, kein König: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "QH",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P21"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Paar 8 + 5 aus zwei freien Karten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "9C",
+     null,
+     null,
+     null,
+     null,
+     null,
+     "8H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     "5S"
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P21",
+     "P27"
+    ]
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "9C",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Reihenfolge im Feld egal",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "9C",
+     null,
+     null,
+     null,
+     null,
+     null,
+     "8H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     "5S"
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P27",
+     "P21"
+    ]
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "9C",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Summe 12: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "7H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     "5S"
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P21",
+     "P27"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "zwei Könige zusammen: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "KH",
+     null,
+     null,
+     null,
+     null,
+     null,
+     "KS"
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P21",
+     "P27"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Ass + Dame",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "AS",
+     "QH",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P21",
+     "P22"
+    ]
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 1
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Bube + Zwei",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "JC",
+     "2D",
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P23",
+     "P24"
+    ]
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 1
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Partner noch verdeckt: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "5S",
+     null,
+     null,
+     null,
+     null,
+     null,
+     "8H",
+     "3C",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P15",
+     "P21"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "nur eine Karte darunter weg: noch nicht frei, verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "5S",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "3C",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "8D"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P15",
+     "A"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "beide Karten darunter weg: frei",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "5S",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "3C"
+    ],
+    "stapel": [],
+    "ablage": [
+     "8D"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P15",
+     "A"
+    ]
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "3C"
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Paar Pyramide + oberste Ablagekarte",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "2C",
+     "7S"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P21",
+     "A"
+    ]
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "2C"
+    ],
+    "durchgang": 1,
+    "zuege": 1
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Ablage zuerst genannt: auch erlaubt",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "7S"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "A",
+     "P21"
+    ]
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 1
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "nur die oberste Ablagekarte zählt: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "7S",
+     "2C"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P21",
+     "A"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "zweimal derselbe Ort: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     "7H",
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P21",
+     "P21"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "drei Orte: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "AS",
+     "QH",
+     "KD",
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P21",
+     "P22",
+     "P23"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "leerer Platz: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "8H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P20",
+     "P21"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Ablage leer: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "KH",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "A"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "unbekannter Ort P28: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "KH",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P28"
+    ]
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Stapel: oberste Karte offen auf die Ablage",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "2C",
+     "9D"
+    ],
+    "ablage": [
+     "4S"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "stapel"
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "2C"
+    ],
+    "ablage": [
+     "4S",
+     "9D"
+    ],
+    "durchgang": 1,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Stapel leer, Durchgang 1: Ablage umgedreht wird Stapel, Durchgang 2",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "2C",
+     "9D",
+     "4S"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "stapel"
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "4S",
+     "9D",
+     "2C"
+    ],
+    "ablage": [],
+    "durchgang": 2,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Stapel leer, Durchgang 2: letztes Umdrehen, Durchgang 3",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "2C",
+     "9D"
+    ],
+    "durchgang": 2,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "stapel"
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "9D",
+     "2C"
+    ],
+    "ablage": [],
+    "durchgang": 3,
+    "zuege": 1
+   },
+   "gewonnen": false
+  },
+  {
+   "titel": "Stapel leer, Durchgang 3: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [
+     "2C",
+     "9D"
+    ],
+    "durchgang": 3,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "stapel"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "Stapel und Ablage leer: verboten",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "6H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "von": "stapel"
+   },
+   "erlaubt": false
+  },
+  {
+   "titel": "letztes Paar räumt die Pyramide: gewonnen",
+   "start": {
+    "pyramide": [
+     "6S",
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "3D"
+    ],
+    "ablage": [
+     "7H"
+    ],
+    "durchgang": 1,
+    "zuege": 0
+   },
+   "zug": {
+    "paar": [
+     "P0",
+     "A"
+    ]
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [
+     "3D"
+    ],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 1
+   },
+   "gewonnen": true
+  },
+  {
+   "titel": "Zähler: jeder erlaubte Zug +1",
+   "start": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     "8H",
+     null,
+     null,
+     null,
+     null,
+     null,
+     "5S"
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 41
+   },
+   "zug": {
+    "paar": [
+     "P21",
+     "P27"
+    ]
+   },
+   "erlaubt": true,
+   "danach": {
+    "pyramide": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "stapel": [],
+    "ablage": [],
+    "durchgang": 1,
+    "zuege": 42
+   },
+   "gewonnen": true
+  }
+ ]
+}

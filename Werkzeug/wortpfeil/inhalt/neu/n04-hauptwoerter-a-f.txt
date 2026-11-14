@@ -1,0 +1,161 @@
+# n04 Hauptwörter des Alltags A–F
+Abbau;2;Demontage|Förderung von Kohle
+Abbild;2;Getreue Wiedergabe|Ebenbild
+Abfall;1;Müll|Kommt in die Tonne
+Abflug;1;Start am Flughafen|Start des Fliegers
+Abfluss;1;Loch im Waschbecken|Wasserablauf
+Abgrund;1;Tiefe Schlucht|Gähnende Tiefe
+Abhang;1;Schräge am Berg|Böschung
+Abitur;1;Abschluss am Gymnasium|Reifeprüfung
+Ablauf;1;Reihenfolge der Schritte|Verlauf
+Abreise;1;Aufbruch vom Urlaubsort|Ende des Urlaubs
+Absage;1;Ablehnende Antwort|Gegenteil von Zusage
+Absicht;1;Vorsatz|Plan, Wille
+Abstand;1;Entfernung zwischen zweien|Distanz
+Absturz;1;Fall aus großer Höhe|Fall in die Tiefe
+Abwasch;1;Geschirrspülen|Schmutziges Geschirr
+Abzug;1;Hebel an der Pistole|Dunsthaube
+Achtung;1;Warnruf|Respekt
+Adresse;1;Straße, Hausnummer und Ort|Anschrift
+Affäre;2;Skandal|Heimliche Liebschaft
+Ahnung;1;Vages Vorgefühl|Vermutung
+Akzent;2;Fremder Tonfall|Betonungszeichen
+Alarm;1;Warnsignal|Sirenenruf
+Alltag;1;Gewohnter Tagesablauf|Gegenteil von Feiertag
+Altbau;1;Haus aus früherer Zeit|Gegenteil von Neubau
+Analyse;2;Genaue Untersuchung|Zerlegung in Teile
+Anbau;1;Erweiterung am Haus|Ackerbau
+Anblick;1;Was man vor Augen hat|Bild, das sich bietet
+Andrang;1;Gedränge|Großer Zulauf
+Anfang;1;Beginn|Gegenteil von Ende
+Anfrage;1;Bitte um Auskunft|Erkundigung
+Angabe;1;Auskunft|Aufschlag im Tennis
+Angriff;1;Attacke|Offensive
+Anhang;1;Datei an der E-Mail|Nachtrag im Buch
+Anlage;1;Park|Geld auf der Bank
+Anlass;1;Grund|Gelegenheit zum Feiern
+Anlauf;1;Schwung vor dem Sprung|Versuch
+Anmut;2;Liebreiz|Grazie
+Annahme;1;Vermutung|Entgegennahme
+Anruf;1;Telefonat|Klingeln am Telefon
+Ansage;1;Durchsage|Mitteilung am Bahnsteig
+Ansicht;1;Meinung|Blick auf etwas
+Anstand;1;Gutes Benehmen|Schicklichkeit
+Anteil;1;Stück vom Ganzen|Portion
+Antwort;1;Erwiderung|Folgt auf die Frage
+Anzahl;1;Menge|Stückzahl
+Anzeige;1;Inserat|Meldung bei der Polizei
+Appell;2;Aufruf|Antreten zum Zählen
+Ärger;1;Verdruss|Zorn
+Artikel;1;Zeitungsbeitrag|Der, die oder das
+Aspekt;2;Gesichtspunkt|Blickwinkel
+Attacke;2;Angriff|Plötzlicher Anfall
+Aufgabe;1;Was erledigt werden muss|Pflicht
+Auflage;1;Zahl gedruckter Bücher|Polster auf der Liege
+Aufruf;1;Appell|Öffentliche Bitte
+Aufsatz;1;Schriftliche Schularbeit|Erörterung
+Aufstieg;1;Weg zum Gipfel|Wechsel in die höhere Liga
+Auftrag;1;Bestellung|Order
+Auftritt;1;Erscheinen auf der Bühne|Szene
+Aufwand;1;Mühe und Kosten|Einsatz
+Ausbau;1;Erweiterung|Vergrößerung
+Ausblick;1;Weite Sicht|Panorama
+Ausdruck;1;Miene|Gedrucktes Blatt
+Ausflug;1;Kurze Reise|Wandertag
+Ausgabe;1;Geld, das man zahlt|Nummer einer Zeitung
+Ausgang;1;Tür nach draußen|Gegenteil von Eingang
+Auskunft;1;Information|Schalter am Bahnhof
+Ausland;1;Fremde Länder|Gegenteil von Inland
+Ausnahme;1;Sonderfall|Bestätigt die Regel
+Ausrede;1;Vorgeschobener Grund|Flunkerei
+Aussage;1;Worte vor Gericht|Feststellung
+Aussicht;1;Blick in die Ferne|Chance
+Ausweg;1;Rettende Lösung|Hintertür
+Ausweis;1;Dokument mit Passbild|Legitimation
+Auswahl;1;Angebot im Laden|Kader (Sport)
+Auszug;1;Verlassen der Wohnung|Abschnitt
+Bammel;2;Angst (ugs.)|Muffensausen
+Bande;1;Gruppe von Räubern|Rand des Eisfeldes
+Bedarf;1;Was gebraucht wird|Nachfrage
+Befehl;1;Kommando|Anordnung
+Beginn;1;Anfang|Start
+Begriff;1;Wort für eine Sache|Idee
+Beifall;1;Applaus|Händeklatschen
+Beitrag;1;Zahlung an den Verein|Artikel
+Bekannte;1;Keine Fremde|Frau, die man kennt
+Beleg;1;Quittung|Nachweis
+Bericht;1;Schilderung|Reportage
+Besitz;1;Eigentum|Hab und Gut
+Besuch;1;Gäste im Haus|Visite
+Betrag;1;Summe Geldes|Summe
+Betrug;1;Schwindel|Täuschung
+Beute;1;Fang des Räubers|Was der Jäger erlegt
+Bezirk;1;Teil einer Stadt|Gebiet
+Bitte;1;Höflicher Wunsch|Wort der Höflichkeit
+Blamage;2;Peinliche Niederlage|Schmach
+Blödsinn;1;Unsinn|Quatsch
+Brauch;1;Alte Sitte|Tradition
+Bummel;1;Gemütlicher Stadtspaziergang|Spaziergang
+Chance;1;Günstige Gelegenheit|Möglichkeit
+Chaos;1;Völliges Durcheinander|Unordnung
+Charme;2;Bezauberndes Wesen|Liebreiz
+Clique;2;Freundeskreis|Gruppe von Freunden
+Dank;1;Anerkennung für Hilfe|Lohn der guten Tat
+Dauer;1;Zeitspanne|Länge einer Frist
+Debatte;2;Streitgespräch|Diskussion im Parlament
+Defekt;2;Schaden am Gerät|Fehler
+Detail;2;Einzelheit|Kleinigkeit
+Dialekt;2;Mundart|Bairisch oder Platt
+Dialog;2;Zwiegespräch|Gespräch zu zweit
+Dieb;1;Langfinger|Stiehlt
+Dienst;1;Arbeit im Amt|Schicht
+Ding;1;Sache|Gegenstand
+Distanz;2;Abstand|Entfernung
+Drang;1;Starker innerer Antrieb|Verlangen
+Dreck;1;Schmutz|Matsch
+Drittel;1;Teil von drei gleichen|Abschnitt im Eishockey
+Duell;2;Zweikampf|Kampf Mann gegen Mann
+Dummheit;1;Törichte Tat|Mangel an Verstand
+Dunkel;1;Finsternis|Gegenteil von Licht
+Effekt;2;Wirkung|Ergebnis
+Eifer;1;Fleiß|Emsiges Streben
+Eigentum;1;Besitz|Was einem gehört
+Eindruck;1;Wirkung auf andere|Bild, das bleibt
+Einfall;1;Idee|Geistesblitz
+Eingang;1;Tür ins Haus|Gegenteil von Ausgang
+Einkauf;1;Besorgung im Supermarkt|Shopping
+Einlass;1;Zutritt|Öffnung der Türen
+Eintritt;1;Preis fürs Museum|Zutritt
+Einwand;2;Gegenargument|Widerspruch
+Einzug;1;Bezug der neuen Wohnung|Feierliches Hereinkommen
+Eltern;1;Vater und Mutter|Mama und Papa
+Empfang;1;Rezeption im Hotel|Begrüßung
+Ende;1;Schluss|Finale
+Enkel;1;Kind des Kindes|Sohn des Sohnes
+Erfolg;1;Gelingen|Triumph
+Ereignis;1;Besonderes Geschehen|Vorfall
+Ergebnis;1;Resultat|Was herauskommt
+Erlaubnis;1;Genehmigung|Okay der Eltern
+Ersatz;1;Austausch für Kaputtes|Reserve
+Fall;1;Sturz|Sache für den Detektiv
+Falle;1;Gerät zum Mäusefangen|Hinterhalt
+Familie;1;Eltern und Kinder|Sippe
+Fazit;2;Schlussfolgerung|Ergebnis am Ende
+Fehler;1;Irrtum|Roter Strich im Diktat
+Ferien;1;Schulfreie Zeit|Urlaub der Schüler
+Fest;1;Feier|Party
+Fleiß;1;Eifer bei der Arbeit|Tugend der Biene
+Flirt;1;Kleines Liebesspiel|Tändelei
+Flop;2;Misserfolg|Reinfall
+Flucht;1;Davonlaufen|Entkommen
+Folge;1;Teil einer Serie|Konsequenz
+Form;1;Gestalt|Kuchen backt man darin
+Foto;1;Lichtbild|Schnappschuss
+Frage;1;Verlangt eine Antwort|Gegenstück zur Antwort
+Frau;1;Weiblicher Erwachsener|Gattin
+Freude;1;Glücksgefühl|Gegenteil von Trauer
+Freund;1;Kumpel|Kamerad
+Frist;1;Zeit bis zum Termin|Zeitlimit
+Frust;1;Enttäuschung (ugs.)|Verdruss
+Fund;1;Entdeckte Sache|Was man entdeckt hat
+Furcht;1;Angst|Bangen

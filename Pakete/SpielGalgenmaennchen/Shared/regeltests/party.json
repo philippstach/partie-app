@@ -1,0 +1,364 @@
+{
+  "beschreibung": "Party-Modus: Rollen je Runde, Punkte je Runde, ganze Partie, Rangliste. Rater-Sieg = sieg_sockel + übrige Ballons − Hinweise (min. 1). Scheitert der Rater an einem eigenen Wort, bekommt der Wortgeber wortgeber_punkte.",
+  "sieg_sockel": 2,
+  "wortgeber_punkte": 3,
+  "rollen": [
+    {
+      "spieler": 2,
+      "eigene_woerter": true,
+      "runden": [
+        {
+          "rater": 0,
+          "wortgeber": 1
+        },
+        {
+          "rater": 1,
+          "wortgeber": 0
+        },
+        {
+          "rater": 0,
+          "wortgeber": 1
+        },
+        {
+          "rater": 1,
+          "wortgeber": 0
+        }
+      ]
+    },
+    {
+      "spieler": 2,
+      "eigene_woerter": false,
+      "runden": [
+        {
+          "rater": 0,
+          "wortgeber": null
+        },
+        {
+          "rater": 1,
+          "wortgeber": null
+        },
+        {
+          "rater": 0,
+          "wortgeber": null
+        },
+        {
+          "rater": 1,
+          "wortgeber": null
+        }
+      ]
+    },
+    {
+      "spieler": 3,
+      "eigene_woerter": true,
+      "runden": [
+        {
+          "rater": 0,
+          "wortgeber": 1
+        },
+        {
+          "rater": 1,
+          "wortgeber": 2
+        },
+        {
+          "rater": 2,
+          "wortgeber": 0
+        },
+        {
+          "rater": 0,
+          "wortgeber": 1
+        },
+        {
+          "rater": 1,
+          "wortgeber": 2
+        },
+        {
+          "rater": 2,
+          "wortgeber": 0
+        }
+      ]
+    },
+    {
+      "spieler": 3,
+      "eigene_woerter": false,
+      "runden": [
+        {
+          "rater": 0,
+          "wortgeber": null
+        },
+        {
+          "rater": 1,
+          "wortgeber": null
+        },
+        {
+          "rater": 2,
+          "wortgeber": null
+        },
+        {
+          "rater": 0,
+          "wortgeber": null
+        },
+        {
+          "rater": 1,
+          "wortgeber": null
+        },
+        {
+          "rater": 2,
+          "wortgeber": null
+        }
+      ]
+    },
+    {
+      "spieler": 4,
+      "eigene_woerter": true,
+      "runden": [
+        {
+          "rater": 0,
+          "wortgeber": 1
+        },
+        {
+          "rater": 1,
+          "wortgeber": 2
+        },
+        {
+          "rater": 2,
+          "wortgeber": 3
+        },
+        {
+          "rater": 3,
+          "wortgeber": 0
+        },
+        {
+          "rater": 0,
+          "wortgeber": 1
+        },
+        {
+          "rater": 1,
+          "wortgeber": 2
+        },
+        {
+          "rater": 2,
+          "wortgeber": 3
+        },
+        {
+          "rater": 3,
+          "wortgeber": 0
+        }
+      ]
+    },
+    {
+      "spieler": 4,
+      "eigene_woerter": false,
+      "runden": [
+        {
+          "rater": 0,
+          "wortgeber": null
+        },
+        {
+          "rater": 1,
+          "wortgeber": null
+        },
+        {
+          "rater": 2,
+          "wortgeber": null
+        },
+        {
+          "rater": 3,
+          "wortgeber": null
+        },
+        {
+          "rater": 0,
+          "wortgeber": null
+        },
+        {
+          "rater": 1,
+          "wortgeber": null
+        },
+        {
+          "rater": 2,
+          "wortgeber": null
+        },
+        {
+          "rater": 3,
+          "wortgeber": null
+        }
+      ]
+    }
+  ],
+  "punkte": [
+    {
+      "gewonnen": true,
+      "fehler": 0,
+      "hinweise": 0,
+      "punkte": 10
+    },
+    {
+      "gewonnen": true,
+      "fehler": 3,
+      "hinweise": 0,
+      "punkte": 7
+    },
+    {
+      "gewonnen": true,
+      "fehler": 7,
+      "hinweise": 0,
+      "punkte": 3
+    },
+    {
+      "gewonnen": true,
+      "fehler": 7,
+      "hinweise": 2,
+      "punkte": 1
+    },
+    {
+      "gewonnen": true,
+      "fehler": 2,
+      "hinweise": 2,
+      "punkte": 6
+    },
+    {
+      "gewonnen": false,
+      "fehler": 8,
+      "hinweise": 0,
+      "punkte": 0
+    },
+    {
+      "gewonnen": false,
+      "fehler": 8,
+      "hinweise": 2,
+      "punkte": 0
+    }
+  ],
+  "partie": {
+    "spieler": 3,
+    "eigene_woerter": true,
+    "runden": [
+      {
+        "gewonnen": true,
+        "fehler": 2,
+        "hinweise": 0,
+        "stand": [
+          8,
+          0,
+          0
+        ]
+      },
+      {
+        "gewonnen": false,
+        "fehler": 8,
+        "hinweise": 1,
+        "stand": [
+          8,
+          0,
+          3
+        ]
+      },
+      {
+        "gewonnen": true,
+        "fehler": 0,
+        "hinweise": 0,
+        "stand": [
+          8,
+          0,
+          13
+        ]
+      },
+      {
+        "gewonnen": true,
+        "fehler": 5,
+        "hinweise": 1,
+        "stand": [
+          12,
+          0,
+          13
+        ]
+      },
+      {
+        "gewonnen": false,
+        "fehler": 8,
+        "hinweise": 0,
+        "stand": [
+          12,
+          0,
+          16
+        ]
+      },
+      {
+        "gewonnen": true,
+        "fehler": 1,
+        "hinweise": 2,
+        "stand": [
+          12,
+          0,
+          23
+        ]
+      }
+    ],
+    "rangliste": [
+      2,
+      3,
+      1
+    ]
+  },
+  "ranglisten": [
+    {
+      "punkte": [
+        10,
+        4
+      ],
+      "plaetze": [
+        1,
+        2
+      ]
+    },
+    {
+      "punkte": [
+        7,
+        7,
+        3
+      ],
+      "plaetze": [
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "punkte": [
+        5,
+        9,
+        9,
+        1
+      ],
+      "plaetze": [
+        3,
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "punkte": [
+        0,
+        0
+      ],
+      "plaetze": [
+        1,
+        1
+      ]
+    },
+    {
+      "punkte": [
+        3,
+        8,
+        3,
+        8
+      ],
+      "plaetze": [
+        3,
+        1,
+        3,
+        1
+      ]
+    }
+  ]
+}

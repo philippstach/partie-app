@@ -1,0 +1,598 @@
+{
+ "beschreibung": "hint(start) oder null; festgefahren = is_stuck(start).",
+ "faelle": [
+  {
+   "titel": "1: aufs Ziel, Ablage zuerst",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "AH"
+    ],
+    "faecher": 1,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "AS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "tipp": {
+    "von": "A",
+    "nach": "Z1",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "2: Reihe deckt verdeckte Karte auf, meiste verdeckte zuerst",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [
+       "2C"
+      ],
+      "offen": [
+       "9D"
+      ]
+     },
+     {
+      "verdeckt": [
+       "3D",
+       "4D",
+       "5D"
+      ],
+      "offen": [
+       "9H"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "tipp": {
+    "von": "S1",
+    "nach": "S2",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "2: König-Reihe in leere Spalte, wenn darunter verdeckt",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [
+       "2C"
+      ],
+      "offen": [
+       "KH",
+       "QS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 2
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "3: Ablage in Spalte",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [
+     "TH"
+    ],
+    "faecher": 1,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QH",
+       "JS"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "tipp": {
+    "von": "A",
+    "nach": "S0",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "4: Teilreihe weg, damit Karte aufs Ziel kann",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     2,
+     1,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [
+       "AC",
+       "2H"
+      ],
+      "offen": [
+       "3S",
+       "9D"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": [
+       "TC"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "tipp": {
+    "von": "S0",
+    "nach": "S1",
+    "anzahl": 1
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "5: Stapel tippen hilft",
+   "start": {
+    "ziehen": 1,
+    "stapel": [
+     "JC",
+     "4D"
+    ],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "tipp": {
+    "von": "stapel"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "5: Stapel hilft nicht → festgefahren",
+   "start": {
+    "ziehen": 1,
+    "stapel": [
+     "4D",
+     "6C"
+    ],
+    "ablage": [
+     "9C"
+    ],
+    "faecher": 1,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "3 Karten: spielbare Karte nie oben → festgefahren",
+   "start": {
+    "ziehen": 3,
+    "stapel": [
+     "4D",
+     "6S",
+     "JC",
+     "8C",
+     "2S",
+     "3S"
+    ],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "tipp": null,
+   "festgefahren": true
+  },
+  {
+   "titel": "3 Karten: Karte kommt nach Umdrehen oben",
+   "start": {
+    "ziehen": 3,
+    "stapel": [],
+    "ablage": [
+     "6S",
+     "3S",
+     "JC",
+     "8C"
+    ],
+    "faecher": 3,
+    "ziel": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": [
+       "KS",
+       "QH"
+      ]
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "tipp": {
+    "von": "stapel"
+   },
+   "festgefahren": false
+  },
+  {
+   "titel": "gewonnen: kein Tipp",
+   "start": {
+    "ziehen": 1,
+    "stapel": [],
+    "ablage": [],
+    "faecher": 0,
+    "ziel": [
+     13,
+     13,
+     13,
+     13
+    ],
+    "spalten": [
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     },
+     {
+      "verdeckt": [],
+      "offen": []
+     }
+    ],
+    "punkte": 0,
+    "zuege": 0,
+    "durchgaenge": 0
+   },
+   "tipp": null,
+   "festgefahren": false
+  }
+ ]
+}

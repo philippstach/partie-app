@@ -1,0 +1,741 @@
+{
+ "beschreibung": "Ergebnisse einer Runde (Index = Spieler = Position in der Runde, 0 ist der Vorleger) -> Verlierer, Gewinner, Deckel und neuer Stand.",
+ "faelle": [
+  {
+   "name": "Stock: Zahl gegen Zahl = 1 Deckel",
+   "optionen": {},
+   "vorher": {
+    "stock": 13,
+    "deckel": [
+     0,
+     0
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      6,
+      5,
+      3
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    },
+    {
+     "wuerfel": [
+      4,
+      2,
+      2
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 1,
+    "gewinner": 0,
+    "deckel": 1,
+    "ausStock": true,
+    "schockAus": false,
+    "stock": 12,
+    "stand": [
+     0,
+     1
+    ],
+    "raus": [],
+    "haelfteVerlierer": null
+   }
+  },
+  {
+   "name": "Stock: Schock 4 als Bester = 4 Deckel",
+   "optionen": {},
+   "vorher": {
+    "stock": 13,
+    "deckel": [
+     0,
+     0,
+     0
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      4,
+      1,
+      1
+     ],
+     "ausEinemWurf": false,
+     "wuerfe": 2
+    },
+    {
+     "wuerfel": [
+      6,
+      5,
+      3
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 2
+    },
+    {
+     "wuerfel": [
+      5,
+      5,
+      2
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 2,
+    "gewinner": 0,
+    "deckel": 4,
+    "ausStock": true,
+    "schockAus": false,
+    "stock": 9,
+    "stand": [
+     0,
+     0,
+     4
+    ],
+    "raus": [],
+    "haelfteVerlierer": null
+   }
+  },
+  {
+   "name": "Stock: General = 3 Deckel",
+   "optionen": {},
+   "vorher": {
+    "stock": 13,
+    "deckel": [
+     0,
+     0
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      3,
+      3,
+      3
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    },
+    {
+     "wuerfel": [
+      6,
+      6,
+      5
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 1,
+    "gewinner": 0,
+    "deckel": 3,
+    "ausStock": true,
+    "schockAus": false,
+    "stock": 10,
+    "stand": [
+     0,
+     3
+    ],
+    "raus": [],
+    "haelfteVerlierer": null
+   }
+  },
+  {
+   "name": "Stock: Straße = 2 Deckel",
+   "optionen": {},
+   "vorher": {
+    "stock": 13,
+    "deckel": [
+     0,
+     0
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      5,
+      4,
+      3
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 3
+    },
+    {
+     "wuerfel": [
+      6,
+      6,
+      5
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 1,
+    "gewinner": 0,
+    "deckel": 2,
+    "ausStock": true,
+    "schockAus": false,
+    "stock": 11,
+    "stand": [
+     0,
+     2
+    ],
+    "raus": [],
+    "haelfteVerlierer": null
+   }
+  },
+  {
+   "name": "Stock reicht nicht: nur der Rest",
+   "optionen": {},
+   "vorher": {
+    "stock": 2,
+    "deckel": [
+     6,
+     5
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      6,
+      1,
+      1
+     ],
+     "ausEinemWurf": false,
+     "wuerfe": 1
+    },
+    {
+     "wuerfel": [
+      2,
+      2,
+      1
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 1,
+    "gewinner": 0,
+    "deckel": 2,
+    "ausStock": true,
+    "schockAus": false,
+    "stock": 0,
+    "stand": [
+     6,
+     7
+    ],
+    "raus": [],
+    "haelfteVerlierer": null
+   }
+  },
+  {
+   "name": "Stock wird leer: Spieler ohne Deckel scheidet aus",
+   "optionen": {},
+   "vorher": {
+    "stock": 3,
+    "deckel": [
+     0,
+     4,
+     6
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      6,
+      1,
+      1
+     ],
+     "ausEinemWurf": false,
+     "wuerfe": 1
+    },
+    {
+     "wuerfel": [
+      2,
+      2,
+      1
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    },
+    {
+     "wuerfel": [
+      5,
+      4,
+      4
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 1,
+    "gewinner": 0,
+    "deckel": 3,
+    "ausStock": true,
+    "schockAus": false,
+    "stock": 0,
+    "stand": [
+     0,
+     7,
+     6
+    ],
+    "raus": [
+     0
+    ],
+    "haelfteVerlierer": null
+   }
+  },
+  {
+   "name": "Verteilen: Gewinner gibt an Verlierer",
+   "optionen": {},
+   "vorher": {
+    "stock": 0,
+    "deckel": [
+     7,
+     6
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      5,
+      1,
+      1
+     ],
+     "ausEinemWurf": false,
+     "wuerfe": 2
+    },
+    {
+     "wuerfel": [
+      6,
+      4,
+      2
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 2
+    }
+   ],
+   "erwartet": {
+    "verlierer": 1,
+    "gewinner": 0,
+    "deckel": 5,
+    "ausStock": false,
+    "schockAus": false,
+    "stock": 0,
+    "stand": [
+     2,
+     11
+    ],
+    "raus": [],
+    "haelfteVerlierer": null
+   }
+  },
+  {
+   "name": "Verteilen: Gewinner gibt höchstens, was er hat, und ist raus",
+   "optionen": {},
+   "vorher": {
+    "stock": 0,
+    "deckel": [
+     2,
+     8,
+     3
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      6,
+      1,
+      1
+     ],
+     "ausEinemWurf": false,
+     "wuerfe": 2
+    },
+    {
+     "wuerfel": [
+      6,
+      4,
+      2
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 2
+    },
+    {
+     "wuerfel": [
+      6,
+      5,
+      2
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 1,
+    "gewinner": 0,
+    "deckel": 2,
+    "ausStock": false,
+    "schockAus": false,
+    "stock": 0,
+    "stand": [
+     0,
+     10,
+     3
+    ],
+    "raus": [
+     0
+    ],
+    "haelfteVerlierer": null
+   }
+  },
+  {
+   "name": "Verteilen: Gewinner gibt seinen letzten Deckel – Verlierer hat alle",
+   "optionen": {},
+   "vorher": {
+    "stock": 0,
+    "deckel": [
+     2,
+     11
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      6,
+      5,
+      4
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    },
+    {
+     "wuerfel": [
+      3,
+      2,
+      2
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 1,
+    "gewinner": 0,
+    "deckel": 2,
+    "ausStock": false,
+    "schockAus": false,
+    "stock": 0,
+    "stand": [
+     0,
+     13
+    ],
+    "raus": [
+     0
+    ],
+    "haelfteVerlierer": 1
+   }
+  },
+  {
+   "name": "Schock aus im Stock: Verlierer bekommt alle, Hälfte vorbei",
+   "optionen": {},
+   "vorher": {
+    "stock": 9,
+    "deckel": [
+     1,
+     3,
+     0
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      1,
+      1,
+      1
+     ],
+     "ausEinemWurf": false,
+     "wuerfe": 3
+    },
+    {
+     "wuerfel": [
+      6,
+      6,
+      6
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    },
+    {
+     "wuerfel": [
+      2,
+      2,
+      1
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 2,
+    "gewinner": 0,
+    "deckel": 13,
+    "ausStock": true,
+    "schockAus": true,
+    "stock": 0,
+    "stand": [
+     0,
+     0,
+     13
+    ],
+    "raus": [
+     0,
+     1
+    ],
+    "haelfteVerlierer": 2
+   }
+  },
+  {
+   "name": "Schock aus beim Verteilen",
+   "optionen": {},
+   "vorher": {
+    "stock": 0,
+    "deckel": [
+     5,
+     8
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      4,
+      3,
+      2
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    },
+    {
+     "wuerfel": [
+      1,
+      1,
+      1
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 0,
+    "gewinner": 1,
+    "deckel": 8,
+    "ausStock": false,
+    "schockAus": true,
+    "stock": 0,
+    "stand": [
+     13,
+     0
+    ],
+    "raus": [
+     1
+    ],
+    "haelfteVerlierer": 0
+   }
+  },
+  {
+   "name": "Gleichstand: der spätere verliert",
+   "optionen": {},
+   "vorher": {
+    "stock": 13,
+    "deckel": [
+     0,
+     0
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      6,
+      4,
+      2
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 2
+    },
+    {
+     "wuerfel": [
+      6,
+      4,
+      2
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 2
+    }
+   ],
+   "erwartet": {
+    "verlierer": 1,
+    "gewinner": 0,
+    "deckel": 1,
+    "ausStock": true,
+    "schockAus": false,
+    "stock": 12,
+    "stand": [
+     0,
+     1
+    ],
+    "raus": [],
+    "haelfteVerlierer": null
+   }
+  },
+  {
+   "name": "Gleichstand: weniger Würfe gewinnt",
+   "optionen": {},
+   "vorher": {
+    "stock": 13,
+    "deckel": [
+     0,
+     0
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      6,
+      4,
+      2
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 2
+    },
+    {
+     "wuerfel": [
+      6,
+      4,
+      2
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 0,
+    "gewinner": 1,
+    "deckel": 1,
+    "ausStock": true,
+    "schockAus": false,
+    "stock": 12,
+    "stand": [
+     1,
+     0
+    ],
+    "raus": [],
+    "haelfteVerlierer": null
+   }
+  },
+  {
+   "name": "Jule = 7 Deckel",
+   "optionen": {
+    "jule": true
+   },
+   "vorher": {
+    "stock": 13,
+    "deckel": [
+     0,
+     0
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      4,
+      2,
+      1
+     ],
+     "ausEinemWurf": false,
+     "wuerfe": 2
+    },
+    {
+     "wuerfel": [
+      6,
+      5,
+      5
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 1,
+    "gewinner": 0,
+    "deckel": 7,
+    "ausStock": true,
+    "schockAus": false,
+    "stock": 6,
+    "stand": [
+     0,
+     7
+    ],
+    "raus": [],
+    "haelfteVerlierer": null
+   }
+  },
+  {
+   "name": "15 Deckel im Stock",
+   "optionen": {
+    "deckel": 15
+   },
+   "vorher": {
+    "stock": 15,
+    "deckel": [
+     0,
+     0
+    ]
+   },
+   "ergebnisse": [
+    {
+     "wuerfel": [
+      1,
+      1,
+      1
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    },
+    {
+     "wuerfel": [
+      6,
+      5,
+      5
+     ],
+     "ausEinemWurf": true,
+     "wuerfe": 1
+    }
+   ],
+   "erwartet": {
+    "verlierer": 1,
+    "gewinner": 0,
+    "deckel": 15,
+    "ausStock": true,
+    "schockAus": true,
+    "stock": 0,
+    "stand": [
+     0,
+     15
+    ],
+    "raus": [
+     0
+    ],
+    "haelfteVerlierer": 1
+   }
+  }
+ ]
+}
