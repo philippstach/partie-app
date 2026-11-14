@@ -4,7 +4,7 @@ Stand der Prüfung: 08.11.2026. Alle Inhalte von Partie sind eigens für Partie 
 
 | Inhalt | Ort | Herkunft | Beleg |
 |---|---|---|---|
-| Töne (64 Dateien) | `App/Ressourcen/Sounds/` | Per Skript aus Sinus- und Rauschanteilen berechnet (Python, nur `math` und `wave`), keine Aufnahmen, keine Klangbibliotheken. Keine Fremd-Metadaten in den Dateien. | `Werkzeug/Toene/make_sounds_*.py` (aus den Vorgänger-Apps 10k, Galgenmännchen, Schocken, Solitär, Sudoku, Vier gewinnt → Viererreihe, Mensch ärgere dich → Rauswurf, Kreuzworträtsel → Wortpfeil). **Offen:** Yacht, Skript fehlt im Archiv. |
+| Töne (64 Dateien) | `App/Ressourcen/Sounds/` | Per Skript aus Sinus- und Rauschanteilen berechnet (Python, nur `math` und `wave`), keine Aufnahmen, keine Klangbibliotheken. Keine Fremd-Metadaten in den Dateien. | `Werkzeug/Toene/make_sounds_*.py` (aus den Vorgänger-Apps 10k, Galgenmännchen, Schocken, Solitär, Sudoku, Vier gewinnt → Viererreihe, Mensch ärgere dich → Rauswurf, Kreuzworträtsel → Wortpfeil). **Offen:** Yacht und Wortpfeil, Skript fehlt im Archiv. |
 | Galgenmännchen-Wörter (DE 637, EN 627) | `Pakete/SpielGalgenmaennchen/Shared/woerter/` | Eigene Liste, Entscheidung „Wortliste A (eigene)“ vom 04.10.2026. Freie Listen (Leipzig, SCOWL) wurden nicht verwendet. | Doku der Vorgänger-App |
 | Wortpfeil-Rätsel (Wörter und Fragen) | `Pakete/SpielWortpfeil/Shared/raetsel/` | Wörter und Fragen mit KI geschrieben und in einem zweiten Durchgang geprüft, Gitter per eigenem Generator. Wiktionary und OpenThesaurus nur als Prüfwerkzeug, nichts übernommen. Keine Fragen aus fremden Rätselheften. | Doku Kreuzworträtsel, Entscheidung „Mischung (c)“ |
 | Solitär-Partien und Lösungen | `Pakete/SpielSolitaer/Shared/partien/` | Per eigenem Löser berechnet | Code im Paket |
